@@ -30,8 +30,7 @@ Tutorials List
 
 Quick Starts
 ~~~~~~~~~~~~
-`Associate metadata with Data
-policy <./dev_associate_metadata_quickstart/index.html>`__
+`Associate metadata with Data <./dev_associate_metadata_quickstart/index.html>`__
 
 Tutorials
 ~~~~~~~~~
