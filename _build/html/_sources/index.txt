@@ -3,12 +3,6 @@
 CyVerse Learning Materials
 --------------------------
 
-
-.. toctree::
-	:maxdepth: 
-	
-
-
 **CyVerse Vision:** Transforming science through data-driven discovery.
 
 **CyVerse Mission:** Design, deploy, and expand a national
