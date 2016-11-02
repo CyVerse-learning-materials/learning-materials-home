@@ -2,7 +2,11 @@
 
 CyVerse Learning Materials
 --------------------------
-
+.. toctree::
+	:maxdepth: 1
+    	index
+    	dev_associate_metadata_quickstart/index.rst
+		
 **CyVerse Vision:** Transforming science through data-driven discovery.
 
 **CyVerse Mission:** Design, deploy, and expand a national
@@ -30,8 +34,7 @@ Tutorials List
 
 Quick Starts
 ~~~~~~~~~~~~
-`Associate metadata with Data
-policy <./dev_associate_metadata_quickstart/index.html>`__
+`Associate metadata with Data <./dev_associate_metadata_quickstart/index.html>`__
 
 Tutorials
 ~~~~~~~~~

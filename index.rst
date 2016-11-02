@@ -2,7 +2,11 @@
 
 CyVerse Learning Materials
 --------------------------
-
+.. toctree::
+	:maxdepth: 1
+    	index
+    	dev_associate_metadata_quickstart/index.rst
+		
 **CyVerse Vision:** Transforming science through data-driven discovery.
 
 **CyVerse Mission:** Design, deploy, and expand a national
