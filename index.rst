@@ -7,7 +7,7 @@ CyVerse Learning Materials
 .. toctree::
 	:maxdepth: 
 	
-	dev_associate_metadata_quickstart/index.rst
+	dev_associate_metadata_quickstart/index
 
 
 **CyVerse Vision:** Transforming science through data-driven discovery.
