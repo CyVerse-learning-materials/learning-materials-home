@@ -2,11 +2,7 @@
 
 CyVerse Learning Materials
 --------------------------
-.. toctree::
-	:maxdepth: 1
-    	index
-    	dev_associate_metadata_quickstart/index.rst
-		
+
 **CyVerse Vision:** Transforming science through data-driven discovery.
 
 **CyVerse Mission:** Design, deploy, and expand a national
@@ -34,7 +30,12 @@ Tutorials List
 
 Quick Starts
 ~~~~~~~~~~~~
-`Associate metadata with Data <./dev_associate_metadata_quickstart/index.html>`__
+
+..
+    New Repositories will should be directly linked to the subproject path. For
+    example: `/projects/base-tutorial-repo/`
+
+* `Associate metadata with Data </projects/dev-associate-metadata-quickstart/>`_
 
 Tutorials
 ~~~~~~~~~
@@ -49,6 +50,6 @@ Please cite CyVerse appropriately when you make use of our resources,
 `CyVerse citation
 policy <http://www.cyverse.org/acknowledge-cite-cyverse>`__
 
-.. |CyVerse logo| image:: ./img/cyverse_rgb.png 
-	:width: 500 
+.. |CyVerse logo| image:: ./img/cyverse_rgb.png
+	:width: 500
 	:height: 100
