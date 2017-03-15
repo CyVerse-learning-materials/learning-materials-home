@@ -35,7 +35,12 @@ Quick Starts
     New Repositories will should be directly linked to the subproject path. For
     example: `/projects/base-tutorial-repo/`
 
+**Accounts**
+* `Create a CyVerse account </projects/cyverse-account-creation-quickstart/>`_
+
+**Data Management**
 * `Associate metadata with Data </projects/dev-associate-metadata-quickstart/>`_
+
 
 Tutorials
 ~~~~~~~~~
