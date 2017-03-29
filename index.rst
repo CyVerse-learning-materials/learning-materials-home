@@ -37,11 +37,11 @@ Quick Starts
 
 **Accounts**
 
-* `Create a CyVerse account </projects/cyverse-account-creation-quickstart/>`_
+* `Create a CyVerse account </projects/cyverse-account-creation-quickstart-jason/>`_
 
 **Data Management**
 
-* `Associate metadata with Data </projects/dev-associate-metadata-quickstart/>`_
+* `Associate metadata with Data </projects/cyverse-dev-associate-metadata-quickstart-jason/>`_
 
 
 Tutorials
