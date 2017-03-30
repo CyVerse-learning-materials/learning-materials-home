@@ -42,6 +42,7 @@ Quick Starts
 **Data Management**
 
 * `Associate metadata with Data </projects/cyverse-dev-associate-metadata-quickstart-jason/>`_
+* `Import data from NCBI SRA using the Discovery Environment </projects/cyverse-importing-sradata-quickstart/>`_
 
 
 Tutorials
