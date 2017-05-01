@@ -1,0 +1,18 @@
+/* Table wrapping and sorting */
+.wy-table-responsive table td,
+.wy-table-responsive table th {
+    white-space: normal !important;
+}
+
+.wy-table-responsive table thead tr .header {
+    background-image: url(bg.gif);
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+}
+.wy-table-responsive table thead tr .headerSortUp {
+    background-image: url(asc.gif);
+}
+.wy-table-responsive table thead tr .headerSortDown {
+    background-image: url(desc.gif);
+}

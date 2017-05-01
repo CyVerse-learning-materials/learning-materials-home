@@ -3,6 +3,9 @@
 CyVerse Learning Materials
 --------------------------
 
+**IN DEVELOPMENT**
+
+
 **CyVerse Vision:** Transforming science through data-driven discovery.
 
 **CyVerse Mission:** Design, deploy, and expand a national
@@ -34,15 +37,23 @@ Quick Starts
 ..
     New Repositories will should be directly linked to the subproject path. For
     example: `/projects/base-tutorial-repo/`
+    
+    
+.. list-table::
+    :header-rows: 1
 
-**Accounts**
-
-* `Create a CyVerse account </projects/cyverse-account-creation-quickstart-jason/>`_
-
-**Data Management**
-
-* `Associate metadata with Data </projects/cyverse-dev-associate-metadata-quickstart-jason/>`_
-* `Import data from NCBI SRA using the Discovery Environment </projects/cyverse-importing-sradata-quickstart/>`_
+    * - Task (and link)
+      - Platform
+      - Notes
+    * - `Create a CyVerse account </projects/cyverse-account-creation-quickstart-jason/>`_
+      - User Portal
+      - 
+    * - `Import data from NCBI SRA using the Discovery Environment </projects/cyverse-importing-sradata-quickstart/>`_
+      -  Discovery Environment
+      - 
+    * - `Import data from NCBI SRA using the Discovery Environment </projects/cyverse-importing-sradata-quickstart/>`_
+      - Discovery Environment
+      - 
 
 
 Tutorials
