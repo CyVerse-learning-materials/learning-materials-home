@@ -55,7 +55,20 @@ Quick Starts
       - Discovery Environment
       - 
 
+.. list-table::
+    :header-rows: 1
 
+    * - App name
+      - Version
+      - Description
+      - App link
+      - Notes/other links
+    * - Muscle
+      - 3.8.31
+      - Multiple sequence aligner
+      -	`DE App link <https://de.iplantcollaborative.org/de/?type=apps&app-id=9b41c9e4-5031-4a49-b1cb-c471335df16e>`_
+      - - `Original Muscle documentation <http://www.drive5.com/muscle/manual/>`_
+      	- `DE Dockerfile <http://wwww.cyverse.org>`_
 
 Tutorials
 ~~~~~~~~~
