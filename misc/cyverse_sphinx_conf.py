@@ -9,9 +9,9 @@ extensions = [
     'sphinx.ext.autodoc',
 ]
 
-project = 'YOUR PROJECT NAME HERE as topic_quick_start or topic_tutorial'
-copyright = '2016, CyVerse'
-author = 'Jason Williams'
+project = 'CyVerse Learning Center Home'
+copyright = '2017, CyVerse'
+author = 'CyVerse'
 version = '1.0'
 release = '1.0'
 
@@ -19,7 +19,7 @@ language = None
 source_parsers = {
     '.md': CommonMarkParser,
 }
-source_suffix = ['.md', '.rst']
+source_suffix = ['.rst']
 
 common_static_path = os.path.join(os.path.dirname(__file__), 'static')
 
