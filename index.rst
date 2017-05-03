@@ -3,7 +3,8 @@
 CyVerse Learning Materials
 --------------------------
 
-**IN DEVELOPMENT**
+.. toctree::
+   :maxdepth: 2
 
 
 **CyVerse Vision:** Transforming science through data-driven discovery.
