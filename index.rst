@@ -68,7 +68,7 @@ Quick Starts
       - Multiple sequence aligner
       -	`DE App link <https://de.iplantcollaborative.org/de/?type=apps&app-id=9b41c9e4-5031-4a49-b1cb-c471335df16e>`_
       - `Original Muscle documentation <http://www.drive5.com/muscle/manual/>`_
-      - `DE Dockerfile <http://wwww.cyverse.org>`_
+      - - `DE Dockerfile <http://wwww.cyverse.org>`_
 
 Tutorials
 ~~~~~~~~~
