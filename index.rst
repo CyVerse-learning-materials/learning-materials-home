@@ -1,49 +1,31 @@
 |CyVerse logo|
 
-CyVerse Learning Materials
---------------------------
+Welcome to the CyVerse Learning Center
+--------------------------------------
 
-.. toctree::
-   :maxdepth: 2
+The CyVerse Learning center is a *beta* release of our learning materials in the popular
+"Read the Docs" formatting. We are transitioning our leaning materials into this format
+to make them easier to search, use, and update. We will be making regular contributions 
+to these materials and you also have the ability to suggest new materials or create and
+share your own. If you have ideas or suggestions please email `Tutorials@CyVerse.org <mailto:Tutorials@cyverse.org>`_.
+You can also view, edit, and submit contributions on `GitHub <https://github.com/CyVerse-learning-materials>`_
 
-
-**CyVerse Vision:** Transforming science through data-driven discovery.
-
-**CyVerse Mission:** Design, deploy, and expand a national
-cyberinfrastructure for life sciences research and train scientists in
-its use. CyVerse provides life scientists with powerful computational
-infrastructure to handle huge datasets and complex analyses, thus
-enabling data-driven discovery. Our powerful extensible platforms
-provide data storage, bioinformatics tools, image analyses, cloud
-services, APIs, and more.
-
-CyVerse is of, by, and for the community, and community-driven needs
-shape our mission. We rely on your feedback to provide the
-infrastructure you need most to advance your science, development, and
-educational agenda.
-
-While originally created with the name iPlant Collaborative to serve
-U.S. plant science communities, CyVerse cyberinfrastructure is germane
-to all life sciences disciplines and works equally well on data from
-plants, animals, or microbes. By democratizing access to supercomputing
-capabilities, we provide a crucial resource to enable scientists to find
-solutions for the future.
-
-Tutorials List
---------------
+-----
 
 Quick Starts
-~~~~~~~~~~~~
+------------
 
 ..
     New Repositories will should be directly linked to the subproject path. For
     example: `/projects/base-tutorial-repo/`
     
+These include short guides through our platforms and common tasks. 
+
     
 .. list-table::
     :header-rows: 1
 
-    * - Task (and link)
+    * - Quickstart
       - Platform
       - Notes
     * - `Create a CyVerse account </projects/cyverse-account-creation-quickstart-jason/>`_
@@ -56,23 +38,57 @@ Quick Starts
       - Discovery Environment
       - 
 
+-----
+
+Tutorials
+---------
+
+These are involved tutorials that cover popular science workflows.
+
 .. list-table::
     :header-rows: 1
 
-    * - App name
-      - Version
-      - Description
-      - App link
-      - Notes/other links
-    * - Muscle
-      - 3.8.31
-      - Multiple sequence aligner
-      -	`DE App link <https://de.iplantcollaborative.org/de/?type=apps&app-id=9b41c9e4-5031-4a49-b1cb-c471335df16e>`_
-      - `Original Muscle documentation <http://www.drive5.com/muscle/manual/>`_
-      - - `DE Dockerfile <http://wwww.cyverse.org>`_
+    * - Tutorial
+      - Platform(s)
+      - Notes
+    * - 
+      - 
+      - 
+    * - 
+      -  
+      - 
+    * - 
+      - 
+      - 
 
-Tutorials
-~~~~~~~~~
+-----
+
+
+About CyVerse
+-------------
+
+**CyVerse Vision:** Transforming science through data-driven discovery.
+
+**CyVerse Mission:** Design, deploy, and expand a national
+cyberinfrastructure for life sciences research and train scientists in
+its use. CyVerse provides life scientists with powerful computational
+infrastructure to handle huge datasets and complex analyses, thus
+enabling data-driven discovery. Our powerful extensible platforms
+provide data storage, bioinformatics tools, image analyses, cloud
+services, APIs, and more.
+
+
+While originally created with the name iPlant Collaborative to serve
+U.S. plant science communities, CyVerse cyberinfrastructure is germane
+to all life sciences disciplines and works equally well on data from
+plants, animals, or microbes. By democratizing access to supercomputing
+capabilities, we provide a crucial resource to enable scientists to find
+solutions for the future. CyVerse is of, by, and for the community, and community-driven needs
+shape our mission. We rely on your feedback to provide the
+infrastructure you need most to advance your science, development, and
+educational agenda.
+
+
 
 Funding and Citations
 ---------------------
