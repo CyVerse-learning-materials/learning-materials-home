@@ -28,7 +28,7 @@ These include short guides through our platforms and common tasks.
     * - Quickstart
       - Platform
       - Notes
-    * - `Create a CyVerse account </projects/cyverse-account-creation-quickstart-jason/>`_
+    * - `Create a CyVerse account </projects/cyverse-account-creation-quickstart/>`_
       - User Portal
       - 
     * - `Import data from NCBI SRA using the Discovery Environment </projects/cyverse-importing-sradata-quickstart/>`_
