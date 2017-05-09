@@ -1,7 +1,7 @@
 |CyVerse logo|
 
-Welcome to the CyVerse Learning Center
---------------------------------------
+Welcome to the CyVerse Learning Center (*beta*)
+-----------------------------------------------
 
 The CyVerse Learning center is a *beta* release of our learning materials in the popular
 "Read the Docs" formatting. We are transitioning our leaning materials into this format
@@ -9,6 +9,7 @@ to make them easier to search, use, and update. We will be making regular contri
 to these materials and you can suggest new materials or create and
 share your own. If you have ideas or suggestions please email `Tutorials@CyVerse.org <mailto:Tutorials@cyverse.org>`_.
 You can also view, edit, and submit contributions on `GitHub <https://github.com/CyVerse-learning-materials>`_
+
 
 -----
 
@@ -88,7 +89,7 @@ shape our mission. We rely on your feedback to provide the
 infrastructure you need most to advance your science, development, and
 educational agenda.
 
-
+**CyVerse Homepage:** `http://www.cyverse.org <http://www.cyverse.org>`_
 
 Funding and Citations
 ---------------------
