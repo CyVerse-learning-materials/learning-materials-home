@@ -6,7 +6,7 @@ Welcome to the CyVerse Learning Center
 The CyVerse Learning center is a *beta* release of our learning materials in the popular
 "Read the Docs" formatting. We are transitioning our leaning materials into this format
 to make them easier to search, use, and update. We will be making regular contributions 
-to these materials and you also have the ability to suggest new materials or create and
+to these materials and you can suggest new materials or create and
 share your own. If you have ideas or suggestions please email `Tutorials@CyVerse.org <mailto:Tutorials@cyverse.org>`_.
 You can also view, edit, and submit contributions on `GitHub <https://github.com/CyVerse-learning-materials>`_
 
