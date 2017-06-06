@@ -5,11 +5,38 @@ Welcome to the CyVerse Learning Center (*beta*)
 
 The CyVerse Learning center is a *beta* release of our learning materials in the popular
 "Read the Docs" formatting. We are transitioning our leaning materials into this format
-to make them easier to search, use, and update. We will be making regular contributions 
+to make them easier to search, use, and update. We will be making regular contributions
 to these materials and you can suggest new materials or create and
 share your own. If you have ideas or suggestions please email `Tutorials@CyVerse.org <mailto:Tutorials@cyverse.org>`_.
 You can also view, edit, and submit contributions on `GitHub <https://github.com/CyVerse-learning-materials>`_
 
+-----
+
+Platform Guides
+---------------
+
+CyVerse offers an interconnected series of platforms, tools and services. These
+guides will help you navigate the top-level user platforms.
+|platform_stack|
+
+.. list-table::
+    :header-rows: 1
+
+    * - Platform/Service
+      - Notes
+      - Guide
+    * - Discovery Enviornment
+      -
+      -
+    * - Atmosphere
+      -
+      -
+    * - Data Store
+      -
+      -
+    * - DNA Subway
+      -
+      -
 
 -----
 
@@ -19,10 +46,10 @@ Quick Starts
 ..
     New Repositories will should be directly linked to the subproject path. For
     example: `/projects/base-tutorial-repo/`
-    
-These include short guides through our platforms and common tasks. 
 
-    
+These include short guides through our platforms and common tasks.
+
+
 .. list-table::
     :header-rows: 1
 
@@ -31,13 +58,13 @@ These include short guides through our platforms and common tasks.
       - Notes
     * - `Create a CyVerse account </projects/cyverse-account-creation-quickstart/>`_
       - User Portal
-      - 
+      -
     * - `Import data from NCBI SRA using the Discovery Environment </projects/cyverse-importing-sradata-quickstart/>`_
       -  Discovery Environment
-      - 
+      -
     * - `Import data from NCBI SRA using the Discovery Environment </projects/cyverse-importing-sradata-quickstart/>`_
       - Discovery Environment
-      - 
+      -
 
 -----
 
@@ -52,15 +79,15 @@ These are involved tutorials that cover popular science workflows.
     * - Tutorial
       - Platform(s)
       - Notes
-    * - 
-      - 
-      - 
-    * - 
-      -  
-      - 
-    * - 
-      - 
-      - 
+    * -
+      -
+      -
+    * -
+      -
+      -
+    * -
+      -
+      -
 
 -----
 
@@ -104,3 +131,7 @@ policy <http://www.cyverse.org/acknowledge-cite-cyverse>`__
 .. |CyVerse logo| image:: ./img/cyverse_rgb.png
 	:width: 500
 	:height: 100
+
+.. |platform_stack| image:: ./img/cyverse_platform_stack.png
+  :width: 300
+  :height: 300

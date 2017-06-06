@@ -112,3 +112,7 @@ We ask the documentation be transferred to the CyVerse Learning Materials organi
 4. Extraneous files (e.g. the template README.md, and _build folders, md templates, or unused .rst templates) should be removed. 
 
 **C. Adding Repo to ReadTheDocs**
+
+1. Login to readthedocs.com (make sure you are also logged into Github and have access to the CyVerse Learning Materials account)
+2. On the dashboard, click on 'Import a Project'
+3. Select the repo you wish to import
