@@ -16,7 +16,8 @@ Platform Guides
 ---------------
 
 CyVerse offers an interconnected series of platforms, tools and services. These
-guides will help you navigate the top-level user platforms.
+guides will help you navigate the top-level user platforms. If you are new to CyVerse
+you may wish to **Start Here First**.
 
 |platform_stack|
 
