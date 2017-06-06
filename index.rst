@@ -17,6 +17,7 @@ Platform Guides
 
 CyVerse offers an interconnected series of platforms, tools and services. These
 guides will help you navigate the top-level user platforms.
+
 |platform_stack|
 
 .. list-table::
@@ -133,5 +134,5 @@ policy <http://www.cyverse.org/acknowledge-cite-cyverse>`__
 	:height: 100
 
 .. |platform_stack| image:: ./img/cyverse_platform_stack.png
-  :width: 300
-  :height: 300
+  :width: 450
+  :height: 400
