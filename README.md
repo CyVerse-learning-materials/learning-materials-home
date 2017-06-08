@@ -10,6 +10,17 @@ The goal of the CyVerse Learning Center is to provide basic learning materials t
 
 Each CyVerse Tutorial or Quickstart has its own [ReadtheDocs](https://readthedocs.org/) page which in turn is built from its own repo (See the template repos at [https://github.com/CyVerse-learning-materials](https://github.com/CyVerse-learning-materials)). Starting from a [ResStructured text file](http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html) (index.rst) The documentation is built using [Sphinx](http://www.sphinx-doc.org/en/1.4.8/), and hosted on a repo configured with GitHub [Webhooks/Services](http://docs.readthedocs.io/en/latest/webhooks.html). Finally, the site is added to ReadtheDocs. Directions for completing this workflow are below **(See Building a Tutorial from Scratch)**.
 
+## Maintained templates
+
+We maintain the following templates. All documentation in the Learning Center should be derived from these. They can be adapted slightly, but should documentation should strive to be consistently formatted. 
+
+- **Tutorials**: Tutorials teach. Users should be able to follow an example dataset through the steps of a tutorial and gain understanding about what is happening along those steps. These are in-depth guides that usually address a scientific question by covering the major steps of a scientific workflow. A tutorial is ‘successful’ when a user is able to follow the tutorial a second time with their own data and obtain reasonable results.
+    - URL: https://github.com/CyVerse-learning-materials/cyverse_tutorial_template
+- **Platform Guide**: A Platform Guide is a slightly modified form of tutorial that covers an entire platform or service
+    - URL: https://github.com/CyVerse-learning-materials/cyverse_guide_template
+- **Quick Starts**: These materials are short tutorials that cover the minimal amount of information needed to complete an operational task (e.g. uploading data, reformatting a file, etc. ); there is no significant explanation of the science or interpretation of results. QSs highlight available resources, answer common questions (derived from user forum), and refer users to the most appropriate materials.
+    - URL: https://github.com/CyVerse-learning-materials/cyverse_quickstart_template
+
 ## Guide to Authorship
 
 In this guide we will cover all of the steps needed to complete a CyVerse Tutorial or Quick Start. Some parts of this process can only be completed by CyVerse staff with access to our ReadtheDocs account. The entire guide is public and open to revision and comment. 
@@ -109,10 +120,51 @@ We ask the documentation be transferred to the CyVerse Learning Materials organi
 1. Follow the instructions for transferring ownership of a GitHub repo here: https://help.github.com/articles/transferring-a-repository-owned-by-your-personal-account/ 
 2. Once the repo has been transferred, the author should be made a collaborator on the transferred repo. The author (assuming they are not on the CyVerse LC admin team) should retain push access so that they can update their materials - Thanks for your contribution!
 3. The Contributors_maintainers.md file in the repo should be updated.
-4. Extraneous files (e.g. the template README.md, and _build folders, md templates, or unused .rst templates) should be removed. 
+4. Extraneous files (e.g. the template README.md, and _build folders, or unused .rst templates) should be removed. 
 
 **C. Adding Repo to ReadTheDocs**
 
 1. Login to readthedocs.com (make sure you are also logged into Github and have access to the CyVerse Learning Materials account)
 2. On the dashboard, click on 'Import a Project'
-3. Select the repo you wish to import
+3. Select the repo you wish to import and click the icon to import. 
+    - You can accept all defaults on the project Details page
+4. Click on the 'Build' button to see the status of the build (will take a min or so the first time). 
+5. Once the build passes, click on 'View Docs' to verify that the documentation is rendered as you expected. 
+    - **Tip:** When the documentation is added, RTD also placed web hooks on the GitHub repo. When you make future commits in GitHub, the documentation will automatically update here (within a min or so). 
+
+**D. Verify documentation formatting**
+
+There are several things that need to be checked to ensure the documentation is consistent, and that placeholders are defaults have be properly edited. Here is a checklist:
+
+1. Ensure documentation is appropriately name (Left-hand column should NOT be 'YOUR PROJECT NAME HERE...'
+    - Fix: Edit project name in repos' conf.py file
+2. CyVerse logo should hyperlink to Learning Center Home
+3. The top and bottom of each page should have a 'home' icon and link to Learning Center Home
+4. At bottom of page, link to 'Fix or improve documentation on Github' should be correctly linked. 
+5. If your documentation has a table of contents, verify section headings. 
+
+
+**E. Adding documentation to Learning Center project as a sub project**
+
+You will need to add imported documentation as a subproject to the learning-materials-home project and to the site code itself. Adding as a subproject makes that content searchable. 
+
+1. Ensure your project is visible and passes build on https://readthedocs.com/dashboard/
+2. Click on the project you wish to add to the homepage
+3. Copy the url starting from /projects/_your_documentation_name/
+4. Go back to the dashboard - https://readthedocs.com/dashboard/ and click on the learning-materials-home project
+5. At the learning-materials-home (https://readthedocs.com/projects/cyverse-learning-materials-home/)
+6. Click on the 'Admin' menu and then click on 'Subprojects'
+7. In the 'Subproject' field, paste the path from step 3 (e.g. /projects/_your_documentation_name/); you can enter an alias that is the the '_your_documentation_name' string of your path. Click Submit. 
+8. Your added subproject should now appear on the 'Sub Projects' menu on the right-hand side of the https://readthedocs.com/projects/cyverse-learning-materials-home/ page. 
+
+
+**F. Add link to Learning Center Home**
+
+You now need to edit the Learning Center homepage
+
+1. Ensure you have a local copy (cloned from GitHub) of https://github.com/CyVerse-learning-materials/learning-materials-home
+2. Edit the index.rst page to include a link to your project
+    - Once you have made it a subproject, the link can be added as a relative path (e.g. /projects/_your_documentation_name/)
+3. Commit and push your changes to GitHub. 
+4. Verify that your link appears on http://learning.cyverse.org/en/latest/ and works properly. 
+
