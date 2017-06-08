@@ -27,17 +27,26 @@ you may wish to **Start Here First**.
     * - Platform/Service
       - Notes
       - Guide
-    * - Discovery Enviornment
-      -
-      -
+    * - Discovery Environment
+      - Use hundreds of bioinformatics apps and manage data in the CyVerse Data Store from a simple web interface
+      - `Discovery Environment Guide <http://learning.cyverse.org/projects/cyverse-discovery-environment-guide/>`_
     * - Atmosphere
-      -
+      - Cloud computing platform for CyVerse
       -
     * - Data Store
-      -
+      - A unified system for managing and sharing your data across CyVerse's tools and services
       -
     * - DNA Subway
+      - Educator-focused access to data and informatics tools for modern biology
       -
+    * - BisQue
+      - Bio-Image Semantic Query User Environment for the exchange and exploration of image data
+      -
+    * - SciApps
+      - A web-based platform for reproducible bioinformatics workflows
+      -
+    * - Science APIs
+      - CyVerse provides programmatic access to its services through multiple APIs (application programming interfaces), access points with various levels of complexity
       -
 
 -----
