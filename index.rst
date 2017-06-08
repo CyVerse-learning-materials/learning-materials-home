@@ -58,7 +58,7 @@ Quick Starts
     New Repositories will should be directly linked to the subproject path. For
     example: `/projects/base-tutorial-repo/`
 
-These include short guides through our platforms and common tasks.
+These include short guides through common tasks.
 
 
 .. list-table::
