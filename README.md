@@ -143,6 +143,14 @@ There are several things that need to be checked to ensure the documentation is 
 4. At bottom of page, link to 'Fix or improve documentation on Github' should be correctly linked. 
 5. If your documentation has a table of contents, verify section headings. 
 
+    >**Tip:** The best way to preview the documentation it to use the `make` command to preview how it should build on ReadTheDocs. This can save you several commits and rebuilds. At the terminal:
+            
+             
+   >     $ make html
+   > A `_build` directory will be created, and an `_/build/html/index.html` file will be created which you can view in a web browser. Delete the `_build` file before committing back to GitHub. 
+   > Also **Indentation and spacing** matter a lot in ReStructured Text. If you have a formatting problem, start there. 
+        
+
 
 **E. Adding documentation to Learning Center project as a sub project**
 

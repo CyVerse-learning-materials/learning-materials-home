@@ -152,5 +152,5 @@ policy <http://www.cyverse.org/acknowledge-cite-cyverse>`__
 	:height: 100
 
 .. |platform_stack| image:: ./img/cyverse_platform_stack.png
-  :width: 450
-  :height: 400
+  :width: 550
+  :height: 500
