@@ -34,8 +34,8 @@ you may wish to **Start Here First**.
       - `DE Manual (CyVerse Wiki) <https://wiki.cyverse.org/wiki/display/DEmanual/Table+of+Contents>`_
     * - Atmosphere
       - Cloud computing platform for CyVerse
-      -
-      -
+      - `Atmosphere Guide <https://cyverse-atmosphere-guide.readthedocs-hosted.com/en/latest/>`_
+      - `Atmosphere Manual (CyVerse Wiki) <https://wiki.cyverse.org/wiki/display/atmman/Atmosphere+Manual+Table+of+Contents>`_
     * - Data Store
       - A unified system for managing and sharing your data across CyVerse's tools and services
       -
@@ -152,5 +152,5 @@ policy <http://www.cyverse.org/acknowledge-cite-cyverse>`__
 	:height: 100
 
 .. |platform_stack| image:: ./img/cyverse_platform_stack.png
-  :width: 550
-  :height: 500
+  :width: 750
+  :height: 700
