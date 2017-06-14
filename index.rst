@@ -38,8 +38,8 @@ you may wish to **Start Here First**.
       - `Atmosphere Manual (CyVerse Wiki) <https://wiki.cyverse.org/wiki/display/atmman/Atmosphere+Manual+Table+of+Contents>`_
     * - Data Store
       - A unified system for managing and sharing your data across CyVerse's tools and services
-      -
-      -
+      - `Data Store Guide <https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/>`_
+      - `Data Store Manual <https://wiki.cyverse.org/wiki/display/DS/Using+the+Data+Store>`_
     * - DNA Subway
       - Educator-focused access to data and informatics tools for modern biology
       -
@@ -77,13 +77,14 @@ These include short guides through common tasks.
       - Notes
     * - `Create a CyVerse account </projects/cyverse-account-creation-quickstart/>`_
       - User Portal
-      -
+      - Start hear to create your own account
     * - `Import data from NCBI SRA using the Discovery Environment </projects/cyverse-importing-sradata-quickstart/>`_
       -  Discovery Environment
-      -
-    * - `Import data from NCBI SRA using the Discovery Environment </projects/cyverse-importing-sradata-quickstart/>`_
-      - Discovery Environment
-      -
+      - The NCBI Sequence Read Archive (SRA) is a repository for high-throughput
+        sequencing reads. These are valuable data for novel analysis and resue.
+        You can directly import data from SRA into your Data Store using a
+        Discovery Environment app.
+
 
 -----
 
