@@ -130,6 +130,11 @@ We ask the documentation be transferred to the CyVerse Learning Materials organi
     - You can accept all defaults on the project Details page
 4. Click on the 'Build' button to see the status of the build (will take a min or so the first time). 
 5. Once the build passes, click on 'View Docs' to verify that the documentation is rendered as you expected. 
+6. Back on the organizational page (https://readthedocs.com/organizations/cyverse/), click on the project you added to adjust project settings. 
+7. Click on Admin to access the administrative settings. 
+8. On the side menu, under 'Advanced Settings', uncheck 'Enable PDF build' and 'Enable EPUB build'
+9. Ensure 'Privacy Level' is set to 'Public'. 
+10. On the side menu, under 'Versions', ensure 'latest' is checked and set to 'Public'. 
     - **Tip:** When the documentation is added, RTD also placed web hooks on the GitHub repo. When you make future commits in GitHub, the documentation will automatically update here (within a min or so). 
 
 **D. Verify documentation formatting**
