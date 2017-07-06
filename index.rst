@@ -84,6 +84,10 @@ These include short guides through common tasks.
         sequencing reads. These are valuable data for novel analysis and resue.
         You can directly import data from SRA into your Data Store using a
         Discovery Environment app.
+    * - `Evaluate High-throughput Sequencing Reads with FastQC <https://cyverse-fastqc-quickstart.readthedocs-hosted.com/en/latest/>`_
+      - Discovery Environment
+      - FastQC is a popular tool for evaluating the quality of high-throughput sequencing
+        reads such as from Illumina and PacBio.
 
 
 -----
