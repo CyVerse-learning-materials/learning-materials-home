@@ -109,9 +109,12 @@ These are involved tutorials that cover popular science workflows.
     * - Tutorial
       - Platform(s)
       - Notes
-    * -
-      -
-      -
+    * - `RNA-Seq with Kallisto and Sleuth <https://cyverse-kallisto-tutorial.readthedocs-hosted.com/en/latest/>`_
+      - Discovery Environment, Atmosphere
+      - Kallisto is a quick, highly-efficient software
+        for quantifying transcript abundances in an RNA-Seq
+        experiment. Sleuth is designed to analyze and visualize the Kallisto
+        results in R.
     * -
       -
       -
