@@ -42,8 +42,8 @@ you may wish to **Start Here First**.
       - `Data Store Manual <https://wiki.cyverse.org/wiki/display/DS/Using+the+Data+Store>`_
     * - DNA Subway
       - Educator-focused access to data and informatics tools for modern biology
-      -
-      -
+      - `DNA Subway Manual <https://dnasubway.cyverse.org/files/pdf/DNA_Subway_Guide.pdf>`_
+      - `DNA Subway Guide <https://cyverse-dnasubway-guide.readthedocs-hosted.com/en/latest/>`_
     * - BisQue
       - Bio-Image Semantic Query User Environment for the exchange and exploration of image data
       -
@@ -88,6 +88,12 @@ These include short guides through common tasks.
       - Discovery Environment
       - FastQC is a popular tool for evaluating the quality of high-throughput sequencing
         reads such as from Illumina and PacBio.
+    * - `Filter, Trim, and Process High-throughput Sequenicng Reads with Trimmomatic <https://cyverse-trimmomatic-quickstart.readthedocs-hosted.com/en/latest/>`_
+      - Discovery Environment
+      - Trimmomatic is a popular application for filtering and trimming high-
+        throughput sequencing reads. Several functions can remove populations of
+        low quality reads, remove sequenicng adaptors, and trim low-quality
+        regions of individual reads.
 
 
 -----
