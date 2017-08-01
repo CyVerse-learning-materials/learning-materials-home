@@ -79,6 +79,11 @@ Once a user has decided which template to begin from, they should import that te
 9. Notify [Tutorials@CyVerse.org](mailto:Tutorials@CyVerse.org) that your tutorial is ready for inclusion in the main CyVerse documentation repo. We will review and verify the contribution, and add you as a maintainer repo in the CyVerse collection. You should make future edits following the instructions above for 'Fixing and/or improving documentation via GitHub.' Alternatively, you can host your tutorial independently on ReadTheDocs following their [instructions for importing documentation](https://docs.readthedocs.io/en/latest/getting_started.html#import-your-docs). We will also follow up about ensuring test data associated with the documentation are available and open.
 
 
+#### Note: Adding example data to the CyVerse Data Commons
+
+Wherever possible, example data should be made available in a public location on the CyVerse Data Commons. Example data should be placed in the [cyverse_training](http://datacommons.cyverse.org/browse/iplant/home/shared/cyverse_training) folder, in the appropriate directory. Every inputs and outputs for every step should be in numbered folders (e.g. 00_input ... 01_output). 
+
+
 ### Step Two: Adding Content to the CyVerse Learning Center
 
 Once a content piece is ready the Learning Center Admin will take the following steps to make the content available through the learning center:
