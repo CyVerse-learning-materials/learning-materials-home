@@ -95,8 +95,8 @@ These include short guides through common tasks.
         low quality reads, remove sequenicng adaptors, and trim low-quality
         regions of individual reads.
     * - `EZ installatiation of popular data scientist tools <https://cyverse-ez-quickstart.readthedocs-hosted.com/en/latest/>`_
-      - Atmosphere
-      - Install anaconda (Python 2 or 3, R, Jupyter notebooks), Singularity, or Docker easily on any Atmosphere cloud computer.
+      - `Atmosphere <atmo.cyverse.org>`_ and `Jetstream <https://use.jetstream-cloud.org/application>`_
+      - Install anaconda (Python 2 or 3, R, Jupyter notebooks), Rstudio, Singularity, or Docker easily on any Atmosphere or Jetstream cloud computer (instance).
 
 -----
 
