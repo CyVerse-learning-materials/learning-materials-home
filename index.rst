@@ -94,7 +94,9 @@ These include short guides through common tasks.
         throughput sequencing reads. Several functions can remove populations of
         low quality reads, remove sequenicng adaptors, and trim low-quality
         regions of individual reads.
-
+    * - _`EZ installatiation of popular data scientist tools <https://cyverse-ez-quickstart.readthedocs-hosted.com/en/latest/>`_
+      - Atmosphere
+      - Install anaconda (Python 2 or 3, R, Jupyter notebooks), Singularity, or Docker easily on any Atmosphere cloud computer.
 
 -----
 
