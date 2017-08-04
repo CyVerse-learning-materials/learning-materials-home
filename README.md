@@ -31,7 +31,7 @@ The process from content creation to publication is as follows:
 
 1. An author chooses a GitHub-based template (tutorial or quickstart) and edits that template to include the new content. 
 2. The author requests for that content to become part of the CyVerse Learning Center. 
-3. Upon review, the CyVerse Learning Center admins(LCA) review the content. The LCA will make any needed changes, or ask for revisions to submitted content including:
+3. Upon review, the CyVerse Learning Center admins (LCA) review the content. The LCA will make any needed changes, or ask for revisions to submitted content including:
     - Ensuring proper formatting/style (Restructured Text)
     - Ensuring (where applicable) test data is available and public
     - Ensuring tutorial/quickstart steps execute as written
@@ -40,7 +40,7 @@ The process from content creation to publication is as follows:
 
 ### Step One: Starting a new documentation piece from a template
 
-All tutorials and quoickstarts should start from one of our template repos:
+All tutorials and quickstarts should start from one of our template repos:
 
 - **Tutorials:** https://github.com/CyVerse-learning-materials/cyverse_tutorial_template
 
