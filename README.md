@@ -127,7 +127,7 @@ We ask the documentation be transferred to the CyVerse Learning Materials organi
 3. The Contributors_maintainers.md file in the repo should be updated.
 4. Extraneous files (e.g. the template README.md, and _build folders, or unused .rst templates) should be removed. 
 
-**C. Adding Repo to ReadTheDocs**
+**C. Add Repo to ReadTheDocs**
 
 1. Login to readthedocs.com (make sure you are also logged into Github and have access to the CyVerse Learning Materials account)
 2. On the dashboard, click on 'Import a Project'
@@ -162,7 +162,7 @@ There are several things that need to be checked to ensure the documentation is 
         
 
 
-**E. Adding documentation to Learning Center project as a sub project**
+**E. Add documentation to Learning Center project as a sub project**
 
 You will need to add imported documentation as a subproject to the learning-materials-home project and to the site code itself. Adding as a subproject makes that content searchable. 
 
