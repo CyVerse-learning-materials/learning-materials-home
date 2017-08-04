@@ -12,7 +12,7 @@ Each CyVerse Tutorial or Quickstart has its own [ReadtheDocs](https://readthedoc
 
 ## Maintained templates
 
-We maintain the following templates. All documentation in the Learning Center should be derived from these. They can be adapted slightly, but should documentation should strive to be consistently formatted. 
+We maintain the following templates. All documentation in the Learning Center should be derived from these. They can be adapted slightly, but documentation should strive to be consistently formatted. 
 
 - **Tutorials**: Tutorials teach. Users should be able to follow an example dataset through the steps of a tutorial and gain understanding about what is happening along those steps. These are in-depth guides that usually address a scientific question by covering the major steps of a scientific workflow. A tutorial is ‘successful’ when a user is able to follow the tutorial a second time with their own data and obtain reasonable results.
     - URL: https://github.com/CyVerse-learning-materials/cyverse_tutorial_template
