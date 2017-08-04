@@ -90,7 +90,7 @@ Once a content piece is ready the Learning Center Admin will take the following 
 
 **A. Ensure Content Formatting and Style**
 
-We want to ensure that all pages within the Learning Center conforms to the following guidelines. As you encounter a new situation, please suggest additions to these guidelines. Some guidelines are general, some platform have some specific requirements. 
+We want to ensure that all pages within the Learning Center conforms to the following guidelines. As you encounter a new situation, please suggest additions to these guidelines. Some guidelines are general, some platforms may have specific requirements. 
 
 **Markup Language**
 
@@ -144,9 +144,9 @@ We ask the documentation be transferred to the CyVerse Learning Materials organi
 
 **D. Verify documentation formatting**
 
-There are several things that need to be checked to ensure the documentation is consistent, and that placeholders are defaults have be properly edited. Here is a checklist:
+There are several things that need to be checked to ensure the documentation is consistent, and that placeholders are defaults have been properly edited. Here is a checklist:
 
-1. Ensure documentation is appropriately name (Left-hand column should NOT be 'YOUR PROJECT NAME HERE...'
+1. Ensure documentation is appropriately named (Left-hand column should NOT be 'YOUR PROJECT NAME HERE...'
     - Fix: Edit project name in repos' conf.py file
 2. CyVerse logo should hyperlink to Learning Center Home
 3. The top and bottom of each page should have a 'home' icon and link to Learning Center Home
