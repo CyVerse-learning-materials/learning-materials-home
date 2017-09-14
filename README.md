@@ -12,7 +12,7 @@ Each CyVerse Tutorial or Quickstart has its own [ReadtheDocs](https://readthedoc
 
 ## Maintained templates
 
-We maintain the following templates. All documentation in the Learning Center should be derived from these. They can be adapted slightly, but should documentation should strive to be consistently formatted. 
+We maintain the following templates. All documentation in the Learning Center should be derived from these. They can be adapted slightly, but documentation should strive to be consistently formatted. 
 
 - **Tutorials**: Tutorials teach. Users should be able to follow an example dataset through the steps of a tutorial and gain understanding about what is happening along those steps. These are in-depth guides that usually address a scientific question by covering the major steps of a scientific workflow. A tutorial is ‘successful’ when a user is able to follow the tutorial a second time with their own data and obtain reasonable results.
     - URL: https://github.com/CyVerse-learning-materials/cyverse_tutorial_template
@@ -31,7 +31,7 @@ The process from content creation to publication is as follows:
 
 1. An author chooses a GitHub-based template (tutorial or quickstart) and edits that template to include the new content. 
 2. The author requests for that content to become part of the CyVerse Learning Center. 
-3. Upon review, the CyVerse Learning Center admins(LCA) review the content. The LCA will make any needed changes, or ask for revisions to submitted content including:
+3. Upon review, the CyVerse Learning Center admins (LCA) review the content. The LCA will make any needed changes, or ask for revisions to submitted content including:
     - Ensuring proper formatting/style (Restructured Text)
     - Ensuring (where applicable) test data is available and public
     - Ensuring tutorial/quickstart steps execute as written
@@ -40,7 +40,7 @@ The process from content creation to publication is as follows:
 
 ### Step One: Starting a new documentation piece from a template
 
-All tutorials and quoickstarts should start from one of our template repos:
+All tutorials and quickstarts should start from one of our template repos:
 
 - **Tutorials:** https://github.com/CyVerse-learning-materials/cyverse_tutorial_template
 
@@ -90,7 +90,7 @@ Once a content piece is ready the Learning Center Admin will take the following 
 
 **A. Ensure Content Formatting and Style**
 
-We want to ensure that all pages within the Learning Center conforms to the following guidelines. As you encounter a new situation, please suggest additions to these guidelines. Some guidelines are general, some platform have some specific requirements. 
+We want to ensure that all pages within the Learning Center conforms to the following guidelines. As you encounter a new situation, please suggest additions to these guidelines. Some guidelines are general, some platforms may have specific requirements. 
 
 **Markup Language**
 
@@ -127,7 +127,7 @@ We ask the documentation be transferred to the CyVerse Learning Materials organi
 3. The Contributors_maintainers.md file in the repo should be updated.
 4. Extraneous files (e.g. the template README.md, and _build folders, or unused .rst templates) should be removed. 
 
-**C. Adding Repo to ReadTheDocs**
+**C. Add Repo to ReadTheDocs**
 
 1. Login to readthedocs.com (make sure you are also logged into Github and have access to the CyVerse Learning Materials account)
 2. On the dashboard, click on 'Import a Project'
@@ -144,9 +144,9 @@ We ask the documentation be transferred to the CyVerse Learning Materials organi
 
 **D. Verify documentation formatting**
 
-There are several things that need to be checked to ensure the documentation is consistent, and that placeholders are defaults have be properly edited. Here is a checklist:
+There are several things that need to be checked to ensure the documentation is consistent, and that placeholders are defaults have been properly edited. Here is a checklist:
 
-1. Ensure documentation is appropriately name (Left-hand column should NOT be 'YOUR PROJECT NAME HERE...'
+1. Ensure documentation is appropriately named (Left-hand column should NOT be 'YOUR PROJECT NAME HERE...'
     - Fix: Edit project name in repos' conf.py file
 2. CyVerse logo should hyperlink to Learning Center Home
 3. The top and bottom of each page should have a 'home' icon and link to Learning Center Home
@@ -162,7 +162,7 @@ There are several things that need to be checked to ensure the documentation is 
         
 
 
-**E. Adding documentation to Learning Center project as a sub project**
+**E. Add documentation to Learning Center project as a sub project**
 
 You will need to add imported documentation as a subproject to the learning-materials-home project and to the site code itself. Adding as a subproject makes that content searchable. 
 

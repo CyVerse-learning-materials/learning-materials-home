@@ -94,11 +94,15 @@ These include short guides through common tasks.
         throughput sequencing reads. Several functions can remove populations of
         low quality reads, remove sequenicng adaptors, and trim low-quality
         regions of individual reads.
-    * - `Submit High-throughput Sequencing Reads to NCBI Sequence Read Archive (SRA) <https://cyverse-sra-submission-quickstart.readthedocs-hosted.com/en/latest/index.html>`_
+    * - `EZ installatiation of popular data scientist tools <https://cyverse-ez-quickstart.readthedocs-hosted.com/en/latest/>`_
+      - `Atmosphere <atmo.cyverse.org>`_ and `Jetstream <https://use.jetstream-cloud.org/application>`_
+      - Install anaconda (Python 2 or 3, R, Jupyter notebooks), Rstudio, Singularity, or Docker easily on any Atmosphere or Jetstream cloud computer (instance).
+    * - `Submit High-throughput Sequencing Reads to NCBI Sequence Read Archive (SRA) <>`_
       - Discovery Environment
-      - The SRA is a cannonical repository for sequencing data. The CyVerse submission
-        pipeline allows you to directly submit data from the CyVerse Data Store to
-        SRA. 
+      - The SRA is a cannonical repository for sequencing data generate by high-throughput
+        instruments. The CyVerse submission pipeline allows you to directly submit
+        your data into an SRA-linked BioProject
+
 
 -----
 
