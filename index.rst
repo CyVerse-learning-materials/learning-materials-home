@@ -94,7 +94,11 @@ These include short guides through common tasks.
         throughput sequencing reads. Several functions can remove populations of
         low quality reads, remove sequenicng adaptors, and trim low-quality
         regions of individual reads.
-
+    * - `Submit High-throughput Sequencing Reads to NCBI Sequence Read Archive (SRA) <https://cyverse-sra-submission-quickstart.readthedocs-hosted.com/en/latest/index.html>`_
+      - Discovery Environment
+      - The SRA is a cannonical repository for sequencing data. The CyVerse submission
+        pipeline allows you to directly submit data from the CyVerse Data Store to
+        SRA. 
 
 -----
 
