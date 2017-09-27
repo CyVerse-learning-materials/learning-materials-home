@@ -55,7 +55,7 @@ you may wish to **Start Here First**.
     * - Science APIs
       - CyVerse provides programmatic access to its services through multiple APIs (application programming interfaces), access points with various levels of complexity
       -
-      -
+      - `Agave API Documentation <http://developer.agaveapi.co/>`_
 
 -----
 
