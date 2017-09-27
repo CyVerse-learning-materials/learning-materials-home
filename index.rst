@@ -50,7 +50,7 @@ you may wish to **Start Here First**.
       -
     * - SciApps
       - A web-based platform for reproducible bioinformatics workflows
-      -
+      - `SciApps Guide <https://cyverse-sciapps-guide.readthedocs-hosted.com/en/latest/index.html>`_
       -
     * - Science APIs
       - CyVerse provides programmatic access to its services through multiple APIs (application programming interfaces), access points with various levels of complexity
