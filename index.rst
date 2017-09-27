@@ -77,7 +77,7 @@ These include short guides through common tasks.
       - Notes
     * - `Create a CyVerse account </projects/cyverse-account-creation-quickstart/>`_
       - User Portal
-      - Start hear to create your own account
+      - Start here to create your own account
     * - `Import data from NCBI SRA using the Discovery Environment </projects/cyverse-importing-sradata-quickstart/>`_
       -  Discovery Environment
       - The NCBI Sequence Read Archive (SRA) is a repository for high-throughput
