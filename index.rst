@@ -30,7 +30,7 @@ you may wish to **Start Here First**.
       - Full documentation
     * - Discovery Environment
       - Use hundreds of bioinformatics apps and manage data in the CyVerse Data Store from a simple web interface
-      - `Discovery Environment Guide <http://learning.cyverse.org/projects/cyverse-discovery-environment-guide/>`_
+      - `Discovery Environment Guide <https://learning.cyverse.org/projects/discovery-environment-guide/en/latest/index.html>`_
       - `DE Manual (CyVerse Wiki) <https://wiki.cyverse.org/wiki/display/DEmanual/Table+of+Contents>`_
     * - Atmosphere
       - Cloud computing platform for CyVerse
