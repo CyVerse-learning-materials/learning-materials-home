@@ -123,9 +123,9 @@ These are involved tutorials that cover popular science workflows.
         for quantifying transcript abundances in an RNA-Seq
         experiment. Sleuth is designed to analyze and visualize the Kallisto
         results in R.
-    * -
-      -
-      -
+    * - `2018 NEON Data Institute <https://cyverse-neon-data-institute-2018.readthedocs-hosted.com/en/latest/>`_
+      - Discovery Environment, Atmosphere
+      - Provision Atmosphere as a Data Science Workbench running Docker, Singularity, Project Jupyter, and RStudio-Server. The `NEON Data Institute 2018 <https://www.neonscience.org/neon-data-institute-2018/>`_ focus is on remote sensing and reproducable workflows in Python and R.
     * -
       -
       -
