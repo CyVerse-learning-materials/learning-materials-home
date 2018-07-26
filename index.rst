@@ -43,7 +43,7 @@ you may wish to **Start Here First**.
     * - DNA Subway
       - Educator-focused access to data and informatics tools for modern biology
       - `DNA Subway Guide <https://cyverse-dnasubway-guide.readthedocs-hosted.com/en/latest/>`_
-      - `DNA Subway Manual <https://dnasubway.cyverse.org/files/pdf/DNA_Subway_Guide.pdf>`_
+      - See Guide 
     * - BisQue
       - Bio-Image Semantic Query User Environment for the exchange and exploration of image data
       -

@@ -1,18 +1,28 @@
-/* Table wrapping and sorting */
+/* Table wrapping */
 .wy-table-responsive table td,
 .wy-table-responsive table th {
     white-space: normal !important;
 }
 
-.wy-table-responsive table thead tr .header {
-    background-image: url(bg.gif);
-    background-repeat: no-repeat;
-    background-position: center right;
-    cursor: pointer;
-}
-.wy-table-responsive table thead tr .headerSortUp {
-    background-image: url(asc.gif);
-}
-.wy-table-responsive table thead tr .headerSortDown {
-    background-image: url(desc.gif);
+/* admonition colors */
+
+div.admonition-sample-data.admonition {
+    padding: 3em;
+    color: #FF8E00;
+    display:block;
+    color: #000000;
+    background: #FFC67F;
+    margin: 0px;
+    padding:6px 12px;
+    margin-bottom:12px}
+
+.wy-alert-title,.rst-content .admonition-title {
+ color:#fff;
+ font-weight:bold;
+ display:block;
+ color:#fff;
+ background:#FF8E00;
+ margin:-12px;
+ padding:6px 12px;
+ margin-bottom:12px
 }
