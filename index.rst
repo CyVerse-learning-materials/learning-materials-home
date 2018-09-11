@@ -43,7 +43,7 @@ you may wish to **Start Here First**.
     * - DNA Subway
       - Educator-focused access to data and informatics tools for modern biology
       - `DNA Subway Guide <https://cyverse-dnasubway-guide.readthedocs-hosted.com/en/latest/>`_
-      - See Guide 
+      - See Guide
     * - BisQue
       - Bio-Image Semantic Query User Environment for the exchange and exploration of image data
       -
@@ -175,4 +175,4 @@ policy <http://www.cyverse.org/acknowledge-cite-cyverse>`__
 
 .. |platform_stack| image:: ./img/cyverse_platform_stack.png
   :width: 750
-  :height: 700
+  :height: 650
