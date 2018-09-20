@@ -51,7 +51,7 @@ you may wish to **Start Here First**.
     * - SciApps
       - A web-based platform for reproducible bioinformatics workflows
       - `SciApps Guide <https://cyverse-sciapps-guide.readthedocs-hosted.com/en/latest/index.html>`_
-      -
+      - See Guide
     * - Science APIs
       - CyVerse provides programmatic access to its services through multiple APIs (application programming interfaces), access points with various levels of complexity
       -
@@ -126,9 +126,13 @@ These are involved tutorials that cover popular science workflows.
     * - `2018 NEON Data Institute <https://cyverse-neon-data-institute-2018.readthedocs-hosted.com/en/latest/>`_
       - Discovery Environment, Atmosphere
       - Provision Atmosphere as a Data Science Workbench running Docker, Singularity, Project Jupyter, and RStudio-Server. The `NEON Data Institute 2018 <https://www.neonscience.org/neon-data-institute-2018/>`_ focus is on remote sensing and reproducable workflows in Python and R.
-    * -
-      -
-      -
+    * - `Genome Annotation with MAKER <https://cyverse-sciapps-guide.readthedocs-hosted.com/en/latest/annotation.html>`_ 
+      - SciApps, Discovery Environment
+      - This tutorial is a step-by-step guide for using SciApps to perform MAKER based annotation.
+    * - `Association analysis with mixed models <https://cyverse-sciapps-guide.readthedocs-hosted.com/en/latest/association.html>`_
+      - SciApps
+      - A genome-wide association study (or GWAS) workflow using TASSEL, EMMAX, and MLMM for mixed model analysis
+
 
 -----
 
