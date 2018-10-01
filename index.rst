@@ -56,7 +56,11 @@ CyVerse you may wish to **Start Here First**.
       - |BisQue Manual|
     * - SciApps
       - A web-based platform for reproducible bioinformatics workflows
+<<<<<<< HEAD
       - |SciApps Guide|
+=======
+      - `SciApps Guide <https://cyverse-sciapps-guide.readthedocs-hosted.com/en/latest/index.html>`_
+>>>>>>> 1c229a03e615edc08bf969ea357706e4711735ed
       - See Guide
     * - Science APIs
       - CyVerse provides programmatic access to its services through multiple
@@ -139,6 +143,14 @@ These are involved tutorials that cover popular science workflows.
         Singularity, Project Jupyter, and RStudio-Server. The
         |NEON Data Institute 2018| focus is on remote sensing and reproducible
         workflows in Python and R.
+    * - |Genome Annotation with MAKER|
+      - SciApps, Discovery Environment
+      - This tutorial is a step-by-step guide for using SciApps to perform MAKER
+        based annotation.
+    * - |Association analysis with mixed models|
+      - SciApps
+      - A genome-wide association study (or GWAS) workflow using TASSEL, EMMAX,
+        and MLMM for mixed model analysis
 
 -----
 
@@ -256,3 +268,11 @@ Please cite CyVerse appropriately when you make use of our resources,
 .. |CyVerse homepage| raw:: html
 
     <a href="http://www.cyverse.org" target="blank">http://www.cyverse.org</a>
+
+.. |Association analysis with mixed models| raw:: html
+
+    <a href="https://cyverse-sciapps-guide.readthedocs-hosted.com/en/latest/association.html" target="blank">Association analysis with mixed models</a>
+
+.. |Genome Annotation with MAKER| raw:: html
+
+    <a href="https://cyverse-sciapps-guide.readthedocs-hosted.com/en/latest/annotation.html" target="blank">Genome Annotation with MAKER</a>
