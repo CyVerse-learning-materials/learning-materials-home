@@ -153,11 +153,11 @@ These are involved tutorials that cover popular science workflows.
 
 Contributing  to the Learning Center
 -------------------------------------
-You can contribute to the Learning Center. Everything from fixing a typo to
+You can contribute to the Learning Center - everything from fixing a typo to
 adding new documentation pieces.
 
 .. list-table::
-    :header-rows: 1
+    :header-rows: 1 
 
     * - Tutorial
       - Platform(s)
