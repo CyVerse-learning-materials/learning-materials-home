@@ -56,11 +56,7 @@ CyVerse you may wish to **Start Here First**.
       - |BisQue Manual|
     * - SciApps
       - A web-based platform for reproducible bioinformatics workflows
-<<<<<<< HEAD
       - |SciApps Guide|
-=======
-      - `SciApps Guide <https://cyverse-sciapps-guide.readthedocs-hosted.com/en/latest/index.html>`_
->>>>>>> 1c229a03e615edc08bf969ea357706e4711735ed
       - See Guide
     * - Science APIs
       - CyVerse provides programmatic access to its services through multiple
