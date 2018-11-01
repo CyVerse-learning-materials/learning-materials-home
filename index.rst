@@ -64,7 +64,13 @@ CyVerse you may wish to **Start Here First**.
         levels of complexity
       - |Agave Live Docs|
       - See Live Docs
-
+    * - VICE
+      - Visual Interactive Computing Environment VICE introduces graphic user
+        interfaces (GUIs) and common Integrated Development Environments (IDEs)
+        such as Project Jupyter Notebooks & Lab, RStudio, Shiny Apps and Linux
+        Desktop
+      - |Vice Documentation|
+      - See Vice Documentation
 -----
 
 Quick Starts
@@ -157,7 +163,7 @@ You can contribute to the Learning Center - everything from fixing a typo to
 adding new documentation pieces.
 
 .. list-table::
-    :header-rows: 1 
+    :header-rows: 1
 
     * - Tutorial
       - Platform(s)
@@ -272,3 +278,7 @@ Please cite CyVerse appropriately when you make use of our resources,
 .. |Genome Annotation with MAKER| raw:: html
 
     <a href="https://cyverse-sciapps-guide.readthedocs-hosted.com/en/latest/annotation.html" target="blank">Genome Annotation with MAKER</a>
+
+.. |Vice Documentation| raw:: html
+
+    <a href="https://cyverse-visual-interactive-computing-environment.readthedocs-hosted.com/en/latest/index.html" target="blank"> Vice Documentation</a>
