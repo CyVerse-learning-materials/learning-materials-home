@@ -144,7 +144,7 @@ These are involved tutorials that cover popular science workflows.
         for quantifying transcript abundances in an RNA-Seq
         experiment. Sleuth is designed to analyze and visualize the Kallisto
         results in R.
-    * - |NEON Data Institute 2018|
+    * - |CyVerse NEON Data Institute 2018|
       - Discovery Environment, Atmosphere
       - Provision Atmosphere as a Data Science Workbench running Docker,
         Singularity, Project Jupyter, and RStudio-Server. The
@@ -256,7 +256,7 @@ Please cite CyVerse appropriately when you make use of our resources,
 
     <a href="https://cyverse-kallisto-tutorial.readthedocs-hosted.com/en/latest/" target="blank">RNA-Seq with Kallisto and Sleuth</a>
 
-.. |2018 NEON Data Institute| raw:: html
+.. |CyVerse NEON Data Institute 2018| raw:: html
 
     <a href="https://cyverse-neon-data-institute-2018.readthedocs-hosted.com/en/latest/" target="blank">2018 NEON Data Institute</a>
 
