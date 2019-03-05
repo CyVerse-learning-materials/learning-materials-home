@@ -157,10 +157,10 @@ These are involved tutorials that cover popular science workflows.
     * - |Association analysis with mixed models|
       - SciApps
       - A genome-wide association study (or GWAS) workflow using TASSEL, EMMAX,
-        and MLMM for mixed model analysis
+        and MLMM for mixed model analysis.
     * - |CyVerse Container Camp 2019|
       - Discovery Environment, Atmosphere, VICE, Data Store
-      - Topics on container technology for reproducible science
+      - Topics on container technology for reproducible science.
 
 -----
 
@@ -299,6 +299,6 @@ Please cite CyVerse appropriately when you make use of our resources,
 
     <a href="https://cyverse-group-project-quickstart.readthedocs-hosted.com/en/latest/" target="blank">Create a Group Project</a>
 
-.. |CyVerse Container Camp 2019| raw::html
+.. |CyVerse Container Camp 2019| raw:: html
 
     <a href="https://learning.cyverse.org/projects/container_camp_workshop_2019/en/latest/" target="blank">CyVerse Container Camp 2019</a>
