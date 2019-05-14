@@ -180,8 +180,26 @@ adding new documentation pieces.
       - Learning Center
       - Quick guide to simple contributions and creating new documentation
         pieces.
-
 -----
+
+
+Developers
+-----------
+You can contribute to CyVerse - Here are documentation pieces of interest in
+developing new applications.
+
+.. list-table::
+    :header-rows: 1
+
+    * - Documentation
+      - Platform(s)
+      - Notes
+    * - |Vice Documentation|
+      - VICE
+      - Quick guide to developing for VICE.
+    * - |Creating and Running Docker Containers|
+      - Discovery Environment, VICE, Atmosphere
+      - A short guide to Docker and creating your own containerized applications.
 
 About CyVerse
 -------------
@@ -302,3 +320,7 @@ Please cite CyVerse appropriately when you make use of our resources,
 .. |CyVerse Container Camp 2019| raw:: html
 
     <a href="https://learning.cyverse.org/projects/container_camp_workshop_2019/en/latest/" target="blank">CyVerse Container Camp 2019</a>
+
+.. |Creating and Running Docker Containers| raw:: html
+
+    <a href="https://cyverse-creating-docker-containers-quickstart.readthedocs-hosted.com/en/latest/" target="blank">Creating and Running Docker Containers</a>
