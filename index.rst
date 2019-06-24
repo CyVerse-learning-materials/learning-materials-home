@@ -201,6 +201,16 @@ developing new applications.
       - Discovery Environment, VICE, Atmosphere
       - A short guide to Docker and creating your own containerized applications.
 
+----
+
+
+CyVerse FAQ
+---------------
+
+For any and all other questions, check out our |CyVerse FAQ|.
+
+----
+
 About CyVerse
 -------------
 
@@ -324,3 +334,7 @@ Please cite CyVerse appropriately when you make use of our resources,
 .. |Creating and Running Docker Containers| raw:: html
 
     <a href="https://cyverse-creating-docker-containers-quickstart.readthedocs-hosted.com/en/latest/" target="blank">Creating and Running Docker Containers</a>
+
+.. |CyVerse FAQ| raw:: html
+
+    <a href="https://cyverse-learning-center-faq.readthedocs-hosted.com/en/latest/" target="blank">CyVerse FAQ</a>
