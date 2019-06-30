@@ -161,6 +161,9 @@ These are involved tutorials that cover popular science workflows.
     * - |CyVerse Container Camp 2019|
       - Discovery Environment, Atmosphere, VICE, Data Store
       - Topics on container technology for reproducible science.
+    * - |Condensed R: 240-minute tutorial|
+      - Discovery Environment, VICE, Data Store
+      - A short introduction to using R and RStudio
 
 -----
 
@@ -337,3 +340,7 @@ Please cite CyVerse appropriately when you make use of our resources,
 .. |CyVerse FAQ| raw:: html
 
     <a href="https://cyverse-learning-center-faq.readthedocs-hosted.com/en/latest/" target="blank">CyVerse FAQ</a>
+
+.. |Condensed R: 240-minute tutorial| raw:: html
+
+    <a href="https://cyverse-240-minute-r-tutorial.readthedocs-hosted.com/en/latest/" target="blank">Condensed R: 240-minute tutorial</a>
