@@ -144,12 +144,6 @@ These are involved tutorials that cover popular science workflows.
         for quantifying transcript abundances in an RNA-Seq
         experiment. Sleuth is designed to analyze and visualize the Kallisto
         results in R.
-    * - |CyVerse NEON Data Institute 2018|
-      - Discovery Environment, Atmosphere
-      - Provision Atmosphere as a Data Science Workbench running Docker,
-        Singularity, Project Jupyter, and RStudio-Server. The
-        |NEON Data Institute 2018| focus is on remote sensing and reproducible
-        workflows in Python and R.
     * - |Genome Annotation with MAKER|
       - SciApps, Discovery Environment
       - This tutorial is a step-by-step guide for using SciApps to perform MAKER
@@ -158,6 +152,34 @@ These are involved tutorials that cover popular science workflows.
       - SciApps
       - A genome-wide association study (or GWAS) workflow using TASSEL, EMMAX,
         and MLMM for mixed model analysis.
+
+
+
+
+
+-----
+
+Workshops
+------------
+These are workshop formatted tutorials that can be used and/or remixed in
+running your own CyVerse workshop.
+
+.. list-table::
+    :header-rows: 1
+
+    * - Workshop
+      - Platform(s)
+      - Notes
+    * - |CyVerse Tools and Services Workshop|
+      - Discovery Environment, Atmosphere, Data Store
+      - This is a generic agenda and slides for a one-day CyVerse Workshop
+        overviewing the major components of the science infrastrutcure.
+    * - |CyVerse NEON Data Institute 2018|
+      - Discovery Environment, Atmosphere
+      - Provision Atmosphere as a Data Science Workbench running Docker,
+        Singularity, Project Jupyter, and RStudio-Server. The
+        |NEON Data Institute 2018| focus is on remote sensing and reproducible
+        workflows in Python and R.
     * - |CyVerse Container Camp 2019|
       - Discovery Environment, Atmosphere, VICE, Data Store
       - Topics on container technology for reproducible science.
@@ -344,3 +366,7 @@ Please cite CyVerse appropriately when you make use of our resources,
 .. |Condensed R: 240-minute tutorial| raw:: html
 
     <a href="https://cyverse-240-minute-r-tutorial.readthedocs-hosted.com/en/latest/" target="blank">Condensed R: 240-minute tutorial</a>
+
+.. |CyVerse Tools and Services Workshop| raw:: html
+
+    <a href="https://cyverse-cyverse-tools-and-services-workshop.readthedocs-hosted.com/en/latest/" target="blank">CyVerse Tools and Services Workshop</a>
