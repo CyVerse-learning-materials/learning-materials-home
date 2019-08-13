@@ -186,6 +186,9 @@ running your own CyVerse workshop.
     * - |Condensed R: 240-minute tutorial|
       - Discovery Environment, VICE, Data Store
       - A short introduction to using R and RStudio
+    * - |CyVerse Foundational Open Science Skills 2019|
+      - Workshop to train new PIs on advanced cyberinfrastructure
+      - Discovery Environment, Atmosphere, VICE, DataStore
 
 -----
 
@@ -370,3 +373,7 @@ Please cite CyVerse appropriately when you make use of our resources,
 .. |CyVerse Tools and Services Workshop| raw:: html
 
     <a href="https://cyverse-cyverse-tools-and-services-workshop.readthedocs-hosted.com/en/latest/" target="blank">CyVerse Tools and Services Workshop</a>
+
+.. |CyVerse Foundational Open Science Skills 2019| raw:: html
+
+    <a href="https://cyverse-foundational-open-science-skills-2019.readthedocs-hosted.com/en/latest/" target="blank">CyVerse Foundational Open Science Skills 2019</a>
