@@ -22,8 +22,6 @@ CyVerse offers an interconnected series of platforms, tools and services. These
 guides will help you navigate the top-level user platforms. If you are new to
 CyVerse you may wish to **Start Here First**.
 
-|platform_stack|
-
 .. list-table::
     :header-rows: 1
 
@@ -211,7 +209,7 @@ adding new documentation pieces.
 -----
 
 
-Developers
+Tool and App Integration
 -----------
 You can contribute to CyVerse - Here are documentation pieces of interest in
 developing new applications.
