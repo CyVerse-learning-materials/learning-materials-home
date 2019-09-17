@@ -342,7 +342,7 @@ Please cite CyVerse appropriately when you make use of our resources,
 
 .. |Vice Documentation| raw:: html
 
-    <a href="https://cyverse-visual-interactive-computing-environment.readthedocs-hosted.com/en/latest/index.html" target="blank">Vice Documentation</a>
+    <a href="https://learning.cyverse.org/projects/vice" target="blank">Vice Documentation</a>
 
 .. |Request a DOI| raw:: html
 
