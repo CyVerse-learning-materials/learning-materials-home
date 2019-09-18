@@ -16,9 +16,9 @@ view, edit, and submit contributions on |Github|.
 
 Getting Started
 ---------------
-If you are new to CyVerse you may want to join one of our Getting Started webinars, which happen every month or two. You should receive an invite when you register for an account. You can also watch recent webinars on the `CyVerse YouTube Channel <https://www.youtube.com/channel/UC-gvdjTz9rq6RovZ57LoDDA>`_.
+If you are new to CyVerse you may want to join one of our Getting Started webinars, which happen every month or two. You can watch recent webinars on the `CyVerse YouTube Channel <https://www.youtube.com/channel/UC-gvdjTz9rq6RovZ57LoDDA>`_.
 
-After you |Create a CyVerse account|, you make want to check out the `Platform Guides <https://learning.cyverse.org/en/latest/#platform-guides>`_ or the |CyVerse FAQ| page.
+After you |Create a CyVerse account|, you may want to check out the `Platform Guides <https://learning.cyverse.org/en/latest/#platform-guides>`_ or the |CyVerse FAQ| page.
 
 For advise on how to carry out specific tasks or analyses, check out the  `Quick Starts <https://learning.cyverse.org/en/latest/#quick-starts>`_ and `Tutorials <https://learning.cyverse.org/en/latest/#tutorials>`_.
 
