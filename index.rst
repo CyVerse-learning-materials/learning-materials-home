@@ -8,10 +8,22 @@ Welcome to the CyVerse Learning Center (*beta*)
 The CyVerse Learning center is a *beta* release of our learning materials in the
 popular "Read the Docs" formatting. We are transitioning our leaning materials
 into this format to make them easier to search, use, and update. We will be
-making regular contributions to these materials and you can suggest new
+making regular contributions to these materials, and you can suggest new
 materials or create and share your own. If you have ideas or suggestions please
 email `Tutorials@CyVerse.org <mailto:Tutorials@cyverse.org>`_. You can also
 view, edit, and submit contributions on |Github|.
+-----
+
+Getting Started
+---------------
+If you are new to CyVerse you may want to join one of our Getting Started webinars, which happen every month or two. You should receive an invite when you register for an account. You can also watch recent webinars on the `CyVerse YouTube Channel <https://www.youtube.com/channel/UC-gvdjTz9rq6RovZ57LoDDA>`_.
+
+After you |Create a CyVerse account|, you make want to check out the `Platform Guides <https://learning.cyverse.org/en/latest/#platform-guides>`_ or the |CyVerse FAQ| page.
+
+For advise on how to carry out specific tasks or analyses, check out the  `Quick Starts <https://learning.cyverse.org/en/latest/#quick-starts>`_ and `Tutorials <https://learning.cyverse.org/en/latest/#tutorials>`_.
+
+Advanced users can read how to `Integrate your own tools and apps <https://learning.cyverse.org/en/latest/#tool-and-app-integration>`_ or review materials from `CyVerse Workshops <https://learning.cyverse.org/en/latest/#workshops>`_ to reuse in your own teaching.
+
 
 -----
 
@@ -19,8 +31,7 @@ Platform Guides
 ---------------
 
 CyVerse offers an interconnected series of platforms, tools and services. These
-guides will help you navigate the top-level user platforms. If you are new to
-CyVerse you may wish to **Start Here First**.
+guides will help you navigate the top-level user platforms. 
 
 .. list-table::
     :header-rows: 1
@@ -152,9 +163,6 @@ These are involved tutorials that cover popular science workflows.
         and MLMM for mixed model analysis.
 
 
-
-
-
 -----
 
 Workshops
@@ -190,25 +198,6 @@ running your own CyVerse workshop.
 
 -----
 
-
-Contributing  to the Learning Center
--------------------------------------
-You can contribute to the Learning Center - everything from fixing a typo to
-adding new documentation pieces.
-
-.. list-table::
-    :header-rows: 1
-
-    * - Tutorial
-      - Platform(s)
-      - Notes
-    * - |documentation Quickstart|
-      - Learning Center
-      - Quick guide to simple contributions and creating new documentation
-        pieces.
------
-
-
 Tool and App Integration
 -----------
 You can contribute to CyVerse - Here are documentation pieces of interest in
@@ -228,6 +217,23 @@ developing new applications.
       - A short guide to Docker and creating your own containerized applications.
 
 ----
+
+Contributing  to the Learning Center
+-------------------------------------
+You can contribute to the Learning Center - everything from fixing a typo to
+adding new documentation pieces.
+
+.. list-table::
+    :header-rows: 1
+
+    * - Tutorial
+      - Platform(s)
+      - Notes
+    * - |documentation Quickstart|
+      - Learning Center
+      - Quick guide to simple contributions and creating new documentation
+        pieces.
+-----
 
 
 CyVerse FAQ
