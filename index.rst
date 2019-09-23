@@ -243,6 +243,18 @@ For any and all other questions, check out our |CyVerse FAQ|.
 
 ----
 
+Get Powered by CyVerse
+----------------------
+Third-party projects can leverage our cyberinfrastructure to provide services to their users, including the CyVerse Authentication system, Data Store, and High-performance framework. Projects requesting support by |Powered by CyVerse| must have the programming resources to integrate with CyVerse APIs and CI, as well as the resources to maintain their sites. 
+
+----
+
+External Collaborative Partnerships
+-----------------------------------
+The |External Collaborative Partnership| program pairs members of our user community with expert staff to address the computational needs of a specific scientific project. To participate, please review the required criteria and then complete the |ECP Request web form|. CyVerse does not provide funding support for external projects.
+
+----
+
 About CyVerse
 -------------
 
@@ -381,3 +393,15 @@ Please cite CyVerse appropriately when you make use of our resources,
 .. |CyVerse Foundational Open Science Skills 2019| raw:: html
 
     <a href="https://cyverse-foundational-open-science-skills-2019.readthedocs-hosted.com/en/latest/" target="blank">CyVerse Foundational Open Science Skills 2019</a>
+    
+.. |Powered by CyVerse| raw:: html
+
+   <a href="https://www.cyverse.org/powered-by-cyverse" target="blank">Powered by CyVerse</a>
+
+.. |External Collaborative Partnership| raw:: html
+
+    <a href="https://www.cyverse.org/researchers" target="blank">External Collaborative Partnership</a>
+
+.. |ECP Request web form| raw:: html
+   
+    <a href="https://user.cyverse.org/forms/3" target="blank">ECP Request web form</a>
