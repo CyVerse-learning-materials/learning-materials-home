@@ -2,11 +2,11 @@
 
 |CyVerse logo|
 
-Welcome to the CyVerse Learning Center (*beta*)
+Welcome to the CyVerse Learning Center
 -----------------------------------------------
 
-The CyVerse Learning center is a *beta* release of our learning materials in the
-popular "Read the Docs" formatting. We are transitioning our leaning materials
+The CyVerse Learning center is a release of our learning materials in the
+popular "Read the Docs" formatting. We are transitioning our leaning materials from our wiki
 into this format to make them easier to search, use, and update. We will be
 making regular contributions to these materials, and you can suggest new
 materials or create and share your own. If you have ideas or suggestions please
@@ -22,7 +22,7 @@ After you |Create a CyVerse account|, you may want to check out the `Platform Gu
 
 For advise on how to carry out specific tasks or analyses, check out the  `Quick Starts <https://learning.cyverse.org/en/latest/#quick-starts>`_ and `Tutorials <https://learning.cyverse.org/en/latest/#tutorials>`_.
 
-Advanced users can read how to `Integrate your own tools and apps <https://learning.cyverse.org/en/latest/#tool-and-app-integration>`_ or review materials from `CyVerse Workshops <https://learning.cyverse.org/en/latest/#workshops>`_ to reuse in your own teaching.
+Advanced users can read how to `Integrate your own tools and apps <https://learning.cyverse.org/en/latest/#tool-and-app-integration>`_ or borrow materials from `CyVerse Workshops <https://learning.cyverse.org/en/latest/#workshops>`_ to reuse in your own teaching.
 
 
 -----
@@ -396,7 +396,7 @@ Please cite CyVerse appropriately when you make use of our resources,
     
 .. |Powered by CyVerse| raw:: html
 
-   <a href="https://www.cyverse.org/powered-by-cyverse" target="blank">Powered by CyVerse</a>
+   <a href="https://cyverse.org/Powered%20by%20CyVerse" target="blank">Powered by CyVerse</a>
 
 .. |External Collaborative Partnership| raw:: html
 
