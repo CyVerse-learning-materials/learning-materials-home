@@ -18,11 +18,11 @@ Getting Started
 There are several places to learn about CyVerse:
 
  - |Create a CyVerse account|
- - Getting Started Webinars: Every 1-2 months. Watch recent webinars: `CyVerse YouTube Channel <https://www.youtube.com/channel/UC-gvdjTz9rq6RovZ57LoDDA>`_.
- - `Platform Guides <https://learning.cyverse.org/en/latest/#platform-guides>`_ 
- - |CyVerse FAQ| page.
- - `Quick Starts <https://learning.cyverse.org/en/latest/#quick-starts>`_ 
- - `Tutorials <https://learning.cyverse.org/en/latest/#tutorials>`_.
+ - `Getting Started Webinar <https://www.youtube.com/channel/UC-gvdjTz9rq6RovZ57LoDDA>`_ : Every 1-2 months. Watch recent webinars: 
+ - `Platform Guides <https://learning.cyverse.org/en/latest/#platform-guides>`
+ - |CyVerse FAQ| page
+ - `Quick Starts <https://learning.cyverse.org/en/latest/#quick-starts>`
+ - `Tutorials <https://learning.cyverse.org/en/latest/#tutorials>`
 
 Advanced users can read how to `Integrate your own tools and apps <https://learning.cyverse.org/en/latest/#tool-and-app-integration>`_ or borrow materials from `CyVerse Workshops <https://learning.cyverse.org/en/latest/#workshops>`_ to reuse in your own teaching.
 
