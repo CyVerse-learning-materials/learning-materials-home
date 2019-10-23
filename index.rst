@@ -28,12 +28,11 @@ view, edit, and submit contributions on |Github|.
 
 .. toctree::
    :maxdepth: 1
-   :titlesonly:
    :caption: Training
 
-    platform_guides.rst
-    tutorials.rst
-    workshops.rst
+   platform_guides
+   tutorials
+   workshops
 
 -----
 
