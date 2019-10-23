@@ -1,5 +1,9 @@
+.. include:: cyverse_rst_defined_substitutions.txt
+
 |CyVerse logo|
 
+|Home_Icon|_
+`Learning Center Home <http://learning.cyverse.org/>`_
 
 -----
 
@@ -38,6 +42,4 @@ developing new applications.
 
     <a href="https://cyverse-creating-docker-containers-quickstart.readthedocs-hosted.com/en/latest/" target="blank">Creating and Running Docker Containers</a>
 
-.. |CyVerse logo| image:: ./img/cyverse_rgb.png
-	:width: 500
-	:height: 100
+
