@@ -54,10 +54,8 @@ These include short guides through common tasks.
       - Data Store, Discovery Environment
       - Learn the basic steps for setting up a collaborative project using
         CyVerse.
------
 
-Funding and Citations
------
+**Funding and Citations:**
 
 CyVerse is funded entirely by the National Science Foundation under
 Award Numbers DBI-0735191, DBI-1265383, and DBI-1743442.
