@@ -139,7 +139,4 @@ Please cite CyVerse appropriately when you make use of our resources,
 .. |Create a Group Project| raw:: html
 
     <a href="https://cyverse-group-project-quickstart.readthedocs-hosted.com/en/latest/" target="blank">Create a Group Project</a>
-    
-    .. |CyVerse logo| image:: ./img/cyverse_cmyk.png
-    :width: 500
-    :height: 100
+ 
