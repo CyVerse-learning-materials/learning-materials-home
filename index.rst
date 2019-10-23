@@ -53,6 +53,12 @@ Advanced users can read how to `Integrate your own tools and apps <https://learn
 
    workshops
    
+.. toctree::
+   :maxdepth: 1
+   :caption: Contributing to the Learning Center
+
+   contributing.rst
+   
 -----
 
 Platform Guides
