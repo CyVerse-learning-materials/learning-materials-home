@@ -5,10 +5,6 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Platform Guides
-a
 CyVerse offers an interconnected series of platforms, tools and services. These
 guides will help you navigate the top-level user platforms. 
 
