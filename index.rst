@@ -20,19 +20,20 @@ view, edit, and submit contributions on |Github|.
    :caption: Getting Started
 
     |Create a CyVerse account|
-    `Getting Started Webinar <www.youtube.com/channel/UC-gvdjTz9rq6RovZ57LoDDA>`_
-    `About Cyverse <www.cyverse.org/about>`_
+    |Getting Started Webinar|
+    |About Cyverse|
     |CyVerse FAQ| page
 
 -----
 
 .. toctree::
    :maxdepth: 1
+   :titlesonly:
    :caption: Training
 
-    platform_guides
-    tutorials
-    workshops
+    platform_guides.rst
+    tutorials.rst
+    workshops.rst
 
 -----
 
@@ -187,3 +188,11 @@ Please cite CyVerse appropriately when you make use of our resources,
 .. |ECP Request web form| raw:: html
 
     <a href="https://user.cyverse.org/forms/3" target="blank">ECP Request web form</a>
+    
+.. |Getting Started Webinar| raw:: html
+
+    <a href="https://www.youtube.com/channel/UC-gvdjTz9rq6RovZ57LoDDA" target="blank">Getting Started Webinar</a>
+    
+.. |About Cyverse| raw:: html
+    
+    <a href="https://www.cyverse.org/about" target="blank">About CyVerse</a>
