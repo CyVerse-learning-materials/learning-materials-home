@@ -62,8 +62,7 @@ guides will help you navigate the top-level user platforms.
 -----
 
 
-Funding and Citations
----------------------
+**Funding and Citations:**
 
 CyVerse is funded by the National Science Foundation under
 Award Numbers DBI-0735191, DBI-1265383, and DBI-1743442.
