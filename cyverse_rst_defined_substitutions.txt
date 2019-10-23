@@ -106,6 +106,10 @@
 .. |CyVerse logo| image:: ./img/cyverse_cymk.png
     :width: 500
     :height: 100
+
+.. |CyVerse_logo| image:: ./img/cyverse_cmyk.png
+	:width: 500
+	:height: 100
     
 .. _CyVerse logo: http://learning.cyverse.org/
 
