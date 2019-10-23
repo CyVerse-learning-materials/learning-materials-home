@@ -6,7 +6,7 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 Tutorials
----------
+------------
 
 These are involved tutorials that cover popular science workflows.
 
