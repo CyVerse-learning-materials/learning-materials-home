@@ -43,7 +43,7 @@ Advanced users can read how to `Integrate your own tools and apps <https://learn
 
 .. toctree::
    :maxdepth: 1
-   :caption: Guides
+   :caption: Platform Guides
 
    guides-overview
   
@@ -138,38 +138,6 @@ These are involved tutorials that cover popular science workflows.
 
 -----
 
-Workshops
-------------
-These are workshop formatted tutorials that can be used and/or remixed in
-running your own CyVerse workshop.
-
-.. list-table::
-    :header-rows: 1
-
-    * - Workshop
-      - Platform(s)
-      - Notes
-    * - |CyVerse Tools and Services Workshop|
-      - Discovery Environment, Atmosphere, Data Store
-      - This is a generic agenda and slides for a one-day CyVerse Workshop
-        overviewing the major components of the science infrastrutcure.
-    * - |CyVerse NEON Data Institute 2018|
-      - Discovery Environment, Atmosphere
-      - Provision Atmosphere as a Data Science Workbench running Docker,
-        Singularity, Project Jupyter, and RStudio-Server. The
-        |NEON Data Institute 2018| focus is on remote sensing and reproducible
-        workflows in Python and R.
-    * - |CyVerse Container Camp 2019|
-      - Discovery Environment, Atmosphere, VICE, Data Store
-      - Topics on container technology for reproducible science.
-    * - |Condensed R: 240-minute tutorial|
-      - Discovery Environment, VICE, Data Store
-      - A short introduction to using R and RStudio
-    * - |CyVerse Foundational Open Science Skills 2019|
-      - Workshop to train new PIs on advanced cyberinfrastructure
-      - Discovery Environment, Atmosphere, VICE, DataStore
-
------
 
 Tool and App Integration
 -----------
