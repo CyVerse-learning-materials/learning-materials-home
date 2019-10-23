@@ -42,5 +42,3 @@ developing new applications.
 
     <a href="https://cyverse-creating-docker-containers-quickstart.readthedocs-hosted.com/en/latest/" target="blank">Creating and Running Docker Containers</a>
 
-
- .. _CyVerse logo: http://learning.cyverse.org/
