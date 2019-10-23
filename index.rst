@@ -20,7 +20,7 @@ Getting Started
 - `Getting Started Webinar <https://www.youtube.com/channel/UC-gvdjTz9rq6RovZ57LoDDA>`_
 - `About Cyverse <https://cyverse.org/about>`_
 - `Powered by CyVerse <https://www.cyverse.org/powered-by-cyverse>`_
-- |documentation Quickstart|
+- `Quickstarts <./quick_starts>`_
 - |Create a CyVerse account|
 - |CyVerse FAQ|
 
@@ -196,5 +196,9 @@ Please cite CyVerse appropriately when you make use of our resources,
     <a href="https://www.cyverse.org/about" target="blank">About CyVerse</a>
     
 .. |Powered by CyVerse| raw:: html
+
+    <https://www.cyverse.org/powered-by-cyverse>
+    
+ .. |Quickstarts| raw:: html
 
     <https://www.cyverse.org/powered-by-cyverse>
