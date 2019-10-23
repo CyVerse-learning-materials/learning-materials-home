@@ -1,10 +1,10 @@
 .. include:: cyverse_rst_defined_substitutions.txt
 
-|CyVerse logo|_
+.. |CyVerse logo| image:: ./img/cyverse_cmyk.png
+    :width: 500
+    :height: 100
 
-|Home_Icon2|_
-
-`Learning Center Home <http://learning.cyverse.org/>`_
+|Home_Icon|_`Learning Center Home <http://learning.cyverse.org/>`_
 
 Quick Start Guides
 -----------------------------------------------
