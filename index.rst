@@ -12,7 +12,6 @@ making regular contributions to these materials, and you can suggest new
 materials or create and share your own. If you have ideas or suggestions please
 email `Tutorials@CyVerse.org <mailto:Tutorials@cyverse.org>`_. You can also
 view, edit, and submit contributions on |Github|.
------
 
 Getting Started
 ---------------
