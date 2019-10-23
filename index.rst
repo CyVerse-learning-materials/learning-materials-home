@@ -20,8 +20,8 @@ view, edit, and submit contributions on |Github|.
    :caption: Getting Started
 
     |Create a CyVerse account|
-    `Getting Started Webinar <https://www.youtube.com/channel/UC-gvdjTz9rq6RovZ57LoDDA>`_
-    `About Cyverse <https://www.cyverse.org/about>`_
+    `Getting Started Webinar <www.youtube.com/channel/UC-gvdjTz9rq6RovZ57LoDDA>`_
+    `About Cyverse <www.cyverse.org/about>`_
     |CyVerse FAQ| page
 
 -----
@@ -42,7 +42,7 @@ view, edit, and submit contributions on |Github|.
 
    tools_and_apps
    contributing
-   `Powered by CyVerse <https://cyverse.org/powered-by-cyverse>`_
+   `Powered by CyVerse <cyverse.org/powered-by-cyverse>`_
 
 -----
 
