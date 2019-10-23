@@ -55,6 +55,8 @@ These include short guides through common tasks.
       - Learn the basic steps for setting up a collaborative project using
         CyVerse.
 
+-----
+
 **Funding and Citations:**
 
 CyVerse is funded entirely by the National Science Foundation under
