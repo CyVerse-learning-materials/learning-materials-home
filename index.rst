@@ -13,6 +13,12 @@ materials or create and share your own. If you have ideas or suggestions please
 email `Tutorials@CyVerse.org <mailto:Tutorials@cyverse.org>`_. You can also
 view, edit, and submit contributions on |Github|.
 
+`Getting Started Webinar <https://www.youtube.com/channel/UC-gvdjTz9rq6RovZ57LoDDA>`_
+  
+`About Cyverse <https://cyverse.org/about>`_
+
+ `Powered by CyVerse <https://www.cyverse.org/powered-by-cyverse>`_
+
 -----
 
 .. toctree::
@@ -20,9 +26,7 @@ view, edit, and submit contributions on |Github|.
    :caption: Getting Started
 
    |Create a CyVerse account|
-   `Getting Started Webinar <https://www.youtube.com/channel/UC-gvdjTz9rq6RovZ57LoDDA>`_
-   `About Cyverse <https://cyverse.org/about>`_
-   |CyVerse FAQ| page
+   |CyVerse FAQ| 
 
 -----
 
@@ -42,7 +46,6 @@ view, edit, and submit contributions on |Github|.
 
    tools_and_apps
    contributing
-   `Powered by CyVerse <https://www.cyverse.org/powered-by-cyverse>`_
 
 -----
 
