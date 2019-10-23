@@ -46,7 +46,12 @@ Advanced users can read how to `Integrate your own tools and apps <https://learn
    :caption: Guides
 
    guides-overview
-   
+  
+.. toctree::
+   :maxdepth: 1
+   :caption: Workshops
+
+   workshops
 -----
 
 Platform Guides
