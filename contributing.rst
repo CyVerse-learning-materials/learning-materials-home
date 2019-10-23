@@ -29,3 +29,7 @@ adding new documentation pieces.
 
 - On Github: |Github Repo Link|
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
+
+.. |documentation Quickstart| raw:: html
+
+    <a href="https://learning.cyverse.org/projects/Documentation-Quickstart/en/latest/" target="blank">Documentation Quickstart</a>
