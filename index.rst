@@ -41,6 +41,12 @@ Advanced users can read how to `Integrate your own tools and apps <https://learn
 
    tools_and_apps
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Guides
+
+   guides-overview
+   
 -----
 
 Platform Guides
@@ -160,10 +166,28 @@ running your own CyVerse workshop.
 
 -----
 
+Tool and App Integration
+-----------
+You can contribute to CyVerse - Here are documentation pieces of interest in
+developing new applications.
+
+.. list-table::
+    :header-rows: 1
+
+    * - Documentation
+      - Platform(s)
+      - Notes
+    * - |Vice Documentation|
+      - VICE
+      - Quick guide to developing for VICE.
+    * - |Creating and Running Docker Containers|
+      - Discovery Environment, VICE, Atmosphere
+      - A short guide to Docker and creating your own containerized applications.
+
+----
+
 Contributing  to the Learning Center
-
 -------------------------------------
-
 You can contribute to the Learning Center - everything from fixing a typo to
 adding new documentation pieces.
 
