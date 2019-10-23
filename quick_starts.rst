@@ -5,19 +5,6 @@
 Quick Start Guides
 -----------------------------------------------
 
-Funding and Citations
----------------------
-
-CyVerse is funded entirely by the National Science Foundation under
-Award Numbers DBI-0735191, DBI-1265383, and DBI-1743442.
-
-Please cite CyVerse appropriately when you make use of our resources,
-|CyVerse citation policy|.
-
-
-Quick Starts
-------------
-
 ..
     New Repositories will should be directly linked to the subproject path. For
     example: `/projects/base-tutorial-repo/`
@@ -69,6 +56,14 @@ These include short guides through common tasks.
         CyVerse.
 -----
 
+Funding and Citations
+---------------------
+
+CyVerse is funded entirely by the National Science Foundation under
+Award Numbers DBI-0735191, DBI-1265383, and DBI-1743442.
+
+Please cite CyVerse appropriately when you make use of our resources,
+|CyVerse citation policy|.
 
 ----
 
