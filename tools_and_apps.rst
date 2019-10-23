@@ -42,7 +42,5 @@ developing new applications.
 
     <a href="https://cyverse-creating-docker-containers-quickstart.readthedocs-hosted.com/en/latest/" target="blank">Creating and Running Docker Containers</a>
 
- .. |Clickable hyperlinked image| image:: ./img/IMAGENAME.png
-    :width: 500
-    :height: 100
+
  .. _CyVerse logo: http://learning.cyverse.org/
