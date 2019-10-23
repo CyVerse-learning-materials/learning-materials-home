@@ -43,7 +43,7 @@ view, edit, and submit contributions on |Github|.
 
    tools_and_apps
    contributing
-   `Powered by CyVerse <cyverse.org/powered-by-cyverse>`_
+   |Powered by CyVerse|
 
 -----
 
@@ -193,6 +193,10 @@ Please cite CyVerse appropriately when you make use of our resources,
 
     <a href="https://www.youtube.com/channel/UC-gvdjTz9rq6RovZ57LoDDA" target="blank">Getting Started Webinar</a>
     
-.. |About Cyverse| raw:: html
+.. |About CyVerse| raw:: html
     
     <a href="https://www.cyverse.org/about" target="blank">About CyVerse</a>
+    
+.. |Powered by CyVerse| raw:: html
+
+    <https://www.cyverse.org/powered-by-cyverse>
