@@ -32,16 +32,6 @@ These are involved tutorials that cover popular science workflows.
         and MLMM for mixed model analysis.
 
 
------
-
-
-**Funding and Citations:**
-
-CyVerse is funded by the National Science Foundation under
-Award Numbers DBI-0735191, DBI-1265383, and DBI-1743442.
-
-Please cite CyVerse appropriately when you make use of our resources,
-`CyVerse citation policy <http://www.cyverse.org/acknowledge-cite-cyverse>`__
 
 
 ----
