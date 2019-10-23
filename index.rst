@@ -29,6 +29,14 @@ Advanced users can read how to `Integrate your own tools and apps <https://learn
 
 -----
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Quick Starts
+
+   quick_starts
+
+-----
+
 Platform Guides
 ---------------
 
