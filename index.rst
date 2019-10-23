@@ -45,13 +45,14 @@ Advanced users can read how to `Integrate your own tools and apps <https://learn
    :maxdepth: 1
    :caption: Platform Guides
 
-   guides-overview
+   guides_overview
   
 .. toctree::
    :maxdepth: 1
    :caption: Workshops
 
    workshops
+   
 -----
 
 Platform Guides
