@@ -30,6 +30,14 @@ developing new applications.
 
 ----
 
+.. |Vice Documentation| raw:: html
+
+    <a href="https://learning.cyverse.org/projects/vice" target="blank">Vice Documentation</a>
+    
+.. |Creating and Running Docker Containers| raw:: html
+
+    <a href="https://cyverse-creating-docker-containers-quickstart.readthedocs-hosted.com/en/latest/" target="blank">Creating and Running Docker Containers</a>
+
 .. |CyVerse logo| image:: ./img/cyverse_rgb.png
 	:width: 500
 	:height: 100
