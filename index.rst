@@ -25,8 +25,8 @@ view, edit, and submit contributions on |Github|.
    :maxdepth: 1
    :caption: Getting Started
 
-   |Create a CyVerse account|
-   |CyVerse FAQ| 
+   Create a CyVerse Account <Create a CyVerse account>
+   FAQ <CyVerse FAQ>
 
 -----
 
