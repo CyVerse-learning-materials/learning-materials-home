@@ -138,27 +138,6 @@ These are involved tutorials that cover popular science workflows.
 
 -----
 
-
-Tool and App Integration
------------
-You can contribute to CyVerse - Here are documentation pieces of interest in
-developing new applications.
-
-.. list-table::
-    :header-rows: 1
-
-    * - Documentation
-      - Platform(s)
-      - Notes
-    * - |Vice Documentation|
-      - VICE
-      - Quick guide to developing for VICE.
-    * - |Creating and Running Docker Containers|
-      - Discovery Environment, VICE, Atmosphere
-      - A short guide to Docker and creating your own containerized applications.
-
-----
-
 Contributing  to the Learning Center
 -------------------------------------
 You can contribute to the Learning Center - everything from fixing a typo to
