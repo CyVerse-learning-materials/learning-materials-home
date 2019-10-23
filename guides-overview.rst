@@ -2,6 +2,9 @@
 
 |CyVerse logo|
 
+|Home_Icon|_
+`Learning Center Home <http://learning.cyverse.org/>`_
+
 Platform Guides
 -----------------------------------------------
 CyVerse offers an interconnected series of platforms, tools and services. These
@@ -79,6 +82,10 @@ Please cite CyVerse appropriately when you make use of our resources,
 .. |CyVerse logo| image:: ./img/cyverse_cmyk.png
 	:width: 500
 	:height: 100
+.. |Home_Icon| image:: ./img/homeicon.png
+    :width: 25
+    :height: 25
+.. _Home_Icon: http://learning.cyverse.org/
 
 .. |platform_stack| image:: ./img/cyverse_platform_stack.png
   :width: 750
