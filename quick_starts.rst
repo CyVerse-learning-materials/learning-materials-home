@@ -1,10 +1,9 @@
 .. include:: cyverse_rst_defined_substitutions.txt
 
-.. |CyVerse logo| image:: ./img/cyverse_cmyk.png
-    :width: 500
-    :height: 100
+|CyVerse_logo2|_
 
-|Home_Icon|_`Learning Center Home <http://learning.cyverse.org/>`_
+|Home_Icon2|_
+`Learning Center Home <http://learning.cyverse.org/>`_
 
 Quick Start Guides
 -----------------------------------------------
@@ -140,3 +139,7 @@ Please cite CyVerse appropriately when you make use of our resources,
 .. |Create a Group Project| raw:: html
 
     <a href="https://cyverse-group-project-quickstart.readthedocs-hosted.com/en/latest/" target="blank">Create a Group Project</a>
+    
+    .. |CyVerse logo| image:: ./img/cyverse_cmyk.png
+    :width: 500
+    :height: 100
