@@ -19,7 +19,7 @@ Getting Started
 ---------------
 
 - |Create a CyVerse account|
-- `Getting Started Webinar <https://www.youtube.com/channel/UC-gvdjTz9rq6RovZ57LoDDA>`_ : Every 1-2 months. Watch recent webinars:
+- `Getting Started Webinar <https://www.youtube.com/channel/UC-gvdjTz9rq6RovZ57LoDDA>`_ - Every 1-2 months. Watch recent webinars
 - `About Cyverse <https://cyverse.org/about>`_
 - |CyVerse FAQ|
 
@@ -61,7 +61,7 @@ The |External Collaborative Partnership| program pairs members of our user commu
 CyVerse is funded entirely by the National Science Foundation under
 Award Numbers DBI-0735191, DBI-1265383, and DBI-1743442.
 
-Please cite CyVerse appropriately when you make use of our resources,
+Please cite CyVerse appropriately when you make use of our resources, see 
 |CyVerse citation policy|.
 
 ----
