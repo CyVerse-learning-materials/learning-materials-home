@@ -19,10 +19,10 @@ view, edit, and submit contributions on |Github|.
    :maxdepth: 1
    :caption: Getting Started
 
-    |Create a CyVerse account|
-    `Getting Started Webinar <https://www.youtube.com/channel/UC-gvdjTz9rq6RovZ57LoDDA>`_
-    `About Cyverse <https://cyverse.org/about>`_
-    |CyVerse FAQ| page
+   |Create a CyVerse account|
+   `Getting Started Webinar <https://www.youtube.com/channel/UC-gvdjTz9rq6RovZ57LoDDA>`_
+   `About Cyverse <https://cyverse.org/about>`_
+   |CyVerse FAQ| page
 
 -----
 
