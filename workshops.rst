@@ -37,17 +37,6 @@ running your own CyVerse workshop.
       - Workshop to train new PIs on advanced cyberinfrastructure
       - Discovery Environment, Atmosphere, VICE, DataStore
 
-----
-
-**CyVerse Homepage:** |CyVerse Homepage|
-
-**Funding and Citations:**
-
-CyVerse is funded entirely by the National Science Foundation under
-Award Numbers DBI-0735191, DBI-1265383, and DBI-1743442.
-
-Please cite CyVerse appropriately when you make use of our resources,
-|CyVerse citation policy|.
 
 ----
 
