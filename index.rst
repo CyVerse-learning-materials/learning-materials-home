@@ -2,9 +2,8 @@
 
 |CyVerse logo|
 
-===============
-Welcome to the CyVerse Learning Center
-===============
+
+**Welcome to the CyVerse Learning Center**
 
 The CyVerse Learning center is a release of our learning materials in the
 popular "Read the Docs" formatting. We are transitioning our leaning materials from our wiki
@@ -14,9 +13,9 @@ materials or create and share your own. If you have ideas or suggestions please
 email `Tutorials@CyVerse.org <mailto:Tutorials@cyverse.org>`_. You can also
 view, edit, and submit contributions on |Github|.
 
-
+----------------
 Getting Started
----------------
+----------------
 
 - |Create a CyVerse account|
 - `Getting Started Webinar <https://www.youtube.com/channel/UC-gvdjTz9rq6RovZ57LoDDA>`_ - Every 1-2 months. Watch recent webinars
@@ -26,8 +25,9 @@ Getting Started
 
 -----
 
+----------------
 Training
----------------
+----------------
 
 - `Quick Starts <./quick_starts.html>`_
 - `Platform Guides <./platform_guides.html>`_
@@ -37,8 +37,9 @@ Training
 
 -----
 
+----------------
 Get Involved
----------------
+----------------
 
 - `Intergrate your own Tools and Apps <./tools_and_apps.html>`_
 - `Contributing to the Learning Center <./contributing.html>`_
@@ -48,7 +49,7 @@ Get Involved
 -----
 
 External Collaborative Partnerships
------------------------------------
+------------------------------------
 The |External Collaborative Partnership| program pairs members of our user community with expert staff to address the computational needs of a specific scientific project. To participate, please review the required criteria and then complete the |ECP Request web form|. CyVerse does not provide funding support for external projects.
 
 
