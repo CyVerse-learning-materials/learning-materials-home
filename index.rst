@@ -2,8 +2,9 @@
 
 |CyVerse logo|
 
+===============
 Welcome to the CyVerse Learning Center
------------------------------------------------
+===============
 
 The CyVerse Learning center is a release of our learning materials in the
 popular "Read the Docs" formatting. We are transitioning our leaning materials from our wiki
@@ -13,35 +14,36 @@ materials or create and share your own. If you have ideas or suggestions please
 email `Tutorials@CyVerse.org <mailto:Tutorials@cyverse.org>`_. You can also
 view, edit, and submit contributions on |Github|.
 
-===============
-Getting Started
-===============
 
-- `Getting Started Webinar <https://www.youtube.com/channel/UC-gvdjTz9rq6RovZ57LoDDA>`_
-- `About Cyverse <https://cyverse.org/about>`_
-- `Powered by CyVerse <https://www.cyverse.org/powered-by-cyverse>`_
-- `Quickstarts <./quick_starts.html>`_
+Getting Started
+---------------
+
 - |Create a CyVerse account|
+- `Getting Started Webinar <https://www.youtube.com/channel/UC-gvdjTz9rq6RovZ57LoDDA>`_ : Every 1-2 months. Watch recent webinars:
+- `About Cyverse <https://cyverse.org/about>`_
 - |CyVerse FAQ|
 
------
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Training
-
-   platform_guides
-   tutorials
-   workshops
 
 -----
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Get Involved
+Training
+---------------
 
-   tools_and_apps
-   contributing
+- `Quick Starts <./quick_starts.html>`_
+- `Platform Guides <./platform_guides.html>`_
+- `Tutorials <./tutorials.html>`_
+- `Workshops <./workshops.html>`_
+
+
+-----
+
+Get Involved
+---------------
+
+- `Intergrate your own Tools and Apps <./tools_and_apps.html>`_
+- `Contributing to the Learning Center <./contributing.html>`_
+- `Powered by CyVerse <https://www.cyverse.org/powered-by-cyverse>`_
+
 
 -----
 
