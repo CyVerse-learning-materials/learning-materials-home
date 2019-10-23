@@ -18,7 +18,6 @@ Getting Started
 ----------------
 
 - |Create a CyVerse account|
---------------------------------
 - `Getting Started Webinar <https://www.youtube.com/channel/UC-gvdjTz9rq6RovZ57LoDDA>`_ - Every 1-2 months. Watch recent webinars
 - `About Cyverse <https://cyverse.org/about>`_
 - |CyVerse FAQ|
