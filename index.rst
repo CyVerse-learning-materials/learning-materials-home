@@ -13,11 +13,12 @@ materials or create and share your own. If you have ideas or suggestions please
 email `Tutorials@CyVerse.org <mailto:Tutorials@cyverse.org>`_. You can also
 view, edit, and submit contributions on |Github|.
 
-
+----------------
 Getting Started
 ----------------
 
 - |Create a CyVerse account|
+--------------------------------
 - `Getting Started Webinar <https://www.youtube.com/channel/UC-gvdjTz9rq6RovZ57LoDDA>`_ - Every 1-2 months. Watch recent webinars
 - `About Cyverse <https://cyverse.org/about>`_
 - |CyVerse FAQ|
@@ -25,7 +26,7 @@ Getting Started
 
 -----
 
-
+----------------
 Training
 ----------------
 
@@ -37,7 +38,7 @@ Training
 
 -----
 
-
+----------------
 Get Involved
 ----------------
 
@@ -46,7 +47,6 @@ Get Involved
 - `Powered by CyVerse <https://www.cyverse.org/powered-by-cyverse>`_
 
 
------
 
 External Collaborative Partnerships
 ------------------------------------
