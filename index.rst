@@ -41,7 +41,7 @@ Training
 Get Involved
 ----------------
 
-- `Intergrate your own Tools and Apps <./tools_and_apps.html>`_
+- `Integrate your own Tools and Apps <./tools_and_apps.html>`_
 - `Contributing to the Learning Center <./contributing.html>`_
 - `Powered by CyVerse <https://www.cyverse.org/powered-by-cyverse>`_
 
