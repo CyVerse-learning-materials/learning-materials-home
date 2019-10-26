@@ -1,5 +1,4 @@
-.. include:: cyverse_rst_defined_substitutions.txt
-.. include:: ../README.rst
+.. include:: README.rst
 
 .. toctree::
    :caption: Pages
