@@ -22,19 +22,6 @@ Getting Started
 - `About Cyverse <https://cyverse.org/about>`_
 - |CyVerse FAQ|
 
-
------
-
-----------------
-Training
-----------------
-
-- `Quick Starts <./quick_starts.html>`_
-- `Platform Guides <./platform_guides.html>`_
-- `Tutorials <./tutorials.html>`_
-- `Workshops <./workshops.html>`_
-
-
 -----
 
 ----------------
