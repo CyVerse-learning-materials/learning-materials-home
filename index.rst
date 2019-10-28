@@ -1,7 +1,7 @@
 .. include:: README.rst
 
 .. toctree::
-   :caption: Pages
+   :caption: Welcome to CyVerse
    :maxdepth: 3
 
    README
