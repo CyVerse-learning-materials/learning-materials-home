@@ -2,7 +2,7 @@
 
 .. toctree::
    :caption: Pages
-   :maxdepth: 2
+   :maxdepth: 3
 
    README
    platform_guides
