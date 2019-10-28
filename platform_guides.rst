@@ -5,8 +5,15 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
+=======
 Platform Guides
-----------------
+=======
+
+
+Discovery Environment
+-------------
+
+|Discovery Environment Guide|
 
 CyVerse offers an interconnected series of platforms, tools and services. These
 guides will help you navigate the top-level user platforms. 
