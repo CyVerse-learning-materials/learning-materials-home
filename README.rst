@@ -18,26 +18,17 @@ Getting Started
 ----------------
 
 - |Create a CyVerse account|
-- `Getting Started Webinar <https://www.youtube.com/channel/UC-gvdjTz9rq6RovZ57LoDDA>`_ - Every 1-2 months. Watch recent webinars
-- `About Cyverse <https://cyverse.org/about>`_
 - |CyVerse FAQ|
-
------
-
-----------------
-Get Involved
-----------------
-
-- `Integrate your own Tools and Apps <./tools_and_apps.html>`_
-- `Contributing to the Learning Center <./contributing.html>`_
-- `Powered by CyVerse <https://www.cyverse.org/powered-by-cyverse>`_
-
+- `Getting Started Webinar <https://www.youtube.com/channel/UC-gvdjTz9rq6RovZ57LoDDA>`_ - Every 1-2 months. Watch recent webinars
+- `About CyVerse<https://cyverse.org/about>`_
 
 
 External Collaborative Partnerships
 ------------------------------------
+
 The |External Collaborative Partnership| program pairs members of our user community with expert staff to address the computational needs of a specific scientific project. To participate, please review the required criteria and then complete the |ECP Request web form|. CyVerse does not provide funding support for external projects.
 
+- `Powered by CyVerse <https://www.cyverse.org/powered-by-cyverse>`_
 
 ----
 
