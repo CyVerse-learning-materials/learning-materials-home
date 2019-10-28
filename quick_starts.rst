@@ -6,7 +6,10 @@
 `Learning Center Home <http://learning.cyverse.org/>`_
 
 Quick Start Guides
------------------------------------------------
+==================
+
+- |Create a CyVerse account|
+----------------------------
 
 ..
     New Repositories will should be directly linked to the subproject path. For
