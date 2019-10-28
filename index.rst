@@ -4,6 +4,7 @@
    :caption: Pages
    :maxdepth: 2
 
+   README
    platform_guides
    tools_and_apps
    quick_starts
