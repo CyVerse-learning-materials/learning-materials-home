@@ -8,28 +8,28 @@
 Quick Start Guides
 ==================
 
-|Create a CyVerse account|
+- |Create a CyVerse account|
 --------------------------
 
-|Import data from NCBI SRA using the Discovery Environment|
+- |Import data from NCBI SRA using the Discovery Environment|
 ------------------------------------------------------------------------------
 
-|Evaluate High-throughput Sequencing Reads with FastQC|
+- |Evaluate High-throughput Sequencing Reads with FastQC|
 ----------------------------------------------------
 
-|Filter, Trim, and Process High-throughput Sequencing Reads with Trimmomatic|
+- |Filter, Trim, and Process High-throughput Sequencing Reads with Trimmomatic|
 ------------------------------------------------------------------------------
 
-|EZ installation of popular data science tools|
+- |EZ installation of popular data science tools|
 ----------------------------------------------------
 
-|Submit High-throughput Sequencing Reads to NCBI Sequence Read Archive (SRA)|
+- |Submit High-throughput Sequencing Reads to NCBI Sequence Read Archive (SRA)|
 ------------------------------------------------------------------------------
 
-|Request a DOI|
+- |Request a DOI|
 --------------------------
 
-|Create a Group Project|
+- |Create a Group Project|
 --------------------------
 ..
     New Repositories will should be directly linked to the subproject path. For
