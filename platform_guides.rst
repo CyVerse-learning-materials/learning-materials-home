@@ -5,66 +5,73 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-=======
+===============
 Platform Guides
-=======
-
-
-Discovery Environment
--------------
-
-|Discovery Environment Guide|
+===============
 
 CyVerse offers an interconnected series of platforms, tools and services. These
-guides will help you navigate the top-level user platforms. 
+guides will help you navigate the top-level user platforms.
 
-.. list-table::
-    :header-rows: 1      
+Discovery Environment
+---------------------
+
+Use hundreds of bioinformatics apps and manage data in the CyVerse Data Store from a simple web interface
+
+- |Discovery Environment Guide| 
+- |DE Manual|
+
+
+Atmosphere
+---------- 
+
+Cloud computing with CyVerse
+
+- |Atmosphere Guide|
+- |Atmosphere Manual|
+
+Data Store
+----------
+
+A unified system for managing and sharing your data across CyVerse's tools and services
+     
+- |Data Store Guide|
+- |Data Store Manual|
+
+DNA Subway
+----------
+
+Educator-focused access to data and informatics tools for modern biology
+
+- |DNA Subway Guide|
       
-    * - Platform/Service
-      - Notes
-      - Guide
-      - Full documentation
-    * - Discovery Environment
-      - Use hundreds of bioinformatics apps and manage data in the CyVerse Data
-        Store from a simple web interface
-      - |Discovery Environment Guide|
-      - |DE Manual|
-    * - Atmosphere
-      - Cloud computing platform for CyVerse
-      - |Atmosphere Guide|
-      - |Atmosphere Manual|
-    * - Data Store
-      - A unified system for managing and sharing your data across CyVerse's
-        tools and services
-      - |Data Store Guide|
-      - |Data Store Manual|
-    * - DNA Subway
-      - Educator-focused access to data and informatics tools for modern biology
-      - |DNA Subway Guide|
-      - See Guide
-    * - BisQue
-      - Bio-Image Semantic Query User Environment for the exchange and
-        exploration of image data
-      - Coming Soon
-      - |BisQue Manual|
-    * - SciApps
-      - A web-based platform for reproducible bioinformatics workflows
-      - |SciApps Guide|
-      - See Guide
-    * - Science APIs
-      - CyVerse provides programmatic access to its services through multiple
-        APIs (application programming interfaces), access points with various
-        levels of complexity
-      - |Agave Live Docs|
-      - See Live Docs
-    * - VICE
-      - Visual Interactive Computing Environment VICE introduces graphic user
-        interfaces (GUIs) and common Integrated Development Environments (IDEs)
-        such as Project Jupyter Notebooks & Lab, RStudio, Shiny Apps and Linux
-        Desktop
-      - |Vice Documentation|
-      - See Vice Documentation
+BisQue
+------
+
+Bio-Image Semantic Query User Environment for the exchange and exploration of image data
+
+- |BisQue Manual|
+      
+SciApps
+-------
+
+A web-based platform for reproducible bioinformatics workflows
+
+- |SciApps Guide|
+
+Science APIs
+------------
+
+CyVerse provides programmatic access to its services through multiple APIs (application programming interfaces), access points with various levels of complexity
+
+ - |Agave Live Docs|
+
+VICE
+----
+
+Visual Interactive Computing Environment VICE introduces graphic user interfaces (GUIs) and common Integrated Development Environments (IDEs) such as Project Jupyter Notebooks & Lab, RStudio, Shiny Apps and Linux Desktop
+
+- |Vice Documentation|
+
 -----
 
 
