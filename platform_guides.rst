@@ -63,7 +63,7 @@ Science APIs
 
 CyVerse provides programmatic access to its services through multiple APIs (application programming interfaces), access points with various levels of complexity
 
- - |Agave Live Docs|
+- |Tapis Live Docs|
 
 VICE
 ----
@@ -212,3 +212,7 @@ Please cite CyVerse appropriately when you make use of our resources,
 .. |ECP Request web form| raw:: html
    
     <a href="https://user.cyverse.org/forms/3" target="blank">ECP Request web form</a>
+
+.. |Tapis Live Docs| raw:: html
+   
+   <a href="https://www.tacc.utexas.edu/tapis" target="blank">Tapis Live Docs</a>
