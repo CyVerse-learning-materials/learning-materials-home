@@ -105,7 +105,7 @@ Please cite CyVerse appropriately when you make use of our resources,
   :width: 750
 
 
-.. |GitHub| raw:: html
+.. |Github Repo Link| raw:: html
 
    <a href="https://github.com/CyVerse-learning-materials" target="blank">GitHub</a>
 
