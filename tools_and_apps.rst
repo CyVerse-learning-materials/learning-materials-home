@@ -34,6 +34,10 @@ developing new applications.
 
 ----
 
+.. |Github Repo Link| raw:: html
+
+   <a href="https://github.com/CyVerse-learning-materials" target="blank">GitHub</a>
+
 .. |Vice Documentation| raw:: html
 
     <a href="https://learning.cyverse.org/projects/vice" target="blank">Vice Documentation</a>
