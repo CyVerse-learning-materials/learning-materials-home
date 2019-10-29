@@ -42,7 +42,7 @@ running your own CyVerse workshop.
 
 **Fix or improve this documentation**
 
-- On Github: `Repo link <https://github.com/CyVerse-learning-materials/Visual_Interactive_Computing_Environment>`_
+- On Github: |Github Repo Link|
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 
 ----
@@ -55,7 +55,7 @@ running your own CyVerse workshop.
   :width: 750
 
 
-.. |GitHub| raw:: html
+.. |Github Repo Link| raw:: html
 
    <a href="https://github.com/CyVerse-learning-materials" target="blank">GitHub</a>
 
