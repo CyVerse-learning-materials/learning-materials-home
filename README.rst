@@ -53,7 +53,7 @@ Please cite CyVerse appropriately when you make use of our resources, see
 
 **Fix or improve this documentation**
 
-- On Github: `Repo link <https://github.com/CyVerse-learning-materials/Visual_Interactive_Computing_Environment>`_
+- On Github: |Github Repo Link|
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 
 ----
@@ -66,7 +66,7 @@ Please cite CyVerse appropriately when you make use of our resources, see
   :width: 750
 
 
-.. |GitHub| raw:: html
+.. |Github Repo Link| raw:: html
 
    <a href="https://github.com/CyVerse-learning-materials" target="blank">GitHub</a>
 
