@@ -53,10 +53,6 @@ These are involved tutorials that cover popular science workflows.
         to directly submit your data into an SRA-linked BioProject.
 
 
-
-
-
-
 ----
 
 **Fix or improve this documentation:**
@@ -69,6 +65,7 @@ These are involved tutorials that cover popular science workflows.
 .. |CyVerse logo| image:: ./img/cyverse_cmyk.png
 	:width: 500
 	:height: 100
+	
 .. |Home_Icon| image:: ./img/homeicon.png
     :width: 25
     :height: 25
@@ -77,8 +74,7 @@ These are involved tutorials that cover popular science workflows.
 .. |platform_stack| image:: ./img/cyverse_platform_stack.png
   :width: 750
 
-
-.. |GitHub| raw:: html
+.. |Github Repo Link| raw:: html
 
    <a href="https://github.com/CyVerse-learning-materials" target="blank">GitHub</a>
 
