@@ -33,3 +33,7 @@ adding new documentation pieces.
 .. |documentation Quickstart| raw:: html
 
     <a href="https://learning.cyverse.org/projects/Documentation-Quickstart/en/latest/" target="blank">Documentation Quickstart</a>
+
+.. |Github Repo Link| raw:: html
+
+   <a href="https://github.com/CyVerse-learning-materials" target="blank">GitHub</a>
