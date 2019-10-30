@@ -1,6 +1,6 @@
 .. include:: cyverse_rst_defined_substitutions.txt
 
-|CyVerse logo|
+|CyVerse_logo|_
 
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
@@ -47,13 +47,18 @@ running your own CyVerse workshop.
 
 ----
 
-.. |CyVerse logo| image:: ./img/cyverse_cmyk.png
+.. |CyVerse_logo| image:: ./img/cyverse_cmyk.png
 	:width: 500
 	:height: 100
+.. _CyVerse_logo: https://cyverse.org
+
+.. |Home_Icon| image:: ./img/homeicon.png
+    :width: 25
+    :height: 25
+.. _Home_Icon: http://learning.cyverse.org/
 
 .. |platform_stack| image:: ./img/cyverse_platform_stack.png
   :width: 750
-
 
 .. |Github Repo Link| raw:: html
 
