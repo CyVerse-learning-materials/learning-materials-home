@@ -46,8 +46,11 @@ Please cite CyVerse appropriately when you make use of our resources, see
 	:width: 500
 	:height: 100
 
+    <a href="https://cyverse.org" target="blank">CyVerse logo</a>	
+
+
 .. |platform_stack| image:: ./img/cyverse_platform_stack.png
-  :width: 750
+  	:width: 750
 
 
 .. |Github Repo Link| raw:: html
