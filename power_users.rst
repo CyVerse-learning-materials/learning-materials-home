@@ -1,7 +1,7 @@
 
 .. include:: cyverse_rst_defined_substitutions.txt
 
-|CyVerse_logo|
+|CyVerse_logo|_
 
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
@@ -28,7 +28,6 @@ There are several APIs to CyVerse's resources:
   + `Run the Jupyter Notebook in the DE <https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=0a66a5ec-9010-4b8c-9e75-ec0aa7e7bb1d&app-id=d61d9a26-e921-11e9-8fe0-008cfa5ae621>`_
   
 
-
 - `Tapis: <https://tacc-cloud.readthedocs.io/en/latest/>`_ Formerly Agave, an indepedent API to the HPC resources CyVerse uses at TACC   
 
 External Collaborative Partnerships
@@ -46,3 +45,13 @@ Third-party projects can leverage our cyberinfrastructure to provide services to
 - High-performance framework: Execute analyses on High Performance Computing resources.
 
 `Get Powered by CyVerse Today <https://www.cyverse.org/powered-by-cyverse>`_
+
+.. |CyVerse_logo| image:: ./img/cyverse_cmyk.png
+	:width: 500
+	:height: 100
+.. _CyVerse_logo: https://cyverse.org
+
+.. |Home_Icon| image:: ./img/homeicon.png
+    :width: 25
+    :height: 25
+.. _Home_Icon: http://learning.cyverse.org/
