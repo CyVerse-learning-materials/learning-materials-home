@@ -45,13 +45,10 @@ Please cite CyVerse appropriately when you make use of our resources, see
 .. |CyVerse logo| image:: ./img/cyverse_cmyk.png
 	:width: 500
 	:height: 100
-
-    <a href="https://cyverse.org" target="blank">CyVerse logo</a>	
-
+.. _CyVerse logo: http://learning.cyverse.org/
 
 .. |platform_stack| image:: ./img/cyverse_platform_stack.png
   	:width: 750
-
 
 .. |Github Repo Link| raw:: html
 
