@@ -11,3 +11,4 @@
    tutorials
    workshops
    contributing
+   power_users
