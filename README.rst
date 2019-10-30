@@ -21,22 +21,6 @@ Getting Started
 - `Getting Started Webinars <https://www.youtube.com/channel/UC-gvdjTz9rq6RovZ57LoDDA>`_ - Watch recent webinars
 - `About CyVerse <https://cyverse.org/about>`_
 
-External Collaborative Partnerships
-------------------------------------
-
-The |External Collaborative Partnership| program pairs members of our user community with expert staff to address the computational needs of a specific scientific project. To participate, please review the required criteria and then complete the |ECP Request web form|. CyVerse does not provide funding support for external projects.
-
-Powered by CyVerse 
-------------------
-
-Third-party projects can leverage our cyberinfrastructure to provide services to their users, including:
-
-- Authentication system: Use secure single sign-on between your application and all CyVerse services.
-- Data Store: Store, share and distribute large amounts of data.
-- High-performance framework: Execute analyses on High Performance Computing resources.
-
-`Get Powered by CyVerse Today <https://www.cyverse.org/powered-by-cyverse>`_
-
 ----
 
 **CyVerse Homepage:** |CyVerse Homepage|
