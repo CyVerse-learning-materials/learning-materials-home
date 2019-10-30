@@ -29,7 +29,7 @@ These include short guides through common tasks.
       - Install anaconda (Python 2 or 3, R, Jupyter notebooks), Rstudio,
         Singularity, or Docker easily on any Atmosphere or Jetstream cloud
         computer (instance).
-    * -  <a href="https://cyverse-data-store-quickstart.readthedocs-hosted.com/en/latest/" target="blank">Data Store</a>
+    * - |Data Store|
       - CyVerse Data Store
       - Access through Discovery Enviornment, Command Line, Cyberduck
     * - |Request a DOI|
@@ -121,4 +121,8 @@ Please cite CyVerse appropriately when you make use of our resources,
 .. |Create a Group Project| raw:: html
 
     <a href="https://cyverse-group-project-quickstart.readthedocs-hosted.com/en/latest/" target="blank">Create a Group Project</a>
+
+.. |Data Store| raw:: html
+
+     <a href="https://cyverse-data-store-quickstart.readthedocs-hosted.com/en/latest/" target="blank">Data Store</a>
  
