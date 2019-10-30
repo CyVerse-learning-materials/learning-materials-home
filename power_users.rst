@@ -36,7 +36,7 @@ External Collaborative Partnerships
 The |External Collaborative Partnership| program pairs members of our user community with expert staff to address the computational needs of a specific scientific project. To participate, please review the required criteria and then complete the |ECP Request web form|. CyVerse does not provide funding support for external projects.
 
 Powered by CyVerse 
-------------------
+==================
 
 Third-party projects can leverage our cyberinfrastructure to provide services to their users, including:
 
