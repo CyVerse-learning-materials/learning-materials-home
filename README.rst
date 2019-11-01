@@ -37,7 +37,7 @@ Please cite CyVerse appropriately when you make use of our resources, see
 
 **Fix or improve this documentation**
 
-- On Github: |Github Repo Link|
+- On Github: |Github|
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 
 ----
@@ -50,7 +50,7 @@ Please cite CyVerse appropriately when you make use of our resources, see
 .. |platform_stack| image:: ./img/cyverse_platform_stack.png
   	:width: 750
 
-.. |Github Repo Link| raw:: html
+.. |Github| raw:: html
 
    <a href="https://github.com/CyVerse-learning-materials" target="blank">GitHub</a>
 
