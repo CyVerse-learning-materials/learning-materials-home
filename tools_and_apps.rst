@@ -19,7 +19,7 @@ developing new applications.
       - Platform(s)
       - Notes
     * - |VICE Documentation|
-      - VICE
+      - Visual Interactive Compute Environment
       - Quick guide to developing for VICE.
     * - |Creating and Running Docker Containers|
       - Discovery Environment, VICE, Atmosphere
