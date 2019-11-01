@@ -18,7 +18,7 @@ developing new applications.
     * - Documentation
       - Platform(s)
       - Notes
-    * - |Vice Documentation|
+    * - |VICE Documentation|
       - VICE
       - Quick guide to developing for VICE.
     * - |Creating and Running Docker Containers|
@@ -48,7 +48,7 @@ developing new applications.
 
    <a href="https://github.com/CyVerse-learning-materials" target="blank">GitHub</a>
 
-.. |Vice Documentation| raw:: html
+.. |VICE Documentation| raw:: html
 
     <a href="https://learning.cyverse.org/projects/vice" target="blank">Vice Documentation</a>
     
