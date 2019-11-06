@@ -46,7 +46,9 @@ Discovery Environment Tutorials
     * - |Assemble a Genome Using SOAPdenovo|
       - Commonly used procedure for de novo whole genome assembly of Illumina reads using the DE: 
         Assemble reads, Assess assembly
-    * - |
+    * - |BLAST a Transcriptome|
+      - Reduce number of transcripts and level of redundancy in an assembled transcriptome,
+        and identify coding sequences that can be submitted to BLASTP searches.
 
 .. list-table::
     :header-rows: 1
@@ -101,6 +103,10 @@ Discovery Environment Tutorials
 .. |Assemble a Genome Using SOAPdenovo| raw:: html
 
    <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=14588299" target="blank">Assemble a Genome Using SOAPdenovo</a>
+   
+.. |BLAST a Transcriptome| raw:: html
+
+   <a href="https://wiki.cyverse.org/wiki/display/TUT/Tutorial%3A+BLAST+a+Transcriptome" target="blank">BLAST a Transcriptome</a>
 
 .. |Evaluate High-throughput Sequencing Reads with FastQC| raw:: html
 
