@@ -1,5 +1,16 @@
 .. Comment: URLS
 
+.. |CyVerse_logo| image:: ./img/cyverse_cmyk.png
+	:width: 500
+
+.. _CyVerse_logo: https://cyverse.org
+
+.. |Home_Icon| image:: ./img/homeicon.png
+    :width: 25
+    :height: 25
+
+.. _Home_Icon: http://learning.cyverse.org/
+
 .. |CyVerse User Portal| raw:: html
 
   <a href="https://user.cyverse.org/" target="_blank">CyVerse User Portal</a>
