@@ -63,7 +63,39 @@ Discovery Environment Tutorials
       - SciApps
       - A genome-wide association study (or GWAS) workflow using TASSEL, EMMAX,
         and MLMM for mixed model analysis.
-    
+	
+.. list-table::
+    :header-rows: 1
+
+    * - Tutorial
+      - Notes
+    * - |Basic Stacks|
+      - Use next generation sequence data produced from Reduced Representation Libraries (RRL) such as
+      Restriction site associated (RAD) tags. 
+    * - |BATools 0.0.1|
+      - Introduce new users to BATools and the BATools Wrapper Script.
+    * - |Evolinc|
+      - Evolinc is a two-part pipeline to identify lincRNAs from an assembled transcriptome file (.gtf output
+      from cufflinks) and then determine the extent to which those lincRNAs are conserved in the genome and
+      transcriptome of other species.
+    * - |FaST-LMM.Py v2.02|
+      - Introduce new users to the FaST-LMM software for GWAS analysis.
+    * - |fastStructure|
+      - fastStructure is a fast algorithm for inferring population structure from large SNP genotype data. It is based on a variational Bayesian framework for posterior inference and is written in Python2.x.
+    * - |Installing R packages on Atmosphere|
+      - Install R packages on Atmosphere: Launch instance, transfer files to instance, install R package, request imaging.
+    * - |KOBAS 2.0-09052014|
+      - Learn how to annotate and identify using KOBAS 2.0.
+    * - |QIIME-1.9.1 for Atmosphere|
+      - QIIME is an open-source bioinformatics pipeline for performing microbiome analysis from raw DNA sequencing data. QIIME is designed to take users from raw sequencing data generated on the Illumina or other platforms through publication quality graphics and statistics. QIIME has been applied to studies based on billions of sequences from tens of thousands of samples.
+    * - |QUAST 4.0|
+      - QUAST is a tool for  evaluating genome assemblies by computing various metrics.
+    * - |rnaQUAST 1.1.0|
+      - rnaQUAST is a tool for evaluating RNA-Seq assemblies using reference genome and gene data database. In addition, rnaQUAST is also capable of estimating gene database coverage by raw reads and de novo quality assessment using third-party software (STAR, TopHat, GMAP etc.).
+    * - |rnaQUAST 1.2.0|
+      - rnaQUAST is a tool for evaluating RNA-Seq assemblies using reference genome and gene data database. In addition, rnaQUAST is also capable of estimating gene database coverage by raw reads and de novo quality assessment using third-party software (STAR, TopHat, GMAP etc.).
+    * - |Validate Workflow v0.9|
+      - Learn to navigate the Validate Workflow. 
 
 ----
 
@@ -206,3 +238,51 @@ Discovery Environment Tutorials
 .. |ECP Request web form| raw:: html
 
     <a href="https://user.cyverse.org/forms/3" target="blank">ECP Request web form</a>
+
+.. |Basic Stacks| raw:: html
+
+    <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=14586386" target="blank">Basic Stacks</a>
+
+.. |BATools 0.0.1| raw:: html
+
+    <a href="https://wiki.cyverse.org/wiki/pages/editpage.action?pageId=11443702" target="blank">BATools 0.0.1</a>
+
+.. |Evolinc| raw:: html
+
+    <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=22677526" target="blank">Evolinc</a>
+
+.. |FaST-LMM.Py v2.02| raw:: html
+
+    <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=12884250" target="blank">FaST-LMM.Py v2.02</a>
+
+.. |fastStructure| raw:: html
+
+    <a href="https://wiki.cyverse.org/wiki/display/TUT/fastStructure+using+Atmosphere" target="blank">fastStructure</a>
+
+.. |Installing R packages on Atmosphere| raw:: html
+
+    <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=11445211" target="blank">Installing R packages on Atmosphere</a>
+
+.. |KOBAS 2.0-09052014| raw:: html
+
+    <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=12223187" target="blank">KOBAS 2.0-09052014</a>
+
+.. |QIIME-1.9.1 for Atmosphere| raw:: html
+
+    <a href="https://wiki.cyverse.org/wiki/display/TUT/QIIME-1.9.1+using+Atmosphere" target="blank">QIIME-1.9.1 for Atmosphere</a>
+
+.. |QUAST 4.0| raw:: html
+
+    <a href="https://wiki.cyverse.org/wiki/display/TUT/QUAST+4.0+Using+Atmosphere" target="blank">QUAST 4.0</a>
+
+.. |rnaQUAST 1.1.0| raw:: html
+
+    <a href="https://wiki.cyverse.org/wiki/display/TUT/rnaQUAST+1.1.0+using+Atmosphere" target="blank">rnaQUAST 1.1.0</a>
+
+.. |rnaQUAST 1.2.0| raw:: html
+
+    <a href="https://wiki.cyverse.org/wiki/display/TUT/rnaQUAST+1.1.0+using+Atmosphere" target="blank">rnaQUAST 1.2.0</a>
+
+.. |Validate Workflow v0.9| raw:: html
+
+    <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=21139103" target="blank">Validate Workflow v0.9</a>
