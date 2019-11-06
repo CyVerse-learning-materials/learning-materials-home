@@ -211,7 +211,7 @@ Atmosphere
    
 .. |Taxonomic Name Resolution Service (TNRS)| raw:: html
 
-   <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=11447869" target="blank">Taxonomic Name Resolution Service (TNRS) D</a>
+   <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=11447869" target="blank">Taxonomic Name Resolution Service (TNRS)</a>
 
 .. |Evaluate High-throughput Sequencing Reads with FastQC| raw:: html
 
