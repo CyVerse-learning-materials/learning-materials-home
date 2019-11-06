@@ -10,5 +10,6 @@
    quick_starts
    tutorials
    workshops
+   webinars
    contributing
    power_users
