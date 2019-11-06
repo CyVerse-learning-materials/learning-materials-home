@@ -206,7 +206,7 @@ Atmosphere
    
 .. |QIIME-1.9.1 for the DE| raw:: html
 
-   <a href="https://wiki.cyverse.org/wiki/display/TUT/QIIME-1.9.1+in+Discovery+Environment" target="blank">QIIME-1.9.1 for the D</a>
+   <a href="https://wiki.cyverse.org/wiki/display/TUT/QIIME-1.9.1+in+Discovery+Environment" target="blank">QIIME-1.9.1 for the DE</a>
    
    
 .. |Taxonomic Name Resolution Service (TNRS)| raw:: html
