@@ -69,6 +69,10 @@ Discovery Environment Tutorials
 	without the need for alignment.
     * - |mini SOAPdenovo|
       - Gain familiarity with a commonly used procedure for de novo whole genome assembly of Illumina reads using the DE.
+    * - |QIIME-1.9.1 for the DE|
+      - QIIME is an open-source bioinformatics pipeline for performing microbiome analysis from raw DNA sequencing data.
+    * - |Taxonomic Name Resolution Service (TNRS)|
+      - Become familiar with TNRS to identify, correct, and update scientific names of plants.
 
 .. list-table::
     :header-rows: 1
@@ -198,6 +202,16 @@ Atmosphere
 .. |mini SOAPdenovo| raw:: html
 
    <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=22676743" target="blank">mini SOAPdenovo</a>
+   
+   
+.. |QIIME-1.9.1 for the DE| raw:: html
+
+   <a href="https://wiki.cyverse.org/wiki/display/TUT/QIIME-1.9.1+in+Discovery+Environment" target="blank">QIIME-1.9.1 for the D</a>
+   
+   
+.. |Taxonomic Name Resolution Service (TNRS)| raw:: html
+
+   <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=11447869" target="blank">Taxonomic Name Resolution Service (TNRS) D</a>
 
 .. |Evaluate High-throughput Sequencing Reads with FastQC| raw:: html
 
