@@ -1,6 +1,10 @@
 .. include:: cyverse_rst_defined_substitutions.txt
 
+
 |CyVerse_logo|_
+
+|Home_Icon|_
+`Learning Center Home <http://learning.cyverse.org/>`_
 
 **Welcome to the CyVerse Learning Center**
 
@@ -42,10 +46,7 @@ Please cite CyVerse appropriately when you make use of our resources, see
 
 ----
 
-.. |CyVerse_logo| image:: ./img/cyverse_cmyk.png
-	:width: 500
-	:height: 100
-.. _CyVerse_logo: http://cyverse.org/
+
 
 .. |platform_stack| image:: ./img/cyverse_platform_stack.png
   	:width: 750
