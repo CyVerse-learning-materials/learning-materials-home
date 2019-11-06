@@ -30,15 +30,7 @@ adding new documentation pieces.
 - On Github: |Github Repo Link|
 - Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
 
-.. |CyVerse_logo| image:: ./img/cyverse_cmyk.png
-	:width: 500
-	:height: 100
-.. _CyVerse_logo: https://cyverse.org
 
-.. |Home_Icon| image:: ./img/homeicon.png
-    :width: 25
-    :height: 25
-.. _Home_Icon: http://learning.cyverse.org/
 
 .. |documentation Quickstart| raw:: html
 
