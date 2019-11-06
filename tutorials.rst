@@ -52,6 +52,23 @@ Discovery Environment Tutorials
     * - |Characterizing Differential Expression With RNA-Seq (Without Reference Genome)|
       - Identify changes in gene expression levels between at least two sequenced 
         transcriptome samples (18 separate tutorials)
+    * - |Cluster Orthologs and Paralogs and Assemble Custom Gene Sets|
+      - Input entire protein-encoding gene or transcript repertoires from genomes of interest,
+        and cluster homologs (orthologs and paralogs), then query clusters to assemble 
+	gene sets based on presence/absence and copy number.
+    * - |Discover Variants Using SAM Tools|
+      - Detect and call variants from sequence reads using Bowtie and SAM Tools.
+    * - |Evaluate and Pre-Process Sequencing Reads|
+      - Clean and filter Illumina reads using DE apps.
+    * - |Genome-wide Association Study (GWAS) Using a Genotyping-by-sequencing Approach|
+      - Learn to identify genetic variants that are associated with a trait.
+    * - |Kallisto-0.42.3-INDEX-QUANT-PE|
+      - Kallisto is a program for quantifying abundances of transcripts from RNA-Seq data, or more 
+        generally of target sequences using high-throughput sequencing reads. It is based on the 
+	novel idea of pseudoalignment for rapidly determining the compatibility of reads with targets, 
+	without the need for alignment.
+    * - |mini SOAPdenovo|
+      - Gain familiarity with a commonly used procedure for de novo whole genome assembly of Illumina reads using the DE.
 
 .. list-table::
     :header-rows: 1
@@ -156,6 +173,31 @@ Atmosphere
 .. |Characterizing Differential Expression With RNA-Seq (Without Reference Genome)| raw:: html
 
    <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=14585157" target="blank">Characterizing Differential Expression With RNA-Seq (Without Reference Genome)</a>
+   
+.. |Cluster Orthologs and Paralogs and Assemble Custom Gene Sets| raw:: html
+
+   <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=12881253" target="blank">Cluster Orthologs and Paralogs and Assemble Custom Gene Sets</a>
+   
+.. |Detect and call variants from sequence reads using Bowtie and SAM Tools.| raw:: html
+
+   <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=12880264" target="blank">Detect and call variants from sequence reads using Bowtie and SAM Tools.</a>
+   
+.. |Evaluate and Pre-Process Sequencing Reads| raw:: html
+
+   <a href="http://www.cyverse.org/learning-center/discovery-environment/de-004-genome-wide-association-study-gwas-using-genotyping" target="blank">Evaluate and Pre-Process Sequencing Reads</a>
+   
+.. |Genome-wide Association Study (GWAS) Using a Genotyping-by-sequencing Approach| raw:: html
+
+   <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=11447702" target="blank">Genome-wide Association Study (GWAS) Using a Genotyping-by-sequencing Approach</a>
+   
+   
+.. |Kallisto-0.42.3-INDEX-QUANT-PE| raw:: html
+
+   <a href="https://wiki.cyverse.org/wiki/display/TUT/Kallisto-0.42.3-INDEX-QUANT-PE+in+the+Discovery+Environment" target="blank">Kallisto-0.42.3-INDEX-QUANT-PE</a>
+   
+.. |mini SOAPdenovo| raw:: html
+
+   <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=22676743" target="blank">mini SOAPdenovo</a>
 
 .. |Evaluate High-throughput Sequencing Reads with FastQC| raw:: html
 
