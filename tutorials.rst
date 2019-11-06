@@ -49,6 +49,9 @@ Discovery Environment Tutorials
     * - |BLAST a Transcriptome|
       - Reduce number of transcripts and level of redundancy in an assembled transcriptome,
         and identify coding sequences that can be submitted to BLASTP searches.
+    * - |Characterizing Differential Expression With RNA-Seq (Without Reference Genome)|
+      - Identify changes in gene expression levels between at least two sequenced 
+        transcriptome samples (18 separate tutorials)
 
 .. list-table::
     :header-rows: 1
@@ -107,6 +110,10 @@ Discovery Environment Tutorials
 .. |BLAST a Transcriptome| raw:: html
 
    <a href="https://wiki.cyverse.org/wiki/display/TUT/Tutorial%3A+BLAST+a+Transcriptome" target="blank">BLAST a Transcriptome</a>
+   
+.. |Characterizing Differential Expression With RNA-Seq (Without Reference Genome)| raw:: html
+
+   <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=14585157" target="blank">Characterizing Differential Expression With RNA-Seq (Without Reference Genome)</a>
 
 .. |Evaluate High-throughput Sequencing Reads with FastQC| raw:: html
 
