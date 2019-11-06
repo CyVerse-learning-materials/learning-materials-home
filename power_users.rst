@@ -46,12 +46,3 @@ Third-party projects can leverage our cyberinfrastructure to provide services to
 
 `Get Powered by CyVerse Today <https://www.cyverse.org/powered-by-cyverse>`_
 
-.. |CyVerse_logo| image:: ./img/cyverse_cmyk.png
-	:width: 500
-	:height: 100
-.. _CyVerse_logo: https://cyverse.org
-
-.. |Home_Icon| image:: ./img/homeicon.png
-    :width: 25
-    :height: 25
-.. _Home_Icon: http://learning.cyverse.org/
