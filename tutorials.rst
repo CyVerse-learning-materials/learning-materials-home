@@ -66,39 +66,47 @@ Discovery Environment Tutorials
 
 Atmosphere
 ^^^^^^^^^^^
+
 .. list-table::
     :header-rows: 1
 
     * - Tutorial
       - Notes
     * - |Basic Stacks|
-      - Use next generation sequence data produced from Reduced Representation Libraries (RRL) such as
-      Restriction site associated (RAD) tags. 
+      - Use next generation sequence data produced from Reduced Representation Libraries (RRL) such as Restriction site
+      	associated (RAD) tags. 
     * - |BATools 0.0.1|
       - Introduce new users to BATools and the BATools Wrapper Script.
     * - |Evolinc|
       - Evolinc is a two-part pipeline to identify lincRNAs from an assembled transcriptome file (.gtf output
-      from cufflinks) and then determine the extent to which those lincRNAs are conserved in the genome and
-      transcriptome of other species.
+      	from cufflinks) and then determine the extent to which those lincRNAs are conserved in the genome and
+     	transcriptome of other species.
     * - |FaST-LMM.Py v2.02|
       - Introduce new users to the FaST-LMM software for GWAS analysis.
     * - |fastStructure|
-      - fastStructure is a fast algorithm for inferring population structure from large SNP genotype data. It is based on a variational Bayesian framework for posterior inference and is written in Python2.x.
+      - fastStructure is a fast algorithm for inferring population structure from large SNP genotype data. It is based on a
+        variational Bayesian framework for posterior inference and is written in Python2.x.
     * - |Installing R packages on Atmosphere|
       - Install R packages on Atmosphere: Launch instance, transfer files to instance, install R package, request imaging.
     * - |KOBAS 2.0-09052014|
       - Learn how to annotate and identify using KOBAS 2.0.
     * - |QIIME-1.9.1 for Atmosphere|
-      - QIIME is an open-source bioinformatics pipeline for performing microbiome analysis from raw DNA sequencing data. QIIME is designed to take users from raw sequencing data generated on the Illumina or other platforms through publication quality graphics and statistics. QIIME has been applied to studies based on billions of sequences from tens of thousands of samples.
+      - QIIME is an open-source bioinformatics pipeline for performing microbiome analysis from raw DNA sequencing data.
+        QIIME is designed to take users from raw sequencing data generated on the Illumina or other platforms through
+	publication quality graphics and statistics. QIIME has been applied to studies based on billions of sequences from
+	tens of thousands of samples.
     * - |QUAST 4.0|
       - QUAST is a tool for  evaluating genome assemblies by computing various metrics.
     * - |rnaQUAST 1.1.0|
-      - rnaQUAST is a tool for evaluating RNA-Seq assemblies using reference genome and gene data database. In addition, rnaQUAST is also capable of estimating gene database coverage by raw reads and de novo quality assessment using third-party software (STAR, TopHat, GMAP etc.).
+      - rnaQUAST is a tool for evaluating RNA-Seq assemblies using reference genome and gene data database. In addition,
+        rnaQUAST is also capable of estimating gene database coverage by raw reads and de novo quality assessment using
+	third-party software (STAR, TopHat, GMAP etc.).
     * - |rnaQUAST 1.2.0|
-      - rnaQUAST is a tool for evaluating RNA-Seq assemblies using reference genome and gene data database. In addition, rnaQUAST is also capable of estimating gene database coverage by raw reads and de novo quality assessment using third-party software (STAR, TopHat, GMAP etc.).
+      - rnaQUAST is a tool for evaluating RNA-Seq assemblies using reference genome and gene data database. In addition,
+        rnaQUAST is also capable of estimating gene database coverage by raw reads and de novo quality assessment using
+	third-party software (STAR, TopHat, GMAP etc.).
     * - |Validate Workflow v0.9|
-      - Learn to navigate the Validate Workflow. 
-
+      - Learn to navigate the Validate Workflow.
 ----
 
 **Fix or improve this documentation:**
