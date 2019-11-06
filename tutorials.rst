@@ -63,7 +63,9 @@ Discovery Environment Tutorials
       - SciApps
       - A genome-wide association study (or GWAS) workflow using TASSEL, EMMAX,
         and MLMM for mixed model analysis.
-	
+
+Atmosphere
+^^^^^^^^^^^
 .. list-table::
     :header-rows: 1
 
