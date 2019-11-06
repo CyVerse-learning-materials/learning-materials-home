@@ -5,11 +5,10 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-Webinars (Also known as `Focus Forums <https://cyverse.org/ffw>`_)
+Webinars 
 -----------------------------------------------
 
-These are workshop formatted tutorials that can be used and/or remixed in
-running your own CyVerse workshop.
+Webinars, (also known as `Focus Forums <https://cyverse.org/ffw>`_) cover a variety of topics from scientific workflows to using various CyVerse technologies.  They are created and presented by community members and CyVerse team members.
 
 .. list-table::
     :header-rows: 1
