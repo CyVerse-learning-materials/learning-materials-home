@@ -20,7 +20,7 @@ Webinars, (also known as `Focus Forums <https://cyverse.org/ffw>`_) cover a vari
     * - `Writing and sharing computational analyses using Jupyter Notebooks in Cyverse <https://wiki.cyverse.org/wiki/display/Events/FFW%3A+Writing+and+sharing+computational+analyses+using+Jupyter+Notebooks+in+Cyverse>`_
       - Dr. Peter Rose
       - Oct 25th 2019
-      - Following on the heels of his team's recent PLoS publication "Ten simple rules for writing and sharing computational analyses in    Jupyter notebooks", Peter Rose of the San Diego Supercomputing Center gave an overview on how to organize notebooks, setup a reproducible and reusable compute environment, and share and explain your research, using CyVerse resources.
+      - Peter Rose of the San Diego Supercomputing Center gave an overview on how to organize notebooks, setup a reproducible and reusable compute environment, and share and explain your research, using CyVerse resources.
  
 ----
 
