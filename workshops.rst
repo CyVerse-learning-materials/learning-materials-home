@@ -17,6 +17,12 @@ running your own CyVerse workshop.
     * - Workshop
       - Platform(s)
       - Notes
+    * - |CyVerse Container Camp 2020|
+      - Discovery Environment, Atmosphere, VICE, Data Store
+      - Topics on container technology for reproducible science.
+    * - |CyVerse Foundational Open Science Skills 2020|
+      - Workshop to train new PIs on advanced cyberinfrastructure
+      - February 17-21, 2020
     * - |CyVerse Container Camp 2019|
       - Discovery Environment, Atmosphere, VICE, Data Store
       - Topics on container technology for reproducible science.
@@ -50,40 +56,6 @@ running your own CyVerse workshop.
 
 
 
-.. |platform_stack| image:: ./img/cyverse_platform_stack.png
-  :width: 750
-
-.. |Github Repo Link| raw:: html
-
-   <a href="https://github.com/CyVerse-learning-materials" target="blank">GitHub</a>
-
-.. |documentation Quickstart| raw:: html
-
-    <a href="https://learning.cyverse.org/projects/Documentation-Quickstart/en/latest/" target="blank">Documentation Quickstart</a>
-
-.. |Create a CyVerse account| raw:: html
-
-    <a href="http://learning.cyverse.org/projects/cyverse-account-creation-quickstart/" target="blank">Create a CyVerse account</a>
-
-.. |Import data from NCBI SRA using the Discovery Environment| raw:: html
-
-    <a href="http://learning.cyverse.org/projects/cyverse-importing-sradata-quickstart/" target="blank">Import data from NCBI SRA using the Discovery Environment</a>
-
-.. |Evaluate High-throughput Sequencing Reads with FastQC| raw:: html
-
-    <a href="https://cyverse-fastqc-quickstart.readthedocs-hosted.com/en/latest/" target="blank">Evaluate High-throughput Sequencing Reads with FastQC</a>
-
-.. |Filter, Trim, and Process High-throughput Sequencing Reads with Trimmomatic| raw:: html
-
-    <a href="https://cyverse-trimmomatic-quickstart.readthedocs-hosted.com/en/latest/" target="blank">Filter, Trim, and Process High-throughput Sequencing Reads with Trimmomatic</a>
-
-.. |Submit High-throughput Sequencing Reads to NCBI Sequence Read Archive (SRA)| raw:: html
-
-    <a href="https://learning.cyverse.org/projects/sra_submission_quickstart/en/latest/" target="blank">Submit High-throughput Sequencing Reads to NCBI Sequence Read Archive (SRA)</a>
-
-.. |RNA-Seq with Kallisto and Sleuth| raw:: html
-
-    <a href="https://cyverse-kallisto-tutorial.readthedocs-hosted.com/en/latest/" target="blank">RNA-Seq with Kallisto and Sleuth</a>
 
 .. |CyVerse NEON Data Institute 2018| raw:: html
 
@@ -133,9 +105,6 @@ running your own CyVerse workshop.
 
     <a href="https://cyverse-creating-docker-containers-quickstart.readthedocs-hosted.com/en/latest/" target="blank">Creating and Running Docker Containers</a>
 
-.. |CyVerse FAQ| raw:: html
-
-    <a href="https://cyverse-learning-center-faq.readthedocs-hosted.com/en/latest/" target="blank">CyVerse FAQ</a>
 
 .. |Condensed R: 240-minute tutorial| raw:: html
 
@@ -149,14 +118,6 @@ running your own CyVerse workshop.
 
     <a href="https://cyverse-foundational-open-science-skills-2019.readthedocs-hosted.com/en/latest/" target="blank">CyVerse Foundational Open Science Skills 2019</a>
 
-.. |Powered by CyVerse| raw:: html
 
-   <a href="https://cyverse.org/Powered%20by%20CyVerse" target="blank">Powered by CyVerse</a>
 
-.. |External Collaborative Partnership| raw:: html
 
-    <a href="https://www.cyverse.org/researchers" target="blank">External Collaborative Partnership</a>
-
-.. |ECP Request web form| raw:: html
-
-    <a href="https://user.cyverse.org/forms/3" target="blank">ECP Request web form</a>
