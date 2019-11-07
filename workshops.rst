@@ -18,14 +18,14 @@ running your own CyVerse workshop.
       - Platform(s)
       - Notes
     * - |CyVerse Container Camp 2020|
-      - Discovery Environment, Atmosphere, VICE, Data Store
-      - Topics on container technology for reproducible science.
+      - Topics on container technology for reproducible science
+      - March 10 – March 13, 2020 .
     * - |CyVerse Foundational Open Science Skills 2020|
       - Workshop to train early career scientists on using advanced cyberinfrastructure to advance their research
       - February 17-21, 2020
     * - |CyVerse Container Camp 2019|
       - Topics on container technology for reproducible science.
-      - March 10 – March 13, 2020.  
+      - Discovery Environment, Atmosphere, VICE, Data Store  
     * - |CyVerse Foundational Open Science Skills 2019|
       - Workshop to train new PIs on advanced cyberinfrastructure
       - Discovery Environment, Atmosphere, VICE, DataStore
