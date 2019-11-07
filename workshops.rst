@@ -17,6 +17,12 @@ running your own CyVerse workshop.
     * - Workshop
       - Platform(s)
       - Notes
+    * - |CyVerse Container Camp 2019|
+      - Discovery Environment, Atmosphere, VICE, Data Store
+      - Topics on container technology for reproducible science.
+    * - |CyVerse Foundational Open Science Skills 2019|
+      - Workshop to train new PIs on advanced cyberinfrastructure
+      - Discovery Environment, Atmosphere, VICE, DataStore
     * - |CyVerse Tools and Services Workshop|
       - Discovery Environment, Atmosphere, Data Store
       - This is a generic agenda and slides for a one-day CyVerse Workshop
@@ -27,15 +33,10 @@ running your own CyVerse workshop.
         Singularity, Project Jupyter, and RStudio-Server. The
         |NEON Data Institute 2018| focus is on remote sensing and reproducible
         workflows in Python and R.
-    * - |CyVerse Container Camp 2019|
-      - Discovery Environment, Atmosphere, VICE, Data Store
-      - Topics on container technology for reproducible science.
     * - |Condensed R: 240-minute tutorial|
       - Discovery Environment, VICE, Data Store
       - A short introduction to using R and RStudio
-    * - |CyVerse Foundational Open Science Skills 2019|
-      - Workshop to train new PIs on advanced cyberinfrastructure
-      - Discovery Environment, Atmosphere, VICE, DataStore
+  
 
 
 ----
