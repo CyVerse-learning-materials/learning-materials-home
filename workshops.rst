@@ -19,7 +19,7 @@ running your own CyVerse workshop.
       - Notes
     * - |CyVerse Container Camp 2020|
       - Topics on container technology for reproducible science
-      - March 10 – March 13, 2020 .
+      - March 10–13, 2020
     * - |CyVerse Foundational Open Science Skills 2020|
       - Workshop to train early career scientists on using advanced cyberinfrastructure to advance their research
       - February 17-21, 2020
