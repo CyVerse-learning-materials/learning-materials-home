@@ -97,9 +97,7 @@ running your own CyVerse workshop.
 
     <a href="https://cyverse-group-project-quickstart.readthedocs-hosted.com/en/latest/" target="blank">Create a Group Project</a>
 
-.. |CyVerse Container Camp 2019| raw:: html
 
-    <a href="https://learning.cyverse.org/projects/container_camp_workshop_2019/en/latest/" target="blank">CyVerse Container Camp 2019</a>
 
 .. |Creating and Running Docker Containers| raw:: html
 
@@ -114,10 +112,20 @@ running your own CyVerse workshop.
 
     <a href="https://cyverse-cyverse-tools-and-services-workshop.readthedocs-hosted.com/en/latest/" target="blank">CyVerse Tools and Services Workshop</a>
 
+.. |CyVerse Foundational Open Science Skills 2020| raw:: html
+
+    <a href="https://www.cyverse.org/foss" target="blank">CyVerse Foundational Open Science Skills 2020</a>
+    
 .. |CyVerse Foundational Open Science Skills 2019| raw:: html
 
     <a href="https://cyverse-foundational-open-science-skills-2019.readthedocs-hosted.com/en/latest/" target="blank">CyVerse Foundational Open Science Skills 2019</a>
+.. |CyVerse Container Camp 2020| raw:: html
 
+    <a href="https://www.cyverse.org/cc/" target="blank">CyVerse Container Camp 2020</a>
+    
+.. |CyVerse Container Camp 2019| raw:: html
+
+    <a href="https://learning.cyverse.org/projects/container_camp_workshop_2019/en/latest/" target="blank">CyVerse Container Camp 2019</a>
 
 
 
