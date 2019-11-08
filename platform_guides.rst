@@ -63,7 +63,9 @@ Science APIs
 
 CyVerse provides programmatic access to its services through multiple APIs (application programming interfaces), access points with various levels of complexity
 
-- |Tapis Live Docs|
+- |Terrain Docs| : Access to CyVerse resources
+- |Tapis Live Docs| : Access to TACC HPC resources
+
 
 VICE
 ----
@@ -208,3 +210,8 @@ Please cite CyVerse appropriately when you make use of our resources,
 .. |Tapis Live Docs| raw:: html
    
    <a href="https://www.tacc.utexas.edu/tapis" target="blank">Tapis Live Docs</a>
+   
+.. |Terrain Docs| raw:: html
+   
+   <a href="https://cyverse-de.github.io/api/" target="blank">Terrain Docs</a>
+   
