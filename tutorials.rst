@@ -10,6 +10,19 @@ Tutorials
 
 These are involved tutorials that cover popular science workflows.
 
+Read The Docs
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. list-table::
+    :header-rows: 1
+    * - Tutorial
+      - Date
+      - Presenter
+      - Notes
+    * - |RNASeq using VICE|
+      - Nov. 8, 2019
+      - Sateesh Peri
+      - Perform RNAseq differential expression analysis using Read Mapping and Transcript Assembly (RMTA) and Rstudio-DESEq2 apps
+
 Discovery Environment Tutorials
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -344,3 +357,7 @@ Atmosphere
 .. |Validate Workflow v0.9| raw:: html
 
     <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=21139103" target="blank">Validate Workflow v0.9</a>
+    
+.. |RNASeq using VICE| raw:: html
+   
+   <a href="https://rnaseq-webinar-2019.readthedocs.io/en/latest/">RNASeq using VICE</a>
