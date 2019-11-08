@@ -11,10 +11,11 @@ Tutorials
 These are involved tutorials that cover popular science workflows.
 
 Read The Docs
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^
 
 .. list-table::
     :header-rows: 1
+
     * - Tutorial
       - Date
       - Presenter
