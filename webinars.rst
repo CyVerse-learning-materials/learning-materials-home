@@ -8,7 +8,7 @@
 Webinars 
 -----------------------------------------------
 
-Follow this link to upcoming and past CyVerse Webinars (also know as CyVerse Focus Forums): https://cyverse.org/ffw>`_) 
+Follow this link to upcoming and past CyVerse Webinars (also know as CyVerse Focus Forums): https://cyverse.org/ffw 
 ----
 
 **Fix or improve this documentation**
