@@ -12,6 +12,7 @@ These are involved tutorials that cover popular science workflows.
 
 Read The Docs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 .. list-table::
     :header-rows: 1
     * - Tutorial
@@ -22,6 +23,7 @@ Read The Docs
       - Nov. 8, 2019
       - Sateesh Peri
       - Perform RNAseq differential expression analysis using Read Mapping and Transcript Assembly (RMTA) and Rstudio-DESEq2 apps
+  
 
 Discovery Environment Tutorials
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
