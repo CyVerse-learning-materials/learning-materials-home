@@ -362,4 +362,4 @@ Atmosphere
     
 .. |RNASeq using VICE| raw:: html
    
-   <a href="https://rnaseq-webinar-2019.readthedocs.io/en/latest/">RNASeq using VICE</a>
+    <a href="https://rnaseq-webinar-2019.readthedocs.io/en/latest/" target="blank">RNASeq using VICE</a>
