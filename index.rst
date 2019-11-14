@@ -3,6 +3,8 @@
 .. toctree::
    :caption: Welcome to CyVerse
    :maxdepth: 3
+   :hidden:
+   :glob:
 
    README
    platform_guides
