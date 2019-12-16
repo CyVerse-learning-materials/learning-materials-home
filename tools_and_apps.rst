@@ -24,6 +24,10 @@ developing new applications.
     * - |Creating and Running Docker Containers|
       - Discovery Environment, VICE, Atmosphere
       - A short guide to Docker and creating your own containerized applications.
+    * - |DE tool integration|
+      - Discovery Environment, VICE
+      - A quick start guide to integrating different types of tools in Discovery Environment.
+    
 
 ----
 
@@ -42,4 +46,8 @@ developing new applications.
 .. |Creating and Running Docker Containers| raw:: html
 
     <a href="https://cyverse-creating-docker-containers-quickstart.readthedocs-hosted.com/en/latest/" target="blank">Creating and Running Docker Containers</a>
+    
+.. |DE tool integration| raw:: html
+
+    <a href="https://cyverse-de-tool-integration-quickstart.readthedocs-hosted.com/en/latest/index.html" target="blank">DE tool integration</a>
 
