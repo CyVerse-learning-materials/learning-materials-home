@@ -39,6 +39,15 @@ These include short guides through common tasks.
       - Data Store, Discovery Environment
       - Learn the basic steps for setting up a collaborative project using
         CyVerse.
+    * - |Integrate executable tools in DE|
+      - Discovery Environment
+      - Quick start guide for integrating executable tools in DE.
+    * - |Integrate OSG tools in DE|
+      - Discovery Environment
+      - Quick start guide for integrating Open Science Grid (OSG) tools in DE.
+    * - |Integrate interactive tools in DE|
+      - Discovery Environment
+      - Quick start guide for integrating interactive (VICE) tools in DE.
 
 -----
 
@@ -125,4 +134,15 @@ Please cite CyVerse appropriately when you make use of our resources,
 .. |Data Store| raw:: html
 
      <a href="https://cyverse-data-store-quickstart.readthedocs-hosted.com/en/latest/" target="blank">Data Store</a>
- 
+  
+.. |Integrate executable tools in DE| raw:: html
+
+     <a href="https://cyverse-de-tool-integration-quickstart.readthedocs-hosted.com/en/latest/index.html" target="blank">Integrate executable tools in DE</a>
+
+.. |Integrate OSG tools in DE| raw:: html
+
+     <a href="https://cyverse-de-tool-integration-quickstart.readthedocs-hosted.com/en/latest/osg.html" target="blank">Integrate OSG tools in DE</a>
+
+.. |Integrate interactive tools in DE| raw:: html
+
+     <a href="https://cyverse-de-tool-integration-quickstart.readthedocs-hosted.com/en/latest/interactive.html" target="blank">Integrate interactive tools in DE</a>
