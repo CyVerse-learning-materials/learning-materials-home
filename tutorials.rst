@@ -368,4 +368,6 @@ Atmosphere
     <a href="https://rnaseq-webinar-2019.readthedocs.io/en/latest/" target="blank">RNASeq using VICE</a>
     
  .. |HTSeqQC| raw:: html   
+ 
     <a href="https://cyverse-htseqqc.readthedocs-hosted.com/en/latest/" target="blank">HTSeqQC</a>
+    
