@@ -345,7 +345,7 @@ Atmosphere
 
 .. |HTSeqQC| raw:: html
 
-    <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=12223187" target="blank">HTSeqQC</a>
+    <a href="https://cyverse-htseqqc.readthedocs-hosted.com/en/latest/" target="blank">HTSeqQC</a>
 
 .. |QIIME-1.9.1 for Atmosphere| raw:: html
 
