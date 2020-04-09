@@ -343,6 +343,10 @@ Atmosphere
 
     <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=12223187" target="blank">KOBAS 2.0-09052014</a>
 
+.. |HTSeqQC| raw:: html
+
+    <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=12223187" target="blank">HTSeqQC</a>
+
 .. |QIIME-1.9.1 for Atmosphere| raw:: html
 
     <a href="https://wiki.cyverse.org/wiki/display/TUT/QIIME-1.9.1+using+Atmosphere" target="blank">QIIME-1.9.1 for Atmosphere</a>
@@ -366,8 +370,3 @@ Atmosphere
 .. |RNASeq using VICE| raw:: html
    
     <a href="https://rnaseq-webinar-2019.readthedocs.io/en/latest/" target="blank">RNASeq using VICE</a>
-    
- .. |HTSeqQC| raw:: html   
- 
-    <a href="https://cyverse-htseqqc.readthedocs-hosted.com/en/latest/" target="blank">HTSeqQC</a>
-    
