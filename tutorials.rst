@@ -89,6 +89,8 @@ Discovery Environment Tutorials
       - QIIME is an open-source bioinformatics pipeline for performing microbiome analysis from raw DNA sequencing data.
     * - |Taxonomic Name Resolution Service (TNRS)|
       - Become familiar with TNRS to identify, correct, and update scientific names of plants.
+    * - |HTSeqQC|
+      - An automated quality control analysis tool for a single and paired-end high-throughput sequencing data (HTS) generated from Illumina sequencing platforms
 
 .. list-table::
     :header-rows: 1
@@ -364,3 +366,6 @@ Atmosphere
 .. |RNASeq using VICE| raw:: html
    
     <a href="https://rnaseq-webinar-2019.readthedocs.io/en/latest/" target="blank">RNASeq using VICE</a>
+    
+ .. |HTSeqQC| raw:: html   
+    <a href="https://cyverse-htseqqc.readthedocs-hosted.com/en/latest/" target="blank">HTSeqQC</a>
