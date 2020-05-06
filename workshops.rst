@@ -112,7 +112,7 @@ running your own CyVerse workshop.
 
 .. |CyVerse Foundational Open Science Skills 2020| raw:: html
 
-    <a href="https://learning.cyverse.org/projects/cyverse-foss-2020/en/latest/index.html" target="blank">CyVerse Foundational Open Science Skills 2020</a>
+    <a href="https://learning.cyverse.org/projects/foss-2020/en/latest/index.html" target="blank">CyVerse Foundational Open Science Skills 2020</a>
     
 .. |CyVerse Foundational Open Science Skills 2019| raw:: html
 
