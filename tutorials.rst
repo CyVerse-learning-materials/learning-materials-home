@@ -24,7 +24,7 @@ Read The Docs
       - Nov. 8, 2019
       - Sateesh Peri
       - Perform RNAseq differential expression analysis using Read Mapping and Transcript Assembly (RMTA) and Rstudio-DESEq2 apps
-  
+
 
 Discovery Environment Tutorials
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -60,17 +60,17 @@ Discovery Environment Tutorials
         high-throughput instruments. The CyVerse submission pipeline allows you
         to directly submit your data into an SRA-linked BioProject.
     * - |Assemble a Genome Using SOAPdenovo|
-      - Commonly used procedure for de novo whole genome assembly of Illumina reads using the DE: 
+      - Commonly used procedure for de novo whole genome assembly of Illumina reads using the DE:
         Assemble reads, Assess assembly
     * - |BLAST a Transcriptome|
       - Reduce number of transcripts and level of redundancy in an assembled transcriptome,
         and identify coding sequences that can be submitted to BLASTP searches.
     * - |Characterizing Differential Expression With RNA-Seq (Without Reference Genome)|
-      - Identify changes in gene expression levels between at least two sequenced 
+      - Identify changes in gene expression levels between at least two sequenced
         transcriptome samples (18 separate tutorials)
     * - |Cluster Orthologs and Paralogs and Assemble Custom Gene Sets|
       - Input entire protein-encoding gene or transcript repertoires from genomes of interest,
-        and cluster homologs (orthologs and paralogs), then query clusters to assemble 
+        and cluster homologs (orthologs and paralogs), then query clusters to assemble
 	gene sets based on presence/absence and copy number.
     * - |Discover Variants Using SAM Tools|
       - Detect and call variants from sequence reads using Bowtie and SAM Tools.
@@ -79,9 +79,9 @@ Discovery Environment Tutorials
     * - |Genome-wide Association Study (GWAS) Using a Genotyping-by-sequencing Approach|
       - Learn to identify genetic variants that are associated with a trait.
     * - |Kallisto-0.42.3-INDEX-QUANT-PE|
-      - Kallisto is a program for quantifying abundances of transcripts from RNA-Seq data, or more 
-        generally of target sequences using high-throughput sequencing reads. It is based on the 
-	novel idea of pseudoalignment for rapidly determining the compatibility of reads with targets, 
+      - Kallisto is a program for quantifying abundances of transcripts from RNA-Seq data, or more
+        generally of target sequences using high-throughput sequencing reads. It is based on the
+	novel idea of pseudoalignment for rapidly determining the compatibility of reads with targets,
 	without the need for alignment.
     * - |mini SOAPdenovo|
       - Gain familiarity with a commonly used procedure for de novo whole genome assembly of Illumina reads using the DE.
@@ -91,6 +91,7 @@ Discovery Environment Tutorials
       - Become familiar with TNRS to identify, correct, and update scientific names of plants.
     * - |HTSeqQC|
       - An automated quality control analysis tool for a single and paired-end high-throughput sequencing data (HTS) generated from Illumina sequencing platforms
+
 
 .. list-table::
     :header-rows: 1
@@ -113,7 +114,7 @@ Atmosphere
       - Notes
     * - |Basic Stacks|
       - Use next generation sequence data produced from Reduced Representation Libraries (RRL) such as Restriction site
-      	associated (RAD) tags. 
+      	associated (RAD) tags.
     * - |BATools 0.0.1|
       - Introduce new users to BATools and the BATools Wrapper Script.
     * - |Evolinc|
@@ -175,50 +176,50 @@ Atmosphere
 .. |Import data from NCBI SRA using the Discovery Environment| raw:: html
 
     <a href="http://learning.cyverse.org/projects/cyverse-importing-sradata-quickstart/" target="blank">Import data from NCBI SRA using the Discovery Environment</a>
-    
+
 .. |Assemble a Genome Using SOAPdenovo| raw:: html
 
    <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=14588299" target="blank">Assemble a Genome Using SOAPdenovo</a>
-   
+
 .. |BLAST a Transcriptome| raw:: html
 
    <a href="https://wiki.cyverse.org/wiki/display/TUT/Tutorial%3A+BLAST+a+Transcriptome" target="blank">BLAST a Transcriptome</a>
-   
+
 .. |Characterizing Differential Expression With RNA-Seq (Without Reference Genome)| raw:: html
 
    <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=14585157" target="blank">Characterizing Differential Expression With RNA-Seq (Without Reference Genome)</a>
-   
+
 .. |Cluster Orthologs and Paralogs and Assemble Custom Gene Sets| raw:: html
 
    <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=12881253" target="blank">Cluster Orthologs and Paralogs and Assemble Custom Gene Sets</a>
-   
+
 .. |Detect and call variants from sequence reads using Bowtie and SAM Tools.| raw:: html
 
    <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=12880264" target="blank">Detect and call variants from sequence reads using Bowtie and SAM Tools.</a>
-   
+
 .. |Evaluate and Pre-Process Sequencing Reads| raw:: html
 
    <a href="http://www.cyverse.org/learning-center/discovery-environment/de-004-genome-wide-association-study-gwas-using-genotyping" target="blank">Evaluate and Pre-Process Sequencing Reads</a>
-   
+
 .. |Genome-wide Association Study (GWAS) Using a Genotyping-by-sequencing Approach| raw:: html
 
    <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=11447702" target="blank">Genome-wide Association Study (GWAS) Using a Genotyping-by-sequencing Approach</a>
-   
-   
+
+
 .. |Kallisto-0.42.3-INDEX-QUANT-PE| raw:: html
 
    <a href="https://wiki.cyverse.org/wiki/display/TUT/Kallisto-0.42.3-INDEX-QUANT-PE+in+the+Discovery+Environment" target="blank">Kallisto-0.42.3-INDEX-QUANT-PE</a>
-   
+
 .. |mini SOAPdenovo| raw:: html
 
    <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=22676743" target="blank">mini SOAPdenovo</a>
-   
-   
+
+
 .. |QIIME-1.9.1 for the DE| raw:: html
 
    <a href="https://wiki.cyverse.org/wiki/display/TUT/QIIME-1.9.1+in+Discovery+Environment" target="blank">QIIME-1.9.1 for the DE</a>
-   
-   
+
+
 .. |Taxonomic Name Resolution Service (TNRS)| raw:: html
 
    <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=11447869" target="blank">Taxonomic Name Resolution Service (TNRS)</a>
@@ -345,7 +346,7 @@ Atmosphere
 
 .. |HTSeqQC| raw:: html
 
-    <a href="https://cyverse-htseqqc.readthedocs-hosted.com/en/latest/" target="blank">HTSeqQC</a>
+    <a href="https://learning.cyverse.org/projects/cyverse-htseqqc-cyverse-tutorial/en/latest/" target="blank">HTSeqQC</a>
 
 .. |QIIME-1.9.1 for Atmosphere| raw:: html
 
@@ -366,7 +367,7 @@ Atmosphere
 .. |Validate Workflow v0.9| raw:: html
 
     <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=21139103" target="blank">Validate Workflow v0.9</a>
-    
+
 .. |RNASeq using VICE| raw:: html
-   
+
     <a href="https://rnaseq-webinar-2019.readthedocs.io/en/latest/" target="blank">RNASeq using VICE</a>
