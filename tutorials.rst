@@ -10,24 +10,22 @@ Tutorials
 
 These are involved tutorials that cover popular science workflows.
 
-Read The Docs
-^^^^^^^^^^^^^
+VICE
+^^^^^^^^
 
 .. list-table::
     :header-rows: 1
 
     * - Tutorial
       - Date
-      - Presenter
       - Notes
     * - |RNASeq using VICE|
       - Nov. 8, 2019
-      - Sateesh Peri
       - Perform RNAseq differential expression analysis using Read Mapping and Transcript Assembly (RMTA) and Rstudio-DESEq2 apps
 
 
-Discovery Environment Tutorials
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Discovery Environment
+^^^^^^^^^^^^^^^^^^^^^
 
 .. list-table::
     :header-rows: 1
@@ -92,15 +90,15 @@ Discovery Environment Tutorials
     * - |HTSeqQC|
       - An automated quality control analysis tool for a single and paired-end high-throughput sequencing data (HTS) generated from Illumina sequencing platforms
 
+SciApps
+^^^^^^^^^^^
 
 .. list-table::
     :header-rows: 1
 
     * - Tutorial
-      - Platform(s)
       - Notes
     * - |Association analysis with mixed models|
-      - SciApps
       - A genome-wide association study (or GWAS) workflow using TASSEL, EMMAX,
         and MLMM for mixed model analysis.
 
