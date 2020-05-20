@@ -18,17 +18,17 @@ running your own CyVerse workshop.
       - Platform(s)
       - Notes
     * - |CyVerse Container Camp 2020|
+      - Discovery Environment, Atmosphere, VICE, Data Store
       - Topics on container technology for reproducible science
-      - March 10–13, 2020
     * - |CyVerse Foundational Open Science Skills 2020|
+      - Discovery Environment, Atmosphere, VICE, Data Store
       - Workshop to train early career scientists on using advanced cyberinfrastructure to advance their research
-      - February 17-21, 2020
     * - |CyVerse Container Camp 2019|
+      - Discovery Environment, Atmosphere, VICE, Data Store
       - Topics on container technology for reproducible science.
-      - Discovery Environment, Atmosphere, VICE, Data Store  
     * - |CyVerse Foundational Open Science Skills 2019|
+      - Discovery Environment, Atmosphere, VICE, Data Store
       - Workshop to train new PIs on advanced cyberinfrastructure
-      - Discovery Environment, Atmosphere, VICE, DataStore
     * - |CyVerse Tools and Services Workshop|
       - Discovery Environment, Atmosphere, Data Store
       - This is a generic agenda and slides for a one-day CyVerse Workshop
@@ -42,7 +42,7 @@ running your own CyVerse workshop.
     * - |Condensed R: 240-minute tutorial|
       - Discovery Environment, VICE, Data Store
       - A short introduction to using R and RStudio
-  
+
 
 
 ----
@@ -113,18 +113,15 @@ running your own CyVerse workshop.
 .. |CyVerse Foundational Open Science Skills 2020| raw:: html
 
     <a href="https://learning.cyverse.org/projects/foss-2020/en/latest/index.html" target="blank">CyVerse Foundational Open Science Skills 2020</a>
-    
+
 .. |CyVerse Foundational Open Science Skills 2019| raw:: html
 
     <a href="https://cyverse-foundational-open-science-skills-2019.readthedocs-hosted.com/en/latest/" target="blank">CyVerse Foundational Open Science Skills 2019</a>
-    
+
 .. |CyVerse Container Camp 2020| raw:: html
 
     <a href="https://learning.cyverse.org/projects/Container-camp-2020/en/latest/" target="blank">CyVerse Container Camp 2020</a>
-    
+
 .. |CyVerse Container Camp 2019| raw:: html
 
     <a href="https://learning.cyverse.org/projects/container_camp_workshop_2019/en/latest/" target="blank">CyVerse Container Camp 2019</a>
-
-
-
