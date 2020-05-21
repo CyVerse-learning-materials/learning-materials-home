@@ -18,10 +18,6 @@ While originally created with the name iPlant Collaborative to serve U.S. plant 
 
 ## Funding and Citations
 
-CyVerse is funded entirely by the National Science Foundation under Award Numbers DBI-0735191 and DBI-1265383.
+CyVerse is funded by the National Science Foundation under Award Numbers DBI-0735191, DBI-1265383, and DBI-1743442.
 
-Please cite CyVerse appropriately when you make use of our resources, [CyVerse citation policy](http://www.cyverse.org/acknowledge-cite-cyverse)
-
-
-
-
+Learn how to cite CyVerse when using our resources: [How to Cite CyVerse](http://www.cyverse.org/cite-cyverse)
