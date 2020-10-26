@@ -17,6 +17,9 @@ running your own CyVerse workshop.
     * - Workshop
       - Platform(s)
       - Notes
+    * - |NEON AOP Workshop 2020|
+      - Discovery Environment, VICE, Data Store 
+      - Collaboration between CyVerse and NEON to use remote sensing data in RStudio and Python
     * - |CyVerse Container Camp 2020|
       - Discovery Environment, Atmosphere, VICE, Data Store
       - Topics on container technology for reproducible science
@@ -125,3 +128,8 @@ running your own CyVerse workshop.
 .. |CyVerse Container Camp 2019| raw:: html
 
     <a href="https://learning.cyverse.org/projects/container_camp_workshop_2019/en/latest/" target="blank">CyVerse Container Camp 2019</a>
+
+.. |NEON AOP Workshop 2020| raw:: html
+    
+    <a href="https://cyverse-2020-neon-aop-workshop.readthedocs-hosted.com/en/latest/" target="blank">NEON AOP Workshop 2020</a>
+
