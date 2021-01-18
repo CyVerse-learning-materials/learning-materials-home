@@ -138,8 +138,8 @@ running your own CyVerse workshop.
 
 .. |AG2PI Workshop 2021| raw:: html
 
-    <a href="https://learning.cyverse.org/projects/ag2pi/en/latest/" target="blank">Ag2Pi Workshop 2021</a>
+    <a href="https://learning.cyverse.org/projects/ag2pi/en/latest/" target="blank">AG2PI Workshop 2021</a>
    
 .. |AG2PI community|  raw:: html
    
-    <a href="https://www.ag2pi.org/" target="blank">Ag2Pi community</a>
+    <a href="https://www.ag2pi.org/" target="blank">AG2PI community</a>
