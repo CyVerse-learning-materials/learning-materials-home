@@ -17,6 +17,9 @@ running your own CyVerse workshop.
     * - Workshop
       - Platform(s)
       - Notes
+    * - |Ag2Pi Workshop 2021|
+      - Discovery Environment, VICE, Data Store
+      - Introductory workshop on using Cyverse for the |Ag2Pi community|
     * - |NEON AOP Workshop 2020|
       - Discovery Environment, VICE, Data Store 
       - Collaboration between CyVerse and NEON to use remote sensing data in RStudio and Python
@@ -133,3 +136,10 @@ running your own CyVerse workshop.
     
     <a href="https://cyverse-2020-neon-aop-workshop.readthedocs-hosted.com/en/latest/" target="blank">NEON AOP Workshop 2020</a>
 
+.. |Ag2Pi Workshop 2021| raw:: html
+
+    <a href="https://learning.cyverse.org/projects/ag2pi/en/latest/" target="blank">Ag2Pi Workshop 2021</a>
+   
+.. |Ag2Pi community|  raw:: html
+   
+    <a href="https://www.ag2pi.org/" target="blank">Ag2Pi community</a>
