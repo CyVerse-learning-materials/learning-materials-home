@@ -12,41 +12,35 @@ These are workshop formatted tutorials that can be used and/or remixed in
 running your own CyVerse workshop.
 
 .. list-table::
-    :header-rows: 1
-    :caption: CyVerse Workshops
+  :header-rows: 1
+  :caption: CyVerse Workshops
 
-    * - Workshop
-      - Platform(s)
-      - Notes
-    * - |Container Camp|
-      - Discovery Environment, Atmosphere, Data Store
-      - Topics on container technology for reproducible science
-    * - |Foundational Open Science Skills|
-      - Discovery Environment, Atmosphere, Data Store
-      - Workshop to train early career scientists on using advanced cyberinfrastructure to advance their research
-    * - |Tools and Services Workshop|
-      - Discovery Environment, Atmosphere, Data Store
-      - This is a generic agenda and slides for a one-day CyVerse Workshop
-        overviewing the major components of the science infrastructure.
+  * - Workshop
+    - Platform(s)
+    - Notes
+  * - |Container Camp|
+    - Discovery Environment, Atmosphere, Data Store
+    - Topics on container technology for reproducible science
+  * - |Foundational Open Science Skills|
+    - Discovery Environment, Atmosphere, Data Store
+    - Workshop to train early career scientists on using advanced cyberinfrastructure to advance their research
+  * - |Tools and Services Workshop|
+    - Discovery Environment, Atmosphere, Data Store
+    - This is a generic agenda and slides for a one-day CyVerse Workshop overviewing the major components of the science infrastructure.
 
 .. list-table::
-    :header-rows: 1
-    :caption: Community Workshops Using CyVerse
+  :header-rows: 1
+  :caption: Community Workshops Using CyVerse
 
-    * - |AG2PI Workshop: Foundations of Computation|
-      - Discovery Environment, RStudio, Jupyter
-      - This course is designed for introducing computational concepts for people who are new to scientific programming or those who would like a refresher on introductory concepts. We will cover the CyVerse computational resources, UNIX command line, and introductory programming concepts and best practices.
-    * - |CyVerse NEON Data Institute 2018|
-      - Discovery Environment, Atmosphere
-      - Provision Atmosphere as a Data Science Workbench running Docker,
-        Singularity, Project Jupyter, and RStudio-Server. The
-        |NEON Data Institute 2018| focus is on remote sensing and reproducible
-        workflows in Python and R.
-    * - |Condensed R: 240-minute tutorial|
-      - Discovery Environment, VICE, Data Store
-      - A short introduction to using R and RStudio
-
-
+  * - |AG2PI Workshop: Foundations of Computation|
+    - Discovery Environment, RStudio, Jupyter
+    - This course is designed for introducing computational concepts for people who are new to scientific programming or those who would like a refresher on introductory concepts. We will cover the CyVerse computational resources, UNIX command line, and introductory programming concepts and best practices.
+  * - |CyVerse NEON Data Institute 2018|
+    - Discovery Environment, Atmosphere
+    - Provision Atmosphere as a Data Science Workbench running Docker, Singularity, Project Jupyter, and RStudio-Server. The         |NEON Data Institute 2018| focus is on remote sensing and reproducible workflows in Python and R.
+  * - |Condensed R: 240-minute tutorial|
+    - Discovery Environment, VICE, Data Store
+    - A short introduction to using R and RStudio
 
 ----
 
