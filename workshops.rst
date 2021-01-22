@@ -8,7 +8,7 @@
 Workshops
 -----------------------------------------------
 
-Below, you can find materials using CyVerse that can be used as modules to run your own CyVerse workshop.
+You can use these workshop materials as modules to teach and run your own workshop using CyVerse.
 
   .. list-table:: CyVerse Workshops
       :header-rows: 1
