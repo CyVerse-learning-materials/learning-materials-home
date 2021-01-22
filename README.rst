@@ -14,9 +14,9 @@ The CyVerse Learning Center is a release of our learning materials in the popula
 
 .. sidebar:: Featured Tutorials
 
-    - `RNA-Seq with Kallisto and Sleuth <https://learning.cyverse.org/projects/kallisto_tutorial/en/latest/>`_
-    - `Filter and Trim with Trimmomatic <https://learning.cyverse.org/projects/trimmomatic_quickstart/en/latest/>`_
-    - `Condensed R <https://learning.cyverse.org/projects/cyverse-240-minute-r-tutorial/en/latest/index.html>`_
+    # `RNA-Seq with Kallisto and Sleuth <https://learning.cyverse.org/projects/kallisto_tutorial/en/latest/>`_
+    # `Filter and Trim with Trimmomatic <https://learning.cyverse.org/projects/trimmomatic_quickstart/en/latest/>`_
+    # `Condensed R <https://learning.cyverse.org/projects/cyverse-240-minute-r-tutorial/en/latest/index.html>`_
 
 
 ----------------
@@ -69,7 +69,7 @@ Please cite CyVerse appropriately when you make use of our resources, see
 **Fix or improve this documentation**
 
 - On Github: |Github|
-- Send feedback: `Tutorials@CyVerse.org <Tutorials@CyVerse.org>`_
+- Send feedback: `Learning@CyVerse.org <Learning@CyVerse.org>`_
 
 ----
 
