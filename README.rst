@@ -18,13 +18,15 @@ The CyVerse Learning Center is a release of our learning materials in the popula
     - `Filter and Trim with Trimmomatic <https://learning.cyverse.org/projects/trimmomatic_quickstart/en/latest/>`_
     - `Condensed R <https://learning.cyverse.org/projects/cyverse-240-minute-r-tutorial/en/latest/index.html>`_
 
+
 ----------------
 Getting Started
 ----------------
 
 - |Create a CyVerse account|
-- Upload your data
-- Run an analysis
+- `Upload your data <https://cyverse-data-store-quickstart.readthedocs-hosted.com/en/latest/>`_
+- `Launch an analysis <https://learning.cyverse.org/projects/discovery-environment-guide/en/latest/step3.html?highlight=launch%20analysis>`_
+- `Create a group project <https://cyverse-group-project-quickstart.readthedocs-hosted.com/en/latest/>`_
 - Watch a `Getting Started Webinar <https://www.youtube.com/watch?v=-1lQuIMLXvs&list=PL38WPXpo-ZW2Qay_04FuP8IeVbbUopoiw&index=3>`_
 
 
