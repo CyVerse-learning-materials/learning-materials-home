@@ -8,8 +8,7 @@
 Workshops
 -----------------------------------------------
 
-These are workshop formatted tutorials that can be used and/or remixed in
-running your own CyVerse workshop.
+Below, you can find materials using CyVerse that can be used as modules to run your own CyVerse workshop.
 
   .. list-table:: CyVerse Workshops
       :header-rows: 1
@@ -35,7 +34,7 @@ running your own CyVerse workshop.
       * - Workshop
         - Platform(s)
         - Notes
-      * - |AG2PI Workshop 2021: Foundations of Computation|
+      * - |AG2PI Workshop 2021| Foundations of Computation
         - Discovery Environment, Data Store, RStudio, Jupyter
         - Introductory workshop on using CyVerse for the |AG2PI community|
       * - |NEON AOP Workshop 2020|
