@@ -29,9 +29,9 @@ running your own CyVerse workshop.
       - This is a generic agenda and slides for a one-day CyVerse Workshop
         overviewing the major components of the science infrastructure.
 
-    .. list-table::
-        :header-rows: 1
-        :caption: Community Workshops Using CyVerse
+.. list-table::
+    :header-rows: 1
+    :caption: Community Workshops Using CyVerse
 
     * - |AG2PI Workshop: Foundations of Computation|
       - Discovery Environment, RStudio, Jupyter
