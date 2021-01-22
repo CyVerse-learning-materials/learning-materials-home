@@ -28,6 +28,8 @@ running your own CyVerse workshop.
         - Discovery Environment, Atmosphere, Data Store
         - This is a generic agenda and slides for a one-day CyVerse Workshop overviewing the major components of the science infrastructure.
 
+
+
   .. list-table::
       :header-rows: 1
       :caption: Community Workshops Using CyVerse
