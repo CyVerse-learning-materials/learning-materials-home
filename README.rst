@@ -34,7 +34,7 @@ What to do first
 
 
 ----
-
+`<br />`
 
 .. sidebar:: For Advanced Users
 
