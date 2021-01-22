@@ -32,6 +32,9 @@ running your own CyVerse workshop.
     :header-rows: 1
     :caption: Community Workshops Using CyVerse
 
+    * - Workshop
+      - Platform(s)
+      - Notes
     * - |AG2PI Workshop: Foundations of Computation|
       - Discovery Environment, RStudio, Jupyter
       - This course is designed for introducing computational concepts for people who are new to scientific programming or those who would like a refresher on introductory concepts. We will cover the CyVerse computational resources, UNIX command line, and introductory programming concepts and best practices.
