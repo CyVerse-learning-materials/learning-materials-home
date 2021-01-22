@@ -44,9 +44,12 @@ More about our platform
 - Finding apps in the |Discovery Environment Guide|
 
 
+
+
+
 We make regular contributions to these materials, and you can suggest new materials or create and share your own. If you have ideas or suggestions please email `Learning@CyVerse.org <mailto:Learning@cyverse.org>`_. You can also view, edit, and submit contributions on |Github|.
 
-  
+
 ----
 
 **CyVerse Homepage:** |CyVerse Homepage|
