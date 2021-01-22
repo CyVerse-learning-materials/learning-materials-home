@@ -8,13 +8,9 @@
 
 **Welcome to the CyVerse Learning Center**
 
-The CyVerse Learning center is a release of our learning materials in the
-popular "Read the Docs" formatting. We are transitioning our leaning materials from our wiki
-into this format to make them easier to search, use, and update. We will be
-making regular contributions to these materials, and you can suggest new
-materials or create and share your own. If you have ideas or suggestions please
-email `Tutorials@CyVerse.org <mailto:Tutorials@cyverse.org>`_. You can also
-view, edit, and submit contributions on |Github|.
+The CyVerse Learning Center is a release of our learning materials in the popular "Read the Docs" formatting. We are transitioning our leaning materials from our wiki into this format to make them easier to search, use, and update.
+
+We will be making regular contributions to these materials, and you can suggest new materials or create and share your own. If you have ideas or suggestions please email `Learning@CyVerse.org <mailto:Learning@cyverse.org>`_. You can also view, edit, and submit contributions on |Github|.
 
 ----------------
 Getting Started
@@ -34,7 +30,7 @@ Getting Started
 CyVerse is funded entirely by the National Science Foundation under
 Award Numbers DBI-0735191, DBI-1265383, and DBI-1743442.
 
-Please cite CyVerse appropriately when you make use of our resources, see 
+Please cite CyVerse appropriately when you make use of our resources, see
 |CyVerse citation policy|.
 
 ----
@@ -158,19 +154,19 @@ Please cite CyVerse appropriately when you make use of our resources, see
 .. |ECP Request web form| raw:: html
 
     <a href="https://user.cyverse.org/forms/3" target="blank">ECP Request web form</a>
-    
+
 .. |Getting Started Webinar| raw:: html
 
     <a href="https://www.youtube.com/channel/UC-gvdjTz9rq6RovZ57LoDDA" target="blank">Getting Started Webinar</a>
-    
+
 .. |About CyVerse| raw:: html
-    
+
     <a href="https://www.cyverse.org/about" target="blank">About CyVerse</a>
-    
+
 .. |Powered by CyVerse| raw:: html
 
     <https://www.cyverse.org/powered-by-cyverse>
-    
+
  .. |Quickstarts| raw:: html
 
     <https://www.cyverse.org/powered-by-cyverse>
