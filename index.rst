@@ -12,11 +12,6 @@
    quick_starts
    tutorials
    workshops
-   |Webinars|
+   Webinars <https://www.cyverse.org/webinars>
    power_users
    contributing
-
-
-   .. |Webinars| raw:: html
-
-       <a href="https://cyverse.org/webinars" target="blank">Webinars</a>
