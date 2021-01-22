@@ -35,7 +35,7 @@ running your own CyVerse workshop.
       * - Workshop
         - Platform(s)
         - Notes
-      * - |AG2PI Workshop 2021: Foundations of Computation|
+      * - |AG2PI Workshop 2021| Foundations of Computation
         - Discovery Environment, Data Store, RStudio, Jupyter
         - Introductory workshop on using CyVerse for the |AG2PI community|
       * - |NEON AOP Workshop 2020|
