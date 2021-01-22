@@ -19,9 +19,13 @@ The CyVerse Learning Center is a release of our learning materials in the popula
     # `Condensed R <https://learning.cyverse.org/projects/cyverse-240-minute-r-tutorial/en/latest/index.html>`_
 
 
-----------------
+****************
 Getting Started
-----------------
+****************
+
+
+What to do first
+################
 
 - |Create a CyVerse account|
 - `Upload your data <https://cyverse-data-store-quickstart.readthedocs-hosted.com/en/latest/>`_
@@ -38,9 +42,9 @@ Getting Started
     - `Integrating Tools and Apps <https://learning.cyverse.org/en/latest/tools_and_apps.html>`_
 
 
-----------------
 More about our platform
-----------------
+################
+
 - Managing data using the |Data Store Guide|
 - Interactive computing with `Jupyter Lab <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-jupyter.html>`_
 - Finding apps in the |Discovery Environment Guide|
