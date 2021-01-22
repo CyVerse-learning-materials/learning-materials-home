@@ -10,11 +10,7 @@
 
 The CyVerse Learning Center is a release of our learning materials in the popular "Read the Docs" formatting. We are transitioning our leaning materials from our wiki into this format to make them easier to search, use, and update.
 
-We make regular contributions to these materials, and you can suggest new materials or create and share your own. If you have ideas or suggestions please email `Learning@CyVerse.org <mailto:Learning@cyverse.org>`_. You can also view, edit, and submit contributions on |Github|.
 
-----------------
-Getting Started
-----------------
 
 .. sidebar:: Featured Tutorials
 
@@ -22,12 +18,35 @@ Getting Started
     - `Filter and Trim with Trimmomatic <https://learning.cyverse.org/projects/trimmomatic_quickstart/en/latest/>`_
     - `Condensed R <https://learning.cyverse.org/projects/cyverse-240-minute-r-tutorial/en/latest/index.html>`_
 
+----------------
+Getting Started
+----------------
 
 - |Create a CyVerse account|
-- |CyVerse FAQ|
-- `Getting Started Webinars <https://www.youtube.com/channel/UC-gvdjTz9rq6RovZ57LoDDA>`_ - Watch recent webinars
-- `About CyVerse <https://cyverse.org/about>`_
+- Upload your data
+- Run an analysis
+- Watch a `Getting Started Webinar <https://www.youtube.com/watch?v=-1lQuIMLXvs&list=PL38WPXpo-ZW2Qay_04FuP8IeVbbUopoiw&index=3>`_
 
+
+
+.. sidebar:: For Advanced Users
+
+    - `Create a Docker container <https://learning.cyverse.org/projects/cyverse-creating-docker-containers-quickstart/en/latest/index.html>`_
+    - `Command Line Transfer with iCommands <https://learning.cyverse.org/projects/data_store_guide/en/latest/step2.html#>`_
+    - `Integrating Tools and Apps <https://learning.cyverse.org/en/latest/tools_and_apps.html>`_
+
+
+----------------
+More about our platform
+----------------
+- Managing data using the |Data Store Guide|
+- Interactive computing with `Jupyter Lab <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-jupyter.html>`_
+- Finding apps in the |Discovery Environment Guide|
+
+
+We make regular contributions to these materials, and you can suggest new materials or create and share your own. If you have ideas or suggestions please email `Learning@CyVerse.org <mailto:Learning@cyverse.org>`_. You can also view, edit, and submit contributions on |Github|.
+
+  
 ----
 
 **CyVerse Homepage:** |CyVerse Homepage|
