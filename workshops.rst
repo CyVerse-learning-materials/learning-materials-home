@@ -5,7 +5,7 @@
 |Home_Icon|_
 `Learning Center Home <http://learning.cyverse.org/>`_
 
-Workshops
+Workshop Curriculum
 -----------------------------------------------
 
 These are workshop formatted tutorials that can be used and/or remixed in
