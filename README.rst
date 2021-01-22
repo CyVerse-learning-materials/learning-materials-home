@@ -33,6 +33,8 @@ What to do first
 - Watch a `Getting Started Webinar <https://www.youtube.com/watch?v=-1lQuIMLXvs&list=PL38WPXpo-ZW2Qay_04FuP8IeVbbUopoiw&index=3>`_
 
 
+----
+
 
 .. sidebar:: For Advanced Users
 
