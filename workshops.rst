@@ -11,9 +11,8 @@ Workshops
 These are workshop formatted tutorials that can be used and/or remixed in
 running your own CyVerse workshop.
 
-  .. list-table::
+  .. list-table:: CyVerse Workshops
       :header-rows: 1
-      :caption: CyVerse Workshops
 
       * - Workshop
         - Platform(s)
@@ -30,16 +29,18 @@ running your own CyVerse workshop.
 
 
 
-  .. list-table::
+  .. list-table:: Community Workshops Using CyVerse
       :header-rows: 1
-      :caption: Community Workshops Using CyVerse
 
       * - Workshop
         - Platform(s)
         - Notes
-      * - |AG2PI Workshop: Foundations of Computation|
-        - Discovery Environment, RStudio, Jupyter
-        - This course is designed for introducing computational concepts for people who are new to scientific programming or those who would like a refresher on introductory concepts. We will cover the CyVerse computational resources, UNIX command line, and introductory programming concepts and best practices.
+      * - |AG2PI Workshop 2021: Foundations of Computation|
+        - Discovery Environment, Data Store, RStudio, Jupyter
+        - Introductory workshop on using CyVerse for the |AG2PI community|
+      * - |NEON AOP Workshop 2020|
+        - Discovery Environment, VICE, Data Store
+        - Collaboration between CyVerse and NEON to use remote sensing data in RStudio and Python
       * - |CyVerse NEON Data Institute 2018|
         - Discovery Environment, Atmosphere
         - Provision Atmosphere as a Data Science Workbench running Docker, Singularity, Project Jupyter, and RStudio-Server. The |NEON Data Institute 2018| focus is on remote sensing and reproducible workflows in Python and R.
