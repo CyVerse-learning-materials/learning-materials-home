@@ -26,8 +26,7 @@ running your own CyVerse workshop.
       - Workshop to train early career scientists on using advanced cyberinfrastructure to advance their research
     * - |Tools and Services Workshop|
       - Discovery Environment, Atmosphere, Data Store
-      - This is a generic agenda and slides for a one-day CyVerse Workshop
-        overviewing the major components of the science infrastructure.
+      - This is a generic agenda and slides for a one-day CyVerse Workshop overviewing the major components of the science infrastructure.
 
 .. list-table::
     :header-rows: 1
@@ -38,10 +37,7 @@ running your own CyVerse workshop.
       - This course is designed for introducing computational concepts for people who are new to scientific programming or those who would like a refresher on introductory concepts. We will cover the CyVerse computational resources, UNIX command line, and introductory programming concepts and best practices.
     * - |CyVerse NEON Data Institute 2018|
       - Discovery Environment, Atmosphere
-      - Provision Atmosphere as a Data Science Workbench running Docker,
-        Singularity, Project Jupyter, and RStudio-Server. The
-        |NEON Data Institute 2018| focus is on remote sensing and reproducible
-        workflows in Python and R.
+      - Provision Atmosphere as a Data Science Workbench running Docker, Singularity, Project Jupyter, and RStudio-Server. The |NEON Data Institute 2018| focus is on remote sensing and reproducible workflows in Python and R.
     * - |Condensed R: 240-minute tutorial|
       - Discovery Environment, VICE, Data Store
       - A short introduction to using R and RStudio
@@ -142,13 +138,13 @@ running your own CyVerse workshop.
     <a href="https://learning.cyverse.org/projects/container_camp_workshop_2019/en/latest/" target="blank">CyVerse Container Camp 2019</a>
 
 .. |NEON AOP Workshop 2020| raw:: html
-    
+
     <a href="https://cyverse-2020-neon-aop-workshop.readthedocs-hosted.com/en/latest/" target="blank">NEON AOP Workshop 2020</a>
 
 .. |AG2PI Workshop 2021| raw:: html
 
     <a href="https://learning.cyverse.org/projects/ag2pi/en/latest/" target="blank">AG2PI Workshop 2021</a>
-   
+
 .. |AG2PI community|  raw:: html
-   
+
     <a href="https://www.ag2pi.org/" target="blank">AG2PI community</a>
