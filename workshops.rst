@@ -29,9 +29,9 @@ running your own CyVerse workshop.
       - This is a generic agenda and slides for a one-day CyVerse Workshop
         overviewing the major components of the science infrastructure.
 
-    .. list-table::
-        :header-rows: 1
-        :caption: Community Workshops Using CyVerse
+.. list-table::
+    :header-rows: 1
+    :caption: Community Workshops Using CyVerse
 
     * - |AG2PI Workshop: Foundations of Computation|
       - Discovery Environment, RStudio, Jupyter
@@ -140,3 +140,15 @@ running your own CyVerse workshop.
 .. |CyVerse Container Camp 2019| raw:: html
 
     <a href="https://learning.cyverse.org/projects/container_camp_workshop_2019/en/latest/" target="blank">CyVerse Container Camp 2019</a>
+
+.. |NEON AOP Workshop 2020| raw:: html
+    
+    <a href="https://cyverse-2020-neon-aop-workshop.readthedocs-hosted.com/en/latest/" target="blank">NEON AOP Workshop 2020</a>
+
+.. |AG2PI Workshop 2021| raw:: html
+
+    <a href="https://learning.cyverse.org/projects/ag2pi/en/latest/" target="blank">AG2PI Workshop 2021</a>
+   
+.. |AG2PI community|  raw:: html
+   
+    <a href="https://www.ag2pi.org/" target="blank">AG2PI community</a>

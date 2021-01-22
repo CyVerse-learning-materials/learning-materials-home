@@ -189,7 +189,7 @@ Atmosphere
 
 .. |Cluster Orthologs and Paralogs and Assemble Custom Gene Sets| raw:: html
 
-   <a href="https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=12881253" target="blank">Cluster Orthologs and Paralogs and Assemble Custom Gene Sets</a>
+   <a href="https://cyverse.atlassian.net/wiki/spaces/TUT/pages/258736290/Cluster+Orthologs+and+Paralogs+and+Assemble+Custom+Gene+Sets+Workflow+Tutorial" target="blank">Cluster Orthologs and Paralogs and Assemble Custom Gene Sets</a>
 
 .. |Detect and call variants from sequence reads using Bowtie and SAM Tools.| raw:: html
 
