@@ -42,8 +42,6 @@ running your own CyVerse workshop.
       - Discovery Environment, VICE, Data Store
       - A short introduction to using R and RStudio
 
-
-
 ----
 
 **Fix or improve this documentation**
