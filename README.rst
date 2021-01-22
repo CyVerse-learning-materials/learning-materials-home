@@ -18,9 +18,9 @@ Getting Started
 
 .. sidebar:: Featured Tutorials
 
-    - RNA-Seq with Kallisto and Sleuth <https://learning.cyverse.org/projects/kallisto_tutorial/en/latest/>
-    - Filter and Trim with Trimmomatic <https://learning.cyverse.org/projects/trimmomatic_quickstart/en/latest/>
-    - Condensed R <https://learning.cyverse.org/projects/cyverse-240-minute-r-tutorial/en/latest/index.html>
+    - `RNA-Seq with Kallisto and Sleuth <https://learning.cyverse.org/projects/kallisto_tutorial/en/latest/>`_
+    - `Filter and Trim with Trimmomatic <https://learning.cyverse.org/projects/trimmomatic_quickstart/en/latest/>`_
+    - `Condensed R <https://learning.cyverse.org/projects/cyverse-240-minute-r-tutorial/en/latest/index.html>`_
 
 
 - |Create a CyVerse account|
