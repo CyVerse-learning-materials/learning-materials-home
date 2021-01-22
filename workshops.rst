@@ -8,8 +8,7 @@
 Workshops
 -----------------------------------------------
 
-These are workshop formatted tutorials that can be used and/or remixed in
-running your own CyVerse workshop.
+Below, you can find materials using CyVerse that can be used as modules to run your own CyVerse workshop.
 
   .. list-table:: CyVerse Workshops
       :header-rows: 1
