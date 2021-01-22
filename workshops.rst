@@ -13,26 +13,29 @@ running your own CyVerse workshop.
 
 .. list-table::
     :header-rows: 1
+    :caption: CyVerse Workshops
 
     * - Workshop
       - Platform(s)
       - Notes
-    * - |CyVerse Container Camp 2020|
-      - Discovery Environment, Atmosphere, VICE, Data Store
+    * - |Container Camp|
+      - Discovery Environment, Atmosphere, Data Store
       - Topics on container technology for reproducible science
-    * - |CyVerse Foundational Open Science Skills 2020|
-      - Discovery Environment, Atmosphere, VICE, Data Store
+    * - |Foundational Open Science Skills|
+      - Discovery Environment, Atmosphere, Data Store
       - Workshop to train early career scientists on using advanced cyberinfrastructure to advance their research
-    * - |CyVerse Container Camp 2019|
-      - Discovery Environment, Atmosphere, VICE, Data Store
-      - Topics on container technology for reproducible science.
-    * - |CyVerse Foundational Open Science Skills 2019|
-      - Discovery Environment, Atmosphere, VICE, Data Store
-      - Workshop to train new PIs on advanced cyberinfrastructure
-    * - |CyVerse Tools and Services Workshop|
+    * - |Tools and Services Workshop|
       - Discovery Environment, Atmosphere, Data Store
       - This is a generic agenda and slides for a one-day CyVerse Workshop
-        overviewing the major components of the science infrastrutcure.
+        overviewing the major components of the science infrastructure.
+
+    .. list-table::
+        :header-rows: 1
+        :caption: Community Workshops Using CyVerse
+
+    * - |AG2PI Workshop: Foundations of Computation|
+      - Discovery Environment, RStudio, Jupyter
+      - This course is designed for introducing computational concepts for people who are new to scientific programming or those who would like a refresher on introductory concepts. We will cover the CyVerse computational resources, UNIX command line, and introductory programming concepts and best practices.
     * - |CyVerse NEON Data Institute 2018|
       - Discovery Environment, Atmosphere
       - Provision Atmosphere as a Data Science Workbench running Docker,
@@ -56,6 +59,10 @@ running your own CyVerse workshop.
 
 
 
+
+.. |AG2PI Workshop: Foundations of Computation| raw:: html
+
+    <a href="https://learning.cyverse.org/projects/ag2pi/en/latest/step1.html" target="blank">AG2PI Workshop: Foundations of Computation</a>
 
 .. |CyVerse NEON Data Institute 2018| raw:: html
 
@@ -106,9 +113,13 @@ running your own CyVerse workshop.
 
     <a href="https://cyverse-240-minute-r-tutorial.readthedocs-hosted.com/en/latest/" target="blank">Condensed R: 240-minute tutorial</a>
 
-.. |CyVerse Tools and Services Workshop| raw:: html
+.. |Tools and Services Workshop| raw:: html
 
-    <a href="https://cyverse-cyverse-tools-and-services-workshop.readthedocs-hosted.com/en/latest/" target="blank">CyVerse Tools and Services Workshop</a>
+    <a href="https://cyverse-cyverse-tools-and-services-workshop.readthedocs-hosted.com/en/latest/" target="blank">Tools and Services Workshop</a>
+
+.. |Foundational Open Science Skills| raw:: html
+
+  <a href="https://learning.cyverse.org/projects/cyverse-foss/en/latest/index.html" target="blank">Foundational Open Science Skills</a>
 
 .. |CyVerse Foundational Open Science Skills 2020| raw:: html
 
@@ -117,6 +128,10 @@ running your own CyVerse workshop.
 .. |CyVerse Foundational Open Science Skills 2019| raw:: html
 
     <a href="https://cyverse-foundational-open-science-skills-2019.readthedocs-hosted.com/en/latest/" target="blank">CyVerse Foundational Open Science Skills 2019</a>
+
+.. |Container Camp| raw:: html
+
+    <a href="https://learning.cyverse.org/projects/Container-camp-2020/en/latest/" target="blank">Container Camp</a>
 
 .. |CyVerse Container Camp 2020| raw:: html
 
