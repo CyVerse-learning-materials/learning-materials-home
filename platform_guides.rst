@@ -17,12 +17,13 @@ Discovery Environment
 
 Use hundreds of bioinformatics apps and manage data in the CyVerse Data Store from a simple web interface
 
-- |Discovery Environment Guide| 
+- |Discovery Environment Guide|
+- |Discovery Environment 2.0 Guide| 
 - |DE Manual|
 
 
 Atmosphere
----------- 
+----------
 
 Cloud computing with CyVerse
 
@@ -33,7 +34,7 @@ Data Store
 ----------
 
 A unified system for managing and sharing your data across CyVerse's tools and services
-     
+
 - |Data Store Guide|
 - |Data Store Manual|
 
@@ -43,14 +44,14 @@ DNA Subway
 Educator-focused access to data and informatics tools for modern biology
 
 - |DNA Subway Guide|
-      
+
 BisQue
 ------
 
 Bio-Image Semantic Query User Environment for the exchange and exploration of image data
 
 - |BisQue Manual|
-      
+
 SciApps
 -------
 
@@ -194,7 +195,7 @@ Please cite CyVerse appropriately when you make use of our resources,
 .. |CyVerse Foundational Open Science Skills 2019| raw:: html
 
     <a href="https://cyverse-foundational-open-science-skills-2019.readthedocs-hosted.com/en/latest/" target="blank">CyVerse Foundational Open Science Skills 2019</a>
-    
+
 .. |Powered by CyVerse| raw:: html
 
    <a href="https://cyverse.org/Powered%20by%20CyVerse" target="blank">Powered by CyVerse</a>
@@ -204,14 +205,13 @@ Please cite CyVerse appropriately when you make use of our resources,
     <a href="https://www.cyverse.org/researchers" target="blank">External Collaborative Partnership</a>
 
 .. |ECP Request web form| raw:: html
-   
+
     <a href="https://user.cyverse.org/forms/3" target="blank">ECP Request web form</a>
 
 .. |Tapis Live Docs| raw:: html
-   
+
    <a href="https://www.tacc.utexas.edu/tapis" target="blank">Tapis Live Docs</a>
-   
+
 .. |Terrain Docs| raw:: html
-   
+
    <a href="https://cyverse-de.github.io/api/" target="blank">Terrain Docs</a>
-   
