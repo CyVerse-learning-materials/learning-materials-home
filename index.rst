@@ -7,11 +7,12 @@
    :glob:
 
    README
-   platform_guides
-   tools_and_apps
    quick_starts
+   platform_guides
+   Frequently Asked Questions <https://learning.cyverse.org/projects/faq/en/latest/index.html>
+   tools_and_apps
    tutorials
+   power_users
    workshops
    Webinars <https://www.cyverse.org/webinars>
-   power_users
    contributing
