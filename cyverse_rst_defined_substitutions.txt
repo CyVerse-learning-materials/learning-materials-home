@@ -32,6 +32,10 @@
 
    <a href="http://learning.cyverse.org/projects/cyverse-discovery-environment-guide/" target="blank">Discovery Environment Guide</a>
 
+ .. |Discovery Environment 2.0 Guide| raw:: html
+
+    <a href="http://learning.cyverse.org/projects/cyverse-de2-guide/" target="blank">Discovery Environment 2.0 Guide</a>
+
 .. |Atmosphere| raw:: html
 
    <a href="https://atmo.cyverse.org" target="blank">Atmosphere</a>
@@ -109,7 +113,7 @@
 
 .. |CyVerse_logo| image:: ./img/cyverse_learning.png
     :width: 500
-    
+
 .. _CyVerse_logo: https://cyverse.org
 
 .. |Home_Icon| image:: ./img/homeicon.png
