@@ -32,9 +32,9 @@
 
    <a href="http://learning.cyverse.org/projects/cyverse-discovery-environment-guide/" target="blank">Discovery Environment Guide</a>
 
- .. |Discovery Environment 2.0 Guide| raw:: html
+.. |Discovery Environment 2.0 Guide| raw:: html
 
-    <a href="http://learning.cyverse.org/projects/cyverse-de2-guide/" target="blank">Discovery Environment 2.0 Guide</a>
+  <a href="http://learning.cyverse.org/projects/cyverse-de2-guide/" target="blank">Discovery Environment 2.0 Guide</a>
 
 .. |Atmosphere| raw:: html
 
