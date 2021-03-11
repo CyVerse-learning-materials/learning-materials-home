@@ -130,7 +130,7 @@ You can use these workshop materials as modules to teach and run your own worksh
 
 .. |Container Camp| raw:: html
 
-    <a href="https://learning.cyverse.org/projects/Container-camp-2020/en/latest/" target="blank">Container Camp</a>
+    <a href="https://learning.cyverse.org/projects/cyverse-container-camp/en/latest/index.html" target="blank">Container Camp</a>
 
 .. |CyVerse Container Camp 2020| raw:: html
 
