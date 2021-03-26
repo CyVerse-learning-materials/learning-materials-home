@@ -14,7 +14,7 @@
 
 .. |Data Store Manual| raw:: html
 
-   <a href="https://wiki.cyverse.org/wiki/display/DS/Data+Store+Table+of+Contents" target="blank">Data Store Manual</a>
+   <a href="https://learning.cyverse.org/projects/data-store-manual/en/latest/" target="blank">Data Store Manual</a>
 
 .. |Data Store Guide| raw:: html
 
