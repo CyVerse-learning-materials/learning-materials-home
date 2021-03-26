@@ -155,7 +155,7 @@ Please cite CyVerse appropriately when you make use of our resources,
 
 .. |VICE Guide| raw:: html
 
-    <a href="https://learning.cyverse.org/projects/vice" target="blank">Vice Documentation</a>
+    <a href="https://learning.cyverse.org/projects/vice" target="blank">VICE Guide</a>
 
 .. |Request a DOI| raw:: html
 
