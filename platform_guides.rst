@@ -15,12 +15,12 @@ guides will help you navigate the top-level user platforms.
 Discovery Environment
 ---------------------
 
-Use hundreds of bioinformatics apps and manage data in the CyVerse Data Store from a simple web interface
+Use hundreds of bioinformatics apps and manage data in the CyVerse Data Store from a simple web interface. The Visual Interactive Computing Environment (VICE) is a part of the Discovery Environment. It introduces common Integrated Development Environments (IDEs) such as Project Jupyter Notebooks & Lab, RStudio, Shiny Apps and Linux Desktop.
 
 - |Discovery Environment Guide|
 - |Discovery Environment 2.0 Guide| 
-- |DE Manual|
-
+- |Discovery Environment Manual|
+- |VICE Guide|
 
 Atmosphere
 ----------
@@ -67,13 +67,6 @@ CyVerse provides programmatic access to its services through multiple APIs (appl
 - |Terrain Docs| : Access to CyVerse resources
 - |Tapis Live Docs| : Access to TACC HPC resources
 
-
-VICE
-----
-
-Visual Interactive Computing Environment VICE introduces graphic user interfaces (GUIs) and common Integrated Development Environments (IDEs) such as Project Jupyter Notebooks & Lab, RStudio, Shiny Apps and Linux Desktop
-
-- |Vice Documentation|
 
 -----
 
@@ -160,7 +153,7 @@ Please cite CyVerse appropriately when you make use of our resources,
 
     <a href="https://cyverse-sciapps-guide.readthedocs-hosted.com/en/latest/annotation.html" target="blank">Genome Annotation with MAKER</a>
 
-.. |Vice Documentation| raw:: html
+.. |VICE Guide| raw:: html
 
     <a href="https://learning.cyverse.org/projects/vice" target="blank">Vice Documentation</a>
 
