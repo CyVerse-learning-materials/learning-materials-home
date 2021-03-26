@@ -26,7 +26,7 @@
 
 .. |Discovery Environment Manual| raw:: html
 
-   <a href="https://wiki.cyverse.org/wiki/display/DEmanual/Table+of+Contents" target="blank">DE Manual</a>
+   <a href="https://wiki.cyverse.org/wiki/display/DEmanual/Table+of+Contents" target="blank">Discovery Environment Manual</a>
 
 .. |Discovery Environment Guide| raw:: html
 
