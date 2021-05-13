@@ -15,13 +15,6 @@ The CyVerse Learning Center is a release of our learning materials in the popula
 Getting Started
 ****************
 
-
-.. sidebar:: Featured Tutorials
-
-   - `RNA-Seq with Kallisto and Sleuth <https://learning.cyverse.org/projects/kallisto_tutorial/en/latest/>`_
-   - `Filter and Trim with Trimmomatic <https://learning.cyverse.org/projects/trimmomatic_quickstart/en/latest/>`_
-   - `Condensed R <https://learning.cyverse.org/projects/cyverse-240-minute-r-tutorial/en/latest/index.html>`_
-
 What to do first
 ################
 
@@ -30,9 +23,21 @@ What to do first
 - `Launch an analysis <https://learning.cyverse.org/projects/discovery-environment-guide/en/latest/step3.html?highlight=launch%20analysis>`_
 - Watch a `Getting Started Webinar <https://www.youtube.com/watch?v=-1lQuIMLXvs&list=PL38WPXpo-ZW2Qay_04FuP8IeVbbUopoiw&index=3>`_
 
+.. sidebar:: Featured Tutorials
+
+   - `RNA-Seq with Kallisto and Sleuth <https://learning.cyverse.org/projects/kallisto_tutorial/en/latest/>`_
+   - `Filter and Trim with Trimmomatic <https://learning.cyverse.org/projects/trimmomatic_quickstart/en/latest/>`_
+   - `Condensed R <https://learning.cyverse.org/projects/cyverse-240-minute-r-tutorial/en/latest/index.html>`_
 
 ----
 
+More 
+####
+
+- Managing data using the |Data Store Guide|_
+- `Create a Project <https://cyverse-group-project-quickstart.readthedocs-hosted.com/en/latest/>`_
+- Interactive computing with `Jupyter Lab <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-jupyter.html>`_
+- Finding apps in the |Discovery Environment Guide|_
 
 .. sidebar:: For Advanced Users
 
@@ -40,14 +45,6 @@ What to do first
     - `Command Line Transfer with iCommands <https://learning.cyverse.org/projects/data_store_guide/en/latest/step2.html#>`_
     - `Integrating Tools and Apps <https://learning.cyverse.org/en/latest/tools_and_apps.html>`_
 
-
-More 
-####
-
-- Managing data using the |Data Store Guide|
-- `Create a Project <https://cyverse-group-project-quickstart.readthedocs-hosted.com/en/latest/>`_
-- Interactive computing with `Jupyter Lab <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-jupyter.html>`_
-- Finding apps in the |Discovery Environment Guide|
 
 ----
 
