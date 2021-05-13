@@ -43,14 +43,14 @@ Getting Started
 
 ----
 
-----
 
-We make regular contributions to these materials, and you can suggest new materials or create and share your own. If you have ideas or suggestions please email `Learning@CyVerse.org <mailto:Learning@cyverse.org>`_. You can also view, edit, and submit contributions on |Github|.
+----
 
 
 ----
 
 **CyVerse Homepage:** |CyVerse Homepage|
+
 
 **Funding and Citations:**
 
@@ -63,6 +63,8 @@ Please cite CyVerse appropriately when you make use of our resources, see
 ----
 
 **Fix or improve this documentation**
+
+We make regular contributions to these materials, and you can suggest new materials or create and share your own. If you have ideas or suggestions please email `Learning@CyVerse.org <mailto:Learning@cyverse.org>`_. You can also view, edit, and submit contributions on |Github|.
 
 - On Github: |Github|
 - Send feedback: `Learning@CyVerse.org <Learning@CyVerse.org>`_
