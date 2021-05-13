@@ -15,26 +15,19 @@ The CyVerse Learning Center is a release of our learning materials in the popula
 Getting Started
 ****************
    
-What to do first
-################
+.. sidebar:: What to do first
 
-- |Create a CyVerse account|
-- `Upload your data <https://cyverse-data-store-quickstart.readthedocs-hosted.com/en/latest/>`_
-- `Launch an analysis <https://learning.cyverse.org/projects/discovery-environment-guide/en/latest/step3.html?highlight=launch%20analysis>`_
-- Watch a `Getting Started Webinar <https://www.youtube.com/watch?v=-1lQuIMLXvs&list=PL38WPXpo-ZW2Qay_04FuP8IeVbbUopoiw&index=3>`_
+   - |Create a CyVerse account|
+   - `Upload your data <https://cyverse-data-store-quickstart.readthedocs-hosted.com/en/latest/>`_
+   - `Launch an analysis <https://learning.cyverse.org/projects/discovery-environment-guide/en/latest/step3.html?highlight=launch%20analysis>`_
+   - Watch a `Getting Started Webinar <https://www.youtube.com/watch?v=-1lQuIMLXvs&list=PL38WPXpo-ZW2Qay_04FuP8IeVbbUopoiw&index=3>`_
  
-----
-
-More 
-####
+.. sidebar:: Next steps
 
 - Managing data using the |Data Store Guide|
 - `Create a Project <https://cyverse-group-project-quickstart.readthedocs-hosted.com/en/latest/>`_
 - Interactive computing with `Jupyter Lab <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-jupyter.html>`_
 - Finding apps in the |Discovery Environment Guide|
-
-----
-
 
 .. sidebar:: Featured Tutorials
 
@@ -47,6 +40,8 @@ More
     - `Create a Docker container <https://learning.cyverse.org/projects/cyverse-creating-docker-containers-quickstart/en/latest/index.html>`_
     - `Command Line Transfer with iCommands <https://learning.cyverse.org/projects/data_store_guide/en/latest/step2.html#>`_
     - `Integrating Tools and Apps <https://learning.cyverse.org/en/latest/tools_and_apps.html>`_
+
+----
 
 ----
 
