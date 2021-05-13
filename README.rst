@@ -32,10 +32,6 @@ What to do first
 - `Create a group project <https://cyverse-group-project-quickstart.readthedocs-hosted.com/en/latest/>`_
 - Watch a `Getting Started Webinar <https://www.youtube.com/watch?v=-1lQuIMLXvs&list=PL38WPXpo-ZW2Qay_04FuP8IeVbbUopoiw&index=3>`_
 
-
-----
-
-
 .. sidebar:: For Advanced Users
 
     - `Create a Docker container <https://learning.cyverse.org/projects/cyverse-creating-docker-containers-quickstart/en/latest/index.html>`_
@@ -43,13 +39,12 @@ What to do first
     - `Integrating Tools and Apps <https://learning.cyverse.org/en/latest/tools_and_apps.html>`_
 
 
-More about our platform
+More 
 ################
 
 - Managing data using the |Data Store Guide|
 - Interactive computing with `Jupyter Lab <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-jupyter.html>`_
 - Finding apps in the |Discovery Environment Guide|
-
 
 
 ----
