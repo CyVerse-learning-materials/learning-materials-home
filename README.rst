@@ -29,7 +29,6 @@ What to do first
 - |Create a CyVerse account|
 - `Upload your data <https://cyverse-data-store-quickstart.readthedocs-hosted.com/en/latest/>`_
 - `Launch an analysis <https://learning.cyverse.org/projects/discovery-environment-guide/en/latest/step3.html?highlight=launch%20analysis>`_
-- `Create a group project <https://cyverse-group-project-quickstart.readthedocs-hosted.com/en/latest/>`_
 - Watch a `Getting Started Webinar <https://www.youtube.com/watch?v=-1lQuIMLXvs&list=PL38WPXpo-ZW2Qay_04FuP8IeVbbUopoiw&index=3>`_
 
 .. sidebar:: For Advanced Users
@@ -43,9 +42,9 @@ More
 ################
 
 - Managing data using the |Data Store Guide|
+- `Create a Project <https://cyverse-group-project-quickstart.readthedocs-hosted.com/en/latest/>`_
 - Interactive computing with `Jupyter Lab <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-jupyter.html>`_
 - Finding apps in the |Discovery Environment Guide|
-
 
 ----
 
@@ -73,7 +72,6 @@ Please cite CyVerse appropriately when you make use of our resources, see
 - Send feedback: `Learning@CyVerse.org <Learning@CyVerse.org>`_
 
 ----
-
 
 
 .. |platform_stack| image:: ./img/cyverse_platform_stack.png
