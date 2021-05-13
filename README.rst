@@ -14,19 +14,6 @@ The CyVerse Learning Center is a release of our learning materials in the popula
 ****************
 Getting Started
 ****************
-
-
-.. sidebar:: Featured Tutorials
-
-   - `RNA-Seq with Kallisto and Sleuth <https://learning.cyverse.org/projects/kallisto_tutorial/en/latest/>`_
-   - `Filter and Trim with Trimmomatic <https://learning.cyverse.org/projects/trimmomatic_quickstart/en/latest/>`_
-   - `Condensed R <https://learning.cyverse.org/projects/cyverse-240-minute-r-tutorial/en/latest/index.html>`_
-
-.. sidebar:: For Advanced Users
-
-    - `Create a Docker container <https://learning.cyverse.org/projects/cyverse-creating-docker-containers-quickstart/en/latest/index.html>`_
-    - `Command Line Transfer with iCommands <https://learning.cyverse.org/projects/data_store_guide/en/latest/step2.html#>`_
-    - `Integrating Tools and Apps <https://learning.cyverse.org/en/latest/tools_and_apps.html>`_
    
 What to do first
 ################
@@ -41,14 +28,27 @@ What to do first
 More 
 ####
 
-- Managing data using the |Data Store Guide|_
+- Managing data using the |Data Store Guide|
 - `Create a Project <https://cyverse-group-project-quickstart.readthedocs-hosted.com/en/latest/>`_
 - Interactive computing with `Jupyter Lab <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-jupyter.html>`_
-- Finding apps in the |Discovery Environment Guide|_
-
+- Finding apps in the |Discovery Environment Guide|
 
 ----
 
+
+.. sidebar:: Featured Tutorials
+
+   - `RNA-Seq with Kallisto and Sleuth <https://learning.cyverse.org/projects/kallisto_tutorial/en/latest/>`_
+   - `Filter and Trim with Trimmomatic <https://learning.cyverse.org/projects/trimmomatic_quickstart/en/latest/>`_
+   - `Condensed R <https://learning.cyverse.org/projects/cyverse-240-minute-r-tutorial/en/latest/index.html>`_
+
+.. sidebar:: For Advanced Users
+
+    - `Create a Docker container <https://learning.cyverse.org/projects/cyverse-creating-docker-containers-quickstart/en/latest/index.html>`_
+    - `Command Line Transfer with iCommands <https://learning.cyverse.org/projects/data_store_guide/en/latest/step2.html#>`_
+    - `Integrating Tools and Apps <https://learning.cyverse.org/en/latest/tools_and_apps.html>`_
+
+----
 
 We make regular contributions to these materials, and you can suggest new materials or create and share your own. If you have ideas or suggestions please email `Learning@CyVerse.org <mailto:Learning@cyverse.org>`_. You can also view, edit, and submit contributions on |Github|.
 
