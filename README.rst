@@ -24,10 +24,10 @@ Getting Started
  
 .. sidebar:: Next steps
 
-- Managing data using the |Data Store Guide|
-- `Create a Project <https://cyverse-group-project-quickstart.readthedocs-hosted.com/en/latest/>`_
-- Interactive computing with `Jupyter Lab <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-jupyter.html>`_
-- Finding apps in the |Discovery Environment Guide|
+   - Managing data using the |Data Store Guide|
+   - `Create a Project <https://cyverse-group-project-quickstart.readthedocs-hosted.com/en/latest/>`_
+   - Interactive computing with `Jupyter Lab <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-jupyter.html>`_
+   - Finding apps in the |Discovery Environment Guide|
 
 .. sidebar:: Featured Tutorials
 
