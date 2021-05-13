@@ -22,7 +22,6 @@ Getting Started
    - `Filter and Trim with Trimmomatic <https://learning.cyverse.org/projects/trimmomatic_quickstart/en/latest/>`_
    - `Condensed R <https://learning.cyverse.org/projects/cyverse-240-minute-r-tutorial/en/latest/index.html>`_
 
-
 What to do first
 ################
 
@@ -30,6 +29,10 @@ What to do first
 - `Upload your data <https://cyverse-data-store-quickstart.readthedocs-hosted.com/en/latest/>`_
 - `Launch an analysis <https://learning.cyverse.org/projects/discovery-environment-guide/en/latest/step3.html?highlight=launch%20analysis>`_
 - Watch a `Getting Started Webinar <https://www.youtube.com/watch?v=-1lQuIMLXvs&list=PL38WPXpo-ZW2Qay_04FuP8IeVbbUopoiw&index=3>`_
+
+
+----
+
 
 .. sidebar:: For Advanced Users
 
@@ -39,7 +42,7 @@ What to do first
 
 
 More 
-################
+####
 
 - Managing data using the |Data Store Guide|
 - `Create a Project <https://cyverse-group-project-quickstart.readthedocs-hosted.com/en/latest/>`_
