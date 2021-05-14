@@ -46,7 +46,6 @@ Getting Started
 |
 |
 |
-|
 
 .. sidebar:: Featured Tutorials
 
