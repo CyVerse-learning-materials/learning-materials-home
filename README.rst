@@ -45,6 +45,7 @@ Getting Started
 |
 |
 |
+|
 
 .. sidebar:: Featured Tutorials
 
@@ -54,7 +55,7 @@ Getting Started
 
 .. topic:: Self paced tutorials
 
-   Browse our list of |Self Paced Tutorials|    
+   Browse |Self Paced Tutorials|    
 
 |
 |
@@ -71,13 +72,6 @@ Getting Started
 .. topic:: Bring your own tools
 
    Integrate your own containers    
-   
-|
-|
-|
-|
-|
-
 
 **Funding and Citations:**
 
