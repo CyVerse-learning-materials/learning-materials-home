@@ -14,6 +14,12 @@ The CyVerse Learning Center is a release of our learning materials in the popula
 Getting Started
 ***************
 
+.. sidebar:: What to do first
+
+   - `Upload your data <https://cyverse-data-store-quickstart.readthedocs-hosted.com/en/latest/>`_
+   - `Launch an analysis <https://learning.cyverse.org/projects/discovery-environment-guide/en/latest/step3.html?highlight=launch%20analysis>`_
+   - Watch a `Getting Started Webinar <https://www.youtube.com/watch?v=-1lQuIMLXvs&list=PL38WPXpo-ZW2Qay_04FuP8IeVbbUopoiw&index=3>`_
+
 .. topic:: Account Creation
 
    |Create a CyVerse account|
@@ -24,27 +30,15 @@ Getting Started
 |
 |
 
-.. sidebar:: What to do first
-
-   - `Upload your data <https://cyverse-data-store-quickstart.readthedocs-hosted.com/en/latest/>`_
-   - `Launch an analysis <https://learning.cyverse.org/projects/discovery-environment-guide/en/latest/step3.html?highlight=launch%20analysis>`_
-   - Watch a `Getting Started Webinar <https://www.youtube.com/watch?v=-1lQuIMLXvs&list=PL38WPXpo-ZW2Qay_04FuP8IeVbbUopoiw&index=3>`_
-
-.. topic:: Managing data 
-
-   |Data Store Guide|    
-
-|
-
 .. sidebar:: Next steps
 
    - `Create a Project <https://cyverse-group-project-quickstart.readthedocs-hosted.com/en/latest/>`_
    - Interactive computing with `Jupyter Lab <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-jupyter.html>`_
    - Finding apps in the |Discovery Environment Guide|
+   
+.. topic:: Managing data 
 
-.. topic:: Self paced tutorials
-
-   Browse our list of |Self Paced Tutorials|    
+   |Data Store Guide|    
 
 |
 |
@@ -58,10 +52,10 @@ Getting Started
    - `Filter and Trim with Trimmomatic <https://learning.cyverse.org/projects/trimmomatic_quickstart/en/latest/>`_
    - `Condensed R <https://learning.cyverse.org/projects/cyverse-240-minute-r-tutorial/en/latest/index.html>`_
 
-.. topic:: Bring your own tools
+.. topic:: Self paced tutorials
 
-   Integrate your own containers    
-   
+   Browse our list of |Self Paced Tutorials|    
+
 |
 |
 |
@@ -74,11 +68,16 @@ Getting Started
     - `Command Line Transfer with iCommands <https://learning.cyverse.org/projects/data_store_guide/en/latest/step2.html#>`_
     - `Integrating Tools and Apps <https://learning.cyverse.org/en/latest/tools_and_apps.html>`_
 
+.. topic:: Bring your own tools
+
+   Integrate your own containers    
+   
 |
 |
 |
 |
 |
+
 
 **Funding and Citations:**
 
