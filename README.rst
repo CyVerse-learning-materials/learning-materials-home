@@ -8,7 +8,7 @@
 
 **Welcome to the CyVerse Learning Center**
 
-The CyVerse Learning Center is a release of our learning materials in the popular "Read the Docs" formatting. We are transitioning our leaning materials from our wiki into this format to make them easier to search, use, and update.
+The CyVerse Learning Center is a release of our learning materials in the popular "Read the Docs" formatting. 
 
 ***************
 Getting Started
