@@ -46,6 +46,7 @@ Getting Started
 |
 |
 |
+|
 
 .. sidebar:: Featured Tutorials
 
@@ -64,6 +65,7 @@ Getting Started
 |
 |
 |
+|
 
 .. sidebar:: For Advanced Users
 
@@ -74,6 +76,7 @@ Getting Started
 
    |Creating and Running Docker Containers|    
 
+|
 |
 |
 |
