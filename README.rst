@@ -17,11 +17,8 @@ Getting Started
 .. topic:: Account Creation
 
    |Create a CyVerse account|
-   |
-   |
-   |
-   |
-   |
+   
+|
 
 .. sidebar:: What to do first
 
@@ -32,11 +29,8 @@ Getting Started
 .. topic:: Managing data 
 
    |Data Store Guide|    
-   |
-   |
-   |
-   |
-   |
+
+|
 
 .. sidebar:: Next steps
 
@@ -47,11 +41,8 @@ Getting Started
 .. topic:: Self paced tutorials
 
    Browse our list of |Self Paced Tutorials|    
-   |
-   |
-   |
-   |
-   |
+
+|
 
 .. sidebar:: Featured Tutorials
 
@@ -62,11 +53,8 @@ Getting Started
 .. topic:: Bring your own tools
 
    Integrate your own containers    
-   |
-   |
-   |
-   |
-   |
+   
+|
 
 .. sidebar:: For Advanced Users
 
@@ -74,11 +62,7 @@ Getting Started
     - `Command Line Transfer with iCommands <https://learning.cyverse.org/projects/data_store_guide/en/latest/step2.html#>`_
     - `Integrating Tools and Apps <https://learning.cyverse.org/en/latest/tools_and_apps.html>`_
 
-
 |
-|
-|
-
 
 **Funding and Citations:**
 
