@@ -24,8 +24,6 @@ Getting Started
    - `Launch an analysis <https://learning.cyverse.org/projects/discovery-environment-guide/en/latest/step3.html?highlight=launch%20analysis>`_
    - Watch a `Getting Started Webinar <https://www.youtube.com/watch?v=-1lQuIMLXvs&list=PL38WPXpo-ZW2Qay_04FuP8IeVbbUopoiw&index=3>`_
 
-----
-
 .. topic:: Managing data 
 
    |Data Store Guide|
@@ -36,11 +34,9 @@ Getting Started
    - Interactive computing with `Jupyter Lab <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-jupyter.html>`_
    - Finding apps in the |Discovery Environment Guide|
 
-----
-
 .. topic:: Self paced tutorials
 
-Browse our list of |Self Paced Tutorials|_
+   Browse our list of |Self Paced Tutorials|
 
 .. sidebar:: Featured Tutorials
 
@@ -48,19 +44,15 @@ Browse our list of |Self Paced Tutorials|_
    - `Filter and Trim with Trimmomatic <https://learning.cyverse.org/projects/trimmomatic_quickstart/en/latest/>`_
    - `Condensed R <https://learning.cyverse.org/projects/cyverse-240-minute-r-tutorial/en/latest/index.html>`_
 
-----
-
 .. topic:: Bring your own tools
 
-Integrate your own containers
+   Integrate your own containers
 
 .. sidebar:: For Advanced Users
 
     - `Create a Docker container <https://learning.cyverse.org/projects/cyverse-creating-docker-containers-quickstart/en/latest/index.html>`_
     - `Command Line Transfer with iCommands <https://learning.cyverse.org/projects/data_store_guide/en/latest/step2.html#>`_
     - `Integrating Tools and Apps <https://learning.cyverse.org/en/latest/tools_and_apps.html>`_
-
-----
 
 **Funding and Citations:**
 
