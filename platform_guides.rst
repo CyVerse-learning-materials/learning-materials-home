@@ -17,7 +17,7 @@ Discovery Environment
 
 Use hundreds of bioinformatics apps and manage data in the CyVerse Data Store from a simple web interface. The Visual Interactive Computing Environment (VICE) is a part of the Discovery Environment. It introduces common Integrated Development Environments (IDEs) such as Project Jupyter Notebooks & Lab, RStudio, Shiny Apps and Linux Desktop.
 
-- |Discovery Environment Guide| 
+- |Discovery Environment 2.0 Guide| 
 - |VICE Guide|
 - |Legacy (old) Discovery Environment Guide|
 
@@ -111,7 +111,7 @@ Please cite CyVerse appropriately when you make use of our resources,
 
     <a href="http://www.cyverse.org" target="blank">http://www.cyverse.org</a>
     
- .. |Discovery Environment Guide| raw:: html
+ .. |Discovery Environment 2.0 Guide| raw:: html
  
     <a href="https://learning.cyverse.org/projects/cyverse-de2-guide/en/latest/" target="blank">Discovery Environment Guide</a> 
 
