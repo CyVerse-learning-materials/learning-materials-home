@@ -66,6 +66,8 @@ Getting Started
 |
 |
 |
+|
+|
 
 .. sidebar:: For Advanced Users
 
