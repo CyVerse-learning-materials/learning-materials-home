@@ -14,10 +14,9 @@ The CyVerse Learning Center is a release of our learning materials in the popula
 Getting Started
 ***************
 
-Account Creation
-################
+.. topic:: Account Creation
 
-|Create a CyVerse account|
+   |Create a CyVerse account|
 
 .. sidebar:: What to do first
 
@@ -27,10 +26,9 @@ Account Creation
 
 ----
 
-Managing data 
-#############
+.. topic:: Managing data 
 
-|Data Store Guide|
+   |Data Store Guide|
 
 .. sidebar:: Next steps
 
@@ -40,9 +38,9 @@ Managing data
 
 ----
 
-Self paced tutorials
-####################
+.. topic:: Self paced tutorials
 
+Browse our list of |Self Paced Tutorials|_
 
 .. sidebar:: Featured Tutorials
 
@@ -52,8 +50,9 @@ Self paced tutorials
 
 ----
 
-Bring your own tools
-####################
+.. topic:: Bring your own tools
+
+Integrate your own containers
 
 .. sidebar:: For Advanced Users
 
@@ -206,6 +205,10 @@ We make regular contributions to these materials, and you can suggest new materi
 
     <https://www.cyverse.org/powered-by-cyverse>
 
- .. |Quickstarts| raw:: html
+.. |Quickstarts| raw:: html
 
     <https://www.cyverse.org/powered-by-cyverse>
+
+.. |Self Paced Tutorials| raw:: html
+
+   <a href="https://learning.cyverse.org/en/latest/tutorials.html" target="blank">Self Paced Tutorials</a>
