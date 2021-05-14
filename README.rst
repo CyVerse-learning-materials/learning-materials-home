@@ -14,6 +14,9 @@ The CyVerse Learning Center is a release of our learning materials in the popula
 Getting Started
 ***************
 
+Account Creation
+################
+
 |Create a CyVerse account|
 
 .. sidebar:: What to do first
@@ -24,17 +27,23 @@ Getting Started
 
 ----
 
-Managing data with the |Data Store Guide|
+Managing data 
+#############
+
+|Data Store Guide|
 
 .. sidebar:: Next steps
 
+   - 
    - `Create a Project <https://cyverse-group-project-quickstart.readthedocs-hosted.com/en/latest/>`_
    - Interactive computing with `Jupyter Lab <https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-jupyter.html>`_
    - Finding apps in the |Discovery Environment Guide|
 
----
+----
 
-Try our self paced tutorials
+Self paced tutorials
+####################
+
 
 .. sidebar:: Featured Tutorials
 
@@ -45,6 +54,7 @@ Try our self paced tutorials
 ----
 
 Bring your own tools
+####################
 
 .. sidebar:: For Advanced Users
 
@@ -52,13 +62,7 @@ Bring your own tools
     - `Command Line Transfer with iCommands <https://learning.cyverse.org/projects/data_store_guide/en/latest/step2.html#>`_
     - `Integrating Tools and Apps <https://learning.cyverse.org/en/latest/tools_and_apps.html>`_
 
-
-
-
 ----
-
-**CyVerse Homepage:** |CyVerse Homepage|
-
 
 **Funding and Citations:**
 
