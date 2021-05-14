@@ -19,6 +19,10 @@ Getting Started
    |Create a CyVerse account|
    
 |
+|
+|
+|
+|
 
 .. sidebar:: What to do first
 
@@ -43,6 +47,10 @@ Getting Started
    Browse our list of |Self Paced Tutorials|    
 
 |
+|
+|
+|
+|
 
 .. sidebar:: Featured Tutorials
 
@@ -55,6 +63,10 @@ Getting Started
    Integrate your own containers    
    
 |
+|
+|
+|
+|
 
 .. sidebar:: For Advanced Users
 
@@ -62,6 +74,10 @@ Getting Started
     - `Command Line Transfer with iCommands <https://learning.cyverse.org/projects/data_store_guide/en/latest/step2.html#>`_
     - `Integrating Tools and Apps <https://learning.cyverse.org/en/latest/tools_and_apps.html>`_
 
+|
+|
+|
+|
 |
 
 **Funding and Citations:**
