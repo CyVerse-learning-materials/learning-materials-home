@@ -62,6 +62,8 @@ Getting Started
 |
 |
 |
+|
+|
 
 .. sidebar:: For Advanced Users
 
@@ -72,6 +74,9 @@ Getting Started
 .. topic:: Bring your own tools
 
    Integrate your own containers    
+
+|
+|
 
 **Funding and Citations:**
 
