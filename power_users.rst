@@ -33,7 +33,7 @@ There are several APIs to CyVerse's resources:
 External Collaborative Partnerships
 ===================================
 
-The |External Collaborative Partnership| program pairs members of our user community with expert staff to address the computational needs of a specific scientific project. To participate, please review the `required criteria <https://cyverse.org/criteria-for-assessing-ecp-requests>`_ and then complete the |ECP Request web form|. CyVerse does not provide funding support for external projects.
+The `External Collaborative Partnership <https://cyverse.org/ecp>`_ program pairs members of our user community with expert staff to address the computational needs of a specific scientific project. To participate, please review the `required criteria <https://cyverse.org/criteria-for-assessing-ecp-requests>`_ and then complete the `ECP Request web form <https://user.cyverse.org/requests/3>`_. CyVerse does not provide funding support for external projects.
 
 Powered by CyVerse 
 ==================
@@ -46,3 +46,5 @@ Third-party projects can leverage our cyberinfrastructure to provide services to
 
 `Get Powered by CyVerse Today <https://www.cyverse.org/powered-by-cyverse>`_
 
+
+   
