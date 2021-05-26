@@ -27,7 +27,8 @@ Atmosphere
 Cloud computing with CyVerse
 
 - |Atmosphere Guide|
-- |Atmosphere Manual|
+
+.. comment: taking this out - |Atmosphere Manual|
 
 Data Store
 ----------
@@ -35,7 +36,8 @@ Data Store
 A unified system for managing and sharing your data across CyVerse's tools and services
 
 - |Data Store Guide|
-- |Data Store Manual|
+
+.. comment: taking this out - |Data Store Manual|
 
 DNA Subway
 ----------
