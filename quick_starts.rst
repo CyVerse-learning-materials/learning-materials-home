@@ -24,6 +24,9 @@ These include short guides through common tasks.
     * - |Create a CyVerse account|
       - User Portal
       - Start here to create your own account
+    * - |Change your password|
+      - User Portal
+      - Change your CyVerse password, even if you've forgotten it
     * - |EZ installation of popular data science tools|
       - Atmosphere and Jetstream
       - Install anaconda (Python 2 or 3, R, Jupyter notebooks), Rstudio,

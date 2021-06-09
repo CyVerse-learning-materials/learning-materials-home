@@ -4,6 +4,10 @@
 
    <a href="https://github.com/CyVerse-learning-materials" target="blank">GitHub</a>
 
+.. |Change your password| raw:: html
+
+   <a href="https://learning.cyverse.org/projects/change_password_quickstart/en/latest/" target="blank">Change your password</a>
+
 .. |CyVerse User Portal| raw:: html
 
   <a href="https://user.cyverse.org/" target="_blank">CyVerse User Portal</a>
