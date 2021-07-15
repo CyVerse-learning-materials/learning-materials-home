@@ -119,7 +119,7 @@ Please cite CyVerse appropriately when you make use of our resources,
     
 .. |Discovery Environment Guide| raw:: html
 
-    <a href="https://learning.cyverse.org/projects/discovery-environment-guide/en/latest/index.html" target="blank">Legacy (old) Discovery Environment Guide</a> 
+    <a href="https://learning.cyverse.org/projects/discovery-environment-guide/en/latest/index.html" target="blank">Discovery Environment Guide</a> 
 
 .. |CyVerse FAQ| raw:: html
 
