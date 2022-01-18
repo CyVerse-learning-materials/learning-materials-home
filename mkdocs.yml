@@ -23,7 +23,7 @@ nav:
   - 'Get Started':
     - 'RStudio on CyVerse in 6 steps': https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-rstudio.html
     - 'JupyterLab on CyVerse in 6 steps': https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-jupyter.html
-    - 'Command Line on the Cloud': https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-cloudshell.html
+    - 'Command Line on the Cloud': vice/quick-cloudshell.md
   - 'Platform Guides':
     - 'Data Store': 
       - 'Introduction': ds/intro.md
