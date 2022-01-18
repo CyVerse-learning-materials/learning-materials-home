@@ -1,6 +1,6 @@
 # CyVerse Materials Home
 
-The repo is the homepage for CyVerse learning materials hosted by Read the Docs. 
+The repo is the homepage for CyVerse learning materials hosted by Mkdocs.
 
 ## Goal of the Learning Center
 
