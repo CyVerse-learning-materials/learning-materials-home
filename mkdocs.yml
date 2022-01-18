@@ -1,13 +1,13 @@
 docs_dir: docs/
-repo_name: 'MCMaurer/mkdocs-learning-materials-home'
-repo_url: 'https://github.com/MCMaurer/mkdocs-learning-materials-home'
+repo_name: 'CyVerse-learning-materials/learning-materials-home'
+repo_url: 'https://github.com/CyVerse-learning-materials/learning-materials-home/edit/mkdocs/mkdocs.yml'
 
 site_name: 'CyVerse Learning Home'
 site_description: 'Documentation for CyVerse Platforms and Education'
 site_author: 'CyVerse Science Team'
-site_url: https://mcmaurer.github.io/mkdocs-learning-materials-home/
+site_url: https://CyVerse-learning-materials.io/learning-materials-home/
 
-edit_uri: edit/main/docs
+edit_uri: edit/mkdocs/docs
 
 # Copyright
 copyright: 'Copyright &copy; 2022 CyVerse'
