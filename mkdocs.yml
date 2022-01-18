@@ -1,0 +1,145 @@
+docs_dir: docs/
+repo_name: 'MCMaurer/mkdocs-learning-materials-home'
+repo_url: 'https://github.com/MCMaurer/mkdocs-learning-materials-home'
+
+site_name: 'CyVerse Learning Home'
+site_description: 'Documentation for CyVerse Platforms and Education'
+site_author: 'CyVerse Science Team'
+site_url: https://mcmaurer.github.io/mkdocs-learning-materials-home/
+
+edit_uri: edit/main/docs
+
+# Copyright
+copyright: 'Copyright &copy; 2022 CyVerse'
+
+# Navigation Page
+nav:
+  - Home: index.md 
+  - Introduction:
+    - 'What is CyVerse?': what_is_cyverse.md
+    - 'CyVerse Account Setup': account.md 
+    - 'Choosing a Platform': choose_platform.md
+    - FAQ: faq.md
+  - 'Get Started':
+    - 'RStudio on CyVerse in 6 steps': https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-rstudio.html
+    - 'JupyterLab on CyVerse in 6 steps': https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-jupyter.html
+    - 'Command Line on the Cloud': https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-cloudshell.html
+  - 'Platform Guides':
+    - 'Data Store': 
+      - 'Introduction': ds/intro.md
+      - 'Data Transfers with Discovery Environment': de/manage_data.md
+      - 'Data Transfers with Cyberduck Desktop App': ds/cyberduck.md
+      - 'Command Line Data Transfers': ds/icommands.md
+      - 'HTTP Access with WebDAV': ds/webdav.md
+      - 'Adding Metadata': ds/metadata.md
+      - 'Data Sharing': ds/share.md
+    - 'Discovery Environment':
+      - 'Introduction': de/intro.md
+      - 'Logging In': de/login.md
+      - 'Managing Data': de/manage_data.md
+      - 'Using Apps': de/using_apps.md
+      - 'Managing Analyses': de/managing_analyses.md
+      - 'Searching': de/searching.md
+      - 'Sharing and Using Bags': de/bags.md
+    - 'VICE': vice_guide.md
+  - 'Other Tools':
+    - BISQUE: bisque_guide.md
+    - 'DNA Subway': dna_subway_guide.md
+  - 'Extending CyVerse':
+    - 'Creating DE Apps': de_apps.md
+    - 'Extending VICE apps': vice_apps.md
+    - 'Custom Platforms': powered_by.md
+    - 'Platform Manuals': manuals.md
+  - 'Detailed Tutorials':
+    - Bioinformatics: bioinformatics_tutorials.md
+    - 'Other Topics': other_tutorials.md
+    - 'Teaching with CyVerse': teaching.md
+  - 'CyVerse Workshops':
+    - 'Foundational Open Science Skills': foss.md
+    - 'Container Camp': container_camp.md
+
+# JavaScript for Intercom Widget
+extra_javascript:
+  - javascripts/intercom-learning.js
+  
+# Set theme to `readthedocs`
+# must also set Action to use `@nomaterial` branch instead of `@master` for material
+theme:
+  name: readthedocs
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  palette: 
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  font:
+    text: Montserrat
+    code: Regular
+  favicon: assets/favicon.png
+  icon:
+    logo: material/rocket
+
+# Options
+extra:
+  social:
+    - icon: fontawesome/brands/orcid
+      link: https://orcid.org/
+    - icon: fontawesome/brands/github
+      link: https://github.com/cyverse-learning-material/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/cyverseorg
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/cyverse.org
+    - icon: fontawesome/brands/docker
+      link: https://harbor.cyverse.org/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/c/CyverseOrgProject
+#  analytics:
+#    provider: google
+#    property: 
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
