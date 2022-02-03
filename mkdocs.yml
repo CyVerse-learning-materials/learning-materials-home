@@ -1,6 +1,6 @@
 docs_dir: docs/
 repo_name: 'CyVerse-learning-materials/learning-materials-home'
-repo_url: 'https://github.com/CyVerse-learning-materials/learning-materials-home/tree/mkdocs'
+repo_url: 'https://github.com/CyVerse-learning-materials/learning-materials-home'
 
 site_name: 'CyVerse Learning Home'
 site_description: 'Documentation for CyVerse Platforms and Education'
