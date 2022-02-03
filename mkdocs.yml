@@ -1,6 +1,6 @@
 docs_dir: docs/
 repo_name: 'CyVerse-learning-materials/learning-materials-home'
-repo_url: 'https://github.com/CyVerse-learning-materials/learning-materials-home/edit/mkdocs/mkdocs.yml'
+repo_url: 'https://github.com/CyVerse-learning-materials/learning-materials-home/tree/mkdocs'
 
 site_name: 'CyVerse Learning Home'
 site_description: 'Documentation for CyVerse Platforms and Education'
@@ -21,7 +21,7 @@ nav:
     - 'Choosing a Platform': choose_platform.md
     - FAQ: faq.md
   - 'Getting Started':
-    - 'RStudio in 6 steps': https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-rstudio.html
+    - 'RStudio in 6 steps': vice/quick-rstudio.md
     - 'JupyterLab in 6 steps': vice/quick-jupyter.md
     - 'Cloud Shell in 6 steps': vice/quick-cloudshell.md
   - 'Platform Guides':
