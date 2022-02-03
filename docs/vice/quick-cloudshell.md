@@ -110,4 +110,4 @@ Any input data which you added when the app started using the conventional launc
 
   VICE apps only run for a pre-determined amount of time, typically between 4 and 48 hours. 
   If you have opted for email notifications from DE, then you 'll get a notification 1 day before and 1 hour before the app gets terminated. 
-  If you want to extend the time, find your analysis and then click the :hourglass: hour glass icon which automatically extends the app run time.
+  If you want to extend the time, find your analysis and then click the hour glass icon which automatically extends the app run time.
