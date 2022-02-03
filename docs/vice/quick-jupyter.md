@@ -46,6 +46,10 @@ More information about the Jupyter Lab can be found [here](https://jupyterlab.re
 
 ## 4. Activate a `conda` environment
 
+From Jupyter's Launch menu, select the black Terminal console icon.
+
+This will take you to a command line shell.
+
 To activate conda:
 
 ``` conda init ```
