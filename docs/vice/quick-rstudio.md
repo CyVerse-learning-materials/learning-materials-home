@@ -10,7 +10,7 @@ If you have not yet created an account, go to the [User Portal](https://user.cyv
 
 [![rstudio_1]][rstudio_1]
 
-  [rstudio_1]: ../assets/de/rstudio_1.png
+  [rstudio_1]: https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_1.png
 
 Click on the **Apps** grid icon
 
