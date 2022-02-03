@@ -95,7 +95,7 @@ You can either use `iput` to copy your new files back to your user space, or if 
 
 You can find the outputs you generated (if any) using the same steps as before, but this time select the 'Go To Output Folder'.
 
-## 7. Terminate your app
+## 6. Terminate your app
 
 The Discovery Environment is a shared system. In fairness to the community, we ask uses to "Terminate" any apps they have started when
 they are no longer running analyses.
