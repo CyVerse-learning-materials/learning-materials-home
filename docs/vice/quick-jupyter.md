@@ -8,7 +8,9 @@ If you have not yet created an account, go to the [User Portal](https://user.cyv
 
 ## 2. Launch the App
 
-[![!jupyter_1](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/jupyter_1.png "jupyter_1"){ width="400" }](https://de.cyverse.org/apps/de/cc77b788-bc45-11eb-9934-008cfa5ae621/launch)
+[![jupyter_1]][jupyter_1]
+
+  [jupyter_1]: https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/jupyter_1.png
 
 Click on the **Apps** grid icon
 
@@ -18,19 +20,27 @@ Click on the **Apps** grid icon
 
 The conventional launch menu allows you to modify the App parameters. You can add input data, increase the amount of RAM or CPU cores, and change the analysis directory.
 
-[![!jupyter_2](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/jupyter_2.png "jupyter_2"){ width="400" }](https://de.cyverse.org/apps/de/cc77b788-bc45-11eb-9934-008cfa5ae621/launch)
+[![jupyter_2]][jupyter_2]
+
+  [jupyter_2]: https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/jupyter_2.png
 
 ## 3. Open the Analysis
 
 After you have started a VICE App, your browser will open a new tab and automatically be taken to the loading screen.
 
-[![!jupyter_3](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/jupyter_3.png "jupyter_3"){ width="400" }](https://de.cyverse.org/apps/de/cc77b788-bc45-11eb-9934-008cfa5ae621/launch)
+[![jupyter_3]][jupyter_3]
 
-[![!jupyter_4](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/jupyter_4.png "jupyter_4"){ width="400" }](https://de.cyverse.org/apps/de/cc77b788-bc45-11eb-9934-008cfa5ae621/launch)
+  [jupyter_3]: https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/jupyter_3.png
+
+[![jupyter_4]][jupyter_4]
+
+  [jupyter_4]: https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/jupyter_4.png
 
 Once the app is ready, it will transition to the user interface 
 
-[![!jupyter_5](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/jupyter_5.png "jupyter_5"){ width="400" }](https://de.cyverse.org/apps/de/cc77b788-bc45-11eb-9934-008cfa5ae621/launch)
+[![jupyter_5]][jupyter_5]
+
+  [jupyter_5]: https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/jupyter_5.png
 
 **The Jupyter Lab Interface:** 
 While Jupyter Lab has many features found in traditional integrated development environments (IDEs), it remains focused on interactive, exploratory computing. 
