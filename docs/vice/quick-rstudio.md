@@ -1,222 +1,106 @@
-> \<a href=\"<https://atmo.cyverse.org>\"
-> target=\"blank\"\>Atmosphere\</a>
+# RStudio Verse
 
-> \<a
-> href=\"<https://wiki.cyverse.org/wiki/display/atmman/Atmosphere+Manual+Table+of+Contents>\"
-> target=\"blank\"\>Atmosphere Manual\</a>
+# 1. Log into Discovery Environment
 
-> \<a
-> href=\"<https://learning.cyverse.org/projects/atmosphere-guide/en/latest/>\"
-> target=\"blank\"\>Atmosphere Guide\</a>
+Log into <https://de.cyverse.org>
 
-> \<a href=\"<https://bisque.cyverse.org/client_service/>\"
-> target=\"blank\"\>BisQue\</a>
+If you have not yet created an account, go to the [User Portal](https://user.cyverse.org) and sign up.
 
-> \<a href=\"<https://wiki.cyverse.org/wiki/display/BIS>\"
-> target=\"blank\"\>BisQue Manual\</a>
+## 2. Launch the App
 
-> \<a href=\"<https://user.cyverse.org/>\" target=\"\_blank\"\>CyVerse
-> User Portal\</a>
+[!rstudio_1](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_1.png "rstudio_1"){ width="400" }
 
-> \<a href=\"<http://learning.cyverse.org>\" target=\"blank\"\>CyVerse
-> Learning Center\</a>
+Click on the **Apps** grid icon
 
-> \<a href=\"<https://wiki.cyverse.org>\" target=\"blank\"\>CyVerse
-> Wiki\</a>
+[RStudio Verse](https://de.cyverse.org/apps/de/3548f43a-bed1-11e9-af16-008cfa5ae621/launch) is in "Featured Apps"
 
-> \<a href=\"<http://www.cyverse.org/data-store>\"
-> target=\"\_blank\"\>Data Store\</a>
+[Instant Launches](https://de.cyverse.org/instantlaunches) start Apps immediately when clicked.
 
-> \<a
-> href=\"<https://wiki.cyverse.org/wiki/display/DS/Data+Store+Table+of+Contents>\"
-> target=\"blank\"\>Data Store Manual\</a>
+The conventional launch menu allows you to modify the App parameters. You can add input data, increase the amount of RAM or CPU cores, and change the analysis directory.
 
-> \<a
-> href=\"<https://learning.cyverse.org/projects/data_store_guide/en/latest/>\"
-> target=\"blank\"\>Data Store Guide\</a>
+[![!rstudio_2](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_2.png "rstudio_2"){ width="400" }](https://de.cyverse.org/apps/de/3548f43a-bed1-11e9-af16-008cfa5ae621/launch)
 
-> \<a href=\"<https://de.cyverse.org/de/>\" target=\"blank\"\>Discovery
-> Environment\</a>
+## 3. Open the Analysis
 
-> \<a
-> href=\"<https://wiki.cyverse.org/wiki/display/DEmanual/Table+of+Contents>\"
-> target=\"blank\"\>DE Manual\</a>
+After you have started a VICE App, your browser will open a new tab and automatically be taken to the loading screen.
 
-> \<a
-> href=\"<http://learning.cyverse.org/projects/cyverse-discovery-environment-guide/>\"
-> target=\"blank\"\>Discovery Environment Guide\</a>
+[!rstudio_3](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_3.png "rstudio_3"){ width="400" }
 
-> \<a href=\"<https://dnasubway.cyverse.org/>\" target=\"blank\"\>DNA
-> Subway\</a>
+Once the app is ready, it will transition to the user interface 
 
-> \<a
-> href=\"<https://learning.cyverse.org/projects/dnasubway_guide/en/latest/>\"
-> target=\"blank\"\>DNA Subway Manual\</a>
+[!rstudio_4](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_4.png "rstudio_4"){ width="400" }
 
-> \<a
-> href=\"<https://learning.cyverse.org/projects/dnasubway_guide/en/latest/>\"
-> target=\"blank\"\>DNA Subway Guide\</a>
+**RStudio Interface:** 
+RStudio is a free, open source IDE (integrated development environment) for R. 
+Its interface is organized so that the user can clearly view graphs, data table, R code and ouput at the same time. 
+It also offers an Import-Wizard-like feature that allows users to import CSV, Excel, SAS (*.sas7bdat), SPSS (*.sav), and Stata (\*.dta) files into R without having to write the code to do so.
 
-> \<a href=\"<https://www.sciapps.org/>\" target=\"blank\"\>SciApps\</a>
+More information about the RStudio can be found [here](https://www.rstudio.com/products/rstudio/).
 
-> \<a
-> href=\"<https://learning.cyverse.org/projects/sciapps_guide/en/latest/>\"
-> target=\"blank\"\>SciApps Manual\</a>
+!!! Note
+  
+  Normal wait times for a featured VICE App are less than 2 minutes. 
+  If you're experiencing a significantly longer wait, consider terminating the Analysis and starting a new one.
 
-> \<a
-> href=\"<https://learning.cyverse.org/projects/sciapps_guide/en/latest/>\"
-> target=\"blank\"\>SciApps Guide\</a>
+## 4. Create an RStudio Project
 
-> \<a href=\"<https://cyverse-de.github.io/api/>\"
-> target=\"blank\"\>Terrain DE API Docs\</a>
+You can create RStudio projects using local data, or from Git.
 
-> \<a href=\"<https://www.tacc.utexas.edu/tapis>\"
-> target=\"blank\"\>Tapis TACC API\</a>
+[!rstudio_5](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_5.png "rstudio_5"){ width="400" }
 
-> \<a href=\"<http://ask.iplantcollaborative.org/questions>\"
-> target=\"blank\"\>Ask CyVerse\</a>
+This example uses [Leaflet Maps](https://github.com/rstudio/leaflet) in RStudio
 
-> \<a href=\"<http://learning.cyverse.org/en/latest/>\"
-> target=\"blank\"\>Agave Guide\</a>
+[!rstudio_6](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_6.png "rstudio_6"){ width="400" }
 
-> \<a href=\"<http://developer.agaveapi.co/#introduction>\"
-> target=\"blank\"\>Agave API\</a>
+You can then run R commands and install packages
 
-> \<a href=\"<https://agaveapi.co>\" target=\"blank\"\>Agave Live
-> Docs\</a>
+[!rstudio_7](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_7.png "rstudio_7"){ width="400" }
 
-> \<a href=\"<http://learning.cyverse.org/en/latest/>\"
-> target=\"blank\"\>BisQue Guide\</a>
+[!rstudio_8](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_8.png "rstudio_8"){ width="400" }
 
-> \<a
-> href=\"<https://github.com/CyVerse-learning-materials/Visual_Interactive_Computing_Environment>\"
-> target=\"blank\"\>Github Repo Link\</a>
+## 5. Using `icommands`
 
-> \<a href=\"<https://hub.docker.com/u/jupyter>\"
-> target=\"blank\"\>Project Jupyter Images\</a>
+Open RStudio's Terminal.
 
-\_ [Learning Center Home](http://learning.cyverse.org/)
+To connect to the CyVerse DataStore, you can initiate an iRODS iCommands `iinit`
 
-# **RStudio**
+You should now be connected to your `/iplant/home/username` home directory.
 
-RStudio is a free, open source IDE (integrated development environment)
-for R. Its interface is organized so that the user can clearly view
-graphs, data table, R code and ouput at the same time. It also offers an
-Import-Wizard-like feature that allows users to import CSV, Excel, SAS
-(*.sas7bdat), SPSS (*.sav), and Stata (\*.dta) files into R without
-having to write the code to do so.
+### ils
 
-## 1. Search for Rstudio App
+``` ils /iplant/home/username/ ```
 
-First log-on [CyVerse DE](https://de.cyverse.org/de/)
+To view the \'shared\' directory try:
 
-Use the search bar to specify 'Apps' or search for \'*rstudio*\'.
+``` ils /iplant/home/shared ```
 
-![rstudio3-1](../img/vice/rstudio/rstudio3-1.png){width="700px"
-height="400px"}
+### iget 
 
-## 2. Launch analysis
+Download data into your Cloud Shell with [iCommands](https://docs.irods.org/master/icommands/user/) by running `iget`
 
-Find the RStudio app you are interested in and click on the app. Change
-the analysis name and output folder or leave it to defaults.
+``` iget -KPbvrf /iplant/home/shared/cyverse_training/ ```
 
-![rstudio3-2](../img/vice/rstudio/rstudio3-2.png){width="700px"
-height="400px"}
+### iput
 
-Launch the Rstudio app by selecting an example folder or click on the
-details to quick launch example data. You can select different input
-files and/or folder.
+After finishing your analyses, you can save the outputs back to Data Store.
 
-::: tip
-::: title
-Tip
-:::
+You can either use `iput` to copy your new files back to your user space, or if you've left your new work in the `/home/user/work/data/outputs` folder, it will be copied back to your `/iplant/home/username/Analyses/` directory.
 
-You can use input files to import a script into the app.
-:::
+You can find the outputs you generated (if any) using the same steps as before, but this time select the 'Go To Output Folder'.
 
-![rstudio3-3](../img/vice/rstudio/rstudio3-3.png){width="700px"
-height="400px"}
+## 6. Terminate your app
 
-*Use quick launch to input example data\...*
-![rstudio3-4](../img/vice/rstudio/rstudio3-4.png){width="700px"
-height="400px"}
+The Discovery Environment is a shared system. In fairness to the community, we ask uses to "Terminate" any apps they have started when
+they are no longer running analyses.
 
-::: note
-::: title
-Note
-:::
+In the Analyses window, select the app with the checkbox, then select "More Actions" and "Terminate" to shut the app down.
 
-You will not see any files when selecting the folder if you selected
-input by folder. Rest assured that they will be there once the app
-begins to run.
-:::
+Any new data in the `/home/rstudio/work/data/output` directory will begin copying back to your folder at this time.
 
-Launch the analysis after you are finished selecting the input files (if
-any). ![rstudio3-5](../img/vice/rstudio/rstudio3-5.png){width="700px"
-height="400px"}
+Any input data which you added when the app started using the conventional launch feature will not be copied.
 
-## 3. Navigate to rstudio app url
+!!! Warning
 
-After the analysis starts running, open your notifications and click on
-the \'*Access your running Analysis here url*\'. Alternatively, select
-the app and click on the squarebox from your analysis window.
-
-![rstudio3-6](../img/vice/rstudio/rstudio3-6.png){width="700px"
-height="400px"}
-
-## 4. Launch Rstudio
-
-After you start the VICE App, you will be taken to a loading screen.
-
-![rstudio3-7](../img/vice/rstudio/rstudio3-7.png){width="700px"
-height="400px"}
-
-## 5. Write/Run your code
-
-In the Rstudio script section, you can write your code, generate plots,
-save plots etc.
-
-::: tip
-::: title
-Tip
-:::
-
-As a first step, check that the files you wanted to import are in the
-app. Go to the bottom right of the app, and check under \'*Files*\' for
-your files.
-:::
-
-![rstudio3-8](../img/vice/rstudio/rstudio3-8.png){width="700px"
-height="400px"}
-
-## 6. Complete and Save Outputs
-
-Complete your analysis by clicking the Analysis window, then select the
-rstudio analysis. From More Actions tab, click \'*Terminate*\'.
-
-![rstudio3-9](../img/vice/rstudio/rstudio3-9.png){width="700px"
-height="400px"}
-
-![rstudio3-10](../img/vice/rstudio/rstudio3-10.png){width="700px"
-height="400px"}
-
-After you had done this, you can find the outputs that you generated (if
-any) using the same steps as before, but this time selecting \'*Go To
-Output Folder*\'.
-
-::: warning
-::: title
-Warning
-:::
-
-Currently, VICE can run for 48 hrs beyond which the apps will be
-terminated. So make sure you run your analysis before 48 hrs.
-:::
-
-------------------------------------------------------------------------
-
-**Fix or improve this documentation**
-
--   On Github: \_
--   Send feedback: [Tutorials\@CyVerse.org](Tutorials@CyVerse.org)
+  VICE apps only run for a pre-determined amount of time, typically between 4 and 48 hours. 
+  If you have opted for email notifications from DE, then you 'll get a notification 1 day before and 1 hour before the app gets terminated. 
+  If you want to extend the time, find your analysis and then click the hour glass icon which automatically extends the app run time.
