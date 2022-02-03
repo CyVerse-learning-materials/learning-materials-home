@@ -75,7 +75,7 @@ they are no longer running analyses.
 
 In the Analyses window, select the app with the checkbox, then select "More Actions" and "Terminate" to shut the app down.
 
-Any new data in the [/home/user/work]{.title-ref} directory will begin copying back to your folder at this time.
+Any new data in the `/home/jovyan/work/data/outputs` directory will begin copying back to your folder at this time.
 
 Any input data which you added when the app started using the conventional launch feature will not be copied.
 
