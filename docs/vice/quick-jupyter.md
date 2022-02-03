@@ -52,24 +52,23 @@ This will take you to a command line shell.
 
 Change directory, or download a sample `environment.yml` file:
 
-``` 
-cd /home/jovyan/work/home/shared/cyverse_training/platform_guide/discovery_environment/jupyter/
-conda create env -f environment.yml
+```bash 
+$ cd /home/jovyan/work/home/shared/cyverse_training/platform_guide/discovery_environment/jupyter/
+$ conda create env -f environment.yml
 ```
 
 or
 
-```
-curl https://data.cyverse.org/dav-anon/iplant/commons/community_released/cyverse_training/platform_guides/discovery_environment/jupyterlab/environment.yml
-conda create env -f environment.yml
+```bash
+$ curl https://data.cyverse.org/dav-anon/iplant/commons/community_released/cyverse_training/platform_guides/discovery_environment/jupyterlab/environment.yml
+$ conda create env -f environment.yml
 ```
 
 and then:
 
-``` 
-conda activate python39 
+```bash
+$ conda activate python39 
 ```
-
 
 ## 5. Create Jupyter notebook
 
