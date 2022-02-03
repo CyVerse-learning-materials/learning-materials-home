@@ -44,21 +44,32 @@ More information about the Jupyter Lab can be found [here](https://jupyterlab.re
   Normal wait times for a featured VICE App are less than 2 minutes. 
   If you're experiencing a significantly longer wait, consider terminating the Analysis and starting a new one.
 
-## 4. Activate a `conda` environment
+## 4. Create a new `conda` environment
 
 From Jupyter's Launch menu, select the black Terminal console icon.
 
 This will take you to a command line shell.
 
-To activate conda:
+Change directory, or download a sample `environment.yml` file:
 
-``` conda init ```
+``` 
+cd /home/jovyan/work/home/shared/cyverse_training/platform_guide/discovery_environment/jupyter/
+conda create env -f environment.yml
+```
 
-and then
+or
 
-``` conda activate base ```
+```
+curl https://data.cyverse.org/dav-anon/iplant/commons/community_released/cyverse_training/platform_guides/discovery_environment/jupyterlab/environment.yml
+conda create env -f environment.yml
+```
 
-If you recieve a message about refreshing your screen, you can `exit` the cloud shell by typing "exit" and then hitting the refresh button on your browser tab.
+and then:
+
+``` 
+conda activate python39 
+```
+
 
 ## 5. Create Jupyter notebook
 
