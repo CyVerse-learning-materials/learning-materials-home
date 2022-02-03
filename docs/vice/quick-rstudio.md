@@ -20,7 +20,7 @@ Click on the **Apps** grid icon
 
 The conventional launch menu allows you to modify the App parameters. You can add input data, increase the amount of RAM or CPU cores, and change the analysis directory.
 
-[![!rstudio_2](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_2.png "rstudio_2"){ width="400" }](https://de.cyverse.org/apps/de/3548f43a-bed1-11e9-af16-008cfa5ae621/launch)
+[![!rstudio_2](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_2.png "rstudio_2"){ width="600" }](https://de.cyverse.org/apps/de/3548f43a-bed1-11e9-af16-008cfa5ae621/launch)
 
 ## 3. Open the Analysis
 
