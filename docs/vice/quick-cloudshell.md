@@ -10,7 +10,9 @@ If you have not yet created an account, go to the [User Portal](https://user.cyv
 
 The Cloud Shell icon is pinned to the Discovery Environment table of contents on the left side.
 
-[![!cloud_shell_1](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/cloud_shell_1.png "cloud_shell_1"){ width="400" }](https://de.cyverse.org/apps/de/5f2f1824-57b3-11ec-8180-008cfa5ae621/launch)
+[![cloud_shell_1]][cloud_shell_1]
+
+  [cloud_shell_1]: https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/cloud_shell_1.png
 
 Click on the **Apps** grid icon
 
@@ -20,18 +22,24 @@ Click on the **Apps** grid icon
 
 The conventional launch menu allows you to modify the App parameters. You can add input data, increase the amount of RAM or CPU cores, and change the analysis directory.
 
-[![!cloud_shell_2](https://github.com/cyverse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/cloud_shell_2.png "cloud_shell_2"){ width="400" }](https://de.cyverse.org/apps/de/5f2f1824-57b3-11ec-8180-008cfa5ae621/launch)
+[![cloud_shell_2]][cloud_shell_2]
+
+  [cloud_shell_2]: https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/cloud_shell_2.png
 
 ## 3. Open the Analysis
 
 After you have started a VICE App, your browser will open a new tab and automatically be taken to the loading screen.
 
-[![!cloud_shell_3](https://github.com/cyverse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/cloud_shell_3.png "cloud_shell_3"){ width="400" }](https://de.cyverse.org/apps/de/5f2f1824-57b3-11ec-8180-008cfa5ae621/launch)
+[![cloud_shell_3]][cloud_shell_3]
 
+  [cloud_shell_3]: https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/cloud_shell_3.png
+  
 Once the app is ready, it will transition to the user interface (in this example, a Linux terminal)
 
-[![!cloud_shell_4](https://github.com/cyverse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/cloud_shell_4.png "cloud_shell_4"){ width="400" }](https://de.cyverse.org/apps/de/5f2f1824-57b3-11ec-8180-008cfa5ae621/launch)
+[![cloud_shell_4]][cloud_shell_4]
 
+  [cloud_shell_4]: https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/cloud_shell_4.png
+  
 There should be a "message of the day", some information about the machine you're using, and your CyVerse username for when you initiate
 an iCommands connection.
 
