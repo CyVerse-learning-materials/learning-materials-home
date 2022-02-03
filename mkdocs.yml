@@ -22,7 +22,7 @@ nav:
     - FAQ: faq.md
   - 'Getting Started':
     - 'RStudio in 6 steps': https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-rstudio.html
-    - 'JupyterLab in 6 steps': vice/quick-jupyter.html
+    - 'JupyterLab in 6 steps': vice/quick-jupyter.md
     - 'Cloud Shell in 6 steps': vice/quick-cloudshell.md
   - 'Platform Guides':
     - 'Data Store': 
