@@ -94,10 +94,16 @@ To open the classic Notebook view from JupyterLab, select "Launch Classic Notebo
 
 ## 6. Terminate your app
 
-The Discovery Environment is a shared system. In fairness to the community, we ask uses to "Terminate" any apps they have started when
+The Discovery Environment is a shared system. In fairness to the community, we ask users to "Terminate" any apps they have started when
 they are no longer running analyses.
 
 In the Analyses window, select the app with the checkbox, then select "More Actions" and "Terminate" to shut the app down.
+
+[![jupyter_7]][jupyter_7]
+
+  [jupyter_7]: https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/jupyter_7.png
+
+
 
 Any new data in the `/home/jovyan/work/data/outputs` directory will begin copying back to your folder at this time.
 
