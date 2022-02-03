@@ -8,7 +8,7 @@ If you have not yet created an account, go to the [User Portal](https://user.cyv
 
 ## 2. Launch the App
 
-[!rstudio_1](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_1.png "rstudio_1"){ width="400" }
+![rstudio_1](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_1.png "rstudio_1"){ width="400" }
 
 Click on the **Apps** grid icon
 
@@ -24,11 +24,11 @@ The conventional launch menu allows you to modify the App parameters. You can ad
 
 After you have started a VICE App, your browser will open a new tab and automatically be taken to the loading screen.
 
-[!rstudio_3](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_3.png "rstudio_3"){ width="400" }
+![rstudio_3](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_3.png "rstudio_3"){ width="400" }
 
 Once the app is ready, it will transition to the user interface 
 
-[!rstudio_4](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_4.png "rstudio_4"){ width="400" }
+![rstudio_4](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_4.png "rstudio_4"){ width="400" }
 
 **RStudio Interface:** 
 RStudio is a free, open source IDE (integrated development environment) for R. 
@@ -46,17 +46,17 @@ More information about the RStudio can be found [here](https://www.rstudio.com/p
 
 You can create RStudio projects using local data, or from Git.
 
-[!rstudio_5](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_5.png "rstudio_5"){ width="400" }
+![rstudio_5](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_5.png "rstudio_5"){ width="400" }
 
 This example uses [Leaflet Maps](https://github.com/rstudio/leaflet) in RStudio
 
-[!rstudio_6](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_6.png "rstudio_6"){ width="400" }
+![rstudio_6](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_6.png "rstudio_6"){ width="400" }
 
 You can then run R commands and install packages
 
-[!rstudio_7](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_7.png "rstudio_7"){ width="400" }
+![rstudio_7](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_7.png "rstudio_7"){ width="400" }
 
-[!rstudio_8](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_8.png "rstudio_8"){ width="400" }
+![rstudio_8](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_8.png "rstudio_8"){ width="400" }
 
 ## 5. Using `icommands`
 
