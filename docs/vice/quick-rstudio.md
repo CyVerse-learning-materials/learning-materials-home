@@ -111,6 +111,11 @@ they are no longer running analyses.
 
 In the Analyses window, select the app with the checkbox, then select "More Actions" and "Terminate" to shut the app down.
 
+[![rstudio_9]][rstudio_9]
+
+  [rstudio_9]: https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_9.png
+
+
 Any new data in the `/home/rstudio/work/data/output` directory will begin copying back to your folder at this time.
 
 Any input data which you added when the app started using the conventional launch feature will not be copied.
