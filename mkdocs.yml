@@ -20,10 +20,10 @@ nav:
     - 'CyVerse Account Setup': account.md 
     - 'Choosing a Platform': choose_platform.md
     - FAQ: faq.md
-  - 'Get Started':
-    - 'RStudio on CyVerse in 6 steps': https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-rstudio.html
-    - 'JupyterLab on CyVerse in 6 steps': https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-jupyter.html
-    - 'Command Line on the Cloud': vice/quick-cloudshell.md
+  - 'Getting Started':
+    - 'RStudio in 6 steps': https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-rstudio.html
+    - 'JupyterLab in 6 steps': vice/quick-jupyter.html
+    - 'Cloud Shell in 6 steps': vice/quick-cloudshell.md
   - 'Platform Guides':
     - 'Data Store': 
       - 'Introduction': ds/intro.md
