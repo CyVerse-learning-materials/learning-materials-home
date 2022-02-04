@@ -1,6 +1,6 @@
-[![!CyVerse Learning Center](https://github.com/tyson-swetnam/mkdocs-learning-materials-home/raw/main/assets/cyverse_learning.png "CyVerse Learning Center"){ width="400" }](https://learning.cyverse.org)
+[![!CyVerse Learning Center](assets/cyverse_learning.png "CyVerse Learning Center"){ width="400" }](https://learning.cyverse.org)
 
-[![!Learning Home](https://github.com/tyson-swetnam/mkdocs-learning-materials-home/raw/main/assets/homeicon.png "Home"){ width="25" }](https://learning.cyverse.org) [Learning Center Home](http://learning.cyverse.org/)
+[![!Learning Home](assets/homeicon.png "Home"){ width="25" }](https://learning.cyverse.org) [Learning Center Home](http://learning.cyverse.org/)
 
 **Welcome to the Learning Center**
 
@@ -22,15 +22,15 @@ CyVerse cyberinfrastructure includes:
 
 ## Account Creation
 
-- [![!Account](https://github.com/tyson-swetnam/mkdocs-learning-materials-home/raw/main/assets/cyverse_globe_cmyk.png "Account"){ width="20" }](https://user.cyverse.org) [Create a CyVerse account](https://user.cyverse.org)
+- [![!Account](assets/cyverse_globe_cmyk.png "Account"){ width="20" }](https://user.cyverse.org) [Create a CyVerse account](https://user.cyverse.org)
 
 ## Data Store
 
-- [![!Data Store](https://github.com/tyson-swetnam/mkdocs-learning-materials-home/raw/main/assets/data_store/datastore-icon.png "Data Store"){ width="20" }](https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/) [Data Store Guide](https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/)
+- [![!Data Store](assets/data_store/datastore-icon.png "Data Store"){ width="20" }](https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/) [Data Store Guide](https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/)
 
 ## Discovery Environment Workbench
 
--   Find apps in the [![!Discovery Environment](https://github.com/tyson-swetnam/mkdocs-learning-materials-home/raw/main/assets/de/de_icon.png "Discovery Environment"){ width="20" }](https://learning.cyverse.org/projects/cyverse-discovery-environment-guide/) [Discovery Environment Guide](https://learning.cyverse.org/projects/cyverse-discovery-environment-guide/)
+-   Find apps in the [![!Discovery Environment](assets/de/de_icon.png "Discovery Environment"){ width="20" }](https://learning.cyverse.org/projects/cyverse-discovery-environment-guide/) [Discovery Environment Guide](https://learning.cyverse.org/projects/cyverse-discovery-environment-guide/)
 
 ### VICE
 
@@ -96,7 +96,7 @@ see CyVerse [citation policy](http://www.cyverse.org/acknowledge-cite-cyverse)
   - Search for an answer:
      [CyVerse Learning Center](https://learning.cyverse.org)
   - Ask us for help:
-    click the Intercom icon ![Intercom](https://github.com/tyson-swetnam/cyverse_manual_template_mkdocs/raw/main/assets/intercom.png){ width="25" } on the lower right-hand side of the page
+    click the Intercom icon ![Intercom](assets/intercom.png){ width="25" } on the lower right-hand side of the page
   - Report an issue or submit a change:
     [Github Repo Link](https://github.com/cyverse-learning-materials/)
   - Send feedback: <Tutorials@CyVerse.org>
