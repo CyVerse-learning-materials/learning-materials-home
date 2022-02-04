@@ -1,6 +1,6 @@
 # RStudio Verse
 
-# 1. Log into Discovery Environment
+## 1. Log into Discovery Environment
 
 Log into <https://de.cyverse.org>
 
@@ -86,7 +86,7 @@ You should now be connected to your `/iplant/home/username` home directory.
 
 ``` ils /iplant/home/username/ ```
 
-To view the \'shared\' directory try:
+To view the 'shared' directory try:
 
 ``` ils /iplant/home/shared ```
 
