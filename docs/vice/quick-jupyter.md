@@ -1,10 +1,10 @@
-# Jupyter Lab Datascience
+# Jupyter Lab in 6 Steps
 
-# 1. Log into Discovery Environment
+## 1. Log into Discovery Environment
 
-Log into <https://de.cyverse.org>
+Log into <https://de.cyverse.org>.
 
-If you have not yet created an account, go to the [User Portal](https://user.cyverse.org) and sign up.
+If you have not yet created an account, go to the [User Portal](https://user.cyverse.org) to sign up.
 
 ## 2. Launch the App
 
@@ -12,9 +12,9 @@ If you have not yet created an account, go to the [User Portal](https://user.cyv
 
   [jupyter_1]: https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/jupyter_1.png
 
-Click on the **Apps** grid icon
+Click on the **Apps** grid icon.
 
-[Jupyter Lab Datascience](https://de.cyverse.org/apps/de/cc77b788-bc45-11eb-9934-008cfa5ae621/launch) is in "Featured Apps"
+[Jupyter Lab Datascience](https://de.cyverse.org/apps/de/cc77b788-bc45-11eb-9934-008cfa5ae621/launch) is in "Featured Apps".
 
 [Instant Launches](https://de.cyverse.org/instantlaunches) start Apps immediately when clicked.
 
@@ -26,7 +26,7 @@ The conventional launch menu allows you to modify the App parameters. You can ad
 
 ## 3. Open the Analysis
 
-After you have started a VICE App, your browser will open a new tab and automatically be taken to the loading screen.
+After you have started a VICE app, a new tab will automatically open in your browser and take you to the loading screen.
 
 [![jupyter_3]][jupyter_3]
 
@@ -36,7 +36,7 @@ After you have started a VICE App, your browser will open a new tab and automati
 
   [jupyter_4]: https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/jupyter_4.png
 
-Once the app is ready, it will transition to the user interface 
+Once the app is ready, it will transition to the user interface. 
 
 [![jupyter_5]][jupyter_5]
 
@@ -51,7 +51,7 @@ More information about the Jupyter Lab can be found [here](https://jupyterlab.re
 
 !!! Note
   
-  Normal wait times for a featured VICE App are less than 2 minutes. 
+  Normal wait time for a featured VICE App to launch is less than 2 minutes. 
   If you're experiencing a significantly longer wait, consider terminating the Analysis and starting a new one.
 
 ## 4. Create a new `conda` environment
@@ -84,7 +84,7 @@ $ conda activate python39
 
 Jupyter notebooks (`.ipynb`) combine code with narrative text (Markdown), equations (LaTeX), images and interactive visualizations.
 
-To create a notebook, click the `+` button, this opens the new Launcher tab.
+To create a notebook, click the `+` button which opens the new Launcher tab.
 
 The JupyterLab Datascience containers have three pre-installed kernels: Python3, Julia, and R.
 
@@ -94,10 +94,10 @@ To open the classic Notebook view from JupyterLab, select "Launch Classic Notebo
 
 ## 6. Terminate your app
 
-The Discovery Environment is a shared system. In fairness to the community, we ask users to "Terminate" any apps they have started when
-they are no longer running analyses.
+The Discovery Environment is a shared system. In fairness to the community, users should "Terminate" any apps that
+are no longer actively running analyses.
 
-In the Analyses window, select the app with the checkbox, then select "More Actions" and "Terminate" to shut the app down.
+In the Analyses window, select the app (by clicking the checkbox next to it), select "More Actions", then "Terminate" to shut down the app.
 
 [![jupyter_7]][jupyter_7]
 
@@ -107,10 +107,10 @@ In the Analyses window, select the app with the checkbox, then select "More Acti
 
 Any new data in the `/home/jovyan/work/data/outputs` directory will begin copying back to your folder at this time.
 
-Any input data which you added when the app started using the conventional launch feature will not be copied.
+Any input data which you added when the app started using the conventional launch feature will *not* be copied.
 
 !!! Warning
 
-  VICE apps only run for a pre-determined amount of time, typically between 4 and 48 hours. 
-  If you have opted for email notifications from DE, then you 'll get a notification 1 day before and 1 hour before the app gets terminated. 
-  If you want to extend the time, find your analysis and then click the hour glass icon which automatically extends the app run time.
+  VICE apps run for a pre-determined amount of time, typically between 4 and 48 hours. 
+  If you have opted for email notifications from DE, then you'll get a notification 1 day before and another 1 hour before the app gets terminated. 
+ To extend the time, go to your analysis and click the hour glass icon which automatically extends the app run time.
