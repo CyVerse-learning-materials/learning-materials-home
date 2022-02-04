@@ -12,7 +12,7 @@ The Cloud Shell icon is found in the left-side navigation bar in the Discovery E
 
 [![cloud_shell_1]][cloud_shell_1]
 
-  [cloud_shell_1]: ./assets/de/cloud_shell_1.png
+  [cloud_shell_1]: ../assets/de/cloud_shell_1.png
 
 Click on the **Apps** grid icon
 
