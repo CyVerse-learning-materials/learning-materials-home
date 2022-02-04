@@ -14,12 +14,12 @@ copyright: 'Copyright &copy; 2022 CyVerse'
 
 # Navigation Page
 nav:
-  - Home: index.md 
-  - Introduction:
+  - 'Home': index.md 
+  - 'Introduction':
     - 'What is CyVerse?': what_is_cyverse.md
     - 'CyVerse Account Setup': account.md 
     - 'Choosing a Platform': choose_platform.md
-    - FAQ: faq.md
+    - 'FAQ': faq.md
   - 'Getting Started':
     - 'RStudio in 6 steps': vice/quick-rstudio.md
     - 'JupyterLab in 6 steps': vice/quick-jupyter.md
@@ -41,9 +41,12 @@ nav:
       - 'Managing Analyses': de/managing_analyses.md
       - 'Searching': de/searching.md
       - 'Sharing and Using Bags': de/bags.md
-    - 'VICE': vice_guide.md
+    - 'VICE':
+      - 'About VICE' : vice/about.md
+      - 'VICE Apps': vice/apps.md
+      - 'Extending and Sharing': vice/extending_sharing.md
   - 'Other Tools':
-    - BISQUE: bisque_guide.md
+    - 'BISQUE': bisque_guide.md
     - 'DNA Subway': dna_subway_guide.md
   - 'Extending CyVerse':
     - 'Creating DE Apps': de_apps.md
@@ -51,7 +54,7 @@ nav:
     - 'Custom Platforms': powered_by.md
     - 'Platform Manuals': manuals.md
   - 'Detailed Tutorials':
-    - Bioinformatics: bioinformatics_tutorials.md
+    - 'Bioinformatics': bioinformatics_tutorials.md
     - 'Other Topics': other_tutorials.md
     - 'Teaching with CyVerse': teaching.md
   - 'CyVerse Workshops':
