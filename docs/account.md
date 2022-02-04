@@ -4,7 +4,7 @@
 
 	Ensure Java Script is enabled on your web browser. A pop-up blocker or other notification symbol may indicate this.
 
-	![java](assets/java.png){width="250px" height="150px"}
+	![java](assets/java.png){width="250"}
 
 1. Follow the [signup link](https://user.cyverse.org/register).
 2. It is **highly recommended** that you use an institutional email address (.edu, .org, or .gov) if possible. This will speed up the approval process for access to certain CyVerse platforms.
