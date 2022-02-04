@@ -12,7 +12,7 @@ The Cloud Shell icon is pinned to the Discovery Environment table of contents on
 
 [![cloud_shell_1]][cloud_shell_1]
 
-  [cloud_shell_1]: https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/cloud_shell_1.png
+  [cloud_shell_1]: assets/de/cloud_shell_1.png
 
 Click on the **Apps** grid icon
 
