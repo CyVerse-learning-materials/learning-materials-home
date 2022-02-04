@@ -6,7 +6,7 @@
 
 CyVerse cyberinfrastructure includes:
 
-[![!Data Store](assets/data_store/datastore-icon.png "Data Store"){ width="20" }](https://cyverse.org/data-store) [Data Store Guide](https://cyverse.org/data-store) [Data Storage](https://cyverse.org/data-store) - free allocation spaces for all users, contact us to help you scale to your project.
+[![!](assets/data_store/datastore-icon.png "Data Storage"){ width="20" }](https://cyverse.org/data-store) [Data Storage](https://cyverse.org/data-store) - free allocation spaces for all users, contact us to help you scale your project.
 
 [![!](assets/de/de_icon.png "Discovery Environment"){ width="20" }](https://de.cyverse.org) [Data Science Workbench](https://de.cyverse.org)  - An interactive, web-based, analytical platform called the "[Discovery Environment](https://de.cyverse.org)"
 
