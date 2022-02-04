@@ -10,7 +10,7 @@ If you have not yet created an account, go to the [User Portal](https://user.cyv
 
 [![jupyter_1]][jupyter_1]
 
-  [jupyter_1]: https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/jupyter_1.png
+  [jupyter_1]: ../assets/de/jupyter_1.png
 
 Click on the **Apps** grid icon.
 
@@ -22,7 +22,7 @@ The conventional launch menu allows you to modify the App parameters. You can ad
 
 [![jupyter_2]][jupyter_2]
 
-  [jupyter_2]: https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/jupyter_2.png
+  [jupyter_2]: ../assets/de/jupyter_2.png
 
 ## 3. Open the Analysis
 
@@ -30,17 +30,17 @@ After you have started a VICE app, a new tab will automatically open in your bro
 
 [![jupyter_3]][jupyter_3]
 
-  [jupyter_3]: https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/jupyter_3.png
+  [jupyter_3]: ../assets/de/jupyter_3.png
 
 [![jupyter_4]][jupyter_4]
 
-  [jupyter_4]: https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/jupyter_4.png
+  [jupyter_4]: ../assets/de/jupyter_4.png
 
 Once the app is ready, it will transition to the user interface. 
 
 [![jupyter_5]][jupyter_5]
 
-  [jupyter_5]: https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/jupyter_5.png
+  [jupyter_5]: ../assets/de/jupyter_5.png
 
 **The Jupyter Lab Interface:** 
 While Jupyter Lab has many features found in traditional integrated development environments (IDEs), it remains focused on interactive, exploratory computing. 
@@ -101,7 +101,7 @@ In the Analyses window, select the app (by clicking the checkbox next to it), se
 
 [![jupyter_7]][jupyter_7]
 
-  [jupyter_7]: https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/jupyter_7.png
+  [jupyter_7]: ../assets/de/jupyter_7.png
 
 
 
@@ -113,4 +113,4 @@ Any input data which you added when the app started using the conventional launc
 
   VICE apps run for a pre-determined amount of time, typically between 4 and 48 hours. 
   If you have opted for email notifications from DE, then you'll get a notification 1 day before and another 1 hour before the app gets terminated. 
- To extend the time, go to your analysis and click the hour glass icon which automatically extends the app run time.
+  To extend the time, go to your analysis and click the hour glass icon which automatically extends the app run time.
