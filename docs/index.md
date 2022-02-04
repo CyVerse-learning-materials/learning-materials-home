@@ -22,7 +22,7 @@ CyVerse cyberinfrastructure includes:
 
 ## Account Creation
 
-- [![!Account](assets/cyverse_globe_cmyk.png "Account"){ width="20" }](https://user.cyverse.org) [Create a CyVerse account](https://user.cyverse.org)
+- [![!Account](assets/cyverse_globe_cmyk.png "Account"){ width="20" }](https://user.cyverse.org) [Creating a CyVerse account](account.md)
 
 ## Data Store
 
