@@ -10,7 +10,7 @@ If you have not yet created an account, go to the [User Portal](https://user.cyv
 
 [![rstudio_1]][rstudio_1]
 
-  [rstudio_1]: https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_1.png
+  [rstudio_1]: ../assets/de/rstudio_1.png
 
 Click on the **Apps** grid icon
 
@@ -20,7 +20,7 @@ Click on the **Apps** grid icon
 
 The conventional launch menu allows you to modify the App parameters. You can add input data, increase the amount of RAM or CPU cores, and change the analysis directory.
 
-[![!rstudio_2](https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_2.png "rstudio_2"){ width="600" }](https://de.cyverse.org/apps/de/3548f43a-bed1-11e9-af16-008cfa5ae621/launch)
+[![!rstudio_2](../assets/de/rstudio_2.png "rstudio_2"){ width="600" }](https://de.cyverse.org/apps/de/3548f43a-bed1-11e9-af16-008cfa5ae621/launch)
 
 ## 3. Open the Analysis
 
@@ -28,14 +28,14 @@ After you have started a VICE app, a new tab will automatically open in your bro
 
 [![rstudio_3]][rstudio_3]
 
-  [rstudio_3]: https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_3.png
+  [rstudio_3]: ../assets/de/rstudio_3.png
 
 
 Once the app is ready, it will transition to the user interface. 
 
 [![rstudio_4]][rstudio_4]
 
-  [rstudio_4]: https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_4.png
+  [rstudio_4]: ../assets/de/rstudio_4.png
 
 
 **RStudio Interface:** 
@@ -56,23 +56,23 @@ You can create RStudio projects using local data, or from Git.
 
 [![rstudio_5]][rstudio_5]
 
-  [rstudio_5]: https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_5.png
+  [rstudio_5]: ../assets/de/rstudio_5.png
 
 This example uses [Leaflet Maps](https://github.com/rstudio/leaflet) in RStudio.
 
 [![rstudio_6]][rstudio_6]
 
-  [rstudio_6]: https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_6.png
+  [rstudio_6]: ../assets/de/rstudio_6.png
 
 You can then run R commands and install packages.
 
 [![rstudio_7]][rstudio_7]
 
-  [rstudio_7]: https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_7.png
+  [rstudio_7]: ../assets/de/rstudio_7.png
 
 [![rstudio_8]][rstudio_8]
 
-  [rstudio_8]: https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_8.png
+  [rstudio_8]: ../assets/de/rstudio_8.png
 
 ## 5. Using `icommands`
 
@@ -113,7 +113,7 @@ In the Analyses window, select the app (by clicking the checkbox next to it), th
 
 [![rstudio_9]][rstudio_9]
 
-  [rstudio_9]: https://github.com/CyVerse-learning-materials/learning-materials-home/raw/mkdocs/assets/de/rstudio_9.png
+  [rstudio_9]: ../assets/de/rstudio_9.png
 
 
 Any new data in the `/home/rstudio/work/data/output` directory will begin copying back to your folder at this time.
