@@ -1,6 +1,6 @@
 # Creating a CyVerse Account
 
-   ??? pop-up-blockers
+??? pop-up-blockers
 
 	Ensure Java Script is enabled on your web browser. A pop-up blocker or other notification symbol may indicate this.
 
@@ -15,7 +15,7 @@
 
 4.  Check your email for an account confirmation link and follow the confirmation instructions.
 
-   ??? check-your-spam
+??? check-your-spam
 
 	Check your SPAM for the confirmation email if the message does not arrive within a few minutes
 
