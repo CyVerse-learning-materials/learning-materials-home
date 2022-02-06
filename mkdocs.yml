@@ -25,24 +25,24 @@ nav:
     - 'JupyterLab in 6 steps': vice/quick-jupyter.md
     - 'Cloud Shell in 6 steps': vice/quick-cloudshell.md
   - 'Platform Guides':
-    - 'Data Store': 
-      - 'Introduction': ds/intro.md
-      - 'Data Transfers with Discovery Environment': de/manage_data.md
-      - 'Data Transfers with Cyberduck Desktop App': ds/cyberduck.md
-      - 'Command Line Data Transfers': ds/icommands.md
-      - 'HTTP Access with WebDAV': ds/webdav.md
-      - 'Adding Metadata': ds/metadata.md
-      - 'Data Sharing': ds/share.md
-    - 'Discovery Environment':
-      - 'Introduction': de/intro.md
-      - 'Logging In': de/login.md
-      - 'Managing Data': de/manage_data.md
-      - 'Using Apps': de/using_apps.md
-      - 'Managing Analyses': de/managing_analyses.md
-      - 'About VICE': vice/about.md
-      - 'VICE Apps': vice/apps.md
-      - 'Search': de/searching.md
-      - 'Sharing and Using Bags': de/bags.md
+  - 'Data Store': 
+    - 'Introduction': ds/intro.md
+    - 'Data Transfers with Discovery Environment': de/manage_data.md
+    - 'Data Transfers with Cyberduck Desktop App': ds/cyberduck.md
+    - 'Command Line Data Transfers': ds/icommands.md
+    - 'HTTP Access with WebDAV': ds/webdav.md
+    - 'Adding Metadata': ds/metadata.md
+    - 'Data Sharing': ds/share.md
+  - 'Discovery Environment':
+    - 'Introduction': de/intro.md
+    - 'Logging In': de/login.md
+    - 'Managing Data': de/manage_data.md
+    - 'Using Apps': de/using_apps.md
+    - 'Managing Analyses': de/managing_analyses.md
+    - 'About VICE': vice/about.md
+    - 'VICE Apps': vice/apps.md
+    - 'Search': de/searching.md
+    - 'Sharing and Using Bags': de/bags.md
   - 'Other Tools':
     - 'Atmosphere & Jetstream': atmo/intro.md
     - 'BISQUE': bisque_guide.md
