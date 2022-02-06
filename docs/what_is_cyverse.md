@@ -16,6 +16,8 @@ CyVerse cyberinfrastructure includes:
 
 [![!](assets/cyverse_globe_cmyk.png "ECP"){ width="20" }](https://user.cyverse.org/requests/8) People with expertise in all of the above to help answer your questions and power up your teaching or research. 
 
+[![!](assets/pro_service_person.png "ECP"){ width="400" }](https://user.cyverse.org/requests/8)
+
 -----------------------------------------------------------------------
 
 CyVerse is funded entirely by the National Science Foundation [![NSF](assets/nsf.png){width="25"}](https://nsf.gov) under Award Numbers:
