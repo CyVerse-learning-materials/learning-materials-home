@@ -6,19 +6,25 @@
 
 CyVerse Learning Center is a release of our learning materials in the popular "Read the Docs" formatting.
 
-## What is CyVerse?
+# What is CyVerse?
 
-CyVerse provides life scientists with powerful computational infrastructure to handle huge datasets and complex analyses, thus enabling data-driven discovery. Our extensible platforms provide data storage, bioinformatics tools, data visualization, interactive analyses, cloud services, APIs, and more.
+![CyVerse](assets/cyverse_learning.png){width="400"}
+
+[CyVerse](https://cyverse.org) provides life scientists with powerful computational infrastructure to handle huge datasets and complex analyses, thus enabling data-driven discovery.
 
 CyVerse cyberinfrastructure includes:
 
-  - A data storage facility called the [Data Store](https://data.cyverse.org)
-  - An interactive, web-based, analytical data science workbench called the [Discovery Environment](https://de.cyverse.org) or DE for short. 
-  - Cloud infrastructure to access remote servers for computation, analysis, and storage called [Atmosphere](https://atmo.cyverse.org) and [Jetstream](https://use.jetstream-cloud.org/application)
-  - Web authentication and security services via [KeyCloak](https://kc.cyverse.org) and OAuth
-  - Support for scaling computational algorithms to run on large, high-speed computers
-  - Education and training in how to use cyberinfrastructure (these pages!)
-  - People with expertise in all of the above to help you and your team
+[![!](assets/data_store/datastore-icon.png "Data Storage"){ width="20" }](https://cyverse.org/data-store) [Data Storage](https://cyverse.org/data-store) - free allocation spaces for all users, contact us to help you scale your project.
+
+[![!](assets/de/de_icon.png "Discovery Environment"){ width="20" }](https://de.cyverse.org) [Data Science Workbench](https://de.cyverse.org)  - An interactive, web-based, analytical platform called the "[Discovery Environment](https://de.cyverse.org)"
+
+[![!](assets/atmosphere/atmosphere-icon.png "Atmosphere"){ width="20" }]() [Cloud](https://cyverse.org/atmosphere) - hosted OpenStack virtual machines for computation, analysis, and storage.
+
+[![!](assets/cyverse_globe_cmyk.png "ECP"){ width="20" }]() [External Collaborative Partnerships](https://cyverse.org/ecp) - Support specialists for scaling computational algorithms to run on large, high-speed computers. [Contact Us](https://user.cyverse.org/requests/3)
+
+[![!](assets/cyverse_globe_cmyk.png "EOT"){ width="20" }]() [Education and Training](https://cyverse.org/teach) - learn how to use containers, workflows, and public research cyberinfrastructure
+
+[![!](assets/cyverse_globe_cmyk.png "ECP"){ width="20" }]() People with expertise in all of the above to help answer your questions and power up your teaching or research. 
 
 ## Account Creation
 
