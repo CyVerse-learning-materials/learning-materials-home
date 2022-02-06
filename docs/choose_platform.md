@@ -1,9 +1,13 @@
-## Choosing a Platform
+# Choosing a Platform
 
 **What to do first**
 
-- [Upload your data](https://cyverse-data-store-quickstart.readthedocs-hosted.com/en/latest/)
-- [Launch an analysis](https://learning.cyverse.org/projects/cyverse-de2-guide/en/latest/step5.html)
+
+- [The Data Store](ds/intro.md)
+  - [Upload your data](https://cyverse-data-store-quickstart.readthedocs-hosted.com/en/latest/)
+- [The Discovery Environment](de/intro.md)
+  - [Launch an analysis](https://learning.cyverse.org/projects/cyverse-de2-guide/en/latest/step5.html)
+- [Cloud Computing with Atmosphere and Jetstream)(atmo/intro.md)
 
 **Featured Tutorials**
 
