@@ -39,13 +39,12 @@ nav:
       - 'Managing Data': de/manage_data.md
       - 'Using Apps': de/using_apps.md
       - 'Managing Analyses': de/managing_analyses.md
-      - 'Searching': de/searching.md
-      - 'Sharing and Using Bags': de/bags.md
-    - 'VICE':
-      - 'About VICE' : vice/about.md
+      - 'About VICE': vice/about.md
       - 'VICE Apps': vice/apps.md
-      - 'Extending and Sharing': vice/extending_sharing.md
+      - 'Search': de/searching.md
+      - 'Sharing and Using Bags': de/bags.md
   - 'Other Tools':
+    - 'Atmosphere & Jetstream': atmo/intro.md
     - 'BISQUE': bisque_guide.md
     - 'DNA Subway': dna_subway_guide.md
   - 'Extending CyVerse':
