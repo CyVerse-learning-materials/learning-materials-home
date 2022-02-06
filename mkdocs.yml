@@ -69,7 +69,13 @@ extra_javascript:
 # must also set Action to use `@nomaterial` branch instead of `@master` for material
 theme:
   name: readthedocs
-
+# setting features for the navigation tab
+  features:
+    - navigation.instant
+    - navigation.expand
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
   # Default values, taken from mkdocs_theme.yml
   language: en
   palette: 
