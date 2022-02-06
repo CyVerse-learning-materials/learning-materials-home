@@ -35,3 +35,17 @@ You will be asked for a description of your intended VICE use: please give non-t
 An institutional email address is required, e.g., .org, .gov, .edu. We do not accept commercial address, e.g., @gmail.com, @yahoo.com, @qq.com. 
 
 Also, please add ORCID <https://orcid.org> to your [CyVerse User Profile](https://user.cyverse.org). If you don't have an ORCID get one today!
+
+-----------------------------------------------------------------------
+
+**Fix or improve this documentation**
+
+  - Search for an answer:
+     [CyVerse Learning Center](https://learning.cyverse.org)
+  - Ask us for help:
+    click the Intercom icon ![Intercom](assets/intercom.png){ width="25" } on the lower right-hand side of the page
+  - Report an issue or submit a change:
+    [Github Repo Link](https://github.com/cyverse-learning-materials/)
+  - Send feedback: <Tutorials@CyVerse.org>
+  
+------------------------------------------------------------------------
