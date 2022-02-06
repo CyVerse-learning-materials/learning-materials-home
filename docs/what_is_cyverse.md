@@ -26,10 +26,16 @@ CyVerse is funded entirely by the National Science Foundation [![NSF](assets/nsf
 
 Please cite CyVerse appropriately when you make use of our resources, see [CyVerse citation policy](https://cyverse.org/policies/cite-cyverse).
 
+-----------------------------------------------------------------------
+
 **Fix or improve this documentation**
 
-We make regular contributions to these materials, and you can suggest new materials or create and share your own. 
-If you have ideas or suggestions please email <learning@cyverse.org>. You can also view, edit, and submit contributions on GitHub.
-
-On Github: [GitHub](https://github.com/CyVerse-learning-materials)
-Send feedback: <learning@cyverse.org>
+  - Search for an answer:
+     [CyVerse Learning Center](https://learning.cyverse.org)
+  - Ask us for help:
+    click the Intercom icon ![Intercom](assets/intercom.png){ width="25" } on the lower right-hand side of the page
+  - Report an issue or submit a change:
+    [Github Repo Link](https://github.com/cyverse-learning-materials/)
+  - Send feedback: <Tutorials@CyVerse.org>
+  
+------------------------------------------------------------------------
