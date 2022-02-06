@@ -24,7 +24,6 @@ nav:
     - 'RStudio in 6 steps': vice/quick-rstudio.md
     - 'JupyterLab in 6 steps': vice/quick-jupyter.md
     - 'Cloud Shell in 6 steps': vice/quick-cloudshell.md
-  - 'Platform Guides':
   - 'Data Store': 
     - 'Introduction': ds/intro.md
     - 'Data Transfers with Discovery Environment': de/manage_data.md
