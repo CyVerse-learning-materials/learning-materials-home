@@ -1,12 +1,5 @@
 # Creating a CyVerse Account
 
-??? pop-up-blockers
-
-	Ensure Java Script is enabled on your web browser. A pop-up blocker or other notification symbol may indicate this.
-
-	![java](assets/java.png){width="250"}
-
-
 1. Follow the [signup link](https://user.cyverse.org/register).
 
 2. It is **highly recommended** that you use an institutional email address (.edu, .org, or .gov) if possible. This will speed up the approval process for access to certain CyVerse platforms.
@@ -15,14 +8,21 @@
 
 4.  Check your email for an account confirmation link and follow the confirmation instructions.
 
+5. Once you have confirmed your email address, you can start using your CyVerse account right away!
+
+??? pop-up-blockers
+
+	Ensure Java Script is enabled on your web browser. A pop-up blocker or other notification symbol may indicate this.
+
+	![java](assets/java.png){width="250"}
+
+
 ??? check-your-spam
 
 	Check your SPAM for the confirmation email if the message does not arrive within a few minutes
 
 
-5. Once you have confirmed your email address, you can start using your CyVerse account right away!
-
-# Registering for Other Services
+# Register for Services
 
 To register for VICE or other services, login to the user portal's dashboard (<https://user.cyverse.org/dashboard>). Under "My Services" click the 'Request Access' button next to the additional service. You will receive an email notification when the service is added; this may take up to 24 hours.
 
