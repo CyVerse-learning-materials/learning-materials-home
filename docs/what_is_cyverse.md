@@ -1,6 +1,6 @@
 # What is CyVerse?
 
-[CyVerse](https://cyverse.org) provides life scientists with powerful computational infrastructure to handle huge datasets and complex analyses, thus enabling data-driven discovery.
+[CyVerse](https://cyverse.org) provides scientists with powerful computational infrastructure to handle huge datasets and complex analyses, thus enabling data-driven discovery.
 
 CyVerse cyberinfrastructure includes:
 
