@@ -6,59 +6,45 @@
 
 CyVerse Learning Center is a release of our learning materials in the popular "Read the Docs" formatting.
 
-# What is CyVerse?
-
 [CyVerse](https://cyverse.org) provides life scientists with powerful computational infrastructure to handle huge datasets and complex analyses, thus enabling data-driven discovery.
 
-CyVerse cyberinfrastructure includes:
+![people](assets/people_science.png){ width="600" }
 
-[![!](assets/data_store/datastore-icon.png "Data Storage"){ width="20" }](https://cyverse.org/data-store) [Data Storage](https://cyverse.org/data-store) - free allocation spaces for all users, contact us to help you scale your project.
+- [![!What](assets/cyverse_globe_cmyk.png "Account"){ width="20" }(what_is_cyverse.md) [What is CyVerse?](what_is_cyverse.md)
 
-[![!](assets/de/de_icon.png "Discovery Environment"){ width="20" }](https://de.cyverse.org) [Data Science Workbench](https://de.cyverse.org)  - An interactive, web-based, analytical platform called the "[Discovery Environment](https://de.cyverse.org)"
+- [![!Account](assets/cyverse_globe_cmyk.png "Account"){ width="20" }](account.md) [Creating a CyVerse account](account.md)
 
-[![!](assets/atmosphere/atmosphere-icon.png "Atmosphere"){ width="20" }]() [Cloud](https://cyverse.org/atmosphere) - hosted OpenStack virtual machines for computation, analysis, and storage.
-
-[![!](assets/cyverse_globe_cmyk.png "ECP"){ width="20" }]() [External Collaborative Partnerships](https://cyverse.org/ecp) - Support specialists for scaling computational algorithms to run on large, high-speed computers. [Contact Us](https://user.cyverse.org/requests/3)
-
-[![!](assets/cyverse_globe_cmyk.png "EOT"){ width="20" }]() [Education and Training](https://cyverse.org/teach) - learn how to use containers, workflows, and public research cyberinfrastructure
-
-[![!](assets/cyverse_globe_cmyk.png "ECP"){ width="20" }]() People with expertise in all of the above to help answer your questions and power up your teaching or research. 
-
-## Account Creation
-
-- [![!Account](assets/cyverse_globe_cmyk.png "Account"){ width="20" }](https://user.cyverse.org) [Creating a CyVerse account](account.md)
-
-## Data Store
+# Data Store
 
 - [![!Data Store](assets/data_store/datastore-icon.png "Data Store"){ width="20" }](https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/) [Data Store Guide](https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/)
 
-## Discovery Environment Workbench
+# Discovery Environment Workbench
 
 -   Find apps in the [![!Discovery Environment](assets/de/de_icon.png "Discovery Environment"){ width="20" }](https://learning.cyverse.org/projects/cyverse-discovery-environment-guide/) [Discovery Environment Guide](https://learning.cyverse.org/projects/cyverse-discovery-environment-guide/)
 
-### VICE
+## VICE
 
 - Visual Interactive Compute Environment (VICE) includes popular integrated development environments: [JupyterLab](https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-jupyter.html), RStudio, and VSCode.
 - Instant and on demand virtual machines running Ubuntu Linux command line interface.
 - Remote Desktops for high quality visualizations in your browser
 - GPU computing for machine learning and artificial intelligence.
 
-## Cloud
+# Cloud
 
 - CyVerse created Atmosphere, a browser interface for working with OpenStack Cloud virtual machines
 - Partnered with NSF XSEDE/ACCESS Jetstream-2 for more and larger virtual machines.
 
-### Atmosphere
+## Atmosphere
 
 - [Request access to Atmosphere](https://user.cyverse.org/services)
 - [Use Atmosphere](https://atmo.cyverse.org/application/images)
 
-### Jetstream-2
+## Jetstream-2
 
 - Create an [XSEDE/ACCESS user account](https://portal.xsede.org/#/guest)
 - Request a start-up allocation on [Jetstream-2](https://jetstream-cloud.org/)
 
-## Choosing a Platform
+# Choosing a Platform
 
 **What to do first**
 
