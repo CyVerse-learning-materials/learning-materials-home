@@ -7,12 +7,12 @@ This glossary is to help you become more familiar with terms used in the CyVerse
 ## A
 
 - **action:** automate a workflow in the context of CI/CD, see GitHub Actions <https://github.com/features/actions>
-- **agile:** `development methodology <https://en.wikipedia.org/wiki/Agile_software_development> for organizing a team to complete tasks organized over short periods called 'sprints'
+- **agile:** development methodology <https://en.wikipedia.org/wiki/Agile_software_development> for organizing a team to complete tasks organized over short periods called 'sprints'
 - **allocation:** portion of a resource assigned to a particular recipient, typical unit is a core or node hour
 - **Anaconda:** open source data science platform. <https://www.anaconda.com/>
 - **application:** also called an 'app', a software designed to help the user to perform specific task
 - **awesome:** a curated set of lists that provide insight into awesome software projects on GitHub <https://github.com/topics/awesome-list>
-- **AVU:** Attribute-Value-Unit a components for iRODS metadata <https://docs.irods.org/4.1.9/icommands/metadata/>.
+- **AVU:** Attribute-Value-Unit a components for iRODS metadata <https://docs.irods.org/4.1.9/icommands/metadata/>
 
 -----------------------------------------------------------
 
@@ -35,7 +35,7 @@ This glossary is to help you become more familiar with terms used in the CyVerse
 - **Continuous Delivery:** (CD) is an extension of 'continuous integration' to make sure that you can release new changes in a sustainable way
 - **Continuous Deployment:** a step further than 'continuous delivery', every change that passes all stages of your production pipeline is released
 - **Continuous Development:** a process for iterative software development and is an umbrella over several other processes including 'continuous integration', 'continuous testing', 'continuous delivery' and 'continuous deployment'
-- **Continuous Testing:** a process of testing and automating software development.
+- **Continuous Testing:** a process of testing and automating software development
 - **CRAN:** The Comprehensive R Archive Network <https://cran.r-project.org/>
 - **CyVerse tool:** Software program that is integrated into the back end of the DE for use in DE apps
 - **CyVerse app:** graphic interface of a tool made available for use in the DE
