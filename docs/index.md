@@ -10,9 +10,9 @@ CyVerse Learning Center is a release of our learning materials in the popular "R
 
 ![people](assets/people_science.png){ width="600" }
 
-- [![!What](assets/cyverse_globe_cmyk.png "Account"){ width="20" }](what_is_cyverse.md) [What is CyVerse?](what_is_cyverse.md)
+[![!What](assets/cyverse_globe_cmyk.png "Account"){ width="40" }](# what_is_cyverse.md) [What is CyVerse?](what_is_cyverse.md)
 
-- [![!Account](assets/cyverse_globe_cmyk.png "Account"){ width="20" }](account.md) [Creating a CyVerse account](account.md)
+[![!Account](assets/cyverse_globe_cmyk.png "Account"){ width="40" }](# account.md) [Creating a CyVerse account](account.md)
 
 # Data Store
 
