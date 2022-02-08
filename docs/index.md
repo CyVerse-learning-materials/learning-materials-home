@@ -10,13 +10,12 @@ CyVerse Learning Center is a release of our learning materials in the popular "R
 
 ![people](assets/people_science.png){ width="600" }
 
-[![!What](assets/cyverse_globe_cmyk.png "Account"){ width="40" }](# what_is_cyverse.md) [What is CyVerse?](what_is_cyverse.md)
+# [![!What](assets/cyverse_globe_cmyk.png "Account"){ width="40" }](what_is_cyverse.md) [What is CyVerse?](what_is_cyverse.md)
 
-[![!Account](assets/cyverse_globe_cmyk.png "Account"){ width="40" }](# account.md) [Creating a CyVerse account](account.md)
+# [![!Account](assets/cyverse_globe_cmyk.png "Account"){ width="40" }](account.md) [Creating a CyVerse account](account.md)
 
-# Data Store
 
-- [![!Data Store](assets/data_store/datastore-icon.png "Data Store"){ width="20" }](https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/) [Data Store Guide](https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/)
+# [![!Data Store](assets/data_store/datastore-icon.png "Data Store"){ width="20" }](https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/) [Data Store Guide](https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/)
 
 # Discovery Environment Workbench
 
