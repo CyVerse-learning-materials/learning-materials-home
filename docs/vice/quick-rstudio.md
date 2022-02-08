@@ -47,7 +47,7 @@ More information about RStudio can be found [here](https://www.rstudio.com/produ
 
 !!! Note
   
-  Normal wait time for launching a featured VICE app is less than 2 minutes. 
+  Normal wait time for a featured VICE app to launch is less than 2 minutes. 
   If you're experiencing a significantly longer wait, consider terminating the Analysis and starting a new one.
 
 ## 4. Create an RStudio Project
