@@ -13,18 +13,17 @@ edit_uri: edit/mkdocs/docs
 copyright: 'Copyright &copy; 2022 CyVerse'
 
 # Navigation Page
+
 nav:
   - 'Home': index.md 
   - 'Introduction':
     - 'What is CyVerse?': what_is_cyverse.md
+    - 'Self-Guided Course': https://<mooc.html>
+    - 'FAQ': faq.md
+  - 'Sign Up':
     - 'CyVerse Account Setup': account.md 
     - 'Choosing a Platform': choose_platform.md
-    - 'FAQ': faq.md
-  - 'Getting Started':
-    - 'RStudio in 6 steps': vice/quick-rstudio.md
-    - 'JupyterLab in 6 steps': vice/quick-jupyter.md
-    - 'Cloud Shell in 6 steps': vice/quick-cloudshell.md
-  - 'Data Store': 
+  - 'Manage your Data': 
     - 'Introduction': ds/intro.md
     - 'Data Transfers with Discovery Environment': de/manage_data.md
     - 'Data Transfers with Cyberduck Desktop App': ds/cyberduck.md
@@ -32,7 +31,7 @@ nav:
     - 'HTTP Access with WebDAV': ds/webdav.md
     - 'Adding Metadata': ds/metadata.md
     - 'Data Sharing': ds/share.md
-  - 'Discovery Environment':
+  - 'Run Analyses':
     - 'Introduction': de/intro.md
     - 'Logging In': de/login.md
     - 'Managing Data': de/manage_data.md
@@ -42,23 +41,36 @@ nav:
     - 'VICE Apps': vice/apps.md
     - 'Search': de/searching.md
     - 'Sharing and Using Bags': de/bags.md
-  - 'Other Tools':
-    - 'Atmosphere & Jetstream': atmo/intro.md
+  - 'Quick Starts':
+    - 'Interactive Analyses': 
+        - 'RStudio in 6 steps': vice/quick-rstudio.md
+        - 'JupyterLab in 6 steps': vice/quick-jupyter.md
+        - 'Cloud Shell in 6 steps': vice/quick-cloudshell.md
+    - 'Data Sharing': de/quick-data-share.md
+    - 'Cloud Virtual Machines': atmo/quick-atmo.md
+  - 'Cloud Services':
+    - 'Introduction': atmo/intro.md
+    - 'Atmosphere': atmo/atmo.md
+    - 'Jetstream': atmo/js.md 
+    - 'Continuous Analyses': atmo/cacao.md
+  - 'Analyze Images':
     - 'BISQUE': bisque_guide.md
-    - 'DNA Subway': dna_subway_guide.md
-  - 'Extending CyVerse':
-    - 'Creating DE Apps': de_apps.md
-    - 'Extending VICE apps': vice_apps.md
-    - 'Custom Platforms': powered_by.md
-    - 'Platform Manuals': manuals.md
-  - 'Detailed Tutorials':
+  - 'For the Classroom':
+     - 'DNA Subway': dna_subway_guide.md
+     - 'Teaching with data science tools': teaching_vice.md
+  - 'Develop':
+    - 'Create DE Apps': de_apps.md
+    - 'Extend VICE apps': vice_apps.md
+    - 'Leverage CyVerse Services': powered_by.md
+    - 'Developer Manuals': manuals.md
+  - 'Science Tutorials':
     - 'Bioinformatics': bioinformatics_tutorials.md
     - 'Other Topics': other_tutorials.md
-    - 'Teaching with CyVerse': teaching.md
   - 'CyVerse Workshops':
     - 'Foundational Open Science Skills': foss.md
     - 'Container Camp': container_camp.md
-  - 'Glossary': glossary.md   
+  - 'Glossary': glossary.md
+  - 'Getting Help': getting_help.md
 
 # JavaScript for Intercom Widget
 extra_javascript:
