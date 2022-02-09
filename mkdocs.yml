@@ -37,8 +37,8 @@ nav:
     - 'Managing Data': de/manage_data.md
     - 'Using Apps': de/using_apps.md
     - 'Managing Analyses': de/managing_analyses.md
-    - 'About VICE': vice/about.md
-    - 'VICE Apps': vice/apps.md
+    - 'Interactive Analysis': vice/about.md
+    - 'Interactive Apps': vice/apps.md
     - 'Search': de/searching.md
     - 'Sharing and Using Bags': de/bags.md
   - 'Quick Starts':
