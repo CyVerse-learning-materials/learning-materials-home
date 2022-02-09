@@ -172,3 +172,26 @@ Open VNC Viewer. Paste your IP address + “:1” in the ‘VNC Server’ field 
 When prompted, ensure your username entered is your CyVerse username. Enter your CyVerse password and click Ok.
 
 You should now be connected to your instance desktop.
+
+## Terminating an Instance
+
+Once you have finished with your Atmosphere instance you will need to terminate this instance. 
+
+If you are not done with the instance and will use it again in a short amount of time, you can stop or suspend that instance.
+
+!!! Warning
+
+  Once an instance is terminated, all data on that instance is unrecoverable. 
+  Ensure that any data you wish to save is transferred to a persistent location such as the CyVerse Data Store or an Atmosphere volume.
+
+If necessary, login to Atmosphere and locate the instance you are terminating in a given project.
+
+Click on the instance name to get to that instances page. You should see an “Actions” menu on the right-hand side of the page.
+
+Click Delete to terminate the instance; read the warning, and click ‘YES, DELETE THIS INSTANCE’ when you are ready to proceed - remember all data still on this instance will be lost.
+
+## Summary
+
+This guide has taken you through the absolute basics needed to start using Atmosphere. 
+
+There is a lot more to learn, and many more capabilities than described here. 
