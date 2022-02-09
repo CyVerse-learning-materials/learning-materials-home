@@ -1,8 +1,10 @@
 # Atmosphere
 
 Atmosphere is one of the most versatile components of the CyVerse CI. 
-Anything that you would normally be able to do with your local laptop/desktop, you can do on a virtual machine in the Atmosphere cloud. 
-This guide will cover the basics you need to get started using Atmosphere. 
+
+Anything that you would normally be able to do with your local laptop/desktop, you can do on a virtual machine in the Atmosphere cloud.
+
+This guide will cover the basics you need to get started using Atmosphere. For developers and more in depth use of Atmosphere, see the [Developer Manual](https://cyverse.atlassian.net/wiki/spaces/atmman/overview?homepageId=241244552)
 
 ## Logging in to Atmosphere
 
