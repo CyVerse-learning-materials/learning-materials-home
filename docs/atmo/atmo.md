@@ -195,8 +195,6 @@ using iCommands. iCommands is installed on every Atmosphere instance.
 -   **iCommands Download:**
     [link](https://wiki.cyverse.org/wiki/display/DS/Setting+Up+iCommands)
 
-------------------------------------------------------------------------
-
 ### Transferring Data to/from an Instance using iCommands
 
 You can execute to the instance's icommand if you are connected via
