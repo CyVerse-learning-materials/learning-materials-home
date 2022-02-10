@@ -50,11 +50,13 @@ Definitions: **Image** and **Instance**
     temporarily allocated these physical resources to "build" your
     virtual computer (virtual machine).
 <br>
+<br>
 - **Image**: *an image is a file that contains an operating system, and any other data that was saved at the time of imaging (creating the image file).* <br>
     If we saved everything on your computer to an image file,
     we could clone your computer onto a new device and you would not
     have to reinstall any software. Your files, system preferences,
     etc. would all be saved.
+<br>
 <br>
 - **Volume**: *a volume is a "virtual disk" that you can attach and detach to your instance, like a thumb drive.* <br>
     Normally, when you start an instance, you need to transfer data onto it. While the data
