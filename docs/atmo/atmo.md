@@ -49,13 +49,13 @@ Definitions: **Image** and **Instance**
     You request from Atmosphere a CPUs, disk space, and memory, and you are
     temporarily allocated these physical resources to "build" your
     virtual computer (virtual machine).
-
+<br>
 - **Image**: *an image is a file that contains an operating system, and any other data that was saved at the time of imaging (creating the image file).* <br>
     If we saved everything on your computer to an image file,
     we could clone your computer onto a new device and you would not
     have to reinstall any software. Your files, system preferences,
     etc. would all be saved.
-
+<br>
 - **Volume**: *a volume is a "virtual disk" that you can attach and detach to your instance, like a thumb drive.* <br>
     Normally, when you start an instance, you need to transfer data onto it. While the data
     transfer may be quick, it usually takes time. A volume is nearly
@@ -65,13 +65,13 @@ Definitions: **Image** and **Instance**
 
 ### Creating a Project
 
-1. Click on the ‘Projects’ menu at the top of the page; 
+1. Click on the **‘Projects’** menu at the top of the page; 
 
-2. then click on the ‘CREATE NEW PROJECT’ button; 
+2. then click on the **‘CREATE NEW PROJECT’** button; 
 
-3. give your project a name and description and click ‘CREATE’.
+3. give your project a name and description and click **‘CREATE’**.
 
-From the ‘Projects’ page, you will see a listing of existing projects and the number of instance, images, volumes, and links associated with these projects.
+From the **‘Projects’** page, you will see a listing of existing projects and the number of instance, images, volumes, and links associated with these projects.
 
 **Atmosphere Image(s):**
 
@@ -97,7 +97,7 @@ From the ‘Projects’ page, you will see a listing of existing projects and th
 
 4. Search the catalog for the **CyVerse Training Workshop** image.
 
-5. To launch an instance now, click ‘LAUNCH INSTANCE’. 
+5. To launch an instance now, click **‘LAUNCH INSTANCE’**. 
 
 Alternatively, you can name your image, or adjust other settings including the project, and instances size before clicking the launch button.
 
@@ -112,11 +112,7 @@ Once your instance is launched, your project page will display the status of all
 
 ## Connecting to an Instance
 
-Once your instance is in the ‘Active’ state, you can connect to the instance. 
-
-All instances support connection at the command line via SSH. Many (but not all) instances may also have a graphical desktop. 
-
-You can connect to these desktops via a VNC viewing client. We will cover both methods in this guide.
+Once your instance is in the ‘Active’ state, you can connect to the instance. All instances support connection at the command line via **SSH**. Many (but not all) instances may also have a graphical desktop. You can connect to these desktops via a VNC viewing client. We will cover both methods in this guide.
 
 ### Connect to Atmosphere Instance using SSH
 
@@ -153,7 +149,7 @@ You will be prompted to enter your CyVerse password
 - Locate the IP address and copy this to your clipboard.
 - Open **PuTTY.exe** and paste the IP address into the ‘Host Name (or IP address s)’ field; click ‘Open’
 
-!!! note ""
+!!! Note " "
 
   If this is your first time connecting, you may get a security prompt that the server’s host key is not cached in the registry. 
   You may click ‘Yes’ to continue connecting.
@@ -174,9 +170,9 @@ You will be prompted to enter your CyVerse password
 - Locate the IP address and copy this to your clipboard.
 - Open VNC Viewer. Paste your IP address + “:1” in the ‘VNC Server’ field (e.g. 161.803.39.887:1) and click connect.
 
-  !!! Note
-    
-    When connecting for the first time to an instance, you will be prompted to save a signature
+!!! Note
+  
+  When connecting for the first time to an instance, you will be prompted to save a signature
 
 - When prompted, ensure your username entered is your CyVerse username. Enter your CyVerse password and click Ok.
 
@@ -236,9 +232,7 @@ instance's terminal application.
      $ ils
      ```
      !!! Tip
-     
-      If you made a mistake during the configuration, you can edit
-      your icommands configuration file.
+      If you made a mistake during the configuration, you can edit your icommands configuration file.
 
  3.  To download a file from the Data Store to your instance, use
      `iget`
@@ -255,7 +249,7 @@ instance's terminal application.
 
 !!! Tip
 
-iCommands has a variety of options, to see progress of transfers, operate recursively, and more. See additional [iCommands documentation](https://wiki.cyverse.org/wiki/display/DS/Using+iCommands) on the CyVerse wiki.
+  iCommands has a variety of options, to see progress of transfers, operate recursively, and more. See additional [iCommands documentation](https://wiki.cyverse.org/wiki/display/DS/Using+iCommands) on the CyVerse wiki.
 
 ------------------------------------------------------------------------
 
