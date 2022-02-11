@@ -32,9 +32,7 @@ Since VICE (the Visual Interactive Computing Environment) is a target for crypto
 
 You will be asked for a description of your intended VICE use: please give non-technical scientific details, and if you can, link an external resource (like a workshop or lab website) and funding agency. 
 
-An institutional email address is required, e.g., .org, .gov, .edu. We do not accept commercial address, e.g., @gmail.com, @yahoo.com, @qq.com. 
-
-Also, please add ORCID <https://orcid.org> to your [CyVerse User Profile](https://user.cyverse.org). If you don't have an ORCID get one today!
+An institutional email address is required, e.g., .org, .gov, .edu. We do not accept commercial addresses, e.g., @gmail.com, @yahoo.com, @qq.com. Also, please add your ORCID <https://orcid.org> to your [CyVerse User Profile](https://user.cyverse.org). If you don't have an ORCID get one today!
 
 -----------------------------------------------------------------------
 

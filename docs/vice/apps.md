@@ -2,7 +2,7 @@
 
 Currently, VICE apps are categorized as:
 
-1.  Integrated Development Environments (IDE) (e.g., [![](../assets/de/verse-latest-badge.svg)][rstudio-verse-latest]{target=_blank} [![](../assets/de/datascience-latest-badge.svg)][jupyter-datascience-latest]{target=_blank} )
+1.  Integrated Development Environments (IDE) (e.g., [![][vlb]][vll]{target=_blank} [![][dslb]][dsll]{target=_blank} )
 2.  Interactive Apps (e.g., Shiny, WebGL, HTML5)
 3.  Virtual Desktop Environment (e.g., Ubuntu Desktops w/ Apache Guacamole, VNC, Xpra)
 
@@ -78,6 +78,40 @@ The Ubuntu Desktop has a full Guacamole installation and Ubuntu XFCE desktop. Th
 
 Linux Desktops using Apache Guacamole, and Xpra have been integrated into the DE.
 
-[rstudio-verse-latest]: https://de.cyverse.org/apps/de/3548f43a-bed1-11e9-af16-008cfa5ae621/launch?quick-launch-id=81b187d6-cc94-4c53-81b5-f09f31c9c8ba
+[vll]: https://de.cyverse.org/apps/de/3548f43a-bed1-11e9-af16-008cfa5ae621/launch?quick-launch-id=81b187d6-cc94-4c53-81b5-f09f31c9c8ba
 
-[jupyter-datascience-latest]: https://de.cyverse.org/apps/de/07a2d5b2-76e2-11eb-be5f-008cfa5ae621/launch?quick-launch-id=60054c75-0e80-4169-8a9b-51cba04f756d
+[dsll]: https://de.cyverse.org/apps/de/07a2d5b2-76e2-11eb-be5f-008cfa5ae621/launch?quick-launch-id=60054c75-0e80-4169-8a9b-51cba04f756d
+
+[vlb]: ../assets/de/verse-latest-badge.svg
+[dslb]: ../assets/de/datascience-latest-badge.svg
+
+# Featured Apps
+
+CyVerse hosts the recipes of its featured apps on GitHub: <https://github.com/cyverse-vice/>
+
+These images are built from other official projects, and are maintained by CyVerse staff.
+
+# Instant Launches
+
+From the Home tab there are several apps that have an **Instant Launch** feature which allows you to start the app in a single click.
+
+These apps launch with their default number of cores, amount of RAM, and timeout, and without input data. You can always import data using HTTPS protocols or iCommands after launch.
+
+# Quick Launches
+
+Quick launch buttons are directed URLs that allow you to share an app with pre-set configurations. After selecting an app, you will be taken to the app launcher where you can select input data sets, and set size and time parameters. Any public app can have a quick launch URL generated for it.
+
+To use one of the Featured Launches listed below in the table, copy the badge (button link) to add to where ever you collaborate (a webpage, project notes, documentation, etc.).
+
+To create your on Saved Launch, proceed with launching the app you want to use. This will be a good time to Favorite the app. In the "Review & Launch" panel, click the "Create Saved Launch" button. You will be asked to name your Saved Launch and check the box when prompted if you would like it to be public. Remember which app you saved, You will find the link under Details of the app you saved.
+
+  App Name                                                                                 Dockerfile                                                          Saved Launch
+  ---------------------------------------------------------------------------------------- ------------------------------------------------------------------- --------------
+  [Rocker Project RStudio Verse](https://github.com/rocker-org/rocker-versioned2)          [GitHub](https://github.com/cyverse-vice/rstudio-verse/)            \_
+  [Rocker Project RStudio Geospatial](https://github.com/rocker-org/rocker-versioned2)     [GitHub](https://github.com/cyverse-vice/rstudio-geospatial/)       \_
+  [JupyterLab Datascience](https://hub.docker.com/r/cyversevice/jupyterlab-datascience/)   [GitHub](https://github.com/cyverse-vice/jupyterlab-datascience/)   \_
+  [JupyterLab Geospatial](https://hub.docker.com/r/cyversevice/jupyterlab-datascience/)    [GitHub](https://github.com/cyverse-vice/jupyterlab-datascience/)   \_
+
+You can design your own badge at [Shields.io](https://shields.io).
+
+------------------------------------------------------------------------
