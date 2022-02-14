@@ -40,7 +40,7 @@ nav:
     - 'Managing Analyses': de/managing_analyses.md
     - 'Interactive Analysis': vice/about.md
     - 'Interactive Apps': vice/apps.md
-    - 'Search': de/searching.md
+    - 'Search': de/search.md
     - 'Sharing and Using Bags': de/bags.md
   - 'Quick Starts':
     - 'RStudio in 6 steps': vice/quick-rstudio.md
