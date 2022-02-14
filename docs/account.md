@@ -33,27 +33,3 @@ Since VICE (the Visual Interactive Computing Environment) is a target for crypto
 You will be asked for a description of your intended VICE use: please give non-technical scientific details, and if you can, link an external resource (like a workshop or lab website) and funding agency. 
 
 An institutional email address is required, e.g., .org, .gov, .edu. We do not accept commercial addresses, e.g., @gmail.com, @yahoo.com, @qq.com. Also, please add your ORCID <https://orcid.org> to your [CyVerse User Profile](https://user.cyverse.org). If you don't have an ORCID get one today!
-
------------------------------------------------------------------------
-
-**Funding and Citations:**
-
-CyVerse is funded entirely by the National Science Foundation [![NSF](assets/nsf.png){width="25"}](https://nsf.gov) under Award Numbers:
-
-[![NSF-0735191](https://img.shields.io/badge/NSF-0735191-blue.svg)](https://www.nsf.gov/awardsearch/showAward?AWD_ID=0735191)  [![NSF-1265383](https://img.shields.io/badge/NSF-1265383-blue.svg)](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1265383)  [![NSF-1743442](https://img.shields.io/badge/NSF-1743442-blue.svg)](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1743442)
-
-Please cite CyVerse appropriately when you make use of our resources, see [CyVerse citation policy](https://cyverse.org/policies/cite-cyverse).
-
------------------------------------------------------------------------
-
-**Fix or improve this documentation**
-
-  - Search for an answer:
-     [CyVerse Learning Center](https://learning.cyverse.org)
-  - Ask us for help:
-    click the Intercom icon ![Intercom](assets/intercom.png){ width="25" } on the lower right-hand side of the page
-  - Report an issue or submit a change:
-    [Github Repo Link](https://github.com/cyverse-learning-materials/)
-  - Send feedback: <Tutorials@CyVerse.org>
-  
-------------------------------------------------------------------------

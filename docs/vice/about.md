@@ -1,4 +1,6 @@
-**VICE** stands for **V**isual **I**nteractive **C**omputing **E**nvironment and is a part of CyVerse [Discovery Environment (DE)](https://de.cyverse.org).
+# Interactive Analysis on the Discovery Environment
+
+**VICE** stands for Visual Interactive Computing Environment and is a part of CyVerse [Discovery Environment (DE)](https://de.cyverse.org).
 
 **VICE** allows verified CyVerse users to launch customized containers of their favorite data science platforms.
 

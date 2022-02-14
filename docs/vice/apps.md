@@ -1,4 +1,4 @@
-# **Applications**
+# Applications
 
 Currently, VICE apps are categorized as:
 
@@ -109,7 +109,7 @@ You can design your own badge at [Shields.io](https://shields.io).
 
 ------------------------------------------------------------------------
 
-# **Sharing VICE apps with collaborators**
+# Sharing VICE apps with collaborators
 
 You can share your running VICE workspace with colleagues (with a CyVerse account) who can see and edit your notebooks, logs, and outputs.
 
