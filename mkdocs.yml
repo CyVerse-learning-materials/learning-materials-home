@@ -18,7 +18,7 @@ nav:
   - 'Home': index.md 
   - 'Introduction':
     - 'What is CyVerse?': what_is_cyverse.md
-    - 'Self-Guided Course': https://cyverse-cyverse-mooc.readthedocs-hosted.com/en/cyverse-usa/
+    - 'Self-Guided Course': mooc.md
     - 'FAQ': faq.md
   - 'Sign Up':
     - 'CyVerse Account Setup': account.md 
