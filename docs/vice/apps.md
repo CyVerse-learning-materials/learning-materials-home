@@ -19,7 +19,7 @@ JupyterLab enables you to use text editors, terminals, file viewers, and other c
 
 ### 1.1 What is a Jupyter Notebook?
 
-The [Notebook](https://jupyter.readthedocs.io/en/latest/) (formerly IPython Notebook) is Project Jupyter\'s flagship project for creating reproducible computational narratives.
+The [Notebook](https://jupyter.readthedocs.io/en/latest/) (formerly IPython Notebook) is Project Jupyter's flagship project for creating reproducible computational narratives.
 
 It enables users to create and share documents that combine live code with narrative text, mathematical equations, visualizations, interactive controls, and other rich output.
 
@@ -109,11 +109,74 @@ You can design your own badge at [Shields.io](https://shields.io).
 
 ------------------------------------------------------------------------
 
+# **Sharing VICE apps with collaborators**
+
+You can share your running VICE workspace with colleagues (with a CyVerse account) who can see and edit your notebooks, logs, and outputs.
+
+**To share your running workspace**
+
+Click on the Analyses
+
+![vice-share-1](../img/vice-share-1.png){width="750px"}
+
+Select the running analysis and click on *Share* from the top bar.
+
+![vice-share-2](../img/vice-share-2.png){width="750px"}
+
+From the sharing window, search your collaborators by CyVerse username, email or group name.
+
+![vice-share-3](../img/vice-share-3.png){width="750px"}
+
+**Opening workspaces shared with you**
+
+Click on the Analyses
+
+![vice-share-1](../img/vice-share-1.png){width="750px"}
+
+Select the running analysis and click on *Go to analysis* (square arrow box on right).
+
+![vice-share-6](../img/vice-share-6.png){width="750px"}
+
+This will launch the shared analysis in a new window.
+
+![vice-share-7](../img/vice-share-7.png){width="750px"}
+
+------------------------------------------------------------------------
+
+There are also different ways to share a VICE app without sharing a running instance of that app.
+
+-   Apps that have been made public in the Discovery Environment can be shared with the [public app's URL](https://wiki.cyverse.org/wiki/display/DEmanual/Viewing+App+and+Tool+Information).
+-   Unpublished apps (those in your private workspace that have not yet been made public) can be shared with specific users or teams. See [Sharing your App or Workflow and Editing the User Manual](https://wiki.cyverse.org/wiki/display/DEmanual/Sharing+your+App+or+Workflow+and+Editing+the+User+Manual#SharingyourApporWorkflowandEditingtheUserManual-Sharingandunsharinganunpublishedapporworkflowwithspecificusers).
+-   A Quick Launch configuration can be created, and then the URL to the Quick Launch can be shared.
+
+------------------------------------------------------------------------
+
+**Creating and sharing Quick Launch configurations**
+
+Quick Launches provide a way to set default parameter values for an analysis, which can make it much easier to launch similar jobs without having to select the parameter values that the jobs have in common for every new analysis.
+
+To create a Quick Launch, open the app as if you are going to run it, fill in any default parameters for this Quick Launch, then click the **Create Quick Launch** button instead of the **Launch Analysis** button.
+
+![quick-launch-create](../img/quick_launch/create_quick_launch.png){width="640px"}
+
+Then you can name the Quick Launch and make it public.
+
+![quick-launch-dialog](../img/quick_launch/create_quick_launch_dialog.png){width="363px"}
+
+To share the link for a public Quick Launch, or to copy its badge code for embedding in web pages or in repo markdown files, click the **Quick Launch** menu item from the app's 3-dot menu in the **Apps window**.
+
+![quick-launch-use](../img/quick_launch/use_quick_launch.png){width="585px"}
+
+Note that private Quick Launch configurations cannot be shared, and clicking on them from this listing simply opens the app launch dialog with its parameters pre-filled, according to the Quick Launch configuration.
+
+If you don't need to save any default inputs or parameters, you can also use the app's public URL for sharing the VICE app, which acts the same as a Quick Launch, but it doesn't have any parameters pre-filled.
+
 [vll]: https://de.cyverse.org/apps/de/3548f43a-bed1-11e9-af16-008cfa5ae621/launch?quick-launch-id=81b187d6-cc94-4c53-81b5-f09f31c9c8ba
 
 [dsll]: https://de.cyverse.org/apps/de/07a2d5b2-76e2-11eb-be5f-008cfa5ae621/launch?quick-launch-id=60054c75-0e80-4169-8a9b-51cba04f756d
 
 [vlb]: ../assets/de/app_badges/verse-latest-badge.svg
 [dslb]: ../assets/de/app_badges/datascience-latest-badge.svg
+
 
 
