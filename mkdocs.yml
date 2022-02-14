@@ -20,6 +20,7 @@ nav:
     - 'What is CyVerse?': what_is_cyverse.md
     - 'Self-Guided Course': https://cyverse-cyverse-mooc.readthedocs-hosted.com/en/cyverse-usa/
     - 'FAQ': faq.md
+    - 'Getting Help': getting_help.md
   - 'Sign Up':
     - 'CyVerse Account Setup': account.md 
     - 'Choosing a Platform': choose_platform.md
@@ -57,10 +58,10 @@ nav:
     - 'BISQUE': bisque_guide.md
   - 'For the Classroom':
      - 'DNA Subway': dna_subway_guide.md
-     - 'Teaching with data science tools': teaching_vice.md
+     - 'Teaching with data science tools': vice/teaching_vice.md
   - 'Develop':
-    - 'Create DE Apps': de_apps.md
-    - 'Extend VICE apps': vice_apps.md
+    - 'Create DE Apps': de/create_apps.md
+    - 'Extend VICE apps': vice/extend_apps.md
     - 'Leverage CyVerse Services': powered_by.md
     - 'Developer Manuals': manuals.md
   - 'Science Tutorials':
@@ -70,7 +71,6 @@ nav:
     - 'Foundational Open Science Skills': foss.md
     - 'Container Camp': container_camp.md
   - 'Glossary': glossary.md
-  - 'Getting Help': getting_help.md
 
 # JavaScript for Intercom Widget
 extra_javascript:
