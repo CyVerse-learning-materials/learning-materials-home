@@ -18,7 +18,7 @@ nav:
   - 'Home': index.md 
   - 'Introduction':
     - 'What is CyVerse?': what_is_cyverse.md
-    - 'Self-Guided Course': https://cyverse-cyverse-mooc.readthedocs-hosted.com/en/cyverse-usa/
+    - 'Self-Guided Course': mooc.md
     - 'FAQ': faq.md
     - 'Getting Help': getting_help.md
   - 'Sign Up':
@@ -43,10 +43,9 @@ nav:
     - 'Search': de/searching.md
     - 'Sharing and Using Bags': de/bags.md
   - 'Quick Starts':
-    - 'Interactive Analyses': 
-        - 'RStudio in 6 steps': vice/quick-rstudio.md
-        - 'JupyterLab in 6 steps': vice/quick-jupyter.md
-        - 'Cloud Shell in 6 steps': vice/quick-cloudshell.md
+    - 'RStudio in 6 steps': vice/quick-rstudio.md
+    - 'JupyterLab in 6 steps': vice/quick-jupyter.md
+    - 'Cloud Shell in 6 steps': vice/quick-cloudshell.md
     - 'Data Sharing': de/quick-data-share.md
     - 'Cloud Virtual Machines': atmo/quick-atmo.md
   - 'Cloud Services':
