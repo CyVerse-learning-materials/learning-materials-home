@@ -2,7 +2,7 @@
 
 ![Bisque](assets/bisque/bisque-icon.png)
 
-**B**io-**I**mage **S**emantic **Q**uery **U**ser **E**nvironment for the exchange and exploration of image data.
+Bio-Image Semantic Query User Environment for the exchange and exploration of image data.
 
 - Exchange, explore, and analyze biological images and their metadata.
 - Image data analysis and management
