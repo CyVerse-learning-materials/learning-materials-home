@@ -6,15 +6,21 @@ There are several ways to extend VICE:
 |---------|-----------------------|
 | [Copy an Existing App](#copy-an-existing-app) | You want to create a Quick Launch Button which has a different set of input data, specific to a course you're teaching | 
 | [Modify an Existing Tool](#modify-an-existing-tool) | You need to add new packages or libraries to an existing Featured App and Tool that requires building a new Docker Container |
-| [Create a New Tool](#create-a-new-tool) | There are no existing App types which fit your needs. You need to develop your own Docker container and integrate it from start to finish. |
+| [Create a New Tool & App](#create-a-new-tool) | There are no existing App types which fit your needs. You need to develop your own Docker container and integrate it from start to finish. |
 
-Depending on your specific needs, it may be (faster) to simply copy an existing app or modify an existing Tool. 
+Depending on your specific needs, it may be easiest to copy an existing app or modify an existing Tool. If you cannot find any existing Apps which suit your use case, do not hesitate to contact us via Intercom to ask about the availability of your favorite development environment. 
 
 ??? tip "Definitions"
 
-    **Tool** - the Discovery Environment refers to integrated Docker containers as "Tools". 
+    **Tool** - the Discovery Environment refers to Docker container templates as "Tools". The tool builder allows you to set the environment, UID, entrypoint, working directory, and computational requirements of your Docker container.   
     
-    **Applications or Apps** - Apps are the user interface that you build in the Discovery Environment to interact with Tools. For `executable`, `HPC`, and `OSG` apps these include input data, parameters, settings, and flags which the user selects. Apps are designed using a template builder. For `interactive` VICE apps, the template may only include a set of input data files and folders.
+    **Apps** - Applications or "Apps" are the user interface that you build in the Discovery Environment to interact with our Tools. Apps are designed using a template builder. 
+    
+Types of Tool include: `executable`, `HPC`, `OSG` (OpenScienceGrid), or `interactive`. 
+    
+Apps may require input data, parameters, settings, and flags which the user selects each time they are run. `executable`, `HPC`, and `OSG` apps are run non-interactively until they complete. 
+    
+For `interactive` VICE apps, the App template may only include a set of input data files and folders, or nothing at all. VICE Apps use Kubernetes to orchestrate their launch.
 
 Adding `interactive` Tools and Apps are different from `executable` Tools. VICE applications like Jupyter and RStudio run on open ports enabling their User Interface (UI) in the browser.
 
@@ -26,9 +32,15 @@ Adding `interactive` Tools and Apps are different from `executable` Tools. VICE 
 [apps]: ../assets/de/menu_items/appsIcon.svg
 [analysis]: ../assets/de/menu_items/analysisIcon.svg
 
+Navigating the [![][de]{width=25}](https://de.cyverse.org){target=_blank} [Discovery Environment](https://de.cyverse.org){target=_blank}:
+
 ![][apps]{width=20} **Apps** - Applications (including VICE interactive applications)
 
+Under "Apps" you will see "Tools" and "Instant Launches" -- for this section, we are interested in "Tools"
+
 ![][analysis]{width=20} **Analyses** - Status and history of analysis jobs
+
+Analyses will be where you can test your new App to ensure it is functioning properly.
 
 1. If necessary, log into the [![][de]{width=25}](https://de.cyverse.org){target=_blank} [Discovery Environment](https://de.cyverse.org){target=_blank}
 
