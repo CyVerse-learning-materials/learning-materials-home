@@ -10,14 +10,13 @@
 
 5. Once you have confirmed your email address, you can start using your CyVerse account right away!
 
-??? pop-up-blockers
+??? tip "pop-up-blockers"
 
 	Ensure Java Script is enabled on your web browser. A pop-up blocker or other notification symbol may indicate this.
 
 	![java](assets/java.png){width="250"}
 
-
-??? check-your-spam
+??? tip "check-your-spam"
 
 	Check your SPAM for the confirmation email if the message does not arrive within a few minutes
 
