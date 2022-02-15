@@ -61,7 +61,7 @@ Copying an App does not change the underlying Tool (Docker Image). You may need 
 If you find that one of the existing public Apps, e.g. our Featured Apps, are useful but are missing some key packages you can take the next step of building a new container from our featured images. 
 
 
-??? question "Why use our Featured Images"
+??? tip "Why use our Featured Images"
 
     Some of the managed features that CyVerse provides for you are not available on publicly maintained Docker images of popular data science development environments.
     
@@ -103,7 +103,7 @@ Build your container as you normally would:
 $ docker build -t <dockerhub-username>/rstudio/verse:custom-latest .
 ```
 
-??? question "What tag name should you use?"
+??? tip "Selecting tag names"
 
     By default Docker gives the `latest` tag to containers without a `:` and trailing tagname.
     
