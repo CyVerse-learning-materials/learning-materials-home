@@ -2,12 +2,15 @@
 
 There are several ways to extend VICE:
 
-First, you can create copies of existing VICE apps and modify them to better suit your specific needs.
+| Options | Hypothetical use case | 
+|---------|-----------------------|
+| [Copy an Existing App](#copy-an-existing-app) | You want to create a Quick Launch Button which has a different set of input data, specific to a course you're teaching | 
+| [Modify an Existing Tool](#modify-an-existing-tool) | You need to add new packages or libraries to an existing Featured App and Tool that requires building a new Docker Container |
+| [Create a New Tool](#create-a-new-tool | There are no existing App types which fit your needs. You need to develop your own Docker container and integrate it from start to finish. |
 
-Second, you can integrate your own Docker containers as Tools, and create new Apps for them.
+Depending on your specific needs, it may be (faster) to simply copy an existing app or modify an existing Tool. 
 
 ??? tip "Definitions"
-
 
     **Tool** - the Discovery Environment refers to integrated Docker containers as "Tools". 
     
@@ -15,7 +18,7 @@ Second, you can integrate your own Docker containers as Tools, and create new Ap
 
 Adding `interactive` Tools and Apps are different from `executable` Tools. VICE applications like Jupyter and RStudio run on open ports enabling their User Interface (UI) in the browser.
 
-## Create a copy of an existing VICE App
+## Copy an Existing App
 
 [de]: ../assets/de/logos/deIcon.svg
 [home]: ../assets/de/menu_items/homeIcon.svg
@@ -23,31 +26,39 @@ Adding `interactive` Tools and Apps are different from `executable` Tools. VICE 
 [apps]: ../assets/de/menu_items/appsIcon.svg
 [analysis]: ../assets/de/menu_items/analysisIcon.svg
 
-![][home]{width=20} **Home** - Dashboard
-
 ![][apps]{width=20} **Apps** - Applications (including VICE interactive applications)
 
 ![][analysis]{width=20} **Analyses** - Status and history of analysis jobs
 
-1. If necessary, log into the [![][de]{width=25}](https://de.cyverse.org){target=_blank} [Discovery Environment](https://de.cyverse.org){target=_blank}.
+1. If necessary, log into the [![][de]{width=25}](https://de.cyverse.org){target=_blank} [Discovery Environment](https://de.cyverse.org){target=_blank}
 
-2. Click the [![][apps]{width=20}](https://de.cyverse.org/apps){target=_blank} [Apps](https://de.cyverse.org/apps){target=_blank}, search for or select your desired App. 
+2. Click the [![][apps]{width=20}](https://de.cyverse.org/apps){target=_blank} [Apps](https://de.cyverse.org/apps){target=_blank} icon in the left table of contents. Or use the search bar to search the existing public Apps for what you're interested in. 
 
-3. Click on the three vertical dots on the right side of the selection field and select "Copy App".
+3. When you've found the app you want, click on the three vertical dots on the right side of the selection field and select "Copy App".
 
-4. You will be taken to the App editor, where you can now give the Copy a new name. You can also change the App Description and the Tool used by the App. 
+4. You will be taken to the App editor, where you can now give the `Copy of App Name` a new name. You can also change the App's Description and the Tool used by the App. 
 
-6. Modify the Parameters as you need.
+6. Modify the Parameters as you see fit.
 
 7. Save your new app. The app will be private, and is available under your ""Apps Under Development" tab in [![][apps]{width=20}](https://de.cyverse.org/apps){target=_blank} [Apps](https://de.cyverse.org/apps){target=_blank}
 
-## Create new Tool
+## Modify an Existing Tool
 
-### Select a Base Image
+Copying an App does not change the underlying Tool (Docker Image). You may need to install some new system packages or software libraries that are too complex or take too long to compile on any of the public featured apps. 
 
-If you need to set configurations (see below), you'll need to create a new Dockerfile that uses the community-provided image as a base. 
+If you find that one of the existing public Apps, e.g. our Featured Apps, are useful but are missing some key packages you can take the next step of building a new container from our featured images. 
 
-Your new Dockerfile should deal with custom configurations and dependency installations.
+It is **strongly recommended** if you're using common IDE like RStudio, Jupyter Lab, VS Code, Remote Desktops, or web-based applications like Shiny, Flask, or Streamlit that you use one of our featured Docker images, or at least take a look at our public Dockerfiles on [GitHub](https://github.com/cyverse-vice) to ensure compatibility of your new Container with the Discovery Environment. 
+
+??? question "Why use our Featured Images"
+
+    Some of the managed features that CyVerse provides for you are not available on publicly maintained Docker images of popular data science development environments.
+    
+    For example, CyVerse adds a reverse proxy to allow RStudio to work behind our authenticated systems, and we install iRODS iCommands and other popular package managers and editors on all of our featured images. 
+    
+    By building a new container from our featured image set, you are assured that your new Docker image will work immediately in the Discovery Environment.
+
+### Select a Featured Base Image
 
 Each of these featured Apps have a public GitHub repository where their Dockerfile is available. The containers are hosted on CyVerse Harbor public/private Docker container registry. 
 
@@ -59,21 +70,45 @@ Each of these featured Apps have a public GitHub repository where their Dockerfi
 | <a href="https://de.cyverse.org/apps/de/f3f8cc78-23d5-11ec-abcf-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/Xpra-Geospatial-orange?style=plastic&logo=X.Org"></a>  | [Xpra](https://github.com/cyverse-vice/xpra){target=_blank} |
 | <a href="https://de.cyverse.org/apps/de/091c830a-4be1-11ec-aad9-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/VS%20Code-latest-6C33AF?style=plastic&logo=visualstudiocode"></a> | [VS Code](https://github.com/cyverse-vice/vscode){target=_blank} |
 
-To build from our featured images, you can create your own Dockerfile and pull from our public [Harbor Registry](https://harbor.cyverse.org/harbor/projects/17/repositories/)
+### Write your new Dockerfile
 
-For example, for Featured [RStudio Verse Latest](https://github.com/cyverse-vice/rstudio-verse),
+Create your own Dockerfile. We suggest using GitHub, and setting up a [GitHub Action](https://github.com/marketplace/actions/build-and-push-docker-images){target=_blank} for building your container and pushing it to a public Docker Registry. 
+
+If you select a Featured App image, it will be pulled from our public [Harbor Registry](https://harbor.cyverse.org/harbor/projects/17/repositories/), which uses a different naming convention than Docker Hub containers. 
+
+For example, for the Rocker Project's featured [RStudio Verse Latest](https://github.com/cyverse-vice/rstudio-verse) image, the `FROM` statement would be:
 
 ```{docker}
 FROM harbor.cyverse.org/vice/rstudio/verse:latest
 ```
 
-Followed by your own package installations.
+You can then follow with your own `ENV` and `RUN` commands to do your own package installations.
 
-### Test your Docker image
+Build your container as you normally would:
 
-Since the images are built based using Dockerfile, make sure you test the Dockerfile before providing it to us. Dockerfile must have Entrypoint. If you cannot provide us the Dockerfile, you can request integration of the app by doing a tool request. 
+```{bash}
+$ docker build -t <dockerhub-username>/rstudio/verse:custom-latest .
+```
 
-The Docker image of your tool is mandatory and it should be available on public registries such as [Dockerhub](https://hub.docker.com) or [quay.io](http://quay.io). Alternatively you can provide us the Dockerfile and we will build the Docker image for you. If there is no Dockerfile for the tool that you are interested in, then tell us what tool you are interesting in making us as VICE app.
+??? question "What tag name should you use?"
+
+    By default Docker gives the `latest` tag to containers without a `:` and trailing tagname.
+    
+    You can modify your tagname in any way you see fit, but names like `dev` and `latest` should only be used for development or activities that do not require rigorous reproducability. 
+    
+    It is a good practice to use versioned tag names when preparing for peer-reviewed scientific publication.
+
+### Push your new image to a public container registry
+
+After you have built your new image, you need to push it to a public Docker registry. We recommend [Dockerhub](https://hub.docker.com) or [quay.io](http://quay.io). The Discovery Environment can pull any public Docker image from any public/private registry. 
+
+We currently do not allow private Docker images to be pulled, but you can contact us about special private container hosting in our Harbor registry if you have sensitive data or software needs.
+
+Alternatively, you can provide us the `Dockerfile` of your requested image and we will build the Docker image for you. 
+
+If there is no `Dockerfile` for the tool that you are interested in, contact us via Intercom and tell us what tool you are interesting in making us as VICE app.
+
+## Create a new Tool
 
 ### Add Tool
 
@@ -157,7 +192,11 @@ You must set the port in the Tool to the external port that the container is lis
 
     It is strongly recommended you do not set the `bind to host` as `true` for your added ports when creating a new App
 
-## Creating VICE app for your tool
+## Creating VICE app for your new tool
+
+After your tool template has been saved, you can create an App for connecting your Tool to the Discovery Environment. You can [copy an existing app](#copy-an-existing-app) and select your tool if you like an existing App's layout. 
+
+Or you can create a new app from a blank template.
 
 ??? tip "Input Data"
 
