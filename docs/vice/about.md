@@ -10,12 +10,12 @@ The DE supports executable applications which run as workflows on high performan
 
 ## Getting VICE Access
 
-[de]: assets/de/logos/deIcon.svg
-[home]: assets/de/menu_items/homeIcon.svg
-[data]: assets/de/menu_items/dataIcon.svg
-[apps]: assets/de/menu_items/appsIcon.svg
-[analysis]: assets/de/menu_items/analysisIcon.svg
-[vice]: assets/de/logos/deviceIcon.png
+[de]: ../assets/de/logos/deIcon.svg
+[home]: ../assets/de/menu_items/homeIcon.svg
+[data]: ../assets/de/menu_items/dataIcon.svg
+[apps]: ../assets/de/menu_items/appsIcon.svg
+[analysis]: ../assets/de/menu_items/analysisIcon.svg
+[vice]: ../assets/de/logos/deviceIcon.png
 
 To minimize inappropriate use, VICE is a restricted service, currently accessible from CyVerse US. You must request access to use.
 
