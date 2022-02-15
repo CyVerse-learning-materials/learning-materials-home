@@ -6,7 +6,7 @@ There are several ways to extend VICE:
 |---------|-----------------------|
 | [Copy an Existing App](#copy-an-existing-app) | You want to create a Quick Launch Button which has a different set of input data, specific to a course you're teaching | 
 | [Modify an Existing Tool](#modify-an-existing-tool) | You need to add new packages or libraries to an existing Featured App and Tool that requires building a new Docker Container |
-| [Create a New Tool](#create-a-new-tool | There are no existing App types which fit your needs. You need to develop your own Docker container and integrate it from start to finish. |
+| [Create a New Tool](#create-a-new-tool) | There are no existing App types which fit your needs. You need to develop your own Docker container and integrate it from start to finish. |
 
 Depending on your specific needs, it may be (faster) to simply copy an existing app or modify an existing Tool. 
 
