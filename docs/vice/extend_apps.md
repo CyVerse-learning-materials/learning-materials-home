@@ -1,4 +1,10 @@
-# Extending with your own Docker images
+# Extending VICE Tools and Apps
+
+There are several ways to extend VICE:
+
+First, you can create copies of existing VICE apps and modify them to better suit your specific needs.
+
+Second, you can integrate your own Docker containers as Tools, and create new Apps for them.
 
 ??? tip "Definitions"
 
@@ -9,7 +15,35 @@
 
 Adding `interactive` Tools and Apps are different from `executable` Tools. VICE applications like Jupyter and RStudio run on open ports enabling their User Interface (UI) in the browser.
 
-## Select a Base Image
+## Create a copy of an existing VICE App
+
+[de]: ../assets/de/logos/deIcon.svg
+[home]: ../assets/de/menu_items/homeIcon.svg
+[data]: ../assets/de/menu_items/dataIcon.svg
+[apps]: ../assets/de/menu_items/appsIcon.svg
+[analysis]: ../assets/de/menu_items/analysisIcon.svg
+
+![][home]{width=20} **Home** - Dashboard
+
+![][apps]{width=20} **Apps** - Applications (including VICE interactive applications)
+
+![][analysis]{width=20} **Analyses** - Status and history of analysis jobs
+
+1. If necessary, log into the [![][de]{width=25}](https://de.cyverse.org){target=_blank} [Discovery Environment](https://de.cyverse.org){target=_blank}.
+
+2. Click the [![][apps]{width=20}](https://de.cyverse.org/apps){target=_blank} [Apps](https://de.cyverse.org/apps){target=_blank}, search for or select your desired App. 
+
+3. Click on the three vertical dots on the right side of the selection field and select "Copy App".
+
+4. You will be taken to the App editor, where you can now give the Copy a new name. You can also change the App Description and the Tool used by the App. 
+
+6. Modify the Parameters as you need.
+
+7. Save your new app. The app will be private, and is available under your ""Apps Under Development" tab in [![][apps]{width=20}](https://de.cyverse.org/apps){target=_blank} [Apps](https://de.cyverse.org/apps){target=_blank}
+
+## Create new Tool
+
+### Select a Base Image
 
 If you need to set configurations (see below), you'll need to create a new Dockerfile that uses the community-provided image as a base. 
 
@@ -35,33 +69,13 @@ FROM harbor.cyverse.org/vice/rstudio/verse:latest
 
 Followed by your own package installations.
 
-## Test your Docker image
+### Test your Docker image
 
 Since the images are built based using Dockerfile, make sure you test the Dockerfile before providing it to us. Dockerfile must have Entrypoint. If you cannot provide us the Dockerfile, you can request integration of the app by doing a tool request. 
 
-# **Building DE tools and apps**
-
-Once you build your Docker image (following the guidelines), the next step is building the Tool.
-
-For this you'll need a Docker image name, any port numbers `PORT`, User ID `UID`, working directory `WORKDIR`, and `ENTRYPOINT`.
-
-## Docker images
-
 The Docker image of your tool is mandatory and it should be available on public registries such as [Dockerhub](https://hub.docker.com) or [quay.io](http://quay.io). Alternatively you can provide us the Dockerfile and we will build the Docker image for you. If there is no Dockerfile for the tool that you are interested in, then tell us what tool you are interesting in making us as VICE app.
 
-## Add Tool in DE
-
-[de]: ../assets/de/logos/deIcon.svg
-[home]: ../assets/de/menu_items/homeIcon.svg
-[data]: ../assets/de/menu_items/dataIcon.svg
-[apps]: ../assets/de/menu_items/appsIcon.svg
-[analysis]: ../assets/de/menu_items/analysisIcon.svg
-
-![][home]{width=20} **Home** - Dashboard
-
-![][apps]{width=20} **Apps** - Applications (including VICE interactive applications)
-
-![][analysis]{width=20} **Analyses** - Status and history of analysis jobs
+### Add Tool
 
 1. If necessary, log into the [![][de]{width=25}](https://de.cyverse.org){target=_blank} [Discovery Environment](https://de.cyverse.org){target=_blank}.
 
@@ -96,9 +110,9 @@ The Docker image of your tool is mandatory and it should be available on public 
 -   `Memory Limit` is the memory for your tool. Eg. 64 GB
 -   `Min Disk Space` is the minimum disk space. Eg. 200 GB
 
-## Required settings
+#### Required settings
 
-### Set the `WORKDIR`
+##### Set the `WORKDIR`
 
 The container needs to have a set working directory, typically this is the home folder, e.g. `/home/jovyan` or `/home/rstudio` 
 
@@ -110,7 +124,7 @@ Set the `WORKDIR` in the Dockerfile, if there is no set `WORKDIR` you can set it
 
     This is because the Discovery Environment's interactive apps use a [Kubernetes container storage interface (CSI)](https://github.com/cyverse/irods-csi-driver){target=_blank} driver that connects the CyVerse data store to your working directory in the running container. This new mount can clobber any pre-existing files in the the container's `WORKDIR` 
 
-### Set the `ENTRYPOINT`
+##### Set the `ENTRYPOINT`
 
 The container must have an `ENTRYPOINT` set in the Dockerfile, else you must set it in the Tool 
 
@@ -119,7 +133,7 @@ The container must have an `ENTRYPOINT` set in the Dockerfile, else you must set
 5.  Disable any additional authentication (CyVerse provides CAS authentication and authorization).
 6.  URLs will work sanely behind a reverse proxy. If they don't, you may need to add nginx to the container.=
 
-### Set the `PORT`
+##### Set the `PORT`
 
 Interactive Apps rely on open ports to send display information to the browser.
 
@@ -148,7 +162,3 @@ You must set the port in the Tool to the external port that the container is lis
 ??? tip "Input Data"
 
     For VICE apps, be sure to check the box "Do not pass this argument to the command line" for each option you add (for VICE, this is usually just input files and folders.
-
-## Featured VICE apps in DE
-
-
