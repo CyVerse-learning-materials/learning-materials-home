@@ -60,7 +60,6 @@ Copying an App does not change the underlying Tool (Docker Image). You may need 
 
 If you find that one of the existing public Apps, e.g. our Featured Apps, are useful but are missing some key packages you can take the next step of building a new container from our featured images. 
 
-It is **strongly recommended** if you're using common IDE like RStudio, Jupyter Lab, VS Code, Remote Desktops, or web-based applications like Shiny, Flask, or Streamlit that you use one of our featured Docker images, or at least take a look at our public Dockerfiles on [GitHub](https://github.com/cyverse-vice) to ensure compatibility of your new Container with the Discovery Environment. 
 
 ??? question "Why use our Featured Images"
 
@@ -69,6 +68,8 @@ It is **strongly recommended** if you're using common IDE like RStudio, Jupyter 
     For example, CyVerse adds a reverse proxy to allow RStudio to work behind our authenticated systems, and we install iRODS iCommands and other popular package managers and editors on all of our featured images. 
     
     By building a new container from our featured image set, you are assured that your new Docker image will work immediately in the Discovery Environment.
+
+It is **strongly recommended** if you're using common IDE like RStudio, Jupyter Lab, VS Code, Remote Desktops, or web-based applications like Shiny, Flask, or Streamlit that you use one of our featured Docker images, or at least take a look at our public Dockerfiles on [GitHub](https://github.com/cyverse-vice) to ensure compatibility of your new Container with the Discovery Environment. 
 
 ### Select a Featured Base Image
 
