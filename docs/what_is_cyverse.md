@@ -4,19 +4,17 @@
 
 CyVerse cyberinfrastructure includes:
 
-[![!](assets/data_store/datastore-icon.png "Data Storage"){ width="20" }](https://cyverse.org/data-store) [Data Storage](https://cyverse.org/data-store) - free allocation spaces for all users, [contact us](https://user.cyverse.org/requests/2) to help you scale your project.
+[![!](assets/de/menu_items/dataIcon.png "Data Storage"){ width="20" }](https://cyverse.org/data-store) [Data Storage](https://cyverse.org/data-store) - free allocation spaces for all users, [contact us](https://user.cyverse.org/requests/2) to help you scale your project.
 
 [![!](assets/de/de_icon.png "Discovery Environment"){ width="20" }](https://user.cyverse.org/services/2) [Data Science Workbench](https://user.cyverse.org/services/2)  - An interactive, web-based, analytical platform called the "[Discovery Environment](https://de.cyverse.org)"
 
-[![!](assets/atmosphere/atmosphere-icon.png "Atmosphere"){ width="20" }](https://user.cyverse.org/services/1) [Cloud](https://user.cyverse.org/services/1) - hosted OpenStack virtual machines for computation, analysis, and storage.
+[![!](assets/de/logos/cyverse_ball_2022.png "Atmosphere"){ width="20" }](https://user.cyverse.org/services/1) [Cloud](https://user.cyverse.org/services/1) - hosted OpenStack virtual machines for computation, analysis, and storage.
 
-[![!](assets/cyverse_globe_cmyk.png "ECP"){ width="20" }](https://cyverse.org/ecp) [External Collaborative Partnerships](https://cyverse.org/ecp) - Support specialists for scaling computational algorithms to run on large, high-speed computers. [Contact Us](https://user.cyverse.org/requests/3)
+[![!](assets/de/logos/cyverse_ball_2022.png "ECP"){ width="20" }](https://cyverse.org/ecp) [External Collaborative Partnerships](https://cyverse.org/ecp) - Support specialists for scaling computational algorithms to run on large, high-speed computers. [Contact Us](https://user.cyverse.org/requests/3)
 
-[![!](assets/cyverse_globe_cmyk.png "EOT"){ width="20" }](https://cyverse.org/teach) [Education and Training](https://cyverse.org/teach) - learn how to use containers, workflows, and public research cyberinfrastructure
+[![!](assets/de/logos/cyverse_ball_2022.png "EOT"){ width="20" }](https://cyverse.org/teach) [Education and Training](https://cyverse.org/teach) - learn how to use containers, workflows, and public research cyberinfrastructure
 
-[![!](assets/cyverse_globe_cmyk.png "ECP"){ width="20" }](https://user.cyverse.org/requests/8) People with expertise in all of the above to help answer your questions and power up your teaching or research. 
-
-[![!](assets/pro_service_person.png "ECP"){ width="400" }](https://user.cyverse.org/requests/8)
+[![!](assets/de/logos/cyverse_ball_2022.png "PBY"){ width="20" }](https://user.cyverse.org/requests/8) People with expertise in all of the above to help answer your questions and power up your teaching or research. 
 
 -----------------------------------------------------------------------
 
