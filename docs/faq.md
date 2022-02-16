@@ -34,7 +34,7 @@
 
 ??? question "What public datasets are in CyVerse?"
 
-    CyVerse provides web access to its public datasets. 
+    CyVerse provides web access to its public datasets via WebDav [https://data.cyverse.org](https://data.cyverse.org){_target=_blank} 
     
     Because the CyVerse Data Store underlies all CyVerse services, the public datasets may also be accessed through the Discovery Environment, Atmosphere, the Science APIs and iCommands. 
     
@@ -60,7 +60,7 @@
 
 -----------------------------------------------------------------------
 
-??? question " How od I open a connection to a private folder that is shared with me?"
+??? question " How do I open a connection to a private folder that is shared with me?"
 
     See our [using the Data Store documentation](ds/intro.md)
 
