@@ -696,7 +696,7 @@ given in parentheses and can be pasted into the browser):
 
 [Learning Center Home](http://learning.cyverse.org/)
 
-# Walkthrough of DNA Subway Yellow Line - Sequence Detection
+## Walkthrough of DNA Subway Yellow Line - Sequence Detection
 
 Genome prospecting uses a query sequence (DNA or protein of up to 10,000
 base pairs/amino acids) to find related sequences in specific genomes or
@@ -721,7 +721,7 @@ elements (TEs).
 
 ------------------------------------------------------------------------
 
-## *DNA Subway Yellow Line - Create a Yellow Line Project*
+### *DNA Subway Yellow Line - Create a Yellow Line Project*
 
 > 1.  Log-in to [DNA Subway](https://dnasubway.cyverse.org/) -
 >     unregistered users may \'Enter as Guest\'
@@ -741,7 +741,7 @@ elements (TEs).
 >
 > 4.  Provide your project with a title, then Click 'Continue'
 
-### **Example Exercise - Project Creation: mPing Mite element to search plant genomes for an active transposon**
+#### **Example Exercise - Project Creation: mPing Mite element to search plant genomes for an active transposon**
 
 The [mPing MITE
 element](https://www.nature.com/nature/journal/v421/n6919/full/nature01214.html)
@@ -752,7 +752,7 @@ of DNA elements that impact the function of the genome.
 > 1.  Create a Yellow Line project following the steps above and using
 >     the mPing Mite Element (Oryza sativa/Rice)
 
-## *DNA Subway Yellow Line - Search Plant Genomes with TARGeT*
+### *DNA Subway Yellow Line - Search Plant Genomes with TARGeT*
 
 > 1.  Click and select the genome(s) you wish to search and the click;
 >     \'Run\' to search those genomes.
@@ -792,7 +792,7 @@ of DNA elements that impact the function of the genome.
 > > :::
 > > :::
 
-### **Example Exercise - Search Plant Genomes: mPing Mite element**
+#### **Example Exercise - Search Plant Genomes: mPing Mite element**
 
 > 1.  After loading the mPing Mite Element as the query, search the
 >     Oryza Sativa genome, and examine the results in the Alignment and
@@ -800,7 +800,7 @@ of DNA elements that impact the function of the genome.
 > 2.  Repeat this analysis with a new project using the Ping transposase
 >     gene and the Ping Transposase protein.
 
-# Walkthrough of DNA Subway Blue Line - DNA Barcoding and Phylogenetics
+## Walkthrough of DNA Subway Blue Line - DNA Barcoding and Phylogenetics
 
 You can analyze relationships between DNA sequences by comparing them to
 a set of sequences you have compiled yourself, or by comparing your
@@ -868,7 +868,7 @@ not represented in published databases like GenBank.
 > experience):
 > :::
 
-## *DNA Subway Blue Line - Create a Barcoding Project*
+### *DNA Subway Blue Line - Create a Barcoding Project*
 
 > 1.  Log-in to [DNA Subway](https://dnasubway.cyverse.org/) -
 >     unregistered users may \'Enter as Guest\'
@@ -919,7 +919,7 @@ not represented in published databases like GenBank.
 
 ------------------------------------------------------------------------
 
-## *DNA Subway Blue Line - View and Clean Barcoding Sequence Data*
+### *DNA Subway Blue Line - View and Clean Barcoding Sequence Data*
 
 **A. View Sequencing Trace File**
 
@@ -996,7 +996,7 @@ the 5' and/or 3' ends of the consensus sequence.
 
 ------------------------------------------------------------------------
 
-## *DNA Subway Blue Line - Find Matches with BLAST*
+### *DNA Subway Blue Line - Find Matches with BLAST*
 
 DNA Subway Blue Line will search a local copy of a BLAST databases to
 check for published matches in GenBank.
@@ -1037,7 +1037,7 @@ check for published matches in GenBank.
 
 ------------------------------------------------------------------------
 
-## *DNA Subway Blue Line - Add Reference Data*
+### *DNA Subway Blue Line - Add Reference Data*
 
 Depending on the project type you have created, you will have access to
 additional sequence data that may be of interest. For example, if you
@@ -1065,7 +1065,7 @@ next step.
 
 ------------------------------------------------------------------------
 
-## *DNA Subway Blue Line - Build a Multiple Sequence Alignment and Phylogenetic Tree*
+### *DNA Subway Blue Line - Build a Multiple Sequence Alignment and Phylogenetic Tree*
 
 **A. Build a multiple sequence alignment and phylogenetic tree**
 
@@ -1124,7 +1124,7 @@ next step.
 
 ------------------------------------------------------------------------
 
-# Walkthrough of DNA Subway Green Line
+## Walkthrough of DNA Subway Green Line
 
 The Green line runs within CyVerse DNA Subway and was developed
 leverages powerful computing and data storage infrastructure and uses
@@ -1170,7 +1170,7 @@ with a simple user interface suitable for both teaching and research.
 
 ------------------------------------------------------------------------
 
-## *DNA Subway Green Line - Create an RNA-Seq Project to Examine Differential Expression*
+### *DNA Subway Green Line - Create an RNA-Seq Project to Examine Differential Expression*
 
 **A. Create a project in Subway**
 
@@ -1207,7 +1207,7 @@ internet interface. You must upload your files (either .fastq or
 
 ------------------------------------------------------------------------
 
-## *DNA Subway Green Line - Manage Data and Check Quality with FASTQC*
+### *DNA Subway Green Line - Manage Data and Check Quality with FASTQC*
 
 **A. Select and pair files**
 
@@ -1233,7 +1233,7 @@ popular tool for determining sequencing quality.
 
 ------------------------------------------------------------------------
 
-## *DNA Subway Green Line - Trim and Filter Reads with FastX Toolkit*
+### *DNA Subway Green Line - Trim and Filter Reads with FastX Toolkit*
 
 Raw reads are first \"quality trimmed\" (remove poor quality bases off
 the end(s) of a read) and then are \"quality filtered\" (filter out
@@ -1273,7 +1273,7 @@ trimming and filtering, FastQC is run on the trimmed/filtered files.
 
 ------------------------------------------------------------------------
 
-## *DNA Subway Green Line - Map Reads to Genome with TopHat*
+### *DNA Subway Green Line - Map Reads to Genome with TopHat*
 
 TopHat is the first component of the Tuxedo Protocol. This program
 aligns individual RNA-Seq reads to a previously assembled "reference"
@@ -1313,7 +1313,7 @@ view the aligned reads using the Integrated Genome Viewer (IGV).
 
 ------------------------------------------------------------------------
 
-## *DNA Subway Green Line - Assemble Transcripts with Cufflinks*
+### *DNA Subway Green Line - Assemble Transcripts with Cufflinks*
 
 Cufflinks assembles or "links" the RNA-Seq alignments into a set of
 transcripts which are best estimates (determined by parsimony) of your
@@ -1350,7 +1350,7 @@ makes estimates about the relative abundance of each transcript.
 >
 > 4.  Repeat this process for all the FASTQ files in your dataset.
 
-## *DNA Subway Green Line - Examine Differential Expression with CuffDiff*
+### *DNA Subway Green Line - Examine Differential Expression with CuffDiff*
 
 Cuffdiff uses the Cufflinks output (and/or or reference genome) to
 calculate gene and transcript expression levels in one or more condition
@@ -1376,7 +1376,7 @@ levels and comparison for each annotated gene.
 
 ------------------------------------------------------------------------
 
-# Walkthrough of DNA Subway Green Line: Kallisto/Sleuth RNA-Seq
+## Walkthrough of DNA Subway Green Line: Kallisto/Sleuth RNA-Seq
 
 The Green Line runs within CyVerse DNA Subway and leverages powerful
 computing and data storage infrastructure and uses the supercomputer
@@ -1476,7 +1476,7 @@ software in an R-Shiny app.
 > > ```
 > :::
 
-## *DNA Subway Green Line: Kallisto/Sleuth - Create an RNA-Seq Project to Examine Differential Abundance*
+### *DNA Subway Green Line: Kallisto/Sleuth - Create an RNA-Seq Project to Examine Differential Abundance*
 
 **A. Create a project in Subway**
 
@@ -1543,7 +1543,7 @@ internet interface. You must upload your files (either .fastq or
 
 ------------------------------------------------------------------------
 
-## *DNA Subway Green Line: Kallisto/Sleuth - Manage Data and Check Quality with FASTQC*
+### *DNA Subway Green Line: Kallisto/Sleuth - Manage Data and Check Quality with FASTQC*
 
 **A. Select and pair files**
 
@@ -1647,7 +1647,7 @@ for determining sequencing quality.
 
 ------------------------------------------------------------------------
 
-## *DNA Subway Green Line: Kallisto/Sleuth - Trim and Filter Reads with FastX Toolkit*
+### *DNA Subway Green Line: Kallisto/Sleuth - Trim and Filter Reads with FastX Toolkit*
 
 Raw reads are first \"quality trimmed\" (remove poor quality bases off
 the end(s) of a read) and then are \"quality filtered\" (filter out
@@ -1694,7 +1694,7 @@ trimming and filtering, FastQC is run on the trimmed/filtered files.
 
 ------------------------------------------------------------------------
 
-## *DNA Subway Green Line: Kallisto/Sleuth - Quantify reads with Kallisto*
+### *DNA Subway Green Line: Kallisto/Sleuth - Quantify reads with Kallisto*
 
 Kallisto uses a 'hash-based' pseudo alignment to deliver extremely fast
 matching of RNA-Seq reads against the transcriptome index (which was
@@ -1773,7 +1773,7 @@ Kallisto analyses.
 
 ------------------------------------------------------------------------
 
-## *DNA Subway Green Line: Kallisto/Sleuth- Visualize data using IGV*
+### *DNA Subway Green Line: Kallisto/Sleuth- Visualize data using IGV*
 
 In the \"View Results\" steps you have access to alignment
 visualizations, data download, and interactive visualization of your
@@ -1853,7 +1853,7 @@ differential expression results.
 >     files using Cyberduck (see ). A tab-separated file of abundances
 >     for each sequence pair is available at the download link.
 
-## *DNA Subway Green Line: Kallisto/Sleuth- Visualize data using Sleuth*
+### *DNA Subway Green Line: Kallisto/Sleuth- Visualize data using Sleuth*
 
 **Differential analysis - Shiny App**
 
@@ -1967,7 +1967,7 @@ differential expression results.
 
 ------------------------------------------------------------------------
 
-# Walkthrough of DNA Subway Purple Line (beta testing documentation)
+## Walkthrough of DNA Subway Purple Line (beta testing documentation)
 
 ::: warning
 ::: title
@@ -2031,7 +2031,7 @@ different conditions summarized in the metadata.
 > provided dataset.
 > :::
 
-## *DNA Subway Purple Line - Metadata file and Sequencing Prerequisites*
+### *DNA Subway Purple Line - Metadata file and Sequencing Prerequisites*
 
 If you are generating data for a project (i.e. sequencing samples), you
 will need to provide the sequencing data (fastq files) as well as a
@@ -2165,7 +2165,7 @@ must be fixed.
 > See [DNA Subway Purple Line - Metadata and
 > QC](#dna-subway-purple-line---metadata-and-qc) section C
 
-## *DNA Subway Purple Line - Create a Microbiome Analysis Project*
+### *DNA Subway Purple Line - Create a Microbiome Analysis Project*
 
 **A. Create a project in Subway**
 
@@ -2226,9 +2226,7 @@ upload using the Subway interface. You must upload your files (either
 
 ------------------------------------------------------------------------
 
-## *DNA Subway Purple Line - Metadata and QC*
-
-**A. Select files using Manage Data**
+### **A. Select files using Manage Data**
 
 > 1.  Click on the \'Manage data stop: this opens a window where you can
 >     add your FASTQ and metadata files. Click
@@ -2612,7 +2610,7 @@ following outputs are expected:
 
 ------------------------------------------------------------------------
 
-## *DNA Subway Purple Line - Alpha Rarefaction/Clustering Sequences*
+### *DNA Subway Purple Line - Alpha Rarefaction/Clustering Sequences*
 
 **A. Alpha rarefaction**
 
@@ -2681,7 +2679,7 @@ associated with each sample.
 
 ------------------------------------------------------------------------
 
-## *DNA Subway Purple Line - Calculate Core Metrics/Alpha and Beta Diversity*
+### *DNA Subway Purple Line - Calculate Core Metrics/Alpha and Beta Diversity*
 
 At this stop, you will examine *Alpha Diversity* (the diversity of
 species/taxa present within a single sample) and *Beta Diversity* (a
@@ -2888,7 +2886,7 @@ comparison of species/taxa diversity between two or more samples).
 
 ------------------------------------------------------------------------
 
-## *DNA Subway Purple Line - Visualize data with PiCrust and PhyloSeq*
+### *DNA Subway Purple Line - Visualize data with PiCrust and PhyloSeq*
 
 **Under Development**
 
