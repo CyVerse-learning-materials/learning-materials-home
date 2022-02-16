@@ -21,7 +21,7 @@
 - Remote Desktops for high quality visualizations in your browser
 - GPU computing for machine learning and artificial intelligence
 
-**[![!](assets/de/logos/cyverse_ball_2022.png "Atmo"){ width="30" }](atmo/intro.md) [Cloud](atmo/intro.md)**
+**[![!](assets/atmosphere/cacao-04.png "Atmo"){ width="30" }](atmo/intro.md) [Cloud](atmo/intro.md)**
 
 - CyVerse created [Atmosphere](atmo/atmo.md), a browser interface for working with OpenStack Cloud virtual machines
 - Partnered with NSF XSEDE/ACCESS [Jetstream-2](https://jetstream-cloud.org) for more and larger virtual machines.
