@@ -14,7 +14,7 @@ The DE supports executable applications which run as workflows on high performan
 [home]: ../assets/de/menu_items/homeIcon.svg
 [data]: ../assets/de/menu_items/dataIcon.svg
 [apps]: ../assets/de/menu_items/appsIcon.svg
-[analysis]: ../assets/de/menu_items/analysisIcon.svg
+[analyses]: ../assets/de/menu_items/analysisIcon.svg
 [vice]: ../assets/de/logos/deviceIcon.png
 
 To minimize inappropriate use, VICE is a restricted service, currently accessible from CyVerse US. You must request access to use.
@@ -46,23 +46,25 @@ To minimize inappropriate use, VICE is a restricted service, currently accessibl
 
 1. If necessary, log into the [![][de]{width=25}](https://de.cyverse.org){target=_blank} [Discovery Environment](https://de.cyverse.org){target=_blank}.
 
-2. Click the [![][data]{width=25}](https://de.cyverse.org/data/){target=_blank} [Data Icon](https://de.cyverse.org/data){target=_blank} and navigate to your `results/` folder in the` tutorial_folder/`; click the (Add Folder button) and create a folder called `rocker_output/` inside your tutorial folder.
+2. Click the [![][data]{width=25}](https://de.cyverse.org/data/){target=_blank} [Data Icon](https://de.cyverse.org/data){target=_blank} and navigate to your `/iplant/home/<your-username>` folder; click the (Add Folder button) and create a folder called `demo_rocker/` inside your personal space.
 
 3.  Use this Quick Launch link <a href="https://de.cyverse.org/apps/de/48b6e7ae-8b64-11ec-92dc-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/Verse-latest-blue?style=plastic&logo=rstudio"></a> or click on [![][apps]{width=20}](https://de.cyverse.org/apps){target=_blank} [Apps](https://de.cyverse.org/apps){target=_blank} to launch thev featured **Rocker RStudio Latest** App. You can also use the DE search bar to search for this application in the Apps category.
 
 4. Launch the application and adjust the following:
     
-    Under "Analysis Info", for **Output Folder** click **Browse** and navigate to and select a folder, then click **Next**;
+    Under "Analysis Info", for **Output Folder** click **Browse** and navigate to and select your new `/demo_rocker/` folder, or leave it as the default `analyses/` folder, then click **Next**;
 
-    For "Parameters", under "Input Folder" click **Browse** and navigate to any folder you own or is shared, then click **Next**;
+    For "Parameters", under "Input Folder" click **Browse** and navigate to any folder you own or is shared, or leave it as the default (empty), then click **Next**;
     
-    You can modify the resources used by the container, more cores and more RAM and disk for larger analyses, else leave blank, then click **Next** and skip **Advanced Settings**;
+    In **Advanced Settings** you can modify the resources used by the container. More cores and more RAM and disk for larger analyses, else leave it as the default, then click **Next**;
    
     Click **Launch Analysis** to launch your application
+    
+    Your new Featured App should be available within one minute. 
 
-5.  In the navigation, click on the (Analyses) view. Your application will be listed as "Submitted" for a few minutes (usually just a few, but more depending on both the size of the application software and any imported datasets).
+5.  In the navigation bar, click on the [![][analyses]{width=30}](https://de.cyverse.org/analyses){target=_blank} [Analyses](https://de.cyverse.org/de/analyses){target=_blank} view. Your application will be listed as "Submitted" (usually just a minute or two, but possibly more depending on both the size of the container and any additional imported data).
 
-6.  When the Status of the launch is Running, click on the (link out icon); a new tab where your VICE application will run should open in your browser.
+6.  When the Status of the launch is "Running", click on the App running under "Analyses"; a new tab will open in your browser.
 
 ??? tip "Launching VICE Apps"
 
