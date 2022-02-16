@@ -4,17 +4,21 @@
 
 CyVerse cyberinfrastructure includes:
 
-[![!](assets/de/menu_items/dataIcon.png "Data Storage"){ width="20" }](https://cyverse.org/data-store) [Data Storage](https://cyverse.org/data-store) - free allocation spaces for all users, [contact us](https://user.cyverse.org/requests/2) to help you scale your project.
+[de]: assets/de/logos/deIcon.svg
+[data]: assets/de/menu_items/dataIcon.svg
+[ball]: assets/de/logos/cyverse_ball_2022.png
 
-[![!](assets/de/de_icon.png "Discovery Environment"){ width="20" }](https://user.cyverse.org/services/2) [Data Science Workbench](https://user.cyverse.org/services/2)  - An interactive, web-based, analytical platform called the "[Discovery Environment](https://de.cyverse.org)"
+[![][data]{width=25}](https://cyverse.org/data-store){target=_blank} [Data Storage](https://cyverse.org/data-store){target=_blank} - free allocation spaces for all users, [contact us](https://user.cyverse.org/requests/2){target=_blank} to help you scale your project.
 
-[![!](assets/de/logos/cyverse_ball_2022.png "Atmosphere"){ width="20" }](https://user.cyverse.org/services/1) [Cloud](https://user.cyverse.org/services/1) - hosted OpenStack virtual machines for computation, analysis, and storage.
+[![][de]{width=25}]{ width="20" }](https://user.cyverse.org/services/2){target=_blank} [Data Science Workbench](https://user.cyverse.org/services/2){target=_blank}  - An interactive, web-based, analytical platform called the "[Discovery Environment](https://de.cyverse.org){target=_blank}"
 
-[![!](assets/de/logos/cyverse_ball_2022.png "ECP"){ width="20" }](https://cyverse.org/ecp) [External Collaborative Partnerships](https://cyverse.org/ecp) - Support specialists for scaling computational algorithms to run on large, high-speed computers. [Contact Us](https://user.cyverse.org/requests/3)
+[![][ball]{width=25}]{ width="20" }](https://user.cyverse.org/services/1){target=_blank} [Cloud](https://user.cyverse.org/services/1){target=_blank} - hosted OpenStack virtual machines for computation, analysis, and storage.
 
-[![!](assets/de/logos/cyverse_ball_2022.png "EOT"){ width="20" }](https://cyverse.org/teach) [Education and Training](https://cyverse.org/teach) - learn how to use containers, workflows, and public research cyberinfrastructure
+[![][ball]{width=25}]{ width="20" }](https://cyverse.org/ecp){target=_blank} [External Collaborative Partnerships](https://cyverse.org/ecp){target=_blank} - Work with our experienced data scientists and software engineers to scale your algorithms and data onto cloud and high performance compute. [Contact Us](https://user.cyverse.org/requests/3)
 
-[![!](assets/de/logos/cyverse_ball_2022.png "PBY"){ width="20" }](https://user.cyverse.org/requests/8) People with expertise in all of the above to help answer your questions and power up your teaching or research. 
+[![][ball]{width=25}]{ width="20" }](https://cyverse.org/teach){target=_blank} [Education and Training](https://cyverse.org/teach){target=_blank} - learn how to use containers, workflows, and public research cyberinfrastructure from our professional trainers
+
+[![][ball]{width=25}]{ width="20" }](https://user.cyverse.org/requests/8){target=_blank} [Cloud Resources](https://user.cyverse.org/requests/8){target=_blank} for running your class or workshop in the cloud
 
 -----------------------------------------------------------------------
 
