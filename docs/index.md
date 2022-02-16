@@ -1,49 +1,49 @@
-[![!CyVerse Learning Center](assets/cyverse_learning.png "CyVerse Learning Center"){ width="400" }](https://learning.cyverse.org)
+[![!CyVerse Learning Center](assets/de/logos/cyverse_logo_2022.png "CyVerse Learning Center"){ width="400" }](https://learning.cyverse.org)
 
-**Welcome to the Learning Center**
+# Welcome to the Learning Center
 
 [CyVerse](https://cyverse.org) provides life scientists with powerful computational infrastructure to handle huge datasets and complex analyses, thus enabling data-driven discovery.
 
 ![people](assets/people_science.png){ width="600" }
 
-# [![!What](assets/cyverse_globe_cmyk.png "Account"){ width="40" }](what_is_cyverse.md) [What is CyVerse?](what_is_cyverse.md)
+## [![!What](assets/de/logos/cyverse_ball_2022.png "Account"){ width="30" }](what_is_cyverse.md) [What is CyVerse?](what_is_cyverse.md)
 
-# [![!Account](assets/cyverse_globe_cmyk.png "Account"){ width="40" }](account.md) [Creating a CyVerse account](account.md)
+## [![!Account](assets/de/logos/cyverse_ball_2022.png "Account"){ width="30" }](account.md) [Creating a CyVerse account](account.md)
 
-# [![!Data Store](assets/de/menu_items/dataIcon.png "Data Store"){ width="40" }](https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/) [Data Store Guide](https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/)
+## [![!Data Store](assets/de/menu_items/dataIcon.png "Data Store"){ width="30" }](https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/) [Data Store Guide](https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/)
 
-# [![!Discovery Environment](assets/de/de_icon.png "Discovery Environment"){ width="40" }](https://learning.cyverse.org/projects/cyverse-discovery-environment-guide/) [Discovery Environment](https://learning.cyverse.org/projects/cyverse-discovery-environment-guide/)
+## [![!Discovery Environment](assets/de/de_icon.png "Discovery Environment"){ width="30" }](https://learning.cyverse.org/projects/cyverse-discovery-environment-guide/) [Discovery Environment](https://learning.cyverse.org/projects/cyverse-discovery-environment-guide/)
 
-## [![!VICE](assets/de/logos/deviceIcon.png "Discovery Environment"){ width="40" }](https://learning.cyverse.org/projects/cyverse-discovery-environment-guide/) [Visual Interactive Compute Environment (VICE)](https://learning.cyverse.org/projects/cyverse-discovery-environment-guide/)
+### [![!VICE](assets/de/logos/deviceIcon.png "Discovery Environment"){ width="30" }](https://learning.cyverse.org/projects/cyverse-discovery-environment-guide/) [Visual Interactive Compute Environment (VICE)](https://learning.cyverse.org/projects/cyverse-discovery-environment-guide/)
 
 - VICE includes popular integrated development environments: [JupyterLab](https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-jupyter.html), RStudio, and VSCode.
 - Instant and on demand virtual machines running Ubuntu Linux command line interface.
 - Remote Desktops for high quality visualizations in your browser
 - GPU computing for machine learning and artificial intelligence.
 
-# Cloud
+## Cloud
 
 - CyVerse created Atmosphere, a browser interface for working with OpenStack Cloud virtual machines
 - Partnered with NSF XSEDE/ACCESS Jetstream-2 for more and larger virtual machines.
 
-## Atmosphere
+### Atmosphere
 
 - [Request access to Atmosphere](https://user.cyverse.org/services)
 - [Use Atmosphere](https://atmo.cyverse.org/application/images)
 
-## Jetstream-2
+### Jetstream-2
 
 - Create an [XSEDE/ACCESS user account](https://portal.xsede.org/#/guest)
 - Request a start-up allocation on [Jetstream-2](https://jetstream-cloud.org/)
 
-# Choosing a Platform
+## Choosing a Platform
 
-**What to do first**
+### What to do first
 
 - [Upload your data](https://cyverse-data-store-quickstart.readthedocs-hosted.com/en/latest/)
 - [Launch an analysis](https://learning.cyverse.org/projects/cyverse-de2-guide/en/latest/step5.html)
 
-**Featured Tutorials**
+### Featured Tutorials
 
 - [RNA-Seq with Kallisto and Sleuth](https://cyverse-kallisto-tutorial.readthedocs-hosted.com/en/latest/)
 - [Genome Annotation with MAKER](https://cyverse-sciapps-guide.readthedocs-hosted.com/en/latest/annotation.html)
@@ -52,12 +52,12 @@
 
 - [Self Paced Tutorials](https://learning.cyverse.org/en/latest/tutorials.html)
 
-**For Advanced Users**
+### For Advanced Users
 
 -   [Command Line Transfer with iCommands](https://learning.cyverse.org/projects/data_store_guide/en/latest/step2.html#)
 -   [Integrating Tools and Apps](https://learning.cyverse.org/en/latest/tools_and_apps.html)
 
-**Bring your own tools**
+### Bring your own tools
 
 - [Create and Run Docker Images](https://cyverse-creating-docker-containers-quickstart.readthedocs-hosted.com/en/latest/)
 
