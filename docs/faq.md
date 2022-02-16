@@ -54,8 +54,7 @@
 
 ??? question "How do I make a folder public with iCommands?"
 
-    Although you can share files and folders in the DE and create public links, you must use iCommands make them visible to everyone. Permissions
-are set in iCommands by using `ichmod` (<https://docs.irods.org/4.2.1/icommands/user/#ichmod>).
+    Although you can share files and folders in the DE and create public links, you must use iCommands make them visible to everyone. Permissions are set in iCommands by using `ichmod` (<https://docs.irods.org/4.2.1/icommands/user/#ichmod>).
 
     To make a folder public, you give read permission to two users: 'public' (anyone signed in with a CyVerse account) and 'anonymous' (anyone on the web -no sign in required). To recursively make a shared folder called 'myfolder' public, use the instructions below
 
