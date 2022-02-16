@@ -10,6 +10,8 @@
 
     By keeping your account information current, our funders can see the value of CyVerse to our community and we learn which of our services and platforms are most helpful to you.
 
+-----------------------------------------------------------------------
+
 ## Data related
 
 ??? question "What if I need more space (storage) in the Data Store?"
@@ -17,6 +19,8 @@
     Every new user has a 100GB allocation in the Data Store. 
     
     You can request more space by completing an [Allocation Increase Form](https://user.cyverse.org/forms/2/overview).
+
+-----------------------------------------------------------------------
 
 ??? question "How do I publish a large set of public data?"
 
@@ -26,6 +30,8 @@
     
     For more information on using data at CyVerse, see the Learning Center documentation pages on [working with data](ds/intro.md).
 
+-----------------------------------------------------------------------
+
 ??? question "What public datasets are in CyVerse?"
 
     CyVerse provides web access to its public datasets. 
@@ -33,6 +39,8 @@
     Because the CyVerse Data Store underlies all CyVerse services, the public datasets may also be accessed through the Discovery Environment, Atmosphere, the Science APIs and iCommands. 
     
     For more information on using data at CyVerse, see the Learning Center documentation pages on working with data.
+
+-----------------------------------------------------------------------
 
 ??? question "How do I request a Community Released Data Folder?"
     
@@ -44,13 +52,19 @@
 
     Then, if you meet the criteria, you can request a folder using [this form](https://user.cyverse.org/forms/7/overview).
 
+-----------------------------------------------------------------------
+
 ??? question "How do I connect to a shared or public folder with CyberDuck?"
 
     See our [using CyberDuck documentation](ds/cyberduck.md)
-    
+
+-----------------------------------------------------------------------
+
 ??? question " How od I open a connection to a private folder that is shared with me?"
 
     See our [using the Data Store documentation](ds/intro.md)
+
+-----------------------------------------------------------------------
 
 ??? question "How do I make a folder public with iCommands?"
 
