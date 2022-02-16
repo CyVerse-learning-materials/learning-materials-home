@@ -18,7 +18,6 @@ nav:
   - 'Home': index.md 
   - 'Introduction':
     - 'What is CyVerse?': what_is_cyverse.md
-    - 'Self-Guided Course': mooc.md
     - 'FAQ': faq.md
     - 'Getting Help': getting_help.md
   - 'Sign Up':
@@ -56,8 +55,9 @@ nav:
   - 'Analyze Images':
     - 'BISQUE': bisque_guide.md
   - 'For the Classroom':
-     - 'DNA Subway': dna_subway_guide.md
-     - 'Teaching with data science tools': vice/teaching_vice.md
+    - 'Self-Guided Course': mooc.md
+    - 'DNA Subway': dna_subway_guide.md
+    - 'Teach using CyVerse': vice/teaching_vice.md
   - 'Develop':
     - 'Create DE Apps': de/create_apps.md
     - 'Extend VICE apps': vice/extend_apps.md
