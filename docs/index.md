@@ -1,10 +1,6 @@
 [![!CyVerse Learning Center](assets/cyverse_learning.png "CyVerse Learning Center"){ width="400" }](https://learning.cyverse.org)
 
-[![!Learning Home](assets/homeicon.png "Home"){ width="25" }](https://learning.cyverse.org) [Learning Center Home](http://learning.cyverse.org/)
-
 **Welcome to the Learning Center**
-
-CyVerse Learning Center is a release of our learning materials in the popular "Read the Docs" formatting.
 
 [CyVerse](https://cyverse.org) provides life scientists with powerful computational infrastructure to handle huge datasets and complex analyses, thus enabling data-driven discovery.
 
@@ -14,16 +10,13 @@ CyVerse Learning Center is a release of our learning materials in the popular "R
 
 # [![!Account](assets/cyverse_globe_cmyk.png "Account"){ width="40" }](account.md) [Creating a CyVerse account](account.md)
 
+# [![!Data Store](assets/de/menu_items/dataIcon.png "Data Store"){ width="40" }](https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/) [Data Store Guide](https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/)
 
-# [![!Data Store](assets/data_store/datastore-icon.png "Data Store"){ width="20" }](https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/) [Data Store Guide](https://cyverse-data-store-guide.readthedocs-hosted.com/en/latest/)
+# [![!Discovery Environment](assets/de/de_icon.png "Discovery Environment"){ width="40" }](https://learning.cyverse.org/projects/cyverse-discovery-environment-guide/) [Discovery Environment](https://learning.cyverse.org/projects/cyverse-discovery-environment-guide/)
 
-# Discovery Environment Workbench
+## [![!VICE](assets/de/logos/deviceIcon.png "Discovery Environment"){ width="40" }](https://learning.cyverse.org/projects/cyverse-discovery-environment-guide/) [Visual Interactive Compute Environment (VICE)](https://learning.cyverse.org/projects/cyverse-discovery-environment-guide/)
 
--   Find apps in the [![!Discovery Environment](assets/de/de_icon.png "Discovery Environment"){ width="20" }](https://learning.cyverse.org/projects/cyverse-discovery-environment-guide/) [Discovery Environment Guide](https://learning.cyverse.org/projects/cyverse-discovery-environment-guide/)
-
-## VICE
-
-- Visual Interactive Compute Environment (VICE) includes popular integrated development environments: [JupyterLab](https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-jupyter.html), RStudio, and VSCode.
+- VICE includes popular integrated development environments: [JupyterLab](https://learning.cyverse.org/projects/vice/en/latest/user_guide/quick-jupyter.html), RStudio, and VSCode.
 - Instant and on demand virtual machines running Ubuntu Linux command line interface.
 - Remote Desktops for high quality visualizations in your browser
 - GPU computing for machine learning and artificial intelligence.
