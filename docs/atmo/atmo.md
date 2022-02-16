@@ -1,39 +1,46 @@
 # Atmosphere
 
-Atmosphere is one of the most versatile components of the CyVerse CI. 
+[atmo]: assets/atmosphere/cacao-04.png
+
+[![][atmo]{width=25}](https://user.cyverse.org/services/1){target=_blank} [Atmosphere](https://user.cyverse.org/services/1){target=_blank} is one of the most versatile components of the CyVerse CI. 
 
 Anything that you would normally be able to do with your local laptop/desktop, you can do on a virtual machine in the Atmosphere cloud.
 
 This guide will cover the basics you need to get started using Atmosphere. For developers and more in depth use of Atmosphere, see the [Developer Manual](https://cyverse.atlassian.net/wiki/spaces/atmman/overview?homepageId=241244552)
 
-## Logging in to Atmosphere
+## Request Access 
 
-Atmosphere presents a variety of features, starting with the Atmosphere Dashboard you will see at login. 
+Sign into the User Portal and request access to [![][atmo]{width=25}](https://user.cyverse.org/services/1){target=_blank} [Atmosphere](https://user.cyverse.org/services/1){target=_blank}
+
+## Logging in
+
+Atmosphere presents a variety of features, starting with the Atmosphere Dashboard you will see at login.
+
 While it may be slightly overwhelming, we will focus on the features a first-time user would likely interact with. 
 
-**Some things to remember about the platform:**
+??? tip "Some things to remember"
 
-  1. You must have access to Atmosphere to launch an instance. If you are not sure you have access, go back to the instructions at the beginning of this guide
+    1. You must have access to Atmosphere to launch an instance. If you are not sure you have access, go back to the instructions at the beginning of this guide and request access.
 
-  2. Atmosphere works on a very transparent allocation model. Every user has a defined amount of resources (CPUs, disk space, etc.) and time they can use these resources. We are always happy to work with users to increase these allocations, but ultimately there are limits. You can be a good community member by only using resources when you need them, and not leaving instances aimlessly running (the proverbial ‘leaving the lights on’).
+    2. Atmosphere works on a very transparent allocation model. Every user has a defined amount of resources (CPUs, disk space, etc.) and time they can use these resources. 
 
-**Logging on and viewing your resources**
-
-Login to Atmosphere at https://atmo.cyverse.org/ and click the ‘Login’ link on the upper right-hand side of the screen. Enter your CyVerse credential and sign in.
+    We are always happy to work with users to increase these allocations, but ultimately there are limits. 
+ 
+    You can be a good community member by only using resources when you need them, and not leaving instances aimlessly running (the proverbial ‘leaving the lights on’).
 
 Upon login, you will be directed to the Atmosphere Dashboard. Much more about all the dashboard features is available in the Atmosphere Manual , but you can see the number of instances you have running, and percent of your allocation used. You can also see an history of instances launched.
 
-!!! Tip
+??? Tip "Managing your Allocation"
 
-  Your allocation (a measure of how many instances you have running,
-  their size, and the amount of time they have been active)
-  automatically refreshes monthly. If you run out of allocation, you
-  can click the **'NEED MORE?'** button to request an increase. When
-  you exceed your allocation, your instances are suspended. You will
-  not lose saved data, but running processes will be stopped. See
-  the Atmosphere section in the [CyVerse service-level
-  agreement](http://www.cyverse.org/service-level-agreement#Atmo)
-  for details and definitions related to our allocation policies.
+  Your allocation (a measure of how many instances you have running, their size, and the amount of time they have been active) automatically refreshes monthly. 
+  
+  If you run out of allocation, you can click the **'NEED MORE?'** button to request an increase. 
+  
+  When you exceed your allocation, your instances are suspended. 
+   
+  You will not lose saved data, but running processes will be stopped. 
+  
+  See the Atmosphere section in the [CyVerse service level agreement](http://www.cyverse.org/service-level-agreement#Atmo) for details and definitions related to our allocation policies.
 
 ------------------------------------------------------------------------
 
