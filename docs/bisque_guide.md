@@ -1,6 +1,6 @@
 # [BisQue](https://bisque.cyverse.org){target=_blank}
 
-[bisque]: assets/bisque/bisque-icon.png
+[bisque]: assets/bisque/bisque.png
 
 [ViQi](https://viqi.org){target=_blank} SaaS offering is based on the BisQue (Bio-Image Semantic Query User Environment) project, initially developed at UCSB with support from NSF and iPlant Collaborative. 
 
