@@ -83,3 +83,4 @@
     ichmod -r null public /iplant/home/shared/myfolder
     ichmod -r null anonymous /iplant/home/shared/myfolder
     ```
+-----------------------------------------------------------------------
