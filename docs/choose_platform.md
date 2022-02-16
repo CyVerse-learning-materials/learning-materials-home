@@ -1,13 +1,14 @@
 # Choosing a Platform
 
-**What to do first**
+- [Data Store](ds/intro.md)
+  - [Managing your data in the Discovery Environment](de/manage_data.md)
 
+- [Discovery Environment](de/intro.md)
+  - [Launch Analyses](de/using_apps.md)
 
-- [The Data Store](ds/intro.md)
-  - [Upload your data](https://cyverse-data-store-quickstart.readthedocs-hosted.com/en/latest/)
-- [The Discovery Environment](de/intro.md)
-  - [Launch an analysis](https://learning.cyverse.org/projects/cyverse-de2-guide/en/latest/step5.html)
-- [Cloud Computing with Atmosphere and Jetstream](atmo/intro.md)
+- [Cloud](atmo/intro.md)
+  - [Using Atmosphere](atmo/atmo.md)
+
 
 **Featured Tutorials**
 
@@ -16,17 +17,15 @@
 - [Filter, Trim, and Process High-throughput Sequencing Reads with Trimmomatic](https://cyverse-trimmomatic-quickstart.readthedocs-hosted.com/en/latest/)
 - [Condensed R: 240-minute tutorial](https://cyverse-240-minute-r-tutorial.readthedocs-hosted.com/en/latest/) 
 
-- [Self Paced Tutorials](https://learning.cyverse.org/en/latest/tutorials.html)
+- [Self-Guided Tutorials](mooc.md)
 
-**For Advanced Users**
+**Advanced Users and Developers**
 
--   [Command Line Transfer with iCommands](https://learning.cyverse.org/projects/data_store_guide/en/latest/step2.html#)
--   [Integrating Tools and Apps](https://learning.cyverse.org/en/latest/tools_and_apps.html)
-
-**Bring your own tools**
-
-- [Create and Run Docker Images](https://cyverse-creating-docker-containers-quickstart.readthedocs-hosted.com/en/latest/)
-
+- [Transfer data with CyberDuck](ds/cyberduck.md)
+- [Transfer data with iCommands](ds/icommands.md)
+- [Integrate your own Tools and Apps in the Discovery Environment](de/create_apps.md)
+- [Extending VICE Apps](de/extend_apps.md)
+- [Developer Manuals](manuals.md)
 -----------------------------------------------------------------------
 
 **Fix or improve this documentation**
