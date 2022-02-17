@@ -52,20 +52,20 @@ A project contains one or more instances, and may contain several (or no) volume
 
 Definitions: **Image** and **Instance**
 
-- **Instance**: *an instance is a running virtual machine.* <br>
+- **Instance**: *an instance is a running virtual machine.* <br
     You request from Atmosphere a CPUs, disk space, and memory, and you are
     temporarily allocated these physical resources to "build" your
     virtual computer (virtual machine).
-<br>
-<br>
-- **Image**: *an image is a file that contains an operating system, and any other data that was saved at the time of imaging (creating the image file).* <br>
+<br
+<br
+- **Image**: *an image is a file that contains an operating system, and any other data that was saved at the time of imaging (creating the image file).* <br
     If we saved everything on your computer to an image file,
     we could clone your computer onto a new device and you would not
     have to reinstall any software. Your files, system preferences,
     etc. would all be saved.
-<br>
-<br>
-- **Volume**: *a volume is a "virtual disk" that you can attach and detach to your instance, like a thumb drive.* <br>
+<br
+<br
+- **Volume**: *a volume is a "virtual disk" that you can attach and detach to your instance, like a thumb drive.* <br
     Normally, when you start an instance, you need to transfer data onto it. While the data
     transfer may be quick, it usually takes time. A volume is nearly
     instantaneous. Although it is virtual you can keep a volume
@@ -86,7 +86,7 @@ From the **‘Projects’** page, you will see a listing of existing projects an
 
 | Image name | Version | Description | Link |
 | --- | --- | --- | --- |
-| CyVerse Training Workshop | 1.0 | This image contains some basic functionalities for use in CyVerse training workshops <br> (RStudio/Rstudio Server, Jupyter Notebook/Server, Sleuth, Kallisto RNA-Seq tools) | [Image](https://atmo.cyverse.org/application/images/1467) |
+| CyVerse Training Workshop | 1.0 | This image contains some basic functionalities for use in CyVerse training workshops <br(RStudio/Rstudio Server, Jupyter Notebook/Server, Sleuth, Kallisto RNA-Seq tools) | [Image](https://atmo.cyverse.org/application/images/1467) |
 
 ### Launching an Instance
 
@@ -139,7 +139,7 @@ Once your instance is in the ‘Active’ state, you can connect to the instance
 - If connecting for the first time to the IP address, you may be get a security prompt:
 
   ```bash
-  The authenticity of host '128.196.64.200 (128.196.64.200)' can\'t be established.
+  The authenticity of host '128.196.64.200 (128.196.64.200)' can't be established.
   ECDSA key fingerprint is SHA256:fzEJLqeljHgIwcGY0gUap2sRWLlGPQwUVimhEgkJYBs.
   Are you sure you want to continue connecting (yes/no)?
   ```

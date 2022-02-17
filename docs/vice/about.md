@@ -37,18 +37,18 @@ To minimize inappropriate use, VICE is a restricted service, currently accessibl
 
     | quick launch | Base Images |
     | ------------ |-------------|
-    | <a href="https://de.cyverse.org/apps/de/3548f43a-bed1-11e9-af16-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/Verse-latest-blue?style=plastic&logo=rstudio"></a> | [Rocker-Project](https://rocker-project/images){target=_blank} |
-    | <a href="https://de.cyverse.org/apps/de/cc77b788-bc45-11eb-9934-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/Datascience-latest-orange?style=plastic&logo=jupyter"></a> |[Project Jupyter](https://jupyter-docker-stacks.readthedocs.io/en/latest/index.html){target=_blank} |
-    | <a href="https://de.cyverse.org/apps/de/091c830a-4be1-11ec-aad9-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/VS%20Code-latest-6C33AF?style=plastic&logo=visualstudiocode"></a> | [Visual Studio Code](https://code.visualstudio.com/docs/remote/create-dev-container){target=_blank} |
+    | <a href="https://de.cyverse.org/apps/de/3548f43a-bed1-11e9-af16-008cfa5ae621/launch" target="_blank"<img src="https://img.shields.io/badge/Verse-latest-blue?style=plastic&logo=rstudio"</a| [Rocker-Project](https://rocker-project/images){target=_blank} |
+    | <a href="https://de.cyverse.org/apps/de/cc77b788-bc45-11eb-9934-008cfa5ae621/launch" target="_blank"<img src="https://img.shields.io/badge/Datascience-latest-orange?style=plastic&logo=jupyter"</a|[Project Jupyter](https://jupyter-docker-stacks.readthedocs.io/en/latest/index.html){target=_blank} |
+    | <a href="https://de.cyverse.org/apps/de/091c830a-4be1-11ec-aad9-008cfa5ae621/launch" target="_blank"<img src="https://img.shields.io/badge/VS%20Code-latest-6C33AF?style=plastic&logo=visualstudiocode"</a| [Visual Studio Code](https://code.visualstudio.com/docs/remote/create-dev-container){target=_blank} |
 
 
     These containers are built from community maintianed container stacks, with a few additonal packages for use in CyVerse DE.
 
 1. If necessary, log into the [![][de]{width=25}](https://de.cyverse.org){target=_blank} [Discovery Environment](https://de.cyverse.org){target=_blank}.
 
-2. Click the [![][data]{width=25}](https://de.cyverse.org/data/){target=_blank} [Data Icon](https://de.cyverse.org/data){target=_blank} and navigate to your `/iplant/home/<your-username>` folder; click the (Add Folder button) and create a folder called `demo_rocker/` inside your personal space.
+2. Click the [![][data]{width=25}](https://de.cyverse.org/data/){target=_blank} [Data Icon](https://de.cyverse.org/data){target=_blank} and navigate to your `/iplant/home/<your-username` folder; click the (Add Folder button) and create a folder called `demo_rocker/` inside your personal space.
 
-3.  Use this Quick Launch link <a href="https://de.cyverse.org/apps/de/48b6e7ae-8b64-11ec-92dc-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/Verse-latest-blue?style=plastic&logo=rstudio"></a> or click on [![][apps]{width=20}](https://de.cyverse.org/apps){target=_blank} [Apps](https://de.cyverse.org/apps){target=_blank} to launch thev featured **Rocker RStudio Latest** App. You can also use the DE search bar to search for this application in the Apps category.
+3.  Use this Quick Launch link <a href="https://de.cyverse.org/apps/de/48b6e7ae-8b64-11ec-92dc-008cfa5ae621/launch" target="_blank"<img src="https://img.shields.io/badge/Verse-latest-blue?style=plastic&logo=rstudio"</aor click on [![][apps]{width=20}](https://de.cyverse.org/apps){target=_blank} [Apps](https://de.cyverse.org/apps){target=_blank} to launch thev featured **Rocker RStudio Latest** App. You can also use the DE search bar to search for this application in the Apps category.
 
 4. Launch the application and adjust the following:
     

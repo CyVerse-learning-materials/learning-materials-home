@@ -80,7 +80,7 @@ Linux Desktops using Apache Guacamole, and Xpra have been integrated into the DE
 
 # Featured Apps
 
-CyVerse hosts the recipes of its featured apps on GitHub: <https://github.com/cyverse-vice/>
+CyVerse hosts the recipes of its featured apps on GitHub: <https://github.com/cyverse-vice/
 
 These images are built from other official projects, and are maintained by CyVerse staff.
 
