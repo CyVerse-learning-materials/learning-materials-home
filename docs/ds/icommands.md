@@ -14,7 +14,7 @@ cover the basics of installation and use; see also the official .
 
 ------------------------------------------------------------------------
 
-## *iCommands Installation for Linux*
+## iCommands Installation for Linux
 
 On a linux OS you can use a package manager to install iCommands in the
 terminal.
@@ -34,10 +34,10 @@ sudo yum install irods-icommands
 ```
 
 If that does not work, an older version of iCommands, 4.1.12, can be
-installed from RENCI\'s website.
+installed from RENCI's website.
 
 ``` base
-sudo yum install \
+$ sudo yum install \
   https://files.renci.org/pub/irods/releases/4.1.12/centos7/irods-icommands-4.1.12-centos7-x86_64.rpm
 ```
 
@@ -59,7 +59,7 @@ sudo apt install irods-icommands
 
 **Ubuntu 20.04:**
 
-iRODS doesn\'t current support Ubuntu 20.04 yet. However, the one for
+iRODS doesn't current support Ubuntu 20.04 yet. However, the one for
 Ubuntu 18.04 works as long as a few extra packages are installed.
 
 Here are the commands to configure the iRODS repository.
@@ -125,66 +125,57 @@ cd irods-icommands-debs/
 
 ------------------------------------------------------------------------
 
-## **iCommands Installation for Mac OS X**
+## iCommands Installation for Mac OS X
 
-iRODS doesn\'t currently support Mac OS X, but CyVerse has built an
+iRODS doesn't currently support Mac OS X, but CyVerse has built an
 installer for it.
 
-> 1.  Download the CyVerse-specific .
+> 1.  Download the CyVerse-specific [Mac OS iCommands Download](https://cyverse.atlassian.net/wiki/download/attachments/241869823/cyverse-icommands-4.1.9.pkg?version=3&modificationDate=1472820029000&cacheVersion=1&api=v2).
 > 2.  Open the file by locating it in your Finder; right-click to run
 >     the installer. You may get a security warning noting the file is
->     from an \"unidentified developer.\" You may bypass this warning by
->     going to \'System Preferences\', selecting the \'Security &
->     Privacy\' menu, and clicking the \'Open Anyway\' button to
+>     from an "unidentified developer." You may bypass this warning by
+>     going to 'System Preferences', selecting the 'Security &
+>     Privacy' menu, and clicking the 'Open Anyway' button to
 >     proceed.
 > 3.  Follow the prompts to begin the installation. You will need to
 >     know your administrator password to install new software.
 
-::: note
-::: title
-Note
-:::
+!!! Note
 
-Newer Mac OS X now ships with `zsh` as its default shell rather than
-`bash`. The installer will attempt to write some environmental variables
-to the `.bashrc` file which for `zsh` is called the
-[.zshrc]{.title-ref}.
+  Newer Mac OS X now ships with `zsh` as its default shell rather than
+  `bash`. The installer will attempt to write some environmental variables
+  to the `.bashrc` file which for `zsh` is called the `.zshrc`.
 
-By default, this installation will place iCommands in your system `PATH`
-so you should be ready to run iCommands immediately at the terminal. If
-this does not happen (i.e. you get an error when trying to run `iinit`),
-you can add the [icommands]{.title-ref} path by editing your `.zshrc`
-file:
+  By default, this installation will place iCommands in your system `PATH`
+  so you should be ready to run iCommands immediately at the terminal. If
+  this does not happen (i.e. you get an error when trying to run `iinit`),
+  you can add the icommands path by editing your `.zshrc` file:
 
-``` bash
-# add iCommands Path
-export PATH="/Applications/icommands/:$PATH"
-export IRODS_PLUGINS_HOME=/Applications/icommands/plugins/
-```
+  ``` bash
+  # add iCommands Path
+  export PATH="/Applications/icommands/:$PATH"
+  export IRODS_PLUGINS_HOME=/Applications/icommands/plugins/
+  ```
 
-and then in terminal source the file `source ~/.zshrc`.
-:::
+  and then in terminal source the file `source ~/.zshrc`.
+
 
 ------------------------------------------------------------------------
 
-## *iCommands First-time Configuration*
+## iCommands First-time Configuration
 
-::: note
-::: title
-Note
-:::
+!!! Note
 
-If using iCommands in an HPC environment, which already has iCommands
-installed, run the `module load irods` command to get access to iRODS
-iCommands.
-:::
+  If using iCommands in an HPC environment, which already has iCommands
+  installed, run the `module load irods` command to get access to iRODS
+  iCommands.
 
-Once iCommands is installed and in the system [PATH]{.title-ref} these
+Once iCommands is installed and in the system `PATH` these
 instructions apply at a terminal in Mac OS X and Linux systems.
 
 > 1.  Open terminal
 >
-> 2.  Type [iinit]{.title-ref} command to start the configuration
+> 2.  Type `iinit` command to start the configuration
 >     process. When prompted, enter the values shown below as comments
 >     in the example code block.
 >
@@ -192,18 +183,14 @@ instructions apply at a terminal in Mac OS X and Linux systems.
 
 CyVerse Data Store configuration:
 
-  -------------------------------- -------------------- ---------------- ---------------------- ------------------
-  host name                        port \#              username         zone                   password
-  [data.cyverse.org]{.title-ref}   [1247]{.title-ref}   CyVerse UserID   [iplant]{.title-ref}   CyVerse Password
-  -------------------------------- -------------------- ---------------- ---------------------- ------------------
+  | host name | port \# | username | zone | password |
+  | --- | --- | --- | --- | --- |
+  | data.cyverse.org | 1247| CyVerse UserID | iplant | CyVerse Password |
 
-::: note
-::: title
-Note
-:::
+!!! Note
 
-You can reconfigure iCommands for other iRODS data stores by changing
-your environment file
+  You can reconfigure iCommands for other iRODS data stores by changing
+  your environment file.
 
 3.  Verify that your iCommands installation works and is properly
     configured using the `ils` command to list the contents of your Data
@@ -218,11 +205,10 @@ your environment file
     > C- /iplant/home/your_home_directory/analyses
     > C- /iplant/home/your_home_directory/another_folder
     > ```
-:::
 
 ------------------------------------------------------------------------
 
-## *Anonymous access to the CyVerse Datastore*
+## Anonymous access to the CyVerse Datastore
 
 You can access public data in the CyVerse Datastore with iCommands
 using:
@@ -230,87 +216,79 @@ using:
 > -   Username: anonymous
 > -   Password: \<leave blank>
 
-## *Upload Files/folders from local Computer to Data Store*
+## Upload Files/folders from local Computer to Data Store
 
-> ::: warning
-> ::: title
-> Warning
-> :::
->
-> When uploading your data to the Data Store you should not upload
-> files/ folders with names containing spaces (e.g. experiment
-> one.fastq) or name that contain special characters (e.g. \~ \`\` ! @
-> \# \$ % \^ & \* ( ) + = { } \[ \] \| : ; \"\" \'\' \< \> , ? /). The
-> Apps on the Discovery Environment and most command line applications
-> will typically not tolerate these characters. For long file/folder
-> names the use of underscores (e.g. experiment_one.fastq) is the
-> recommended practice.
-> :::
+!!! Warning
 
-See the for more information.
+  When uploading your data to the Data Store you should not upload
+  files/ folders with names containing spaces (e.g. experiment
+  one.fastq) or name that contain special characters (e.g. \~ \`\` ! @
+  \# \$ % \^ & \* ( ) + = { } \[ \] \| : ; \"\" \'\' \< \> , ? /). The
+  Apps on the Discovery Environment and most command line applications
+  will typically not tolerate these characters. For long file/folder
+  names the use of underscores (e.g. experiment_one.fastq) is the
+  recommended practice.
+
+See the [full iCommands iput documentation](https://docs.irods.org/master/icommands/user/#iput) for more information.
 
 > 1.  Upload a directory using the [iput]{.title-ref} command. Remember,
 >     the -r flag is to recursively upload a directory, so if you are
 >     uploading a single file, omit the -r flag.
 >
 > > ``` bash
-> > $ iput -rPT /local_directory /iplant/home/cyverse_username/destination_folder
-> >   # This command will output the progress as it uploads your local directory
-> >
+> >  iput -rPT /local_directory /iplant/home/cyverse_username/destination_folder
+> >  # This command will output the progress as it uploads your local directory
+> >```
 > >
 > > There are several optional arguments that the upload iCommand `iput` can
 > > take:
 > >
-> > .. code:: bash
+> > ``` bash
 > >
-> >   $ iput -r # For recursive transfer of directories and their contents
+> >   iput -r # For recursive transfer of directories and their contents
 > >
-> >   $ iput -P # display the progress of the upload
+> >   iput -P # display the progress of the upload
 > >
-> >   $ iput -f # force the upload and overwrite
+> >   iput -f # force the upload and overwrite
 > >
-> >   $ iput -T # Renew socket connection after 10 min (May help connections
-> >             # that are failing due to some connection/firewall settings)
+> >   iput -T # Renew socket connection after 10 min (May help connections
+> >           # that are failing due to some connection/firewall settings)
 > > ```
 
 ------------------------------------------------------------------------
 
-## *Download Files/folders from Data Store to local Computer*
+## Download Files/folders from Data Store to local Computer
 
 See the for more information.
 
-> 1.  Download a file using the [iget]{.title-ref} command. Remember,
->     the -r flag is to recursively upload a directory, so if you are
+> 1.  Download a file using the `iget` command. Remember,
+>     the `-r` flag is to recursively upload a directory, so if you are
 >     uploading a single file, omit the -r flag.
 >
 > > ``` bash
-> > $ iget -PT /iplant/home/cyverse_username/target_file /local_destination
+> >   iget -PT /iplant/home/cyverse_username/target_file /local_destination
 > >   # This command will output the progress as it downloads to your local machine
 > > ```
 >
-> ::: tip
-> ::: title
-> Tip
-> :::
->
-> There are several optional arguments that the upload iCommand
-> [iget]{.title-ref} can take:
->
+!!! Tip
+
+   There are several optional arguments that the upload iCommand
+   [iget]{.title-ref} can take:
+
 > > ``` bash
-> > $ iget -r # For recursive transfer of directories and their contents
+> >  iget -r # For recursive transfer of directories and their contents
 > >
-> > $ iget -P # display the progress of the upload
+> >  iget -P # display the progress of the upload
 > >
-> > $ iget -f # force the upload and overwrite
+> >  iget -f # force the upload and overwrite
 > >
-> > $ iget -T # Renew socket connection after 10 min (May help connections
+> >  iget -T # Renew socket connection after 10 min (May help connections
 > >           # that are failing due to some connection/firewall settings)
 > > ```
-> :::
 
 ------------------------------------------------------------------------
 
-## *NetCDF iCommands*
+## NetCDF iCommands
 
 For the Linux distributions there are three extra iCommands that support
 common NetCDF operations:
@@ -320,7 +298,7 @@ common NetCDF operations:
 > -   `incattr` performs operation on attributes of NetCDF files.
 
 Each of these commands accepts the `-h` command line option. When a
-command is called with this option, it displays the command\'s help
+command is called with this option, it displays the command's help
 documentation. Please see this help documentation for more information.
 
 > **Installation**
@@ -329,22 +307,22 @@ documentation. Please see this help documentation for more information.
 >     installed, the current version of the iRODS run-time library needs
 >     to be installed. Please install the appropriate version (e.g.
 >     `irods-runtime-X-X-XX`). The distribution specific packages can be
->     found on .
+>     found on [RENCI's iRODs website](https://files.renci.org/pub/irods/releases/).
 >
 > 2.  Install NetCDF API. Once the run-time library is installed, the
 >     iRODS NetCDF API library needs to be installed. Please use the
 >     appropriate link to the download the installation package and
 >     install it. The package installer will likely warn that irods user
->     and/or group don\'t exist, and that it will be using root instead.
+>     and/or group don't exist, and that it will be using root instead.
 >     These warnings are harmless, since the package contents should be
 >     installed with root ownership.
 >
->     > -   
->     > -   
+>     > - CentOS7 NetCDF API
+>     > - Ubuntu 14+ NetCDF API 
 
 ------------------------------------------------------------------------
 
-## *Additional Frequently Used iCommands*
+## Additional Frequently Used iCommands
 
 In addition to the commands above, there are several frequently used
 iCommands - most of which you would expect following the Linux paradigm:
