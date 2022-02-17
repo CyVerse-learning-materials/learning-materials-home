@@ -6,6 +6,8 @@ CyVerse public platform provides a nominal quantity of compute and data storage 
 
 For researchers who need more, we also provide mechanisms for extending and powering your research.
 
+![Professional Services](assets/pro_service_person.png){ width="400" }
+
 ## [Professional Services](https://cyverse.org/professional-services){target=_blank}
 
 CyVerse offers a suite of services for institutions seeking to deploy CyVerse's cyberinfrastructure locally. With a secure, shared data management and computing environment with increased speed and performance, a local installation can better support your members' research and teaching needs for:
