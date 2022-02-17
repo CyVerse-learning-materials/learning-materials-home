@@ -65,6 +65,7 @@ nav:
     - 'Developer Manuals': manuals.md
   - 'Science Tutorials':
     - 'Bioinformatics': bioinformatics_tutorials.md
+    - 'Geoinformatics': geoinformatics_tutorials.md
     - 'Other Topics': other_tutorials.md
   - 'CyVerse Workshops':
     - 'Foundational Open Science Skills': foss.md
@@ -78,7 +79,7 @@ extra_javascript:
 # Set theme to `readthedocs`
 # must also set Action to use `@nomaterial` branch instead of `@master` for material
 theme:
-  name: readthedocs
+  name: material
 # setting features for the navigation tab
   features:
     - navigation.instant
