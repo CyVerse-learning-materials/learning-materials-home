@@ -79,7 +79,7 @@ extra_javascript:
 # Set theme to `readthedocs`
 # must also set Action to use `@nomaterial` branch instead of `@master` for material
 theme:
-  name: material
+  name: readthedocs
 # setting features for the navigation tab
   features:
     - navigation.instant
@@ -99,7 +99,7 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode
   font:
-    text: Montserrat
+    text: Roboto
     code: Regular
   favicon: assets/favicon.png
   icon:
