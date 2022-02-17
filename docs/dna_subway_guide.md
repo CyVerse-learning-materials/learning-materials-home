@@ -1,5 +1,3 @@
-[Learning Center Home](http://learning.cyverse.org/)
-
 # DNA Subway
 
 ![subway_logo](assets/dna_subway/dnasubway-icon.png)
@@ -7,18 +5,19 @@
 ## Goal
 
 DNA Subway is an educational bioinformatics platform developed by CyVerse. 
-It bundles research-grade bioinformatics tools, high-performance computing, and databases into workflows with an easy-to-use interface. 
-"Riding" DNA Subway lines, students can predict and annotate genes in up to 150kb of DNA (Red Line), identify homologs in sequenced genomes (Yellow Line), identify species using DNA barcodes and phylogenetic trees (Blue Line), examine RNA-Seq datasets for differential transcript abundance (Green Line), and analyze
-metabarcoding and eDNA samples using QIIME (Purple Line).
 
-------------------------------------------------------------------------
+It bundles research-grade bioinformatics tools, high-performance computing, and databases into workflows with an easy-to-use interface. 
+
+"Riding" DNA Subway lines, students can predict and annotate genes in up to 150kb of DNA (Red Line), identify homologs in sequenced genomes (Yellow Line), identify species using DNA barcodes and phylogenetic trees (Blue Line), examine RNA-Seq datasets for differential transcript abundance (Green Line), and analyze metabarcoding and eDNA samples using QIIME (Purple Line).
+
+------------------------------------------------------------------------ 
 
 ## Prerequisites
 
 *In order to complete this tutorial you will need access to the following services/software*
 
 | Prerequisite | Preparation/Notes | Link/Download |
-| --- | --- | --- |
+|--------------|-------------------|---------------|
 | CyVerse account | You will need a CyVerse account to complete this exercise | [Register](https://user.cyverse.org/) |
 | DNA Subway Access | DNA Subway access is by request access | Check or request access: [CyVerse User Portal](https://user.cyverse.org/services/mine) |
 
@@ -26,258 +25,196 @@ metabarcoding and eDNA samples using QIIME (Purple Line).
 
 ## DNA Subway Basics and Logging in to Subway
 
-DNA Subway is designed to be a classroom-friendly approach to
-bioinformatics. Unlike most CyVerse platforms, you can even use Subway
-without registering for a CyVerse account. We do encourage you to
-register however, only work from registered users can be saved. DNA
-Subway uses the same open-source bioinformatics tools used by
-researchers. See a [complete list of the
-tools](https://dnasubway.cyverse.org/about/resources.html) provided in
-the Subway pipelines.
+DNA Subway is designed to be a classroom-friendly approach to bioinformatics. 
 
-**Some things to remember about the platform**
+Unlike most CyVerse platforms, you can even use Subway without registering for a CyVerse account. 
 
-*Registered user and Guest user account types*
+We do encourage you to register however, only work from registered users can be saved. 
 
--   DNA Subway access must be requested through the CyVerse user portal.
-    You can check if you already have access, or request access by
-    logging into the portal and visiting the [My
-    Services](https://user.cyverse.org/services/mine) page. If DNA
-    Subway is not listed, click on
-    [Available](https://user.cyverse.org/services/available) services to
-    request access.
--   Guest users will not have their worked saved beyond a single DNA
-    Subway session. They are also disallowed from using one of the gene
-    predictors (FGenesH) in the genomic annotation pipeline (Red Line).
--   We suggest that every student using DNA Subway obtain their own
-    account.
+DNA Subway uses the same open-source bioinformatics tools used by researchers. 
 
-*Sample Datasets and reference data*
+See a [complete list of the tools](https://dnasubway.cyverse.org/about/resources.html) provided in the Subway pipelines.
 
-All Subway lines accept user data and also have sample data that can be
-immediately used to create a project.
 
--   **Red Line - Genome Annotation:** Samples of plant and animal
-    genomes that can be used in annotation projects
--   **Yellow Line - TARGeT Search for transposons and other DNA
-    Sequences:** Several model plant genomes
--   **Blue Line - DNA Barcoding and Phylogenetics:** Sample sequence
-    from plant, animal, fungal, and bacterial barcoding regions; human
-    mitochondrial DNA sequence
--   **Green Line - RNA-Seq for differential expression:** Sample
-    high-throughput reads from RNA-Seq experiments
+### Some things to remember about the platform:
 
-If there is a reference data set or sample sequence you would like
-added, you can contact CyVerse using the DNA Subway [Contact
-page](https://dnasubway.cyverse.org/feedback.html)
+#### Registered user and Guest user account types
 
-*Public and private projects* - DNA Subway projects are private by
-default, but can be shared by making them public. Public projects are
-searchable and are a great way to share data or present analysis for
-grading in a classroom project.
+-   DNA Subway access must be requested through the CyVerse user portal. You can check if you already have access, or request access by logging into the portal and visiting the [My Services](https://user.cyverse.org/services/mine) page. If DNA Subway is not listed, click on [Available](https://user.cyverse.org/services/available) services to request access.
+
+-   Guest users will not have their worked saved beyond a single DNA Subway session. They are also disallowed from using one of the gene predictors (FGenesH) in the genomic annotation pipeline (Red Line).
+
+-   We suggest that every student using DNA Subway obtain their own account.
+
+#### Sample Datasets and reference data
+
+All Subway lines accept user data and also have sample data that can be immediately used to create a project.
+
+-   **Red Line - Genome Annotation:** Samples of plant and animal genomes that can be used in annotation projects
+
+-   **Yellow Line - TARGeT Search for transposons and other DNA Sequences:** Several model plant genomes
+
+-   **Blue Line - DNA Barcoding and Phylogenetics:** Sample sequence from plant, animal, fungal, and bacterial barcoding regions; human mitochondrial DNA sequence
+
+-   **Green Line - RNA-Seq for differential expression:** Sample high-throughput reads from RNA-Seq experiments
+
+If there is a reference data set or sample sequence you would like added, you can contact CyVerse using the DNA Subway [Contact page](https://dnasubway.cyverse.org/feedback.html)
+
+#### Public and private projects
+
+- DNA Subway projects are private by default, but can be shared by making them public. 
+
+- Public projects are searchable and are a great way to share data or present analysis for grading in a classroom project.
 
 ------------------------------------------------------------------------
 
-### *Logging into DNA Subway as a registered user*
+## Logging into DNA Subway as a registered user
 
-> 1.  Access the DNA Subway website at <https://dnasubway.cyverse.org/>
-> 2.  If you wish to use DNA Subway as a guest click \'Enter As Guest\'
->
-> > ::: note
-> > ::: title
-> > Note
-> > :::
-> >
-> > When using DNA Subway as a guest, you will be able to work only on
-> > the Red, Yellow, and Blue lines. Additionally, some Red Line
-> > functionalities will be disabled. Finally, after logging out, or a
-> > period of inactivity (\>\~ 30 min) you work will be discarded.
-> > :::
->
-> 3.  Enter your CyVerse username and CyVerse password.
+1.  Access the DNA Subway website at <https://dnasubway.cyverse.org/
 
-### *Logging into DNA Subway as a guest user*
+2.  If you wish to use DNA Subway as a guest click 'Enter As Guest'
 
-> 1.  Access the DNA Subway website at <https://dnasubway.cyverse.org/>
->     ;click \'Enter as Guest\'
+3.  Enter your CyVerse username and CyVerse password.
+
+??? tip "Using DNA Subway as a Guest"
+
+    When using DNA Subway as a guest, you will be able to work only on the Red, Yellow, and Blue lines.
+
+    Additionally, some Red Line functionalities will be disabled. 
+
+    Finally, after logging out, or a period of inactivity (30 min) your work will be discarded.
+
+### Logging into DNA Subway as a guest user
+
+1.  Access the DNA Subway website at <https://dnasubway.cyverse.org/; click 'Enter as Guest'
 
 ------------------------------------------------------------------------
-
-
-
-
-
-
-
-
 
 ## Accessing Saved Private and Public DNA Subway Projects
 
-DNA Subway projects are automatically saved for registered users. By
-default, Subway projects are private upon creation and visible only to
-you. You may make project public, in which case users will have the
-ability to view those projects, but may not edit those projects.
+DNA Subway projects are automatically saved for registered users. 
+
+By default, Subway projects are private upon creation and visible only to you. 
+
+You may make project public, in which case users will have the ability to view those projects, but may not edit those projects.
 
 ------------------------------------------------------------------------
 
-### *Accessing Private Projects*
+### Accessing Private Projects
 
-> 1.  Access the DNA Subway website at <https://dnasubway.cyverse.org/>.
->
-> 2.  Upon login, you will see a listing of your private projects.
->     Access the project by clicking the project title.
->
->     ::: tip
->     ::: title
->     Tip
->     :::
->
->     All projects in DNA Subway are associated with the color of their
->     respective DNA Subway lines, and with a project ID number. You may
->     see the comments and species associated with the project
->
->     ![private_projects](./img/dna_subway/private_projects.png){width="275px"
->     height="200px"}
->
->     **Deleting a project**
->
->     To delete a project, click the \'trash can\' icon. Once deleted,
->     all data related to that project will be lost and unrecoverable.
->     :::
->
-> 3.  From any DNA Subway page, you may access private projects by
->     clicking the \'My Projects\' button on the navigation menu on the
->     left side of the page.
+1.  Access the DNA Subway website at <https://dnasubway.cyverse.org/>
+
+2.  Upon login, you will see a listing of your private projects. Access the project by clicking the project title.
+
+3.  From any DNA Subway page, you may access private projects by clicking the 'My Projects' button on the navigation menu on the left side of the page.
+
+??? top "Distinguishing Lines"
+
+    All projects in DNA Subway are associated with the color of their respective DNA Subway lines, and with a project ID number. 
+
+    You may see the comments and species associated with the project
+
+    ![private_projects](./img/dna_subway/private_projects.png){width="275px" height="200px"}
+
+??? tip "Deleting a project"
+
+     To delete a project, click the 'trash can' icon. Once deleted, all data related to that project will be lost and unrecoverable.
 
 ------------------------------------------------------------------------
 
-### *Accessing Public Projects*
+### Accessing Public Projects
 
-> 1.  Access the DNA Subway website at
->     [https://dnasubway.cyverse.org/](); login to Subway or enter as a
->     guest user.
->
-> 2.  On the navigation menu on the left side of the screen, click
->     \'Public Projects\'
->
->     > ::: tip
->     > ::: title
->     > Tip
->     > :::
->     >
->     > You can sort by project date or type, and you can search for a
->     > project by title, organism, or the name of the project owner.
->     > When searching, click the double arrow \'\>\>\' to search by
->     > your selected term.
->     > :::
+1.  Access the DNA Subway website at <https://dnasubway.cyverse.org/>; login to Subway or enter as a guest user.
 
+2.  On the navigation menu on the left side of the screen, click 'Public Projects'
+
+??? tip "Sorting and Search"
+
+    You can sort by project date or type, and you can search for a project by title, organism, or the name of the project owner. When searching, click the double arrow `` to search by your selected term.
 ------------------------------------------------------------------------
-
-### *Make a DNA Subway Project Private or Public*
-
-> 1.  Access the DNA Subway website at
->     [https://dnasubway.cyverse.org/](); login to Subway.
->
-> 2.  Access your selected project by clicking the project title.
->
-> 3.  Under the \'Project Information\' tab, toggle the project setting
->     to \'Public\' or \'Private\' as desired.
->
->     ![project_info_tab](./img/dna_subway/project_info_tab.png){width="150px"
->     height="100px"}
-
+### Make a DNA Subway Project Private or Public
+1.  Access the DNA Subway website at [https://dnasubway.cyverse.org/](); login to Subway.
+2.  Access your selected project by clicking the project title.
+3.  Under the 'Project Information' tab, toggle the project setting to 'Public' or 'Private' as desired.
+     ![project_info_tab](./img/dna_subway/project_info_tab.png){width="150px" height="100px"}
 ------------------------------------------------------------------------
-
 ## Walkthrough of DNA Subway Red Line - Genome Annotation
-
-Annotation adds features and information to a DNA sequence -- such as
-genes and their locations, structures, and functions. A good
-introduction to annotation can be found in the paper [A beginner's guide to eukaryotic genome annotation](https://www.nature.com/nrg/journal/v13/n5/full/nrg3174.html).
-We\'ll also suggest the DNA Subway\'s primer on [annotation evidence](https://dnasubway.cyverse.org/project/ngs/panel/1946#). This
-guide contains an explanation of basic functions for this line, as well
-as exercises that might be used in the classroom.
-
+Annotation adds features and information to a DNA sequence -- such as genes and their locations, structures, and functions.
+A good introduction to annotation can be found in the paper [A beginner's guide to eukaryotic genome annotation](https://www.nature.com/nrg/journal/v13/n5/full/nrg3174.html).
+We'll also suggest the DNA Subway's primer on [annotation evidence](https://dnasubway.cyverse.org/project/ngs/panel/1946#). 
+This guide contains an explanation of basic functions for this line, as wellas exercises that might be used in the classroom.
 **Some things to remember about the platform**
-
--   On Red Line, you can annotate up to 150KB of your own DNA sequence
--   We provide sample sequence for you to try, or you can upload your
-    own
-
+	@@ -205,156 +164,115 @@ as exercises that might be used in the classroom.
 ------------------------------------------------------------------------
-
-### *DNA Subway Red Line - Create an Annotation Project with Apollo*
-
-> ::: note
-> ::: title
-> Note
-> :::
->
-> DNA Subway is transitioning away from the original Java-based Apollo
-> software as most popular web browsers will no longer support Java. The
-> new Apollo is Java-free.
-> :::
->
-> 1.  Log-in to [DNA Subway](https://dnasubway.cyverse.org/) -
->     unregistered users may \'Enter as Guest\'
->
-> 2.  Click 'Annotate a genomic sequence.' (Red Square); select the
->     \'Web Apollo\' version
->
-> 3.  For \'Select Organism type\' choose \'Animal\' or \'Plant\' and
->     then select the appropriate subtype.
->
->     ::: tip
->     ::: title
->     Tip
->     :::
->
->     The \'Select Organism\' step will load appropriate sample
->     sequences and will also adjust the models used in the de novo gene
->     finding process.
->     :::
->
-> 4.  For \'Select Sequence Source\' select a sample sequence.
->
-> > ::: note
-> > ::: title
-> > Note
-> > :::
-> >
-> > Currently, the Java-free Apollo version of Subway does not support
-> > upload of a custom DNA Sequence. This feature is coming soon, but we
-> > will help you upload custom genomes/regions for your use in the
-> > classroom
-> > :::
->
-> 5.  (Optional) If you have a GFF file of annotated features, you may
->     load these import these annotations from the Green Line, or from a
->     custom GFF file.
-> 6.  Name your project and organism (required) and give a description
->     if desired. Click \'Continue\' to proceed.
-
-#### **Example Exercise - Project Creation: Arabidopsis ChrI**
-
-In this and subsequent steps, we will annotate a 75KB section of
-Arabidopsis chromosome I.
-
-> 1.  Log-in to [DNA Subway]() - unregistered users may \'Enter as
->     Guest\'.
-> 2.  Click 'Annotate a genomic sequence.' (Red Square); select the
->     \'Web Apollo\' version.
-> 3.  For \'Select Organism type\' choose \'Plant\' and then
->     \'Dicotyledon\'.
-> 4.  from \'Select a sample sequence\' chose \'Arabidopsis thaliana
->     (mouse-ear cress) chr1, 75.00 kb\'.
-> 5.  Provide your project with a title, then Click 'Continue.'
->
-> ::: tip
-> ::: title
-> Tip
-> :::
->
-> You can view your DNA sequence by clicking the \'Sequence\' link in
-> the \'Project Information\' tab at the bottom of the page.
-> :::
+### DNA Subway Red Line - Create an Annotation Project with Apollo
+??? tip "transition away from Java"
+    
+    DNA Subway is transitioning away from the original Java-based Apollo software as most popular web browsers will no longer support Java. The new Apollo is Java-free.
+1.  Log-in to [DNA Subway](https://dnasubway.cyverse.org/){target=+blank} -
+    unregistered users may 'Enter as Guest'
+2.  Click 'Annotate a genomic sequence.' (Red Square); select the
+    'Web Apollo' version
+3.  For 'Select Organism type' choose 'Animal' or 'Plant' and
+    then select the appropriate subtype.
+    The 'Select Organism' step will load appropriate sample
+    sequences and will also adjust the models used in the de novo gene
+    finding process.
+    
+4.  For 'Select Sequence Source' select a sample sequence.
+??? tip "Apollo support"
+    
+    Currently, the Java-free Apollo version of Subway does not support upload of a custom DNA Sequence. 
+    
+    This feature is coming soon, but we will help you upload custom genomes/regions for your use in the classroom
+5.  (Optional) If you have a GFF file of annotated features, you may load these import these annotations from the Green Line, or from a
+    custom GFF file.
+6.  Name your project and organism (required) and give a description if desired. Click 'Continue' to proceed.
+#### Example Exercise - Project Creation: Arabidopsis ChrI
+In this and subsequent steps, we will annotate a 75KB section of Arabidopsis chromosome I.
+1.  Log-in to [DNA Subway]() - unregistered users may 'Enter as Guest'.
+2.  Click 'Annotate a genomic sequence.' (Red Square); select the 'Web Apollo' version.
+3.  For 'Select Organism type' choose 'Plant' and then 'Dicotyledon'.
+4.  from 'Select a sample sequence' chose 'Arabidopsis thaliana (mouse-ear cress) chr1, 75.00 kb'.
+5.  Provide your project with a title, then Click 'Continue.'
+??? tip "Sequence"
+    You can view your DNA sequence by clicking the 'Sequence' link in the 'Project Information' tab at the bottom of the page.
+------------------------------------------------------------------------
+### DNA Subway Red Line - Find and Mask Repetitive DNA
+One you have created a Red Line Project, you may begin the process of generating and assembling predictions and evidence that can be used to annotate genes.
+1.  Click 'RepeatMasker'
+2.  When 'RepeatMasker' turns 'green' and the icon displays a 'V' (view); click 'RepeatMasker' again to view results.
+    ![repeat_results](./img/dna_subway/repeat_results.png){width="300px" height="200px"}
+### **Example Exercise - Repeat Masking: Arabodopsis ChrI**
+-   **Example Sequence:** Arabidopsis thaliana (mouse-ear cress) ChrI, 75 kb
+-   **Tool(s):** RepeatMasker
+-   **Concept(s):** Non-coding DNA, sequence repeats, mobile genetic
+    elements (transposons)
+Following the RepeatMasking steps for the Arabidopsis ChrI sample above, answer the following *discussion questions*:
+1.  How many hits were detected in your sample?
+2.  RepeatMasker reports the length of the repetitive sequences
+    (Length) as well as the class (Attributes).
+-   What is the average length of sequences identified as "simple
+    repeats"?
+-   What is the average length of sequences identified as "low
+    complexity"?
+3.  What is the total percentage of repetitive DNA in your sequence?
+    (Sum of the length of all repetitive sequence / sequence length
+    (75 kb)
+??? tip "Some Useful Definitions for Repetitive Sequences"
+    -  **Simple repeats:** 1-5bp repeats (e.g. repetitive dinucleotides 'AT' etc.)
+    
+    -  **Low Complexity DNA:** Poly-purine/ poly-pyrimidine stretches, or regions of extremely high AT or GC content.
+    
+    -  **Processed Pseudogenes, SINES, Retrotranscripts:** Non-functional RNAs present within genomic sequence.
+    
+    -  **Transposons (DNA, Retroviral, LINES):** Genetic elements which have the ability to be amplified and redistributed within a genome.
+**Additional Investigation:** In the results table under 'Attributes' each repeat sequence is labeled "RepeatMasker#-XXX" The '#' is the
+ordinal number of the hit, the XXX is the class of DNA element (e.g. "Simple_repeat" or "Low_complexity"). There are other types of
+repetitive elements such as transposons and pseudogenes (e.g. Helitron and COPIA) Use online resources to learn more: (<http://gydb.org/index.php/Main_Page>).
+------------------------------------------------------------------------
+### DNA Subway Red Line - Making Gene Predictions
+De novo gene predictors can be run on a sample sequence to generate predictions of gene structure and location based solely on the sequence nucleotides.
+1.  Click on one or more gene prediction tools under the 'Gene Prediction' stop. to view the results table, click the gene predictor again once the indicator displays 'V' (view).
 
 ------------------------------------------------------------------------
 
