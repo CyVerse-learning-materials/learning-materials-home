@@ -1,5 +1,3 @@
-[Learning Center Home](http://learning.cyverse.org/)
-
 # Command Line Transfer with iCommands
 
 iCommands is a collection of tools developed by the project. iRODS is

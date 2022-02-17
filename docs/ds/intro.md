@@ -1,5 +1,3 @@
-[Learning Center Home](http://learning.cyverse.org/)
-
 # Data Store Guide
 
 ## Goal
@@ -13,10 +11,6 @@ Accessible, Interoperable, and Reusable). The Data Store helps to
 achieve this with less effort. This guide will cover the minimum needed
 to get you started. Please look through the for a more comprehensive
 look at Data Store capabilities.
-
-  Maintainer       Institution      Contact
-  ---------------- ---------------- ---------------------
-  Jason Williams   CyVerse / CSHL   <Williams@cshl.edu>
 
 ------------------------------------------------------------------------
 

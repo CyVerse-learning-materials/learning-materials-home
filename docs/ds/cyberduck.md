@@ -23,11 +23,14 @@ shared or public Data Store locations.
 > 4.  Under 'Advanced Options' ensure 'Transfer Files' option is set
 >     to **'Open Multiple Connections'**. Close this window - your
 >     entries will be automatically saved.
->     ![cyberduck_config](assets/data_store/cyberduck_config.png)
+>     ![cyberduck_config](assets/ds/cyberduck_config.png)
 >
 > 5.  Double-click on the Data Store bookmark in the Cyberduck window.
 >     Enter your CyVerse credentials.
->     ![cyberduck_bookmark](assets/data_store/cyberduck_bookmark.png)
+>     ![cyberduck_bookmark](assets/ds/cyberduck_bookmark.png)
+
+
+assets/de/logos/cyverse_logo_2022.png
 
 You should now be connected to the CyVerse Data Store and viewing the
 contents of your home directory.
@@ -38,7 +41,7 @@ contents of your home directory.
     Data Store. From Cyberduck's 'Go' menu, you can select 'Go to
     folder' to navigate to any other Data Store location that is public or
     shared with you.
-    ![cyberduck_window](assets/data_store/cyberduck_window.png)
+    ![cyberduck_window](assets/ds/cyberduck_window.png)
 
 ------------------------------------------------------------------------
 
@@ -65,7 +68,7 @@ contents of your home directory.
 >
 > 3.  A 'Transfers' window will appear. Monitor the upload to
 >     completion.
->     ![cyberduck_transfers](assets/data_store/cyberduck_transfers.png)
+>     ![cyberduck_transfers](assets/ds/cyberduck_transfers.png)
 
 ------------------------------------------------------------------------
 
