@@ -5,8 +5,8 @@ CyVerse's 10-week virtual workshop teaches you the principles, practices, and ho
 To see how our FOSS workshop can support your work, check out the workshop curriculum:
 
 
-| Name | Date | Description |
-|------|------|-------------|
+| Name | Dates | Description |
+|------|-------|-------------|
 | [Fall FOSS 2021](https://learning.cyverse.org/projects/cyverse-foss/en/latest/index.html) | `2021-09-07` `2021-11-18` | Third virtual workshop series |
 | [Spring FOSS 2021](https://learning.cyverse.org/projects/foss/en/foss-2021-spring/index.html) | `2021-02-09` `2021-04-21` | Second virtual workshop series |
 | [Summer FOSS 2020](https://cyverse-foss-2020.readthedocs-hosted.com/en/latest/index.html) | `2020-07-28` `2020-11-03` | First virtual workshop series |
