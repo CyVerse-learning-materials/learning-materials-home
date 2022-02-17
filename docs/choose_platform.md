@@ -36,6 +36,6 @@
     click the Intercom icon ![Intercom](assets/intercom.png){ width="25" } on the lower right-hand side of the page
   - Report an issue or submit a change:
     [Github Repo Link](https://github.com/cyverse-learning-materials/)
-  - Send feedback: <Tutorials@CyVerse.org
+  - Send feedback: <Tutorials@CyVerse.org>
   
 ------------------------------------------------------------------------

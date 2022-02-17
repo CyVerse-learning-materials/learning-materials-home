@@ -9,7 +9,7 @@ These include short guides through common tasks.
 | Quickstart | Platform | Notes |
 |:-----------|:--------:|:-----:|
 | [Create Account](http://learning.cyverse.org/projects/cyverse-account-creation-quickstart) | User Portal | Start here to create your own account |
-| Change Password | User Portal | Change your CyVerse password, even if you've forgotten it |
+| Change Password | User Portal | Change your CyVerse password, even if you\'ve forgotten it |
 | Manage Your Data | Data Store | Access via Discovery Environment, Command Line, or Cyberduck |
 | Publish your Data | Data Store, Discovery Environment | Organize your dataset and request a DOI (Digital Object Identifier) |
 | Collaborate | Data Store, Discovery Environment | Learn the basic steps for setting up a collaborative project using CyVerse |
@@ -38,7 +38,7 @@ see CyVerse [citation policy](http://www.cyverse.org/acknowledge-cite-cyverse)
     click the Intercom icon ![Intercom](assets/intercom.png){ width="25" } on the lower right-hand side of the page
   - Report an issue or submit a change:
     [Github Repo Link](https://github.com/cyverse-learning-materials/)
-  - Send feedback: <Tutorials@CyVerse.org
+  - Send feedback: <Tutorials@CyVerse.org>
   
 ------------------------------------------------------------------------
 

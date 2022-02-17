@@ -10,7 +10,7 @@ These guides will help you navigate the top-level user platforms.
 ## Discovery Environment
 
 Use hundreds of informatics apps and manage data in the CyVerse Data
-Store from the Discovery Environment's simple web interface. The Visual
+Store from the Discovery Environment\'s simple web interface. The Visual
 Interactive Computing Environment (VICE) is a part of the Discovery
 Environment. It introduces common Integrated Development Environments
 (IDEs) such as Project Jupyter Notebooks & Lab, RStudio, Shiny apps and
@@ -27,7 +27,7 @@ Cloud computing with CyVerse
 
 ## Data Store
 
-A unified system for managing and sharing your data across CyVerse's
+A unified system for managing and sharing your data across CyVerse\'s
 tools and services
 
 -   
@@ -80,7 +80,7 @@ see CyVerse [citation policy](http://www.cyverse.org/acknowledge-cite-cyverse)
     click the Intercom icon ![Intercom](assets/intercom.png){ width="25" } on the lower right-hand side of the page
   - Report an issue or submit a change:
     [Github Repo Link](https://github.com/cyverse-learning-materials/)
-  - Send feedback: <Tutorials@CyVerse.org
+  - Send feedback: <Tutorials@CyVerse.org>
   
 ------------------------------------------------------------------------
 

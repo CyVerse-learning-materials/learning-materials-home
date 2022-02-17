@@ -6,7 +6,7 @@
 
     CyVerse users should update their account information annually for continued access to services. To update, go to the , log in, and click the account icon in the upper right corner.
 
-    In addition to updating your email, institution, occupation, preferences and other information that may have changed, please add your ORCID ID, a unique identifier which can help you receive credit for your work. Get an ORCID here <https://orcid.org/register.
+    In addition to updating your email, institution, occupation, preferences and other information that may have changed, please add your ORCID ID, a unique identifier which can help you receive credit for your work. Get an ORCID here <https://orcid.org/register>.
 
     By keeping your account information current, our funders can see the value of CyVerse to our community and we learn which of our services and platforms are most helpful to you.
 
@@ -24,7 +24,7 @@
 
 ??? question "How do I publish a large set of public data?"
 
-    If you need assistance transferring a large dataset to CyVerse, please contact CyVerse Support (<support@cyverse.orgor use the blue Intercom icon at the bottom right). 
+    If you need assistance transferring a large dataset to CyVerse, please contact CyVerse Support (<support@cyverse.org> or use the blue Intercom icon at the bottom right). 
     
     For more information on our policies, see CyVerse's [Collaboration Policy](http://www.cyverse.org/collaboration-policy) and [Data Management Policy](http://www.cyverse.org/data-management-policy). 
     
@@ -68,7 +68,7 @@
 
 ??? question "How do I make a folder public with iCommands?"
 
-    Although you can share files and folders in the DE and create public links, you must use iCommands make them visible to everyone. Permissions are set in iCommands by using `ichmod` (<https://docs.irods.org/4.2.1/icommands/user/#ichmod).
+    Although you can share files and folders in the DE and create public links, you must use iCommands make them visible to everyone. Permissions are set in iCommands by using `ichmod` (<https://docs.irods.org/4.2.1/icommands/user/#ichmod>).
 
     To make a folder public, you give read permission to two users: 'public' (anyone signed in with a CyVerse account) and 'anonymous' (anyone on the web -no sign in required). To recursively make a shared folder called 'myfolder' public, use the instructions below
 

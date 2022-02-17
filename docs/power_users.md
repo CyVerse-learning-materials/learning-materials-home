@@ -12,11 +12,11 @@ collaborative projects.
 
 ## Letter of Support
 
-For letters of support and collaboration, email <411@cyverse.org
+For letters of support and collaboration, email <411@cyverse.org>
 
 ## CyVerse's APIs
 
-There are several APIs to CyVerse's resources:
+There are several APIs to CyVerse\'s resources:
 
 -   Terrain: RESTful API to many of CyVerse's services (authentication, data store, VICE apps, DE apps):
     -   [Swagger UI](https://de.cyverse.org/terrain/docs/index.html)
@@ -68,6 +68,6 @@ Please cite CyVerse appropriately when you make use of our resources, see [CyVer
     click the Intercom icon ![Intercom](assets/intercom.png){ width="25" } on the lower right-hand side of the page
   - Report an issue or submit a change:
     [Github Repo Link](https://github.com/cyverse-learning-materials/)
-  - Send feedback: <Tutorials@CyVerse.org
+  - Send feedback: <Tutorials@CyVerse.org>
   
 ------------------------------------------------------------------------

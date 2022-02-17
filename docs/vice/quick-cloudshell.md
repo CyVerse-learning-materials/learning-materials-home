@@ -2,7 +2,7 @@
 
 ## 1. Log into the Discovery Environment
 
-Log into <https://de.cyverse.org
+Log into <https://de.cyverse.org>
 
 If you have not yet created an account, go to the [User Portal](https://user.cyverse.org) and sign up.
 

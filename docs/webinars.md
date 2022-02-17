@@ -5,10 +5,10 @@
 # Webinars
 
 Follow this link to upcoming and past CyVerse Webinars:
-<https://cyverse.org/webinarsTo search for webinars organized into
+<https://cyverse.org/webinars> To search for webinars organized into
 popular topics such as Genomic File Manipulation, Genome Annotation,
 Image Analysis/Phenotyping and more, view our Playlists:
-<https://cyverse.org/webinars/playlists
+<https://cyverse.org/webinars/playlists>
 
 **Funding and Citations:**
 
@@ -28,7 +28,7 @@ see CyVerse [citation policy](http://www.cyverse.org/acknowledge-cite-cyverse)
     click the Intercom icon ![Intercom](assets/intercom.png){ width="25" } on the lower right-hand side of the page
   - Report an issue or submit a change:
     [Github Repo Link](https://github.com/cyverse-learning-materials/)
-  - Send feedback: <Tutorials@CyVerse.org
+  - Send feedback: <Tutorials@CyVerse.org>
   
 ------------------------------------------------------------------------
 
