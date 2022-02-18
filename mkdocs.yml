@@ -65,6 +65,7 @@ nav:
     - 'Developer Manuals': manuals.md
   - 'Science Tutorials':
     - 'Bioinformatics': bioinformatics_tutorials.md
+    - 'Geoinformatics': geoinformatics_tutorials.md
     - 'Other Topics': other_tutorials.md
   - 'CyVerse Workshops':
     - 'Foundational Open Science Skills': foss.md
@@ -98,7 +99,7 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode
   font:
-    text: Montserrat
+    text: Roboto
     code: Regular
   favicon: assets/favicon.png
   icon:
