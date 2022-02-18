@@ -97,7 +97,9 @@ Follow the steps in the "Editing or deleting metadata" from the previous section
 2.  Edit the template in one of two ways:
 
     -  *If all data will be in a single folder*
+    
             a.  In the *blank.csv* spreadsheet, in the *'file name or path'* column, enter the file names of all the files/folder in that folder you wish to annotate with metadata.
+            
                 !!! Tip
 
                     **Finding the file path in the DE**
@@ -116,6 +118,7 @@ Follow the steps in the "Editing or deleting metadata" from the previous section
                 but keep it in CSV format.
 
     -  *If data will be in multiple folders*
+
             a.  In the *blank.csv* spreadsheet, in the *'filename or path* column, enter the full path of the top-level folder (e.g. `/iplant/home/YOURUSERNAME/FOLDERNAME`) 
             b.  In the remaining columns in the first row, enter the values
                 for each file/attribute combinations
