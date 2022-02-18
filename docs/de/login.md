@@ -1,26 +1,49 @@
-![CyVerese Logo](./assets/cyverse_learning.png)
-
-![Home_Icon](./assets/homeicon.png){width="25px" height="25px"}
-[Learning Center Home](http://learning.cyverse.org/)
-
 # Logging in to the Discovery Environment (DE)
 
-When you first arrive at the Discovery Environment (https://de.cyverse.org), you'll see the Dashboard. The Dashboard contains links to news, CyVerse videos, and featured apps you can use. The left sidebar shows icons for accessing different parts of the DE, like Data or Apps.
+[de]: ../assets/de/logos/deIcon.svg
+[data]: ../assets/de/menu_items/dataIcon.svg
+[analyses]: ../assets/de/menu_items/analysisIcon.svg
+[apps]: ../assets/de/menu_items/appsIcon.svg
+[help]: ../assets/de/menu_items/helpIcon.svg
+[home]: ../assets/de/menu_items/homeIcon.svg
+[profile]: ../assets/de/icons/userIcon.svg
 
-1. To log in from the Dashboard, navigate to the upper right corner of the DE and click the [profile icon](./assets/de/profile_icon.png).
-2. Enter your CyVerse username and password. If you don't have an account yet or you've forgotten your password, you can visit (https://user.cyverse.org) to create an account or reset your password..
-3. After logging in, you'll be returned to the previous view. For example, if you were on the Apps view when you logged in, you'll return to that view.
-4. You can take a short tour of the DE's main features by clicking the
-[help icon](./assets/de/help_icon.png) in the left sidebar and selecting "Product Tour".
+When you first open the [![de]{width="25"} Discovery Environment](https://de.cyverse.org){target=_blank}, you'll see the [![home]{width="25"} Home](https://de.cyverse.org/home) Dashboard.
 
+![de_login](../assets/de/de_login_screen.png){width="600"}
 
-## Fix or improve this documentation
+The [![home]{width="25"} Home](https://de.cyverse.org/home) Dashboard contains links to [News](https://cyverse.org/news){target=_blank}, recent [YouTube Videos](https://www.youtube.com/c/CyverseOrgProject){target=_blank}, & Featured Apps. 
 
--   Search for an answer: [CyVerse Learning Center](https://learning.cyverse.org)
--   Ask us for help: click here ![In-app chat](./assets/intercom.png) or email [support@CyVerse.org](mailto:support@cyverse.org)
--   Report an issue or submit a change: [Github Repo Link](https://github.com/cyverse-learning-materials/)
--   Send feedback: [learning\@CyVerse.org](learning@CyVerse.org)
+The left side navigation menu shows icons for accessing different parts of the DE. The menu can be expanded by clicking on the three bars in the top left. 
 
+![navigation](../assets/de/navigation.png){width="200"}
 
-![Home_Icon](./assets/homeicon.png){width="25px" height="25px"}\_ [Learning
-Center Home](http://learning.cyverse.org/)
+Sign in from the upper right corner of the DE and click the ![profile]{width="25"} profile icon or clicking the [Login](https://de.cyverse.org/#){target=_blank} link. If you attempt to view the Data Store or launch an App, you will see a pop-up:
+
+![signin](../assets/de/login_required.png){width="300"}
+
+When signing in you will be redirected to our Authentication Service. Enter your CyVerse username and password. 
+
+If you don't have an account yet or you've forgotten your password, you can visit <https://user.cyverse.org>{target=_blank} to create an account.
+
+![keycloak](../assets/de/login_screen.png){width="600"}
+
+After logging in, you'll be returned to the [![home]{width="25"} Home](https://de.cyverse.org/home) Dashboard. 
+
+If you were already on the [![apps]{width="25"} Apps](https://de.cyverse.org/apps){target=_blank} or [![data]{width="25"} Data](https://de.cyverse.org/data){target=_blank} when you logged in, you'll return to that page.
+
+You can take a short tour of the DE's main features by clicking the [help icon ![help]{width="25"}](https://de.cyverse.org/help){target=_blank} in the left sidebar and selecting "Product Tour".
+
+-----------------------------------------------------------------------
+
+**Fix or improve this documentation**
+
+  - Search for an answer:
+     [CyVerse Learning Center](https://learning.cyverse.org)
+  - Ask us for help:
+    click the Intercom icon ![Intercom](../assets/intercom.png){ width="25" } on the lower right-hand side of the page
+  - Report an issue or submit a change:
+    [Github Repo Link](https://github.com/cyverse-learning-materials/)
+  - Send feedback: <Tutorials@CyVerse.org>
+  
+------------------------------------------------------------------------

@@ -1,13 +1,8 @@
-![CyVerese Logo](./assets/cyverse_learning.png)
-
-![Home_Icon](./assets/homeicon.png){width="25px" height="25px"}
-[Learning Center Home](http://learning.cyverse.org/)
-
 # Using Search in the Discovery Environment
 
-Use Search from anywhere in the Discovery Environment to find *Data*,
-*Apps*, and *Analyses*. The Search box is located at the top of the
-page.
+Use Search from anywhere in the Discovery Environment to find *Data*, *Apps*, and *Analyses*. 
+
+The Search box is featured at the top center of the Discovery Environment browser page.
 
 
 ## Searching Data, Apps, and Analyses in the Discovery Environment
