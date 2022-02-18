@@ -23,7 +23,7 @@ VICE is a restricted service, currently accessible from CyVerse US. You must req
 
 ??? Tip 
 
-   **Ensure your request can be approved**
+    **Ensure your request can be approved**
     To get access to VICE, your CyVerse account must be associated with a valid email address from an organization, an educational institution, or a government; e.g., an email ending with `.org`, `.edu`, or `.gov`.  We do not grant VICE access to commercial email addresses, e.g., `@gmail.com`, `@yahoo.com`, `@msn.com`, etc.
 
 -----------------------------------------------------------------------    
@@ -32,8 +32,6 @@ VICE is a restricted service, currently accessible from CyVerse US. You must req
 ## Launching a VICE application
 
 ??? Tip
-   
-   **Featured Apps**
    
     [![][vice]{width=60}](https://de.cyverse.org/apps){target=_blank}
 
@@ -72,7 +70,7 @@ VICE is a restricted service, currently accessible from CyVerse US. You must req
 
 ??? Tip
 
-   **Launching VICE Apps**
-   Even when the application has entered 'Running' status, it may take additional time for input data to be transferred onto the resource with the new container. 
+    **Launching VICE Apps**
+    Even when the application has entered 'Running' status, it may take additional time for input data to be transferred onto the resource with the new container. 
 
 ----------------------------------------------------------------------- 
