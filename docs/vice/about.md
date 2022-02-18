@@ -21,11 +21,13 @@ VICE is a restricted service, currently accessible from CyVerse US. You must req
 
 1.  Visit the [User Portal](https://user.cyverse.org/services){target=_blank} and **Services**; look for [![][vice]{width=30}](https://user.cyverse.org/services){target=_blank} [DE VICE](https://user.cyverse.org/services){target=_blank} and select the **REQUEST ACCESS** link.
 
-??? tip "Ensure your request is approved"
+??? Tip 
 
-    To get access to VICE, ensure that your CyVerse account is associated with a valid email address from an organization, an educational institution, or a government; e.g., an email ending with `.org`, `.edu`, or `.gov`. 
+    **Ensure your request can be approved**
+    To get access to VICE, your CyVerse account must be associated with a valid email address from an organization, an educational institution, or a government; e.g., an email ending with `.org`, `.edu`, or `.gov`.  We do not grant VICE access to commercial email addresses, e.g., `@gmail.com`, `@yahoo.com`, `@msn.com`, etc.
+
+-----------------------------------------------------------------------    
     
-    We do not grant VICE access to commercial email addresses, e.g., `@gmail.com`, `@yahoo.com`, `@msn.com`, etc.
 
 ## Launching a VICE application
 
