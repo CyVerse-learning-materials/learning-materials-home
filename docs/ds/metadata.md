@@ -4,7 +4,7 @@
 
 The Data Store supports a variety of solutions that allow you to
 associate your raw data with metadata. Metadata is of critical
-importance to a quality research (see this article on ), yet it is often
+importance to a quality research (see this article on [FAIR Principles](https://www.nature.com/articles/sdata201618)), yet it is often
 given less consideration until the time of publication and sharing. Here
 are a few metadata features that you can adopt and be aware of at the
 outset, see more of CyVerse's capabilities on the page.
@@ -29,9 +29,9 @@ outset, see more of CyVerse's capabilities on the page.
 !!! Note
 
     You must have *write* or *own* permission to
-    edit an object\'s metadata.
+    edit an object's metadata.
 
-1.  Log into the [Discovery Environment](https://de.cyverse.org/de/) .
+1.  Log into the [Discovery Environment](https://de.cyverse.org/de/).
 2. Click on the (Data Icon) to view to browse for data. Select (checkbox) a single file/folder to add metadata to.
 3. Under the **More Actions** menu, click on the **`Metadata`** choice. You will see existing metadata for the file/folder in the Attribute, Value, Unit (AVU) format.
 
