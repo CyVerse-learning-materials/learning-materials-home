@@ -13,20 +13,12 @@ files, and other details.
 
 ## Browsing and Checking the Status of Analyses in the Discovery Environment
 
-> ::: note
-> ::: title
-> Note
-> :::
->
-> You must be logged in to manage analyses.
-> :::
-
-1\. Open the **Analyses** view by clicking on the (analyses icon) on the
+1. Open the **Analyses** view by clicking on the (analyses icon) on the
 left sidebar of the DE interface to monitor the status of your submitted
 analysis. The analysis launched most recently will be at the top of the
 list.
 
-2\. Analyses can be sorted by Name, Start date, End date or Status. To
+2. Analyses can be sorted by Name, Start date, End date or Status. To
 sort your analyses, hover your cursor over the name of the column you
 wish to sort by and click on the arrow that appears beside the column
 name.
@@ -54,15 +46,15 @@ name.
 > -   **Failed**: The analyses has resulted in an error.
 > :::
 
-3\. To filter your analyses by user, click on the View dropdown menu in
+3. To filter your analyses by user, click on the View dropdown menu in
 the upper left corner and select either \'My analyses\' or \'Shared with
 me\'. The default view is \'My analyses'.
 
-4\. To further filter your analyses by app type, click on the Filter
+4. To further filter your analyses by app type, click on the Filter
 dropdown menu and select the type of analyses you would like to see
 (i.e., HPC, DE, VICE, or OSG).
 
-5\. To open and view the output folder of a completed analysis, click on
+5. To open and view the output folder of a completed analysis, click on
 the output folder icon at the right side of that particular analysis.
 
 ## Relaunching an Analyses in the Discovery Environment
