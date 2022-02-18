@@ -130,7 +130,7 @@ mount a WebDAV folder into the file system from a Linux terminal.
 > 2.  Create a directory where you to want to mount the data, e.g.,
 >     mkdir /tmp/data.
 > 3.  Mount the data as root, i.e., `sudo mount -o gid=<you>,uid=<you> -t davfs <link> /tmp/data`, where `<you>` is your username on the
->     Linux machine and `<link` is the URL to the WebDAV folder you want
+>     Linux machine and `<link>` is the URL to the WebDAV folder you want
 >     to mount.
 > 4.  Provide your CyVerse username and password if prompted.
 

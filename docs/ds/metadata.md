@@ -7,7 +7,7 @@ associate your raw data with metadata. Metadata is of critical
 importance to a quality research (see this article on ), yet it is often
 given less consideration until the time of publication and sharing. Here
 are a few metadata features that you can adopt and be aware of at the
-outset, see more of CyVerse\'s capabilities on the page.
+outset, see more of CyVerse's capabilities on the page.
 
 **Some things to remember about the platform**
 
@@ -24,51 +24,35 @@ outset, see more of CyVerse\'s capabilities on the page.
 
 ------------------------------------------------------------------------
 
-## *Viewing and Editing Metadata for a Single File/folder in the Discovery Environment*
+## Viewing and Editing Metadata for a Single File/folder in the Discovery Environment
 
-> ::: note
-> ::: title
-> Note
-> :::
->
-> You must have [write]{.title-ref} or [own]{.title-ref} permission to
-> edit an object\'s metadata.
-> :::
->
-> 1.  Log into the .
->
-> 2\. Click on the (Data Icon) to view to browse for data. Select
->
-> :   (checkbox) a single file/folder to add metadata to.
->
-> 3\. Under the **More Actions** menu, click on the **\`Metadata\`** choice.
->
-> :   You will see existing metadata for the file/folder in the
->     Attribute, Value, Unit (AVU) format.
->
->     ::: tip
->     ::: title
->     Tip
->     :::
->
->     A single piece of metadata, or an AVU, is made up of attributes,
->     values, and units. An attribute is a changeable property or
->     characteristic of the file or folder you have selected that can be
->     set to a value. For example, \"time point\" might be an attribute
->     of a file, while \'7\' could be its value, and hour a unit of
->     time.
->     :::
+!!! Note
+
+    You must have *write* or *own* permission to
+    edit an object\'s metadata.
+
+1.  Log into the [Discovery Environment](https://de.cyverse.org/de/) .
+2. Click on the (Data Icon) to view to browse for data. Select (checkbox) a single file/folder to add metadata to.
+3. Under the **More Actions** menu, click on the **`Metadata`** choice. You will see existing metadata for the file/folder in the Attribute, Value, Unit (AVU) format.
+
+!!! Tip
+
+    A single piece of metadata, or an AVU, is made up of attributes,
+    values, and units. An attribute is a changeable property or
+    characteristic of the file or folder you have selected that can be
+    set to a value. For example, "time point" might be an attribute
+    of a file, while '7' could be its value, and hour a unit of time.
 
 *Adding metadata*
 
-1.  Click the \"+ Add Metadata\" button to add a new entry. Then follow
+1.  Click the "+ Add Metadata" button to add a new entry. Then follow
     the directions for editing metadata below.
 
 *Editing or deleting metadata*
 
-1.  You may use the \"pencil\" icon to edit an existing entry or the
-    \"trash can\" icon to delete an entry.
-2.  After you have made any edits or deletion, click \'Save\' (on the
+1.  You may use the "pencil" icon to edit an existing entry or the
+    "trash can" icon to delete an entry.
+2.  After you have made any edits or deletion, click 'Save' (on the
     top right of the screen) to save all entries and apply the metadata.
 
 ## *Adding Metadata to Multiple Files/folder in the Discovery Environment*
