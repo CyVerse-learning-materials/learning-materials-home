@@ -21,9 +21,9 @@ VICE is a restricted service, currently accessible from CyVerse US. You must req
 
 1.  Visit the [User Portal](https://user.cyverse.org/services){target=_blank} and **Services**; look for [![][vice]{width=30}](https://user.cyverse.org/services){target=_blank} [DE VICE](https://user.cyverse.org/services){target=_blank} and select the **REQUEST ACCESS** link.
 
-??? Tip: VICE Access 
+??? Tip 
 
-    **Ensure your request can be approved**
+   **Ensure your request can be approved**
     To get access to VICE, your CyVerse account must be associated with a valid email address from an organization, an educational institution, or a government; e.g., an email ending with `.org`, `.edu`, or `.gov`.  We do not grant VICE access to commercial email addresses, e.g., `@gmail.com`, `@yahoo.com`, `@msn.com`, etc.
 
 -----------------------------------------------------------------------    
@@ -31,8 +31,10 @@ VICE is a restricted service, currently accessible from CyVerse US. You must req
 
 ## Launching a VICE application
 
-??? Tip: Featured Apps
-
+??? Tip
+   
+   **Featured Apps**
+   
     [![][vice]{width=60}](https://de.cyverse.org/apps){target=_blank}
 
     CyVerse maintains featured apps from the [Rocker-Project](https://rocker-project/images){target=_blank}, [Project Jupyter](https://jupyter-docker-stacks.readthedocs.io/en/latest/index.html){target=_blank}, and [Visual Studio Code](https://code.visualstudio.com/docs/remote/create-dev-container){target=_blank}
@@ -68,8 +70,9 @@ VICE is a restricted service, currently accessible from CyVerse US. You must req
 
 6.  When the Status of the launch is "Running", click on the running App under "Analyses"; a new tab will open in your browser.
 
-??? Tip: Launching VICE Apps
+??? Tip
 
-    Even when the application has entered 'Running' status, it may take additional time for input data to be transferred onto the resource with the new container. 
+   **Launching VICE Apps**
+   Even when the application has entered 'Running' status, it may take additional time for input data to be transferred onto the resource with the new container. 
 
 ----------------------------------------------------------------------- 
