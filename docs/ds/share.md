@@ -8,7 +8,7 @@ through the CyVerse [Data Commons](https://wiki.cyverse.org/wiki/display/DC/Data
 
 ------------------------------------------------------------------------
 
-## *Share a File in Discovery Environment with a URL (Public Link)*
+## Share a File in Discovery Environment with a URL (Public Link)
 
 You can quickly share files in your Data Store using a Discovery
 Environment Public Link.
@@ -78,7 +78,7 @@ write, or own files/folders
         permissions) are described in this chart:
 
         | Permission level | Read | Download/Save | Metadata | Rename | Move | Delete |
-        | --- | --- | --- | --- | --- | --- |
+        | --- | --- | --- | --- | --- | --- | --- |
         | Read | **X** | **X** | **View** |                      
         | Write | **X** | **X** | **Add/Edit** |
         | Own | **X** | **X** | **Add/Edit** | **X** | **X** | **X** |

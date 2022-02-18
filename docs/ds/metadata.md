@@ -96,42 +96,42 @@ Follow the steps in the "Editing or deleting metadata" from the previous section
 
 2.  Edit the template in one of two ways:
 
-    -  *If all data will be in a single folder*
-    
-            a.  In the *blank.csv* spreadsheet, in the *'file name or path'* column, enter the file names of all the files/folder in that folder you wish to annotate with metadata.
-            
-                !!! Tip
+    -   *If all data will be in a single folder*
 
-                    **Finding the file path in the DE**
+        1.  In the *blank.csv* spreadsheet, in the *'file name or path'* column, enter the file names of all the files/folder in that folder you wish to annotate with metadata.
+        
+            !!! Tip
 
-                    In any data window click the (kebab menu or 3-dots menu) next
-                    to any file or folder; choose **copy path** to get the path to
-                    that item in the Data Store.
-            b.  In the remaining columns of the template, enter the values for
-                each file/attribute combination that apply.
-            c.  If desired, add additional columns to the end of the template.
-                The metadata in the additional columns will be saved in the
-                Data Store but will not be stored as part of the template.
-            d.  Save the file in **CSV format**. Make sure none of the names
-                of the files or the parent folder includes spaces or special
-                characters. You may name this metadata file anything you wish,
-                but keep it in CSV format.
+                **Finding the file path in the DE**
+
+                In any data window click the (kebab menu or 3-dots menu) next
+                to any file or folder; choose **copy path** to get the path to
+                that item in the Data Store.
+        2.  In the remaining columns of the template, enter the values for
+            each file/attribute combination that apply.
+        3.  If desired, add additional columns to the end of the template.
+            The metadata in the additional columns will be saved in the
+            Data Store but will not be stored as part of the template.
+        4.  Save the file in **CSV format**. Make sure none of the names
+            of the files or the parent folder includes spaces or special
+            characters. You may name this metadata file anything you wish,
+            but keep it in CSV format.
 
     -  *If data will be in multiple folders*
 
-            a.  In the *blank.csv* spreadsheet, in the *'filename or path* column, enter the full path of the top-level folder (e.g. `/iplant/home/YOURUSERNAME/FOLDERNAME`) 
-            b.  In the remaining columns in the first row, enter the values
-                for each file/attribute combinations
-            c.  Repeat for each file, but make sure to add the full file path
-                (e.g. `/iplant/home/YOURUSERNAME/FOLDERNAME`) for
-                each file.
-            d.  If desired, add additional columns to the end of the template.
-                The metadata in the columns will be saved in the Data Store
-                but will not be stored as part of the template.
-            e.  Save the file in **CSV format**. Make sure none of the names
-                of the files or the parent folder includes spaces or special
-                characters. You may name this metadata file anything you wish,
-                but keep it in CSV format.
+        1.  In the *blank.csv* spreadsheet, in the *'filename or path* column, enter the full path of the top-level folder (e.g. `/iplant/home/YOURUSERNAME/FOLDERNAME`) 
+        2.  In the remaining columns in the first row, enter the values
+            for each file/attribute combinations
+        3.  Repeat for each file, but make sure to add the full file path
+            (e.g. `/iplant/home/YOURUSERNAME/FOLDERNAME`) for
+            each file.
+        4.  If desired, add additional columns to the end of the template.
+            The metadata in the columns will be saved in the Data Store
+            but will not be stored as part of the template.
+        5.  Save the file in **CSV format**. Make sure none of the names
+            of the files or the parent folder includes spaces or special
+            characters. You may name this metadata file anything you wish,
+            but keep it in CSV format.
 
 3.  In an open 'Data' window in the Discovery Environment, navigate to
     appropriate location for uploading the template:

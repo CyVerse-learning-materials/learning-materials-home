@@ -37,7 +37,7 @@ If that does not work, an older version of iCommands, 4.1.12, can be
 installed from RENCI's website.
 
 ``` base
-$ sudo yum install \
+sudo yum install \
   https://files.renci.org/pub/irods/releases/4.1.12/centos7/irods-icommands-4.1.12-centos7-x86_64.rpm
 ```
 
@@ -196,15 +196,15 @@ CyVerse Data Store configuration:
     configured using the `ils` command to list the contents of your Data
     Store home directory.
 
-    > ``` bash
-    > $ ils
-    >   /iplant/home/your_home_directory:
-    > file1
-    > file2
-    > file3
-    > C- /iplant/home/your_home_directory/analyses
-    > C- /iplant/home/your_home_directory/another_folder
-    > ```
+    ``` bash
+    ils
+       /iplant/home/your_home_directory:
+    file1
+    file2
+    file3
+    C- /iplant/home/your_home_directory/analyses
+    C- /iplant/home/your_home_directory/another_folder
+    ```
 
 ------------------------------------------------------------------------
 
@@ -213,8 +213,8 @@ CyVerse Data Store configuration:
 You can access public data in the CyVerse Datastore with iCommands
 using:
 
-> -   Username: anonymous
-> -   Password: \<leave blank>
+-   Username: anonymous
+-   Password: \<leave blank>
 
 ## Upload Files/folders from local Computer to Data Store
 
@@ -231,29 +231,26 @@ using:
 
 See the [full iCommands iput documentation](https://docs.irods.org/master/icommands/user/#iput) for more information.
 
-> 1.  Upload a directory using the `iput` command. Remember,
->     the -r flag is to recursively upload a directory, so if you are
->     uploading a single file, omit the -r flag.
->
-> > ``` bash
-> >  iput -rPT /local_directory /iplant/home/cyverse_username/destination_folder
-> >  # This command will output the progress as it uploads your local directory
-> >```
-> >
-> > There are several optional arguments that the upload iCommand `iput` can
-> > take:
-> >
-> > ``` bash
-> >
-> >   iput -r # For recursive transfer of directories and their contents
-> >
-> >   iput -P # display the progress of the upload
-> >
-> >   iput -f # force the upload and overwrite
-> >
-> >   iput -T # Renew socket connection after 10 min (May help connections
-> >           # that are failing due to some connection/firewall settings)
-> > ```
+1.  Upload a directory using the `iput` command. Remember, the -r flag is to recursively upload a directory, so if you are uploading a single file, omit the -r flag.
+
+``` bash
+iput -rPT /local_directory /iplant/home/cyverse_username/destination_folder
+# This command will output the progress as it uploads your local directory
+```
+
+There are several optional arguments that the upload iCommand `iput` can
+take:
+
+``` bash
+iput -r # For recursive transfer of directories and their contents
+
+iput -P # display the progress of the upload
+
+iput -f # force the upload and overwrite
+
+iput -T # Renew socket connection after 10 min (May help connections
+        # that are failing due to some connection/firewall settings)
+```
 
 ------------------------------------------------------------------------
 
@@ -261,30 +258,30 @@ See the [full iCommands iput documentation](https://docs.irods.org/master/icomma
 
 See the for more information.
 
-> 1.  Download a file using the `iget` command. Remember,
->     the `-r` flag is to recursively upload a directory, so if you are
->     uploading a single file, omit the -r flag.
->
-> > ``` bash
-> >   iget -PT /iplant/home/cyverse_username/target_file /local_destination
-> >   # This command will output the progress as it downloads to your local machine
-> > ```
->
+1.  Download a file using the `iget` command. Remember,
+     the `-r` flag is to recursively upload a directory, so if you are
+     uploading a single file, omit the -r flag.
+
+``` bash
+iget -PT /iplant/home/cyverse_username/target_file /local_destination
+# This command will output the progress as it downloads to your local machine
+```
+
 !!! Tip
 
-   There are several optional arguments that the upload iCommand
-   [iget]{.title-ref} can take:
+  There are several optional arguments that the upload iCommand
+  `iget` can take:
 
-> > ``` bash
-> >  iget -r # For recursive transfer of directories and their contents
-> >
-> >  iget -P # display the progress of the upload
-> >
-> >  iget -f # force the upload and overwrite
-> >
-> >  iget -T # Renew socket connection after 10 min (May help connections
-> >           # that are failing due to some connection/firewall settings)
-> > ```
+``` bash
+iget -r # For recursive transfer of directories and their contents
+
+iget -P # display the progress of the upload
+
+iget -f # force the upload and overwrite
+
+iget -T # Renew socket connection after 10 min (May help connections
+        # that are failing due to some connection/firewall settings)
+```
 
 ------------------------------------------------------------------------
 
@@ -293,9 +290,9 @@ See the for more information.
 For the Linux distributions there are three extra iCommands that support
 common NetCDF operations:
 
-> -   `inc` performs data operations on a list of NetCDF files,
-> -   `incarch` archives a open ended time series data,
-> -   `incattr` performs operation on attributes of NetCDF files.
+-   `inc` performs data operations on a list of NetCDF files,
+-   `incarch` archives a open ended time series data,
+-   `incattr` performs operation on attributes of NetCDF files.
 
 Each of these commands accepts the `-h` command line option. When a
 command is called with this option, it displays the command's help
