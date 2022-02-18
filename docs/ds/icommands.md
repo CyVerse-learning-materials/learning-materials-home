@@ -231,7 +231,7 @@ using:
 
 See the [full iCommands iput documentation](https://docs.irods.org/master/icommands/user/#iput) for more information.
 
-> 1.  Upload a directory using the [iput]{.title-ref} command. Remember,
+> 1.  Upload a directory using the `iput` command. Remember,
 >     the -r flag is to recursively upload a directory, so if you are
 >     uploading a single file, omit the -r flag.
 >

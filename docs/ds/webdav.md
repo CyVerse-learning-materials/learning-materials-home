@@ -13,7 +13,7 @@ between two folders on their computer.
 
 ------------------------------------------------------------------------
 
-## *Limitations*
+## Limitations
 
 WebDAV works best for small files or small collections of files. There
 is no hard size limit for files, but it is recommended to not work with
@@ -21,11 +21,11 @@ files over 1 GiB in size. However, 10 GiB files have been downloaded
 from the CyVerse WebDAV service using a web browser with decent
 performance. The iCommands still out perform WebDAV. For better ways to
 download large files or large sets of files, please see the pages for
-[iCommands](./step2.html) or [CyberDuck](./step1.html).
+[iCommands](./icommands.html) or [CyberDuck](./cyberduck.html).
 
 ------------------------------------------------------------------------
 
-## *Accessing CyVerse data via WebDAV Services*
+## Accessing CyVerse data via WebDAV Services
 
 There are two access points to CyVerse WebDAV services: one for
 anonymous read-only access and one for authenticated access. These
@@ -40,7 +40,7 @@ WebDAV provides anonymous read-only access through URLs rooted at
 `https://data.cyverse.org/dav-anon/`. All data that can be seen by the
 anonymous user can be accessed anonymously through this service,
 excluding the immediate contents of `/iplant/home` and the immediate
-contents of `/iplant/home/<username>`, where \<username> is any CyVerse
+contents of `/iplant/home/<username>`, where `<username>` is any CyVerse
 login name.
 
 The service also provided authenticated access through URLs rooted at
@@ -50,7 +50,7 @@ permission level they have on the file or folder.
 
 ## User Data
 
-A user with a CyVerse login of \<username> would use the WebDAV link
+A user with a CyVerse login of `<username` would use the WebDAV link
 `https://data.cyverse.org/dav/iplant/home/<username>/` to access their
 data.
 
@@ -64,17 +64,17 @@ To access data from specific projects stored in iRODS at
 
 To access the data curated by CyVerse in the Data Commons (that is,
 datasets with DOIs), use the following link:
-<https://data.cyverse.org/dav-anon/iplant/commons/cyverse_curated/> .
+<https://data.cyverse.org/dav-anon/iplant/commons/cyverse_curated/>.
 
-## *Common Ways to Access the WebDAV Service*
+## Common Ways to Access the WebDAV Service
 
-*Web Browser*
+**Web Browser**
 
 Since WebDAV is an extension of HTTP, any web browser can be used to
 browse and download data through the service, using the links provided
 above.
 
-*File Manager*
+**File Manager**
 
 Most common operating systems come with a file manager application that
 can interface with a WebDAV service and can mount a WebDAV folder into
@@ -82,7 +82,7 @@ the file system being managed. This allows other application running on
 the same computer as the file manager to access data hosted by a WebDAV
 service as if it were local.
 
-*Accessing through OS X Finder*
+**Accessing through OS X Finder**
 
 Use these instructions to connect to the WebDAV service with OS X
 Finder.
@@ -93,7 +93,7 @@ Finder.
 > 3.  Enter the URL for the folder to access.
 > 4.  Provide your CyVerse username and password if prompted.
 
-*Accessing through Windows File Explorer*
+**Accessing through Windows File Explorer**
 
 Use these instructions to connect to the WebDAV service with Windows
 File Explorer.
@@ -105,7 +105,7 @@ File Explorer.
 > 5.  Enter the URL for the folder to access.
 > 6.  Provide your CyVerse username and password if prompted.
 
-*Accessing through Gnome Files*
+**Accessing through Gnome Files**
 
 Use these instruction to open the WebDAV service from the Gnome desktop
 using Files.
@@ -129,17 +129,16 @@ mount a WebDAV folder into the file system from a Linux terminal.
 >     install davfs2.
 > 2.  Create a directory where you to want to mount the data, e.g.,
 >     mkdir /tmp/data.
-> 3.  Mount the data as root, i.e., sudo mount -o gid=\<you>,uid=\<you>
->     -t davfs \<link> /tmp/data, where \<you> is your username on the
->     Linux machine and \<link> is the URL to the WebDAV folder you want
+> 3.  Mount the data as root, i.e., `sudo mount -o gid=<you>,uid=<you> -t davfs <link> /tmp/data`, where `<you>` is your username on the
+>     Linux machine and `<link` is the URL to the WebDAV folder you want
 >     to mount.
 > 4.  Provide your CyVerse username and password if prompted.
 
-## *Summary*
+## Summary
 
 This guide has introduced the basic data management tools you need to
 manage the lifecycle of Data in CyVerse. There are many more features to
-explore and these are detailed in the full .
+explore and these are detailed in the full [Data Store Manual](https://cyverse.atlassian.net/wiki/spaces/DS/overview) .
 
 ------------------------------------------------------------------------
 
