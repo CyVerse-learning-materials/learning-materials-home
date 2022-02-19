@@ -31,19 +31,21 @@ following services/software*
 
 !!! Warning
 
-  When uploading your data to the Data Store you should not upload
-  files/folders with names containing spaces (e.g. experiment one.fastq)
-  or name that contain special characters (e.g. \~ \` ! @ \# \$ % \^ & \*
-  ( ) + = { } \[ \] \| : ; \" \' \< \> , ? /). The Apps on the Discovery
-  Environment and most command line apps will typically not tolerate these
-  characters. For long file/folder names the use of underscores (e.g.
-  experiment_one.fastq) is the recommended practice.
+    When uploading your data to the Data Store you should not upload
+    files/folders with names containing spaces (e.g. experiment one.fastq)
+    or name that contain special characters (e.g. \~ \` ! @ \# \$ % \^ & \*
+    ( ) + = { } \[ \] \| : ; \" \' \< \> , ? /). The Apps on the Discovery
+    Environment and most command line apps will typically not tolerate these
+    characters. For long file/folder names the use of underscores (e.g.
+    experiment_one.fastq) is the recommended practice.
 
 ------------------------------------------------------------------------
 
 **Fix or improve this documentation**
 
 -   Search for an answer: [CyVerse Learning Center](https://cyverse-learning-materials.github.io/learning-materials-home)
--   Ask us for help: click on the lower right-hand side of the page
+-   Ask us for help: click the Intercom icon ![Intercom](../assets/intercom.png){ width="25" } on the lower right-hand side of the page
 -   Report an issue or submit a change: [Github Repo](https://github.com/CyVerse-learning-materials/data_store_guide)
 -   Send feedback: [learning@CyVerse.org](learning@CyVerse.org)
+
+------------------------------------------------------------------------

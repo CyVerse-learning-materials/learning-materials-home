@@ -33,6 +33,8 @@ Environment Public Link.
     this link with will be able to download the file. You can test the
     link in a new web browser window.
 
+    ![public_link](../assets/ds/public_link.png)
+
     !!! Tip
 
         You can quickly create a link to a file by clicking the "3 dots"
@@ -63,6 +65,8 @@ write, or own files/folders
 3.  Next, under 'Permissions' choose what permission you want to grant
     the recipient(s) you are sharing this file with.
 
+    ![sharing](../assets/ds/sharing.png)
+
 4.  Once you are finished, click Done to begin sharing. The user will be
     notified that a file has been shared with them.
 
@@ -88,6 +92,8 @@ write, or own files/folders
 **Fix or improve this documentation**
 
 -   Search for an answer: [CyVerse Learning Center](https://cyverse-learning-materials.github.io/learning-materials-home)
--   Ask us for help: click on the lower right-hand side of the page
+-   Ask us for help: click the Intercom icon ![Intercom](../assets/intercom.png){ width="25" } on the lower right-hand side of the page
 -   Report an issue or submit a change: [Github Repo](https://github.com/CyVerse-learning-materials/data_store_guide)
 -   Send feedback: [learning@CyVerse.org](learning@CyVerse.org)
+
+------------------------------------------------------------------------

@@ -32,7 +32,7 @@ outset, see more of CyVerse's capabilities on the page.
     edit an object's metadata.
 
 1.  Log into the [Discovery Environment](https://de.cyverse.org/de/).
-2. Click on the (Data Icon) to view to browse for data. Select (checkbox) a single file/folder to add metadata to.
+2. Click on the D:\Git_Local\learning-materials-home\docs\assets\de\menu_items\dataIcon.png(Data Icon) to view to browse for data. Select (checkbox) a single file/folder to add metadata to.
 3. Under the **More Actions** menu, click on the **'Metadata'** choice. You will see existing metadata for the file/folder in the Attribute, Value, Unit (AVU) format.
 
 !!! Tip
@@ -63,15 +63,14 @@ outset, see more of CyVerse's capabilities on the page.
 
 1.  Log into the [Discovery Environment](https://de.cyverse.org/de/).
 
-2.  Click on the (Data Icon) to open a Data window. Select (checkbox) a
-    single file/folder to add metadata to. Next,
+2.  Click on the ![Data_Icon](../assets/de/menu_items/dataIcon.png){ width="25" } (Data Icon) to open a Data window. Select (checkbox) a single file/folder to add metadata to.
 
 3.  Under the **More Actions** menu, click on the **Metadata**. Click on
     the subsequent **More Actions** menu and select **View in
     Template**. You have two choices in using the template:
 
      **A.** Choose a template and clicking **Select** will allow you to apply the template and edit the metadata manually in the DE interface. <br>
-     **B.** Clicking the (Download icon) will download a .csv file you can edit and upload (See applying Bulk metadata below).
+     **B.** Clicking the ![Download_Icon](../assets/ds/download_icon_OLD.png){ width="25" }(Download icon) will download a .csv file you can edit and upload (See applying Bulk metadata below).
 
     click *OK* to download. (In this example, we will use
     the *DOI Request - DataCite Metadata*) template.
@@ -170,6 +169,8 @@ preceding section to view metadata.
 **Fix or improve this documentation**
 
 -   Search for an answer: [CyVerse Learning Center](https://cyverse-learning-materials.github.io/learning-materials-home)
--   Ask us for help: click on the lower right-hand side of the page
+-   Ask us for help: click the Intercom icon ![Intercom](../assets/intercom.png){ width="25" } on the lower right-hand side of the page
 -   Report an issue or submit a change: [Github Repo](https://github.com/CyVerse-learning-materials/data_store_guide)
 -   Send feedback: [learning@CyVerse.org](learning@CyVerse.org)
+
+------------------------------------------------------------------------
