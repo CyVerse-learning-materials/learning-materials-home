@@ -1,5 +1,7 @@
 # Data Store Guide
 
+![DataStore_Icon](../assets\ds\datastore-icon.png)
+
 ## Goal
 
 The Data Store is more than having a place to save your files. The Data
