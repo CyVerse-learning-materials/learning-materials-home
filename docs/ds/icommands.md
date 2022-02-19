@@ -142,22 +142,22 @@ installer for it.
 
 !!! Note
 
-  Newer Mac OS X now ships with `zsh` as its default shell rather than
-  `bash`. The installer will attempt to write some environmental variables
-  to the `.bashrc` file which for `zsh` is called the `.zshrc`.
+    Newer Mac OS X now ships with `zsh` as its default shell rather than
+    `bash`. The installer will attempt to write some environmental variables
+    to the `.bashrc` file which for `zsh` is called the `.zshrc`.
 
-  By default, this installation will place iCommands in your system `PATH`
-  so you should be ready to run iCommands immediately at the terminal. If
-  this does not happen (i.e. you get an error when trying to run `iinit`),
-  you can add the icommands path by editing your `.zshrc` file:
+    By default, this installation will place iCommands in your system `PATH`
+    so you should be ready to run iCommands immediately at the terminal. If
+    this does not happen (i.e. you get an error when trying to run `iinit`),
+    you can add the icommands path by editing your `.zshrc` file:
 
-  ``` bash
-  # add iCommands Path
-  export PATH="/Applications/icommands/:$PATH"
-  export IRODS_PLUGINS_HOME=/Applications/icommands/plugins/
-  ```
+    ``` bash
+    # add iCommands Path
+    export PATH="/Applications/icommands/:$PATH"
+    export IRODS_PLUGINS_HOME=/Applications/icommands/plugins/
+    ```
 
-  and then in terminal source the file `source ~/.zshrc`.
+    and then in terminal source the file `source ~/.zshrc`.
 
 ------------------------------------------------------------------------
 
@@ -165,9 +165,9 @@ installer for it.
 
 !!! Note
 
-  If using iCommands in an HPC environment, which already has iCommands
-  installed, run the `module load irods` command to get access to iRODS
-  iCommands.
+    If using iCommands in an HPC environment, which already has iCommands
+    installed, run the `module load irods` command to get access to iRODS
+    iCommands.
 
 Once iCommands is installed and in the system `PATH` these
 instructions apply at a terminal in Mac OS X and Linux systems.
@@ -186,8 +186,8 @@ CyVerse Data Store configuration:
 
 !!! Note
 
-  You can reconfigure iCommands for other iRODS data stores by changing
-  your environment file.
+    You can reconfigure iCommands for other iRODS data stores by changing
+    your environment file.
 
 3.  Verify that your iCommands installation works and is properly
     configured using the `ils` command to list the contents of your Data
@@ -217,14 +217,14 @@ using:
 
 !!! Warning
 
-  When uploading your data to the Data Store you should not upload
-  files/ folders with names containing spaces (e.g. experiment
-  one.fastq) or name that contain special characters (e.g. \~ \`\` ! @
-  \# \$ % \^ & \* ( ) + = { } \[ \] \| : ; \"\" \'\' \< \> , ? /). The
-  Apps on the Discovery Environment and most command line applications
-  will typically not tolerate these characters. For long file/folder
-  names the use of underscores (e.g. experiment_one.fastq) is the
-  recommended practice.
+    When uploading your data to the Data Store you should not upload
+    files/ folders with names containing spaces (e.g. experiment
+    one.fastq) or name that contain special characters (e.g. \~ \`\` ! @
+    \# \$ % \^ & \* ( ) + = { } \[ \] \| : ; \"\" \'\' \< \> , ? /). The
+    Apps on the Discovery Environment and most command line applications
+    will typically not tolerate these characters. For long file/folder
+    names the use of underscores (e.g. experiment_one.fastq) is the
+    recommended practice.
 
 See the [full iCommands iput documentation](https://docs.irods.org/master/icommands/user/#iput) for more information.
 

@@ -78,7 +78,7 @@ write, or own files/folders
         permissions) are described in this chart:
 
         | Permission level | Read | Download/Save | Metadata | Rename | Move | Delete |
-        | --- | --- | --- | --- | --- | --- | --- |
+        | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
         | Read | **X** | **X** | **View** |                      
         | Write | **X** | **X** | **Add/Edit** |
         | Own | **X** | **X** | **Add/Edit** | **X** | **X** | **X** |
