@@ -1,6 +1,6 @@
 # Data Store Guide
 
-![DataStore_Icon](../assets\ds\datastore-icon.png)
+![DataStore_Icon](../assets/ds/datastore-icon.png)
 
 ## Goal
 

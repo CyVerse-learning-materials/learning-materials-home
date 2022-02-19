@@ -34,7 +34,7 @@ nav:
   - 'Run Analyses':
     - 'Introduction': de/intro.md
     - 'Logging In': de/login.md
-    - 'Managing Data': de/manage_data.md
+    - 'Managing Data through the DE': de/manage_data.md
     - 'Using Apps': de/using_apps.md
     - 'Managing Analyses': de/managing_analyses.md
     - 'Interactive Analysis': vice/about.md

@@ -136,7 +136,7 @@ You may make project public, in which case users will have the ability to view t
 1.  Access the DNA Subway website at [https://dnasubway.cyverse.org/](); login to Subway.
 2.  Access your selected project by clicking the project title.
 3.  Under the 'Project Information' tab, toggle the project setting to 'Public' or 'Private' as desired.
-     ![project_info_tab](./img/dna_subway/project_info_tab.png){width="150px" height="100px"}
+     ![project_info_tab](assets/dna_subway/project_info_tab.png){width="150px" height="100px"}
 ------------------------------------------------------------------------
 ## Walkthrough of DNA Subway Red Line - Genome Annotation
 Annotation adds features and information to a DNA sequence -- such as genes and their locations, structures, and functions.
@@ -224,13 +224,10 @@ One you have created a Red Line Project, you may begin the process of
 generating and assembling predictions and evidence that can be used to
 annotate genes.
 
-> 1.  Click 'RepeatMasker'
->
-> 2.  When \'RepeatMasker\' turns \'green\' and the icon displays a
->     \'V\' (view); click \'RepeatMasker\' again to view results.
->
->     ![repeat_results](./img/dna_subway/repeat_results.png){width="300px"
->     height="200px"}
+1.  Click 'RepeatMasker'
+2.  When \'RepeatMasker\' turns \'green\' and the icon displays a
+    \'V\' (view); click \'RepeatMasker\' again to view results.
+    ![repeat_results](assets/dna_subway/repeat_results.png){width="300px" height="200px"}
 
 ### **Example Exercise - Repeat Masking: Arabodopsis ChrI**
 
