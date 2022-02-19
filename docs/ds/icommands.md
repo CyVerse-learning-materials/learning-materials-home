@@ -159,7 +159,6 @@ installer for it.
 
   and then in terminal source the file `source ~/.zshrc`.
 
-
 ------------------------------------------------------------------------
 
 ## iCommands First-time Configuration
