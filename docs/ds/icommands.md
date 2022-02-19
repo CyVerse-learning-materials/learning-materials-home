@@ -130,15 +130,15 @@ cd irods-icommands-debs/
 iRODS doesn't currently support Mac OS X, but CyVerse has built an
 installer for it.
 
-> 1.  Download the CyVerse-specific [Mac OS iCommands Download](https://cyverse.atlassian.net/wiki/download/attachments/241869823/cyverse-icommands-4.1.9.pkg?version=3&modificationDate=1472820029000&cacheVersion=1&api=v2).
-> 2.  Open the file by locating it in your Finder; right-click to run
->     the installer. You may get a security warning noting the file is
->     from an "unidentified developer." You may bypass this warning by
->     going to 'System Preferences', selecting the 'Security &
->     Privacy' menu, and clicking the 'Open Anyway' button to
->     proceed.
-> 3.  Follow the prompts to begin the installation. You will need to
->     know your administrator password to install new software.
+ 1.  Download the CyVerse-specific [Mac OS iCommands Download](https://cyverse.atlassian.net/wiki/download/attachments/241869823/cyverse-icommands-4.1.9.pkg?version=3&modificationDate=1472820029000&cacheVersion=1&api=v2).
+2. Open the file by locating it in your Finder; right-click to run
+  the installer. You may get a security warning noting the file is
+  from an "unidentified developer." You may bypass this warning by
+  going to 'System Preferences', selecting the 'Security &
+  Privacy' menu, and clicking the 'Open Anyway' button to
+  proceed.
+3. Follow the prompts to begin the installation. You will need to
+  know your administrator password to install new software.
 
 !!! Note
 
@@ -173,13 +173,11 @@ installer for it.
 Once iCommands is installed and in the system `PATH` these
 instructions apply at a terminal in Mac OS X and Linux systems.
 
-> 1.  Open terminal
->
-> 2.  Type `iinit` command to start the configuration
->     process. When prompted, enter the values shown below as comments
->     in the example code block.
->
->     CyVerse Data Store configuration:
+1.  Open terminal
+2.  Type `iinit` command to start the configuration
+    process. When prompted, enter the values shown below as comments
+    in the example code block.
+    CyVerse Data Store configuration:
 
 CyVerse Data Store configuration:
 
@@ -269,8 +267,7 @@ iget -PT /iplant/home/cyverse_username/target_file /local_destination
 
 !!! Tip
 
-  There are several optional arguments that the upload iCommand
-  `iget` can take:
+    There are several optional arguments that the upload iCommand `iget` can take:
 
 ``` bash
 iget -r # For recursive transfer of directories and their contents
@@ -298,24 +295,23 @@ Each of these commands accepts the `-h` command line option. When a
 command is called with this option, it displays the command's help
 documentation. Please see this help documentation for more information.
 
-> **Installation**
->
-> 1.  Install iRODS Runtime. Before the NetCDF iCommands can be
->     installed, the current version of the iRODS run-time library needs
->     to be installed. Please install the appropriate version (e.g.
->     `irods-runtime-X-X-XX`). The distribution specific packages can be
->     found on [RENCI's iRODs website](https://files.renci.org/pub/irods/releases/).
->
-> 2.  Install NetCDF API. Once the run-time library is installed, the
->     iRODS NetCDF API library needs to be installed. Please use the
->     appropriate link to the download the installation package and
->     install it. The package installer will likely warn that irods user
->     and/or group don't exist, and that it will be using root instead.
->     These warnings are harmless, since the package contents should be
->     installed with root ownership.
->
->     > - CentOS7 NetCDF API
->     > - Ubuntu 14+ NetCDF API 
+**Installation**
+
+1.  Install iRODS Runtime. Before the NetCDF iCommands can be
+    installed, the current version of the iRODS run-time library needs
+    to be installed. Please install the appropriate version (e.g.
+    `irods-runtime-X-X-XX`). The distribution specific packages can be
+    found on [RENCI's iRODs website](https://files.renci.org/pub/irods/releases/).
+2.  Install NetCDF API. Once the run-time library is installed, the
+    iRODS NetCDF API library needs to be installed. Please use the
+    appropriate link to the download the installation package and
+    install it. The package installer will likely warn that irods user
+    and/or group don't exist, and that it will be using root instead.
+    These warnings are harmless, since the package contents should be
+    installed with root ownership.
+
+    - CentOS7 NetCDF API
+    - Ubuntu 14+ NetCDF API 
 
 ------------------------------------------------------------------------
 
