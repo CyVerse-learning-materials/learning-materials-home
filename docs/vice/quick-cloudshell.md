@@ -65,6 +65,10 @@ closed your browser tab.
 
 [`tmux` key bindings](http://manpages.ubuntu.com/manpages/bionic/man1/tmux.1.html) are active
 
+One side effect of using `tmux` is that you cannot scroll up in the Terminal to see previous outputs. This can make it difficult to view long outputs. If your output doesn't fit on the screen and you still want to see the whole thing, you can pipe the results of the command into `pager`.
+
+For instance, if you run `head big_file.csv -n 100` to view the first 100 lines of a CSV, it probably won't all fit on screen. If you run `head big_file.csv -n 100 | pager`, you will be able to move through the entire output. In the `pager`, you use the J key to scroll down, the K key to scroll up, and the Q key to exit.
+
 To activate conda:
 
 ``` conda init ```
