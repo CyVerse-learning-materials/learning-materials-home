@@ -4,7 +4,7 @@
 
 | Tutorial	| Date | Notes |
 |-----------|------|-------|
-| [RNASeq using VICE](https://rnaseq-webinar-2019.readthedocs.io/en/latest/){target=_blank} | Nov. 8, 2019	| Perform RNAseq differential expression analysis using Read Mapping and Transcript Assembly (RMTA) and Rstudio-DESEq2 apps |
+| [RNASeq using VICE](https://cyverse.atlassian.net/wiki/spaces/TUT/pages/258736191/RNA-seq+Data+Analysis+in+CyVerse){target=_blank} | Dec 06, 2019	| Perform RNAseq differential expression analysis using Read Mapping and Transcript Assembly (RMTA) and Rstudio-DESEq2 apps |
 
 ## Discovery Environment
 
