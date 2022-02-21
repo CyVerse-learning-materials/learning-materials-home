@@ -39,7 +39,7 @@
 
 | Tutorial | Date |	Notes |
 |----------|------|-------|
-| [Basic Stacks](https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=14586386){target=_blank} | Nov 06, 2017| Use next generation sequence data produced from Reduced Representation Libraries (RRL) such as Restriction site associated (RAD) tags. |
+| [Basic Stacks](https://cyverse.atlassian.net/wiki/spaces/TUT/pages/258736150/Basic+Stacks+Atmosphere+Images+Tutorial){target=_blank} | Nov 06, 2017| Use next generation sequence data produced from Reduced Representation Libraries (RRL) such as Restriction site associated (RAD) tags. |
 | [BATools 0.0.1](https://wiki.cyverse.org/wiki/pages/editpage.action?pageId=11443702){target=_blank} | Apr 10, 2016 |	Introduce new users to BATools and the BATools Wrapper Script. |
 | [Evolinc](https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=22677526){target=_blank} | May 03, 2016|	Evolinc is a two-part pipeline to identify lincRNAs from an assembled transcriptome file (.gtf output from cufflinks) and then determine the extent to which those lincRNAs are conserved in the genome and transcriptome of other species. |
 | [FaST-LMM.Py v2.02](https://wiki.cyverse.org/wiki/pages/viewpage.action?pageId=12884250){target=_blank} | Apr 19, 2016 |	Introduce new users to the FaST-LMM software for GWAS analysis. |
