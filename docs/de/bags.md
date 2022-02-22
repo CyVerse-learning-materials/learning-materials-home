@@ -95,25 +95,25 @@ You must be logged in to share resources.
 
 ## Using a Bag to Share or Download in the Discovery Environment
 
-You can share or download multiple items using the (bag icon) feature in the Discovery Environment. You must be logged in to use a bag.
+You can share or download multiple items using the ![bag]{width="25"} feature in the Discovery Environment. 
 
-1.  To share file(s) using a bag, open the Data, Apps or the Analyses view (or each consecutively), select one or more files, and click "Add to Bag" in the upper right corner. A red dot will appear on the (bag icon) to show how many resources are currently in the bag.
+You must be logged in to use a bag. There is no limit to the number of items you can share in a bag.
 
-2.  There is no limit to the number of items you can share in a bag.
+1.  To share file(s) using a ![bag]{width="25"} bag, open the Data, Apps or the Analyses view (or each consecutively), select one or more files, and click "Add to Bag" in the upper right corner. A red dot will appear on the (bag icon) to show how many resources are currently in the bag.
 
-3.  When you've finished adding all the files (data, apps or analyses) you want to share in the bag, share the bag with another CyVerse
+2.  When you've finished adding all the files (data, apps or analyses) you want to share in the bag, share the bag with another CyVerse
     user(s) by clicking on the (bag icon). In the dialog box that opens, all the files you have put in the bag are listed by default. Use the
     dropdown arrow to show downloadable or shareable files.
     
-4.  You can "Share" the contents of the bag by clicking on the "Share" button. Another dialog box will open where you can set Permissions
+3.  You can "Share" the contents of the bag by clicking on the "Share" button. Another dialog box will open where you can set Permissions
     for the user(s) with whom you are sharing files.
     
-5.  To download the bag's contents to your computer, click "Download" and then click on each of the links for the files.
+4.  To download the bag's contents to your computer, click "Download" and then click on each of the links for the files.
 
-6.  Sharing or downloading the contents of a bag does not empty the bag. You can share the same contents with another user(s); to empty the
+5.  Sharing or downloading the contents of a bag does not empty the bag. You can share the same contents with another user(s); to empty the
     bag, click on the (bag icon) then click the "Clear" button.
 
-??? "Emptying Bags"
+??? tip "Emptying Bags"
     
     There is no prompt or warning once you click "Clear", so the bag will be emptied immediately.
 
