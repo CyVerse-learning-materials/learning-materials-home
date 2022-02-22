@@ -53,7 +53,7 @@ nav:
     - 'Jetstream': atmo/js.md 
     - 'Continuous Analyses': atmo/cacao.md
   - 'Analyze Images':
-    - 'BISQUE': bisque_guide.md
+    - 'BisQue': bisque_guide.md
   - 'For the Classroom':
     - 'Self-Guided Course': mooc.md
     - 'DNA Subway': dna_subway_guide.md
