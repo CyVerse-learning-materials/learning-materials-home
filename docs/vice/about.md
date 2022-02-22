@@ -1,6 +1,6 @@
 # Interactive Analysis in the Discovery Environment
 
-**VICE** stands for Visual Interactive Computing Environment and is a part of CyVerse [Discovery Environment (DE)](https://de.cyverse.org).
+**VICE** stands for Visual Interactive Computing Environment and is a part of CyVerse's [Discovery Environment (DE)](https://de.cyverse.org).
 
 **VICE** allows verified CyVerse users to launch customized containers of their favorite data science platforms.
 
@@ -17,7 +17,7 @@ The DE supports executable applications which run as workflows on high performan
 [analyses]: ../assets/de/menu_items/analysisIcon.svg
 [vice]: ../assets/de/logos/deviceIcon.png
 
-VICE is a restricted service, currently accessible from CyVerse US. You must request access to use VICE, to minimize inappropriate use. 
+VICE is a restricted service, currently accessible from CyVerse US. You must request access to use VICE.  
 
 1.  Visit the [User Portal](https://user.cyverse.org/services){target=_blank} and **Services**; look for [![][vice]{width=30}](https://user.cyverse.org/services){target=_blank} [DE VICE](https://user.cyverse.org/services){target=_blank} and select the **REQUEST ACCESS** link.
 
@@ -48,7 +48,7 @@ VICE is a restricted service, currently accessible from CyVerse US. You must req
 
 1. Log into the [![][de]{width=25}](https://de.cyverse.org){target=_blank} [Discovery Environment](https://de.cyverse.org){target=_blank}.
 
-2. Click the [![][data]{width=25}](https://de.cyverse.org/data/){target=_blank} [Data Icon](https://de.cyverse.org/data){target=_blank} and navigate to your `/iplant/home/<your-username>` folder; click the (Add Folder button) and create a folder called `demo_rocker/` inside your personal space.
+2. Click the [![][data]{width=25}](https://de.cyverse.org/data/){target=_blank} [Data Icon](https://de.cyverse.org/data){target=_blank} and navigate to your `/iplant/home/<your-username>` folder; click the (Add Folder button) and create a folder called `demo_rocker/` inside your work space.
 
 3.  Use this Quick Launch link <a href="https://de.cyverse.org/apps/de/48b6e7ae-8b64-11ec-92dc-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/Verse-latest-blue?style=plastic&logo=rstudio"></a> or click on [![][apps]{width=20}](https://de.cyverse.org/apps){target=_blank} [Apps](https://de.cyverse.org/apps){target=_blank} to launch the featured **Rocker RStudio Latest** App. You can also use the DE Search bar to search for this application in Apps.
 
@@ -56,7 +56,7 @@ VICE is a restricted service, currently accessible from CyVerse US. You must req
     
     Under "Analysis Info", for **Output Folder** click **Browse** and navigate to and select your new `/demo_rocker/` folder, or leave it as the default `analyses/` folder, then click **Next**;
 
-    For "Parameters", under "Input Folder" click **Browse** and navigate to any folder you own or is shared, or leave it as the default (empty), then click **Next**;
+    For "Parameters", under "Input Folder" click **Browse** and navigate to any folder you own or is shared with you, or leave it as the default (empty), then click **Next**;
     
     In **Advanced Settings** you can modify the resources used by the container (e.g., more cores, more RAM, or disk space for larger analyses) or leave the default settings, then click **Next**;
    
@@ -64,7 +64,7 @@ VICE is a restricted service, currently accessible from CyVerse US. You must req
     
     Your new Featured App should be available within one minute. 
 
-5.  In the navigation bar, click on the [![][analyses]{width=30}](https://de.cyverse.org/analyses){target=_blank} [Analyses](https://de.cyverse.org/de/analyses){target=_blank} view. Your application will be listed as "Submitted" (this takes just a minute or two; maybe more depending on both the size of the container and any additional imported data).
+5.  In the navigation bar, click on the [![][analyses]{width=30}](https://de.cyverse.org/analyses){target=_blank} [Analyses](https://de.cyverse.org/de/analyses){target=_blank} view. Your application will be listed as "Submitted" (this takes a minute or two; maybe more depending on both the size of the container and any additional imported data).
 
 6.  When the Status of the launch is "Running", click on the running App under "Analyses"; a new tab will open in your browser.
 
