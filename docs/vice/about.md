@@ -17,7 +17,7 @@ The DE supports executable applications which run as workflows on high performan
 [analyses]: ../assets/de/menu_items/analysisIcon.svg
 [vice]: ../assets/de/logos/deviceIcon.png
 
-VICE is a restricted service, currently accessible from CyVerse US. You must request access to use VICE.  
+VICE is currently accessible from CyVerse US, but as a restricted service, you must request access to use VICE.  
 
 1.  Visit the [User Portal](https://user.cyverse.org/services){target=_blank} and **Services**; look for [![][vice]{width=30}](https://user.cyverse.org/services){target=_blank} [DE VICE](https://user.cyverse.org/services){target=_blank} and select the **REQUEST ACCESS** link.
 
