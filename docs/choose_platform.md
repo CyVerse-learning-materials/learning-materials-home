@@ -11,11 +11,11 @@
 
 [atmo]: ./assets/atmosphere/cacao-04.png
 
-[![data]{width="30"} Data Store](ds/intro.md){target=_blank} [Data Store](ds/intro.md)
+[![data]{width="30"} Data Store](ds/intro.md){target=_blank} 
 
-[![de]{width="30"} Discovery Environment](de/intro.md) [Discovery Environment](de/intro.md)
+[![de]{width="30"} Discovery Environment](de/intro.md)
 
-[![atmo]{width="30"} Cloud](atmo/intro.md) [Cloud](atmo/intro.md)
+[![atmo]{width="30"} Cloud](atmo/intro.md)
 
 ## Featured Tutorials
 
