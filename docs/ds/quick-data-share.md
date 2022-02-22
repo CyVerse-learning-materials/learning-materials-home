@@ -1,7 +1,7 @@
 # Using the Data Store
 
-[de]: ./assets/de/logos/deIcon.svg
-[data]: ./assets/de/menu_items/dataIcon.svg
+[de]: ../assets/de/logos/deIcon.svg
+[data]: ../assets/de/menu_items/dataIcon.svg
 
 ## via Discovery Environment
 
