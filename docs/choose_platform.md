@@ -1,31 +1,42 @@
 # Choosing a Platform
 
-- [Data Store](ds/intro.md)
-  - [Managing your data in the Discovery Environment](de/manage_data.md)
+[de]: ./assets/de/logos/deIcon.svg
+[data]: ./assets/de/menu_items/dataIcon.svg
+[analyses]: ./assets/de/menu_items/analysisIcon.svg
+[apps]: ./assets/de/menu_items/appsIcon.svg
+[help]: ./assets/de/menu_items/helpIcon.svg
+[home]: ./assets/de/menu_items/homeIcon.svg
+[profile]: ./assets/de/icons/userIcon.svg
+[vice]: ./assets/de/logos/deviceIcon.svg
 
-- [Discovery Environment](de/intro.md)
-  - [Launch Analyses](de/using_apps.md)
+[atmo]: ./assets/atmosphere/cacao-04.svg
 
-- [Cloud](atmo/intro.md)
-  - [Using Atmosphere](atmo/atmo.md)
+[![data]{width="30"} Data Store](ds/intro.md){target=_blank} [Data Store](ds/intro.md)
 
+[![de]{width="30"} Discovery Environment](de/intro.md) [Discovery Environment](de/intro.md)
 
-**Featured Tutorials**
+[![atmo]{width="30"} Cloud](atmo/intro.md) [Cloud](atmo/intro.md)
+
+## Featured Tutorials
 
 - [RNA-Seq with Kallisto and Sleuth](https://cyverse-kallisto-tutorial.readthedocs-hosted.com/en/latest/)
 - [Genome Annotation with MAKER](https://cyverse-sciapps-guide.readthedocs-hosted.com/en/latest/annotation.html)
 - [Filter, Trim, and Process High-throughput Sequencing Reads with Trimmomatic](https://cyverse-trimmomatic-quickstart.readthedocs-hosted.com/en/latest/)
 - [Condensed R: 240-minute tutorial](https://cyverse-240-minute-r-tutorial.readthedocs-hosted.com/en/latest/) 
-
 - [Self-Guided Tutorials](mooc.md)
 
-**Advanced Users and Developers**
+## Advanced Users and Developers
 
-- [Transfer data with CyberDuck](ds/cyberduck.md)
-- [Transfer data with iCommands](ds/icommands.md)
-- [Integrate your own Tools and Apps in the Discovery Environment](de/create_apps.md)
-- [Extending VICE Apps](de/extend_apps.md)
-- [Developer Manuals](manuals.md)
+[![data]{width="30"} CyberDuck](ds/cyberduck.md) [Transfer data with CyberDuck](ds/cyberduck.md)
+
+[![data]{ width="30"} iCommands](ds/icommands.md)  [Transfer data with iCommands](ds/icommands.md)
+
+[![de]{width="30"} Create Apps](de/create_apps.md) [Integrate your own Tools and Apps in the Discovery Environment](de/create_apps.md)
+
+[![vice]{width="30"} VICE](de/extend_apps.md) [Extending VICE Apps](de/extend_apps.md)
+
+[Developer Manuals](manuals.md)
+
 -----------------------------------------------------------------------
 
 **Fix or improve this documentation**
