@@ -30,7 +30,7 @@ VICE is a restricted service, currently accessible from CyVerse US. You must req
 
 ## Launching a VICE application
 
-??? Tip
+??? Tip "Quick Launch VICE Apps"
    
     [![][vice]{width=60}](https://de.cyverse.org/apps){target=_blank}
 
