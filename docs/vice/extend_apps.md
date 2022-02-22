@@ -1,28 +1,28 @@
 # Extending VICE Tools and Apps
 
-There are several ways to extend VICE:
+There are several options to extend VICE for your specific use(s):
 
 | Options | Hypothetical use case | 
 |---------|-----------------------|
 | [Copy an Existing App](#copy-an-existing-app) | You want to create a Quick Launch Button which has a different set of input data, specific to a course you're teaching | 
 | [Modify an Existing Tool](#modify-an-existing-tool) | You need to add new packages or libraries to an existing Featured App and Tool that requires building a new Docker Container |
-| [Create a New Tool & App](#create-a-new-tool) | There are no existing App types which fit your needs. You need to develop your own Docker container and integrate it from start to finish. |
+| [Create a New Tool & App](#create-a-new-tool) | There are no existing App types which fit your needs. You need to develop your own Docker container and integrate it from start to finish |
 
-Depending on your specific needs, it may be easiest to copy an existing app or modify an existing Tool. If you cannot find any existing Apps which suit your use case, do not hesitate to contact us via Intercom to ask about the availability of your favorite development environment. 
+Depending on your specific needs, it may be easiest to copy an existing app or modify an existing tool. If you cannot find any existing Apps which suit your use case, do not hesitate to contact us via Intercom to ask about the availability of your favorite development environment. 
 
 ??? tip "Definitions"
 
     **Tool** - the Discovery Environment refers to Docker container templates as "Tools". The tool builder allows you to set the environment, UID, entrypoint, working directory, and computational requirements of your Docker container.   
     
-    **Apps** - Applications or "Apps" are the user interface that you build in the Discovery Environment to interact with our Tools. Apps are designed using a template builder. 
+    **Apps** - Applications, or "Apps", are the user interface that you build in the Discovery Environment to interact with our Tools. Apps are designed using a template builder. 
     
-Types of Tool include: `executable`, `HPC`, `OSG` (OpenScienceGrid), or `interactive`. 
+Types of Tools include: `executable`, `HPC`, `OSG` (OpenScienceGrid), or `interactive`. 
     
-Apps may require input data, parameters, settings, and flags which the user selects each time they are run. `executable`, `HPC`, and `OSG` apps are run non-interactively until they complete. 
+Apps may require input data, parameters, settings, and flags which the user selects each time they are run. `executable`, `HPC`, and `OSG` apps run non-interactively until they complete. 
     
 For `interactive` VICE apps, the App template may only include a set of input data files and folders, or nothing at all. VICE Apps use Kubernetes to orchestrate their launch.
 
-Adding `interactive` Tools and Apps are different from `executable` Tools. VICE applications like Jupyter and RStudio run on open ports enabling their User Interface (UI) in the browser.
+Adding `interactive` Tools and Apps is different from adding `executable` Tools. VICE applications like Jupyter and RStudio run on open ports, enabling their User Interface (UI) in the browser.
 
 ## Copy an Existing App
 
@@ -36,7 +36,7 @@ Navigating the [![][de]{width=25}](https://de.cyverse.org){target=_blank} [Disco
 
 ![][apps]{width=20} **Apps** - Applications (including VICE interactive applications)
 
-Under "Apps" you will see "Tools" and "Instant Launches" -- for this section, we are interested in "Tools"
+Under "Apps" you will see "Tools" and "Instant Launches" -- for this section, we are interested in "Tools".
 
 ![][analysis]{width=20} **Analyses** - Status and history of analysis jobs
 
@@ -44,7 +44,7 @@ Analyses will be where you can test your new App to ensure it is functioning pro
 
 1. If necessary, log into the [![][de]{width=25}](https://de.cyverse.org){target=_blank} [Discovery Environment](https://de.cyverse.org){target=_blank}
 
-2. Click the [![][apps]{width=20}](https://de.cyverse.org/apps){target=_blank} [Apps](https://de.cyverse.org/apps){target=_blank} icon in the left table of contents. Or use the search bar to search the existing public Apps for what you're interested in. 
+2. Click the [![][apps]{width=20}](https://de.cyverse.org/apps){target=_blank} [Apps](https://de.cyverse.org/apps){target=_blank} icon in the left side of the navigation view. Or use the search bar to search existing public Apps for what you're interested in. 
 
 3. When you've found the app you want, click on the three vertical dots on the right side of the selection field and select "Copy App".
 
@@ -52,16 +52,16 @@ Analyses will be where you can test your new App to ensure it is functioning pro
 
 6. Modify the Parameters as you see fit.
 
-7. Save your new app. The app will be private, and is available under your ""Apps Under Development" tab in [![][apps]{width=20}](https://de.cyverse.org/apps){target=_blank} [Apps](https://de.cyverse.org/apps){target=_blank}
+7. Save your new app. The app will be private, and is available under your "Apps Under Development" tab in [![][apps]{width=20}](https://de.cyverse.org/apps){target=_blank} [Apps](https://de.cyverse.org/apps){target=_blank}
 
 ## Modify an Existing Tool
 
-Copying an App does not change the underlying Tool (Docker Image). You may need to install some new system packages or software libraries that are too complex or take too long to compile on any of the public featured apps. 
+Copying an App does not change the underlying Tool (Docker image). You may need to install some new system packages or software libraries that are too complex or take too long to compile on any of the public featured apps. 
 
-If you find that one of the existing public Apps, e.g. our Featured Apps, are useful but are missing some key packages you can take the next step of building a new container from our featured images. 
+If you find that one of the existing public Apps, e.g. our Featured Apps, is useful but may be missing some key packages, you can take the next step of building a new container from our featured images. 
 
 
-??? tip "Why use our Featured Images"
+??? tip "Why use our Featured Images?"
 
     Some of the managed features that CyVerse provides for you are not available on publicly maintained Docker images of popular data science development environments.
     
@@ -69,7 +69,7 @@ If you find that one of the existing public Apps, e.g. our Featured Apps, are us
     
     By building a new container from our featured image set, you are assured that your new Docker image will work immediately in the Discovery Environment.
 
-It is **strongly recommended** if you're using common IDE like RStudio, Jupyter Lab, VS Code, Remote Desktops, or web-based applications like Shiny, Flask, or Streamlit that you use one of our featured Docker images, or at least take a look at our public Dockerfiles on [GitHub](https://github.com/cyverse-vice) to ensure compatibility of your new Container with the Discovery Environment. 
+It is **strongly recommended** if you're using common IDEs like RStudio, Jupyter Lab, VS Code, Remote Desktops, or web-based applications like Shiny, Flask, or Streamlit, that you use one of our featured Docker images, or at least view our public Dockerfiles on [GitHub](https://github.com/cyverse-vice), to ensure your new Container is compatible with the Discovery Environment. 
 
 ### Select a Featured Base Image
 
@@ -115,11 +115,11 @@ $ docker build -t <dockerhub-username>/rstudio/verse:custom-latest .
 
 After you have built your new image, you need to push it to a public Docker registry. We recommend [Dockerhub](https://hub.docker.com) or [quay.io](http://quay.io). The Discovery Environment can pull any public Docker image from any public/private registry. 
 
-We currently do not allow private Docker images to be pulled, but you can contact us about special private container hosting in our Harbor registry if you have sensitive data or software needs.
+We currently do not allow private Docker images to be pulled, but do contact us about special private container hosting in our Harbor registry if you have sensitive data or software needs.
 
 Alternatively, you can provide us the `Dockerfile` of your requested image and we will build the Docker image for you. 
 
-If there is no `Dockerfile` for the tool that you are interested in, contact us via Intercom and tell us what tool you are interesting in making us as VICE app.
+If there is no `Dockerfile` for the tool that you are interested in, contact us via Intercom and tell us what tool you are interesting in having us make as a VICE app.
 
 ## Create a new Tool
 
@@ -127,26 +127,26 @@ If there is no `Dockerfile` for the tool that you are interested in, contact us 
 
 1. If necessary, log into the [![][de]{width=25}](https://de.cyverse.org){target=_blank} [Discovery Environment](https://de.cyverse.org){target=_blank}.
 
-2. Click the [![][apps]{width=20}](https://de.cyverse.org/apps){target=_blank} [Apps](https://de.cyverse.org/apps){target=_blank} and click on the "Manage Tools" wrench icon
+2. Click the [![][apps]{width=20}](https://de.cyverse.org/apps){target=_blank} [Apps](https://de.cyverse.org/apps){target=_blank} and click on the "Manage Tools" wrench icon.
 
-3. You'll see a list of all of the tools in the DE. Click on the "More Actions" and select "Add Tool" 
+3. You'll see a list of all of the tools in the DE. Click on "More Actions" and select "Add Tool".
 
 **Add Tool**
 
 -   `Tool name` is the name of the tool. This will appear in the DE's tool listing dialog. This is mandatory field. 
 -   `description` is a brief description of the tool. This will appear in the DE's tool listing dialog. 
 -   `version` is the version of the tool. This will appear in the DE's tool listing dialog. This is mandatory field.
--   `Type` is the type of Tool. For VICE apps, chose "interactive", for command line applications select "executable"
+-   `Type` is the type of tool. For VICE apps, choose "interactive"; for command line applications, choose "executable".
 
 **Container Image**
 
 -   `Image name` is the name of the image and its public registry. This is mandatory field.
 -   `Tag` is the image tag. If you don't specify the tag, the DE will look for the `latest` tag which is the default tag.
--   `Docker Hub URL` is the url of the image on the Dockerhub.
+-   `Docker Hub URL` is the URL of the image on Dockerhub.
 
--   `Entrypoint` is the Entrypoint for your tool. Entrypoint should be present in the Docker image and if not, you should specify it here.
--   `Working Directory` this is the working directory of the tool and must be filled in with the value you gathered above. e.g `/home/jovyan/work`
--   `UID` is a number and must be filled in with the value you gathered from above. Typically `root` is `0` and default users are `1000`
+-   `Entrypoint` is the Entrypoint for your tool. Entrypoint should be present in the Docker image, and if not, you should specify it here.
+-   `Working Directory` is the working directory of the tool and must be filled in with the value you gathered above, e.g., `/home/jovyan/work`.
+-   `UID` is a number and must be filled in with the value you gathered from above. Typically `root` is `0` and default users are `1000`.
 
 **Container Ports**
 
@@ -154,44 +154,44 @@ If there is no `Dockerfile` for the tool that you are interested in, contact us 
 
 **Restrictions**
 
--   `Max CPU Cores` is the number of cores for your tool. Eg. 16
--   `Memory Limit` is the memory for your tool. Eg. 64 GB
--   `Min Disk Space` is the minimum disk space. Eg. 200 GB
+-   `Max CPU Cores` is the number of cores for your tool, e.g., 16
+-   `Memory Limit` is the memory for your tool, e.g., 64 GB
+-   `Min Disk Space` is the minimum disk space for your tool, e.g., 200 GB
 
 #### Required settings
 
 ##### Set the `WORKDIR`
 
-The container needs to have a set working directory, typically this is the home folder, e.g. `/home/jovyan` or `/home/rstudio` 
+The container needs to have a set working directory, typically this is the home folder, e.g., `/home/jovyan` or `/home/rstudio` .
 
-Set the `WORKDIR` in the Dockerfile, if there is no set `WORKDIR` you can set it in the Tool Builder
+Set the `WORKDIR` in the Dockerfile; if there is no set `WORKDIR`, you can set it in the Tool Builder.
 
 ??? tip "Your Data in Your Container"
 
-    We recommend that you set the working directory of your Tool to the `username` home path in a new folder called `work` eg. `/home/jovyan/work` or `/home/rstudio/work`.
+    We recommend that you set the working directory of your tool to the `username` home path in a new folder called `work`, e.g., `/home/jovyan/work` or `/home/rstudio/work`.
 
-    This is because the Discovery Environment's interactive apps use a [Kubernetes container storage interface (CSI)](https://github.com/cyverse/irods-csi-driver){target=_blank} driver that connects the CyVerse data store to your working directory in the running container. This new mount can clobber any pre-existing files in the the container's `WORKDIR` 
+    This is because the Discovery Environment's interactive apps use a [Kubernetes container storage interface (CSI)](https://github.com/cyverse/irods-csi-driver){target=_blank} driver that connects the CyVerse Data Store to your working directory in the running container. This new mount can clobber any pre-existing files in the the container's `WORKDIR`. 
 
 ##### Set the `ENTRYPOINT`
 
-The container must have an `ENTRYPOINT` set in the Dockerfile, else you must set it in the Tool 
+The container must have an `ENTRYPOINT` set in the Dockerfile, otherwise you must set it in the Tool itself. 
 
-3.  All commonly needed dependencies are installed in the container image - you will not have `root` privileges later
-4.  The default user set
-5.  Disable any additional authentication (CyVerse provides CAS authentication and authorization).
-6.  URLs will work sanely behind a reverse proxy. If they don't, you may need to add nginx to the container.=
+1.  All commonly needed dependencies are installed in the container image - you will not have `root` privileges later.
+2.  The default user set.
+3.  Disable any additional authentication (CyVerse provides CAS authentication and authorization).
+4.  URLs will work sanely behind a reverse proxy. If they don't, you may need to add nginx to the container.
 
 ##### Set the `PORT`
 
 Interactive Apps rely on open ports to send display information to the browser.
 
-Ensure the listen port for the web UI has a sane default and is set in the Dockerfile, e.g. `PORT 8888` 
+Ensure the listen port for the web UI has a sane default and is set in the Dockerfile, e.g. `PORT 8888` .
 
-You must set the port in the Tool to the external port that the container is listening
+You must set the port in the tool to the external port that the container is listening.
 
 ??? tip "Understanding ports in Docker containers"
 
-    For interactive containers like RStudio and JupyterLab a conventional `docker run` execution will have the port set as `-p 8888:8888` where the port number on the left side of the `:` is the external port, and on the right the internal port. For VICE apps you must only worry about the external port number.
+    For interactive containers like RStudio and JupyterLab, a conventional `docker run` execution will have the port set as `-p 8888:8888` where the port number on the left side of the `:` is the external port, and on the right the internal port. For VICE apps you need only be concerned about the external port number.
 
 ??? tip "Using a reverse proxy"
 
@@ -199,18 +199,18 @@ You must set the port in the Tool to the external port that the container is lis
     
     Our [RStudio Server](https://github.com/cyverse-vice/rstudio-verse){target=_blank} uses `nginx` to enable reverse proxy and thus we have changed the external port to `80` instead of the Rocker-Project default `8787` port number.
 
-??? tip "managing ports in your new Tool"
+??? tip "Managing ports in your new tool"
 
     Featured VICE apps have default port options based on the app: JupyterLab apps use port `8888`, RStudio apps use port `80`, and Shiny apps use port `3838`.
 
-    It is strongly recommended you do not set the `bind to host` as `true` for your added ports when creating a new App
+    It is strongly recommended you do not set the `bind to host` as `true` for your added ports when creating a new App.
 
-## Creating VICE app for your new tool
+## Creating a VICE app for your new tool
 
-After your tool template has been saved, you can create an App for connecting your Tool to the Discovery Environment. You can [copy an existing app](#copy-an-existing-app) and select your tool if you like an existing App's layout. 
+After your tool template has been saved, you can create an App for connecting your tool to the Discovery Environment. You can [copy an existing app](#copy-an-existing-app) and select your tool if you like an existing App's layout. 
 
-Or you can create a new app from a blank template.
+Alternatively, you can create a new app from a blank template.
 
-??? tip "Input Data"
+??? tip "Input data"
 
     For VICE apps, be sure to check the box "Do not pass this argument to the command line" for each option you add (for VICE, this is usually just input files and folders.
