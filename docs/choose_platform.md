@@ -27,13 +27,13 @@
 
 ## Advanced Users and Developers
 
-[![data]{width="30"} CyberDuck](ds/cyberduck.md) [Transfer data with CyberDuck](ds/cyberduck.md)
+[![data]{width="30"}](ds/cyberduck.md) [Transfer data with CyberDuck](ds/cyberduck.md)
 
-[![data]{ width="30"} iCommands](ds/icommands.md)  [Transfer data with iCommands](ds/icommands.md)
+[![data]{ width="30"}](ds/icommands.md)  [Transfer data with iCommands](ds/icommands.md)
 
-[![de]{width="30"} Create Apps](de/create_apps.md) [Integrate your own Tools and Apps in the Discovery Environment](de/create_apps.md)
+[![de]{width="30"}](de/create_apps.md) [Integrate your own Tools and Apps in the Discovery Environment](de/create_apps.md)
 
-[![vice]{width="30"} VICE](de/extend_apps.md) [Extending VICE Apps](de/extend_apps.md)
+[![vice]{width="30"}](de/extend_apps.md) [Extending VICE Apps](de/extend_apps.md)
 
 [Developer Manuals](manuals.md)
 
