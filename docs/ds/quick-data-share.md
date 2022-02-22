@@ -19,51 +19,54 @@ Cyberduck is only available for Windows and Mac OS X
 
 2. Set up [CyVerse iRODS profile for CyberDuck](ds/cyberduck.md) 
 
+More details are available in the [CyberDuck](ds/cyberduck.md) documentation.
+
 ## Command Line
 
-[Download and install iCommands following the instructions for Linux , Mac, or Windows](https://cyverse.atlassian.net/wiki/spaces/DS/pages/241869823/Setting+Up+iCommands#SettingUpiCommands-linux){target=_blank}
+1. [Download and install iCommands following the instructions for Linux , Mac, or Windows](https://cyverse.atlassian.net/wiki/spaces/DS/pages/241869823/Setting+Up+iCommands#SettingUpiCommands-linux){target=_blank}
 
-Set path for i-command binaries:
+2. Set path for iCommands binaries:
 
-Mac OS X example: `export PATH="/Applications/icommands/:$PATH"`
-Linux example: `export PATH="/home/username/bin/:$PATH"`
+   Mac OS X example: `export PATH="/Applications/icommands/:$PATH"`
 
-Run `iinit` and configure irods environment in your terminal
+     Linux example: `export PATH="/home/username/bin/:$PATH"`
 
-Example `iinit`:
+     Run `iinit` and configure irods environment in your terminal
 
-```
-user@yourcomputer (~) $ iinit
-One or more fields in your iRODS environment file (.irodsEnv) are
-missing; please enter them.
-Enter the host name (DNS) of the server to connect to:data.cyverse.org
-Enter the port number:1247
-Enter your irods user name:cyverse_username
-Enter your irods zone:iplant
-Those values will be added to your environment file (for use by
-other i-commands) if the login succeeds.
+   Example `iinit`:
 
-Enter your current iRODS password:
-```
+      ```
+      user@yourcomputer (~) $ iinit
+      One or more fields in your iRODS environment file (.irodsEnv) are
+      missing; please enter them.
+      Enter the host name (DNS) of the server to connect to:data.cyverse.org
+      Enter the port number:1247
+      Enter your irods user name:cyverse_username
+      Enter your irods zone:iplant
+      Those values will be added to your environment file (for use by
+      other i-commands) if the login succeeds.
 
-`ils` get list of files in current working directory in the Data Store
+      Enter your current iRODS password:
+      ```
 
-`icd /iplant/home/username/<dir>` change working directory in the Data Store
+   `ils` get list of files in current working directory in the Data Store
 
-`iget ~/<filename>` will get files from the Data Store
+   `icd /iplant/home/username/<dir>` change working directory in the Data Store
 
- - `-r` # For recursive transfer of directories and their contents
- - `-P` # display the progress of the upload
- - `-f` # force the upload and overwrite
- - `-T` # Renew socket connection after 10 min (May help connections that are failing due to some connection/firewall settings)
-  
- 
-`iput <filename>` will put files from local machine to the Data Store
+   `iget ~/<filename>` will get files from the Data Store
 
-  - `-r` # For recursive transfer of directories and their contents
-  - `-P` # display the progress of the upload
-  - `-f` # force the upload and overwrite
-  - `-T` # Renew socket connection after 10 min (May help connections that are failing due to some connection/firewall settings)
+    - `-r` # For recursive transfer of directories and their contents
+    - `-P` # display the progress of the upload
+    - `-f` # force the upload and overwrite
+    - `-T` # Renew socket connection after 10 min (May help connections that are failing due to some connection/firewall settings)
+
+
+   `iput <filename>` will put files from local machine to the Data Store
+
+     - `-r` # For recursive transfer of directories and their contents
+     - `-P` # display the progress of the upload
+     - `-f` # force the upload and overwrite
+     - `-T` # Renew socket connection after 10 min (May help connections that are failing due to some connection/firewall settings)
 
 ## WebDAV mount
 
