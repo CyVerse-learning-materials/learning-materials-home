@@ -35,7 +35,7 @@ You must be logged in to share resources.
 ??? tip "Managing Data Permissions"
 
       | Permission level | Read | Download/Save | Metadata | Rename | Move | Delete |
-      |------------------|------|---------------|----------|--------|------|--------|
+      |:----------------:|:----:|:-------------:|:--------:|:------:|:----:|:------:|
       | Read | **X**  | **X** | **View** | | | |                           
       | Write | **X** | **X** | **Add/Edit** | | | |                      
       | Own | **X** |  **X** | **Add/Edit** |  **X** | **X**  |  **X** |
@@ -62,7 +62,7 @@ You must be logged in to share resources.
     Permissions (based on UNIX permissions) are described in this chart:
 
       | Permission level | Launch | Edit | Share | Make Public |
-      |------------------|--------|------|-------|-------------|
+      |:----------------:|:------:|:----:|:-----:|:-----------:|
       | Read | **X** | | | |                    
       | Write | **X** | **X** | | |           
       | Own | **X** | **X** | **X** | **X** |
@@ -88,7 +88,7 @@ You must be logged in to share resources.
 ??? tip "Manage Analyses Permissions"
 
       | Permission level | Read | Download/Save | Metadata | Rename | Move | Delete |
-      |------------------|------|---------------|----------|--------|------|--------|
+      |:----------------:|:----:|:-------------:|:--------:|:------:|:----:|:------:|
       | Read | **X** | **X** | **View** | | | |                     
       | Write | **X** | **X** | **Add/Edit** | | | |                   
       | Own | **X** | **X** | **Add/Edit** | **X** | **X** | **X** |
