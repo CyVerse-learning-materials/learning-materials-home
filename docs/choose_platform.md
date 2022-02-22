@@ -9,7 +9,7 @@
 [profile]: ./assets/de/icons/userIcon.svg
 [vice]: ./assets/de/logos/deviceIcon.svg
 
-[atmo]: ./assets/atmosphere/cacao-04.svg
+[atmo]: ./assets/atmosphere/cacao-04.png
 
 [![data]{width="30"} Data Store](ds/intro.md){target=_blank} [Data Store](ds/intro.md)
 
