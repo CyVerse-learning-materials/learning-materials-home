@@ -1,6 +1,6 @@
 # DNA Subway
 
-![subway_logo](./assets/dna_subway/dnasubway-icon.png)
+![subway_logo](./assets/dna_subway/dnasubway-icon.png){width="201px" height="105px"}
 
 ### Goal
 
@@ -121,6 +121,7 @@ ability to view those projects, but may not edit those projects.
 
     ![private_projects](./assets/dna_subway/private_projects.png){width="275px" height="200px"}
 
+
 ??? tip "Deleting a project"
 
      To delete a project, click the 'trash can' icon. Once deleted, all data related to that project will be lost and unrecoverable.
@@ -142,7 +143,7 @@ ability to view those projects, but may not edit those projects.
 1.  Access the DNA Subway website at [https://dnasubway.cyverse.org/](); login to Subway.
 2.  Access your selected project by clicking the project title.
 3.  Under the 'Project Information' tab, toggle the project setting to 'Public' or 'Private' as desired.
-     ![project_info_tab](assets/dna_subway/project_info_tab.png){width="150px" height="100px"}
+     ![project_info_tab](assets/dna_subway/project_info_tab.png){width="238px" height="211px"}
 
 ------------------------------------------------------------------------
 
@@ -192,12 +193,14 @@ In this and subsequent steps, we will annotate a 75KB section of Arabidopsis chr
 One you have created a Red Line Project, you may begin the process of generating and assembling predictions and evidence that can be used to annotate genes.
 1.  Click 'RepeatMasker'
 2.  When 'RepeatMasker' turns 'green' and the icon displays a 'V' (view); click 'RepeatMasker' again to view results.
+
     ![repeat_results](./assets/dna_subway/repeat_results.png){width="300px" height="200px"}
 ### **Example Exercise - Repeat Masking: Arabodopsis ChrI**
 -   **Example Sequence:** Arabidopsis thaliana (mouse-ear cress) ChrI, 75 kb
 -   **Tool(s):** RepeatMasker
 -   **Concept(s):** Non-coding DNA, sequence repeats, mobile genetic
     elements (transposons)
+    
 Following the RepeatMasking steps for the Arabidopsis ChrI sample above, answer the following *discussion questions*:
 1.  How many hits were detected in your sample?
 2.  RepeatMasker reports the length of the repetitive sequences
