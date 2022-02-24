@@ -22,7 +22,6 @@ It bundles research-grade bioinformatics tools, high-performance computing, and 
 | DNA Subway Access | DNA Subway access is by request access | Check or request access: [CyVerse User Portal](https://user.cyverse.org/services/mine) |
 
 ------------------------------------------------------------------------
-------------------------------------------------------------------------
 
 ## DNA Subway Basics and Logging in to Subway
 
@@ -96,7 +95,6 @@ grading in a classroom project.
 1.  Access the DNA Subway website at https://dnasubway.cyverse.org/; click 'Enter as Guest'
 
 ------------------------------------------------------------------------
-------------------------------------------------------------------------
 
 ## Accessing Saved Private and Public DNA Subway Projects
 
@@ -155,9 +153,7 @@ We'll also suggest the DNA Subway's primer on [annotation evidence](https://dnas
 This guide contains an explanation of basic functions for this line, as wellas exercises that might be used in the classroom.
 **Some things to remember about the platform**
 	@@ -205,156 +164,115 @@ as exercises that might be used in the classroom.
-
 ------------------------------------------------------------------------
-
 ### DNA Subway Red Line - Create an Annotation Project with Apollo
 ??? tip "transition away from Java"
     
@@ -192,7 +188,6 @@ In this and subsequent steps, we will annotate a 75KB section of Arabidopsis chr
     You can view your DNA sequence by clicking the 'Sequence' link in the 'Project Information' tab at the bottom of the page.
     
 ------------------------------------------------------------------------
-
 ### DNA Subway Red Line - Find and Mask Repetitive DNA
 One you have created a Red Line Project, you may begin the process of generating and assembling predictions and evidence that can be used to annotate genes.
 1.  Click 'RepeatMasker'
@@ -329,10 +324,10 @@ are given in parentheses and can be pasted into the browser):
 
 *Considering the following genes:*
 
-    -   BFN1-201 (1:3748591..3753070)
-    -   SCAMP5-201 (1:3744556..3749035)
-    -   STP1-201 (1:3776366..3780845)
-    -   At1G11270.2 (1:3780041..3789000)
+-   BFN1-201 (1:3748591..3753070)
+-   SCAMP5-201 (1:3744556..3749035)
+-   STP1-201 (1:3776366..3780845)
+-   At1G11270.2 (1:3780041..3789000)
 
 1.  Do all the gene predictors agree with each other?
 2.  Which gene predictions seem to match the Ensemble genes most closely?
@@ -512,7 +507,6 @@ given in parentheses and can be pasted into the browser):
     -   T28P6.11-201 (1:3762877..3764678)
 
 ------------------------------------------------------------------------
-------------------------------------------------------------------------
 
 ## Walkthrough of DNA Subway Yellow Line - Sequence Detection
 
@@ -588,7 +582,6 @@ of DNA elements that impact the function of the genome.
 2.  Repeat this analysis with a new project using the Ping transposase
     gene and the Ping Transposase protein.
 
-------------------------------------------------------------------------
 ------------------------------------------------------------------------
 
 ## Walkthrough of DNA Subway Blue Line - DNA Barcoding and Phylogenetics
@@ -805,7 +798,6 @@ next step.
 
             *"Mosquito"* dataset: We suggest setting "horsefly" as outgroup for both trees.
 
-------------------------------------------------------------------------
 ------------------------------------------------------------------------
 
 ## Walkthrough of DNA Subway Green Line: Kallisto/Sleuth RNA-Seq
@@ -1203,7 +1195,6 @@ This heatmap gives a measure of the similarity between the possible comparison o
 **Summary**: Together, Kallisto and Sleuth are quick, powerful ways to
 analyze RNA-Seq data.
 
-------------------------------------------------------------------------
 ------------------------------------------------------------------------
 
 ## Walkthrough of DNA Subway Purple Line (beta testing documentation)
@@ -1927,14 +1918,13 @@ You can download and interact with any of the available plots.
 
     Download the provided CSV files so that you can generate customized plots.
 
-------------------------------------------------------------------------
+
 ------------------------------------------------------------------------
 
 ### DNA Subway Purple Line - Visualize data with PiCrust and PhyloSeq
 
 **Under Development**
 
-------------------------------------------------------------------------
 ------------------------------------------------------------------------
 
 **Fix or improve this documentation**
