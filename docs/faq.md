@@ -2,7 +2,7 @@
 
 ## Account related
 
-??? question "How do I update my account information?"
+??? question "**How do I update my account information?**"
 
     CyVerse users should update their account information annually for continued access to services. To update, go to the , log in, and click the account icon in the upper right corner.
 
@@ -14,7 +14,7 @@
 
 ## Data related
 
-??? question "What if I need more space (storage) in the Data Store?"
+??? question "**What if I need more space (storage) in the Data Store?**"
 
     Every new user has a 100GB allocation in the Data Store. 
     
@@ -22,7 +22,7 @@
 
 -----------------------------------------------------------------------
 
-??? question "How do I publish a large set of public data?"
+??? question "**How do I publish a large set of public data?**"
 
     If you need assistance transferring a large dataset to CyVerse, please contact CyVerse Support (<support@cyverse.orgor use the blue Intercom icon at the bottom right). 
     
@@ -32,7 +32,7 @@
 
 -----------------------------------------------------------------------
 
-??? question "What public datasets are in CyVerse?"
+??? question "**What public datasets are in CyVerse?**"
 
     CyVerse provides web access to its public datasets via WebDav [https://data.cyverse.org](https://data.cyverse.org){_target=_blank} 
     
@@ -42,7 +42,7 @@
 
 -----------------------------------------------------------------------
 
-??? question "How do I request a Community Released Data Folder?"
+??? question "**How do I request a Community Released Data Folder?**"
     
     Community Released Data folders are available for evolving datasets that individuals or communities want to make available as quickly as possible for research and reuse, especially within CyVerse analysis platforms. 
     
@@ -54,19 +54,19 @@
 
 -----------------------------------------------------------------------
 
-??? question "How do I connect to a shared or public folder with CyberDuck?"
+??? question "**How do I connect to a shared or public folder with CyberDuck?**"
 
     See our [using CyberDuck documentation](ds/cyberduck.md)
 
 -----------------------------------------------------------------------
 
-??? question " How do I open a connection to a private folder that is shared with me?"
+??? question "**How do I open a connection to a private folder that is shared with me?**"
 
     See our [using the Data Store documentation](ds/intro.md)
 
 -----------------------------------------------------------------------
 
-??? question "How do I make a folder public with iCommands?"
+??? question "**How do I make a folder public with iCommands?**"
 
     Although you can share files and folders in the DE and create public links, you must use iCommands make them visible to everyone. Permissions are set in iCommands by using `ichmod` (<https://docs.irods.org/4.2.1/icommands/user/#ichmod>).
 
@@ -87,7 +87,7 @@
 
 ## Discovery Environment
 
-??? question "Why has my job failed or been running forever?"
+??? question "**Why has my job failed or been running forever?**"
 
     The following recommendations can help you determine what went wrong and
     collect information for CyVerse staff in case you cannot resolve the
@@ -157,7 +157,7 @@
 
 ------------------------------------------------------------------------
 
-??? question "How do I get help with a tool (app) or workflow?"
+??? question "**How do I get help with a tool (app) or workflow?**"
 
     The steps to get help depend on whether you're a novice or an expert
     with the tool (executable or binary) on which the app or workflow is
@@ -189,7 +189,7 @@
 
 ------------------------------------------------------------------------
 
-??? question "Why is my analysis sitting in the Submitted state for so long?"
+??? question "**Why is my analysis sitting in the Submitted state for so long?**"
 
     Analyses that use an app that runs on an HPC system can remain in the
     Submitted state for hours or even days. They may sit in in the queue in
@@ -201,14 +201,14 @@
 
 ------------------------------------------------------------------------
 
-??? question "Is there a limit to how many analyses (jobs) I can run at the same time in the Discovery Environment?"
+??? question "**Is there a limit to how many analyses (jobs) I can run at the same time in the Discovery Environment?**"
 
     Only 8 of your analyses will run at the same time. You can launch more,
     but they will not run until some of your analyses have completed.
 
 ------------------------------------------------------------------------
 
-??? question "I'm trying to run an analysis, but when I enter an input I can't see my files. Why? I know they are there."
+??? question "**I'm trying to run an analysis, but when I enter an input I can't see my files. Why? I know they are there.**"
 
     Because the app requires a *folder* as input, not a *file*, the files
     don't show since they aren't the appropriate inputs for the app. The
@@ -223,7 +223,7 @@
 
 ------------------------------------------------------------------------
 
-??? question "How do I rerun a job I previously ran in the DE, but I want to change some parameters or use a different input?"
+??? question "**How do I rerun a job I previously ran in the DE, but I want to change some parameters or use a different input?**"
 
     You can easily relaunch the same analysis with different settings:
     
@@ -238,7 +238,7 @@
 
 ------------------------------------------------------------------------
 
-??? question "How do I run the same analysis on a number of files most efficiently?"
+??? question "**How do I run the same analysis on a number of files most efficiently?**"
 
     You can create a file that contains a list of up to 16 files to use as
     input for high-throughput and batch file execution. Such a file is
@@ -249,7 +249,7 @@
 
 ------------------------------------------------------------------------
 
-??? question "I have a series of files that I want to analyze with the same app, but the output files all have the same name. How do I distinguish them so I can use them in a workflow?"
+??? question "**I have a series of files that I want to analyze with the same app, but the output files all have the same name. How do I distinguish them so I can use them in a workflow?**"
 
     You can avoid confusion by finding the output folder in your Data list
     and
@@ -257,9 +257,11 @@
     each output file with a unique name. After renaming the output files,
     you can then use them together in a step of the analysis workflow.
 
+------------------------------------------------------------------------
+
 ## Data Questions
 
-??? question "When sharing a file or folder, what permission should I give to my collaborator?"
+??? question "**When sharing a file or folder, what permission should I give to my collaborator?**"
 
     	It depends on what you want to allow the collaborator to do with the
     	file or folder. Options are: read, write (ability to edit the file or
@@ -269,7 +271,7 @@
 
 ------------------------------------------------------------------------
 
-??? question "Why can't I rename or delete files in a folder that has been shared with me?"
+??? question "**Why can't I rename or delete files in a folder that has been shared with me?**"
 
     To rename a file or folder, you must have "write" permission, and to
     delete a file you must have "own" permission. To check the permission
@@ -280,13 +282,15 @@
     Levels in the
     DE](https://wiki.cyverse.org/wiki/display/DEmanual/Changing+and+Viewing+Data+Permission+Levels+in+the+DE).
 
-??? question "How can I manage shared files and folders for my lab group or project?"
+------------------------------------------------------------------------
+
+??? question "**How can I manage shared files and folders for my lab group or project?**"
 
     See [Setting Up a Shared Directory for a Lab or Project](https://wiki.cyverse.org/wiki/display/DC/Setting+up+a+shared+directory+for+a+lab+or+project).
 
 ------------------------------------------------------------------------
 
-??? question "Why doesn't anything happen when I move a folder I own to the trash?"
+??? question "**Why doesn't anything happen when I move a folder I own to the trash?**"
 
     If the folder has hundreds of files, it can take several hours for the
     deletion to complete in the DE. Please be patient and try refreshing
@@ -298,7 +302,7 @@
 
 ------------------------------------------------------------------------
 
-??? question "Can I have spaces in file and folder names?"
+??? question "**Can I have spaces in file and folder names?**"
 
     No. Do not use spaces or special characters in file or folder names as
     they can cause analyses to fail. [Learn more
@@ -306,7 +310,7 @@
 
 ------------------------------------------------------------------------
 
-??? question "Can I view my files in a genome browser?"
+??? question "**Can I view my files in a genome browser?**"
 
     You can view bam, vcf, and gff genome files you own in the genome
     browsers at Ensembl, UCSC, IGV, GBrowse, and jbrowse, and view Fasta
@@ -315,9 +319,11 @@
     or in
     [CoGe](https://pods.iplantcollaborative.org/wiki/display/DEmanual/Viewing+Genome+Files+in+CoGe).
 
+------------------------------------------------------------------------
+
 ## App Questions
 
-??? question "Why can't I find a Discovery Environment app?"
+??? question "**Why can't I find a Discovery Environment app?**"
 
     There are two common reasons why an app is not "visible" or doesn't come
     up in search in the Apps list:
@@ -345,7 +351,7 @@
 
 ## Analyses FAQ
 
-??? question "What apps and workflows are in CyVerse?"
+??? question "**What apps and workflows are in CyVerse?**"
 
     CyVerse has hundreds of apps and workflows in the Discovery Environment
     (DE). For the list of applications available in the DE, see the . Most
@@ -353,7 +359,9 @@
     app. You also can browse the list of tutorials to find help to learn a
     complicated workflow or how to use an app in the DE or VICE.
 
-??? question "How can I make my app available for other people to use?"
+------------------------------------------------------------------------
+
+??? question "**How can I make my app available for other people to use?**"
 
     You can create a new app interface in the Discovery Environment and
     share it with other users and you also can install the app on VICE. In
@@ -361,19 +369,25 @@
     application of your choice is all you need to start. See the
     Developer's section of the .
 
+------------------------------------------------------------------------
+
 ## Containers FAQ
 
-??? question "Does CyVerse have resources for GPU and containers (e.g. to stabilize R modules using the nvidia cuda)?"
+??? question "**Does CyVerse have resources for GPU and containers (e.g. to stabilize R modules using the nvidia cuda)?**"
 
     Yes, please email Tyson at <tswetnam@cyverse.org> for details.
 
-??? question "While container performance is greater than a VM, how much is container performance below that of native mode, in general?"
+------------------------------------------------------------------------
+
+??? question "**While container performance is greater than a VM, how much is container performance below that of native mode, in general?**"
 
     Please see the Conclusion section bullet #2 in [Evaluation of Docker
     Containers for Scientific Workloads in the
     Cloud](https://dl.acm.org/doi/pdf/10.1145/3219104.3229280).
 
-??? question "Are there tools for scanning publicly available containers in Atmosphere VMs for malware?"
+------------------------------------------------------------------------
+
+??? question "**Are there tools for scanning publicly available containers in Atmosphere VMs for malware?**"
 
     [Docker Hub](https://hub.docker.com/) and [Quay](https://quay.io/), two
     of the most popular public container image registries, provide security
@@ -401,7 +415,7 @@
 
 ## Bring Your Own (BYO) FAQ
 
-??? question "How can I use CyVerse's tools and resources from within my program/app"
+??? question "**How can I use CyVerse's tools and resources from within my program/app**"
 
     See the information about our [Science APIs](http://www.cyverse.org/science-apis); you can also contact Support using the
     blue chat icon at the bottom right of the platform. For projects
@@ -413,7 +427,7 @@
 
 ## Collaboration FAQ
 
-??? question "How can I get a letter of collaboration for my grant proposal that uses CyVerse?"
+??? question "**How can I get a letter of collaboration for my grant proposal that uses CyVerse?**"
 
     *To request a letter of collaboration, email informaticians@cyverse.org
     with the following information:* - the CyVerse resources your project
@@ -422,8 +436,10 @@
     in CyVerse - the name of the PI, proposal title, funding agency, and
     date you need the letter - if there is a template that must be used,
     please attach to your email
+ 
+------------------------------------------------------------------------
 
-??? question "What is an external collaborative partnership and how do I apply?"
+??? question "**What is an external collaborative partnership and how do I apply?**"
 
     External Collaborative Partnerships (ECP) pair member(s) of the CyVerse
     user community with expert CyVerse staff to address the computational
@@ -494,7 +510,7 @@
 
 ## Training FAQ
 
-??? question "How can I use CyVerse in my course?"
+??? question "**How can I use CyVerse in my course?**"
 
     DNA Subway (See ) is especially useful for teaching gene concepts,
     phylogenetics, DNA barcoding and RNA-Seq. With a friendly user interface
@@ -508,10 +524,13 @@
     See [Teaching with VICE](vice/teaching_vice) for more information.
 
 
-??? question "Can CyVerse give a workshop at my institution?"
+------------------------------------------------------------------------
+
+??? question "**Can CyVerse give a workshop at my institution?**"
 
     Funding to support workshop requests is very limited, with priority for
     trainings at underserved institutions (rural,
     HBCU/Tribal/Hispanic-serving, etc.). Contact Education, Outreach, and
     Training Lead Jason Williams (<williams@cshl.edu>)
 
+------------------------------------------------------------------------
