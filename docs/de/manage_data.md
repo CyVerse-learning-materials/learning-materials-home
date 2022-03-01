@@ -2,7 +2,7 @@
 
 With CyVerse, you can manage data throughout the data lifecycle, from uploading, to adding metadata, to analyzing, sharing results, and making your data public for others to reuse. 
 
-The [![de]{width="25"} Discovery Environment](https://de.cyverse.org){target=_blank} interface is just one way to access, view, and manage your files in the [Data Store](../ds/intro.md).
+The [![de]{width="25"} Discovery Environment](https://de.cyverse.org){target=_blank} interface is just one of many ways to access, view, and manage your files in the [Data Store](../ds/intro.md).
 
 ## Browsing Data in the Discovery Environment
 
@@ -14,7 +14,7 @@ The [![de]{width="25"} Discovery Environment](https://de.cyverse.org){target=_bl
 [home]: ../assets/de/menu_items/homeIcon.svg
 [profile]: ../assets/de/icons/userIcon.svg
 
-1.  Begin by clicking on the [![data]{width="25"} Data](https://de.cyverse.org/data){width="25"} icon in the left navigation menu.
+1.  After logging in, begin by clicking on the [![data]{width="25"} Data](https://de.cyverse.org/data){width="25"} icon in the left navigation menu.
 
     ![de_data_store](../assets/de/de_data_store.png)
 
@@ -28,15 +28,15 @@ The [![de]{width="25"} Discovery Environment](https://de.cyverse.org){target=_bl
 
     As you access the folders or files within your directory, breadcrumbs near the top of the page show the folder you are viewing and its parent folder(s).
 
-4.  From the top left, at the start of the breadcrumbs, you may select another root folder to view from within your home folder; clicking on the dropdown near your username will allow you to browse folders/files in "Shared With Me", "Community Data", or "Trash".
+4.  From the top left, at the start of the breadcrumbs, you may select another root folder to view from within your home folder; click on the dropdown near your username to browse folders/files in "Shared With Me", "Community Data", or "Trash".
 
 ## Viewing File/Folder Details in the Discovery Environment
 
-Both the "Details" button near the top right and the More Options menu (ellipsis) at the far right in a file or folder's row allow you to view and manage several types of information about your file/folder.
+Both the "Details" button near the top right and the More Options menu (ellipses) at the far right in a file or folder's row allow you to view and manage several types of information about your file/folder.
 
 You must be logged in to view file/folder details.
 
-1.  From the [![data]{width="25"} Data](https://de.cyverse.org/data){width="25"} view, click the checkbox next to a file or folder to select it and then click the "Details" or the ellipsis to see specific information about
+1.  From the [![data]{width="25"} Data](https://de.cyverse.org/data){width="25"} view, click the checkbox next to a file or folder to select it and then click the "Details" or the ellipses to see specific information about
     the selected item, to copy the file path to the item, to add tags to the item, to edit metadata, or to set a file's info type.
 
 2.  To view your own permissions on the item and those of other users, click the "Permissions" tab under "Details".
@@ -53,21 +53,21 @@ Click the "Upload" button to choose your options for importing files into the Da
     
 - To upload files from a URL, choose **Import by URL**; you may paste in a valid HTTP or an FTP URL, then click **Import**. You may paste additional URLs or close this window by clicking **Done**.
 
-- When you have begun the upload, you will get an automated notification that the file(s) has been queued. To view the status of an upload or import, go click the **Upload** button and choose **View Upload Queue**.
+- When you have begun the upload, you will get an automated notification that the file(s) has been queued. To view the status of an upload or import, click the **Upload** button and choose **View Upload Queue**.
 
 ## Deleting Files/Folders in the Discovery Environment
 
-You must be logged in to delete files/folders. You must own the files or folders to be able to delete.
+You must be logged in and you must own the files or folders you wish to delete. 
 
-From the [![data]{width="25"} Data](https://de.cyverse.org/data) view, select the desired file/folder by clicking the checkbox to its left. You can select multiple files/folders. To unselect an individual file/folder, click the checkbox again. To select (or unselect) all files/folders, click the checkbox at the top of the list.
+From the [![data]{width="25"} Data](https://de.cyverse.org/data) view, select the desired file/folder by clicking the checkbox to its left. You can select multiple files/folders. To unselect an individual file/folder, click the checkbox again. You can select (or unselect) all files/folders by clicking the checkbox at the top of the list.
 
-Click on the More Options menu (ellipsis) in the upper right corner of the [![data]{width="25"} Data](https://de.cyverse.org/data) view and select **Delete** from the pop-up menu. When the file has been fully deleted, you will receive an automated notification under the notification icon . When deleting or moving a    file/folder, you must receive the completion notification before you can change anything associated with that file/folder.
+Click on the More Options menu (ellipsis) in the upper right corner of the [![data]{width="25"} Data](https://de.cyverse.org/data) view and select **Delete** from the pop-up menu. When the file has been fully deleted, you will receive an automated notification (bell icon, upper right). When deleting or moving a file/folder, you must receive the completion notification before you can change anything associated with that file/folder.
 
 Deleted files can be retrieved from your Trash. 
       
-??? tip "Uploading/Importing Data via the Browser"
+??? Tip "Uploading/Importing Data via the Browser"
 
-    - You can use the DE interface to upload files <2GB to the Data Store.
+    - You can use the DE interface to upload files of <2GB to the Data Store.
 
     - When your Data Store file browser is open, you can also upload files from your computer by dragging them into your browser window.
 
@@ -85,7 +85,7 @@ Deleted files can be retrieved from your Trash.
 
 The Discovery Environment also supports advanced data management tasks such as organizing your datasets, search, associating data with metadata, requesting a Digital Object Identifier (DOI), and importing or submitting data to/from NCBI SRA. 
 
-To use the Advanced Search, run a query in the Search menu, then select "Advanced Search Options"
+To use the Advanced Search, run a query in the Search menu, then select "Advanced Search Options".
 
 ![advanced_search](../assets/de/de_advanced_data_search.png){width="600"}
 
