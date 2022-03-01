@@ -18,7 +18,7 @@
 
 [![atmo]{width="30"} Cloud](atmo/intro.md)
 
-# Self-Guided Course
+## Self-Guided Course
 
 [![ball]{width="30"} CyVerse Self-Guided Course](https://cyverse-learning-materials.github.io/cyverse_mooc/){target=_blank} 
 
