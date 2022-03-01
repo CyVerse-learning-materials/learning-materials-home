@@ -17,6 +17,10 @@
 
 [![atmo]{width="30"} Cloud](atmo/intro.md)
 
+## Self-Guided
+
+- [CyVerse Self-Guided Course](https://cyverse-learning-materials.github.io/cyverse_mooc/){target=_blank} in collaboration with CyVerse Austria and CyVerse UK, we have created a MOOC for self-guided students
+
 ## Featured Tutorials
 
 - [RNA-Seq with Kallisto and Sleuth](https://cyverse-kallisto-tutorial.readthedocs-hosted.com/en/latest/)
