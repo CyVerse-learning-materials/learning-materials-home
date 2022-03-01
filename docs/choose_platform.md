@@ -1,5 +1,6 @@
 # Choosing a Platform
 
+[ball]: assets/de/logos/cyverse_ball_2022.png
 [de]: ./assets/de/logos/deIcon.svg
 [data]: ./assets/de/menu_items/dataIcon.svg
 [analyses]: ./assets/de/menu_items/analysisIcon.svg
@@ -17,9 +18,9 @@
 
 [![atmo]{width="30"} Cloud](atmo/intro.md)
 
-## Self-Guided
+# Self-Guided Course
 
-- [CyVerse Self-Guided Course](https://cyverse-learning-materials.github.io/cyverse_mooc/){target=_blank} in collaboration with CyVerse Austria and CyVerse UK, we have created a MOOC for self-guided students
+[![ball]{width="30"} CyVerse Self-Guided Course](https://cyverse-learning-materials.github.io/cyverse_mooc/){target=_blank} 
 
 ## Featured Tutorials
 
