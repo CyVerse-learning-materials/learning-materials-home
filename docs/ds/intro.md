@@ -34,13 +34,13 @@ following services/software*
 
 !!! Warning
 
-    When uploading your data to the Data Store, avoid creating and naming
+    When uploading your data to the Data Store, avoid naming
     files/folders with names containing spaces (e.g., experiment one.fastq)
     or special characters (e.g., \~ \` ! @ \# \$ % \^ & \*
     ( ) + = { } \[ \] \| : ; \" \' \< \> , ? /). The Apps on the Discovery
-    Environment and most command line apps will typically not tolerate these
-    characters. For long file/folder names, we recommend you use underscores in the file name (e.g.,
-    experiment_one.fastq).
+    Environment and most command line apps typically will not tolerate these
+    characters. For long file/folder names, we recommend you use underscore(s) (e.g.,
+    experiment_one.fastq) instead of space(s).
 
 ------------------------------------------------------------------------
 
