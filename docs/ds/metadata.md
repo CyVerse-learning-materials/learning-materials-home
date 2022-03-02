@@ -1,11 +1,11 @@
 [Learning Center Home](http://learning.cyverse.org/)
 
-# Associating Data with Metadata
+# Adding Metadata to Data
 
-The Data Store supports a variety of solutions that allow you to
+CyVerse supports a variety of solutions that allow you to
 associate your raw data with metadata. Metadata is of critical
 importance to quality research (see this article on [FAIR Principles](https://www.nature.com/articles/sdata201618)), yet it is often
-given less consideration until the time of publication and sharing. Here
+an afterthought until the time of publication and sharing. Here
 are a few metadata features that you can adopt and be aware of at the
 outset, see more of CyVerse's capabilities on the page.
 
@@ -15,7 +15,7 @@ outset, see more of CyVerse's capabilities on the page.
     collections of data. 
 -   You can use your own metadata schema or apply one of several metadata templates supported in the Discovery Environment.
 -   Additional templates you may wish to use can be found at resources like [FairSharing.org](ttps://fairsharing.org/).
--   Metadata can be managed through a graphical interface in the
+-   Metadata can be managed through a graphical user interface in the
     Discovery Environment or by using iCommands at the command line. This guide only covers options in the Discovery Environment.
 
 ------------------------------------------------------------------------
