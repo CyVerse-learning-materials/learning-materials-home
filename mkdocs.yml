@@ -18,6 +18,7 @@ nav:
   - 'Home': index.md 
   - 'Introduction':
     - 'What is CyVerse?': what_is_cyverse.md
+    - 'Self-Guided Tour': https://cyverse-learning-materials.github.io/cyverse_mooc/
     - 'FAQ': faq.md
     - 'Getting Help': getting_help.md
   - 'Sign Up':
@@ -25,12 +26,13 @@ nav:
     - 'Choosing a Platform': choose_platform.md
   - 'Manage your Data': 
     - 'Introduction': ds/intro.md
+    - 'Moving Data': ds/move_data.md
     - 'Data Transfers with Discovery Environment': de/manage_data.md
     - 'Data Transfers with Cyberduck Desktop App': ds/cyberduck.md
     - 'Command Line Data Transfers': ds/icommands.md
     - 'HTTP Access with WebDAV': ds/webdav.md
     - 'Adding Metadata': ds/metadata.md
-    - 'Data Sharing': ds/share.md
+    - 'Sharing Data': ds/share.md
   - 'Run Analyses':
     - 'Introduction': de/intro.md
     - 'Logging In': de/login.md
