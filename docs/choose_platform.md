@@ -1,5 +1,6 @@
 # Choosing a Platform
 
+[ball]: assets/de/logos/cyverse_ball_2022.png
 [de]: ./assets/de/logos/deIcon.svg
 [data]: ./assets/de/menu_items/dataIcon.svg
 [analyses]: ./assets/de/menu_items/analysisIcon.svg
@@ -16,6 +17,10 @@
 [![de]{width="30"} Discovery Environment](de/intro.md)
 
 [![atmo]{width="30"} Cloud](atmo/intro.md)
+
+## Self-Guided Course
+
+[![ball]{width="30"} CyVerse Self-Guided Course](https://cyverse-learning-materials.github.io/cyverse_mooc/){target=_blank} 
 
 ## Featured Tutorials
 
