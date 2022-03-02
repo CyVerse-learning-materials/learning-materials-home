@@ -46,7 +46,7 @@ nav:
     - 'JupyterLab in 6 steps': vice/quick-jupyter.md
     - 'Cloud Shell in 6 steps': vice/quick-cloudshell.md
     - 'Data Sharing': ds/quick-data-share.md
-    - 'Cloud Virtual Machines': atmo/quick-atmo.md
+      #- 'Cloud Virtual Machines': atmo/quick-atmo.md
   - 'Cloud Services':
     - 'Introduction': atmo/intro.md
     - 'Atmosphere': atmo/atmo.md
