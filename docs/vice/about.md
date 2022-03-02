@@ -1,12 +1,11 @@
 # Interactive Analysis in the Discovery Environment
 
-**VICE** stands for Visual Interactive Computing Environment and is a part of CyVerse's [Discovery Environment (DE)](https://de.cyverse.org).
-
-**VICE** allows verified CyVerse users to launch customized containers of their favorite data science platforms.
+The Discovery Environment (DE) supports both executable and interactive applications which run as workflows on high performance or high throughput computing environments. This section presents information on doing interactve analyses in the DE.
 
 ## What is the big idea?
 
-The DE supports executable applications which run as workflows on high performance or high throughput computing environments. **VICE** introduces Graphic User Interfaces (GUI) and common Integrated Development Environments (IDE) such as [Project Jupyter](http://jupyter.org/), [RStudio](https://www.rstudio.com/), and Remote Desktops to the DE.
+**VICE** stands for Visual Interactive Computing Environment and is a part of CyVerse's [Discovery Environment (DE)](https://de.cyverse.org). 
+**VICE** introduces Graphic User Interfaces (GUI) and common Integrated Development Environments (IDE) such as [Project Jupyter](http://jupyter.org/), [RStudio](https://www.rstudio.com/), and Remote Desktops to the DE. **VICE** allows verified CyVerse users to launch customized containers of their favorite data science platforms.
 
 ## Getting VICE Access
 
