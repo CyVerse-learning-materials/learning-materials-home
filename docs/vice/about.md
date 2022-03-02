@@ -71,6 +71,13 @@ You will be asked for a description of your intended VICE use: please give non-t
 
 ----------------------------------------------------------------------- 
 
+## Accessing data from VICE apps
+
+VICE apps have web access, so you can import data using methods like `curl` or querying external databases. You can also access your Data Store home and shared directories directly from a VICE app. In RStudio apps, your home directory is found via the path `work/home/cyverse_username/`. You can read and write from 
+
+## Using Git and GitHub from VICE
+
+
 
 
 [vll]: https://de.cyverse.org/apps/de/3548f43a-bed1-11e9-af16-008cfa5ae621/launch?quick-launch-id=81b187d6-cc94-4c53-81b5-f09f31c9c8ba
