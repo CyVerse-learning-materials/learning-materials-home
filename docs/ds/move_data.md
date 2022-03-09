@@ -16,7 +16,7 @@ This page summarizes each of the above methods of uploading data. There are a nu
 
 2. Open the [![data]{width="25"} Data](https://de.cyverse.org/data){target=_blank} icon on the left
 
-More details are available in the [Data Store](manage_data.md) documentation.
+More details are available in the [Data Store](../de/manage_data.md) documentation.
 
 ## via CyberDuck
 
