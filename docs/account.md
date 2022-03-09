@@ -12,7 +12,7 @@
 
 ??? Tip "Pop-up-blockers"
 
-	Ensure Java Script is enabled on your web browser. A pop-up blocker or other notification symbol may indicate this.
+	When signing up for an account, be sure that Java Script is enabled on your web browser and that any pop-up blockers are disabled.
 
 	![java](assets/java.png){width="250"}
 
