@@ -4,12 +4,10 @@
 
 ## Goal
 
-The Data Store is more than a place to save your files--it is a way to manage the lifecycle of your data. From the moment
-you collect data, to publication and beyond, there are a number of
-practices you should follow to ensure the integrity and value of your
+The Data Store is more than a place to save your files; because it crosscuts other CyVerse platforms, the Data Store is a way to easily manage the lifecycle of your data from upload to analysis to publication. The Data Store helps you follow a number of
+practices to ensure that the integrity and value of your
 data are maintained and to make your data more FAIR (Findable,
-Accessible, Interoperable, and Reusable). The Data Store helps you
-achieve this with less effort. 
+Accessible, Interoperable, and Reusable) with less effort. 
 
 This guide will cover the minimum needed
 to get you started. Please see the [Data Store Manual](https://cyverse.atlassian.net/wiki/spaces/DS/overview) for a more comprehensive look at Data Store capabilities.
