@@ -4,16 +4,15 @@
 
 ## Goal
 
-The Data Store is more than a place to save your files. The Data
-Store is a way to manage the life cycle of your data. From the moment
+The Data Store is more than a place to save your files--it is a way to manage the lifecycle of your data. From the moment
 you collect data, to publication and beyond, there are a number of
 practices you should follow to ensure the integrity and value of your
-data are maintained. This includes making your data more FAIR (Findable,
+data are maintained and to make your data more FAIR (Findable,
 Accessible, Interoperable, and Reusable). The Data Store helps you
 achieve this with less effort. 
 
 This guide will cover the minimum needed
-to get you started. Please look through the [Data Store Manual](https://cyverse.atlassian.net/wiki/spaces/DS/overview) for a more comprehensive look at Data Store capabilities.
+to get you started. Please see the [Data Store Manual](https://cyverse.atlassian.net/wiki/spaces/DS/overview) for a more comprehensive look at Data Store capabilities.
 
 ------------------------------------------------------------------------
 
@@ -21,7 +20,7 @@ to get you started. Please look through the [Data Store Manual](https://cyverse.
 
 **Downloads, access, and services**
 
-*In order to complete this tutorial you will need access to the
+*In order to complete these tasks, you will need access to the
 following services/software*
 
 
@@ -34,13 +33,12 @@ following services/software*
 
 !!! Warning
 
-    When uploading your data to the Data Store, avoid naming
-    files/folders with names containing spaces (e.g., experiment one.fastq)
+    Avoid naming files/folders with names containing spaces (e.g., experiment one.fastq) 
     or special characters (e.g., \~ \` ! @ \# \$ % \^ & \*
-    ( ) + = { } \[ \] \| : ; \" \' \< \> , ? /). The Apps on the Discovery
+    ( ) + = { } \[ \] \| : ; \" \' \< \> , ? /) when uploading your data to the Data Store. The apps on the Discovery
     Environment and most command line apps typically will not tolerate these
     characters. For long file/folder names, we recommend you use underscore(s) (e.g.,
-    experiment_one.fastq) instead of space(s).
+    experiment_one.fastq) instead of spaces.
 
 ------------------------------------------------------------------------
 
