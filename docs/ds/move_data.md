@@ -5,10 +5,10 @@
 
 This page summarizes each of the above methods of uploading data. There are a number of ways to upload your data to the Discovery Enviroment:
 
-  1. Using the [Discovery Environment](de/manage_data.md) interface (visit the [Distributing Data quickstart](https://cyverse-learning-materials.github.io/learning-materials-home/ds/quick-data-share/) for a rapid introduction to distributing your data)
-  2. Using the [CyberDuck](ds/cyberduck.md) browser
-  3. Through the [Command Line and iCommands](ds/icommands.md)
-  4. Through [WebDAV](ds/webdav.md)
+  1. Using the [Discovery Environment](../de/manage_data.md) interface (visit the [Distributing Data quickstart](quick-data-share.md) for a rapid introduction to distributing data)
+  2. Using the [CyberDuck](cyberduck.md) browser
+  3. Through the [Command Line and iCommands](icommands.md)
+  4. Through [WebDAV](webdav.md)
 
 ## via Discovery Environment
 
@@ -16,7 +16,7 @@ This page summarizes each of the above methods of uploading data. There are a nu
 
 2. Open the [![data]{width="25"} Data](https://de.cyverse.org/data){target=_blank} icon on the left
 
-More details are available in the [Data Store](de/manage_data.md) documentation.
+More details are available in the [Data Store](manage_data.md) documentation.
 
 ## via CyberDuck
 
@@ -24,9 +24,9 @@ Cyberduck is only available for Windows and Mac OS X
 
 1. Install [CyberDuck](https://cyberduck.io){target=_blank} 
 
-2. Set up [CyVerse iRODS profile for CyberDuck](ds/cyberduck.md) 
+2. Set up [CyVerse iRODS profile for CyberDuck](cyberduck.md) 
 
-More details are available in the [CyberDuck](ds/cyberduck.md) documentation.
+More details are available in the [CyberDuck](cyberduck.md) documentation.
 
 ## Command Line
 
@@ -75,11 +75,11 @@ More details are available in the [CyberDuck](ds/cyberduck.md) documentation.
      - `-f` # force the upload and overwrite
      - `-T` # Renew socket connection after 10 min (May help connections that are failing due to some connection/firewall settings)
 
-For more thorough documentation on using iCommands to move data, visit the [Command Line Transfer](ds/icommands.md) page.
+For more thorough documentation on using iCommands to move data, visit the [Command Line Transfer](icommands.md) page.
 
 ## WebDAV 
 
-Read more on setting up and data movement through WebDAV [here](ds/webdav.md).
+Read more on setting up and data movement through WebDAV [here](webdav.md).
 
 ### Mac OS X
 
