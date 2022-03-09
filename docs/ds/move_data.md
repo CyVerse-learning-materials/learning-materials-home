@@ -3,13 +3,20 @@
 [de]: ../assets/de/logos/deIcon.svg
 [data]: ../assets/de/menu_items/dataIcon.svg
 
+This page summarizes each of the above methods of uploading data. There are a number of ways to upload your data to the Discovery Enviroment:
+
+  1. Using the Discovery Environment interface (visit the [Distributing Data quickstart](https://cyverse-learning-materials.github.io/learning-materials-home/ds/quick-data-share/) for a rapid introduction to distributing your data)
+  2. Using the CyberDuck browser
+  3. Through the Command Line and iRods
+  4. Through WebDAV mounting
+
 ## via Discovery Environment
 
 1. Log into the [![de]{width="25"} Discovery Environment](https://de.cyverse.org){target=_blank}
 
 2. Open the [![data]{width="25"} Data](https://de.cyverse.org/data){target=_blank} icon on the left
 
-More details are available in the [Data Store](ds/intro.md) documentation.
+More details are available in the [Data Store](de/manage_data.md) documentation.
 
 ## via CyberDuck
 

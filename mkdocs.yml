@@ -22,7 +22,7 @@ nav:
     - 'Set Up an Account': account.md 
     - 'Getting Help': getting_help.md
   - 'Manage your Data': 
-    - 'Introduction': ds/intro.md
+    - 'Introduction': ds/intro.md 
     - 'Moving Data': ds/move_data.md
     - 'Data Transfers with Discovery Environment': de/manage_data.md
     - 'Data Transfers with Cyberduck Desktop App': ds/cyberduck.md
@@ -44,7 +44,7 @@ nav:
     - 'RStudio in 6 steps': vice/quick-rstudio.md
     - 'JupyterLab in 6 steps': vice/quick-jupyter.md
     - 'Cloud Shell in 6 steps': vice/quick-cloudshell.md
-    - 'Data Sharing': ds/quick-data-share.md
+    - 'Distributing Data': ds/quick-data-share.md
       #- 'Cloud Virtual Machines': atmo/quick-atmo.md
   - 'Cloud Services':
     - 'Introduction': atmo/intro.md
