@@ -3,14 +3,14 @@
 [de]: ../assets/de/logos/deIcon.svg
 [data]: ../assets/de/menu_items/dataIcon.svg
 
-This page summarizes each of the above methods of uploading data. There are a number of ways to upload your data to the Discovery Enviroment:
+This page summarizes each of the four methods of moving (up- and downloading) data to the Data Store:
 
   1. Using the [Discovery Environment](../de/manage_data.md) interface (visit the [Distributing Data quickstart](quick-data-share.md) for a rapid introduction to distributing data)
   2. Using the [CyberDuck](cyberduck.md) browser
   3. Through the [Command Line and iCommands](icommands.md)
   4. Through [WebDAV](webdav.md)
 
-## via Discovery Environment
+## Using the Discovery Environment interface
 
 1. Log into the [![de]{width="25"} Discovery Environment](https://de.cyverse.org){target=_blank}
 
@@ -18,19 +18,19 @@ This page summarizes each of the above methods of uploading data. There are a nu
 
 More details are available in the [Data Store](../de/manage_data.md) documentation.
 
-## via CyberDuck
+## Using the CyberDuck browser
 
 Cyberduck is only available for Windows and Mac OS X
 
-1. Install [CyberDuck](https://cyberduck.io){target=_blank} 
+1. Install [CyberDuck](https://cyberduck.io){target=_blank}.
 
-2. Set up [CyVerse iRODS profile for CyberDuck](cyberduck.md) 
+2. Set up [CyVerse iRODS profile for CyberDuck](cyberduck.md).
 
 More details are available in the [CyberDuck](cyberduck.md) documentation.
 
-## Command Line
+## Using Command Line
 
-1. [Download and install iCommands following the instructions for Linux , Mac, or Windows](https://cyverse.atlassian.net/wiki/spaces/DS/pages/241869823/Setting+Up+iCommands#SettingUpiCommands-linux){target=_blank}
+1. [Download and install iCommands following the instructions for Linux , Mac, or Windows](https://cyverse.atlassian.net/wiki/spaces/DS/pages/241869823/Setting+Up+iCommands#SettingUpiCommands-linux){target=_blank}.
 
 2. Set path for iCommands binaries:
 
@@ -77,39 +77,39 @@ More details are available in the [CyberDuck](cyberduck.md) documentation.
 
 For more thorough documentation on using iCommands to move data, visit the [Command Line Transfer](icommands.md) page.
 
-## WebDAV 
+## Using WebDAV 
 
-Read more on setting up and data movement through WebDAV [here](webdav.md).
+Read more on setting up and moving data through WebDAV [here](webdav.md).
 
 ### Mac OS X
 
-1. Open Finder
+1. Open Finder.
 
-2. From the menu at the top of your screen, select “Go”
+2. From the menu at the top of your screen, select “Go”.
 
-3. In the dropdown menu, select “Connect to Server…”
+3. In the dropdown menu, select “Connect to Server…”.
 
-4. In the popup window called “Connect to Server” type in https://data.cyverse.org/dav/iplant/home/<your CyVerse user name>`
+4. In the pop-up window called “Connect to Server”, type in https://data.cyverse.org/dav/iplant/home/<your CyVerse user name>`.
 
-5. Another window will pop up. For “Connect As:” select “Registered User”. Type in your CyVerse user name for “Name:” and your CyVerse password for “Password”
+5. Another window will pop up. For “Connect As:” select “Registered User”. Type in your CyVerse user name for “Name:” and your CyVerse password for “Password”.
 
-  If you logged in successfully, your data store account will be available through Finder. “data.cyverse.org” will be listed under “Locations” on the right menu in a Finder window
+  If you logged in successfully, your Data Store account will be available through Finder. “data.cyverse.org” will be listed under “Locations” on the right-side menu in a Finder window.
 
 ### Linux 
 
-1. Open File Manager
+1. Open File Manager.
 
-2. In bottom left select "+ Other Locations"
+2. At bottom left, select "+ Other Locations".
   
-3. In bottom there should be a "Connect to Server"
+3. At bottom, there should be a "Connect to Server".
   
 4. Enter: `davs://data.cyverse.org/dav/iplant/home/<username>` 
   
-   You will be prompted to enter your Cyverse `username` and `password` 
+   You will be prompted to enter your Cyverse `username` and `password`. 
 
-5. You should now be connected to your home folder in the Data Store
+5. You should now be connected to your home folder in the Data Store.
 
 ## Summary
   
-You now have the power to move data. Use your power wisely!
+You now have the power to move data to, from, and within CyVerse. Use your power wisely!
 
