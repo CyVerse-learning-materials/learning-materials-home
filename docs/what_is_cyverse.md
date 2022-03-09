@@ -1,6 +1,6 @@
 # What is CyVerse?
 
-[CyVerse](https://cyverse.org) provides scientists with powerful computational infrastructure to handle huge datasets and complex analyses, thus enabling data-driven discovery.
+[CyVerse](https://cyverse.org) is a powerful computational infrastructure and the people who support its operations. CyVerse was built to handle huge datasets and complex analyses for life sciences research, thus enabling users to make data-driven discoveries.
 
 CyVerse cyberinfrastructure includes:
 
@@ -9,7 +9,7 @@ CyVerse cyberinfrastructure includes:
 [atmo]: assets/atmosphere/cacao-04.png
 [ball]: assets/de/logos/cyverse_ball_2022.png
 
-[![][data]{width=25}](https://cyverse.org/data-store){target=_blank} [Data Storage](https://cyverse.org/data-store){target=_blank} - free allocation spaces for all users, [contact us](https://user.cyverse.org/requests/2){target=_blank} to help you scale your project.
+[![][data]{width=25}](https://cyverse.org/data-store){target=_blank} [Data Storage](https://cyverse.org/data-store){target=_blank} - free allocation space for all users, and fee-based storage services, [contact us](https://user.cyverse.org/requests/2){target=_blank} to help you scale your project.
 
 [![][de]{width=25}](https://user.cyverse.org/services/2){target=_blank} [Data Science Workbench](https://user.cyverse.org/services/2){target=_blank}  - An interactive, web-based, analytical platform called the "[Discovery Environment](https://de.cyverse.org){target=_blank}"
 
@@ -17,9 +17,9 @@ CyVerse cyberinfrastructure includes:
 
 [![][ball]{width=25}](https://cyverse.org/ecp){target=_blank} [External Collaborative Partnerships](https://cyverse.org/ecp){target=_blank} - Work with our experienced data scientists and software engineers to scale your algorithms and data onto cloud and high performance compute. [Contact Us](https://user.cyverse.org/requests/3)
 
-[![][ball]{width=25}](https://cyverse.org/teach){target=_blank} [Education and Training](https://cyverse.org/teach){target=_blank} - learn how to use containers, workflows, and public research cyberinfrastructure from our professional trainers
+[![][ball]{width=25}](https://cyverse.org/teach){target=_blank} [Education and Training](https://cyverse.org/teach){target=_blank} - learn how to use containers, workflows, and public research cyberinfrastructure from our professional trainers.
 
-[![][ball]{width=25}](https://user.cyverse.org/requests/8){target=_blank} [Cloud Resources](https://user.cyverse.org/requests/8){target=_blank} for running your class or workshop in the cloud
+[![][ball]{width=25}](https://user.cyverse.org/requests/8){target=_blank} [Cloud Resources](https://user.cyverse.org/requests/8){target=_blank} for running your class or workshop in the cloud.
 
 -----------------------------------------------------------------------
 
@@ -41,6 +41,6 @@ Please cite CyVerse appropriately when you make use of our resources, see [CyVer
     click the Intercom icon ![Intercom](assets/intercom.png){ width="25" } on the lower right-hand side of the page
   - Report an issue or submit a change:
     [Github Repo Link](https://github.com/cyverse-learning-materials/)
-  - Send feedback: <Tutorials@CyVerse.org>
+  - Send feedback: <Learning@CyVerse.org>
   
 ------------------------------------------------------------------------
