@@ -1,14 +1,14 @@
-# Using the Data Store
+# Moving Data
 
 [de]: ../assets/de/logos/deIcon.svg
 [data]: ../assets/de/menu_items/dataIcon.svg
 
 This page summarizes each of the above methods of uploading data. There are a number of ways to upload your data to the Discovery Enviroment:
 
-  1. Using the Discovery Environment interface (visit the [Distributing Data quickstart](https://cyverse-learning-materials.github.io/learning-materials-home/ds/quick-data-share/) for a rapid introduction to distributing your data)
-  2. Using the CyberDuck browser
-  3. Through the Command Line and iRods
-  4. Through WebDAV mounting
+  1. Using the [Discovery Environment](de/manage_data.md) interface (visit the [Distributing Data quickstart](https://cyverse-learning-materials.github.io/learning-materials-home/ds/quick-data-share/) for a rapid introduction to distributing your data)
+  2. Using the [CyberDuck](ds/cyberduck.md) browser
+  3. Through the [Command Line and iCommands](ds/icommands.md)
+  4. Through [WebDAV](ds/webdav.md)
 
 ## via Discovery Environment
 
@@ -75,7 +75,11 @@ More details are available in the [CyberDuck](ds/cyberduck.md) documentation.
      - `-f` # force the upload and overwrite
      - `-T` # Renew socket connection after 10 min (May help connections that are failing due to some connection/firewall settings)
 
-## WebDAV mount
+For more thorough documentation on using iCommands to move data, visit the [Command Line Transfer](ds/icommands.md) page.
+
+## WebDAV 
+
+Read more on setting up and data movement through WebDAV [here](ds/webdav.md).
 
 ### Mac OS X
 
