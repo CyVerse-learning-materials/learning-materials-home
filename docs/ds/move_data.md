@@ -3,7 +3,7 @@
 [de]: ../assets/de/logos/deIcon.svg
 [data]: ../assets/de/menu_items/dataIcon.svg
 
-This page summarizes each of the four methods of moving (up- and downloading) data to the Data Store:
+This page summarizes each of the four methods of moving data to the Data Store:
 
   1. Using the [Discovery Environment](../de/manage_data.md) interface (visit the [Distributing Data quickstart](quick-data-share.md) for a rapid introduction to distributing data)
   2. Using the [CyberDuck](cyberduck.md) browser
