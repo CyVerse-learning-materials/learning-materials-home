@@ -4,9 +4,10 @@
 
 ## Goal
 
-The Data Store is more than a place to save your files; because it crosscuts other CyVerse platforms, the Data Store is a way to easily manage the lifecycle of your data from upload to analysis to publication. The Data Store helps you follow a number of
-practices to ensure that the integrity and value of your
-data are maintained and to make your data more FAIR (Findable,
+The Data Store is more than a place to save your files; it is a way to easily manage the 
+lifecycle of your data from upload to analysis to publication. The Data Store crosscuts, and is accessible from, 
+all other CyVerse platforms. All Data Store features are designed to help you follow a number of practices to 
+ensure that the integrity and value of your data are maintained and to make your data more FAIR (Findable,
 Accessible, Interoperable, and Reusable) with less effort. 
 
 This guide will cover the minimum needed
