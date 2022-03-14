@@ -33,7 +33,7 @@ outset.
 
 ![edit_view_metadta](../assets/ds/edit_view_metadata.png)
 
- !!! Tip "About AVU"
+ ??? Tip
 
     A single piece of metadata, or an AVU, is made up of attributes,
     values, and units. An attribute is a changeable property or
@@ -82,7 +82,7 @@ Follow the steps in the "Editing or deleting metadata" from the section above.
     *blank.csv* and *guide.csv*. Open these
     files using the spreadsheet editor of your choice.
 
-    !!! Tip
+    ??? Tip
 
         -   *blank.csv* is the metadata template that you will
             complete for your data.
@@ -96,7 +96,7 @@ Follow the steps in the "Editing or deleting metadata" from the section above.
 
        1.  In the *blank.csv* spreadsheet, in the *'file name or path'* column, enter the file names of all the files/folder in that folder you wish to annotate with metadata.
         
-   !!! Tip "Finding the file path in the DE"
+   ??? Tip "Finding the file path in the DE"
 
         1.  In any data window, click the **⋮** (3-dots or ellipsis menu) next
             to any file or folder; choose **copy path** to get the path to
@@ -140,7 +140,7 @@ Follow the steps in the "Editing or deleting metadata" from the section above.
         choice of upload tool to upload the metadata (csv file) to an
         appropriate location on the Data Store.
 
-        !!! Tip
+        ??? Tip
         
             For convenient management and editing, use absolute file paths
             (e.g., `/iplant/home/your_file_location`) so that all of your metadata spreadsheets 
