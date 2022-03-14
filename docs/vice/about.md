@@ -73,12 +73,45 @@ You will be asked for a description of your intended VICE use: please give non-t
 
 ## Accessing data from VICE apps
 
-VICE apps have web access, so you can import data using methods like `curl` or querying external databases. You can also access your Data Store home and shared directories directly from a VICE app. In RStudio apps, your home directory is found via the path `work/home/cyverse_username/`. You can read and write from 
+VICE apps have web access, so you can import data using methods like `curl` or querying external databases. You can also access your Data Store home and shared directories directly from a VICE app. Your home directory is found via the path `work/home/cyverse_username/`. You will also have access to any data shared with you in the Data Store via the path `work/home/shared/`. You will be able to read, write, and delete data from the Data Store from a VICE app, just as you would on a local filesystem. 
+
+
+??? Tip "Working with many files"
+	
+	Read/write speeds for single files are quite fast, but can slow down when accessing many files. 
+
+	If you are working with many small files, it may be faster to keep your data in the Data Store in a compressed format (such as .tgz or .zip), then use `cp` to copy the data from `~/work/home/username/` to `~/work`. Working with many small files within the VICE app's container will be faster than accessing them directly from the Data Store.
+
+	moving storms_by_year/ folder: 23.5s
+	moving storms_by_year.zip: 0.07s
+	unzipping: 0.063s
 
 ## Using Git and GitHub from VICE
 
+The core VICE apps (RStudio, JupyterLab, and Cloud Shell) also have the [`GitHub command line interface`][gh] installed. You can run `gh auth login` and follow the prompts to log in to your GitHub account, which will give you HTTPS access to push and pull from your GitHub repositories. You can read more about the GitHub CLI on their [manual page][gh-manual]. You will also need to run `git config user.email "your.email"; git config user.name "Your Name"` to configure Git to be able to make commits.
+
+??? Tip "Working with Git repositories"
+
+	For the time being, we recommend cloning repositories into `~/work` rather than into `~/work/home/username`, because the large number of files in a Git repository can make transfers to the Data Store slow. We are working on optimizing the `git clone` process to address this issue.
 
 
+## Instant Launches
+
+From the Home tab in the DE, there are several apps that have an **Instant Launch** feature which allows you to start the app with a single click.
+
+These apps launch with their default number of cores, amount of RAM, and timeout, and without input data. You can always import data using HTTPS protocols or iCommands after launch.
+
+## Quick Launches
+
+Quick launch buttons are directed URLs that allow you to share an app with pre-set configurations. After selecting an app, you will be taken to the app launcher where you can select input data sets, and then set size and time parameters. Any public app can have a quick launch URL generated for it.
+
+To use one of the Featured Launches listed below in the table, copy the badge (button link) to add to wherever you collaborate (a webpage, project notes, documentation, etc.).
+
+To create your own Saved Launch, start by launching the app you want to use. This will be a good time to Favorite the app. In the "Review & Launch" panel, click the "Create Saved Launch" button. You will be asked to name your Saved Launch and check the box when prompted if you would like it to be public. Remember which app you saved, you will find the link under Details of the app you saved.
+
+
+[gh]: https://cli.github.com/
+[gh-manual]: https://cli.github.com/manual/index
 
 [vll]: https://de.cyverse.org/apps/de/3548f43a-bed1-11e9-af16-008cfa5ae621/launch?quick-launch-id=81b187d6-cc94-4c53-81b5-f09f31c9c8ba
 
