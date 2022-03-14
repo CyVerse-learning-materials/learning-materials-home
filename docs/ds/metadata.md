@@ -33,6 +33,15 @@ outset.
 
 ![edit_view_metadta](../assets/ds/edit_view_metadata.png)
 
+
+??? Tip
+
+    A single piece of metadata, or an AVU, is made up of attributes,
+    values, and units. An attribute is a changeable property or
+    characteristic of the file or folder you have selected that can be
+    set to a value. For example, "time point" might be an attribute
+    of a file, while '7' could be its value, and "hour" a unit of the time point.
+    
 ??? Tip
 
     A single piece of metadata, or an AVU, is made up of attributes,
