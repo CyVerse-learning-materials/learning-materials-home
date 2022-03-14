@@ -181,9 +181,9 @@ CyVerse Data Store configuration:
 
 ------------------------------------------------------------------------
 
-## Anonymous access to the CyVerse Datastore
+## Anonymous access to the CyVerse Data Store
 
-You can access public data in the CyVerse Datastore with iCommands using:
+You can access public data in the CyVerse Data Store with iCommands using:
 
 -   Username: anonymous
 -   Password: \<leave blank>
@@ -234,7 +234,7 @@ iget -PT /iplant/home/cyverse_username/target_file /local_destination
 # This command will output the progress as it downloads to your local machine
 ```
 
-!!! Tip
+!!! Tip "Using optional arguments"
 
     There are several optional arguments that the upload iCommand `iget` can take:
 
@@ -278,7 +278,7 @@ Each of these commands accepts the `-h` command line option. When a command is c
 ## Additional Frequently Used iCommands
 
 In addition to the commands above, there are several frequently used
-iCommands ,most of which you would expect following the Linux paradigm:
+iCommands, most of which you would expect following the Linux paradigm:
 
 -   **ipwd**: Print current directory
 -   **imkdir**: Create a directory
