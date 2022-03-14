@@ -18,7 +18,7 @@ nav:
   - 'Home': index.md 
   - 'Introduction':
     - 'What is CyVerse?': what_is_cyverse.md
-    - 'Self-Guided Tour': https://cyverse-learning-materials.github.io/cyverse_mooc/
+    - 'Self-Guided Tour': mooc.md
     - 'Set Up an Account': account.md 
     - 'Getting Help': getting_help.md
   - 'Manage your Data': 
@@ -33,11 +33,11 @@ nav:
   - 'Run Analyses':
     - 'Introduction': de/intro.md
     - 'Logging In': de/login.md
-    - 'Managing Data through the DE': de/manage_data.md
+      ##- 'Managing Data through the DE': de/manage_data.md
     - 'Using Apps': de/using_apps.md
     - 'Managing Analyses': de/managing_analyses.md
     - 'Interactive Analysis': vice/about.md
-    - 'Interactive Apps': vice/apps.md
+      #- 'Interactive Apps': vice/apps.md
       #- 'Search': de/search.md
     - 'Sharing and Using Bags': de/bags.md
   - 'Quick Starts':
@@ -54,7 +54,7 @@ nav:
   - 'Analyze Images':
     - 'BisQue': bisque_guide.md
   - 'For the Classroom':
-    - 'Self-Guided Course': mooc.md
+    #- 'Self-Guided Course': mooc.md
     - 'DNA Subway': dna_subway_guide.md
     - 'Teach using CyVerse': vice/teaching_vice.md
   - 'Develop':
