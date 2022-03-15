@@ -52,7 +52,7 @@ build an app using it.
 
 From the 'Apps' tab click on the 'Manage Tools' button in the upper right.
 In the 'Manage Tools' interface search for 'porechop' in the search bar
-at the top. If you find the tool you want then you can build an app using that app. For more information about the app (including other apps already using this tool) you can select it (using the checkbox to the left) and then click 'details'.
+at the top. If you find the tool you want then you can build an app using that tool. For more information about the app (including other apps already using this tool) you can select it (using the checkbox to the left) and then click 'details'.
 
 ![manage_tools](../assets/de/manage_tools.png){width="600"}
 
