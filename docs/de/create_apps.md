@@ -21,7 +21,7 @@ of the DE for use in DE apps
 the DE
 
  -   **Executable**: user starts an analysis and when the analysis
-     finishes they can find the output files in their \'Analyses\'
+     finishes they can find the output files in their `\Analyses\`
      folder
 
       -   **DE**: run locally on our cluster
@@ -77,7 +77,7 @@ entered' box. For tools that have positional agruments (no argument option, eg.
 
 ![buildapp_step2](../assets/de/buildapp_step2.png){width="600"}
 
-** Note: **
+**Note:**
 Although it is best to add all of the options for your tool, as it makes
 the app the most useful, you can expose as many or as few options as you
 like (as long as you add all the required options).
@@ -88,7 +88,7 @@ Make sure your app looks the way you want it to and that you have included all o
 
 ![buildapp_step3](../assets/de/buildapp_step3.png){width="600"}
 
-Step 4:Command Line Order
+Step 4: Command Line Order
 
 This will provide a preview of what your options will look like on the command line. In the list of options below, use the up and down arrows to the right of the option to move it up or down in the list. You should see these changes reflected in the command line preview box. This order is especially important if your tool uses positional arguments.
 
