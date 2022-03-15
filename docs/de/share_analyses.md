@@ -1,7 +1,7 @@
-![CyVerese Logo](./assets/cyverse_learning.png)
+![CyVerese Logo](../assets/cyverse_learning.png)
 
-![Home_Icon](./assets/homeicon.png){width="25px" height="25px"}
-[Learning Center Home](http://learning.cyverse.org/)
+![Home_Icon](../assets/homeicon.png){width="25px" height="25px"}
+[Learning Center Home](https://learning.cyverse.org/)
 
 # Sharing Analyses
 

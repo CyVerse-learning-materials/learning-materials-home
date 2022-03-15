@@ -38,7 +38,7 @@
 
 [![de]{width="30"}](de/create_apps.md) [Integrate your own Tools and Apps in the Discovery Environment](de/create_apps.md)
 
-[![vice]{width="30"}](de/extend_apps.md) [Extending VICE Apps](de/extend_apps.md)
+[![vice]{width="30"}](vice/extend_apps.md) [Extending VICE Apps](vice/extend_apps.md)
 
 [Developer Manuals](manuals.md)
 

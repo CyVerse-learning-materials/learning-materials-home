@@ -105,7 +105,7 @@ You must request special access and be approved to use VICE apps through the CyV
 
 The Discovery Environment also supports advanced features for apps such as integrating different types of apps into the DE, creating and running containers, and using Application Programming Interfaces (APIs) for programmatic backend access to CyVerse services. 
 
-For how-to information on these features, see our [Developer Manuals](../manuals.md) , [Extending VICE Apps](../extend_apps.md) , and our [Powered By](../powered_by.md) documentation.
+For how-to information on these features, see our [Developer Manuals](../manuals.md) , [Extending VICE Apps](../vice/extend_apps.md) , and our [Powered By](../powered_by.md) documentation.
 
 -----------------------------------------------------------------------
 

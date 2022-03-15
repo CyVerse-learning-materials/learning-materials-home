@@ -117,29 +117,29 @@ You can share your running VICE workspace with colleagues (with a CyVerse accoun
 
 Click on the Analyses view.
 
-![vice-share-1](../img/vice-share-1.png){width="750px"}
+![vice-share-1](../assets/de/vice-share-1.png){width="750px"}
 
 Select the running analysis and click *Share* from the top bar.
 
-![vice-share-2](../img/vice-share-2.png){width="750px"}
+![vice-share-2](../assets/de/vice-share-2.png){width="750px"}
 
 From the sharing window, search for your collaborator(s) by CyVerse username, email, or group name.
 
-![vice-share-3](../img/vice-share-3.png){width="750px"}
+![vice-share-3](../assets/de/vice-share-3.png){width="750px"}
 
 **Opening workspaces shared with you**
 
 Click on the Analyses view.
 
-![vice-share-1](../img/vice-share-1.png){width="750px"}
+![vice-share-1](../assets/de/vice-share-1.png){width="750px"}
 
 Select the running analysis and click *Go to analysis* (square arrow box on right).
 
-![vice-share-6](../img/vice-share-6.png){width="750px"}
+![vice-share-6](../assets/de/vice-share-6.png){width="750px"}
 
 This will launch the shared analysis in a new window.
 
-![vice-share-7](../img/vice-share-7.png){width="750px"}
+![vice-share-7](../assets/de/vice-share-7.png){width="750px"}
 
 ------------------------------------------------------------------------
 
@@ -157,15 +157,15 @@ Quick Launches provide a way to set default parameter values for an analysis, wh
 
 To create a Quick Launch, open the app as if you are going to run it, fill in any default parameters for this Quick Launch, then click the **Create Quick Launch** button instead of the **Launch Analysis** button.
 
-![quick-launch-create](../img/quick_launch/create_quick_launch.png){width="640px"}
+![quick-launch-create](../assets/de/create_quick_launch.png){width="640px"}
 
 You can then name the Quick Launch and make it public.
 
-![quick-launch-dialog](../img/quick_launch/create_quick_launch_dialog.png){width="363px"}
+![quick-launch-dialog](../assets/de/create_quick_launch_dialog.png){width="363px"}
 
 To share the link for a public Quick Launch, or to copy its badge code for embedding in web pages or in repo markdown files, click the **Quick Launch** menu item from the app's 3-dot menu in the **Apps window**.
 
-![quick-launch-use](../img/quick_launch/use_quick_launch.png){width="585px"}
+![quick-launch-use](../assets/de/use_quick_launch.png){width="585px"}
 
 Note that private Quick Launch configurations cannot be shared, and clicking on them from this listing simply opens the app launch dialog with its parameters pre-filled, according to the Quick Launch configuration.
 
