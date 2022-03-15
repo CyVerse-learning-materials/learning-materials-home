@@ -88,7 +88,7 @@ Make sure your app looks the way you want it to and that you have included all o
 
 ![buildapp_step3](../assets/de/buildapp_step3.png){width="600"}
 
-Step 4: Command Line Order
+Step 4:  Command Line Order
 
 This will provide a preview of what your options will look like on the command line. In the list of options below, use the up and down arrows to the right of the option to move it up or down in the list. You should see these changes reflected in the command line preview box. This order is especially important if your tool uses positional arguments.
 
