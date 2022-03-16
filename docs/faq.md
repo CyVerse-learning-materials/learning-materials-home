@@ -1,6 +1,6 @@
 # Frequently Asked Questions
 
-## Account related
+## User Account
 
 ??? question "**How do I update my account information?**"
 
@@ -12,12 +12,11 @@
 
 -----------------------------------------------------------------------
 
-## Data related
+## Data
 
 ??? question "**What if I need more space (storage) in the Data Store?**"
 
-    Every new user has a 100GB allocation in the Data Store. 
-    
+    Every user has a 100GB allocation in the Data Store. 
     You can request more space by completing an [Allocation Increase Form](https://user.cyverse.org/forms/2/overview).
 
 -----------------------------------------------------------------------
@@ -36,7 +35,7 @@
 
     CyVerse provides web access to its public datasets via WebDav [https://data.cyverse.org](https://data.cyverse.org){_target=_blank} 
     
-    Because the CyVerse Data Store crosscuts all CyVerse services, public datasets may also be accessed through the Discovery Environment, Atmosphere, the Science APIs and iCommands. 
+    Public datasets in CyVerse may also be accessed through the Discovery Environment, Atmosphere, the Science APIs and iCommands. 
     
     For more information on using data at CyVerse, see the Learning Center documentation pages on working with data.
 
@@ -83,9 +82,70 @@
     ichmod -r null public /iplant/home/shared/myfolder
     ichmod -r null anonymous /iplant/home/shared/myfolder
     ```
+------------------------------------------------------------------------    
+
+??? question "**When sharing a file or folder, what permission should I give to my collaborator?**"
+
+    	It depends on what you want to allow the collaborator to do with the
+    	file or folder. Options are: read, write (ability to edit the file or
+    	folder), and own (in addition to edit, can also delete and move; use
+    	this permission with caution). Learn more
+    	[here](https://wiki.cyverse.org/wiki/display/DEmanual/Changing+and+Viewing+Data+Permission+Levels+in+the+DE).
+
+------------------------------------------------------------------------
+
+??? question "**Why can't I rename or delete files in a folder that has been shared with me?**"
+
+    To rename a file or folder, you must have "write" permission, and to
+    delete a file you must have "own" permission. To check the permission
+    you have, click the checkbox for the item and look at the Permissions
+    shown in the Details panel on the right. Contact the person who shared
+    the file or folder with you if they did not give you the necessary level
+    of permission. Learn more at [Changing and Viewing Data Permission
+    Levels in the
+    DE](https://wiki.cyverse.org/wiki/display/DEmanual/Changing+and+Viewing+Data+Permission+Levels+in+the+DE).
+
+------------------------------------------------------------------------
+
+??? question "**How can I manage shared files and folders for my lab group or project?**"
+
+    See [Setting Up a Shared Directory for a Lab or Project](https://wiki.cyverse.org/wiki/display/DC/Setting+up+a+shared+directory+for+a+lab+or+project).
+
+------------------------------------------------------------------------
+
+??? question "**Why doesn't anything happen when I move a folder I own to the Trash?**"
+
+    If a folder has hundreds of files, it can take several hours for the
+    deletion to complete in the DE. Please be patient and try refreshing
+    your browser periodically. You cannot delete 1000 files or more in the
+    DE. You must [use
+    iCommands](https://wiki.cyverse.org/wiki/display/DS/Using+iCommands)
+    instead. Note that deleted files may still show up in the search for
+    awhile, but eventually deleted files will be fully purged from the system.
+
+------------------------------------------------------------------------
+
+??? question "**Can I have spaces in file and folder names?**"
+
+    No. Do not use spaces or special characters in file or folder names as
+    they can cause analyses to fail. [Learn more
+    here](https://wiki.cyverse.org/wiki/display/DEmanual/Using+Special+Characters+in+the+DE).
+
+------------------------------------------------------------------------
+
+??? question "**Can I view my files in a genome browser?**"
+
+    You can view bam, vcf, and gff genome files you own in the genome
+    browsers at Ensembl, UCSC, IGV, GBrowse, and jbrowse, and view Fasta
+    genome files in CoGe. Learn more about viewing genome files in [a genome
+    browser](https://wiki.cyverse.org/wiki/display/DEmanual/Viewing+Genome+Files+in+a+Genome+Browser)
+    or in
+    [CoGe](https://pods.iplantcollaborative.org/wiki/display/DEmanual/Viewing+Genome+Files+in+CoGe).
+
+    
 -----------------------------------------------------------------------
 
-## Discovery Environment
+## Apps and Analyses
 
 ??? question "**Why has my job failed or been running forever?**"
 
@@ -259,80 +319,16 @@
 
 ------------------------------------------------------------------------
 
-## Data Questions
-
-??? question "**When sharing a file or folder, what permission should I give to my collaborator?**"
-
-    	It depends on what you want to allow the collaborator to do with the
-    	file or folder. Options are: read, write (ability to edit the file or
-    	folder), and own (in addition to edit, can also delete and move; use
-    	this permission with caution). Learn more
-    	[here](https://wiki.cyverse.org/wiki/display/DEmanual/Changing+and+Viewing+Data+Permission+Levels+in+the+DE).
-
-------------------------------------------------------------------------
-
-??? question "**Why can't I rename or delete files in a folder that has been shared with me?**"
-
-    To rename a file or folder, you must have "write" permission, and to
-    delete a file you must have "own" permission. To check the permission
-    you have, click the checkbox for the item and look at the Permissions
-    shown in the Details panel on the right. Contact the person who shared
-    the file or folder with you if they did not give you the necessary level
-    of permission. Learn more at [Changing and Viewing Data Permission
-    Levels in the
-    DE](https://wiki.cyverse.org/wiki/display/DEmanual/Changing+and+Viewing+Data+Permission+Levels+in+the+DE).
-
-------------------------------------------------------------------------
-
-??? question "**How can I manage shared files and folders for my lab group or project?**"
-
-    See [Setting Up a Shared Directory for a Lab or Project](https://wiki.cyverse.org/wiki/display/DC/Setting+up+a+shared+directory+for+a+lab+or+project).
-
-------------------------------------------------------------------------
-
-??? question "**Why doesn't anything happen when I move a folder I own to the trash?**"
-
-    If the folder has hundreds of files, it can take several hours for the
-    deletion to complete in the DE. Please be patient and try refreshing
-    your browser periodically. You cannot delete 1000 files or more in the
-    DE. You must [use
-    iCommands](https://wiki.cyverse.org/wiki/display/DS/Using+iCommands)
-    instead. Note that deleted files may still show up in the search for
-    awhile, but eventually will be fully purged from the system.
-
-------------------------------------------------------------------------
-
-??? question "**Can I have spaces in file and folder names?**"
-
-    No. Do not use spaces or special characters in file or folder names as
-    they can cause analyses to fail. [Learn more
-    here](https://wiki.cyverse.org/wiki/display/DEmanual/Using+Special+Characters+in+the+DE).
-
-------------------------------------------------------------------------
-
-??? question "**Can I view my files in a genome browser?**"
-
-    You can view bam, vcf, and gff genome files you own in the genome
-    browsers at Ensembl, UCSC, IGV, GBrowse, and jbrowse, and view Fasta
-    genome files in CoGe. Learn more about viewing genome files in [a genome
-    browser](https://wiki.cyverse.org/wiki/display/DEmanual/Viewing+Genome+Files+in+a+Genome+Browser)
-    or in
-    [CoGe](https://pods.iplantcollaborative.org/wiki/display/DEmanual/Viewing+Genome+Files+in+CoGe).
-
-------------------------------------------------------------------------
-
-## App Questions
-
-??? question "**Why can't I find a Discovery Environment app?**"
+??? question "**Why can't I find an app in the Discovery Environment?**"
 
     There are two common reasons why an app is not "visible" or doesn't come
     up in search in the Apps list:
     
-    	-   The app may be an HPC (high-performance computing) app, which is
+    - 	The app may be an HPC (high-performance computing) app, which is
         only displayed after you have logged in to Tapis, where the HPC
         apps are stored. To do so, click the **HPC** tab in the Apps
         window and enter your CyVerse username and password.
-    	-   The app may not yet be public, or the app owner may not have
+    -   The app may not yet be public, or the app owner may not have
         shared the unpublished app with you. Check with the owner to see
         if it is indeed shared with you or is public.
     
@@ -505,19 +501,19 @@
 
 ------------------------------------------------------------------------
 
-## Training
+## Teaching and Training
 
 ??? question "**How can I use CyVerse in my course?**"
 
-    A great teaching resource is containerized workflows in DE/VICE. By
+    A great teaching resource is to use containerized workflows in DE/VICE for a class. By
     loading a container with the software tools, datasets, and analysis
     parameters necessary to run an analysis, educators use containers to help overcome many
-    technological and logistical (of students' individual devices) hurdles for 
-    both learning and teaching informatics. See [Teaching with VICE](vice/teaching_vice) for more information.
+    technological and logistical (i.e., devices with different OS) hurdles for 
+    both learning and teaching informatics and computational skills. See [Teaching with VICE](vice/teaching_vice) for more information.
     
     Also, [DNA Subway](https://cyverse-learning-materials.github.io/learning-materials-home/dna_subway_guide/#types-of-apps){_target=_blank} is especially useful for teaching the basics of computational genomics workflows: gene concepts,
-    phylogenetics, DNA barcoding and RNA-Seq. With a friendly user interface, DNA Subway uses the analogy of multiple subway 
-    stops and lines to understand genomic analyses and has been used successfully by high school students and above.
+    phylogenetics, DNA barcoding and RNA-Seq analysis. With a friendly user interface, DNA Subway uses the analogy of multiple subway 
+    stops and lines to understand genomics workflows and has been used successfully by high school students and above.
 
 ------------------------------------------------------------------------
 
@@ -526,6 +522,6 @@
     Funding to support workshop requests is very limioted, with priority for
     trainings at underserved institutions (rural,
     HBCU/Tribal/Hispanic-serving, etc.). Contact CyVerse's Education, Outreach, and
-    Training Lead Jason Williams (<williams@cshl.edu>)
+    Training Lead Jason Williams (<williams@cshl.edu>).
 
 ------------------------------------------------------------------------
