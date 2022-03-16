@@ -4,7 +4,7 @@
 
 ??? question "**How do I update my account information?**"
 
-    CyVerse users should update their account information annually for continued access to services. To update, go to the , log in, and click the account icon in the upper right corner.
+    CyVerse users should update their account information annually for continued access to services. To update, go to the [CyVerse User Portal](https://user.cyverse.org/){_target=_blank}, log in, and click the account icon in the upper right corner.
 
     In addition to updating your email, institution, occupation, preferences and other information that may have changed, please add your ORCID ID, a unique identifier which can help you receive credit for your work. Get an ORCID here <https://orcid.org/register>.
 
@@ -24,11 +24,11 @@
 
 ??? question "**How do I publish a large set of public data?**"
 
-    If you need assistance transferring a large dataset to CyVerse, please contact CyVerse Support (<support@cyverse.orgor use the blue Intercom icon at the bottom right). 
+    If you need assistance transferring a large dataset to CyVerse, please contact CyVerse Support (<support@cyverse.org or use the blue Intercom icon at the bottom right). 
     
     For more information on our policies, see CyVerse's [Collaboration Policy](http://www.cyverse.org/collaboration-policy) and [Data Management Policy](http://www.cyverse.org/data-management-policy). 
     
-    For more information on using data at CyVerse, see the Learning Center documentation pages on [working with data](ds/intro.md).
+    For more information on using data at CyVerse, see the Learning Center documentation on [working with data](ds/intro.md).
 
 -----------------------------------------------------------------------
 
@@ -36,7 +36,7 @@
 
     CyVerse provides web access to its public datasets via WebDav [https://data.cyverse.org](https://data.cyverse.org){_target=_blank} 
     
-    Because the CyVerse Data Store underlies all CyVerse services, the public datasets may also be accessed through the Discovery Environment, Atmosphere, the Science APIs and iCommands. 
+    Because the CyVerse Data Store crosscuts all CyVerse services, public datasets may also be accessed through the Discovery Environment, Atmosphere, the Science APIs and iCommands. 
     
     For more information on using data at CyVerse, see the Learning Center documentation pages on working with data.
 
@@ -48,7 +48,7 @@
     
     Community Released Data folders are intended for datasets that are growing or changing frequently or that may not need long-term preservation.
 
-    Before you request a folder, please read this wiki article on [publishing data through the Data Commons](https://wiki.cyverse.org/wiki/display/DC/Publishing+Data+through+the+Data+Commons), and this one on [preparing community-released data folders](https://wiki.cyverse.org/wiki/display/DC/Preparing+Community+Released+Data+Folders).
+    Before requesting a folder, please read this wiki article on [publishing data through the Data Commons](https://wiki.cyverse.org/wiki/display/DC/Publishing+Data+through+the+Data+Commons), and this one on [preparing community-released data folders](https://wiki.cyverse.org/wiki/display/DC/Preparing+Community+Released+Data+Folders).
 
     Then, if you meet the criteria, you can request a folder using [this form](https://user.cyverse.org/forms/7/overview).
 
@@ -56,13 +56,13 @@
 
 ??? question "**How do I connect to a shared or public folder with CyberDuck?**"
 
-    See our [using CyberDuck documentation](ds/cyberduck.md)
+    See our [using CyberDuck documentation](ds/cyberduck.md).
 
 -----------------------------------------------------------------------
 
 ??? question "**How do I open a connection to a private folder that is shared with me?**"
 
-    See our [using the Data Store documentation](ds/intro.md)
+    See our [using the Data Store documentation](ds/intro.md).
 
 -----------------------------------------------------------------------
 
@@ -70,7 +70,7 @@
 
     Although you can share files and folders in the DE and create public links, you must use iCommands make them visible to everyone. Permissions are set in iCommands by using `ichmod` (<https://docs.irods.org/4.2.1/icommands/user/#ichmod>).
 
-    To make a folder public, you give read permission to two users: 'public' (anyone signed in with a CyVerse account) and 'anonymous' (anyone on the web -no sign in required). To recursively make a shared folder called 'myfolder' public, use the instructions below
+    To make a folder public, you must give read permission to two users: 'public' (anyone signed in with a CyVerse account) and 'anonymous' (anyone on the web - no log in required). To recursively make a shared folder called 'myfolder' public, use the instructions below.
 
     ```bash
     ichmod -r read public /iplant/home/shared/myfolder
@@ -105,7 +105,7 @@
         search for more information on the web.
     -   Avoid the use of special characters and spaces in analysis names,
         file names, and folder names when submitting an analysis through
-        the DE (e.g. ~ \` ! @ # $ % ^ & \* ( ) + = { } [ ] | \ : ;
+        the DE (e.g., ~ \` ! @ # $ % ^ & \* ( ) + = { } [ ] | \ : ;
         " ' < , ? / and spaces)
     
     **Getting Help with an analysis**
@@ -126,7 +126,7 @@
         the form
     -   Please go through all the troubleshooting steps yourself before
         requesting help. The problem is often something that you can
-        diagnose yourself
+        diagnose yourself.
     
     **Checking Log files for error**
     
@@ -143,11 +143,11 @@
     errors to the stdout files (usually the screen, although it can be
     redirected and is generally captured in a log file here), while
     another saves its errors to the stderr files (which usually writes to
-    a file, but can also be redirected). This means you may well have to
+    a file, but can also be redirected). This means you may have to
     look in more than one log file when troubleshooting a failed analysis.
     The log files that most commonly contain error information are
     (numerals in the filename correspond to the step number that was
-    logged in your analysis ):
+    logged in your analysis):
     
     -   `condor-stderr` and `condor-input-stdout` log files contain errors
         and details about Condor, the batch manager program that handles
@@ -192,12 +192,12 @@
 ??? question "**Why is my analysis sitting in the Submitted state for so long?**"
 
     Analyses that use an app that runs on an HPC system can remain in the
-    Submitted state for hours or even days. They may sit in in the queue in
+    Submitted state for hours or even days. They may sit in the queue in
     Submitted state waiting to run, along with other possibly long-running
     jobs that were in the queue first. Therefore, it may take several days
     for your analysis to get its turn to run. Once your analysis runs, its
     results will be returned to the Data Store and you will get a
-    Notification that the analysis status has changed to Completed.
+    notification that the analysis status is now Completed.
 
 ------------------------------------------------------------------------
 
@@ -228,7 +228,7 @@
     You can easily relaunch the same analysis with different settings:
     
     In the Analyses window, click the app name in the App column for
-    the analysis to rerun. This opens up an app window for that app, which
+    the analysis you want to rerun. This opens up an app window for that app, which
     is already configured with the inputs and settings you used for the
     previous analysis run. Change settings or inputs as needed.
     Click **Launch Analysis** to launch the new analysis.
@@ -345,37 +345,35 @@
     (support@cyverse.org)](mailto:support@cyverse.org) for assistance.
     [Learn more about deprecated
     apps](https://wiki.cyverse.org/wiki/display/DEmanual/Using+the+Apps+Window+and+Submitting+an+Analysis#UsingtheAppsWindowandSubmittinganAnalysis-ArchivedApp).
-
+    
 ------------------------------------------------------------------------
-
-
-## Analyses FAQ
 
 ??? question "**What apps and workflows are in CyVerse?**"
 
     CyVerse has hundreds of apps and workflows in the Discovery Environment
-    (DE). For the list of applications available in the DE, see the . Most
-    apps in the DE have user manuals to give you a jump-start on using the
+    (DE). You can view the list of applications available in the DE [here](https://cyverse.atlassian.net/wiki/spaces/DEapps/pages/241882146/List+of+Applications){_target=_blank}. Most
+    apps in the DE have user manuals to help you use the
     app. You also can browse the list of tutorials to find help to learn a
     complicated workflow or how to use an app in the DE or VICE.
-
+    
 ------------------------------------------------------------------------
 
-??? question "**How can I make my app available for other people to use?**"
+??? question "**How do I make my app available for other people to use?**"
 
     You can create a new app interface in the Discovery Environment and
     share it with other users and you also can install the app on VICE. In
     most cases, providing a Docker container (or a link to one) with the
     application of your choice is all you need to start. See the
-    Developer's section of the .
+    [Develop](https://cyverse-learning-materials.github.io/learning-materials-home/de/create_apps/)
+    section of the Learning Center.
 
 ------------------------------------------------------------------------
 
-## Containers FAQ
+## Containers
 
-??? question "**Does CyVerse have resources for GPU and containers (e.g. to stabilize R modules using the nvidia cuda)?**"
+??? question "**Does CyVerse have resources for GPU and containers (e.g., to stabilize R modules using the nvidia cuda)?**"
 
-    Yes, please email Tyson at <tswetnam@cyverse.org> for details.
+    Yes; please email Tyson at <tswetnam@cyverse.org> for details.
 
 ------------------------------------------------------------------------
 
@@ -390,14 +388,14 @@
 ??? question "**Are there tools for scanning publicly available containers in Atmosphere VMs for malware?**"
 
     [Docker Hub](https://hub.docker.com/) and [Quay](https://quay.io/), two
-    of the most popular public container image registries, provide security
+    of the most popular public container image registries, both provide security
     scanning for images that are uploaded to their sites. Details about how
     to enable or use these registries' security scanning features can be
     found here:
     <https://developers.redhat.com/blog/2019/06/26/using-quay-io-to-find-vulnerabilities-in-your-container-images/>
     and <https://docs.docker.com/docker-hub/vulnerability-scanning/>.
     
-    Other tools to scan your container images without using Docker Hub and
+    Other tools to scan your container images without using DockerHub and
     Quay include [Anchore](https://anchore.com/),
     [Clair](https://github.com/quay/clair), and
     [Trivy](https://github.com/aquasecurity/trivy), with new container-based
@@ -413,9 +411,9 @@
 
 ------------------------------------------------------------------------
 
-## Bring Your Own (BYO) FAQ
+## Bring Your Own (BYO)
 
-??? question "**How can I use CyVerse's tools and resources from within my program/app**"
+??? question "**How can I use CyVerse's tools and resources from within my program/app?**"
 
     See the information about our [Science APIs](http://www.cyverse.org/science-apis); you can also contact Support using the
     blue chat icon at the bottom right of the platform. For projects
@@ -425,12 +423,12 @@
 ------------------------------------------------------------------------
 
 
-## Collaboration FAQ
+## Collaboration
 
 ??? question "**How can I get a letter of collaboration for my grant proposal that uses CyVerse?**"
 
-    *To request a letter of collaboration, email informaticians@cyverse.org
-    with the following information:* - the CyVerse resources your project
+    To request a letter of collaboration, email <info@cyverse.org>
+    your request with the following information: - the CyVerse resources your project
     will use (e.g., storage, computing power, expertise for scaling, etc.)
     and indicate if any resulting datasets will be made publicly available
     in CyVerse - the name of the PI, proposal title, funding agency, and
@@ -508,29 +506,27 @@
 
 ------------------------------------------------------------------------
 
-## Training FAQ
+## Training
 
 ??? question "**How can I use CyVerse in my course?**"
 
-    DNA Subway (See ) is especially useful for teaching gene concepts,
-    phylogenetics, DNA barcoding and RNA-Seq. With a friendly user interface
-    and based on the analogy of multiple subway stops and lines, student
-    learn the basics of computational genomics workflows.
-    
-    Using containers in DE/VICE is also a great teaching resource. By
+    A great teaching resource is containerized workflows in DE/VICE. By
     loading a container with the software tools, datasets, and analysis
-    parameters necessary to run an analysis, containers help overcome many
-    technological hurdles for both learning and teaching informatics.
-    See [Teaching with VICE](vice/teaching_vice) for more information.
-
+    parameters necessary to run an analysis, educators use containers to help overcome many
+    technological and logistical (of students' individual devices) hurdles for 
+    both learning and teaching informatics. See [Teaching with VICE](vice/teaching_vice) for more information.
+    
+    Also, [DNA Subway](https://cyverse-learning-materials.github.io/learning-materials-home/dna_subway_guide/#types-of-apps){_target=_blank} is especially useful for teaching the basics of computational genomics workflows: gene concepts,
+    phylogenetics, DNA barcoding and RNA-Seq. With a friendly user interface, DNA Subway uses the analogy of multiple subway 
+    stops and lines to understand genomic analyses and has been used successfully by high school students and above.
 
 ------------------------------------------------------------------------
 
 ??? question "**Can CyVerse give a workshop at my institution?**"
 
-    Funding to support workshop requests is very limited, with priority for
+    Funding to support workshop requests is very limioted, with priority for
     trainings at underserved institutions (rural,
-    HBCU/Tribal/Hispanic-serving, etc.). Contact Education, Outreach, and
+    HBCU/Tribal/Hispanic-serving, etc.). Contact CyVerse's Education, Outreach, and
     Training Lead Jason Williams (<williams@cshl.edu>)
 
 ------------------------------------------------------------------------
