@@ -23,11 +23,12 @@ nav:
     - 'Getting Help': getting_help.md
   - 'Manage your Data': 
     - 'Introduction': ds/intro.md 
-    - 'Moving Data': ds/move_data.md
-    - 'Data Transfers with Discovery Environment': de/manage_data.md
-    - 'Data Transfers with Cyberduck Desktop App': ds/cyberduck.md
-    - 'Command Line Data Transfers': ds/icommands.md
-    - 'HTTP Access with WebDAV': ds/webdav.md
+    - 'Moving Data': 
+      - 'Introduction': ds/move_data.md
+      - 'Data Transfers with Discovery Environment': de/manage_data.md
+      - 'Data Transfers with Cyberduck Desktop App': ds/cyberduck.md
+      - 'Command Line Data Transfers': ds/icommands.md
+      - 'HTTP Access with WebDAV': ds/webdav.md
     - 'Adding Metadata': ds/metadata.md
     - 'Sharing Data': ds/share.md
   - 'Run Analyses':
@@ -80,14 +81,13 @@ extra_javascript:
 # Set theme to `readthedocs`
 # must also set Action to use `@nomaterial` branch instead of `@master` for material
 theme:
-  name: readthedocs
+  name: material
 # setting features for the navigation tab
   features:
     - navigation.instant
-    - navigation.expand
+      #- navigation.expand
     - navigation.tracking
     - navigation.sections
-    - navigation.expand
   # Default values, taken from mkdocs_theme.yml
   language: en
   palette: 

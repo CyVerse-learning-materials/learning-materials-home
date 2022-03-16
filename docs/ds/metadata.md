@@ -1,5 +1,3 @@
-[Learning Center Home](http://learning.cyverse.org/)
-
 # Adding Metadata to Data
 
 CyVerse supports a variety of solutions that allow you to

@@ -1,5 +1,3 @@
-[Learning Center Home](http://learning.cyverse.org/)
-
 # WebDAV
 
 WebDAV is an extension to the HTTP protocol that allows users to
