@@ -86,11 +86,9 @@
 
 ??? question "**When sharing a file or folder, what permission should I give to my collaborator?**"
 
-    	It depends on what you want to allow the collaborator to do with the
-    	file or folder. Options are: read, write (ability to edit the file or
-    	folder), and own (in addition to edit, can also delete and move; use
-    	this permission with caution). Learn more
-    	[here](https://wiki.cyverse.org/wiki/display/DEmanual/Changing+and+Viewing+Data+Permission+Levels+in+the+DE).
+    It depends on what you want to allow the collaborator to do with the file or folder. Options are: 
+    read, write (ability to edit the file or folder), and own (in addition to edit, can also delete and move; use this permission with caution). Learn more
+    [here](https://wiki.cyverse.org/wiki/display/DEmanual/Changing+and+Viewing+Data+Permission+Levels+in+the+DE).
 
 ------------------------------------------------------------------------
 
@@ -155,40 +153,40 @@
     
     **Common things to check when troubleshooting an analysis**
     
-    -   View the app\'s parameters to make sure you used the correct input
-        files and settings
-    -   Read through the app\'s documentation page
+    -   View the app's parameters to make sure you used the correct input
+        files and settings.
+    -   Read through the app's documentation page.
     -   It also may be helpful to read through documentation about the
-        tool that was used to create the app. Check the app\'s
+        tool that was used to create the app. Check the app's
         documentation page to see if a link was provided. If no link was
         provided, you can find specifics about the tool that was used and
         search for more information on the web.
     -   Avoid the use of special characters and spaces in analysis names,
         file names, and folder names when submitting an analysis through
         the DE (e.g., ~ \` ! @ # $ % ^ & \* ( ) + = { } [ ] | \ : ;
-        " ' < , ? / and spaces)
+        " ' < , ? / and spaces).
     
     **Getting Help with an analysis**
     
     If you know that an analysis typically completes in 20 minutes but you
     have one that still shows Running status 24 hours after you submitted
     it, the app used for the analysis seems to have a problem, or you
-    didn\'t get any output files or the output files were not what you
+    didn't get any output files or the output files were not what you
     expected, you can submit a request for help directly in the Analyses
     window. The status of the analysis determines the Help information
     that is displayed.
     
-    -   In the Analyses window, find the analysis with the possible issue
+    -   In the Analyses window, find the analysis with the possible issue.
     -   Click the name of the failed analysis whose outputs you want to
-        view
-    -   Review the suggestions for review
+        view.
+    -   Review the suggestions for review.
     -   If you still need assistance, click I still need help and complete
-        the form
+        the form.
     -   Please go through all the troubleshooting steps yourself before
         requesting help. The problem is often something that you can
         diagnose yourself.
     
-    **Checking Log files for error**
+    **Checking log files for error**
     
     One of the main tools available for troubleshooting a failed analysis
     is the set of log files that are returned with each completed or
@@ -219,7 +217,7 @@
 
 ??? question "**How do I get help with a tool (app) or workflow?**"
 
-    The steps to get help depend on whether you're a novice or an expert
+    The steps to get Help depend on whether you're a novice or an expert
     with the tool (executable or binary) on which the app or workflow is
     based.
     
@@ -244,7 +242,7 @@
     
     If you are experienced with the tool or workflow and need advice for
     how to work with very large-scale data or a complex workflow, you may
-    request community support or [Extended Collaborative
+    request [Extended Collaborative
     Support](<http://www.cyverse.org/collaborate>).
 
 ------------------------------------------------------------------------
