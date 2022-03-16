@@ -428,12 +428,11 @@
 ??? question "**How can I get a letter of collaboration for my grant proposal that uses CyVerse?**"
 
     To request a letter of collaboration, email <info@cyverse.org>
-    your request with the following information: - the CyVerse resources your project
-    will use (e.g., storage, computing power, expertise for scaling, etc.)
-    and indicate if any resulting datasets will be made publicly available
-    in CyVerse - the name of the PI, proposal title, funding agency, and
-    date you need the letter - if there is a template that must be used,
-    please attach to your email
+    your request with the following information:  
+    - the CyVerse resources your project will use (e.g., storage, computing power, expertise for scaling, etc.)
+    and indicate if any resulting datasets will be made publicly available;
+    - the name of the PI, proposal title, funding agency, the date you need the letter 
+    - if there is a template that must be used, please attach it to your email.
  
 ------------------------------------------------------------------------
 
