@@ -23,7 +23,7 @@
 
 ??? question "**How do I publish a large set of public data?**"
 
-    If you need assistance transferring a large dataset to CyVerse, please contact CyVerse Support (<support@cyverse.org or use the blue Intercom icon at the bottom right). 
+    If you need assistance transferring a large dataset to CyVerse, please contact CyVerse Support (<support@cyverse.org> or use the blue chat icon at the bottom right). 
     
     For more information on our policies, see CyVerse's [Collaboration Policy](http://www.cyverse.org/collaboration-policy) and [Data Management Policy](http://www.cyverse.org/data-management-policy). 
     
@@ -37,7 +37,7 @@
     
     Public datasets in CyVerse may also be accessed through the Discovery Environment, Atmosphere, the Science APIs and iCommands. 
     
-    For more information on using data at CyVerse, see the Learning Center documentation pages on working with data.
+    For more information on using public data at CyVerse, see the Learning Center documentation pages on [HTTP Access with WebDAV](https://cyverse-learning-materials.github.io/learning-materials-home/ds/webdav/#prerequisites).
 
 -----------------------------------------------------------------------
 
