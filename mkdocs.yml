@@ -42,10 +42,11 @@ nav:
       #- 'Search': de/search.md
     - 'Sharing and Using Bags': de/bags.md
   - 'Quick Starts':
-    - 'RStudio in 6 steps': vice/quick-rstudio.md
-    - 'JupyterLab in 6 steps': vice/quick-jupyter.md
-    - 'Cloud Shell in 6 steps': vice/quick-cloudshell.md
-    - 'Distributing Data in 6 steps': ds/quick-data-share.md
+    - "6 step tutorials":
+      - 'RStudio in 6 steps': vice/quick-rstudio.md
+      - 'JupyterLab in 6 steps': vice/quick-jupyter.md
+      - 'Cloud Shell in 6 steps': vice/quick-cloudshell.md
+      - 'Distributing Data in 6 steps': ds/quick-data-share.md
       #- 'Cloud Virtual Machines': atmo/quick-atmo.md
   - 'Cloud Services':
     - 'Introduction': atmo/intro.md
