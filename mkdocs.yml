@@ -42,7 +42,7 @@ nav:
       #- 'Search': de/search.md
     - 'Sharing and Using Bags': de/bags.md
   - 'Quick Starts':
-    - "6 step tutorials":
+    - "6-step setup guides":
       - 'RStudio in 6 steps': vice/quick-rstudio.md
       - 'JupyterLab in 6 steps': vice/quick-jupyter.md
       - 'Cloud Shell in 6 steps': vice/quick-cloudshell.md
