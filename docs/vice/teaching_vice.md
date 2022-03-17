@@ -8,7 +8,7 @@ Start by completing the [Workshop Request Form here](https://user.cyverse.org/re
 
 !!! Note
 
-    When scheduling your workshop or class, note that CyVerse conducts regular maintenance of its platforms typically on the first Tuesday of the month. See our [Maintenance calendar here](https://cyverse.org/maintenance){_target=_blank}.
+    When scheduling your workshop or class, note that CyVerse conducts regular maintenance of its platforms typically on the first Tuesday of the month. 
     
 
 ### Select your services
