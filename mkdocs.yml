@@ -22,12 +22,12 @@ nav:
     - 'Set Up an Account': account.md 
     - 'Getting Help': getting_help.md
   - 'Manage your Data': 
-    - 'Introduction': ds/intro.md 
+    - 'Introduction: Data Store Guide': ds/intro.md 
     - 'Moving Data': 
       - 'Introduction': ds/move_data.md
-      - 'Data Transfers with Discovery Environment': de/manage_data.md
-      - 'Data Transfers with Cyberduck Desktop App': ds/cyberduck.md
-      - 'Command Line Data Transfers': ds/icommands.md
+      - 'Data Management with Discovery Environment': de/manage_data.md
+      - 'Transferring Data with Cyberduck': ds/cyberduck.md
+      - 'Transferring Data with iCommands and Command Line': ds/icommands.md
       - 'HTTP Access with WebDAV': ds/webdav.md
     - 'Adding Metadata': ds/metadata.md
     - 'Sharing Data': ds/share.md

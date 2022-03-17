@@ -1,4 +1,4 @@
-# WebDAV
+# HTTP Access with WebDAV
 
 WebDAV is an extension to the HTTP protocol that allows users to
 remotely edit and manage files. CyVerse has added support for WebDAV to

@@ -1,4 +1,4 @@
-# Command Line Transfer with iCommands
+# Transferring Data with iCommands and Command Line
 
 iCommands is a collection of tools developed by the iRODS project. [iRODS](https://irods.org){target=_blank} is the technology that supports the CyVerse Data Store. Using iCommands is the most flexible way to interact with the Data Store. 
 

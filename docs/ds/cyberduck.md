@@ -1,4 +1,4 @@
-# Drag-and-drop Data Transfer with Cyberduck
+# Transferring Data with Cyberduck
 
 Cyberduck is a 3rd party software (available as freeware) tool that
 allows you to drag-and-drop large and/or multiple files between your local computer and the
