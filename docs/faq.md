@@ -16,9 +16,10 @@
 
 ??? question "**What if I need more space (storage) in the Data Store?**"
 
-    Every user has a 100GB allocation in the Data Store. 
-    You can request more space by completing an [Allocation Increase Form](https://user.cyverse.org/forms/2/overview).
-
+    Every user has a 50GB allocation in the Data Store. 
+    You can request more space by completing an [Allocation Increase Form](https://user.cyverse.org/forms/2/overview); 
+    also see information on storage allocations for [CyVerse's subscription tiers](https://cyverse.org/subscribe).
+    
 -----------------------------------------------------------------------
 
 ??? question "**How do I publish a large set of public data?**"
