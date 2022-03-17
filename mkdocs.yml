@@ -15,16 +15,16 @@ copyright: 'Copyright &copy; 2022 CyVerse'
 # Navigation Page
 
 nav:
-  - 'Home': index.md 
-  - 'Introduction':
+  - 'Home': 
+    - index.md 
     - 'What is CyVerse?': what_is_cyverse.md
     - 'Self-Guided Tour': mooc.md
     - 'Set Up an Account': account.md 
     - 'Getting Help': getting_help.md
-  - 'Manage your Data': 
-    - 'Introduction: Data Store Guide': ds/intro.md 
+  - 'Manage Your Data': 
+    - ds/index.md 
     - 'Moving Data': 
-      - 'Introduction': ds/move_data.md
+      - ds/move_data/index.md
       - 'Data Management with Discovery Environment': de/manage_data.md
       - 'Transferring Data with Cyberduck': ds/cyberduck.md
       - 'Transferring Data with iCommands and Command Line': ds/icommands.md
@@ -32,7 +32,7 @@ nav:
     - 'Adding Metadata': ds/metadata.md
     - 'Sharing Data': ds/share.md
   - 'Run Analyses':
-    - 'Introduction': de/intro.md
+    - de/index.md
     - 'Logging In': de/login.md
       ##- 'Managing Data through the DE': de/manage_data.md
     - 'Using Apps': de/using_apps.md
@@ -42,32 +42,32 @@ nav:
       #- 'Search': de/search.md
     - 'Sharing and Using Bags': de/bags.md
   - 'Quick Starts':
-    - "6-step setup guides":
-      - 'RStudio in 6 steps': vice/quick-rstudio.md
-      - 'JupyterLab in 6 steps': vice/quick-jupyter.md
-      - 'Cloud Shell in 6 steps': vice/quick-cloudshell.md
-      - 'Distributing Data in 6 steps': ds/quick-data-share.md
+    - 'RStudio in 6 steps': vice/quick-rstudio.md
+    - 'JupyterLab in 6 steps': vice/quick-jupyter.md
+    - 'Cloud Shell in 6 steps': vice/quick-cloudshell.md
+    - 'Distributing Data in 6 steps': ds/quick-data-share.md
       #- 'Cloud Virtual Machines': atmo/quick-atmo.md
   - 'Cloud Services':
-    - 'Introduction': atmo/intro.md
-    - 'Atmosphere': atmo/atmo.md
-    - 'Jetstream': atmo/js.md 
-    - 'Continuous Analyses': atmo/cacao.md
+    - cloud/index.md
+      #- 'Atmosphere': atmo/atmo.md
+      #- 'Jetstream': atmo/js.md 
+      #- 'Continuous Analyses': atmo/cacao.md
   - 'Analyze Images':
-    - 'BisQue': bisque_guide.md
+    - bisque/index.md
   - 'For the Classroom':
     #- 'Self-Guided Course': mooc.md
-    - 'DNA Subway': dna_subway_guide.md
     - 'Teach using CyVerse': vice/teaching_vice.md
+    - 'DNA Subway': dna_subway_guide.md
   - 'Develop':
     - 'Create DE Apps': de/create_apps.md
     - 'Extend VICE apps': vice/extend_apps.md
     - 'Leverage CyVerse Services': powered_by.md
     - 'Developer Manuals': manuals.md
   - 'Science Tutorials':
-    - 'Bioinformatics': bioinformatics_tutorials.md
-    - 'Geoinformatics': geoinformatics_tutorials.md
-    - 'Other Topics': other_tutorials.md
+    - tutorials/index.md
+      #- 'Bioinformatics': bioinformatics_tutorials.md
+      #- 'Geoinformatics': geoinformatics_tutorials.md
+      #- 'Other Topics': other_tutorials.md
   - 'CyVerse Workshops':
     - 'Foundational Open Science Skills': foss.md
     - 'Container Camp': container_camp.md
@@ -88,7 +88,10 @@ theme:
     - navigation.instant
       #- navigation.expand
     - navigation.tracking
-    - navigation.sections
+      #- navigation.sections
+    - navigation.indexes
+    - toc.integrate
+    - toc.follow
   # Default values, taken from mkdocs_theme.yml
   language: en
   palette: 

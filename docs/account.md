@@ -1,4 +1,4 @@
-# Creating a CyVerse Account
+# Set Up a CyVerse Account
 
 1. Follow the [signup link](https://user.cyverse.org/register).
 
@@ -21,11 +21,11 @@
 	Check your SPAM folder for the confirmation email if it does not arrive within a few minutes.
 
 
-# Register for Services
+## Register for Services
 
 To register for VICE or other services, login to the user portal's dashboard (<https://user.cyverse.org/dashboard>). Under "My Services" click the 'Request Access' button next to the service(s) you would like to access. You will receive an email notification when the service is added; this may take up to 24 hours.
 
-## VICE Access
+## Getting VICE Access
 
 Since VICE (Visual Interactive Compute Environment) is a target for cryptocurrency miners, CyVerse requires an additional verification. 
 

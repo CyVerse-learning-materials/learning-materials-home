@@ -1,10 +1,9 @@
-# Data Store Guide
+# Manage Your Data with the Data Store
 
 [data]: ../assets/ds/datastore_plchldr.png
 
 [![][data]{width=200}](https://cyverse.org/data-store){target=_blank}
 
-## Goal
 
 The Data Store is more than a place to save your files; it is a way to easily manage the 
 lifecycle of your data from upload to analysis to publication. The Data Store crosscuts, and is accessible from, 
@@ -27,7 +26,7 @@ following services/software*:
 
 | Prerequisite | Preparation/Notes | Link/Download |
 | --- | --- | --- |
-| CyVerse account <br> (optional) | CyVerse supports anonymous access to public datasets in the [CyVerse Data Commons](https://datacommons.cyverse.org/){target=_blank}. See the [Data Store Manual](https://cyverse.atlassian.net/wiki/spaces/DS/overview){target=_blank} for more info on `anonymous` access. |  [Get account](https://user.cyverse.org/){target=_blank} |
+| CyVerse account <br> | CyVerse supports anonymous access to public datasets in the [CyVerse Data Commons](https://datacommons.cyverse.org/){target=_blank}. See the [Data Store Manual](https://cyverse.atlassian.net/wiki/spaces/DS/overview){target=_blank} for more info on `anonymous` access. |  [Get account](https://user.cyverse.org/){target=_blank} |
 | Cyberduck  <br> (optional) |  Cyberduck is a 3rd party application with a graphical interface that allows you to easily upload and download data (available for Mac/PC). <br> You will also need to download our connection profile (bookmark). | - [Cyberduck Website](https://cyberduck.io/download/){target=_blank} <br> - [Cyberduck connection profile](cyberduck.md) |
 |iCommands  <br> (optional) | iCommands is a set of command line binaries that can be used to interact with the Data Store. Download iCommands (available for Mac/Linux) if you want to use these functionalities. | - [iCommands](icommands.md) <br> - iCommands (for Linux and Mac OS X; also see [iCommands CLI](https://irods.org/download/){target=_blank}) |
 | Text editor  <br> (optional) | To edit a metadata template in `.csv` format, we recommend using a text editor (e.g., Atom, Sublime Text, Excel, LibreOffice, VS Code) | Free Software: <br> - [Atom](https://atom.io/){target=_blank} <br> - [Sublime text](https://www.sublimetext.com/){target=_blank} <br> - [Visual Studio Code](https://code.visualstudio.com/){target=_blank} |
@@ -41,13 +40,3 @@ following services/software*:
     characters. For long file/folder names, we recommend you use underscore(s) (e.g.,
     experiment_one.fastq) instead of spaces.
 
-------------------------------------------------------------------------
-
-**Fix or improve this documentation**
-
--   Search for an answer: [CyVerse Learning Center](https://cyverse-learning-materials.github.io/learning-materials-home)
--   Ask us for help: click the Intercom icon ![Intercom](../assets/intercom.png){ width="25" } on the lower right-hand side of the page
--   Report an issue or submit a change: [Github Repo](https://github.com/CyVerse-learning-materials/data_store_guide)
--   Send feedback: [learning@CyVerse.org](learning@CyVerse.org)
-
-------------------------------------------------------------------------

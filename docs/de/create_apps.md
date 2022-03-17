@@ -1,7 +1,7 @@
-#Tool integration in the Discovery Environment (DE)
+# Creating Apps in the Discovery Environment (DE)
 
 
-##Why use the DE?
+## Why use the DE?
 
 -   Use hundreds of bioinformatics Apps without the command line (or
     with, if you prefer)
@@ -12,7 +12,7 @@
 -   Analysis history and provenance -- "avoid forensic bioinformatics"
 -   Securely and easily manage, share, and publish data
 
-##Types of apps
+## Types of apps
 
 **CyVerse tool:** Software program that is integrated into the back end
 of the DE for use in DE apps
@@ -37,7 +37,7 @@ the DE
 The (containerized) tool must be integrated into the Cyverse DE first.
 Then an app (interface) can be built for that tool.
 
-##Building an App for Your Tool
+## Building an App for Your Tool
 
 You can build an app for any tool that:
 

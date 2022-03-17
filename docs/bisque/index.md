@@ -1,4 +1,4 @@
-# [BisQue](https://bisque.cyverse.org){target=_blank}
+# [Analyse Images with BisQue](https://bisque.cyverse.org){target=_blank}
 
 [bisque]: assets/bisque/bisque.png
 

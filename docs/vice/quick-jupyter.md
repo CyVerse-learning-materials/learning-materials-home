@@ -1,4 +1,4 @@
-# Jupyter Lab in 6 Steps
+# JupyterLab in 6 Steps
 
 ## 1. Log into Discovery Environment
 

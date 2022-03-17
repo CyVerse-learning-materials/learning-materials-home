@@ -1,4 +1,4 @@
-# **Cloud Shell Walkthrough**
+# Cloud Shell in 6 Steps
 
 ## 1. Log into the Discovery Environment
 

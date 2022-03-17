@@ -33,17 +33,3 @@ After logging in, you'll be returned to the [![home]{width="25"} Home](https://d
 If you were already on the [![apps]{width="25"} Apps](https://de.cyverse.org/apps){target=_blank} or [![data]{width="25"} Data](https://de.cyverse.org/data){target=_blank} when you logged in, you'll return to that page.
 
 You can take a short tour of the DE's main features by clicking the [help icon ![help]{width="25"}](https://de.cyverse.org/help){target=_blank} in the left sidebar and selecting "Product Tour".
-
------------------------------------------------------------------------
-
-**Fix or improve this documentation**
-
-  - Search for an answer:
-     [CyVerse Learning Center](https://learning.cyverse.org)
-  - Ask us for help:
-    click the Intercom icon ![Intercom](../assets/intercom.png){ width="25" } on the lower right-hand side of the page
-  - Report an issue or submit a change:
-    [Github Repo Link](https://github.com/cyverse-learning-materials/)
-  - Send feedback: <Tutorials@CyVerse.org>
-  
-------------------------------------------------------------------------

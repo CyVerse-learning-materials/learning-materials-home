@@ -1,4 +1,4 @@
-# Distributing data in 6 steps
+# Distributing Data in 6 Steps
 
 [de]: ../assets/de/logos/deIcon.svg
 [data]: ../assets/de/menu_items/dataIcon.svg

@@ -1,4 +1,4 @@
-# Data Sharing and Other Features
+# Sharing Data
 
 One of the most powerful features of the Data Store is to share all of
 your data instantly, and with fine-grained permission control. You can
