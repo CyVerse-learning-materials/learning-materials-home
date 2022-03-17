@@ -262,7 +262,7 @@
 
 ??? question "**Is there a limit to how many analyses (jobs) I can run at the same time in the Discovery Environment?**"
 
-    Only 8 of your analyses will run at the same time. You can launch more,
+    The DE will run up to 8 of your analyses at the same time. You can launch more,
     but they will not run until some of your analyses have completed.
 
 ------------------------------------------------------------------------
@@ -282,7 +282,7 @@
 
 ------------------------------------------------------------------------
 
-??? question "**How do I rerun a job I previously ran in the DE, but I want to change some parameters or use a different input?**"
+??? question "**How do I rerun a job, but with different parameters or with a different input?**"
 
     You can easily relaunch the same analysis with different settings:
     
@@ -308,7 +308,7 @@
 
 ------------------------------------------------------------------------
 
-??? question "**I have a series of files that I want to analyze with the same app, but the output files all have the same name. How do I distinguish them so I can use them in a workflow?**"
+??? question "**I want to analyze a series of files with the same app, but the output files all have the same name. How do I distinguish them so I can use them in a workflow?**"
 
     You can avoid confusion by finding the output folder in your Data list
     and
@@ -353,7 +353,7 @@
     
 ------------------------------------------------------------------------
 
-??? question "**How do I make my app available for other people to use?**"
+??? question "**How do I make my app available for others to use?**"
 
     You can create a new app interface in the Discovery Environment and
     share it with other users and you also can install the app on VICE. In
@@ -410,10 +410,10 @@
 
 ??? question "**How can I use CyVerse's tools and resources from within my program/app?**"
 
-    See the information about our [Science APIs](http://www.cyverse.org/science-apis); you can also contact Support using the
+    See information about our [Science APIs](http://www.cyverse.org/science-apis); you can also contact Support using the
     blue chat icon at the bottom right of the platform. For projects
     requiring more extensive support, you can request community support or
-    an external collaborative partnership (see Collaboration FAQ below).
+    an external collaborative partnership (see Collaboration below).
 
 ------------------------------------------------------------------------
 
@@ -478,7 +478,7 @@
     
     -   Timeline and milestones for completing the project:   
     	-   Provide a timeline of specific monthly milestones
-                (deliverables). Projects of short duration (\~2 months)
+                (deliverables). Projects of short duration (~2 months)
                 should provide weekly milestones.
     
     -   Scientific and technical impact:   
