@@ -1,6 +1,8 @@
 # Data Store Guide
 
-![DataStore_Icon](../assets/ds/datastore-icon.png)
+[data]: assets/de/menu_items/dataIcon.svg
+
+[![][data]{width=100}](https://cyverse.org/data-store){target=_blank}
 
 ## Goal
 
@@ -25,10 +27,10 @@ following services/software*:
 
 | Prerequisite | Preparation/Notes | Link/Download |
 | --- | --- | --- |
-| CyVerse account <br> (optional) | CyVerse supports anonymous access to public datasets in the <br> [CyVerse Data Commons](https://datacommons.cyverse.org/). See the [Data Store Manual](https://cyverse.atlassian.net/wiki/spaces/DS/overview) for <br> more info on anonymous access. |  [Get account](https://user.cyverse.org/){target=_blank} |
-| Cyberduck  <br> (optional) |  Cyberduck is a 3rd party application with a graphical interface that allows <br> you to easily upload and download data (available for Mac/PC). <br> You will also need to download our connection profile (bookmark). | - [Cyberduck Website](https://cyberduck.io/download/) <br> - [Cyberduck connection profile](https://cyverse.atlassian.net/wiki/download/attachments/241869843/CyVerseDataStore.cyberduckprofile?version=1&modificationDate=1568640173000&cacheVersion=1&api=v2) |
-|iCommands  <br> (optional) | iCommands is a set of command line binaries that can be used to interact <br> with the Data Store. Download iCommands (available for Mac/Linux) if you <br> want to use these functionalities. | - [iCommands (for Mac)](https://cyverse.atlassian.net/wiki/download/attachments/241869823/cyverse-icommands-4.1.9.pkg?version=3&modificationDate=1472820029000&cacheVersion=1&api=v2) <br> - [iCommands (for Linux; see iCommands CLI)](https://irods.org/download/) |
-| Spreadsheet editor  <br> (optional) | To edit a metadata template in .csv format, we recommend using a <br> spreadsheet editor (e.g., Microsoft Excel or LibreOffice Calc). | Free [LibreOffice](https://www.libreoffice.org/) |
+| CyVerse account <br> (optional) | CyVerse supports anonymous access to public datasets in the [CyVerse Data Commons](https://datacommons.cyverse.org/){target=_blank}. See the [Data Store Manual](https://cyverse.atlassian.net/wiki/spaces/DS/overview){target=_blank} for more info on `anonymous` access. |  [Get account](https://user.cyverse.org/){target=_blank} |
+| Cyberduck  <br> (optional) |  Cyberduck is a 3rd party application with a graphical interface that allows you to easily upload and download data (available for Mac/PC). <br> You will also need to download our connection profile (bookmark). | - [Cyberduck Website](https://cyberduck.io/download/){target=_blank} - [Cyberduck connection profile](ds/cyberduck.md) |
+|iCommands  <br> (optional) | iCommands is a set of command line binaries that can be used to interact with the Data Store. Download iCommands (available for Mac/Linux) if you want to use these functionalities. | - [iCommands](ds/icommands.md) - iCommands (for Linux and Mac OS X; also see [iCommands CLI)](https://irods.org/download/){target=_blank} |
+| Text editor  <br> (optional) | To edit a metadata template in `.csv` format, we recommend using a text editor (e.g., Atom, Sublime Text, Excel, LibreOffice, VS Code) | Free Software <br> [Atom](https://atom.io/){target=_blank} <br> [Sublime text](https://www.sublimetext.com/){target=_blank} <br> [Visual Studio Code](https://code.visualstudio.com/){target=_blank} |
 
 !!! Warning
 
