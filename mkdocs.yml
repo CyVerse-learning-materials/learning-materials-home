@@ -31,6 +31,7 @@ nav:
       - 'HTTP Access with WebDAV': ds/webdav.md
     - 'Adding Metadata': ds/metadata.md
     - 'Sharing Data': ds/share.md
+    - 'Getting a DOI': ds/doi.md
   - 'Run Analyses':
     - de/index.md
     - 'Logging In': de/login.md
