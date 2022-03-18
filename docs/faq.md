@@ -17,8 +17,8 @@
 ??? question "**What if I need more space (storage) in the Data Store?**"
 
     Every user has a 50GB allocation in the Data Store. 
-    You can request more space by completing an [Allocation Increase Form](https://user.cyverse.org/forms/2/overview); 
-    also see information on storage allocations for [CyVerse's subscription tiers](https://cyverse.org/subscribe).
+    You can request more space by completing an [Allocation Increase Form](https://user.cyverse.org/forms/2/overview){target=_blank} ; 
+    also see information on storage allocations for [CyVerse's subscription tiers](https://cyverse.org/subscribe){target=_blank} .
     
 -----------------------------------------------------------------------
 
@@ -26,15 +26,15 @@
 
     If you need assistance transferring a large dataset to CyVerse, please contact CyVerse Support (<support@cyverse.org> or use the blue chat icon at the bottom right). 
     
-    For more information on our policies, see CyVerse's [Collaboration Policy](http://www.cyverse.org/collaboration-policy) and [Data Management Policy](http://www.cyverse.org/data-management-policy). 
+    For more information on our policies, see CyVerse's [Collaboration Policy](http://www.cyverse.org/collaboration-policy){target=_blank}  and [Data Management Policy](http://www.cyverse.org/data-management-policy){target=_blank} . 
     
-    For more information on using data at CyVerse, see the Learning Center documentation on [working with data](ds/intro.md).
+    For more information on using data at CyVerse, see the Learning Center documentation on [working with data](../ds/intro.md).
 
 -----------------------------------------------------------------------
 
 ??? question "**What public datasets are in CyVerse?**"
 
-    CyVerse provides web access to its public datasets via WebDav [https://data.cyverse.org](https://data.cyverse.org){_target=_blank} 
+    CyVerse provides web access to its public datasets via WebDav [https://data.cyverse.org](https://data.cyverse.org){target=_blank} 
     
     Public datasets in CyVerse may also be accessed through the Discovery Environment, Atmosphere, the Science APIs and iCommands. 
     
@@ -48,9 +48,9 @@
     
     Community Released Data folders are intended for datasets that are growing or changing frequently or that may not need long-term preservation.
 
-    Before requesting a folder, please read this wiki article on [publishing data through the Data Commons](https://wiki.cyverse.org/wiki/display/DC/Publishing+Data+through+the+Data+Commons), and this one on [preparing community-released data folders](https://wiki.cyverse.org/wiki/display/DC/Preparing+Community+Released+Data+Folders).
+    Before requesting a folder, please read this wiki article on [publishing data through the Data Commons](https://wiki.cyverse.org/wiki/display/DC/Publishing+Data+through+the+Data+Commons){target=_blank} , and this one on [preparing community-released data folders](https://wiki.cyverse.org/wiki/display/DC/Preparing+Community+Released+Data+Folders){target=_blank} .
 
-    Then, if you meet the criteria, you can request a folder using [this form](https://user.cyverse.org/forms/7/overview).
+    Then, if you meet the criteria, you can request a folder using [this form](https://user.cyverse.org/forms/7/overview){target=_blank} .
 
 -----------------------------------------------------------------------
 
@@ -68,7 +68,7 @@
 
 ??? question "**How do I make a folder public with iCommands?**"
 
-    Although you can share files and folders in the DE and create public links, you must use iCommands make them visible to everyone. Permissions are set in iCommands by using `ichmod` (<https://docs.irods.org/4.2.1/icommands/user/#ichmod>).
+    Although you can share files and folders in the DE and create public links, you must use iCommands make them visible to everyone. Permissions are set in iCommands by using `ichmod` (<https://docs.irods.org/4.2.1/icommands/user/#ichmod>){target=_blank} .
 
     To make a folder public, you must give read permission to two users: 'public' (anyone signed in with a CyVerse account) and 'anonymous' (anyone on the web - no log in required). To recursively make a shared folder called 'myfolder' public, use the instructions below.
 
@@ -89,7 +89,7 @@
 
     It depends on what you want to allow the collaborator to do with the file or folder. Options are: 
     read, write (ability to edit the file or folder), and own (in addition to edit, can also delete and move; use this permission with caution). Learn more
-    [here](https://wiki.cyverse.org/wiki/display/DEmanual/Changing+and+Viewing+Data+Permission+Levels+in+the+DE).
+    [here](https://wiki.cyverse.org/wiki/display/DEmanual/Changing+and+Viewing+Data+Permission+Levels+in+the+DE){target=_blank} .
 
 ------------------------------------------------------------------------
 
@@ -108,7 +108,7 @@
 
 ??? question "**How can I manage shared files and folders for my lab group or project?**"
 
-    See [Setting Up a Shared Directory for a Lab or Project](https://wiki.cyverse.org/wiki/display/DC/Setting+up+a+shared+directory+for+a+lab+or+project).
+    See [Setting Up a Shared Directory for a Lab or Project](https://wiki.cyverse.org/wiki/display/DC/Setting+up+a+shared+directory+for+a+lab+or+project){target=_blank} .
 
 ------------------------------------------------------------------------
 
@@ -118,7 +118,7 @@
     deletion to complete in the DE. Please be patient and try refreshing
     your browser periodically. You cannot delete 1000 files or more in the
     DE. You must [use
-    iCommands](https://wiki.cyverse.org/wiki/display/DS/Using+iCommands)
+    iCommands](https://wiki.cyverse.org/wiki/display/DS/Using+iCommands){target=_blank} 
     instead. Note that deleted files may still show up in the search for
     awhile, but eventually deleted files will be fully purged from the system.
 
@@ -128,7 +128,7 @@
 
     No. Do not use spaces or special characters in file or folder names as
     they can cause analyses to fail. [Learn more
-    here](https://wiki.cyverse.org/wiki/display/DEmanual/Using+Special+Characters+in+the+DE).
+    here](https://wiki.cyverse.org/wiki/display/DEmanual/Using+Special+Characters+in+the+DE){target=_blank} .
 
 ------------------------------------------------------------------------
 
@@ -137,9 +137,9 @@
     You can view bam, vcf, and gff genome files you own in the genome
     browsers at Ensembl, UCSC, IGV, GBrowse, and jbrowse, and view Fasta
     genome files in CoGe. Learn more about viewing genome files in [a genome
-    browser](https://wiki.cyverse.org/wiki/display/DEmanual/Viewing+Genome+Files+in+a+Genome+Browser)
+    browser](https://wiki.cyverse.org/wiki/display/DEmanual/Viewing+Genome+Files+in+a+Genome+Browser){target=_blank} 
     or in
-    [CoGe](https://pods.iplantcollaborative.org/wiki/display/DEmanual/Viewing+Genome+Files+in+CoGe).
+    [CoGe](https://pods.iplantcollaborative.org/wiki/display/DEmanual/Viewing+Genome+Files+in+CoGe){target=_blank} .
 
     
 -----------------------------------------------------------------------
