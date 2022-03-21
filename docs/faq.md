@@ -28,7 +28,7 @@
     
     For more information on our policies, see CyVerse's [Collaboration Policy](http://www.cyverse.org/collaboration-policy){target=_blank}  and [Data Management Policy](http://www.cyverse.org/data-management-policy){target=_blank} . 
     
-    For more information on using data at CyVerse, see the Learning Center documentation on [working with data](../ds/intro.md).
+    For more information on using data at CyVerse, see the Learning Center documentation on [working with data](ds/index.md).
 
 -----------------------------------------------------------------------
 
@@ -62,7 +62,7 @@
 
 ??? question "**How do I open a connection to a private folder that is shared with me?**"
 
-    See our [using the Data Store documentation](ds/intro.md).
+    See our [using the Data Store documentation](ds/index.md).
 
 -----------------------------------------------------------------------
 

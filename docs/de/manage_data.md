@@ -2,7 +2,7 @@
 
 With CyVerse, you can manage data throughout the data lifecycle, from uploading, to adding metadata, to analyzing, sharing results, and making your data public for others to reuse. 
 
-The [![de]{width="25"} Discovery Environment](https://de.cyverse.org){target=_blank} interface is just one of many ways to access, view, and manage your files in the [Data Store](../ds/intro.md).
+The [![de]{width="25"} Discovery Environment](https://de.cyverse.org){target=_blank} interface is just one of many ways to access, view, and manage your files in the [Data Store](../ds/index.md).
 
 ??? Tip "Where is the Data Store?"
     The Data Store is not a separate platform; it is a service that 
@@ -93,16 +93,3 @@ To use the Advanced Search, run a query in the Search menu, then select "Advance
 
 ![advanced_search](../assets/de/de_advanced_data_search.png){width="600"}
 
------------------------------------------------------------------------
-
-**Fix or improve this documentation**
-
-  - Search for an answer:
-     [CyVerse Learning Center](https://learning.cyverse.org)
-  - Ask us for help:
-    click the Intercom icon ![Intercom](../assets/intercom.png){ width="25" } on the lower right-hand side of the page
-  - Report an issue or submit a change:
-    [Github Repo Link](https://github.com/cyverse-learning-materials/)
-  - Send feedback: <learning@CyVerse.org>
-  
-------------------------------------------------------------------------

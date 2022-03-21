@@ -9,15 +9,15 @@ There are several ways to move data between the CyVerse Data Store and other com
 | Cyberduck             | Desktop App  | Both            | Yes                         | Yes, or public data only | > 10GB |
 | iCommands             | Command line | Both            | Yes                         | Yes, or public data only | > 10GB |
 
-[de]: ../assets/de/logos/deIcon.svg
-[data]: ../assets/de/menu_items/dataIcon.svg
+[de]: ../../assets/de/logos/deIcon.svg
+[data]: ../../assets/de/menu_items/dataIcon.svg
 
 This page summarizes each of the four methods of moving data to the Data Store:
 
-  1. Using the [Discovery Environment](../de/manage_data.md) interface (visit the [Distributing Data quickstart](quick-data-share.md) for a rapid introduction to distributing data)
-  2. Using the [CyberDuck](cyberduck.md) browser
-  3. Through the [Command Line and iCommands](icommands.md)
-  4. Through [WebDAV](webdav.md)
+  1. Using the [Discovery Environment](../../de/manage_data.md) interface (visit the [Distributing Data quickstart](../quick-data-share.md) for a rapid introduction to distributing data)
+  2. Using the [CyberDuck](../cyberduck.md) browser
+  3. Through the [Command Line and iCommands](../icommands.md)
+  4. Through [WebDAV](../webdav.md)
 
 ## Using the Discovery Environment interface
 
@@ -25,7 +25,7 @@ This page summarizes each of the four methods of moving data to the Data Store:
 
 2. Open the [![data]{width="25"} Data](https://de.cyverse.org/data){target=_blank} icon on the left
 
-More details are available in the [Data Store](../de/manage_data.md) documentation.
+More details are available in the [Data Store](../../de/manage_data.md) documentation.
 
 ## Using the CyberDuck browser
 
@@ -33,9 +33,9 @@ Cyberduck is only available for Windows and Mac OS X
 
 1. Install [CyberDuck](https://cyberduck.io){target=_blank}.
 
-2. Set up [CyVerse iRODS profile for CyberDuck](cyberduck.md).
+2. Set up [CyVerse iRODS profile for CyberDuck](../cyberduck.md).
 
-More details are available in the [CyberDuck](cyberduck.md) documentation.
+More details are available in the [CyberDuck](../cyberduck.md) documentation.
 
 ## Using Command Line
 
@@ -84,11 +84,11 @@ More details are available in the [CyberDuck](cyberduck.md) documentation.
      - `-f` # force the upload and overwrite
      - `-T` # Renew socket connection after 10 min (May help connections that are failing due to some connection/firewall settings)
 
-For more thorough documentation on using iCommands to move data, visit the [Command Line Transfer](icommands.md) page.
+For more thorough documentation on using iCommands to move data, visit the [Command Line Transfer](../icommands.md) page.
 
 ## Using WebDAV 
 
-Read more on setting up and moving data through WebDAV [here](webdav.md).
+Read more on setting up and moving data through WebDAV [here](../webdav.md).
 
 ### Mac OS X
 

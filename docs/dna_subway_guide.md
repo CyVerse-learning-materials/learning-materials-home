@@ -1929,12 +1929,3 @@ You can download and interact with any of the available plots.
 **Under Development**
 
 ------------------------------------------------------------------------
-
-**Fix or improve this documentation**
-
--   Search for an answer: [CyVerse Learning Center](https://cyverse-learning-materials.github.io/learning-materials-home)
--   Ask us for help: click the Intercom icon ![Intercom](../assets/intercom.png){ width="25" } on the lower right-hand side of the page
--   Report an issue or submit a change: [Github Repo](https://github.com/CyVerse-learning-materials/learning-materials-home/edit/mkdocs/docs/dna_subway_guide)
--   Send feedback: [learning@CyVerse.org](learning@CyVerse.org)
-
-------------------------------------------------------------------------

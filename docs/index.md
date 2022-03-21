@@ -4,35 +4,26 @@
 
 [CyVerse](https://cyverse.org) provides life scientists with powerful computational infrastructure to handle huge datasets and complex analyses, thus enabling data-driven discovery.
 
-In the Learning Center, you can find information about CyVerse platforms and documentation on how to use features and services, quick starts for data management and analysis tasks, tutorials, and more. 
+In the Learning Center, you can find information about CyVerse platforms and documentation on how to use features and services, quick starts for data management and analysis tasks, tutorials, and more. Use the navigation bar on the left side of the screen or the search bar at the top to explore the learning materials.
 
 ![people](assets/people_science.png){ width="600" }
 
-**[![!What](assets/de/logos/cyverse_ball_2022.png "Account"){ width="30" }](what_is_cyverse.md) [What is CyVerse?](what_is_cyverse.md)**
+## First Steps
 
-**[![!Account](assets/de/logos/cyverse_ball_2022.png "Account"){ width="30" }](account.md) [Creating a CyVerse account](account.md)**
+These are some good places to start learning about what CyVerse has to offer:
 
-**[![!Data Store](assets/de/menu_items/dataIcon.png "Data Store"){ width="30" }](ds/intro.md) [Data Store](ds/intro.md)**
+### **[![!What](assets/de/logos/cyverse_ball_2022.png "Account"){ width="30" }](what_is_cyverse.md) [What is CyVerse?](what_is_cyverse.md)**
 
-**[![!Discovery Environment](assets/de/de_icon.png "Discovery Environment"){ width="30" }](de/intro.md) [Discovery Environment](de/intro.md)**
+Get a quick overview of CyVerse's platforms, services, and infrastructure.
 
-[![!VICE](assets/de/logos/deviceIcon.png "Discovery Environment"){ width="30" }](vice/about.md) [Visual Interactive Compute Environment (VICE)](vice/about.md)
+### **[![!Account](assets/de/logos/cyverse_ball_2022.png "Account"){ width="30" }](account.md) [Creating a CyVerse account](account.md)**
 
-- VICE features popular integrated development environments: JupyterLab, RStudio, and VSCode
-- Instant and on-demand virtual machines running Ubuntu Linux command line interface
-- Remote Desktops for high quality visualizations in your browser
-- GPU computing for machine learning and artificial intelligence
+Create an account and get started using CyVerse.
 
-**[![!](assets/atmosphere/cacao-04.png "Atmo"){ width="30" }](atmo/intro.md) [Cloud](atmo/intro.md)**
+### **[![!Account](assets/de/logos/cyverse_ball_2022.png "Account"){ width="30" }](mooc.md) [Self-Guided Tour](mooc.md)**
 
-- CyVerse created [Atmosphere](atmo/atmo.md), a browser interface for working with OpenStack Cloud virtual machines
-- Partnered with NSF XSEDE/ACCESS [Jetstream-2](https://jetstream-cloud.org) for more and larger virtual machines
+Take a self-guided course on using CyVerse to manage data and run analyses. 
 
-**[What to do first](choose_platform.md)**
-
-**[For Advanced Users](powered_by.md)**
-
-**[For Developers](manuals.md)**
 
 -----------------------------------------------------------------------
 
@@ -44,18 +35,3 @@ CyVerse is funded entirely by the National Science Foundation [![NSF](assets/nsf
 
 Please cite CyVerse appropriately when you make use of our resources; see [CyVerse citation policy](https://cyverse.org/policies/cite-cyverse).
 
------------------------------------------------------------------------
-
-**Fix or improve this documentation**
-
-  - Search for an answer:
-     [CyVerse Learning Center](https://learning.cyverse.org)
-  - Ask us for help:
-    click the Intercom icon ![Intercom](assets/intercom.png){ width="25" } on the lower right-hand side of the page
-  - Report an issue or submit a change:
-    [Github Repo Link](https://github.com/cyverse-learning-materials/)
-  - Send feedback: <learning@CyVerse.org>
-  
-------------------------------------------------------------------------
-
-[Learning Center Home](http://learning.cyverse.org/)

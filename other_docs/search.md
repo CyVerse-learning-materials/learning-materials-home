@@ -21,16 +21,3 @@ To search, you do not need to be logged in, however you must log in to perform a
 
     Only the top **10 results** are shown by default. To see all the results associated with a *search term*, including "Community Data" or "Shared with Me" results for Data, hit the *enter* key after the *search term* or select the option similar to *View all analyses results for fasta* from the results dropdown.
 
------------------------------------------------------------------------
-
-**Fix or improve this documentation**
-
-  - Search for an answer:
-     [CyVerse Learning Center](https://learning.cyverse.org)
-  - Ask us for help:
-    click the Intercom icon ![Intercom](../assets/intercom.png){ width="25" } on the lower right-hand side of the page
-  - Report an issue or submit a change:
-    [Github Repo Link](https://github.com/cyverse-learning-materials/)
-  - Send feedback: <Tutorials@CyVerse.org>
-  
-------------------------------------------------------------------------

@@ -139,13 +139,3 @@ Linux machine and `<link>` is the URL to the WebDAV folder you want to mount.
 This guide introduces the basic data management tools you need to
 manage the lifecycle of data in CyVerse. You can explore many more features that are detailed in the full [Data Store Manual](https://cyverse.atlassian.net/wiki/spaces/DS/overview).
 
-------------------------------------------------------------------------
-
-**Fix or improve this documentation**
-
--   Search for an answer: [CyVerse Learning Center](https://cyverse-learning-materials.github.io/learning-materials-home)
--   Ask us for help: click the Intercom icon ![Intercom](../assets/intercom.png){ width="25" } on the lower right-hand side of the page
--   Report an issue or submit a change: [Github Repo](https://github.com/CyVerse-learning-materials/data_store_guide)
--   Send feedback: [learning@CyVerse.org](learning@CyVerse.org)
-
-------------------------------------------------------------------------

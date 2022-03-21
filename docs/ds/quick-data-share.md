@@ -5,7 +5,7 @@
 
 !!! Note
     This quickstart is focused on using the Discovery Environment to upload your data.
-    For more information on alternative methods for data management, please refer to the [Manage Your Data](intro.md) section or the [Data Sharing](share.md) page.
+    For more information on alternative methods for data management, please refer to the [Manage Your Data](index.md) section or the [Data Sharing](share.md) page.
 
 1. Log into the [![de]{width="25"} Discovery Environment](https://de.cyverse.org){target=_blank}.
 
