@@ -23,7 +23,7 @@
 
 ## Register for Services
 
-To register for VICE or other services, login to the user portal's dashboard (<https://user.cyverse.org/dashboard>){target=_blank}. Under "My Services" click the 'Request Access' button next to the service(s) you would like to access. You will receive an email notification when the service is added; this may take up to 24 hours.
+To register for VICE or other services, login to the [user portal's dashboard](<https://user.cyverse.org/dashboard>){target=_blank}. Under "My Services" click the 'Request Access' button next to the service(s) you would like to access. You will receive an email notification when the service is added; this may take up to 24 hours.
 
 ## Getting VICE Access
 
