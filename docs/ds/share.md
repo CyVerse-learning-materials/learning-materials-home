@@ -1,6 +1,6 @@
 # Sharing Data
 
-One of the most powerful features of the Data Store is to share all of
+One of the most powerful features of the Data Store is the ability to share all of
 your data instantly, and with fine-grained permission control. You can
 share your data with other CyVerse users, and you can also make data
 available to anonymous users and with identifiers (i.e., a DOI)
@@ -54,12 +54,12 @@ Environment Public Link.
 ## Share a File/folder in the Discovery Environment with Another CyVerse User
 
 Share data with another CyVerse user by granting permission to read,
-write, or own files/folders
+write, or own files/folders.
 
 1.  If necessary, login to the [Discovery Environment](https://de.cyverse.org/de/).
 
 2.  In the Data window, select (checkbox) file(s) or folder(s) you wish to
-    share with another user; then under the *Share* menu enter the
+    share with another user; then under the *Share* menu, enter the
     CyVerse username, email, or group name you wish to share with.
 
 3.  Next, under 'Permissions' choose which permission to grant to
