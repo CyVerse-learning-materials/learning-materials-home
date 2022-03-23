@@ -1,6 +1,8 @@
 # Set Up a CyVerse Account
 
-1. Follow the [signup link](https://user.cyverse.org/register){target=_blank}.
+To use CyVerse's platforms, you will need to create an account. Here's how to do so:
+
+1. Follow the [signup link](https://user.cyverse.org/register){target=_blank} to begin the registration process. You will be asked to enter some information about yourself, your contact info, and what you want to use CyVerse for.
 
 2. We **highly recommended** that you use an institutional email address (.edu, .org, or .gov) if possible. This will speed up the approval process for access to certain CyVerse platforms.
 

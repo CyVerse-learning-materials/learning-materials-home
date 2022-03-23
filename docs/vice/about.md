@@ -81,9 +81,13 @@ VICE apps have web access, so you can import data using methods like `curl` or q
 	Read/write speeds for single files are quite fast, but can slow down when accessing many files. 
 
 	If you are working with many small files, it may be faster to keep your data in the Data Store in a compressed format (such as .tgz or .zip), then use `cp` to copy the data from `~/work/home/username/` to `~/work`. Working with many small files within the VICE app's container will be faster than accessing them directly from the Data Store.
+	
+	Speed benchmark for moving a folder with many CSV files:
 
 	moving storms_by_year/ folder: 23.5s
+
 	moving storms_by_year.zip: 0.07s
+
 	unzipping: 0.063s
 
 ## Using Git and GitHub from VICE

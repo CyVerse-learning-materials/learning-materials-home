@@ -15,7 +15,7 @@ CyVerse cyberinfrastructure includes:
 
 [![][atmo]{width=25}](https://user.cyverse.org/services/1){target=_blank} [Cloud](https://user.cyverse.org/services/1){target=_blank} - hosted OpenStack virtual machines for computation, analysis, and storage.
 
-[![][ball]{width=25}](https://cyverse.org/ecp){target=_blank} [External Collaborative Partnerships](https://cyverse.org/ecp){target=_blank} - Work with our experienced data scientists and software engineers to scale your algorithms and data onto cloud and high performance compute. [Contact Us](https://user.cyverse.org/requests/3)
+[![][ball]{width=25}](https://cyverse.org/ecp){target=_blank} [External Collaborative Partnerships](https://cyverse.org/ecp){target=_blank} - Work with our experienced data scientists and software engineers to scale your algorithms and data onto cloud and high performance compute. [Contact Us](https://user.cyverse.org/requests/3) if you are interested in starting an ECP.
 
 [![][ball]{width=25}](https://cyverse.org/teach){target=_blank} [Education and Training](https://cyverse.org/teach){target=_blank} - learn how to use containers, workflows, and public research cyberinfrastructure from our professional trainers.
 
