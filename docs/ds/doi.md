@@ -6,12 +6,12 @@
 ## Background
 
 CyVerse Curated Data in the Data Commons contains files that have been
-assigned a permanent identifier ( ). These files are secure, stable, and
+assigned a permanent identifier (Digital Object Identifier or DOI ). These files are secure, stable, and
 unchangeable, thus making them the ideal platform for ease of data reuse
 and data citation. Datasets in the CyVerse Curated Data site can store
 very large datasets that are difficult to transfer, upload, and download
 across different computers and platforms. CyVerse Curated data is
-accessible to CyVerse\'s suite of large-scale computational analysis
+accessible to CyVerse's suite of large-scale computational analysis
 resources, allowing users to seamlessly analyze, manage, and publish new
 results.
 
@@ -39,7 +39,7 @@ your research:
     include a list of external files in your dataset, with links.
 -   Beyond data, you will include the ReadMe file (see Step 2.5), and
     you may include scripts or links to scripts to run your analysis.
-    Links to analysis tools can also be included as metadata (see step
+    Links to analysis tools can also be included as metadata (see Step
     3).
 
 ------------------------------------------------------------------------
@@ -58,14 +58,14 @@ consider the following:
     they are cited individually? DOIs can be nested, so that one dataset
     is part of another.
 -   If you are uncertain about how many DOIs to request, contact us at
-    <doi@cyverse.org>.
+    <learning@cyverse.org>.
 
 ------------------------------------------------------------------------
 
 ### 2.3. Organize your data into folder(s):
 
 1.  Organize your data so that there is one folder for each DOI, named
-    according to step 2.4.
+    according to Step 2.4.
 
 2.  Within a folder, include all files in your data package plus the ReadMe file and the inventory.
 	-   You may have subfolders within a data package.
@@ -85,16 +85,16 @@ Creator_subject_date format.
 
 ### 2.5. Create a ReadMe file:
 
-Create a text file labeled \"readMe\" with the following information:
+Create a text file labeled \"ReadMe\" with the following information:
 
 -   How you obtained, organized, and labeled your dataset.
 
 -   How to reuse the data, such as which apps can analyze the data.
 
--   The inventory (see step 2.6) may be included as part of the readme
+-   The inventory (see Step 2.6) may be included as part of the ReadMe
     file.
 
--   Examples of good readme files:
+-   Examples of good ReadMe files:
 
        -   <http://datacommons.cyverse.org/browse/iplant/home/shared/commons_repo/curated/Carolyn_Lawrence_Dill_G2F_Mar_2017/_readme.txt>
         -   <http://datacommons.cyverse.org/browse/iplant/home/shared/commons_repo/curated/Liang_Schnable_UNLPlantVision_2017/readMe.txt>
@@ -136,40 +136,40 @@ Example:
 
 ## 3. Add metadata
 
-1.  Add metadata to the dataset folder
+1.  Add metadata to the dataset folder.
 
-       a.  In the Data window, click the checkbox next to the folder.
-        b.  Select More actions \> Metadata
-        c.  Select More actions (again) \> View in template
+        a.  In the Data window, click the checkbox next to the folder.
+        b.  Select More actions \> Metadata.
+        c.  Select More actions (again) \> View in template.
         d.  Choose the DOI Request - DataCite4.1 metadata template.
         e.  Complete the required fields (marked with an asterisk) and
             as many of the optional fields as possible.
         f.  Save the template.
 
-2.  For more information, including how to apply metadata in bulk, see .
+2.  For more information, including how to apply metadata in bulk, see [Adding Metadata](https://cyverse-learning-materials.github.io/learning-materials-home/ds/doi/#3-add-metadata).
 
 3.  You may add any additional metadata that is appropriate. We
     encourage the use of additional metadata to make your data better
     understood and more discoverable.
 
-4.  We encourage the use of metadata on subfolders and individual files
+4.  We encourage adding metadata on subfolders and individual files
     in your datasets.
 
 !!! warning
 
-	Be sure to include at least 3 subject key words or phrases, so that people can discover your data! **Each subject should be its own field** (click on the plus next to \"Subject\". **DO NOT use a comma-separated list.**)
+	Be sure to include at least 3 subject key words or phrases, so that people can discover your data (Findability)! **Each subject should be its own field** (click on the plus next to \"Subject\". **DO NOT use a comma-separated list.**)
 
 !!! tip
 
 	Get recognition for your work by including [ORCIDs](https://orcid.org/) for yourself and all creators and contributors.
 
-## 4. Submit request and wait for validations
+## 4. Submit request and wait for validations.
 
 ### 4.1. Submit DOI request
 
 -   In the Data tab, click the checkbox next to the folder.
 -   Select More actions \> Request DOI.
--   After verifying you have read the instructions (i.e. this guide),
+-   After verifying you have read the instructions (i.e., this guide),
     click \"I need a DOI\". You will receive a verification email that
     your request has been received, and a notification will be listed in
     the Notifications list in the DE.
@@ -186,14 +186,14 @@ Example:
     validating your dataset, metadata, and overall configuration of your
     dataset.
 -   Validations are based solely on the required DOI metadata and
-    folder-naming conventions, as well as its potential utility to the
+    folder-naming conventions, as well as the data's potential utility to the
     CyVerse and larger scientific community, not the quality of your
     data. This is not a peer review process.
 
 **Possible validation actions:**
 
-   -   If the curator determines that minor changes are needed, they
-        may make those changes themselves.
+    -   If the curator determines that minor changes are needed, they
+        may make those changes themself.
     -   If the curator determines that substantive changes are needed,
         they will contact you with required changes.
     -   If the curator determines that your dataset is not appropriate
@@ -206,14 +206,14 @@ Example:
 
 !!! tip
 
-	To check the status of your request, click Notifications (the bell icon) at the top right of the DE screen. 
+	To check the status of your DOI request, click Notifications (the bell icon) at the top right of the DE screen. 
 
 
 ------------------------------------------------------------------------
 
 ## 5. After publication
 
-### 5.1. Get your dataset noticed.
+### 5.1. Get your dataset noticed:
 
 Metadata, the description about your data, is key to getting your dataset noticed in the world wide web. Search engines and bibliographic aggregators index the metadata that you create to obtain a DOI. Thus, it is important that you do the following:
 
@@ -224,7 +224,7 @@ Metadata, the description about your data, is key to getting your dataset notice
         also create additional metadata attributes specific to your
         dataset.
     -   Include methods used to generate the dataset in the
-        \"Description\" attribute, and in more detail in a Readme file.
+        \"Description\" attribute, and in more detail in a ReadMe file.
     -   Describe the dataset for a broader audience so that they
         understand your research. Use the \"Description\" field for
         this.
@@ -236,11 +236,10 @@ Metadata, the description about your data, is key to getting your dataset notice
 -   Consider using social media to share the DOI of your dataset, and
     tag CyVerse.
 -   If you have an interesting story about your data, contact us at
-    <doi@cyverse.org>, and we may be able to share it through CyVerse
+    <learning@cyverse.org>, and we may be able to share it through CyVerse
     outreach.
 -   If you have a tool or workflow you developed to analyze your data in
-    CyVerse, consider presenting it as part of our Focus Forums webinars
-    series.
+    CyVerse, consider presenting it as part of our CyVerse Webinars.
 
 ------------------------------------------------------------------------
 
@@ -249,12 +248,12 @@ Metadata, the description about your data, is key to getting your dataset notice
 ### Why should I publish my data in CyVerse Curated Data?
 
 CyVerse Curated Data is the ideal platform for ease of data reuse.
-Because it is assigned a permanent identifier (DOI or ARK), it is stable
+Because it is assigned a permanent identifier (DOI), it is stable
 and unchangeable, making it ideal for data citation. Because the data is
 stored in large-scale storage resources that are monitored 24/7, it is
 secure. Because it allows transfer, upload, and download across
 different computers and platforms, it can store very large datasets. And
-because its data is accessible to CyVerse\'s suite of large-scale
+because its data is accessible to CyVerse's suite of large-scale
 computational analysis resources, users can seamlessly analyze, manage,
 and publish new results. For more information, see [Is CyVerse Curated
 Data Right for My
@@ -295,24 +294,22 @@ Data. See [Publishing Data through the Data
 Commons](https://wiki.cyverse.org/wiki/display/DC/Publishing+Data+through+the+Data+Commons).
 
 
-### What is a DOI ? 
+### What is a DOI? 
 
-A DOI is a [Digital Object Identifier
-\<https://www.doi.org/\>\_. It serves as a permanent, redirectable
+A DOI is a [Digital Object Identifier](https://www.doi.org/index.html). It is a permanent, redirectable
 identifier and URL for your dataset, so that even if the location of
 your dataset changes, it can still be found with the same ID. DOIs are
-issued by CyVerse through the \`DataCite
-\<https://datacite.org/\>]{.title-ref}\_ service.
+issued by CyVerse through the [DataCite](https://datacite.org/){.title-ref}\_ service.
 
 
 ### Do I need to contact CyVerse before requesting a DOI?
 
 The process of requesting a
-DOI is automated through the DE, but some process must be handled
+DOI is automated through the DE, but some tasks must be handled
 manually, such as DOIs for datasets with more than 1000 files or DOIs
 for datasets that are stored somewhere other than
 /iplant/home/share/commons_repo/curated. If you match either of those
-cases, please contact us a <doi@cyverse.org>.
+cases, please contact us a <learning@cyverse.org>.
 
 Also contact us if you have questions about how to organize your data or
 what scientific metadata to include.
@@ -320,7 +317,7 @@ what scientific metadata to include.
 
 ### How much does a CyVerse permanent identifier cost?
 
-At this point in time,
+At this time,
 CyVerse does not charge for DOIs. However, the dataset must meet the
 requirements on the page [Is CyVerse Curated Data Right for My
 Data?](https://cyverse-doi-request-quickstart.readthedocs-hosted.com/en/latest/Additional/right4me.html).
@@ -330,26 +327,26 @@ in the CyVerse Data Commons.
 ### How long will it take to obtain a permanent identifier and publish my
 data?
 
-Providing that your dataset is in good order and ready to be published,
+Provided that your dataset is in good order and ready to be published,
 the process may take up to one week, as it may involve a dialogue with
 the CyVerse data curators. If your data is well organized and the
 metadata is complete and accurate, the process will be much faster
-(usually 1-2 days). It is best to submit your request at least one week
+(usually 1-2 business days). It is best to submit your request at least one week
 before you need the identifier (e.g., for a manuscript submission) or
-longer for very large of complex datasets.
+more for very large of complex datasets.
 
 
 ### Can I publish different versions of my data?
 
 Yes. Each new version must be documented, and will be assigned a new
 permanent identifier that references the original dataset. For new
-versions, contact us at <doi@cyverse.org>.
+versions, contact us at <learning@cyverse.org>.
 
 ### How small or big should my data be to be published?
 
 The size of the dataset is
 less important than its utility to the scientific community. Although
-there is no lower size limit for requesting a DOI or ARK, the default
+there is no lower size limit for requesting a DOI, the default
 upper size limit for data allocations on CyVerse is 100GB. If you are
 interested in depositing a larger dataset, please request an increased
 data allocation before requesting a permanent identifier.
