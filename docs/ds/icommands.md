@@ -19,7 +19,7 @@ On a Linux OS you can use a package manager to install iCommands in the terminal
 
 **CentOS:**
 
-After configurating the repository, use `yum` to install the iCommands package `irods-icommands`.
+Configure the repository and use `yum` to install the iCommands package `irods-icommands`.
 
 ``` bash
 sudo rpm --import https://packages.irods.org/irods-signing-key.asc
