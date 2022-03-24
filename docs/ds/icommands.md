@@ -162,7 +162,7 @@ CyVerse Data Store configuration:
 
 !!! Note
 
-    You can reconfigure iCommands for other iRODS data stores by changing your environment file.
+    You can reconfigure iCommands for other iRODS zones by changing your environment file.
 
 3.  Verify that your iCommands installation works and is properly configured using the `ils` command to list the contents of your Data Store home directory.
 
