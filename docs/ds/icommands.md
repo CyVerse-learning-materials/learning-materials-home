@@ -4,13 +4,11 @@ iCommands is a collection of tools developed by the iRODS project. [iRODS](https
 
 This section will cover the basics of iCommands installation and use.
 
-??? Tip "Things to remember about iCommands"
+**Things to remember about iCommands:**
 
-    This is a *command line* tool, operated in a terminal.
-
-    There is no support for Windows OS and PowerShell. 
-    
-    We recommend using [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install) if you're looking to use iCommands in Windows.
+    - This is a *command line* tool, operated in a terminal.
+    - There is no support for Windows OS and PowerShell so we recommend using 
+    [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install).
 
 ------------------------------------------------------------------------
 
