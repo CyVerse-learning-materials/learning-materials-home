@@ -14,9 +14,8 @@ This section will cover the basics of iCommands installation and use.
 
 ## iCommands Installation for Linux
 
-On a Linux OS you can use a package manager to install iCommands in the terminal.
+On a Linux OS you can use a package manager to install iCommands in the terminal. Instructions for configuring the iRODS repositories in Linux can be be found on the [iRODS Packages](https://packages.irods.org/) webpage.
 
-Instructions for configuring the iRODS repositories in Linux can be be found on the [iRODS Packages](https://packages.irods.org/) webpage. 
 
 **CentOS:**
 
