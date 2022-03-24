@@ -37,7 +37,7 @@ sudo yum install \
 
 **Ubuntu 18.04:**
 
-After configurating the repository, use `apt` to install the iCommands package `irods-icommands`.
+Configure the repository and use `apt` to install the iCommands package `irods-icommands`.
 
 ``` bash
 wget -qO - https://packages.irods.org/irods-signing-key.asc \
