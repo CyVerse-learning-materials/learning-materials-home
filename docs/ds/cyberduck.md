@@ -43,7 +43,7 @@ contents of your home directory.
         When uploading your data to the Data Store, avoid naming
         files/folders with names containing spaces (e.g., experiment
         one.fastq) or special characters (e.g., \~ \` ! @ \#
-        \$ % \^ & \* ( ) + = { } \[ \] \| : ; \" \' \< \> , ? /). The Apps on
+        \$ % \^ & \* ( ) + = { } \[ \] \| : ; " ' \< \> , ? / and \). The Apps on
         the Discovery Environment and most command line applications will
         typically not tolerate these characters. For long file/folder names, 
         we recommend using underscore(s) (e.g., experiment_one.fastq) instead of spaces.
