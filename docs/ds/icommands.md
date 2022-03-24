@@ -178,14 +178,14 @@ CyVerse Data Store configuration:
 
 ------------------------------------------------------------------------
 
-## Anonymous access to the CyVerse Data Store
+## Anonymous Access to the CyVerse Data Store
 
 You can access public data in the CyVerse Data Store with iCommands using:
 
 -   Username: anonymous
 -   Password: <leave blank>
 
-## Upload Files/folders from local Computer to Data Store
+## Upload Files/Folders from Local Computer to Data Store
 
 !!! Warning
 
@@ -220,7 +220,7 @@ iput -T # to renew socket connection after 10 mins (this may help connections
 
 ------------------------------------------------------------------------
 
-## Download Files/folders from Data Store to local computer
+## Download Files/Folders from Data Store to Local Computer
 
 See the [full iCommands iget documentation](https://docs.irods.org/master/icommands/user/#iget) for more information.
 
