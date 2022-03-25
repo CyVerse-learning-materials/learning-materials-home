@@ -275,7 +275,7 @@ Each of these commands accepts the `-h` command line option. When a command is c
 ## Additional Frequently Used iCommands
 
 In addition to the commands above, there are several frequently used
-iCommands, most of which you would expect following the Linux paradigm:
+iCommands, most of which follow the Linux paradigm:
 
 -   **ipwd**: Print current directory
 -   **imkdir**: Create a directory
