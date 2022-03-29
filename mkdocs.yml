@@ -5,7 +5,7 @@ repo_url: 'https://github.com/CyVerse-learning-materials/learning-materials-home
 site_name: 'CyVerse Learning Home'
 site_description: 'Documentation for CyVerse Platforms and Education'
 site_author: 'CyVerse Science Team'
-site_url: https://CyVerse-learning-materials.io/learning-materials-home/
+site_url: https://learning.cyverse.org
 
 edit_uri: edit/mkdocs/docs
 
