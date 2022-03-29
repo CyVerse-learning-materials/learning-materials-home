@@ -66,7 +66,8 @@ consider the following:
     according to Step 2.4.
 
 2.  Within a folder, include all files in your data package plus the ReadMe file and the inventory.
-	-   You may have subfolders within a data package.
+ 	-   You may have subfolders within a data package.
+
         -   You may include compressed files in a package, as described
             on the Permanent Identifier FAQs, but do not compress the
             entire folder/package.
@@ -75,8 +76,8 @@ consider the following:
 
 #### 1.4. Name your top level folder according to the guidelines
 
-The folder containing your dataset should be named using the
-Creator_subject_date format.
+-   The folder containing your dataset should be named using the
+    Creator_subject_date format.
 
 
 ------------------------------------------------------------------------
@@ -105,16 +106,16 @@ You must create a plain text document that includes an inventory of the
 contents of the organized dataset (at a minimum, your dataset will
 contain one data file and one ReadMe file).
 
-The inventory may be part of the ReadMe file or a separate file.
+-   The inventory may be part of the ReadMe file or a separate file.
 
-The inventory should include the ReadMe file and any other additional
+-   The inventory should include the ReadMe file and any other additional
 non-data materials you add to your dataset.
 
-If your dataset contains folders with many files (e.g., large
+-   If your dataset contains folders with many files (e.g., large
 collections of images), you do not need to list each file in the
 inventory. Simply describe the folder and what it contains.
 
-Describe the file naming conventions, if that is helpful.
+-   Describe the file naming conventions, if that is helpful.
 
 ------------------------------------------------------------------------
 
@@ -144,11 +145,11 @@ Describe the file naming conventions, if that is helpful.
 
 #### 2.2.  For more information, including how to apply metadata in bulk, see [Adding Metadata](https://cyverse-learning-materials.github.io/learning-materials-home/ds/doi/#3-add-metadata).
 
-#### 2.3.  You may add any additional metadata that is appropriate. We
-    encourage the use of additional metadata to make your data better understood and more discoverable.
+#### 2.3.  You may add any additional metadata that is appropriate. 
 
-#### 2.4.  We encourage adding metadata on subfolders and individual files
-    in your datasets.
+We encourage the use of additional metadata to make your data better understood and more discoverable.
+
+#### 2.4.  We encourage adding metadata on subfolders and individual files in your datasets.
 
 !!! warning
 
@@ -185,16 +186,16 @@ Describe the file naming conventions, if that is helpful.
     CyVerse and larger scientific community, not the quality of your
     data. This is not a peer review process.
 
-**Possible validation actions:**
+**Possible validation actions**
 
-    -   If the curator determines that minor changes are needed, they
+-   If the curator determines that minor changes are needed, they
         may make those changes themself.
-    -   If the curator determines that substantive changes are needed,
+-   If the curator determines that substantive changes are needed,
         they will contact you with required changes.
-    -   If the curator determines that your dataset is not appropriate
+-   If the curator determines that your dataset is not appropriate
         for the Curated Data section of the Data Commons (e.g., because
         it belongs in NCBI), you will be notified.
-    -   If the curator determines that the dataset is adequately
+-   If the curator determines that the dataset is adequately
         organized and the DataCite metadata are accurate, they will
         provide a DOI, and you will be notified of the DOI and the final
         dataset location.
@@ -212,8 +213,9 @@ Describe the file naming conventions, if that is helpful.
 
 Metadata, the description about your data, is key to getting your dataset noticed in the world wide web. Search engines and bibliographic aggregators index the metadata that you create to obtain a DOI. Thus, it is important that you do the following:
 
-:   -   Make sure the metadata are complete.
-    -   Include precise keywords in the "Subject" attribute. - Include
+    -   Make sure the metadata are complete.
+    -   Include precise keywords in the "Subject" attribute. 
+    - 	Include
         descriptive terms about the science and themes involved in your
         research. These can go in the "Subject" attribute, but you can
         also create additional metadata attributes specific to your
@@ -228,12 +230,12 @@ Metadata, the description about your data, is key to getting your dataset notice
 
 #### 4.2. Publicize your dataset
 
--   Consider using social media to share the DOI of your dataset, and
+    -   Consider using social media to share the DOI of your dataset, and
     tag CyVerse.
--   If you have an interesting story about your data, contact us at
+    -   If you have an interesting story about your data, contact us at
     <learning@cyverse.org>, and we may be able to share it through CyVerse
     outreach.
--   If you have a tool or workflow you developed to analyze your data in
+    -   If you have a tool or workflow you developed to analyze your data in
     CyVerse, consider presenting it as part of our CyVerse Webinars.
 
 ------------------------------------------------------------------------
@@ -260,7 +262,7 @@ Several conditions must exist in your data before it can be published in
 CyVerse Curated Data:
 
 -   You must be a registered CyVerse account holder. To register for an
-    account, see the [Create Accoun
+    account, see the [Create Account
     Quickstart](https://learning.cyverse.org/projects/cyverse-account-creation-quickstart/en/latest/).
 -   A dataset may be up to 100GB in size. If you are interested in
     depositing a larger dataset, please request an increased data
@@ -304,7 +306,7 @@ DOI is automated through the DE, but some tasks must be handled
 manually, such as DOIs for datasets with more than 1000 files or DOIs
 for datasets that are stored somewhere other than
 /iplant/home/share/commons_repo/curated. If you match either of those
-cases, please contact us at <learning@cyverse.org>.
+cases, please contact us at <doi@cyverse.org>.
 
 Also contact us if you have questions about how to organize your data or
 what scientific metadata to include.
@@ -335,7 +337,7 @@ more for very large of complex datasets.
 
 Yes. Each new version must be documented, and will be assigned a new
 permanent identifier that references the original dataset. For new
-versions, contact us at <learning@cyverse.org>.
+versions, contact us at <doi@cyverse.org>.
 
 ### How small or big should my data be to be published?
 
@@ -492,12 +494,14 @@ While the dataset itself can have any name chosen by the creator (within
 reason), the folder that contains the dataset must follow the naming
 practices described on this page.
 
-General guidelines:
-    - Folder names must be unique. In the case of a conflict with an existing dataset, your subject
-can be modified slightly. 
+**General guidelines**
+
+    - Folder names must be unique. In the case of a conflict with an existing dataset, you can modify the subjectslightly. 
+    
     - No invalid characters: Be sure there are **no spaces or special characters in the folder name**; for more
 information, see [Using Special Characters in the
-DE](https://wiki.cyverse.org/wiki/display/DEmanual/Using+Special+Characters+in+the+DE.) -
+DE](https://wiki.cyverse.org/wiki/display/DEmanual/Using+Special+Characters+in+the+DE.) 
+
     - Use underscores between each segment.
 
 ------------------------------------------------------------------------
@@ -510,8 +514,7 @@ DE](https://wiki.cyverse.org/wiki/display/DEmanual/Using+Special+Characters+in+t
 
 -   The Creator entry should be the same as entered in the Creator field
     of the DOI request - DataCite Metadata request form.
-
--    The Creator is the lead author, the senior author, or the
+-   The Creator is the lead author, the senior author, or the
 organization with the primary responsibility for the dataset. Start the
 field (the creator's name) with a capital letter.
 
@@ -576,17 +579,17 @@ because the subject is too vague or too detailed:
     
 ## Is the CyVerse Curated Data Repository right for my data?
 
-**Important: Before requesting a permanent identifier in CyVerse Curated Data
-through the Data Commons, answer the following series of questions.**
+**Before requesting a permanent identifier in CyVerse Curated Data
+through the Data Commons**, answer the following series of questions.
 
 ### Question 1. Do you have a CyVerse account? 
 
--   Are you a registered CyVerse user? If not, register at .
+-   Are you a registered CyVerse user? If not, register at [CyVerse User Portal](https://user.cyverse.org/).
 -   If so, have you used the Discovery Environment (DE)?
 -   The tools for submitting data to Data Commons Curated Data are
     simple to use and available as part of the DE. At a minimum, you
-    should be able to upload and organize your data using the DE or ,
-    and be able to apply a .
+    should be able to upload and organize your data using the DE or command-line tools,
+    and be able to apply a template.
 
 ### Question 2. Is your data ready for publication?
 
@@ -596,13 +599,17 @@ through the Data Commons, answer the following series of questions.**
 into the public domain (meaning that anyone can access and use the data
 for any purpose, including commercial purposes)? Have you sufficiently
 documented how the data was created such that other scientists in your
-field will be able to reuse it? - If there is a standard or commonly
+field will be able to reuse it? 
+-   If there is a standard or commonly
 used format for your datatype, is your data in that format? If no
 standard exists, is your data in a format that can be easily used by
 most people with open source software (e.g., tables as a CSV or text
-file, rather than a Microsoft Excel spreadsheet)? - Is your data
+file, rather than a Microsoft Excel spreadsheet)? 
+-   Is your data
 organized in a clear and reasonable structure that others will be able
-to understand? - If you answered no to any of these questions, your
+to understand? 
+
+If you answered no to any of these questions, your
 dataset is not yet ready for a permanent identifier through Data Commons
 Curated Data. Please continue to work on your dataset until it meets
 these requirements. Data will be reviewed by a curator to ensure that it
@@ -629,7 +636,7 @@ and/or stable, you may request data hosting in the Data Commons.
 
 ### If you answered No
 
--   If you answered No to any of the questions above, your data may be
+-   If you answered No to **any** of the questions above, your data may be
     suitable for a DOI, but not through Data Commons Curated Data. You
     should consider other repositories that are not geared specifically
     toward data analysis, such as your institution's library.
