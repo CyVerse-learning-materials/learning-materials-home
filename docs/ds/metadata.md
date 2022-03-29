@@ -12,7 +12,7 @@ outset.
 -   You can add metadata to a single file/folder, or in bulk to large
     collections of data. 
 -   You can use your own metadata schema or apply one of several metadata templates supported in the Discovery Environment.
--   Additional templates you may wish to use can be found at resources like [FairSharing.org](ttps://fairsharing.org/).
+-   Additional templates you may wish to use can be found at resources like [https://fairsharing.org/](ttps://fairsharing.org/).
 -   Metadata can be managed through the DE's graphical user interface or by using iCommands at the command line. 
 -   This guide only covers metadata options in the Discovery Environment.
 
@@ -34,8 +34,8 @@ outset.
 
 ??? Tip
 
-    A single piece of metadata, or an AVU, is made up of attributes,
-    values, and units. An attribute is a changeable property or
+    A single piece of metadata, or an AVU, comprises an attribute,
+    value, and unit. An attribute is a changeable property or
     characteristic of the file or folder you have selected that can be
     set to a value. For example, "time point" might be an attribute
     of a file, while '7' could be its value, and "hour" a unit of the time point.
@@ -54,7 +54,7 @@ outset.
 
 ------------------------------------------------------------------------
 
-## Adding Metadata to Multiple Files/Folder in the Discovery Environment
+## Adding Metadata to Multiple Files/Folders in the Discovery Environment
 
 **Adding Metadata using a CyVerse Template**
 
@@ -94,7 +94,7 @@ Follow the steps in the "Editing or deleting metadata" from the section above.
 
     -   *If all data will be in a single folder*
 
-       1.  In the *blank.csv* spreadsheet, in the *'file name or path'* column, enter the file names of all the files/folder in that folder you wish to annotate with metadata.
+    -   In the *blank.csv* spreadsheet, in the *'file name or path'* column, enter the file names of all the files/folder in that folder you wish to annotate with metadata.
         
 ??? Tip 
 
@@ -110,23 +110,24 @@ Follow the steps in the "Editing or deleting metadata" from the section above.
             when naming the file or parent folder. You may name this metadata file anything you wish,
             but keep it in CSV format (i.e., [filename].csv).
 
-    -  *If data will be in multiple folders*
+   -  *If data will be in multiple folders*
 
-      1.  In the *blank.csv* spreadsheet, in the *'filename or path* column, enter the full path of the top-level folder (e.g., `/iplant/home/YOURUSERNAME/FOLDERNAME`) 
-        2.  In the remaining columns in the first row, enter the values
+   -    In the *blank.csv* spreadsheet, in the *'filename or path* column, enter the full path of the top-level folder (e.g., `/iplant/home/YOURUSERNAME/FOLDERNAME`) 
+        1.  In the remaining columns in the first row, enter the values
             for each file/attribute combination
-        3.  Repeat for each file, making sure to add the full file path
+        2.  Repeat for each file, making sure to add the full file path
             (e.g., `/iplant/home/YOURUSERNAME/FOLDERNAME`) for
             each file.
-        4.  If desired, add additional columns to the end of the template.
+        3.  If desired, add additional columns to the end of the template.
             The metadata in the columns will be saved in the Data Store
             but will not be stored as part of the template.
-        5.  Save the file in **CSV format**. Avoid using spaces or specal characters
+        4.  Save the file in **CSV format**. Avoid using spaces or specal characters
             when naming the file or parent folder. You may name this metadata file anything you wish,
             but keep it in CSV format (i.e., [filename].csv).
 
-3.  In an open 'Data' window in the Discovery Environment, navigate to the
+  3.  In an open 'Data' window in the Discovery Environment, navigate to the
     appropriate location for uploading the template:
+    
     -   If the first column of your metadata file contains only file
         names (i.e., all data files are in the same folder), navigate
         to the folder and use the **Upload** button (Browse local) or
@@ -146,7 +147,7 @@ Follow the steps in the "Editing or deleting metadata" from the section above.
             (e.g., `/iplant/home/your_file_location`) so that all of your metadata spreadsheets 
             will be in one location on the Data Store.
         
-4.  To apply the metadata, in the Data window, select (checkbox) the
+4.  To apply the metadata, select (checkbox) in the Data window the
     name of the **folder** containing the data files to which you want
     to apply the metadata in bulk.
 5.  Click the **More Actions** menu, select 'Apply Bulk Metadata';
