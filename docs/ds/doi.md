@@ -35,10 +35,10 @@ your research:
     repository such as NCBI (e.g., fastq files), submit them to the
     repository, rather than to CyVerse Curated Data. You may want to
     include a list of external files in your dataset, with links.
--   Beyond data, you will include the ReadMe file (see Step 2.5), and
+-   Beyond data, you will include the ReadMe file (see Step 1.5), and
     you may include scripts or links to scripts to run your analysis.
     Links to analysis tools can also be included as metadata (see Step
-    3).
+    2).
 
 ------------------------------------------------------------------------
 
