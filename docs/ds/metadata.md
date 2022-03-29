@@ -97,9 +97,8 @@ Follow the steps in the "Editing or deleting metadata" from the section above.
         
 ??? Tip 
 
-        1.  In any data window, click the '⋮' (3-dots or ellipsis menu) next
-            to any file or folder; choose 'copy path' to get the path to
-            that item in the Data Store.
+        1.  In any data window, click the '⋮' (3-dots or ellipsis menu) next to any file or folder;
+            choose 'copy path' to get the path to that item in the Data Store.          
         2.  In the remaining columns of the template, enter the values for
             each file/attribute combination that applies.
         3.  If desired, add additional columns to the end of the template.
