@@ -19,22 +19,22 @@ files over 1 GiB in size (however, 10 GiB files have been downloaded
 from the CyVerse WebDAV service using a web browser with decent
 performance). The iCommands still outperform WebDAV. For better ways to
 download large files or large sets of files, please see the pages for
-[iCommands](./icommands.md) or [CyberDuck](./cyberduck.md).
+[iCommands](./icommands.md) or [Cyberduck](./cyberduck.md).
 
 ------------------------------------------------------------------------
 
 ## Accessing CyVerse Data via WebDAV Services
 
 There are two access points to CyVerse WebDAV services: one for
-anonymous read-only access and one for authenticated access. These
+anonymous, read-only access and one for authenticated access. These
 services can be accessed directly in a web browser, or with command line
 tools.
 
 The simplest way to access WebDAV in a browser is to go to
-<https://data.cyverse.org/dav>. This will bring up a menu for the
+<https://data.cyverse.org/>. This will bring up a menu for the
 options described below.
 
-WebDAV provides anonymous read-only access through URLs rooted at
+WebDAV provides anonymous, read-only access through URLs rooted at
 `https://data.cyverse.org/dav-anon/`. All data that can be seen by the
 anonymous user can be accessed anonymously through this service,
 excluding the immediate contents of `/iplant/home` and the immediate
