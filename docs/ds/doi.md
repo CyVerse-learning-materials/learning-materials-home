@@ -498,9 +498,8 @@ practices described on this page.
 
     - Folder names must be unique. In the case of a conflict with an existing dataset, you can modify the subjectslightly. 
     
-    - No invalid characters: Be sure there are **no spaces or special characters in the folder name**; for more
-information, see [Using Special Characters in the
-DE](https://wiki.cyverse.org/wiki/display/DEmanual/Using+Special+Characters+in+the+DE.) 
+    - No invalid characters: Be sure there are **no spaces or special characters in the folder name**; for more information, 
+    see [Using Special Characters in the DE](https://wiki.cyverse.org/wiki/display/DEmanual/Using+Special+Characters+in+the+DE.) 
 
     - Use underscores between each segment.
 
