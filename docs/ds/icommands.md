@@ -189,7 +189,7 @@ You can access public data in the CyVerse Data Store with iCommands using:
 
 !!! Warning
 
-    When uploading your data to the Data Store, you should not upload files/folders with names containing spaces (e.g., `experiment one.fastq`) or special characters (e.g., \~ \`\` ! @ \# \$ % \^ & \* ( ) + = { } \[ \] \| : ; " ' \< \> , ? / and \). 
+    When uploading your data to the Data Store, you should not upload files/folders with names containing spaces (e.g., `experiment one.fastq`) or special characters (e.g., \~ \`\` ! @ \# \$ % \^ & \* ( ) + = { } \[ \] \| : ; " ' < \> , ? / and \\). 
     
     The Apps on the Discovery Environment and most command line applications will typically not tolerate these characters. 
     
