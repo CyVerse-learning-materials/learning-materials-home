@@ -313,15 +313,14 @@ what scientific metadata to include.
 
 ### How much does a CyVerse permanent identifier cost?
 
-At this time,
-CyVerse does not charge for DOIs. However, the dataset must meet the
+At this time, CyVerse does not charge for DOIs. However, the dataset must meet the
 requirements given on the page [Is CyVerse Curated Data Right for My
 Data?](https://cyverse-doi-request-quickstart.readthedocs-hosted.com/en/latest/Additional/right4me.html).
 In the future, there may be a charge for issuing permanent identifiers
 in the CyVerse Data Commons.
 
-### How long will it take to obtain a permanent identifier and publish my
-data?
+
+### How long will it take to obtain a permanent identifier and publish my data? 
 
 Provided that your dataset is in good order and ready to be published,
 the process may take up to one week, as it may involve a dialogue with
@@ -338,6 +337,7 @@ Yes. Each new version must be documented, and will be assigned a new
 permanent identifier that references the original dataset. For new
 versions, contact us at <doi@cyverse.org>.
 
+
 ### How small or big should my data be to be published?
 
 The size of the dataset is
@@ -347,6 +347,7 @@ upper size limit for data allocations on CyVerse is 100GB. If you are
 interested in depositing a larger dataset, please request an increased
 data allocation before requesting a permanent identifier.
 
+
 ### What is the policy for submitting compressed data to CyVerse Curated Data?
 
 Certain file types are regularly transferred, stored, and used in
@@ -355,6 +356,7 @@ LAZ for LIDAR data. Curated Data supports the deposition of files in the
 following open compressed formats: LASzip (<http://www.laszip.org/>) and
 the open source Gzip (<http://en.wikipedia.org/wiki/Gzip>) family of
 compression formats including zip, tar, tar.gz, or tgz.
+
 
 ### Can I publish data in CyVerse if I am not a CyVerse user?
 
@@ -367,6 +369,7 @@ the DE's metadata features before, start with [Using Metadata in the
 DE](https://wiki.cyverse.org/wiki/display/DEmanual/Using+Metadata+in+the+DE)
 and read the section on metadata templates.
 
+
 ### How secure is the data in the Curated Data site?
 
 Data in our platform is
@@ -375,12 +378,13 @@ authenticated through checksum analysis at ingest, and is locally and
 geographically replicated so that if any one system fails there will
 always be a safe copy of your data.
 
+
 ### What is CyVerse Data Commons' long-term commitment to hosting public data? 
 
-If and when the Data
-Commons cannot host your data in CyVerse Curated Data, it will transfer
+If and when the Data Commons cannot host your data in CyVerse Curated Data, it will transfer
 custody of the data to another repository and will change the target URL
 to which the identifier points.
+
 
 ### What if in the future I want to move my data to another repository?
 
@@ -390,6 +394,7 @@ URL location and we will change the DOI target. You may leave a copy of
 the dataset in the CyVerse Curated Data site for ease of reuse within
 the computational environment. CyVerse will update the metadata to reflect
 the relationship between the two identical datasets.
+
 
 ### How can I make it easier for people to give me (and my co-creators) credit for using my dataset?
 
@@ -413,6 +418,7 @@ If your data includ specific instructions for citing or reuse, to
 provide those in the ReadMe file and (if brief) in the
 \"reuse_or_citation_conditions\" metadata field.
 
+
 ### Whom do I choose for the creator versus contributor?
 
 Creators are the main
@@ -432,6 +438,7 @@ repository.
 You must include the role of all contributors. Choose from the dropdown
 list in the DOI request template.
 
+
 ### Which license can I use to publish my data?
 
 You can choose one of two open source licenses, depending on the
@@ -445,6 +452,7 @@ license (e.g., your dataset is aggregated from previously published data
 that already has another license), please contact us at
 <doi@cyverse.org>.
 
+
 ### Can I make changes to the metadata record?
 
 Once the data is public it will not change, and thus metadata should be
@@ -452,6 +460,7 @@ stable as well. However, it is possible that you may need to do minor
 edits or enhance the metadata. Version changes of the metadata will be
 recorded. To request changes to metadata data, contact us at
 <doi@cyverse.org>.
+
 
 ### What metadata standards does CyVerse support for data publication?
 
@@ -466,11 +475,13 @@ easily identifiable for other users. Consider taking advantage of the
 DE's bulk metadata application feature for adding file level metadata,
 especially for large datasets.
 
+
 ### How can I organize and package my dataset for publication in the CyVerse Curated Data site?
 
 See the guidelines for [organizing
 data](https://cyverse-doi-request-quickstart.readthedocs-hosted.com/en/latest/organize.html)
 for more details on how to prepare your data for publication.
+
 
 ### What if I want to change or add metadata to my public data?
 
@@ -479,6 +490,7 @@ to the metadata of a dataset with a DOI, contact us at
 <doi@cyverse.org>. If your dataset is connected to a paper that is
 published after the DOI is created, please contact us with the paper\'s
 DOI so we can link it in the metadata.
+
 
 ### Where can I go for help on permanent identifiers?
 
@@ -495,7 +507,7 @@ practices described on this page.
 
 **General guidelines**
 
-    - Folder names must be unique. In the case of a conflict with an existing dataset, you can modify the subjectslightly. 
+    - Folder names must be unique. In case of a conflict with an existing dataset, you can modify the subject slightly. 
     
     - No invalid characters: Be sure there are **no spaces or special characters in the folder name**; for more information, 
     see [Using Special Characters in the DE](https://wiki.cyverse.org/wiki/display/DEmanual/Using+Special+Characters+in+the+DE.) 
