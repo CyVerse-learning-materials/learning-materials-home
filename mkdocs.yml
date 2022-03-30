@@ -1,0 +1,171 @@
+docs_dir: docs/
+repo_name: 'CyVerse-learning-materials/learning-materials-home'
+repo_url: 'https://github.com/CyVerse-learning-materials/learning-materials-home'
+
+site_name: 'CyVerse Learning Home'
+site_description: 'Documentation for CyVerse Platforms and Education'
+site_author: 'CyVerse Science Team'
+site_url: 'https://learning.cyverse.org'
+
+edit_uri: edit/mkdocs/docs
+
+# Copyright
+copyright: 'Copyright &copy; 2022 CyVerse'
+
+# Navigation Page
+
+nav:
+  - 'Home': 
+    - index.md 
+    - 'What is CyVerse?': what_is_cyverse.md
+    - 'Self-Guided Tour': mooc.md
+    - 'Set Up an Account': account.md 
+    - 'Getting Help': getting_help.md
+  - 'Manage Your Data': 
+    - ds/index.md 
+    - 'Moving Data': 
+      - ds/move_data/index.md
+      - 'Data Management with Discovery Environment': de/manage_data.md
+      - 'Transferring Data with Cyberduck': ds/cyberduck.md
+      - 'Transferring Data with iCommands and Command Line': ds/icommands.md
+      - 'HTTP Access with WebDAV': ds/webdav.md
+    - 'Adding Metadata': ds/metadata.md
+    - 'Sharing Data': ds/share.md
+    - 'Getting a DOI': ds/doi.md
+  - 'Run Analyses':
+    - de/index.md
+    - 'Logging In': de/login.md
+      ##- 'Managing Data through the DE': de/manage_data.md
+    - 'Using Apps': de/using_apps.md
+    - 'Managing Analyses': de/managing_analyses.md
+    - 'Interactive Analysis': vice/about.md
+      #- 'Interactive Apps': vice/apps.md
+      #- 'Search': de/search.md
+    - 'Sharing and Using Bags': de/bags.md
+  - 'Quick Starts':
+    - 'RStudio in 6 steps': vice/quick-rstudio.md
+    - 'JupyterLab in 6 steps': vice/quick-jupyter.md
+    - 'Cloud Shell in 6 steps': vice/quick-cloudshell.md
+    - 'Distributing Data in 6 steps': ds/quick-data-share.md
+      #- 'Cloud Virtual Machines': atmo/quick-atmo.md
+  - 'Cloud Services':
+    - cloud/index.md
+      #- 'Atmosphere': atmo/atmo.md
+      #- 'Jetstream': atmo/js.md 
+      #- 'Continuous Analyses': atmo/cacao.md
+  - 'Analyze Images':
+    - bisque/index.md
+  - 'For the Classroom':
+    #- 'Self-Guided Course': mooc.md
+    - 'Teach using CyVerse': vice/teaching_vice.md
+    - 'DNA Subway': dna_subway_guide.md
+  - 'Develop':
+    - 'Create DE Apps': de/create_apps.md
+    - 'Extend VICE apps': vice/extend_apps.md
+    - 'Leverage CyVerse Services': powered_by.md
+    - 'Developer Manuals': manuals.md
+  - 'Science Tutorials':
+    - tutorials/index.md
+      #- 'Bioinformatics': bioinformatics_tutorials.md
+      #- 'Geoinformatics': geoinformatics_tutorials.md
+      #- 'Other Topics': other_tutorials.md
+  - 'CyVerse Workshops':
+    - 'Foundational Open Science Skills': foss.md
+    - 'Container Camp': container_camp.md
+  - 'Reference':
+    - 'Glossary': glossary.md
+    - 'FAQ': faq.md
+
+# JavaScript for Intercom Widget
+extra_javascript:
+  - javascripts/intercom-learning.js
+  
+# Set theme to `readthedocs`
+# must also set Action to use `@nomaterial` branch instead of `@master` for material
+theme:
+  name: material
+# setting features for the navigation tab
+  features:
+    - navigation.instant
+      #- navigation.expand
+    - navigation.tracking
+      #- navigation.sections
+    - navigation.indexes
+    - toc.integrate
+    - toc.follow
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  palette: 
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Regular
+  favicon: assets/favicon.png
+  icon:
+    logo: material/rocket
+
+# Options
+extra:
+  social:
+    - icon: fontawesome/brands/orcid
+      link: https://orcid.org/
+    - icon: fontawesome/brands/github
+      link: https://github.com/cyverse-learning-material/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/cyverseorg
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/cyverse.org
+    - icon: fontawesome/brands/docker
+      link: https://harbor.cyverse.org/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/c/CyverseOrgProject
+  analytics:
+    provider: google
+    property: UA-72224033-6
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
