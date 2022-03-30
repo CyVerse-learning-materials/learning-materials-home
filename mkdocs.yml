@@ -5,7 +5,7 @@ repo_url: 'https://github.com/CyVerse-learning-materials/learning-materials-home
 site_name: 'CyVerse Learning Home'
 site_description: 'Documentation for CyVerse Platforms and Education'
 site_author: 'CyVerse Science Team'
-site_url: https://learning.cyverse.org
+site_url: 'https://learning.cyverse.org'
 
 edit_uri: edit/mkdocs/docs
 
@@ -126,9 +126,9 @@ extra:
       link: https://harbor.cyverse.org/
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/c/CyverseOrgProject
-#  analytics:
-#    provider: google
-#    property: 
+  analytics:
+    provider: google
+    property: UA-72224033-6
 
 # Extensions
 markdown_extensions:
