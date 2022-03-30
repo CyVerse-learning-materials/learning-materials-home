@@ -1,6 +1,14 @@
-# Example MkDocs deploy GitHub Action
+# CyVerse Learning Center Documentation
 
-This is a template that uses the [MkDocs deploy](https://github.com/marketplace/actions/deploy-mkdocs) GitHub action.
+These documents are for use on the CyVerse Learning Center (https://learning.cyverse.org)
+
+## MkDocs deploy GitHub Action
+
+The `main` branch uses [deploy-mkdocs](https://github.com/marketplace/actions/deploy-mkdocs) GitHub Action.
+
+Do not commit changes directly to the `main` branch unless necessary. Please commit your updates to the `mkdocs` branch, test on CodeSpaces or locally, and then commit those merges back to `main`.
+
+Commits to `main` will trigget the Action which re-builds and deploys the website to https://learning.cyverse.org -- which is publicly available. 
 
 ## Render with ReadTheDocs Theme
 
