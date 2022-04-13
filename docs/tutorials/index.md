@@ -2,16 +2,9 @@
 
 ## Bioinformatics Tutorials Using CyVerse
 
-### VICE
-
-| Tutorial	| Date | Notes |
-|-----------|------|-------|
-| [RNASeq using VICE](https://cyverse.atlassian.net/wiki/spaces/TUT/pages/258736191/RNA-seq+Data+Analysis+in+CyVerse){target=_blank} | Dec 06, 2019	| Perform RNAseq differential expression analysis using Read Mapping and Transcript Assembly (RMTA) and Rstudio-DESEq2 apps |
-
-### Discovery Environment
-
 | Tutorial | Date |	Notes |
 |----------|------|-------|
+| [RNASeq using VICE](https://cyverse.atlassian.net/wiki/spaces/TUT/pages/258736191/RNA-seq+Data+Analysis+in+CyVerse){target=_blank} | Dec 06, 2019	| Perform RNAseq differential expression analysis using Read Mapping and Transcript Assembly (RMTA) and Rstudio-DESEq2 apps |
 | [Assemble a Genome Using SOAPdenovo](https://cyverse.atlassian.net/wiki/spaces/TUT/pages/258736322/Assemble+a+Genome+Using+SOAPdenovo+Workflow+Tutorial){target=_blank}	| Dec 19, 2019 | Commonly used procedure for de novo whole genome assembly of Illumina reads using the DE: Assemble reads, Assess assembly |
 | [Cluster Orthologs and Paralogs and Assemble Custom Gene Sets](https://cyverse.atlassian.net/wiki/spaces/TUT/pages/258736290/Cluster+Orthologs+and+Paralogs+and+Assemble+Custom+Gene+Sets+Workflow+Tutorial){target=_blank} | Dec 11, 2019 | Input entire protein-encoding gene or transcript repertoires from genomes of interest, and cluster homologs (orthologs and paralogs), then query clusters to assemble gene sets based on presence/absence and copy number. |
 | [RNA-Seq with Kallisto and Sleuth](https://cyverse.atlassian.net/wiki/spaces/TUT/pages/258736314/RNA+seq+tutorials-+Kallisto+and+Sleuth){target=_blank} | Nov 04, 2019 |	Kallisto is a quick, highly-efficient software for quantifying transcript abundances in an RNA-Seq experiment. Sleuth is designed to analyze and visualize the Kallisto results in R. |
@@ -53,9 +46,8 @@
 | [KOBAS 2.0-09052014](https://cyverse.atlassian.net/wiki/spaces/TUT/pages/258736176/KOBAS+2.0-09052014+Atmosphere+Images+Tutorial){target=_blank} | Apr 19, 2016|	Learn how to annotate and identify using KOBAS 2.0. |
 | [Validate Workflow v0.9](https://cyverse.atlassian.net/wiki/spaces/TUT/pages/258736136/Validate+Workflow+v0.9+Atmosphere+Images+tutorial){target=_blank} | Apr 19, 2016|	Learn to navigate the Validate Workflow. |
 | [BATools 0.0.1](https://cyverse.atlassian.net/wiki/spaces/TUT/pages/258736321/BATools+0.0.1+Atmosphere+Images+Tutorial){target=_blank} | Apr 10, 2016 |	Introduce new users to BATools and the BATools Wrapper Script. |
-## Geoinformatics Tutorials Using CyVerse
 
-### VICE
+## Geoinformatics Tutorials Using CyVerse
 
 | Tutorial	| Date | Notes |
 |-----------|------|-------|
@@ -63,9 +55,8 @@
 | [NEON AOP Workshop](https://cyverse-2020-neon-aop-workshop.readthedocs-hosted.com/en/latest/index.html) | Nov 05-07, 2020 | First virtual NEON AOP Workshop in collaboration with USDA-ARS and UArizona RISE Conference |
 | [NEON-CyVerse Workshop](https://cyverse-neon-workshop-2019.readthedocs-hosted.com/en/latest/index.html) | Jan 09, 2019 | CyVerse Workshop taught at Battelle Inc. NEON Headquarters, Boulder CO |
 | [NEON Data Science Institute](https://cyverse-neon-data-institute-2018.readthedocs-hosted.com/en/latest/index.html) | July 12, 2018 | NEON summer workshop taught at Battelle Inc. NEON Headquarters, Boulder CO | 
-## Other Domain projects
 
-### Astronomy
+## Astronomy Tutorials Using CyVerse
 
 | Workshop | Date | Description |
 |----------|------|-------------|
