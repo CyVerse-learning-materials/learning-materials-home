@@ -15,15 +15,15 @@ copyright: 'Copyright &copy; 2022 CyVerse'
 # Navigation Page
 
 nav:
-  - 'Home': 
-    - index.md 
+  - 'Home':
+    - index.md
     - 'What is CyVerse?': what_is_cyverse.md
     - 'Self-Guided Tour': mooc.md
-    - 'Set Up an Account': account.md 
+    - 'Set Up an Account': account.md
     - 'Getting Help': getting_help.md
-  - 'Manage Your Data': 
-    - ds/index.md 
-    - 'Moving Data': 
+  - 'Manage Your Data':
+    - ds/index.md
+    - 'Moving Data':
       - ds/move_data/index.md
       - 'Data Management with Discovery Environment': de/manage_data.md
       - 'Transferring Data with Cyberduck': ds/cyberduck.md
@@ -51,7 +51,7 @@ nav:
   - 'Cloud Services':
     - cloud/index.md
       #- 'Atmosphere': atmo/atmo.md
-      #- 'Jetstream': atmo/js.md 
+      #- 'Jetstream': atmo/js.md
       #- 'Continuous Analyses': atmo/cacao.md
   - 'Analyze Images':
     - bisque/index.md
@@ -70,6 +70,7 @@ nav:
       #- 'Geoinformatics': geoinformatics_tutorials.md
       #- 'Other Topics': other_tutorials.md
   - 'CyVerse Workshops':
+    - workshops.md
     - 'Foundational Open Science Skills': foss.md
     - 'Container Camp': container_camp.md
   - 'Reference':
@@ -79,7 +80,7 @@ nav:
 # JavaScript for Intercom Widget
 extra_javascript:
   - javascripts/intercom-learning.js
-  
+
 # Set theme to `readthedocs`
 # must also set Action to use `@nomaterial` branch instead of `@master` for material
 theme:
@@ -95,12 +96,12 @@ theme:
     - toc.follow
   # Default values, taken from mkdocs_theme.yml
   language: en
-  palette: 
+  palette:
     - scheme: default
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-    - scheme: slate 
+    - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
