@@ -117,9 +117,9 @@ To create your own Saved Launch, start by launching the app you want to use. Thi
 [gh]: https://cli.github.com/
 [gh-manual]: https://cli.github.com/manual/index
 
-[vll]: https://de.cyverse.org/apps/de/3548f43a-bed1-11e9-af16-008cfa5ae621/launch?quick-launch-id=81b187d6-cc94-4c53-81b5-f09f31c9c8ba
+[vll]: https://de.cyverse.org/apps/de/48b6e7ae-8b64-11ec-92dc-008cfa5ae621/launch
 
-[dsll]: https://de.cyverse.org/apps/de/07a2d5b2-76e2-11eb-be5f-008cfa5ae621/launch?quick-launch-id=60054c75-0e80-4169-8a9b-51cba04f756d
+[dsll]: https://de.cyverse.org/apps/de/cc77b788-bc45-11eb-9934-008cfa5ae621/launch
 
 [vlb]: ../assets/de/app_badges/verse-latest-badge.svg
 [dslb]: ../assets/de/app_badges/datascience-latest-badge.svg
