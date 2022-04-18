@@ -57,7 +57,7 @@ nav:
     - bisque/index.md
   - 'For the Classroom':
     #- 'Self-Guided Course': mooc.md
-    - 'Teach using CyVerse': vice/teaching_vice.md
+    - 'Teach using CyVerse': vice/teaching.md
     - 'DNA Subway': dna_subway_guide.md
   - 'Develop':
     - 'Create DE Apps': de/create_apps.md
