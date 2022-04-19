@@ -70,9 +70,9 @@ nav:
       #- 'Geoinformatics': geoinformatics_tutorials.md
       #- 'Other Topics': other_tutorials.md
   - 'CyVerse Workshops':
-    - index.md
-    - 'Container Camp': container_camp.md
-    - 'Foundational Open Science Skills': foss.md
+    - workshops/index.md
+    - 'Container Camp': workshops/container_camp.md
+    - 'Foundational Open Science Skills': workshops/foss.md
   - 'Reference':
     - 'Glossary': glossary.md
     - 'FAQ': faq.md
