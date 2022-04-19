@@ -69,11 +69,10 @@ nav:
       #- 'Bioinformatics': bioinformatics_tutorials.md
       #- 'Geoinformatics': geoinformatics_tutorials.md
       #- 'Other Topics': other_tutorials.md
-  - 'CyVerse Workshops': 
-    - 'Offerings': workshops.md
+  - 'CyVerse Workshops':
+    - index.md
     - 'Container Camp': container_camp.md
     - 'Foundational Open Science Skills': foss.md
-
   - 'Reference':
     - 'Glossary': glossary.md
     - 'FAQ': faq.md
