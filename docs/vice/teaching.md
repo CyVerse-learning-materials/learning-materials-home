@@ -4,7 +4,7 @@
 
 The User Portal provides a mechanism for rapidly onboarding entire workshops or class courses, by granting your students immediate access to CyVerse platforms and services.
 
-Start by completing the [Workshop Request Form here](https://user.cyverse.org/requests/8){target=_blank} and you will be able to enroll your entire course with access to CyVerse in a few minutes.
+Start by completing the [CyVerse Resources for Training Request Form here](https://user.cyverse.org/requests/8){target=_blank} and you will be able to enroll your entire course with access to CyVerse in a few minutes.
 
 !!! Note "Avoid conflicts with Maintenance days!"
 
