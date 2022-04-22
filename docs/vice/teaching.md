@@ -6,7 +6,7 @@ The User Portal provides a mechanism for rapidly onboarding entire workshops or 
 
 Start by completing the [Workshop Request Form here](https://user.cyverse.org/requests/8){target=_blank} and you will be able to enroll your entire course with access to CyVerse in a few minutes.
 
-!!! Note
+!!! Note "Avoid conflicts with Maintenance days!"
 
     When scheduling your workshop or class, note that CyVerse conducts regular maintenance of its platforms typically on the first Tuesday of the month, with most services unavailabe during that time. 
     
