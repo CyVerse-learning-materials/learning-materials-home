@@ -1,4 +1,5 @@
-# Run Analyses with the Discovery Environment ![de](../assets/de/logos/deIcon.svg){ width="50" }
+# Run Analyses with the Discovery Environment 
+![de](../assets/de/logos/deIcon.svg){ width="50" }
 
 The Discovery Environment (DE) is an all-purpose informatics workspace, with an interface tailored to the needs of researchers with data to analyze but who may lack command line expertise or the compute resources to run software tools and analyses.
 
