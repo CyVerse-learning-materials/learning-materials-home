@@ -4,11 +4,7 @@
 
 CyVerse Curated Data in the Data Commons contains files that have been
 assigned a permanent identifier (Digital Object Identifier or DOI ). These files are secure, stable, and
-unchangeable, thus they are ideal for easy data reuse and data citation.
-CyVerse Curated Data can store very large datasets that are difficult
-across different computers and platforms. CyVerse Curated data is
-to transfer, upload, and download accessible to CyVerse's suite of large-scale computational analysis
-resources, allowing users to seamlessly analyze, manage, and publish new results.
+**unchangeable**, thus they are ideal for easy data reuse and data citation.
 
 ## DOI Request Quickstart
 
@@ -56,7 +52,7 @@ consider the following:
     they are cited individually? DOIs can be nested, so that one dataset
     is part of another.
 -   If you are uncertain about how many DOIs to request, contact us at
-    <learning@cyverse.org>.
+    <doi@cyverse.org>.
 
 ------------------------------------------------------------------------
 
@@ -495,7 +491,7 @@ practices described on this page.
 
 **General guidelines**
 
-    - Folder names must be unique. In the case of a conflict with an existing dataset, you can modify the subjectslightly. 
+    - Folder names must be unique. In the case of a conflict with an existing dataset, you can modify the subject slightly. 
     
     - No invalid characters: Be sure there are **no spaces or special characters in the folder name**; for more information, 
     see [Using Special Characters in the DE](https://wiki.cyverse.org/wiki/display/DEmanual/Using+Special+Characters+in+the+DE.) 
