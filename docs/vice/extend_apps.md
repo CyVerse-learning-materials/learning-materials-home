@@ -161,8 +161,9 @@ If there is no `Dockerfile` for the tool that you are interested in, contact us 
 #### Required settings
 
 ##### Set the `WORKDIR`
+Executable apps to not require a working directory.
 
-The container needs to have a set working directory, typically this is the home folder, e.g., `/home/jovyan` or `/home/rstudio` .
+The container needs to have a set working directory (for interactive apps), typically this is the home folder, e.g., `/home/jovyan` or `/home/rstudio` .
 
 Set the `WORKDIR` in the Dockerfile; if there is no set `WORKDIR`, you can set it in the Tool Builder.
 
