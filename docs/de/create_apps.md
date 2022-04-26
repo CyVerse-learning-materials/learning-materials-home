@@ -21,7 +21,7 @@ of the DE for use in DE apps
 the DE
 
  -   **Executable**: user starts an analysis and when the analysis
-     finishes they can find the output files in their `\Analyses\`
+     finishes they can find the output files in their `/analyses`
      folder
 
       -   **DE**: run locally on our cluster
