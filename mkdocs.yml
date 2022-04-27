@@ -129,7 +129,7 @@ extra:
       link: https://www.youtube.com/c/CyverseOrgProject
   analytics:
     provider: google
-    property: 313094865
+    property: G-6WMK2Y07YW
 
 # Extensions
 markdown_extensions:
