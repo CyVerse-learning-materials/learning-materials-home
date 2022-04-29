@@ -118,7 +118,7 @@ extra:
     - icon: fontawesome/brands/orcid
       link: https://orcid.org/
     - icon: fontawesome/brands/github
-      link: https://github.com/cyverse-learning-material/
+      link: https://github.com/cyverse-learning-materials/
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/cyverseorg
     - icon: fontawesome/brands/linkedin
@@ -129,7 +129,7 @@ extra:
       link: https://www.youtube.com/c/CyverseOrgProject
   analytics:
     provider: google
-    property: UA-72224033-6
+    property: G-6WMK2Y07YW
 
 # Extensions
 markdown_extensions:

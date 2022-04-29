@@ -20,6 +20,11 @@ Environment Public Link.
     This is a convenient but less secure method for file transfer. Do not
     share sensitive/private data using these public links.
 
+??? Tip
+
+    You can use this method to view files, for example in a genome browser.
+
+
 1.  If necessary, login to the [Discovery Environment](https://de.cyverse.org/de/).
 
 2.  In the Data window, select (checkbox) one or more individual file(s)
