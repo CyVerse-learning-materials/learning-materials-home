@@ -1,84 +1,109 @@
 # Getting a DOI
 
+
 ## Background
 
 CyVerse Curated Data in the Data Commons contains files that have been
-assigned a permanent identifier (Digital Object Identifier or DOI ). These files are secure, stable, and
+assigned a Digital Object Identifier (DOI). These files are secure, stable, and
 **unchangeable**, thus they are ideal for easy data reuse and data citation.
 
 ## DOI Request Quickstart
 
-
 ### 1. Organize data
 
-There are several steps to properly organizing your dataset. These
-include determining what data to include, how many identifiers to
-request, how to organize the data into folders, and creating the ReadMe
-file and data inventory.
+#### 1.1 Create submission folder
 
-------------------------------------------------------------------------
-
-#### 1.1. Determine what to include
-
-A data collection may be composed of multiple files and different
-datasets. In preparing your data for publication identify the data and
-other materials that you consider useful for validation and reuse of
-your research:
-
--   Data associated to a research project may include multiple files
-    with different roles.
--   If there are components of your dataset that belong in a public
-    repository such as NCBI (e.g., fastq files), submit them to the
-    repository, rather than to CyVerse Curated Data. You may want to
-    include a list of external files in your dataset, with links.
--   Beyond data, you will include the ReadMe file (see Step 1.5), and
-    you may include scripts or links to scripts to run your analysis.
-    Links to analysis tools can also be included as metadata (see Step
-    2).
-
-------------------------------------------------------------------------
-
-#### 1.2. Determine how many permanent identifiers to request
-
-To determine how many DOIs to request for a given data collection,
-consider the following:
-
--   Size and number of components.
--   How many studies or publications does it represent?
--   Is your data collection formed by different datasets and are those
-    likely to be used separately?
--   Do you want to create a data collection with one DOI for the entire
-    project and additional related DOIs for distinct datasets so that
-    they are cited individually? DOIs can be nested, so that one dataset
-    is part of another.
--   If you are uncertain about how many DOIs to request, contact us at
-    <doi@cyverse.org>.
-
-------------------------------------------------------------------------
-
-#### 1.3. Organize your data into folder(s)
-
-1.  Organize your data so that there is one folder for each DOI, named
-    according to Step 2.4.
-
-2.  Within a folder, include all files in your data package plus the ReadMe file and the inventory.
- 	-   You may have subfolders within a data package.
-
-        -   You may include compressed files in a package, as described
-            on the Permanent Identifier FAQs, but do not compress the
-            entire folder/package.
-
-------------------------------------------------------------------------
-
-#### 1.4. Name your top level folder according to the guidelines
-
--   The folder containing your dataset should be named using the
-    Creator_subject_date format.
+- Organize your data so that there is one folder for each DOI (named according to the Data Commons Naming Conventions--see Step 1.2)
+- Within that folder, include all files in your data package plus the ReadMe file and the inventory. 
+- You may have subfolders within a data package.
+- You may include compressed files in a package, as described on the [DOI Frequently Asked Questions](#doi-frequently-asked-questions), but do not compress the entire folder/package
 
 
-------------------------------------------------------------------------
+#### 1.2. Name your top level folder according to the Data Commons Naming Conventions
 
-#### 1.5. Create a ReadMe file
+CyVerse Curated Data datasets are searchable and discoverable based on their metadata.
+While the dataset itself can have any name chosen by the creator (within
+reason), the folder that contains the dataset must follow the naming
+practices described on this page.
+
+**General guidelines**
+
+- Folder names must be unique.
+- No invalid characters: Be sure there are **no spaces or special characters in the folder name**.
+- Use underscores between each segment.
+
+**Folder Name Format**
+
+**\$Creator\_\$subject\_\$date**
+
+**\$Creator:**
+
+-   The Creator entry should be the same as entered in the Creator field
+    of the DOI request - DataCite Metadata request form.
+-   The Creator is the lead author, the senior author, or the
+organization with the primary responsibility for the dataset. Start the
+field (the creator's name) with a capital letter.
+
+**Co-creators:**
+
+-   If there are two co-creators, use both names, separated by an
+    underscore or using camel case.
+-   For three or more co-creators, select only one name or use a
+    consortium name. Other contributors should be acknowledged in the
+    metadata (as creators or contributors), which will display on the
+    dataset landing page.
+
+**\$subject:**
+
+-   Very briefly describes what the dataset is about.
+-   If the subject is more than one word, use either camel case
+    (example: camelCase) or underscores (example:
+    underscore_between_words) to separate the words.
+-   If another folder has the exact same name, you may modify the
+    subject slightly to maintain uniqueness.
+
+**\$date:**
+
+-   Either just the year, or the month and year, in which the dataset
+    was created.
+-   Month and year should be used only if there is likely to be more
+    than one dataset with the same creator and subject within the same
+    year.
+-   Month must be a three-letter abbreviation: Jan, Feb, Mar, Apr, May,
+    Jun, Jul, Aug, Sep, Nov, Dec
+
+---------------------------------------------------------------------------------------------------------------------
+**Examples**
+
+#### Valid Names
+
+-   Walls_yam_variation_2015
+-   DeBarry_yamGenomicVariation_2016
+-   Esteva_yam_variation_Mar2016
+-   Esteva_Walls_yam_genomic_variation_Jun2016
+-   YamConsortium_Dioscorea_variation_Nov2017
+
+#### Invalid Names
+
+-   WallsYamVariation_2016 (Missing underscore between the creator and
+    the subject)
+-   Esteva_yam_variation_June2016 (Month should be three letters: Jun)
+-   YamConsortium_Nov2017 (No subject)
+-   Walls_yam_variation_2016#1 (Contains a special character)
+-   Walls YamVariation 2020 (Contains spaces)
+
+#### Not recommended
+
+Although the following will pass validation, they are not recommended
+because the subject is too vague or too detailed:
+
+-   Walls_variation_2016 (Subject too vague)
+-   Esteva_yam_Mar2016 (Subject too vague)
+-   DeBarry_yam_genetic_and_environmental_variation_with_phenotype_data_version3_Dioscorea_2016
+    (Too detailed)
+
+-----------------------------------------------------------------------------------------------------------------
+#### 1.3. Create a ReadMe file
 
 Create a text file labeled \"ReadMe\" with the following information:
 
@@ -86,17 +111,18 @@ Create a text file labeled \"ReadMe\" with the following information:
 
 -   How to reuse the data, such as which apps can analyze the data.
 
--   The inventory (see Step 1.6) may be included as part of the ReadMe
+-   The inventory (see Step 1.4) may be included as part of the ReadMe
     file.
+
+-   If your data include sequences, the ReadMe should include a list of corresponding BioSample IDs.
 
 -   Examples of good ReadMe files:
 
-       -   <http://datacommons.cyverse.org/browse/iplant/home/shared/commons_repo/curated/Carolyn_Lawrence_Dill_G2F_Mar_2017/_readme.txt>
-        -   <http://datacommons.cyverse.org/browse/iplant/home/shared/commons_repo/curated/Liang_Schnable_UNLPlantVision_2017/readMe.txt>
+       -   https://datacommons.cyverse.org/browse/iplant/home/shared/commons_repo/curated/Carolyn_Lawrence_Dill_GOMAP_Cacao_NCBI_CriolloV2_March_2021.r1/_README.txt
+       -   https://datacommons.cyverse.org/browse/iplant/home/shared/commons_repo/curated/Liang_Schnable_UNLPlantVision_2017/readMe.txt
 
-------------------------------------------------------------------------
 
-#### 1.6. Create an inventory
+#### 1.4. Create an inventory
 
 You must create a plain text document that includes an inventory of the
 contents of the organized dataset (at a minimum, your dataset will
@@ -113,55 +139,110 @@ inventory. Simply describe the folder and what it contains.
 
 -   Describe the file naming conventions, if that is helpful.
 
-------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
-#### 1.7. Example
+**Example inventory**
 
-    Lyons_DOI-Example-Aug2020:  Top level directory name
-    README.txt:          Plain text file that describes the origin of the data, experiments, data processing, etc.
-                         Also contains a list and description for the contents of the top-level directory (unless a separate inventory file is provided)
-    License.txt:         License file (e.g., GPL, MIT) that governs the use of the data
-    a.data1/:            Directory containing data
-    b.data2/:            Directory containing more data
-    c.data3/:            Directory containing even more data
-    d.analysis_graphs/:  Results, graphs, analyses, and other good stuff
+Lyons_DOI-Example-Aug2020:  Top level directory name
+README.txt:          Plain text file that describes the origin of the data, experiments, data processing, etc.
+                     Also contains a list and description for the contents of the top-level directory (unless a separate inventory file is provided)
+License.txt:         License file (e.g., GPL, MIT) that governs the use of the data
+a.data1/:            Directory containing data
+b.data2/:            Directory containing more data
+c.data3/:            Directory containing even more data
 
+
+--------------------------------------------------------------------------------------------------------------
 
 ### 2. Add metadata
 
-#### 2.1.  Add metadata to the dataset folder
+- You must provide all required metadata in the 'DOI Request--Datacite 4.1' template at a minimum.
+- You may add any additional metadata that is appropriate. We encourage the use of additional metadata to make your data better understood and more discoverable. For more information, including how to apply metadata, see [Adding Metadata](https://learning.cyverse.org/ds/metadata/).
 
-        a.  In the Data window, click the checkbox next to the folder.
-        b.  Select More actions > Metadata.
-        c.  Select More actions (again) > View in template.
-        d.  Choose the DOI Request - DataCite4.1 metadata template.
-        e.  Complete the required fields (marked with an asterisk) and
-            as many of the optional fields as possible.
-        f.  Save the template.
-
-#### 2.2.  For more information, including how to apply metadata in bulk, see [Adding Metadata](https://cyverse-learning-materials.github.io/learning-materials-home/ds/doi/#3-add-metadata).
-
-#### 2.3.  You may add any additional metadata that is appropriate. 
-
-We encourage the use of additional metadata to make your data better understood and more discoverable.
-
-#### 2.4.  We encourage adding metadata on subfolders and individual files in your datasets.
-
-!!! warning
-
-	Be sure to include at least 3 subject key words or phrases, so that people can discover your data (Findability)! **Each subject should be its own field** (click on the plus next to "Subject". **DO NOT use a comma-separated list.**)
 
 !!! tip
 
 	Get recognition for your work by including [ORCIDs](https://orcid.org/) for yourself and all creators and contributors.
 
+
+#### 2.1 In the Data window, click the checkbox next to the folder.
+
+![](../assets/ds/doi_2.1a.png){ width="600" }
+
+
+#### 2.2 Select More actions > Metadata.
+
+![](../assets/ds/doi_2.1b.png){ width="600" }
+
+![](../assets/ds/doi_2.1b2.png){ width="600" }
+
+
+#### 2.3 Select More actions (again) > View in template.
+
+![](../assets/ds/doi_2.1c.png){ width="600" }
+
+![](../assets/ds/doi_2.1c2.png){ width="600" }
+
+
+
+#### 2.4 Choose the 'DOI Request - DataCite4.1' metadata template.
+
+![](../assets/ds/doi_2.1d.png){ width="600" }
+
+![](../assets/ds/doi_2.1d2.png){ width="600" }
+
+
+
+#### 2.5 Complete the required fields (marked with an asterisk) and as many of the optional fields as possible.
+
+![](../assets/ds/doi_2.1e.png){ width="600" }
+
+
+!!! warning
+
+	Be sure to include at least 3 subject key words or phrases, so that people can discover your data (Findability)! **Each subject should be in its own field** (click on the plus next to "Subject" to add a subject field. **DO NOT use a comma-separated list.**)
+
+
+
+![](../assets/ds/doi_2.1e2.png){ width="600" }
+
+
+
+#### 2.6 Save the template.
+
+![](../assets/ds/doi_2.1f.png){ width="600" }
+
+
+
 ### 3. Submit request and wait for validations
 
-#### 3.1. Submit DOI request
+#### 3.1. Before you submit
 
--   In the Data tab, click the checkbox next to the folder.
--   Select More actions \> Request DOI.
--   After verifying you have read the instructions (i.e., this guide),
+Check the following to be sure everything is in order.
+
+-   There are no spaces or special characters in your file or folder names.
+-   You have included a ReadMe file that includes all the information specified in step 1.3.
+-   You followed the Data Commons Naming Conventions
+-   You have filled in all the required fields in the 'DOI Request - DataCite 4.1' metadata template
+-   You have included at least 3 subjects in your metadata
+-   Each subject is in a separate field (not comma-separated).
+-   The 'description' in your metadata is adequate (other users can tell what your data describe). 
+-   You understand that **once the DOI is issued you cannot change the data.** If you know your data will change you should consider waiting to request a DOI. If you do need to make changes later this DOI can be deprecated, a new DOI issued, and the two DOIs linked together as versions.
+
+
+#### 3.2 Submit DOI request
+
+**In the Data tab, click the checkbox next to the folder.**
+
+![](../assets/ds/doi_2.1a.png){ width="600" }
+
+**Select More actions \> Request DOI.**
+
+![](../assets/ds/doi_2.1b.png){ width="600" }
+
+![](../assets/ds/doi_3.2b.png){ width="600" }
+
+After verifying you have read the instructions (i.e., this guide),
     click \"I need a DOI\". You will receive a verification email that
     your request has been received, and a notification will be listed in
     the Notifications list in the DE.
@@ -170,14 +251,13 @@ We encourage the use of additional metadata to make your data better understood 
 
 	At this point, your folder will move to a new location under Community Data/commons_repo/staging.
 
-------------------------------------------------------------------------
 
-#### 3.2. Validations
+#### 3.3. Validations
 
--   After submitting your request, a CyVerse Curated Data curator begins
+- After submitting your request, a CyVerse curator begins
     validating your dataset, metadata, and overall configuration of your
     dataset.
--   Validations are based solely on the required DOI metadata and
+- Validations are based solely on the required DOI metadata and
     folder-naming conventions, as well as the data's potential utility to the
     CyVerse and larger scientific community, not the quality of your
     data. This is not a peer review process.
@@ -235,7 +315,7 @@ Metadata, the description about your data, is key to getting your dataset notice
 
 ------------------------------------------------------------------------
 
-## DOI Frequently Asked Questions 
+## DOI Frequently Asked Questions<a name="doi-frequently-asked-questions"></a>
 
 ### Why should I publish my data in CyVerse Curated Data?
 
@@ -248,8 +328,7 @@ different computers and platforms, it can store very large datasets. And
 because its data is accessible to CyVerse's suite of large-scale
 computational analysis resources, users can seamlessly analyze, manage,
 and publish new results. For more information, see [Is CyVerse Curated
-Data Right for My
-Data?](https://cyverse-doi-request-quickstart.readthedocs-hosted.com/en/latest/Additional/right4me.html).
+Data Right for My Data?](#rightformydata).
 
 ### What are the conditions for data to be published through CyVerse Curated Data?
 
@@ -258,17 +337,16 @@ CyVerse Curated Data:
 
 -   You must be a registered CyVerse account holder. To register for an
     account, see the [Create Account
-    Quickstart](https://learning.cyverse.org/projects/cyverse-account-creation-quickstart/en/latest/).
+    Quickstart](https://learning.cyverse.org/account/).
 -   A dataset may be up to 100GB in size. If you are interested in
     depositing a larger dataset, please request an increased data
     allocation before requesting a permanent identifier using [this
-    form](https://user.cyverse.org/forms/2/overview).
+    form](https://user.cyverse.org/administrative/forms/2).
 -   Data must be both curated and static. Once the data is published, it
     cannot be amended (although newer versions can be published).
 -   Data must be organized to identify the different components (raw,
     preprocessed, analysis, etc.).
--   Compressed files must be in [LASzip](http://www.laszip.org/) or
-    open-source [Gzip](http://en.wikipedia.org/wiki/Gzip) family of
+-   Compressed files must be in LASzip (<https://www.laszip.org/>) or open-source [Gzip](http://en.wikipedia.org/wiki/Gzip) family of
     compression formats including zip, tar, tar.gz, or tgz.
 -   At minimum, the dataset must include a complete description
     according to the [DataCite standard](https://schema.datacite.org/).
@@ -282,8 +360,7 @@ CyVerse Curated Data:
 ### Can I publish to the Data Commons if my data is not static and curated by CyVerse?
 
 Yes, you can make data available to the public via Community Released
-Data. See [Publishing Data through the Data
-Commons](https://wiki.cyverse.org/wiki/display/DC/Publishing+Data+through+the+Data+Commons).
+Data. You can request a community release data folder using [this form](https://user.cyverse.org/administrative/forms/7).
 
 
 ### What is a DOI? 
@@ -312,7 +389,7 @@ what scientific metadata to include.
 At this time,
 CyVerse does not charge for DOIs. However, the dataset must meet the
 requirements given on the page [Is CyVerse Curated Data Right for My
-Data?](https://cyverse-doi-request-quickstart.readthedocs-hosted.com/en/latest/Additional/right4me.html).
+Data?](#rightformydata).
 In the future, there may be a charge for issuing permanent identifiers
 in the CyVerse Data Commons.
 
@@ -343,12 +420,47 @@ upper size limit for data allocations on CyVerse is 100GB. If you are
 interested in depositing a larger dataset, please request an increased
 data allocation before requesting a permanent identifier.
 
+
+### Determine what to include
+
+A data collection may be composed of multiple files and different
+datasets. In preparing your data for publication identify the data and
+other materials that you consider useful for validation and reuse of
+your research:
+
+-   Data associated to a research project may include multiple files
+    with different roles.
+-   If there are components of your dataset that belong in a public
+    repository such as NCBI (e.g., fastq files), submit them to the
+    repository, rather than to CyVerse Curated Data. You may want to
+    include a list of external files in your dataset, with links.
+-   Beyond data, you will include the ReadMe file (see Step 1.3), and
+    you may include scripts or links to scripts to run your analysis.
+    Links to analysis tools can also be included as metadata (see Step
+    2).
+
+### Determine how many permanent identifiers to request
+
+To determine how many DOIs to request for a given data collection,
+consider the following:
+
+-   Size and number of components.
+-   How many studies or publications does it represent?
+-   Is your data collection formed by different datasets and are those
+    likely to be used separately?
+-   Do you want to create a data collection with one DOI for the entire
+    project and additional related DOIs for distinct datasets so that
+    they are cited individually? DOIs can be nested, so that one dataset
+    is part of another.
+-   If you are uncertain about how many DOIs to request, contact us at
+    <doi@cyverse.org>.
+
 ### What is the policy for submitting compressed data to CyVerse Curated Data?
 
 Certain file types are regularly transferred, stored, and used in
 applications in a compressed form, such as FASTQ for genomic data and
 LAZ for LIDAR data. Curated Data supports the deposition of files in the
-following open compressed formats: LASzip (<http://www.laszip.org/>) and
+following open compressed formats: LASzip (<https://www.laszip.org/>) and
 the open source Gzip (<http://en.wikipedia.org/wiki/Gzip>) family of
 compression formats including zip, tar, tar.gz, or tgz.
 
@@ -405,7 +517,7 @@ If you have published a paper that goes with your data, be sure to cite
 the DOI in the paper. Provide a link to the paper's DOI in the metadata
 under "relatedIdentifier".
 
-If your data includ specific instructions for citing or reuse, to
+If your data include specific instructions for citing or reuse, to
 provide those in the ReadMe file and (if brief) in the
 \"reuse_or_citation_conditions\" metadata field.
 
@@ -417,7 +529,7 @@ publication, in priority order. To supply multiple creators, repeat this
 property. A creator may be a corporate/institutional or personal name; it
 does not need to be the person who is submitting the identifier request.
 
-A Contributors is the institution or person(s) responsible for collecting, managing,
+A Contributor is the institution or person(s) responsible for collecting, managing,
 distributing, or otherwise contributing to the development of the
 resource. To supply multiple contributors, repeat this property. For
 software, if there is an alternate entity that "holds, archives,
@@ -441,14 +553,6 @@ license (e.g., your dataset is aggregated from previously published data
 that already has another license), please contact us at
 <doi@cyverse.org>.
 
-### Can I make changes to the metadata record?
-
-Once the data is public it will not change, and thus metadata should be
-stable as well. However, it is possible that you may need to do minor
-edits or enhance the metadata. Version changes of the metadata will be
-recorded. To request changes to metadata data, contact us at
-<doi@cyverse.org>.
-
 ### What metadata standards does CyVerse support for data publication?
 
 All data will follow
@@ -462,11 +566,6 @@ easily identifiable for other users. Consider taking advantage of the
 DE's bulk metadata application feature for adding file level metadata,
 especially for large datasets.
 
-### How can I organize and package my dataset for publication in the CyVerse Curated Data site?
-
-See the guidelines for [organizing
-data](https://cyverse-doi-request-quickstart.readthedocs-hosted.com/en/latest/organize.html)
-for more details on how to prepare your data for publication.
 
 ### What if I want to change or add metadata to my public data?
 
@@ -482,96 +581,9 @@ Email the [CyVerse DOI
 team](mailto::doi@cyverse.org).
 
 
-## Data Commons Naming Conventions 
+---------------------------------------------------------------------------------------------------------------------
 
-CyVerse Curated Data datasets are searchable and discoverable based on their metadata.
-While the dataset itself can have any name chosen by the creator (within
-reason), the folder that contains the dataset must follow the naming
-practices described on this page.
-
-**General guidelines**
-
-    - Folder names must be unique. In the case of a conflict with an existing dataset, you can modify the subject slightly. 
-    
-    - No invalid characters: Be sure there are **no spaces or special characters in the folder name**; for more information, 
-    see [Using Special Characters in the DE](https://wiki.cyverse.org/wiki/display/DEmanual/Using+Special+Characters+in+the+DE.) 
-
-    - Use underscores between each segment.
-
-------------------------------------------------------------------------
-
-### Format
-
-**\$Creator\_\$subject\_\$date**
-
-**\$Creator:**
-
--   The Creator entry should be the same as entered in the Creator field
-    of the DOI request - DataCite Metadata request form.
--   The Creator is the lead author, the senior author, or the
-organization with the primary responsibility for the dataset. Start the
-field (the creator's name) with a capital letter.
-
-**Co-creators:**
-
--   If there are two co-creators, use both names, separated by an
-    underscore or using camel case.
--   For three or more co-creators, select only one name or use a
-    consortium name. Other contributors should be acknowledged in the
-    metadata (as creators or contributors), which will display on the
-    dataset landing page.
-
-**\$subject:**
-
--   Very briefly describes what the dataset is about.
--   If the subject is more than one word, use either camel case
-    (example: camelCase) or underscores (example:
-    underscore_between_words) to separate the words.
--   If another folder has the exact same name, you may modify the
-    subject slightly to maintain uniqueness.
-
-**\$date:**
-
--   Either just the year, or the month and year, in which the dataset
-    was created.
--   Month and year should be used only if there is likely to be more
-    than one dataset with the same creator and subject within the same
-    year.
--   Month must be a three-letter abbreviation: Jan, Feb, Mar, Apr, May,
-    Jun, Jul, Aug, Sep, Nov, Dec
-
-------------------------------------------------------------------------
-
-### Examples
-
-#### Valid Names
-
--   Walls_yam_variation_2015
--   DeBarry_yamGenomicVariation_2016
--   Esteva_yam_variation_Mar2016
--   Esteva_Walls_yam_genomic_variation_Jun2016
--   YamConsortium_Dioscorea_variation_Nov2017
-
-#### Invalid Names
-
--   WallsYamVariation_2016 (Missing underscore between the creator and
-    the subject)
--   Esteva_yam_variation_June2016 (Month should be three letters: Jun)
--   YamConsortium_Nov2017 (No subject)
--   Walls_yam_variation_2016#1 (Contains a special character)
--   Walls YamVariation 2020 (Contains spaces)
-
-#### Not recommended
-
-Although the following will pass validation, they are not recommended
-because the subject is too vague or too detailed:
-
--   Walls_variation_2016 (Subject too vague)
--   Esteva_yam_Mar2016 (Subject too vague)
--   DeBarry_yam_genetic_and_environmental_variation_with_phenotype_data_version3_Dioscorea_2016
-    (Too detailed)
-    
-## Is the CyVerse Curated Data Repository right for my data?
+## Is the CyVerse Curated Data Repository right for my data?<a name="rightformydata"></a>
 
 **Before requesting a permanent identifier in CyVerse Curated Data
 through the Data Commons**, answer the following series of questions.
@@ -638,3 +650,8 @@ and/or stable, you may request data hosting in the Data Commons.
 !!! tip
 
 	If your data was generated by or was input for an analysis algorithm or software that you developed yourself, please consider making the method available through CyVerse infrastructure (e.g., the Discovery Environment or Atmosphere) as well.
+
+
+
+
+
