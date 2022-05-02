@@ -317,7 +317,7 @@ Metadata, the description about your data, is key to getting your dataset notice
 
 ## DOI Frequently Asked Questions<a name="doi-frequently-asked-questions"></a>
 
-### Why should I publish my data in CyVerse Curated Data?
+**Why should I publish my data in CyVerse Curated Data?**
 
 CyVerse Curated Data is the ideal platform for ease of data reuse.
 Because it is assigned a permanent identifier (DOI), it is stable
@@ -330,7 +330,7 @@ computational analysis resources, users can seamlessly analyze, manage,
 and publish new results. For more information, see [Is CyVerse Curated
 Data Right for My Data?](#rightformydata).
 
-### What are the conditions for data to be published through CyVerse Curated Data?
+**What are the conditions for data to be published through CyVerse Curated Data?**
 
 Several conditions must exist in your data before it can be published in
 CyVerse Curated Data:
@@ -357,13 +357,13 @@ CyVerse Curated Data:
     someone need to reuse this data?"
 
 
-### Can I publish to the Data Commons if my data is not static and curated by CyVerse?
+**Can I publish to the Data Commons if my data is not static and curated by CyVerse?**
 
 Yes, you can make data available to the public via Community Released
 Data. You can request a community release data folder using [this form](https://user.cyverse.org/administrative/forms/7).
 
 
-### What is a DOI? 
+**What is a DOI?**
 
 A DOI is a [Digital Object Identifier](https://www.doi.org/index.html). It is a permanent, redirectable
 identifier and URL for your dataset, so that even if the location of
@@ -371,7 +371,7 @@ your dataset changes, it can still be found with the same ID. DOIs are
 issued by CyVerse through the [DataCite](https://datacite.org/){.title-ref}\_ service.
 
 
-### Do I need to contact CyVerse before requesting a DOI?
+**Do I need to contact CyVerse before requesting a DOI?**
 
 The process of requesting a
 DOI is automated through the DE, but some tasks must be handled
@@ -384,7 +384,7 @@ Also contact us if you have questions about how to organize your data or
 what scientific metadata to include.
 
 
-### How much does a CyVerse permanent identifier cost?
+**How much does a CyVerse permanent identifier cost?**
 
 At this time,
 CyVerse does not charge for DOIs. However, the dataset must meet the
@@ -393,8 +393,8 @@ Data?](#rightformydata).
 In the future, there may be a charge for issuing permanent identifiers
 in the CyVerse Data Commons.
 
-### How long will it take to obtain a permanent identifier and publish my
-data?
+**How long will it take to obtain a permanent identifier and publish my
+data?**
 
 Provided that your dataset is in good order and ready to be published,
 the process may take up to one week, as it may involve a dialogue with
@@ -405,13 +405,13 @@ before you need the identifier (e.g., for a manuscript submission) or
 more for very large of complex datasets.
 
 
-### Can I publish different versions of my data?
+**Can I publish different versions of my data?**
 
 Yes. Each new version must be documented, and will be assigned a new
 permanent identifier that references the original dataset. For new
 versions, contact us at <doi@cyverse.org>.
 
-### How small or big should my data be to be published?
+**How small or big should my data be to be published?**
 
 The size of the dataset is
 less important than its utility to the scientific community. Although
@@ -421,7 +421,7 @@ interested in depositing a larger dataset, please request an increased
 data allocation before requesting a permanent identifier.
 
 
-### Determine what to include
+**Determine what to include**
 
 A data collection may be composed of multiple files and different
 datasets. In preparing your data for publication identify the data and
@@ -439,7 +439,7 @@ your research:
     Links to analysis tools can also be included as metadata (see Step
     2).
 
-### Determine how many permanent identifiers to request
+**Determine how many permanent identifiers to request**
 
 To determine how many DOIs to request for a given data collection,
 consider the following:
@@ -455,7 +455,7 @@ consider the following:
 -   If you are uncertain about how many DOIs to request, contact us at
     <doi@cyverse.org>.
 
-### What is the policy for submitting compressed data to CyVerse Curated Data?
+**What is the policy for submitting compressed data to CyVerse Curated Data?**
 
 Certain file types are regularly transferred, stored, and used in
 applications in a compressed form, such as FASTQ for genomic data and
@@ -464,7 +464,7 @@ following open compressed formats: LASzip (<https://www.laszip.org/>) and
 the open source Gzip (<http://en.wikipedia.org/wiki/Gzip>) family of
 compression formats including zip, tar, tar.gz, or tgz.
 
-### Can I publish data in CyVerse if I am not a CyVerse user?
+**Can I publish data in CyVerse if I am not a CyVerse user?**
 
 You must have a CyVerse
 account to publish your data in the Data Commons repositories (Community
@@ -475,7 +475,7 @@ the DE's metadata features before, start with [Using Metadata in the
 DE](https://wiki.cyverse.org/wiki/display/DEmanual/Using+Metadata+in+the+DE)
 and read the section on metadata templates.
 
-### How secure is the data in the Curated Data site?
+**How secure is the data in the Curated Data site?**
 
 Data in our platform is
 stored in large-scale storage resources that are monitored 24/7. Data is
@@ -483,14 +483,14 @@ authenticated through checksum analysis at ingest, and is locally and
 geographically replicated so that if any one system fails there will
 always be a safe copy of your data.
 
-### What is CyVerse Data Commons' long-term commitment to hosting public data? 
+**What is CyVerse Data Commons' long-term commitment to hosting public data?**
 
 If and when the Data
 Commons cannot host your data in CyVerse Curated Data, it will transfer
 custody of the data to another repository and will change the target URL
 to which the identifier points.
 
-### What if in the future I want to move my data to another repository?
+**What if in the future I want to move my data to another repository?**
 
 If you want to move your
 data to another repository, please send a ticket with the new DOI and
@@ -499,7 +499,7 @@ the dataset in the CyVerse Curated Data site for ease of reuse within
 the computational environment. CyVerse will update the metadata to reflect
 the relationship between the two identical datasets.
 
-### How can I make it easier for people to give me (and my co-creators) credit for using my dataset?
+**How can I make it easier for people to give me (and my co-creators) credit for using my dataset?**
 
 Encourage others to cite your data using the DOI. Each dataset landing
 page includes a citation that can be copied or downloaded in standard
@@ -521,7 +521,7 @@ If your data include specific instructions for citing or reuse, to
 provide those in the ReadMe file and (if brief) in the
 \"reuse_or_citation_conditions\" metadata field.
 
-### Whom do I choose for the creator versus contributor?
+**Whom do I choose for the creator versus contributor?**
 
 Creators are the main
 researchers involved in producing the data, or the authors of the
@@ -540,7 +540,7 @@ repository.
 You must include the role of all contributors. Choose from the dropdown
 list in the DOI request template.
 
-### Which license can I use to publish my data?
+**Which license can I use to publish my data?**
 
 You can choose one of two open source licenses, depending on the
 materials you will be publishing:
@@ -553,7 +553,7 @@ license (e.g., your dataset is aggregated from previously published data
 that already has another license), please contact us at
 <doi@cyverse.org>.
 
-### What metadata standards does CyVerse support for data publication?
+**What metadata standards does CyVerse support for data publication?**
 
 All data will follow
 the DataCite metadata schema (currently using version 4.1). However,
@@ -567,7 +567,7 @@ DE's bulk metadata application feature for adding file level metadata,
 especially for large datasets.
 
 
-### What if I want to change or add metadata to my public data?
+**What if I want to change or add metadata to my public data?**
 
 If you need to make changes
 to the metadata of a dataset with a DOI, contact us at
@@ -575,7 +575,7 @@ to the metadata of a dataset with a DOI, contact us at
 published after the DOI is created, please contact us with the paper\'s
 DOI so we can link it in the metadata.
 
-### Where can I go for help on permanent identifiers?
+**Where can I go for help on permanent identifiers?**
 
 Email the [CyVerse DOI
 team](mailto::doi@cyverse.org).
@@ -588,7 +588,7 @@ team](mailto::doi@cyverse.org).
 **Before requesting a permanent identifier in CyVerse Curated Data
 through the Data Commons**, answer the following series of questions.
 
-### Question 1. Do you have a CyVerse account? 
+**Question 1. Do you have a CyVerse account?**
 
 -   Are you a registered CyVerse user? If not, register at [CyVerse User Portal](https://user.cyverse.org/).
 -   If so, have you used the Discovery Environment (DE)?
@@ -597,7 +597,7 @@ through the Data Commons**, answer the following series of questions.
     should be able to upload and organize your data using the DE or command-line tools,
     and be able to apply a template.
 
-### Question 2. Is your data ready for publication?
+**Question 2. Is your data ready for publication?**
 
 -   Is the dataset complete, stable, and ready for public consumption?
 
@@ -624,7 +624,7 @@ meets these requirements.
 If you would like to make your data public, but it is not complete
 and/or stable, you may request data hosting in the Data Commons.
 
-### Question 3. Is your data suitable for reuse in scientific analyses?
+**Question 3. Is your data suitable for reuse in scientific analyses?**
 
 -   Is your data of the type and format that allow it to be reused in
     other analyses?
@@ -633,14 +633,14 @@ and/or stable, you may request data hosting in the Data Commons.
     a Readme file) such that someone in your field can understand how to
     reuse the data?
 
-### Question 4. Is there a canonical repository for your data?
+**Question 4. Is there a canonical repository for your data?**
 
 -   Does a canonical repository exist for your data? Examples include
     NCBI, EBI, and MG-RAST.
 -   If a canonical repository exists, you should use it. CyVerse is
     there to help fill a gap, not replace an existing resource.
 
-### If you answered No
+**If you answered No**
 
 -   If you answered No to **any** of the questions above, your data may be
     suitable for a DOI, but not through Data Commons Curated Data. You
