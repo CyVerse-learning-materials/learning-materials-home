@@ -1,12 +1,12 @@
-# Checking Data Storage
+# Checking Your Data Storage
 
 You can see how much data you are storing in the Data Store from the Resrouce Usage area of the Discovery Environment Home screen. But what if you want to delete some large folders, or check duplicate files? The DataHog app can help you understand more about the size of the folders and files you have in the Data Store
 
 ## Checking Folder Size using DataHog
 
-1.  Log into the [Discovery Environment](https://de.cyverse.org/de/).
+1. Log into the [Discovery Environment](https://de.cyverse.org/de/).
 2. Click on the ![App_Icon](../assets/de/menu_items/appsIcon.png){ width="25" }  (Apps Icon) to view or browse Apps.
-3. Click on the "Instant Luanches" button in the top right. Then, click on the name "DataHog" in the list to launch the app. If you do not see the app open in a new tab, make sure you allow pop-ups for this site.
+3. Click on the "Instant Launches" button in the top right. Then, click on the name "DataHog" in the list to launch the app. If you do not see the app open in a new tab, make sure you allow pop-ups for this site.
 
 !!! Note
 
