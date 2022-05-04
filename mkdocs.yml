@@ -32,6 +32,7 @@ nav:
     - 'Adding Metadata': ds/metadata.md
     - 'Sharing Data': ds/share.md
     - 'Getting a DOI': ds/doi.md
+    - 'Checking Data Storage': ds/check_data.md
   - 'Run Analyses':
     - de/index.md
     - 'Logging In': de/login.md
