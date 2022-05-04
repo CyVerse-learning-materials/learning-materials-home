@@ -17,7 +17,7 @@ You can see how much data you are storing in the Data Store from the Resrouce Us
 5\. Once the import is complete, you will see a Summary of your data including a breakdown by file type, lists of files and folders by size, and lists of files and folders by date. There are other tabs to identify Duplicated Files as well as to import other storage sources so that you get a global view of your data.
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=GQ5oMI5G9-I" target="_blank">
- <img src="http://img.youtube.com/vi/GQ5oMI5G9-I/mqdefault.jpg" alt="Watch the video" width="250" border="0" />
+ <img src="http://img.youtube.com/vi/GQ5oMI5G9-I/mqdefault.jpg" alt="Watch the video" width="150" border="0" />
 </a>
 
 [Click here](https://www.youtube.com/watch?v=GQ5oMI5G9-I) to watch a 1-minute video on how to use DataHog.
