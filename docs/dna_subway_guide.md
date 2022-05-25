@@ -1245,6 +1245,7 @@ different conditions summarized in the metadata.
     classroom-friendly workflow. While this Subway Line does not have
     all possible features of QIIME 2, we purpose to cover important
     concepts behind microbiome and eDNA analysis.
+-   You may work with up to 96 samples (e.g. 192 paired files or 96 single read files) in a Purple line project. 
 
 ------------------------------------------------------------------------
 
@@ -1415,7 +1416,7 @@ created.)
 **A. Select files using Manage Data**
 
 1.  Click on the 'Manage data stop: this opens a window where you can
-    add your FASTQ and metadata files. Click
+    add your FASTQ (up to 192 paired files or 96 single read files) and metadata files. Click
     `+Add from CyVerse`{.interpreted-text role="guilabel"} to add the
     FASTQ files uploaded to the CyVerse Data Store. Select your files
     and then click `Add selected files`{.interpreted-text
@@ -1699,7 +1700,7 @@ searches may not return significant results.
 
 At this step, you can visualize summaries of the data. A feature table
 will generate summary statistics, including how many sequences are
-associated with each sample.
+associated with each sample. **Note that sample depth is limited to 100,000.**
 
 1.  Click on 'Alpha rarefaction'. Select "run" and designate the
     minimum and maximum rarefaction depth. A minimum value should be
