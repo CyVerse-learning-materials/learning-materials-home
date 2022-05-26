@@ -1230,7 +1230,7 @@ different conditions summarized in the metadata.
 **Some things to remember about the platform**
 
 -   You must be a registered CyVerse user to use Purple Line (register
-    for a CyVerse account at user.cyverse.org).
+    for a CyVerse account at [user.cyverse.org](https://user.cyverse.org/)).
 -   The Purple line was designed to make microbiome/eDNA data analysis
     "simple". However, we ask that users very carefully and
     thoughtfully decide what "jobs" they want to submit.
@@ -1421,7 +1421,7 @@ created.)
     FASTQ files uploaded to the CyVerse Data Store. Select your files
     and then click `Add selected files`{.interpreted-text
     role="guilabel"} or `Add all FASTQ files in this directory`{.interpreted-text
-    role="guilabel"} as appropriate.
+    role="guilabel"} as appropriate. **Note**: Only `.fastq.gz` files are accepted. 
 
     !!! Warning "Sample Data"
             *"ubiome-test-data"* dataset: Navigate to: Shared Data > SEPA_microbiome_2016 > **ubiome-test-data** and click `Add all FASTQ files in this directory`{.interpreted-text role="guilabel"}
