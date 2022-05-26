@@ -1376,7 +1376,7 @@ See [DNA Subway Purple Line - Metadata and QC]() section C.
 **A. Create a project in Subway**
 
 1.  Log-in to DNA Subway (unregistered users may NOT use Purple Line,
-    register for a CyVerse account at <user.cyverse.org>).
+    register for a CyVerse account at [user.cyverse.org](https://user.cyverse.org/).
 2.  Click the purple square ("Microbiome Analysis") to begin a
     project.
 3.  For 'Select Project Type' select either **Single End Reads** or
