@@ -1397,11 +1397,10 @@ See [DNA Subway Purple Line - Metadata and QC]() section C.
 **B. Upload read data to CyVerse Data Store**
 
 The sequence read files used in these experiments are too large to
-upload using the Subway interface. You must upload your files (either
-.fastq or .fastq.gz) directly to the CyVerse Data Store:
+upload using the Subway interface. You must upload your files (**Note**: Only `.fastq.gz` files are accepted) directly to the CyVerse Data Store:
 
 1.  Upload your
-    -   FASTQ sequence reads;
+    -   FASTQ sequence reads; **Note**: Only `.fastq.gz` files are accepted. 
     -   Sample metadata file (.tsv or .txt formatted according to [QIIME 2 Metadata documentation](https://docs.qiime2.org/2019.10/tutorials/metadata/)) to
         the CyVerse Data Store using Cyberduck. See instructions: [CyVerse Data Store Guide](https://cyverse-learning-materials.github.io/learning-materials-home/ds/intro/).
 
