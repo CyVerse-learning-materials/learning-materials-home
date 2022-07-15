@@ -2,7 +2,7 @@
 
 [data]: ../assets/ds/datastore_plchldr.png
 
-[![][data]{width=200}](https://cyverse.org/data-store){target=_blank}
+[![][data]{width=100}](https://cyverse.org/data-store){target=_blank}
 
 The CyVerse Data Store is a platform for storing, managing, and sharing your data across the full data lifecycle. The Data Store crosscuts, and is accessible from, all CyVerse platforms. Data Store features are designed to help you follow a number of practices to ensure that the integrity and value of your data are maintained and to make your data more FAIR (Findable, Accessible, Interoperable, and Reusable) with less effort. 
 
