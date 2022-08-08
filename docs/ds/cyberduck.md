@@ -66,7 +66,7 @@ contents of your home directory.
         Cyberduck needs to be used with care. When the Open Multiple Connections option is set, 
         Cyberduck will sometimes open tens of or even a hundred connections. 
         To prevent this from happening (and avoid being a noisy neighbor!), 
-        a maximum number of connections can be set using the inner pull-down menu at 
+        set a maximum number of five (5) connections using the inner pull-down menu at 
         the bottom right of the Transfers window.
         
 1.  Double-click on the Data Store bookmark to connect to the Data
