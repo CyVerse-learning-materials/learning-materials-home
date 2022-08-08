@@ -61,6 +61,14 @@ contents of your home directory.
 
 ## Download from Data Store to local computer using Cyberduck
 
+!!! Warning
+
+        Cyberduck needs to be used with care. When the Open Multiple Connections option is set, 
+        Cyberduck will sometimes open tens of or even a hundred connections. 
+        To prevent this from happening (and avoid being a noisy neighbor!), 
+        a maximum number of connections can be set using the inner pull-down menu at 
+        the bottom right of the Transfers window.
+        
 1.  Double-click on the Data Store bookmark to connect to the Data
     Store.
 2.  Select file(s)/folder(s) in the Data Store (Cyberduck window) and
