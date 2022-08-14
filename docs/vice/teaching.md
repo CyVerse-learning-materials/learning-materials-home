@@ -39,7 +39,7 @@ The CyVerse Learning Center provides templates for creating documentation for yo
 
 In order to view the [User Portal Workshops](https://user.cyverse.org){target=_blank} page the students must first create their own CyVerse account.
 
-[Set Up an Account](account.md){target=_blank}
+[Set Up an Account](../account.md){target=_blank}
 
 !!! Tip "Students MUST use their institutional email addresses"
 
