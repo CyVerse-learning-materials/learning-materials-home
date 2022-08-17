@@ -63,15 +63,15 @@ This will take you to a command line shell.
 Change directory, or download a sample `environment.yml` file:
 
 ```bash 
-$ cd /home/jovyan/work/home/shared/cyverse_training/platform_guide/discovery_environment/jupyter/
-$ conda create env -f environment.yml
+$ cd /home/shared/cyverse_training/platform_guides/discovery_environment/jupyterlab/
+$ conda env create -f environment.yml
 ```
 
 or
 
 ```bash
-$ curl https://data.cyverse.org/dav-anon/iplant/commons/community_released/cyverse_training/platform_guides/discovery_environment/jupyterlab/environment.yml
-$ conda create env -f environment.yml
+$ wget https://data.cyverse.org/dav-anon/iplant/commons/community_released/cyverse_training/platform_guides/discovery_environment/jupyterlab/environment.yml
+$ conda env create -f environment.yml
 ```
 
 and then:
