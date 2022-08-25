@@ -8,7 +8,7 @@ To see how our FOSS workshop can support your work, check out the workshop curri
 
 | Name | Dates | Description |
 |------|-------|-------------|
-| [Fall FOSS 2022 | (https://cyverse-learning-materials.github.io/foss/schedule/){target=_blank} | Sept 15 - Nov 18, 2022 | Fourth virtual workshop series |
+| [Fall FOSS 2022](https://cyverse-learning-materials.github.io/foss/schedule/){target=_blank} | Sept 15 - Nov 18, 2022 | Fourth virtual workshop series |
 | [Fall FOSS 2021](https://cyverse-foss.readthedocs-hosted.com/en/latest/){target=_blank} | Sept 7 - Nov 18, 2021 | Third virtual workshop series |
 | [Spring FOSS 2021](https://cyverse-foss.readthedocs-hosted.com/en/foss-2021-spring/){target=_blank} | Feb 9 - Apr 21, 2021 | Second virtual workshop series |
 | [Summer FOSS 2020](https://cyverse-foss-2020.readthedocs-hosted.com/en/latest/){target=_blank} | July 28 - Nov 3, 2020 | First virtual workshop series |
