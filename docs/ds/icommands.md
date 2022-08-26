@@ -50,49 +50,15 @@ sudo apt install irods-icommands
 
 **Ubuntu 20.04:**
 
-iRODS doesn't currently support Ubuntu 20.04 (yet). However, the version for Ubuntu 18.04 works as long as a few extra packages are installed.
-
-Here are the commands to configure the iRODS repository:
+Configure the repository and use `apt` to install the iCommands package `irods-icommands`.
 
 ``` bash
 wget -qO - https://packages.irods.org/irods-signing-key.asc \
   | sudo apt-key add -
-echo "deb [arch=amd64] https://packages.irods.org/apt/ bionic main" \
+echo "deb [arch=amd64] https://packages.irods.org/apt/ focal main" \
   | sudo tee /etc/apt/sources.list.d/renci-irods.list
 sudo apt update
-```
-
-Prior to installing the iCommands package, a few 18.04 packages need to be installed that are not available for 20.04. Here are the comands to install these packages:
-
-``` bash
-wget --directory-prefix /tmp/ \
-  http://security.ubuntu.com/ubuntu/pool/main/p/python-urllib3/python-urllib3_1.22-1ubuntu0.18.04.2_all.deb \
-  http://security.ubuntu.com/ubuntu/pool/main/r/requests/python-requests_2.18.4-2ubuntu0.1_all.deb \
-  http://security.ubuntu.com/ubuntu/pool/main/o/openssl1.0/libssl1.0.0_1.0.2n-1ubuntu5.6_amd64.deb
-sudo apt install \
-  /tmp/libssl1.0.0_1.0.2n-1ubuntu5.6_amd64.deb \
-  /tmp/python-urllib3_1.22-1ubuntu0.18.04.2_all.deb \
-  /tmp/python-requests_2.18.4-2ubuntu0.1_all.deb
-```
-
-Now `apt` can be used to install the iCommands package `irods-icommands`.
-
-``` bash
 sudo apt install irods-icommands
-```
-
-If the above does not work, e.g., incomplete support for Ubuntu 20.04, try installing an older version of iCommands, 4.1.10, by doing the following:
-
-``` bash
-sudo apt update
-wget \
-  http://mirrors.kernel.org/ubuntu/pool/main/g/glibc/multiarch-support_2.27-3ubuntu1.4_amd64.deb \
-  http://ftp.se.debian.org/debian/pool/main/o/openssl/libssl1.0.0_1.0.1t-1+deb8u8_amd64.deb \
-  https://files.renci.org/pub/irods/releases/4.1.10/ubuntu14/irods-icommands-4.1.10-ubuntu14-x86_64.deb
-sudo dpkg --install \
-  multiarch-support_2.27-3ubuntu1.4_amd64.deb \
-  libssl1.0.0_1.0.1t-1+deb8u8_amd64.deb \
-  irods-icommands-4.1.10-ubuntu14-x86_64.deb
 ```
 
 **Arm64/Aarch64:**
