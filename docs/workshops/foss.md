@@ -1,6 +1,6 @@
 # Foundational Open Science Skills
 
-**Fall 2022 FOSS workshop will be virtual on Thursdays 11:00AM - 1:00PM US Pacific Time (2:00PM - 4:00PM US Eastern Time) starting September 15th**
+**Fall 2022 FOSS workshop will be virtual on Thursdays 3:30PM - 5:00PM US Arizona Mountain Standard Time (6:30PM - 8:00PM US Eastern Time starting September 15th**
 
 CyVerse's 10-week virtual workshop teaches you the principles, practices, and how-tos for doing collaborative open science using cutting-edge, open source cyberinfrastructure. 
 
