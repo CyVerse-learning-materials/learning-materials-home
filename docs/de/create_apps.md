@@ -48,13 +48,13 @@ build an app using it.
 
 3. You'll see a list of all of the tools in the DE. You can search for the tool you want to see if it has already been integrated. If you can't find it, click on "More Actions" 
 
-![more_actions](../assets/de/more_actions.png){width="30"} 
+![more_actions](../assets/de/more_actions.png){width="100"} 
 
 and select "Add Tool".
 
-![add_tool](../assets/de/add_tool.png){width="50"}
+![add_tool](../assets/de/add_tool.png){width="100"}
 
-4. The template editor will open with the following fields will need to be completed (note: not all fields are required) before the Tool can be run.
+The template editor will open with the following fields will need to be completed (note: not all fields are required) before the Tool can be run.
 
 ![template_editor](../assets/de/template_editor.png){width="600"}
 
