@@ -37,6 +37,41 @@ the DE
 The (containerized) tool must be integrated into the Cyverse DE first.
 Then an app (interface) can be built for that tool.
 
+## Adding a tool
+
+**Note:**
+It is a good idea to check if the tool you want is already
+integrated before you start. The tool may be there already and you can
+build an app using it.
+
+1. If necessary, log into the [![][de]{width=25}](https://de.cyverse.org){target=_blank} [Discovery Environment](https://de.cyverse.org){target=_blank}.
+
+2. Click the [![][apps]{width=20}](https://de.cyverse.org/apps){target=_blank} [Apps](https://de.cyverse.org/apps){target=_blank} and click on the "Manage Tools" wrench icon.
+
+3. You'll see a list of all of the tools in the DE. You can search for the tool you want to see if it has already been integrated. If you can't find it, click on "More Actions" and select "Add Tool".
+
+**Add Tool**
+
+-   `Tool name` is the name of the tool. This will appear in the DE's tool listing dialog. This is mandatory field. 
+-   `description` is a brief description of the tool. This will appear in the DE's tool listing dialog. 
+-   `version` is the version of the tool. This will appear in the DE's tool listing dialog. This is mandatory field.
+-   `Type` is the type of tool. For command line applications, choose "executable".
+
+**Container Image**
+
+-   `Image name` is the name of the image and its public registry. This is mandatory field.
+-   `Tag` is the image tag. If you don't specify the tag, the DE will look for the `latest` tag which is the default tag.
+-   `Docker Hub URL` is the URL of the image on Dockerhub.
+
+-   `Entrypoint` is the Entrypoint for your tool. Entrypoint should be present in the Docker image, and if not, you should specify it here.
+-   `Working Directory` is the working directory of the tool. `WORKDIR` should be present in the Docker image, and if not, you should specify it here. 
+
+**Restrictions**
+
+-   `Max CPU Cores` is the number of cores for your tool, e.g., 16
+-   `Memory Limit` is the memory for your tool, e.g., 64 GB
+-   `Min Disk Space` is the minimum disk space for your tool, e.g., 200 GB
+
 ## Building an App for Your Tool
 
 You can build an app for any tool that:
@@ -44,17 +79,6 @@ You can build an app for any tool that:
 -   is private to you
 -   is shared with you
 -   is public
-
-**Note:**
-It is a good idea to check if the tool you want is already
-integrated before you start. The tool may be there already and you can
-build an app using it.
-
-From the 'Apps' tab click on the 'Manage Tools' button in the upper right.
-In the 'Manage Tools' interface search for 'porechop' in the search bar
-at the top. If you find the tool you want then you can build an app using that tool. For more information about the app (including other apps already using this tool) you can select it (using the checkbox to the left) and then click 'details'.
-
-![manage_tools](../assets/de/manage_tools.png){width="600"}
 
 Step 1: App Info
 
