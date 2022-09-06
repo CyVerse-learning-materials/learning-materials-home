@@ -144,3 +144,9 @@ and select 'Publish'. You will need to supply:
 -   link to CyVerse Wiki documentation page
 -   link to docmentation for the tool (provided by the developers)
 
+
+[de]: ../assets/de/logos/deIcon.svg
+[home]: ../assets/de/menu_items/homeIcon.svg
+[data]: ../assets/de/menu_items/dataIcon.svg
+[apps]: ../assets/de/menu_items/appsIcon.svg
+[analysis]: ../assets/de/menu_items/analysisIcon.svg
