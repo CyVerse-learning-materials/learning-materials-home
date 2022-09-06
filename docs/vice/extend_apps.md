@@ -1,6 +1,6 @@
-# Extending VICE Tools and Apps
+# Interactive Apps
 
-There are several options to extend VICE for your specific use(s):
+There are several options to extend interactive apps for your specific use(s):
 
 | Options | Hypothetical use case | 
 |---------|-----------------------|
