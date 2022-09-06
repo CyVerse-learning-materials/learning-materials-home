@@ -37,6 +37,98 @@ the DE
 The (containerized) tool must be integrated into the Cyverse DE first.
 Then an app (interface) can be built for that tool.
 
+## Adding a new tool
+
+### Add Tool
+
+1. If necessary, log into the [![][de]{width=25}](https://de.cyverse.org){target=_blank} [Discovery Environment](https://de.cyverse.org){target=_blank}.
+
+2. Click the [![][apps]{width=20}](https://de.cyverse.org/apps){target=_blank} [Apps](https://de.cyverse.org/apps){target=_blank} and click on the "Manage Tools" wrench icon.
+
+3. You'll see a list of all of the tools in the DE. Click on "More Actions" and select "Add Tool".
+
+**Add Tool**
+
+-   `Tool name` is the name of the tool. This will appear in the DE's tool listing dialog. This is mandatory field. 
+-   `description` is a brief description of the tool. This will appear in the DE's tool listing dialog. 
+-   `version` is the version of the tool. This will appear in the DE's tool listing dialog. This is mandatory field.
+-   `Type` is the type of tool. For VICE apps, choose "interactive"; for command line applications, choose "executable".
+
+**Container Image**
+
+-   `Image name` is the name of the image and its public registry. This is mandatory field.
+-   `Tag` is the image tag. If you don't specify the tag, the DE will look for the `latest` tag which is the default tag.
+-   `Docker Hub URL` is the URL of the image on Dockerhub.
+
+-   `Entrypoint` is the Entrypoint for your tool. Entrypoint should be present in the Docker image, and if not, you should specify it here.
+-   `Working Directory` is the working directory of the tool and must be filled in with the value you gathered above, e.g., `/home/jovyan/work`.
+-   `UID` is a number and must be filled in with the value you gathered from above. Typically `root` is `0` and default users are `1000`.
+
+**Container Ports**
+
+- `Ports` select the external port address that your graphic interface needs.
+
+**Restrictions**
+
+-   `Max CPU Cores` is the number of cores for your tool, e.g., 16
+-   `Memory Limit` is the memory for your tool, e.g., 64 GB
+-   `Min Disk Space` is the minimum disk space for your tool, e.g., 200 GB
+
+#### Required settings
+
+##### Set the `WORKDIR`
+
+The container needs to have a set working directory, typically this is the home folder, e.g., `/home/jovyan` or `/home/rstudio` .
+
+Set the `WORKDIR` in the Dockerfile; if there is no set `WORKDIR`, you can set it in the Tool Builder.
+
+??? tip "Your Data in Your Container"
+
+    We recommend that you set the working directory of your tool to the `username` home path in a new folder called `work`, e.g., `/home/jovyan/work` or `/home/rstudio/work`.
+
+    This is because the Discovery Environment's interactive apps use a [Kubernetes container storage interface (CSI)](https://github.com/cyverse/irods-csi-driver){target=_blank} driver that connects the CyVerse Data Store to your working directory in the running container. This new mount can clobber any pre-existing files in the the container's `WORKDIR`. 
+
+##### Set the `ENTRYPOINT`
+
+The container must have an `ENTRYPOINT` set in the Dockerfile, otherwise you must set it in the Tool itself. 
+
+1.  All commonly needed dependencies are installed in the container image - you will not have `root` privileges later.
+2.  The default user set.
+3.  Disable any additional authentication (CyVerse provides CAS authentication and authorization).
+4.  URLs will work sanely behind a reverse proxy. If they don't, you may need to add nginx to the container.
+
+##### Set the `PORT`
+
+Interactive Apps rely on open ports to send display information to the browser.
+
+Ensure the listen port for the web UI has a sane default and is set in the Dockerfile, e.g. `PORT 8888` .
+
+You must set the port in the tool to the external port that the container is listening.
+
+??? tip "Understanding ports in Docker containers"
+
+    For interactive containers like RStudio and JupyterLab, a conventional `docker run` execution will have the port set as `-p 8888:8888` where the port number on the left side of the `:` is the external port, and on the right the internal port. For VICE apps you need only be concerned about the external port number.
+
+??? tip "Using a reverse proxy"
+
+    The Discovery Environment has its own authentication system, which requires us to use a reverse proxy for some containers. 
+    
+    Our [RStudio Server](https://github.com/cyverse-vice/rstudio-verse){target=_blank} uses `nginx` to enable reverse proxy and thus we have changed the external port to `80` instead of the Rocker-Project default `8787` port number.
+
+??? tip "Managing ports in your new tool"
+
+    Featured VICE apps have default port options based on the app: JupyterLab apps use port `8888`, RStudio apps use port `80`, and Shiny apps use port `3838`.
+
+    It is strongly recommended you do not set the `bind to host` as `true` for your added ports when creating a new App.
+
+After your tool template has been saved, you can create an App for connecting your tool to the Discovery Environment. You can [copy an existing app](#copy-an-existing-app) and select your tool if you like an existing App's layout. 
+
+Alternatively, you can create a new app from a blank template.
+
+??? tip "Input data"
+
+    For VICE apps, be sure to check the box "Do not pass this argument to the command line" for each option you add (for VICE, this is usually just input files and folders.
+
 ## Building an App for Your Tool
 
 You can build an app for any tool that:
