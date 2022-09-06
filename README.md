@@ -27,3 +27,10 @@ To change to [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) the
 theme:
   name: material
 ```
+
+## Build and test locally
+
+```
+pip install -r requirements_mkdocs.txt
+mkdocs serve
+```

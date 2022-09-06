@@ -61,9 +61,9 @@ nav:
     - 'Teach using CyVerse': vice/teaching.md
     - 'DNA Subway': dna_subway_guide.md
   - 'Develop':
-    - 'Creating apps and tools': de/create_apps.md
-    - 'Extend VICE apps': vice/extend_apps.md
-    - 'Leverage CyVerse Services': powered_by.md
+    - 'Integrate Apps and Tools': de/create_apps.md
+    - 'Interactive Apps': vice/extend_apps.md
+    - 'Powered by CyVerse': powered_by.md
     - 'Developer Manuals': manuals.md
   - 'Science Tutorials':
     - tutorials/index.md
@@ -98,14 +98,25 @@ theme:
   # Default values, taken from mkdocs_theme.yml
   language: en
   palette:
-    - scheme: default
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
       toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
-    - scheme: slate
-      toggle:
-        icon: material/toggle-switch
+        icon: material/brightness-auto
         name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: youtube 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
   font:
     text: Roboto
     code: Regular
@@ -171,3 +182,14 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+
+plugins:
+    - search
+    - mkdocstrings
+    - git-revision-date
+    - mkdocs-jupyter:
+          include_source: True
+          ignore_h1_titles: True
+
+extra_css:
+  - stylesheets/extra.css
