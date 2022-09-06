@@ -14,11 +14,9 @@
 
 ## Types of apps
 
-**CyVerse tool:** Software program that is integrated into the back end
-of the DE for use in DE apps
+**Tool:** A container image hosted on a public container registry (like the Docker Hub, BioContainers, NVIDIA GPU Cloud, etc.) or [CyVerse Harbor registry](https://harbor.cyverse.org){target=_blank}. A "Tool" has a template designer which is internal to the DE for starting the container automatically. 
 
-**CyVerse app:** graphic interface of a tool made available for use in
-the DE
+**App:** a simple graphic interface for running the Tool in the DE with any special commands or input requirements defined in the App template. Apps can have different flavors:
 
  -   **Executable**: user starts an analysis and when the analysis
      finishes they can find the output files in their `/analyses`
@@ -37,7 +35,7 @@ the DE
 The (containerized) tool must be integrated into the Cyverse DE first.
 Then an app (interface) can be built for that tool.
 
-## Adding a tool
+## Adding a Tool
 
 **Note:**
 It is a good idea to check if the tool you want is already
@@ -48,7 +46,17 @@ build an app using it.
 
 2. Click the [![][apps]{width=20}](https://de.cyverse.org/apps){target=_blank} [Apps](https://de.cyverse.org/apps){target=_blank} and click on the "Manage Tools" wrench icon.
 
-3. You'll see a list of all of the tools in the DE. You can search for the tool you want to see if it has already been integrated. If you can't find it, click on "More Actions" and select "Add Tool".
+3. You'll see a list of all of the tools in the DE. You can search for the tool you want to see if it has already been integrated. If you can't find it, click on "More Actions" 
+
+![more_actions](../assets/de/more_actions.png){width="30"} 
+
+and select "Add Tool".
+
+![add_tool](../assets/de/add_tool.png){width="50"}
+
+4. The template editor will open with the following fields will need to be completed (note: not all fields are required) before the Tool can be run.
+
+![template_editor](../assets/de/template_editor.png){width="600"}
 
 **Add Tool**
 
