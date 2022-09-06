@@ -1,5 +1,4 @@
-# Creating Apps in the Discovery Environment (DE)
-
+# Create your own Apps in the Discovery Environment (DE)
 
 ## Why use the DE?
 
@@ -12,11 +11,11 @@
 -   Analysis history and provenance -- "avoid forensic bioinformatics"
 -   Securely and easily manage, share, and publish data
 
-## Types of apps
+## :material-grid: Apps vs :octicons-container-24: Tools
 
-**Tool:** A container image hosted on a public container registry (like the Docker Hub, BioContainers, NVIDIA GPU Cloud, etc.) or [CyVerse Harbor registry](https://harbor.cyverse.org){target=_blank}. A "Tool" has a template designer which is internal to the DE for starting the container automatically. 
+**:octicons-container-24: Tool:** A "tool" is essentially a container image. The image must be hosted on a public container registry (like the Docker Hub, Biocontainers, NVIDIA GPU Cloud, etc.) or the [CyVerse Harbor Registry](https://harbor.cyverse.org){target=_blank}. Each "Tool" uses a template editor which is internal to the DE for defining the `registry/image-name:tag` of the image, its working directory, and runtime environment.
 
-**App:** a simple graphic interface for running the Tool in the DE with any special commands or input requirements defined in the App template. Apps can have different flavors:
+**:material-grid: App:** a simple graphic interface for running the Tool in the DE with any special commands or input requirements defined in the App template. Apps can have different flavors:
 
  -   **Executable**: user starts an analysis and when the analysis
      finishes they can find the output files in their `/analyses`
@@ -37,12 +36,11 @@ Then an app (interface) can be built for that tool.
 
 ## Adding a Tool
 
-**Note:**
-It is a good idea to check if the tool you want is already
-integrated before you start. The tool may be there already and you can
-build an app using it.
+!!! Tip "Check for existing Tools first"
 
-1. If necessary, log into the [![][de]{width=25}](https://de.cyverse.org){target=_blank} [Discovery Environment](https://de.cyverse.org){target=_blank}.
+    It is a good idea to check if the tool you want is already integrated before you start. The tool may be there already and you can build an app using it.
+
+1. Log into the [![][de]{width=25}](https://de.cyverse.org){target=_blank} [Discovery Environment](https://de.cyverse.org){target=_blank}.
 
 2. Click the [![][apps]{width=20}](https://de.cyverse.org/apps){target=_blank} [Apps](https://de.cyverse.org/apps){target=_blank} and click on the "Manage Tools" wrench icon.
 
