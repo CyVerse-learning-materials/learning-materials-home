@@ -31,8 +31,7 @@
      Environments (IDEs) including RStudio, Project Jupyter and RShiny
      and work interactively within them.
 
-The (containerized) tool must be integrated into the Cyverse DE first.
-Then an app (interface) can be built for that tool.
+**The (containerized) tool must be [integrated into the CyVerse DE first](#adding-a-tool). Then an [app (interface) can be built](#building-an-app-for-your-tool) for that tool.**
 
 ## Adding a Tool
 
