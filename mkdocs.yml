@@ -61,7 +61,7 @@ nav:
     - 'Teach using CyVerse': vice/teaching.md
     - 'DNA Subway': dna_subway_guide.md
   - 'Develop':
-    - 'Create DE Apps': de/create_apps.md
+    - 'Creating apps and tools': de/create_apps.md
     - 'Extend VICE apps': vice/extend_apps.md
     - 'Leverage CyVerse Services': powered_by.md
     - 'Developer Manuals': manuals.md
