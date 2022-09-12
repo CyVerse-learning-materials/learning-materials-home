@@ -172,30 +172,30 @@ c.data3/:            Directory containing even more data
 
 #### 2.2 Select More actions > Metadata.
 
-![](../assets/ds/doi_2.1b.png){ width="600" }
+![](../assets/ds/doi_2.2a.png){ width="600" }
 
-![](../assets/ds/doi_2.1b2.png){ width="600" }
+![](../assets/ds/doi_2.2b.png){ width="600" }
 
 
 #### 2.3 Select More actions (again) > View in template.
 
-![](../assets/ds/doi_2.1c.png){ width="600" }
+![](../assets/ds/doi_2.3a.png){ width="600" }
 
-![](../assets/ds/doi_2.1c2.png){ width="600" }
+![](../assets/ds/doi_2.3b.png){ width="600" }
 
 
 
 #### 2.4 Choose the 'DOI Request - DataCite4.1' metadata template.
 
-![](../assets/ds/doi_2.1d.png){ width="600" }
+![](../assets/ds/doi_2.4a.png){ width="600" }
 
-![](../assets/ds/doi_2.1d2.png){ width="600" }
+![](../assets/ds/doi_2.4b.png){ width="600" }
 
 
 
 #### 2.5 Complete the required fields (marked with an asterisk) and as many of the optional fields as possible.
 
-![](../assets/ds/doi_2.1e.png){ width="600" }
+![](../assets/ds/doi_2.5a.png){ width="600" }
 
 
 !!! warning
@@ -204,13 +204,10 @@ c.data3/:            Directory containing even more data
 
 
 
-![](../assets/ds/doi_2.1e2.png){ width="600" }
-
-
 
 #### 2.6 Save the template.
 
-![](../assets/ds/doi_2.1f.png){ width="600" }
+![](../assets/ds/doi_2.6.png){ width="600" }
 
 
 
@@ -238,9 +235,9 @@ Check the following to be sure everything is in order.
 
 **Select More actions \> Request DOI.**
 
-![](../assets/ds/doi_2.1b.png){ width="600" }
+![](../assets/ds/doi_2.2a.png){ width="600" }
 
-![](../assets/ds/doi_3.2b.png){ width="600" }
+![](../assets/ds/doi_3.2a.png){ width="600" }
 
 After verifying you have read the instructions (i.e., this guide),
     click \"I need a DOI\". You will receive a verification email that
