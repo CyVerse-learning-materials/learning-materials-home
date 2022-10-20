@@ -23,7 +23,7 @@ recommended practice.
 
 | Input | Description | Example |
 |---|---|---|
-|FastQ files (e.g. SRR9666131.sra.fastq,SRR9666132.sra.fastq...) | Sequencing data in FastQ format | [SRA FastQ Files](https://datacommons.cyverse.org/browse/iplant/home/shared/cyverse_training/tutorials/pbv3/rna-seq-tutorial/fastq_files|
+|FastQ files (e.g. SRR9666131.sra.fastq,SRR9666132.sra.fastq...) | Sequencing data in FastQ format | [SRA FastQ Files](https://datacommons.cyverse.org/browse/iplant/home/shared/cyverse_training/tutorials/pbv3/rna-seq-tutorial/fastq_files)|
 
 ## *Apply Metadata*
 
@@ -49,7 +49,7 @@ file on your local computer.
 !!! Note
 
         Your first two columns should be similar to the below (with your
-        username replacing username below:
+        username replacing username below):
         ```
         File Run
         /iplant/home/username/rna-seq-tutorial/fastq_files/SRR9666131.sra.fastq
@@ -82,25 +82,25 @@ file on your local computer.
 with any metadata you want to add. For our tutorial this is not
 necessary.
 
-6.  Save this file as **fastq_file_metadata.csv** on your local
+6\.  Save this file as **fastq_file_metadata.csv** on your local
     computer.
 
 7\. In the Discovery Environment **Data** view, navigate to the
 **metadata** folder in your **rna-seq-tutorial** folder. Open the folder
 and then click the **Upload** button, then select **Browse Local**.
 
-8.  Browse your local computer to select the
+8\.  Browse your local computer to select the
     **fastq_file_metadata.csv**; upload the file. You will get a
     notification when upload is completed. You may need to refresh your
     browser to see the uploaded file.
-9.  In the **Data** view, navigate to your **rna-seq-tutorial** folder
+9\.  In the **Data** view, navigate to your **rna-seq-tutorial** folder
     and select (checkbox) the **fastq_files** folder.
-10. Click the **More Actions** button and select **Apply Bulk
+10\. Click the **More Actions** button and select **Apply Bulk
     Metadata**. Browse to and select the **fastq_file_metadata.csv**
     file in the **metadata** folder. Click **Done** to complete this
     action. You will get a notification when the metadata has been
     applied successfully.
-11. To view the metadata, navigate to the **fastq_files** folder and
+11\. To view the metadata, navigate to the **fastq_files** folder and
     select (checkbox) any individual FASTQ file. Click the **More
     Actions** button and select **Metadata**. You will then see the
     applied metadata. You can build custom search queries on any of

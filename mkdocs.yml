@@ -69,16 +69,16 @@ nav:
     - tutorials/index.md
     - 'Plant Bioinformatics Vol 3 RNA-Seq Tutorial':
       - tutorials/pdvol3_rnaseq/index.md
-      - tutorials/pdvol3_rnaseq/step1.md
-      - tutorials/pdvol3_rnaseq/step2.md
-      - tutorials/pdvol3_rnaseq/step3.md
-      - tutorials/pdvol3_rnaseq/step4.md
-      - tutorials/pdvol3_rnaseq/step5.md
-      - tutorials/pdvol3_rnaseq/step6.md
-      - tutorials/pdvol3_rnaseq/step7.md
-      - tutorials/pdvol3_rnaseq/step8.md
-      - tutorials/pdvol3_rnaseq/step9.md
-      - tutorials/pdvol3_rnaseq/step10.md
+      - 'Step 1': tutorials/pdvol3_rnaseq/step1.md
+      - 'Step 2': tutorials/pdvol3_rnaseq/step2.md
+      - 'Step 3': tutorials/pdvol3_rnaseq/step3.md
+      - 'Step 4': tutorials/pdvol3_rnaseq/step4.md
+      - 'Step 5': tutorials/pdvol3_rnaseq/step5.md
+      - 'Step 6': tutorials/pdvol3_rnaseq/step6.md
+      - 'Step 7': tutorials/pdvol3_rnaseq/step7.md
+      - 'Step 8': tutorials/pdvol3_rnaseq/step8.md
+      - 'Step 9': tutorials/pdvol3_rnaseq/step9.md
+      - 'Step 10': tutorials/pdvol3_rnaseq/step10.md
       - tutorials/pdvol3_rnaseq/step11.md
       #- 'Bioinformatics': bioinformatics_tutorials.md
       #- 'Geoinformatics': geoinformatics_tutorials.md

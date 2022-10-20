@@ -23,7 +23,7 @@ metadata file is a CSV file organized as a spreadsheet.
         You will get a notification when upload is completed. You may need
         to refresh your browser to see the uploaded file.
 
-3.  To organize this and other uploads, click the **Folder** button to
+3\.  To organize this and other uploads, click the **Folder** button to
     create a folder (suggested name: **metadata**) inside the
     **rna-seq-tutorial** folder. Select (checkbox) the uploaded file
     (i.e., **SRR_Acc_List.txt**) and click the **More Actions** button;
