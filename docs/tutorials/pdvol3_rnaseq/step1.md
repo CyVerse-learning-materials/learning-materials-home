@@ -40,6 +40,7 @@ results on the Data Store.
 
 !!! Tip
         See more on Data sharing in thr [Data Store Guide](https://learning.cyverse.org/de/manage_data/).
+
 ## *More on the Discovery Environment*
 
 **Layout of the Discovery Environment**
@@ -48,6 +49,8 @@ The Discovery Environment is a web-based graphical user interface that
 allows CyVerse users to manage, share, and annotate data, launch
 analysis jobs using applications, and log the status and history of
 analyses.
+
+![figure_2](../../assets/tutorials/pbvol3_rnaseq_tutorial_figure2.png)
 
 In this expanded view the left sidebar menu:
 

@@ -4,6 +4,7 @@
 
 | Tutorial | Date |	Notes |
 |----------|------|-------|
+|[Plant Bioinformatics Vol 3 RNA-Seq Tutorial](pdvol3_rnaseq/index.md)| Oct 21, 2022| An end-to-end RNA-seq analysis using the Kallisto and Sleuth, emphasizing reproducibility features of the CyVerse platforms |
 | [RNASeq using VICE](https://cyverse.atlassian.net/wiki/spaces/TUT/pages/258736191/RNA-seq+Data+Analysis+in+CyVerse){target=_blank} | Dec 06, 2019	| Perform RNAseq differential expression analysis using Read Mapping and Transcript Assembly (RMTA) and Rstudio-DESEq2 apps |
 | [Assemble a Genome Using SOAPdenovo](https://cyverse.atlassian.net/wiki/spaces/TUT/pages/258736322/Assemble+a+Genome+Using+SOAPdenovo+Workflow+Tutorial){target=_blank}	| Dec 19, 2019 | Commonly used procedure for de novo whole genome assembly of Illumina reads using the DE: Assemble reads, Assess assembly |
 | [Cluster Orthologs and Paralogs and Assemble Custom Gene Sets](https://cyverse.atlassian.net/wiki/spaces/TUT/pages/258736290/Cluster+Orthologs+and+Paralogs+and+Assemble+Custom+Gene+Sets+Workflow+Tutorial){target=_blank} | Dec 11, 2019 | Input entire protein-encoding gene or transcript repertoires from genomes of interest, and cluster homologs (orthologs and paralogs), then query clusters to assemble gene sets based on presence/absence and copy number. |
