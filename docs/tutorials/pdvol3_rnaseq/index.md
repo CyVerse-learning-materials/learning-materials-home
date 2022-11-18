@@ -1,4 +1,4 @@
-# **Plant Bioinformatics Vol 3 RNA-Seq Tutorial**
+# Plant Bioinformatics Vol 3 RNA-Seq Tutorial
 
 ## Goal
 
@@ -46,7 +46,7 @@ following services/software*
 **Discovery Environment App(s):**
 
 | App name | Version | Description | App link | Notes/other links |
-|---|---|---|---|
+|---|---|---|---|---|
 | sra-tools prefetch | SRA tools version 2.8.10, CyVerse App version 0.1 | Utility for downloading data from NCBI Sequence Read Archive |[sra-tools prefetch app](https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=80451d08-2183-4085-8fa0-d29a764dca91&app-id=4f94e974-ff81-11ea-acb0-008cfa5ae621) |[SRA Tools Documentation](https://github.com/ncbi/sra-tools/wiki) |
 | sra-tools vdb-validate | SRA tools version 2.8.10, CyVerse App version 0.1 | Utility for validating downloaded data from NCBI Sequence Read Archive | [sra-tools vdb-validate app](ttps://de.cyverse.org/de/?type=quick-launch&quick-launch-id=0c6dcb40-afab-4bd2-8f91-9715212abe61&app-id=d563c068-0358-11eb-b24f-008cfa5ae621) | [SRA Tools Documentation](https://github.com/ncbi/sra-tools/wiki) |
 | sra-tools fasterq-dump | SRA tools version 2.8.10, CyVerse App version 0.1 | Convert SRA files to FastQ format | [sra-tools fasterq-dump app](https://de.cyverse.org/de/?type=quick-launch&quick-launch-id=fea0aadb-888d-420f-8d9c-989f65beb3c1&app-id=c32b39ea-035c-11eb-8c0c-008cfa5ae621) | [SRA Tools Documentation](https://github.com/ncbi/sra-tools/wiki) |
