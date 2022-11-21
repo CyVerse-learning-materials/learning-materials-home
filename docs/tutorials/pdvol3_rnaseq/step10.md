@@ -64,10 +64,15 @@ in the form of an RMarkdown notebook.
 
 9\. In the RStudio session we must modify our RStudio home directory to
 make it easier to save files. Open the **Terminal** tab. Paste in the
-following command and hit enter:
+following commands and hit enter:
 
 ```
-sudo chown -R rstudio /home/rstudio
+cp -r data/input/* /home/rstudio/
+
+# make sure folder and filenames match your inputs
+sudo chmod -R 777 /home/rstudio/R
+sudo chmod -R 777 /home/rstudio/experimental_design.tsv
+sudo chmod -R 777 /home/rstudio/kallisto_quant_output
 ```
 
 10. In the RStudio Files tab, go to the R folder and click
