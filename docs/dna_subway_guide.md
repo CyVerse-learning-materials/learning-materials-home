@@ -655,7 +655,7 @@ not represented in published databases like GenBank.
     !!! Warning "Sample Data"
             
             *"Mosquito"* dataset: Select **COI**.
-3\. Under 'Select Sequence Source' select a sequence buy uploading
+3\. Under 'Select Sequence Source' select a sequence by uploading
     either a FASTA file or AB1 Sanger sequencing tracefile; pasting in
     a sequence in FASTA format, or selecting and importing a trace
     file from DNALC. If you do not have a file, you may select any of
