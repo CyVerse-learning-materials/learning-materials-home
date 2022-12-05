@@ -11,8 +11,12 @@ This glossary is to help you become more familiar with terms used in the CyVerse
 - **allocation:** portion of a resource assigned to a particular recipient, typical unit is a core or node hour
 - **Anaconda:** open source data science platform. <https://www.anaconda.com/>
 - **application:** also called an 'app', a software designed to help the user to perform specific task
+- **ARM:** Advanced RISC Machines, a family of central processor units  
 - **awesome:** a curated set of lists that provide insight into awesome software projects on GitHub <https://github.com/topics/awesome-list>
 - **AVU:** Attribute-Value-Unit a components for iRODS metadata <https://docs.irods.org/4.1.9/icommands/metadata/>
+- **AWS:** [Amazon Web Services](https://aws.amazon.com/) a commercial cloud
+- **Azure:** [Microsoft's Azure](https://azure.microsoft.com/en-us/) a commercial cloud
+
 
 -----------------------------------------------------------
 
@@ -36,6 +40,7 @@ This glossary is to help you become more familiar with terms used in the CyVerse
 - **Continuous Deployment:** a step further than 'continuous delivery', every change that passes all stages of your production pipeline is released
 - **Continuous Development:** a process for iterative software development and is an umbrella over several other processes including 'continuous integration', 'continuous testing', 'continuous delivery' and 'continuous deployment'
 - **Continuous Testing:** a process of testing and automating software development
+- **CPU:** central processor unit
 - **CRAN:** The Comprehensive R Archive Network <https://cran.r-project.org/>
 - **CyVerse tool:** Software program that is integrated into the back end of the DE for use in DE apps
 - **CyVerse app:** graphic interface of a tool made available for use in the DE
@@ -58,6 +63,9 @@ This glossary is to help you become more familiar with terms used in the CyVerse
 
 ## E
 
+- **elastic:** (disambiguation) the ability of a cloud service provider to swiftly scale the usage of resources such as storage
+- **Elastic Container Registry**
+- **Elastic Container Service** 
 - **environment:** software that includes operating system, database system, specific tools for analysis
 - **entrypoint:** In a Dockerfile, an ENTRYPOINT is an optional definition for the first part of the command to be run
 
@@ -225,6 +233,7 @@ This glossary is to help you become more familiar with terms used in the CyVerse
 ## W
 
 - **waterfall:** software development broken into linear sequential phases, similar to a Gantt chart
+- **W3C:** World Wide Web Consortium
 - **webGL:** JavaScript API for rendering interactive 2D and 3D graphics within any compatible web browser without the use of plug-ins
 - **Windows:** Microsoft's most popular desktop OS
 - **workspace:** (vs. repo)
