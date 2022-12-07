@@ -8,6 +8,7 @@ View the schedule and sign up for the next camp here: [Container Camp Announceme
 
 | Name | Dates | Description |
 |------|-------|-------------|
+| [Container Camp 2022](https://cyverse-learning-materials.github.io/container-camp/) | May 12-19, 2022 | in-person & Virtual |
 | [Container Camp 2021 Advanced](https://cyverse-container-camp.readthedocs-hosted.com/en/latest/) | Aug 2-4, 2021 | Virtual Camp |
 | [Container Camp 2021 Basics](https://cyverse-container-camp.readthedocs-hosted.com/en/latest/) | July 26-28, 2021 | Virtual Camp |
 | [Container Camp 2020](https://cyverse-container-camp-workshop-2020.readthedocs-hosted.com/en/latest/) | Mar 10-13, 2020 | Third camp, in person at UArizona |
