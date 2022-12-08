@@ -151,6 +151,8 @@ You can access public data in the CyVerse Data Store with iCommands using:
 -   Username: anonymous
 -   Password: <leave blank>
 
+------------------------------------------------------------------------
+
 ## Upload Files/Folders from Local Computer to Data Store
 
 !!! Warning
@@ -197,16 +199,14 @@ iget -PT /iplant/home/cyverse_username/target_file /local_destination
 # This command will output the progress as it downloads to your local machine
 ```
 
-!!! Tip "Using optional arguments"
-
-    There are several optional arguments that the upload iCommand `iget` can take:
+There are several optional arguments that the upload iCommand `iget` can take:
 
 ``` bash
 iget -r # for recursive transfer of directories and their contents
 
-iget -P # to display the progress of the upload
+iget -P # to display the progress of the download
 
-iget -f # to force the upload and overwrite
+iget -f # to force the download and overwrite
 
 iget -T # to renew socket connection after 10 mins (this may help connections
         # that are failing due to some connection/firewall settings)
