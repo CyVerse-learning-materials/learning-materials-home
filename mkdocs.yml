@@ -185,13 +185,14 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
+extra_css:
+  - stylesheets/extra.css
+ 
 plugins:
+    - blog
     - search
     - mkdocstrings
     - git-revision-date
     - mkdocs-jupyter:
           include_source: True
           ignore_h1_titles: True
-
-extra_css:
-  - stylesheets/extra.css
