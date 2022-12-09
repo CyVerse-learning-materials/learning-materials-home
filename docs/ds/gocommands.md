@@ -1,16 +1,16 @@
-# Transferring Data with GoCommands and Command Line
+# Transferring Data with :simple-go: GoCommands and Command Line
 
 GoCommands is a command-line tool developed by CyVerse. Unlike iCommands, Gocommands is portable which does not require any installation and runs on any modern OSes, such as MacOS, Linux, and Windows.
 
 This section will cover the basics of GoCommands.
 
-**Things to remember about GoCommands:**
-
-    This is a command line tool, operated in a terminal.
+??? Tip "Things to remember about GoCommands"
+    * :simple-gnometerminal: This is a command line tool, operated in a terminal.
+    * You must have a [CyVerse account](https://user.cyverse.org){target=_blank} or other iRODS Zone account to authenticate
 
 ------------------------------------------------------------------------
 
-## Download GoCommands
+## :material-download: Download :simple-go: GoCommands
 
 Visit [GoCommands Releases](https://github.com/cyverse/gocommands/releases) webpage. Download a package file bundled with `tar.gz` or `zip` for your target system's OS and architecture. 
 
@@ -18,21 +18,21 @@ Uncompress the package file using `tar zxvf <package file>` or `unzip <package f
 
 Here are commands to download and uncompress the package file for a target system's OS and architecture.
 
-**Linux Amd64**
+**:simple-linux: Linux :simple-amd: AMD64**
 
 ``` bash
 curl -L -o gocmd.tar.gz https://github.com/cyverse/gocommands/releases/download/v0.4.0/gocmd-v0.4.0-linux-amd64.tar.gz && \
 tar zxvf gocmd.tar.gz && rm gocmd.tar.gz
 ```
 
-**MacOS Amd64**
+**:simple-macos: MacOS :simple-amd: AMD64**
 
 ``` bash
 curl -L -o gocmd.tar.gz https://github.com/cyverse/gocommands/releases/download/v0.4.0/gocmd-v0.4.0-darwin-amd64.tar.gz && \
 tar zxvf gocmd.tar.gz && rm gocmd.tar.gz
 ```
 
-**Linux Arm64**
+**:simple-linux: Linux :simple-arm: ARM64**
 
 ``` bash
 curl -L -o gocmd.tar.gz https://github.com/cyverse/gocommands/releases/download/v0.4.0/gocmd-v0.4.0-linux-arm64.tar.gz && \
@@ -41,7 +41,7 @@ tar zxvf gocmd.tar.gz && rm gocmd.tar.gz
 
 ------------------------------------------------------------------------
 
-## Run GoCommands using iCommands configuration
+## Run :simple-go: GoCommands using iCommands configuration
 
 GoCommands can read iCommands configuration file `~/.irods/irods_environment.json`. To create iCommands configuration file using GoCommands, type below:
 
@@ -65,7 +65,7 @@ To display current configuration, type below:
 
 ------------------------------------------------------------------------
 
-## Run GoCommands using a YAML configuration file
+## Run :simple-go: GoCommands using a YAML configuration file
 
 GoCommands can read a configuration file in YAML format. Create a YAML file using an editor and type-in following:
 
@@ -83,13 +83,13 @@ Give `-c` or `--config` flag to provide the configuration file.
 ./gocmd -c config.yaml env
 ```
 
-!!! Note
-
-  GoCommands will prompt if there is any missing values in the YAML configuration file. So you can omit `irods_user_password` field if you do not want to have the password in clear text in the configuration file.
+!!! Tip "Missing Values"    
+    GoCommands will prompt if there is any missing values in the YAML configuration file. 
+    You can omit `irods_user_password` field if you do not want to have the password in clear text in the configuration file.
 
 ------------------------------------------------------------------------
 
-## Anonymous Access to the CyVerse Data Store
+## :material-guy-fawkes-mask: Anonymous Access to the CyVerse Data Store
 
 You can access public data in the CyVerse Data Store with GoCommands using:
 
@@ -98,7 +98,7 @@ You can access public data in the CyVerse Data Store with GoCommands using:
 
 ------------------------------------------------------------------------
 
-## Upload Files/Folders from Local Computer to Data Store
+## :material-upload: Upload Files/Folders from Local Computer to Data Store
 
 !!! Warning
 
