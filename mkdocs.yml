@@ -90,11 +90,13 @@ theme:
   name: material
 # setting features for the navigation tab
   features:
+    features:
     - navigation.instant
-      #- navigation.expand
     - navigation.tracking
-      #- navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.indexes
+    - navigation.top
     - toc.integrate
     - toc.follow
   # Default values, taken from mkdocs_theme.yml
@@ -189,7 +191,6 @@ extra_css:
   - stylesheets/extra.css
  
 plugins:
-    - blog
     - search
     - mkdocstrings
     - git-revision-date
