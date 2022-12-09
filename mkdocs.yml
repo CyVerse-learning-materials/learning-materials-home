@@ -28,7 +28,9 @@ nav:
       - 'Data Management with Discovery Environment': de/manage_data.md
       - 'Transferring Data with Cyberduck': ds/cyberduck.md
       - 'Transferring Data with iCommands and Command Line': ds/icommands.md
+      - 'Transferring Data with GoCommands and Command Line': ds/gocommands.md
       - 'HTTP Access with WebDAV': ds/webdav.md
+      - 'Transferring Data with SFTP': ds/sftp.md
     - 'Adding Metadata': ds/metadata.md
     - 'Sharing Data': ds/share.md
     - 'Getting a DOI': ds/doi.md

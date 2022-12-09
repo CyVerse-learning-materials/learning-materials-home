@@ -4,9 +4,9 @@ GoCommands is a command-line tool developed by CyVerse. Unlike iCommands, Gocomm
 
 This section will cover the basics of GoCommands.
 
-**Things to remember about iCommands:**
+**Things to remember about GoCommands:**
 
-    This is a *command line* tool, operated in a terminal.
+    This is a command line tool, operated in a terminal.
 
 ------------------------------------------------------------------------
 
@@ -94,7 +94,7 @@ Give `-c` or `--config` flag to provide the configuration file.
 You can access public data in the CyVerse Data Store with GoCommands using:
 
 -   Username: anonymous
--   Password: <leave blank>
+-   Password: `<leave blank>`
 
 ------------------------------------------------------------------------
 
