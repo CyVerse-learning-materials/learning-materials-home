@@ -30,11 +30,14 @@ Open a terminal and type following command. Specify your CyVerse username in fro
   sftp <username>@data.cyverse.org
   ```
 
-If you haven't configured public-key authentication previously, the command will ask you typing-in CyVerse password.
+If you haven't configured public-key authentication previously, the command will prompt CyVerse password.
 
 There will be two sub-directories in the root directory:
-- `<username>`: Your CyVerse Data Store home dir (read & write)
-- `shared`: Public data dir (read only)
+
+  | directory | description |
+  |-----------|------------------------|
+  | `<username>` | Your CyVerse Data Store home dir (read & write) | 
+  | `shared` | Public data dir (read only) |
 
 **Anonymous public data access**
 
@@ -91,8 +94,11 @@ Download Cyberduck at the [Cyberduck Website](https://cyberduck.io/download/). F
 6. Input your **CyVerse password** in the field `Password`.
 
 You should now be connected to the CyVerse Data Store and viewing the following directories:
-- `<username>`: Your CyVerse Data Store home dir (read & write)
-- `shared`: Public data dir (read only)
+
+  | directory | description |
+  |-----------|------------------------|
+  | `<username>` | Your CyVerse Data Store home dir (read & write) | 
+  | `shared` | Public data dir (read only) |
 
 You can drag and drop files to upload or download files.
 
@@ -108,7 +114,10 @@ You can login with `anonymous` user for public data access only.
 5. Input `anonymous` in the field `Username`.
 
 You should now be connected to the CyVerse Data Store and viewing the following directories:
-- `shared`: Public data dir (read only)
+
+  | directory | description |
+  |-----------|------------------------|
+  | `shared` | Public data dir (read only) |
 
 You can drag and drop files to download files.
 
@@ -135,8 +144,11 @@ Download FileZilla at the [FileZilla Website](https://filezilla-project.org/). F
 5. Click `Quickconnect` icon.
 
 You should now be connected to the CyVerse Data Store and viewing the following directories:
-- `<username>`: Your CyVerse Data Store home dir (read & write)
-- `shared`: Public data dir (read only)
+
+  | directory | description |
+  |-----------|------------------------|
+  | `<username>` | Your CyVerse Data Store home dir (read & write) | 
+  | `shared` | Public data dir (read only) |
 
 You can drag and drop files to upload or download files.
 
@@ -151,7 +163,10 @@ You can login with `anonymous` user for public data access only.
 5. Click `Quickconnect` icon.
 
 You should now be connected to the CyVerse Data Store and viewing the following directories:
-- `shared`: Public data dir (read only)
+
+  | directory | description |
+  |-----------|------------------------|
+  | `shared` | Public data dir (read only) |
 
 You can drag and drop files to download files.
 
@@ -201,17 +216,14 @@ First, login with your CyVerse username and password.
   sftp <username>@data.cyverse.org
   ```
 
-Second, upload the `authorized_keys` file to `.ssh/`.
+Second, upload the `authorized_keys` file to `.ssh/` and quit `sftp`.
 
   ``` bash
   sftp> put authorized_keys <username>/.ssh
-  ```
-
-Third, quit `sftp` and re-login using the public-key.
-
-  ``` bash
   sftp> exit
   ```
+
+Third, re-login using the public-key.
 
   ``` bash
   sftp <username>@data.cyverse.org

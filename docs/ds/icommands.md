@@ -149,7 +149,7 @@ CyVerse Data Store configuration:
 You can access public data in the CyVerse Data Store with iCommands using:
 
 -   Username: anonymous
--   Password: <leave blank>
+-   Password: `<leave blank>`
 
 ------------------------------------------------------------------------
 
