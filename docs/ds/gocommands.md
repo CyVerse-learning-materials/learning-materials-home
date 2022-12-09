@@ -19,7 +19,7 @@ Uncompress the package file using `tar zxvf <package file>` or `unzip <package f
 
 Here are commands to download and uncompress the package file for a target system's OS and architecture.
 
-**:simple-linux: Linux:simple-amd: Amd64**
+**:simple-linux: Linux :simple-amd: Amd64**
 
 ``` bash
 curl -L -o gocmd.tar.gz https://github.com/cyverse/gocommands/releases/download/v0.4.0/gocmd-v0.4.0-linux-amd64.tar.gz && \
@@ -129,7 +129,7 @@ There are several optional arguments that the `put` subcommand can take:
 
 ------------------------------------------------------------------------
 
-## Download Files/Folders from Data Store to Local Computer
+## :material-download: Download Files/Folders from Data Store to Local Computer
 
 1.  Download a file using the `get` subcommand.
 
@@ -150,31 +150,29 @@ There are several optional arguments that the `get` subcommand can take:
 
 ------------------------------------------------------------------------
 
-## Additional Frequently Used Subcommands
+## Additional Sub-Commands
 
 In addition to the commands above, there are several frequently used
 subcommands, most of which follow the Linux paradigm:
 
-**Available subcommands**
-
   | subcommand | description |
   |---------|------------------------|
-  | help | Display help |
-  | env | Display current configuration |
-  | init | Initialize iCommands Configuration | 
-  | cd | Change current working directory | 
-  | pwd | Display current working directory | 
-  | ls | List data-objects or collections in a collection |
-  | cp | Copy iRODS data-objects or collections to a target collection |
-  | mv | Move iRODS data-objects or collections to a target collection |
-  | rm | Remove iRODS data-objects or collections |
-  | rmdir | Remove iRODS collections |
-  | mkdir | Make iRODS collections |
-  | get | Download iRODS data-objects or collections |
-  | put | Upload local files or directories to a target collection |
-  | bput | Upload local files or directories to a target collection by bundling and transferring in parallel (optimzied for many small file upload) |
-  | bun | Extract iRODS data-objects in a bundle file format (*.tar) to a target collection |
-  | sync | Sync local directory with iRODS collection |
-  | passwd | Change user password |
-  | copy-sftp-id | Upload SSH public key to iRODS for SFTP access |
+  | `help` | Display help |
+  | `env` | Display current configuration |
+  | `init` | Initialize iCommands Configuration | 
+  | `cd` | Change current working directory | 
+  | `pwd` | Display current working directory | 
+  | `ls` | List data-objects or collections in a collection |
+  | `cp` | Copy iRODS data-objects or collections to a target collection |
+  | `mv` | Move iRODS data-objects or collections to a target collection |
+  | `rm` | Remove iRODS data-objects or collections |
+  | `rmdir` | Remove iRODS collections |
+  | `mkdir` | Make iRODS collections |
+  | `get` | Download iRODS data-objects or collections |
+  | `put` | Upload local files or directories to a target collection |
+  | `bput` | Upload local files or directories to a target collection by bundling and transferring in parallel (optimzied for many small file upload) |
+  | `bun` | Extract iRODS data-objects in a bundle file format (*.tar) to a target collection |
+  | `sync` | Sync local directory with iRODS collection |
+  | `passwd` | Change user password |
+  | `copy-sftp-id` | Upload SSH public key to iRODS for SFTP access |
 
