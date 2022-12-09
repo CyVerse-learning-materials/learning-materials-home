@@ -14,7 +14,7 @@ Use following information to access the SFTP service:
 
 !!! Note
 
-  You can configure public-key authentication, that allows logging in without password. Please refer public-key authentication section below.
+    You can configure public-key authentication, that allows logging in without password. Please refer public-key authentication section below.
 
 ------------------------------------------------------------------------
 
@@ -208,7 +208,7 @@ The `authorized_keys` file needs to be uploaded to CyVerse Data Store for authen
 
 !!! Note
 
-  The `.ssh` directory should be already created when you first log-in using SFTP. If not, create a new directory. Currently, CyVerse Data Store does not check access permissions of the `.ssh` directory and `authorized_keys` file.
+    The `.ssh` directory should be already created when you first log-in using SFTP. If not, create a new directory. Currently, CyVerse Data Store does not check access permissions of the `.ssh` directory and `authorized_keys` file.
 
 First, login with your CyVerse username and password.
   
@@ -255,5 +255,5 @@ expiry-time="20231231",from="10.11.12.13",home="/iplant/home/<username>/newhome"
 ```
 
 !!! Note
-  The options are only checked during user authentication, therefore, changing them do not affect to users/clients already logged-in.
+    The options are only checked during user authentication, therefore, changing them do not affect to users/clients already logged-in.
   

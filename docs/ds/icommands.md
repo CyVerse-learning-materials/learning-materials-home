@@ -4,7 +4,7 @@ iCommands is a collection of tools developed by the iRODS project. [iRODS](https
 
 This section will cover the basics of iCommands installation and use.
 
-**Things to remember about iCommands:**
+!!! Note
 
     - This is a *command line* tool, operated in a terminal.
     - There is no support for Windows OS and PowerShell so we recommend using 

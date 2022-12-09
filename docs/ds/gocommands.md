@@ -5,6 +5,7 @@ GoCommands is a command-line tool developed by CyVerse. Unlike iCommands, Gocomm
 This section will cover the basics of GoCommands.
 
 ??? Tip "Things to remember about GoCommands"
+
     * :simple-gnometerminal: This is a command line tool, operated in a terminal.
     * You must have a [CyVerse account](https://user.cyverse.org){target=_blank} or other iRODS Zone account to authenticate
 
@@ -18,7 +19,7 @@ Uncompress the package file using `tar zxvf <package file>` or `unzip <package f
 
 Here are commands to download and uncompress the package file for a target system's OS and architecture.
 
-**:simple-linux: Linux :simple-amd: AMD64**
+**:simple-linux: Linux:simple-amd: Amd64**
 
 ``` bash
 curl -L -o gocmd.tar.gz https://github.com/cyverse/gocommands/releases/download/v0.4.0/gocmd-v0.4.0-linux-amd64.tar.gz && \
@@ -83,7 +84,8 @@ Give `-c` or `--config` flag to provide the configuration file.
 ./gocmd -c config.yaml env
 ```
 
-!!! Tip "Missing Values"    
+!!! Tip "Missing Values"
+
     GoCommands will prompt if there is any missing values in the YAML configuration file. 
     You can omit `irods_user_password` field if you do not want to have the password in clear text in the configuration file.
 
