@@ -1,6 +1,6 @@
 # Transferring Data with SFTP via a Command Line Tool and Desktop Apps
 
-SFTP is the standard secure data transfer protocol that has been widely used. CyVerse has added support for SFTP to the Data Store to allow data access from a variety of computing environments. This means users can access their home and public folders in the CyVerse Data Store from their local omputers using any SFTP-enabled applications such as OS built-in command-line tool, Cyberduck, and FileZilla. With SFTP, users can copy file between their local computer and the Data Store easily.
+SFTP is the standard secure data transfer protocol that has been widely used. CyVerse has added support for SFTP to the Data Store to allow data access from a variety of computing environments. This means users can access their home and public folders in the CyVerse Data Store from their local computers using any SFTP-enabled applications such as OS built-in command-line tool, Cyberduck, and FileZilla. With SFTP, users can copy file between their local computer and the Data Store easily.
 
 ------------------------------------------------------------------------
 
@@ -14,7 +14,7 @@ Use following information to access the SFTP service:
 
 !!! Note
 
-    You can configure public-key authentication, that allows logging in without password. Please refer public-key authentication section below.
+    You can configure public-key authentication, that allows logging in without password. Please refer [Public-key Authentication Section](#configuring-public-key-authentication) below.
 
 ------------------------------------------------------------------------
 
