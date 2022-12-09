@@ -19,7 +19,7 @@ Uncompress the package file using `tar zxvf <package file>` or `unzip <package f
 
 Here are commands to download and uncompress the package file for a target system's OS and architecture.
 
-**:simple-linux: Linux :simple-amd: Amd64**
+**:simple-linux: Linux :simple-amd: AMD64**
 
 ``` bash
 curl -L -o gocmd.tar.gz https://github.com/cyverse/gocommands/releases/download/v0.4.0/gocmd-v0.4.0-linux-amd64.tar.gz && \
