@@ -1,6 +1,6 @@
 # Transferring Data with SFTP via a Command Line Tool and Desktop Apps
 
-SFTP is the standard secure data transfer protocol that has been widely used. CyVerse has added support for SFTP to the Data Store to allow data access from a variety of computing environments. This means users can access their home and public folders in the CyVerse Data Store from their local computers using any SFTP-enabled applications such as OS built-in command-line tool, Cyberduck, and FileZilla. With SFTP, users can copy file between their local computer and the Data Store easily.
+SFTP is the standard secure data transfer protocol that has been widely used. CyVerse added SFTP interface to the Data Store using [SFTPGo](https://github.com/drakkan/sftpgo){target=_blank}. SFTP enables data access from a variety of computing environments. This means users can access their home and public folders in the CyVerse Data Store from their local computers using any SFTP-enabled applications such as OS built-in command-line tool, [Cyberduck](https://cyberduck.io/){target=_blank}, and [FileZilla](https://filezilla-project.org/){target=_blank}. With SFTP, users can copy file between their local computer and the Data Store easily.
 
 ------------------------------------------------------------------------
 
@@ -256,4 +256,10 @@ expiry-time="20231231",from="10.11.12.13",home="/iplant/home/<username>/newhome"
 
 !!! Note
     The options are only checked during user authentication, therefore, changing them do not affect to users/clients already logged-in.
-  
+
+------------------------------------------------------------------------
+
+## Acknowledgments
+
+The SFTP support to Data Store is implemented by using [SFTPGo](https://github.com/drakkan/sftpgo){target=_blank}. SFTPGo is an open-source, fully featured, highly configurable SFTP server authored by Nicola Murino. SFTPGo supports several storage backends such as local filesystem, S3 Object Storage, Google Cloud Storage, and Azure Blob Storage. CyVerse was able to add the SFTP support for Data Store by implementing a new backend module for iRODS. Many thanks to the project and the author.
+
