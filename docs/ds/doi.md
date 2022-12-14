@@ -1,5 +1,6 @@
 # Getting a DOI
 
+Under our new subscription model those with 'Basic' (free) CyVerse accounts are no longer allowed DOIs. If you wish to upgrade your account please review pricing and subscription options here: https://cyverse.org/subscribe
 
 ## Background
 
