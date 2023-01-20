@@ -90,7 +90,6 @@ theme:
   name: material
 # setting features for the navigation tab
   features:
-    features:
     - navigation.instant
     - navigation.tracking
     - navigation.tabs
