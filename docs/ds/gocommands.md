@@ -22,21 +22,21 @@ Here are commands to download and uncompress the package file for a target syste
 **:simple-linux: Linux :simple-amd: AMD64**
 
 ``` bash
-curl -L -o gocmd.tar.gz https://github.com/cyverse/gocommands/releases/download/v0.4.3/gocmd-v0.4.3-linux-amd64.tar.gz && \
+curl -L -o gocmd.tar.gz https://github.com/cyverse/gocommands/releases/download/v0.4.5/gocmd-v0.4.5-linux-amd64.tar.gz && \
 tar zxvf gocmd.tar.gz && rm gocmd.tar.gz
 ```
 
 **:simple-macos: MacOS :simple-amd: AMD64**
 
 ``` bash
-curl -L -o gocmd.tar.gz https://github.com/cyverse/gocommands/releases/download/v0.4.3/gocmd-v0.4.3-darwin-amd64.tar.gz && \
+curl -L -o gocmd.tar.gz https://github.com/cyverse/gocommands/releases/download/v0.4.5/gocmd-v0.4.5-darwin-amd64.tar.gz && \
 tar zxvf gocmd.tar.gz && rm gocmd.tar.gz
 ```
 
 **:simple-linux: Linux :simple-arm: ARM64**
 
 ``` bash
-curl -L -o gocmd.tar.gz https://github.com/cyverse/gocommands/releases/download/v0.4.3/gocmd-v0.4.3-linux-arm64.tar.gz && \
+curl -L -o gocmd.tar.gz https://github.com/cyverse/gocommands/releases/download/v0.4.5/gocmd-v0.4.5-linux-arm64.tar.gz && \
 tar zxvf gocmd.tar.gz && rm gocmd.tar.gz
 ```
 
