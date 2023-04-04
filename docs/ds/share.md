@@ -108,7 +108,7 @@ write, or own files/folders.
  
 3.  Next, under 'Permissions' choose `read`
 
-    ![sharing](../assets/de/share_dav.png)
+    ![sharing](../assets/ds/share_dav.png)
 
 4. Go to [https://data.cyverse.org/](https://data.cyverse.org/){target=_blank}
 
@@ -118,4 +118,4 @@ The WebDav has two services `/dav` and `/dav-anon`
 
 * :material-account-lock-open-outline: The [https://data.cyverse.org/dav-anon/](https://data.cyverse.org/dav-anon/){target=_blank}  directories that have been shared with the `anonymous` user. This endpoint does not require authentication or an account with CyVerse to access.
 
-    ![sharing](../assets/de/webdav.png)
+    ![sharing](../assets/ds/webdav.png)
