@@ -27,7 +27,7 @@ Environment Public Link.
 
 1.  If necessary, login to the [Discovery Environment](https://de.cyverse.org/de/).
 
-2.  In the Data window, select (checkbox) one or more individual file(s)
+2.  In the Data window, select (:octicons-checkbox-24: checkbox) one or more individual file(s)
     (not folders) you wish to share.
 
 3.  From the *More actions* menu, select *Public Link(s)*.
@@ -47,7 +47,7 @@ Environment Public Link.
 
 *To deactivate a public link:*
 
-1.  To deactivate a link, select (checkbox) one or more individual file(s)
+1.  To deactivate a link, select (:octicons-checkbox-24: checkbox) one or more individual file(s)
     that have been shared with a public link; then click on the *Details*
     menu.
 2.  In the Details menu under the *Permissions* tab, click the
@@ -63,7 +63,7 @@ write, or own files/folders.
 
 1.  If necessary, login to the [Discovery Environment](https://de.cyverse.org/de/).
 
-2.  In the Data window, select (checkbox) file(s) or folder(s) you wish to
+2.  In the Data window, select (:octicons-checkbox-24: checkbox) file(s) or folder(s) you wish to
     share with another user; then under the *Share* menu, enter the
     CyVerse username, email, or group name you wish to share with.
 
@@ -92,3 +92,28 @@ write, or own files/folders.
         | Write | **X** | **X** | **Add/Edit** |
         | Own | **X** | **X** | **Add/Edit** | **X** | **X** | **X** |
 
+## Sharing a File/Folder with the Public
+
+* You can share your data with the public CyVerse community by adding the `public` user to the shared folder as read only.
+
+* You can share your data with the open internet by adding the `anonymous` user to the shared folder as read only.
+
+!!! Tip "Never share files or folders as 'write' or 'own' permission with the `anonymous` or `public` user"
+
+    Files that are shared publicly should only ever have `read` access.
+    
+1.  If necessary, login to the [Discovery Environment](https://de.cyverse.org/de/).
+
+2.  In the Data window, select (:octicons-checkbox-24: checkbox) file(s) or folder(s) you wish to share with another user; then under the *Share* menu, enter the name `public` or `anonymous`
+ 
+3.  Next, under 'Permissions' choose `read`
+
+    ![sharing](../assets/ds/sharing.png)
+
+4. Go to [https://data.cyverse.org/](https://data.cyverse.org/){target=_blank}
+
+The WebDav has two services `/dav` and `/dav-anon`
+
+* :material-account-lock-outline: [https://data.cyverse.org/dav/](https://data.cyverse.org/dav/){target=_blank} requires you to authenticate with your CyVerse username and password, once you have authenticated, you have access to all your data, and all data that are shared with your username, including all data that have been shared with the `public` user in both individual user accounts and in Community Released Data folders . 
+
+* :material-account-lock-open-outline: The [https://data.cyverse.org/dav-anon/](https://data.cyverse.org/dav-anon/){target=_blank}  directories that have been shared with the `anonymous` user. This endpoint does not require authentication or an account with CyVerse to access.
