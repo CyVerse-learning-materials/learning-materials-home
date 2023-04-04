@@ -98,7 +98,7 @@ write, or own files/folders.
 
 * You can share your data with the open internet by adding the `anonymous` user to the shared folder as read only.
 
-!!! Tip "Never share files or folders as 'write' or 'own' permission with the `anonymous` or `public` user"
+!!! Danger "Never share files or folders as 'write' or 'own' permission with the `anonymous` or `public` user"
 
     Files that are shared publicly should only ever have `read` access.
     
