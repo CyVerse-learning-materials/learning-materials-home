@@ -114,8 +114,11 @@ write, or own files/folders.
 
 The WebDav has two services `/dav` and `/dav-anon`
 
-* :material-account-lock-outline: [https://data.cyverse.org/dav/](https://data.cyverse.org/dav/){target=_blank} requires you to authenticate with your CyVerse username and password, once you have authenticated, you have access to all your data, and all data that are shared with your username, including all data that have been shared with the `public` user in both individual user accounts and in Community Released Data folders . 
+* :material-account-lock-outline: [https://data.cyverse.org/dav/](https://data.cyverse.org/dav/){target=_blank} requires you to authenticate with your CyVerse username and password, once you have authenticated, you have access to all your data, and all data that are shared with your username, including all data that have been shared with the `public` user in both individual user accounts and in Community Released Data folders. 
+
+    ![sharing](../assets/ds/webdav.png)
 
 * :material-account-lock-open-outline: The [https://data.cyverse.org/dav-anon/](https://data.cyverse.org/dav-anon/){target=_blank}  directories that have been shared with the `anonymous` user. This endpoint does not require authentication or an account with CyVerse to access.
 
-    ![sharing](../assets/ds/webdav.png)
+    
+    ![sharing](../assets/ds/webdav_anon.png)
