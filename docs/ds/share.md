@@ -56,10 +56,10 @@ Environment Public Link.
 
 ------------------------------------------------------------------------
 
-## Share a File/Folder in the Discovery Environment with Another CyVerse User
+## Share a File/Folder in the Discovery Environment with Another CyVerse User or Group
 
-You can share data with another CyVerse user by granting them permission to read,
-write, or own files/folders.
+You can share data with another CyVerse user or a group of users by granting the user name or group name permission to `read`,
+`write`, or `own` your files/folders.
 
 1.  If necessary, login to the [Discovery Environment](https://de.cyverse.org/de/).
 
