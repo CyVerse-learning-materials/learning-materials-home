@@ -7,7 +7,8 @@ This section will cover the basics of GoCommands.
 ??? Tip "Things to remember about GoCommands"
 
     * :simple-gnometerminal: This is a command line tool, operated in a terminal.
-    * You must have a [CyVerse account](https://user.cyverse.org){target=_blank} or other iRODS Zone account to authenticate
+    * Windows users must use `PowerShell` or `Command Prompt`.
+    * You must have a [CyVerse account](https://user.cyverse.org){target=_blank} or other iRODS Zone account to authenticate.
 
 ------------------------------------------------------------------------
 
@@ -22,23 +23,43 @@ Here are commands to download and uncompress the package file for a target syste
 **:simple-linux: Linux :simple-amd: AMD64**
 
 ``` bash
-curl -L -o gocmd.tar.gz https://github.com/cyverse/gocommands/releases/download/v0.6.0/gocmd-v0.6.0-linux-amd64.tar.gz && \
-tar zxvf gocmd.tar.gz && rm gocmd.tar.gz
-```
-
-**:simple-macos: MacOS :simple-amd: AMD64**
-
-``` bash
-curl -L -o gocmd.tar.gz https://github.com/cyverse/gocommands/releases/download/v0.6.0/gocmd-v0.6.0-darwin-amd64.tar.gz && \
+curl -L -o gocmd.tar.gz https://github.com/cyverse/gocommands/releases/download/v0.6.5/gocmd-v0.6.5-linux-amd64.tar.gz && \
 tar zxvf gocmd.tar.gz && rm gocmd.tar.gz
 ```
 
 **:simple-linux: Linux :simple-arm: ARM64**
 
 ``` bash
-curl -L -o gocmd.tar.gz https://github.com/cyverse/gocommands/releases/download/v0.6.0/gocmd-v0.6.0-linux-arm64.tar.gz && \
+curl -L -o gocmd.tar.gz https://github.com/cyverse/gocommands/releases/download/v0.6.5/gocmd-v0.6.5-linux-arm64.tar.gz && \
 tar zxvf gocmd.tar.gz && rm gocmd.tar.gz
 ```
+
+**:simple-macos: MacOS :simple-amd: AMD64**
+
+``` bash
+curl -L -o gocmd.tar.gz https://github.com/cyverse/gocommands/releases/download/v0.6.5/gocmd-v0.6.5-darwin-amd64.tar.gz && \
+tar zxvf gocmd.tar.gz && rm gocmd.tar.gz
+```
+
+**:simple-macos: MacOS :simple-arm: ARM64 (M1/M2)**
+
+``` bash
+curl -L -o gocmd.tar.gz https://github.com/cyverse/gocommands/releases/download/v0.6.5/gocmd-v0.6.5-darwin-arm64.tar.gz && \
+tar zxvf gocmd.tar.gz && rm gocmd.tar.gz
+```
+
+**:simple-windows: Windows :simple-amd: AMD64 with :simple-windowsterminal: Command Prompt**
+
+``` bash
+curl -L -o gocmd.zip https://github.com/cyverse/gocommands/releases/download/v0.6.5/gocmd-v0.6.5-windows-amd64.zip && tar zxvf gocmd.zip && del gocmd.zip
+```
+
+**:simple-windows: Windows :simple-amd: AMD64 with :simple-powershell: PowerShell**
+
+``` bash
+curl -o gocmd.zip https://github.com/cyverse/gocommands/releases/download/v0.6.5/gocmd-v0.6.5-windows-amd64.zip ; tar zxvf gocmd.zip ; del gocmd.zip
+```
+
 
 ------------------------------------------------------------------------
 
