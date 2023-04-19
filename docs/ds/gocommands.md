@@ -24,32 +24,28 @@ Here are commands to download and uncompress the package file for a target syste
 
 ``` bash
 GOCMD_VER=$(curl -L -s https://raw.githubusercontent.com/cyverse/gocommands/main/VERSION.txt); \
-curl -L -s -o gocmd.tar.gz "https://github.com/cyverse/gocommands/releases/download/${GOCMD_VER}/gocmd-${GOCMD_VER}-linux-amd64.tar.gz" && \
-tar zxvf gocmd.tar.gz && rm gocmd.tar.gz
+curl -L -s https://github.com/cyverse/gocommands/releases/download/${GOCMD_VER}/gocmd-${GOCMD_VER}-linux-amd64.tar.gz | tar zxvf -
 ```
 
 **:simple-linux: Linux :simple-arm: ARM64**
 
 ``` bash
 GOCMD_VER=$(curl -L -s https://raw.githubusercontent.com/cyverse/gocommands/main/VERSION.txt); \
-curl -L -s -o gocmd.tar.gz https://github.com/cyverse/gocommands/releases/download/$GOCMD_VER/gocmd-$GOCMD_VER-linux-arm64.tar.gz && \
-tar zxvf gocmd.tar.gz && rm gocmd.tar.gz
+curl -L -s https://github.com/cyverse/gocommands/releases/download/${GOCMD_VER}/gocmd-${GOCMD_VER}-linux-arm64.tar.gz | tar zxvf -
 ```
 
 **:simple-macos: MacOS :simple-amd: AMD64**
 
 ``` bash
 GOCMD_VER=$(curl -L -s https://raw.githubusercontent.com/cyverse/gocommands/main/VERSION.txt); \
-curl -L -s -o gocmd.tar.gz https://github.com/cyverse/gocommands/releases/download/$GOCMD_VER/gocmd-$GOCMD_VER-darwin-amd64.tar.gz && \
-tar zxvf gocmd.tar.gz && rm gocmd.tar.gz
+curl -L -s https://github.com/cyverse/gocommands/releases/download/${GOCMD_VER}/gocmd-${GOCMD_VER}-darwin-amd64.tar.gz | tar zxvf -
 ```
 
 **:simple-macos: MacOS :simple-arm: ARM64 (M1/M2)**
 
 ``` bash
 GOCMD_VER=$(curl -L -s https://raw.githubusercontent.com/cyverse/gocommands/main/VERSION.txt); \
-curl -L -s -o gocmd.tar.gz https://github.com/cyverse/gocommands/releases/download/$GOCMD_VER/gocmd-$GOCMD_VER-darwin-arm64.tar.gz && \
-tar zxvf gocmd.tar.gz && rm gocmd.tar.gz
+curl -L -s https://github.com/cyverse/gocommands/releases/download/${GOCMD_VER}/gocmd-${GOCMD_VER}-darwin-arm64.tar.gz | tar zxvf -
 ```
 
 **:simple-windows: Windows :simple-amd: AMD64 with :simple-windowsterminal: Command Prompt**
