@@ -74,37 +74,7 @@ You can then run R commands and install packages.
 
   [rstudio_8]: ../assets/de/rstudio_8.png
 
-## 5. Using `icommands`
-
-Open RStudio's Terminal.
-
-To connect to the CyVerse Data Store, you can initiate an iRODS iCommands `iinit`.
-
-You should now be connected to your `/iplant/home/username` home directory.
-
-### ils
-
-``` ils /iplant/home/username/ ```
-
-To view the 'shared' directory, type:
-
-``` ils /iplant/home/shared ```
-
-### iget 
-
-Download data into your Cloud Shell with [iCommands](https://docs.irods.org/master/icommands/user/) by running `iget`.
-
-``` iget -KPbvrf /iplant/home/shared/cyverse_training/ ```
-
-### iput
-
-After finishing your analyses, you can save the outputs back to your Data Store.
-
-Use `iput` to copy your new files back to your user space, or if you've left your new work in the `/home/user/work/data/outputs` folder, it will be copied back to your `/iplant/home/username/Analyses/` directory.
-
-You can find the outputs you generated (if any) using the same steps as before, but this time select the 'Go To Output Folder'.
-
-## 6. Terminate your app
+## 5. Terminate your app
 
 The Discovery Environment is a shared system. In fairness to the community, users should "Terminate" any apps that
 are no longer actively running analyses.
@@ -116,7 +86,7 @@ In the Analyses window, select the app (by clicking the checkbox next to it), th
   [rstudio_9]: ../assets/de/rstudio_9.png
 
 
-Any new data in the `/home/rstudio/work/data/output` directory will begin copying back to your folder at this time.
+Any new data in the `/home/rstudio/data-store/data/output` directory will begin copying back to your folder at this time.
 
 Any input data which you added when the app started using the conventional launch feature will *not* be copied.
 
