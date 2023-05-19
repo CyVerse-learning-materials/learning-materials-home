@@ -8,15 +8,13 @@ This section will cover the basics of iCommands installation and use.
 
     - Versions 4.2.8 and older work best with the Data Store.
     - This is a *command line* tool, operated in a terminal.
-    - There is no support for Windows OS and PowerShell so we recommend using
-    [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install).
+    - There is no support for Windows OS and PowerShell so we recommend using [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install).
 
 ------------------------------------------------------------------------
 
 ## iCommands Installation for Linux
 
 On a Linux OS you can use a package manager to install iCommands in the terminal. Instructions for configuring the iRODS repositories in Linux can be be found on the [iRODS Packages](https://packages.irods.org/) webpage. You'll need to lock the iRODS packages to version 4.2.8 before installing the iCommands package.
-
 
 **CentOS:**
 
@@ -96,11 +94,11 @@ cd irods-icommands-debs/
 
 iRODS doesn't currently support Mac OS X, but CyVerse has built an installer for it.
 
-1.  Download the CyVerse-specific [Mac OS iCommands Download](https://cyverse.atlassian.net/wiki/download/attachments/241869823/cyverse-icommands-4.1.9.pkg?version=3&modificationDate=1472820029000&cacheVersion=1&api=v2).
+1. Download the CyVerse-specific [Mac OS iCommands Download](https://cyverse.atlassian.net/wiki/download/attachments/241869823/cyverse-icommands-4.1.9.pkg?version=3&modificationDate=1472820029000&cacheVersion=1&api=v2).
 
-2. Open the file by locating it in your Finder; right-click to run the installer. You may get a security warning noting the file is from an "unidentified developer." You may bypass this warning by going to 'System Preferences', selecting the 'Security & Privacy' menu, and clicking the 'Open Anyway' button to proceed.
+1. Open the file by locating it in your Finder; right-click to run the installer. You may get a security warning noting the file is from an "unidentified developer." You may bypass this warning by going to 'System Preferences', selecting the 'Security & Privacy' menu, and clicking the 'Open Anyway' button to proceed.
 
-3. Follow the prompts to begin the installation. You will need to know the administrator password to install new software on your computer.
+1. Follow the prompts to begin the installation. You will need to know the administrator password to install new software on your computer.
 
 !!! Note
 
@@ -126,38 +124,33 @@ iRODS doesn't currently support Mac OS X, but CyVerse has built an installer for
 
 !!! Note
 
-    If using iCommands in an HPC environment, which already has iCommands installed, run the `module load irods` command to get access to iRODS
-    iCommands.
+    If using iCommands in an HPC environment, which already has iCommands installed, run the `module load irods` command to get access to iRODS iCommands.
 
     Once iCommands is installed and in the system `PATH`, these instructions apply at a terminal in Mac OS X and Linux systems.
 
-1.  Open a terminal
-2.  Type `iinit` command to start the configuration
-    process. When prompted, enter the values shown below as comments
-    in the example code block.
-    CyVerse Data Store configuration:
+1. Open a terminal
+1. Type `iinit` command to start the configuration process. When prompted, enter the values shown below as comments in the example code block.
 
-CyVerse Data Store configuration:
+   CyVerse Data Store configuration:
 
-  | host name | port # | username | zone | password |
-  |:---------:|:------:|:--------:|:----:|:--------:|
-  | data.cyverse.org | 1247| CyVerse UserID | iplant | CyVerse Password |
+   | host name | port # | username | zone | password |
+   |:---------:|:------:|:--------:|:----:|:--------:|
+   | data.cyverse.org | 1247| CyVerse UserID | iplant | CyVerse Password |
 
-!!! Note
+   !!! Note
 
-    You can reconfigure iCommands for other iRODS zones by changing your environment file.
+       You can reconfigure iCommands for other iRODS zones by changing your environment file.
 
-3.  Verify that your iCommands installation works and is properly configured using the `ils` command to list the contents of your Data Store home directory.
+1. Verify that your iCommands installation works and is properly configured using the `ils` command to list the contents of your Data Store home directory.
 
-    ``` bash
-    ils
-       /iplant/home/your_home_directory:
-    file1
-    file2
-    file3
-    C- /iplant/home/your_home_directory/analyses
-    C- /iplant/home/your_home_directory/another_folder
-    ```
+   ``` console
+   ils /iplant/home/your_home_directory
+     file1
+     file2
+     file3
+     C- /iplant/home/your_home_directory/analyses
+     C- /iplant/home/your_home_directory/another_folder
+   ```
 
 ------------------------------------------------------------------------
 
@@ -165,8 +158,8 @@ CyVerse Data Store configuration:
 
 You can access public data in the CyVerse Data Store with iCommands using:
 
--   Username: anonymous
--   Password: `<leave blank>`
+- Username: anonymous
+- Password: `<leave blank>`
 
 ------------------------------------------------------------------------
 
@@ -182,25 +175,24 @@ You can access public data in the CyVerse Data Store with iCommands using:
 
 See the [full iCommands iput documentation](https://docs.irods.org/master/icommands/user/#iput) for more information.
 
-1.  Upload a directory using the `iput` command. Remember, the -r flag is used to recursively upload a directory, so omit the -r flag if you are uploading a single file.
+1. Upload a directory using the `iput` command. Remember, the -r flag is used to recursively upload a directory, so omit the -r flag if you are uploading a single file.
 
 ``` bash
 iput -rPT /local_directory /iplant/home/cyverse_username/destination_folder
 # This command will output the progress as it uploads your local directory
 ```
 
-There are several optional arguments that the upload iCommand `iput` can
-take:
+There are several optional arguments that the upload iCommand `iput` can take:
 
 ``` bash
-iput -r # for recursive transfer of directories and their contents
+iput -r  # for recursive transfer of directories and their contents
 
-iput -P # to display the progress of the upload
+iput -P  # to display the progress of the upload
 
-iput -f # to force the upload and overwrite
+iput -f  # to force the upload and overwrite
 
-iput -T # to renew socket connection after 10 mins (this may help connections
-        # that are failing due to some connection/firewall settings)
+iput -T  # to renew socket connection after 10 mins (this may help connections
+         # that are failing due to some connection/firewall settings)
 ```
 
 ------------------------------------------------------------------------
@@ -209,7 +201,7 @@ iput -T # to renew socket connection after 10 mins (this may help connections
 
 See the [full iCommands iget documentation](https://docs.irods.org/master/icommands/user/#iget) for more information.
 
-1.  Download a file using the `iget` command. Remember, the `-r` flag is used to recursively upload a directory, so omit the -r flag if you are uploading a single file.
+1. Download a file using the `iget` command. Remember, the `-r` flag is used to recursively upload a directory, so omit the -r flag if you are uploading a single file.
 
 ``` bash
 iget -PT /iplant/home/cyverse_username/target_file /local_destination
@@ -219,14 +211,14 @@ iget -PT /iplant/home/cyverse_username/target_file /local_destination
 There are several optional arguments that the upload iCommand `iget` can take:
 
 ``` bash
-iget -r # for recursive transfer of directories and their contents
+iget -r  # for recursive transfer of directories and their contents
 
-iget -P # to display the progress of the download
+iget -P  # to display the progress of the download
 
-iget -f # to force the download and overwrite
+iget -f  # to force the download and overwrite
 
-iget -T # to renew socket connection after 10 mins (this may help connections
-        # that are failing due to some connection/firewall settings)
+iget -T  # to renew socket connection after 10 mins (this may help connections
+         # that are failing due to some connection/firewall settings)
 ```
 
 ------------------------------------------------------------------------
@@ -235,32 +227,35 @@ iget -T # to renew socket connection after 10 mins (this may help connections
 
 For the Linux distributions, there are three extra iCommands that support common NetCDF operations:
 
--   `inc` performs data operations on a list of NetCDF files
--   `incarch` archives an open-ended time series data
--   `incattr` performs operation on attributes of NetCDF files
+- `inc` performs data operations on a list of NetCDF files
+- `incarch` archives an open-ended time series data
+- `incattr` performs operation on attributes of NetCDF files
 
 Each of these commands accepts the `-h` command line option. When a command is called with this option, it displays the command's help documentation. Please see this help documentation for more information.
 
+!!! Note
+
+    CyVerse does not currently support the NetCDF iCommands.
+
+<!--
 **Installation**
 
-1.  Install iRODS Runtime. Before the NetCDF iCommands can be installed, the current version of the iRODS run-time library needs
-    to be installed. Please install the appropriate version (e.g., `irods-runtime-X-X-XX`). The distribution-specific packages can be found on [RENCI's iRODs website](https://files.renci.org/pub/irods/releases/).
+1. Install iRODS Runtime. Before the NetCDF iCommands can be installed, the current version of the iRODS run-time library needs to be installed. Please install the appropriate version (e.g., `irods-runtime-X-X-XX`). The distribution-specific packages can be found on [RENCI's iRODs website](https://files.renci.org/pub/irods/releases/).
 
-2.  Install NetCDF API. Once the run-time library is installed, the iRODS NetCDF API library needs to be installed. Please use the
-    appropriate link to download the installation package and install it. The package installer will likely warn that iRODS user
-    and/or group don't exist, and that it will be using root instead. These warnings are harmless, since the package contents should be  installed with root ownership.
+1. Install NetCDF API. Once the run-time library is installed, the iRODS NetCDF API library needs to be installed. Please use the appropriate link to download the installation package and install it. The package installer will likely warn that iRODS user and/or group don't exist, and that it will be using root instead. These warnings are harmless, since the package contents should be  installed with root ownership.
 
-    - CentOS7 NetCDF API
-    - Ubuntu 14+ NetCDF API
+   - CentOS7 NetCDF API
+   - Ubuntu 14+ NetCDF API
+-->
 
 ------------------------------------------------------------------------
 
 ## Additional Frequently Used iCommands
 
-In addition to the commands above, there are several frequently used
-iCommands, most of which follow the Linux paradigm:
+In addition to the commands above, there are several frequently used iCommands, most of which follow the Linux paradigm:
 
--   **ipwd**: Print current directory
--   **imkdir**: Create a directory
--   **icd**: Change directory
--   **irsync**: Sync local directory with iRODS directory
+- `ihelp`: Prints helpful information about all iCommands
+- `ipwd`: Print current directory
+- `imkdir`: Create a directory
+- `icd`: Change directory
+- `irsync`: Sync local directory with iRODS directory
