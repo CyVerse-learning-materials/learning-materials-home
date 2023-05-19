@@ -1,63 +1,80 @@
 # Transferring Data with iCommands and Command Line
 
-iCommands is a collection of tools developed by the iRODS project. [iRODS](https://irods.org){target=_blank} is the technology that supports the CyVerse Data Store. Using iCommands is the most flexible way to interact with the Data Store. 
+iCommands is a collection of tools developed by the iRODS project. [iRODS](https://irods.org){target=_blank} is the technology that supports the CyVerse Data Store. Using iCommands is the most flexible way to interact with the Data Store.
 
 This section will cover the basics of iCommands installation and use.
 
 !!! Note
 
+    - Versions 4.2.8 and older work best with the Data Store.
     - This is a *command line* tool, operated in a terminal.
-    - There is no support for Windows OS and PowerShell so we recommend using 
+    - There is no support for Windows OS and PowerShell so we recommend using
     [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install).
 
 ------------------------------------------------------------------------
 
 ## iCommands Installation for Linux
 
-On a Linux OS you can use a package manager to install iCommands in the terminal. Instructions for configuring the iRODS repositories in Linux can be be found on the [iRODS Packages](https://packages.irods.org/) webpage.
+On a Linux OS you can use a package manager to install iCommands in the terminal. Instructions for configuring the iRODS repositories in Linux can be be found on the [iRODS Packages](https://packages.irods.org/) webpage. You'll need to lock the iRODS packages to version 4.2.8 before installing the iCommands package.
 
 
 **CentOS:**
 
-Configure the repository and use `yum` to install the iCommands package `irods-icommands`.
+The iCommands package has dependencies found in the EPEL repo, so this repository needs to be configured as well.
+
+Configure the `epel-release` and `irods` repositories, pin the iCommands version to 4.2.8, and use `yum` to install the iCommands package `irods-icommands`.
 
 ``` bash
+sudo yum install epel-release
 sudo rpm --import https://packages.irods.org/irods-signing-key.asc
 wget -qO - https://packages.irods.org/renci-irods.yum.repo \
   | sudo tee /etc/yum.repos.d/renci-irods.yum.repo
+sudo yum versionlock add irods-*-4.2.8
 sudo yum install irods-icommands
 ```
 
 If that does not work, you can install an older version of iCommands, 4.1.12, from RENCI's website.
 
-``` base
+``` bash
 sudo yum install \
   https://files.renci.org/pub/irods/releases/4.1.12/centos7/irods-icommands-4.1.12-centos7-x86_64.rpm
 ```
 
 **Ubuntu 18.04:**
 
-Configure the repository and use `apt` to install the iCommands package `irods-icommands`.
+Configure the repository, pin the iCommands version to 4.2.8, and use `apt` to install the iCommands package `irods-icommands`.
 
 ``` bash
-wget -qO - https://packages.irods.org/irods-signing-key.asc \
-  | sudo apt-key add -
+wget -qO - https://packages.irods.org/irods-signing-key.asc | sudo apt-key add -
 echo "deb [arch=amd64] https://packages.irods.org/apt/ $(lsb_release -sc) main" \
   | sudo tee /etc/apt/sources.list.d/renci-irods.list
 sudo apt-get update
+cat <<'EOF' | sudo tee > /etc/apt/preferences.d/irods
+Package: irods-*
+Pin: version 4.2.8
+Pin-Priority: 1001
+EOF
 sudo apt install irods-icommands
 ```
 
 **Ubuntu 20.04:**
 
-Configure the repository and use `apt` to install the iCommands package `irods-icommands`.
+There is no iCommands 4.2.8 package for Ubuntu 20.04, but the 18.04 packages works as long as the package `libssl1.0.0` can be installed.
+
+Configure the `bionic-security` and `irods` repositories, pin the iCommands version to 4.2.8, and use `apt` to install the iCommands package `irods-icommands`.
 
 ``` bash
-wget -qO - https://packages.irods.org/irods-signing-key.asc \
-  | sudo apt-key add -
-echo "deb [arch=amd64] https://packages.irods.org/apt/ focal main" \
+echo "deb http://security.ubuntu.com/ubuntu bionic-security main" \
+  | sudo tee /etc/apt/sources.list.d/bionic-security.list
+wget -qO - https://packages.irods.org/irods-signing-key.asc | sudo apt-key add -
+echo "deb [arch=amd64] https://packages.irods.org/apt/ bionic main" \
   | sudo tee /etc/apt/sources.list.d/renci-irods.list
 sudo apt update
+cat <<'EOF' | sudo tee > /etc/apt/preferences.d/irods
+Package: irods-*
+Pin: version 4.2.8
+Pin-Priority: 1001
+EOF
 sudo apt install irods-icommands
 ```
 
@@ -87,12 +104,12 @@ iRODS doesn't currently support Mac OS X, but CyVerse has built an installer for
 
 !!! Note
 
-    Newer Mac OS X now ships with `zsh` as its default shell rather than `bash`. 
-    
+    Newer Mac OS X now ships with `zsh` as its default shell rather than `bash`.
+
     The installer will attempt to write some environmental variables to the `.bashrc` file which for `zsh` is called the `.zshrc`.
 
-    By default, this installation will place iCommands in your system `PATH` so you should be ready to run iCommands immediately at the terminal. 
-    
+    By default, this installation will place iCommands in your system `PATH` so you should be ready to run iCommands immediately at the terminal.
+
     If this does not happen (i.e., you get an error when trying to run `iinit`), you can add the iCommands path by editing your `.zshrc` file:
 
     ``` bash
@@ -111,7 +128,7 @@ iRODS doesn't currently support Mac OS X, but CyVerse has built an installer for
 
     If using iCommands in an HPC environment, which already has iCommands installed, run the `module load irods` command to get access to iRODS
     iCommands.
-    
+
     Once iCommands is installed and in the system `PATH`, these instructions apply at a terminal in Mac OS X and Linux systems.
 
 1.  Open a terminal
@@ -157,10 +174,10 @@ You can access public data in the CyVerse Data Store with iCommands using:
 
 !!! Warning
 
-    When uploading your data to the Data Store, you should not upload files/folders with names containing spaces (e.g., `experiment one.fastq`) or special characters (e.g., \~ \`\` ! @ \# \$ % \^ & \* ( ) + = { } \[ \] \| : ; " ' < \> , ? / and \\). 
-    
-    The Apps on the Discovery Environment and most command line applications will typically not tolerate these characters. 
-    
+    When uploading your data to the Data Store, you should not upload files/folders with names containing spaces (e.g., `experiment one.fastq`) or special characters (e.g., \~ \`\` ! @ \# \$ % \^ & \* ( ) + = { } \[ \] \| : ; " ' < \> , ? / and \\).
+
+    The Apps on the Discovery Environment and most command line applications will typically not tolerate these characters.
+
     For long file/folder names, we recommend the use of underscores (e.g., experiment_one.fastq) instead of spaces.
 
 See the [full iCommands iput documentation](https://docs.irods.org/master/icommands/user/#iput) for more information.
@@ -228,13 +245,13 @@ Each of these commands accepts the `-h` command line option. When a command is c
 
 1.  Install iRODS Runtime. Before the NetCDF iCommands can be installed, the current version of the iRODS run-time library needs
     to be installed. Please install the appropriate version (e.g., `irods-runtime-X-X-XX`). The distribution-specific packages can be found on [RENCI's iRODs website](https://files.renci.org/pub/irods/releases/).
-    
+
 2.  Install NetCDF API. Once the run-time library is installed, the iRODS NetCDF API library needs to be installed. Please use the
     appropriate link to download the installation package and install it. The package installer will likely warn that iRODS user
     and/or group don't exist, and that it will be using root instead. These warnings are harmless, since the package contents should be  installed with root ownership.
 
     - CentOS7 NetCDF API
-    - Ubuntu 14+ NetCDF API 
+    - Ubuntu 14+ NetCDF API
 
 ------------------------------------------------------------------------
 
@@ -247,4 +264,3 @@ iCommands, most of which follow the Linux paradigm:
 -   **imkdir**: Create a directory
 -   **icd**: Change directory
 -   **irsync**: Sync local directory with iRODS directory
-
