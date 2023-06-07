@@ -173,6 +173,21 @@ There are several optional arguments that the `get` subcommand can take:
 
 ------------------------------------------------------------------------
 
+## Upgrade :simple-go: GoCommands
+
+GoCommands can self-upgrade. Run the `upgrade` command to upgrade to the latest release of GoCommands available.
+
+``` bash
+./gocmd upgrade # check a new release and upgrade the gocmd binary
+```
+
+If you don't want to upgrade GoCommands, but to check if there is a new release available:
+``` bash
+./gocmd upgrade --check # just check a new release and display 
+```
+
+------------------------------------------------------------------------
+
 ## Additional Sub-Commands
 
 In addition to the commands above, there are several frequently used
