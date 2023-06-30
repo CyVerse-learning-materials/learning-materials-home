@@ -2,7 +2,11 @@
 
 **VICE** stands for Visual Interactive Computing Environment and is a part of CyVerse's [Discovery Environment (DE)](https://de.cyverse.org). 
 
-**VICE** supports interactive software applications. There are a few common categories of featured interactive applications:
+CyVerse maintains featured apps from the [Rocker-Project](https://rocker-project/images){target=_blank}, [Project Jupyter](https://jupyter-docker-stacks.readthedocs.io/en/latest/index.html){target=_blank}, and [Visual Studio Code](https://code.visualstudio.com/docs/remote/create-dev-container){target=_blank}.
+
+Our Docker images are built from community-maintained image registries (i.e., [DockerHub](https://hub.docker.com/){target=_blank}, [GitHub Container Registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry){target=_blank}, [NVIDIA GPU Container Registry](https://catalog.ngc.nvidia.com/){target=_blank}, [BioContainers](https://biocontainers.pro/){target=_blank}, with a few additonal packages for use in CyVerse DE.
+
+There are a few common categories of featured interactive applications:
 
 1.  Terminal Access
  	- <a href="https://de.cyverse.org/apps/de/5f2f1824-57b3-11ec-8180-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/BASH-terminal-white?style=plastic&logo=gnometerminal"></a>
@@ -19,13 +23,7 @@
 	- <a href="https://de.cyverse.org/apps/de/b5e65b52-0de5-11ee-9b7a-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/Ubuntu-22.04-green?style=plastic&logo=X.Org"></a>
 	- <a href="https://de.cyverse.org/apps/de/4affa3c0-1362-11ee-bf34-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/QGIS-22.04-green?style=plastic&logo=qgis"></a>
 
-CyVerse hosts the container builds of its featured apps on GitHub: <https://github.com/cyverse-vice/>. 
-
-These images are based on official projects and are maintained by CyVerse staff.
-
-When you open the Apps Tab in the DE, there are several featured Applications immediately visible, these are all Interactive Apps.
-
-These apps launch with their default number of cores, amount of RAM, and timeout, and without input data. You can always import data using HTTPS protocols or iCommands after launch.
+CyVerse hosts the container recipes (Dockerfiles) of its featured apps on GitHub: <https://github.com/cyverse-vice/>. These images are maintained by CyVerse staff.
 
 ??? Tip "Getting VICE Access"
 
@@ -39,21 +37,19 @@ These apps launch with their default number of cores, amount of RAM, and timeout
 
 -----------------------------------------------------------------------    
 
-## Launching a VICE application
+## Launching Applications
 
-??? Tip "Quick Launch VICE Apps"
+When you open the Apps Tab in the DE, there are several featured Applications immediately visible, these are all Interactive Apps.
+
+These apps launch with their default number of cores, amount of RAM, and timeout, and without input data. 
+
+??? Tip "Instant Launching Apps"
    
-    [![][vice]{width=60}](https://de.cyverse.org/apps){target=_blank}
+    [![][vice]{width=60}](https://de.cyverse.org/instantlaunches){target=_blank}
 
-    CyVerse maintains featured apps from the [Rocker-Project](https://rocker-project/images){target=_blank}, [Project Jupyter](https://jupyter-docker-stacks.readthedocs.io/en/latest/index.html){target=_blank}, and [Visual Studio Code](https://code.visualstudio.com/docs/remote/create-dev-container){target=_blank}
+    Pre-configured apps with base settings can be launched with one click from the Instant Launch menu.
 
-    | Quick Launch | Base Images |
-    | ------------ |-------------|
-    | <a href="https://de.cyverse.org/apps/de/3b5f5b16-19a5-11ed-b38a-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/Verse-latest-blue?style=plastic&logo=rstudio"></a> | [Rocker-Project](https://rocker-project/images){target=_blank} |
-    | <a href="https://de.cyverse.org/apps/de/cc77b788-bc45-11eb-9934-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/Datascience-latest-orange?style=plastic&logo=jupyter"></a> |[Project Jupyter](https://jupyter-docker-stacks.readthedocs.io/en/latest/index.html){target=_blank} |
-    | <a href="https://de.cyverse.org/apps/de/091c830a-4be1-11ec-aad9-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/VS%20Code-latest-6C33AF?style=plastic&logo=visualstudiocode"></a> | [Visual Studio Code](https://code.visualstudio.com/docs/remote/create-dev-container){target=_blank} |
-    
-    Containers are built from community-maintained image registries (i.e., [DockerHub](https://hub.docker.com/){target=_blank}, [GitHub Container Registry](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry){target=_blank},[NVIDIA GPU Container Registry](https://catalog.ngc.nvidia.com/){target=_blank}, [BioContainers](https://biocontainers.pro/){target=_blank}, with a few additonal packages for use in CyVerse DE.
+    These apps have 4-cores and 16 GB RAM pre-set limit.
 
 1. Log into the [![][de]{width=25}](https://de.cyverse.org){target=_blank} [Discovery Environment](https://de.cyverse.org){target=_blank}.
 
