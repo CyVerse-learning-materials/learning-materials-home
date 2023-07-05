@@ -14,10 +14,6 @@ This section will cover the basics of GoCommands.
 
 ## :material-download: Download :simple-go: GoCommands
 
-Visit [GoCommands Releases](https://github.com/cyverse/gocommands/releases) webpage. Download a package file bundled with `tar.gz` or `zip` for your target system's OS and architecture. 
-
-Uncompress the package file using `tar zxvf <package file>`.
-
 Here are commands to download and uncompress the package file for a target system's OS and architecture.
 
 **:simple-linux: Linux :simple-amd: AMD64**
@@ -200,17 +196,26 @@ subcommands, most of which follow the Linux paradigm:
   | `init` | Initialize iCommands Configuration | 
   | `cd` | Change current working directory | 
   | `pwd` | Display current working directory | 
-  | `ls` | List data-objects or collections in a collection |
-  | `cp` | Copy iRODS data-objects or collections to a target collection |
-  | `mv` | Move iRODS data-objects or collections to a target collection |
-  | `rm` | Remove iRODS data-objects or collections |
-  | `rmdir` | Remove iRODS collections |
-  | `mkdir` | Make iRODS collections |
-  | `get` | Download iRODS data-objects or collections |
-  | `put` | Upload local files or directories to a target collection |
-  | `bput` | Upload local files or directories to a target collection by bundling and transferring in parallel (optimzied for many small file upload) |
-  | `bun` | Extract iRODS data-objects in a bundle file format (*.tar) to a target collection |
-  | `sync` | Sync local directory with iRODS collection |
+  | `ls` | List iRODS files or directories in a iRODS directory |
+  | `cat` | Show content of an iRODS file  |
+  | `cp` | Copy iRODS files or directories to a target iRODS directory |
+  | `mv` | Move iRODS files or directories to a target iRODS directory |
+  | `rm` | Remove iRODS files or directories |
+  | `rmdir` | Remove iRODS directories |
+  | `mkdir` | Make iRODS directories |
+  | `get` | Download iRODS files or directories |
+  | `put` | Upload local files or directories to a target iRODS directory |
+  | `bput` | Upload local files or directories to a target iRODS  directory by bundling and transferring in parallel (optimized for many small file upload) |
+  | `bun` | Extract iRODS files in a bundle file format (*.tar) to a target iRODS directory |
+  | `bclean` | Clear temporary files used by bput |
+  | `sync` | Sync a local directory with an iRODS directory |
+  | `lsticket` | List iRODS tickets |
+  | `mkticket` | Create an iRODS ticket |
+  | `modticket` | Update an iRODS ticket |
+  | `rmticket` | Remove iRODS tickets |
   | `passwd` | Change user password |
+  | `svrinfo` | Display server information |
+  | `ps` | Display server processes |
   | `copy-sftp-id` | Upload SSH public key to iRODS for SFTP access |
+
 
