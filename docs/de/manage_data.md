@@ -85,6 +85,17 @@ Deleted files can be retrieved from your Trash.
 
     - For larger files or large numbers of files, we recommend using other methods such as [Cyberduck](../ds/cyberduck.md) or [iCommands](../ds/icommands.md). 
 
+## Emptying Trash after Deleting Files/Folders in the Discovery Environment
+
+Your data store allocation will not reflect deleted files/folders until you have deleted files from your Trash. To empty Trash, follow these steps:
+
+- **Empty the Trash**: Navigate to your Trash folder. (You may find it under "Data" icon in the left navigation menu, click on the dropdown near your username to browse folders/files in "Trash")
+
+- Once you're in the "Trash" folder, navigate to the right corner and click "Trash" followed by "Empty Trash" to permanently delete the data from your Trash folder.
+![empty_trash](../assets/de/menu_items/empty_trash.png)
+
+- **Wait for processing**: It sometimes takes CyVerse systems a few hours to fully process file deletions, so you may not see your data storage allocation increase for several hours.
+
 ## Advanced Data Management Features in the Discovery Environment
 
 The Discovery Environment also supports advanced data management tasks such as organizing your datasets, search, adding metadata to data, requesting a Digital Object Identifier (DOI), and importing or submitting data to/from NCBI SRA. 

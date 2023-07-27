@@ -61,3 +61,15 @@ Clicking the "More Actions" button allows you to perform the following actions:
 -   **Delete**: Delete an analysis from your history
 -   **Add to Bag**: Add to a "bag" for sharing
 
+## Using CPUs Efficiently: Best Practices
+There are two ways to reduce the number of CPU hours that are consumed.
+
+1. **Request Fewer CPUs during Analysis Submission**
+    - In the "Advanced Settings" tab of the analysis launch wizard, you can modify the "Maximum CPU Cores" setting.
+    - Selecting 0 will automatically select the default setting, which is currently set to 4 CPUs.
+    - Selecting 1 will request only 1 CPU. For multithreaded applications, it's advisable to select more than 1 CPU, depending on the specific application's requirements.
+
+2. **Terminate Completed Analyses Promptly**
+    - As soon as an analysis is complete, terminate it by clicking the red X button next to the analysis in the analysis listing.
+![terminate_analyses](../assets/de/menu_items/terminate_analyses.png)
+    - Note: Leaving an analysis running while it's not doing anything is one of the quickest ways to use up CPU hours.
