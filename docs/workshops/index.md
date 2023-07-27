@@ -6,8 +6,8 @@ CyVerse's popular in-person and virtual trainings are intensive, providing hands
 
 | Workshop | Info & Reg | What's Covered |
 |----------|------------|----------------|
-| Container Camp Basics | [Website](https://cyverse.org/cc){target=_blank} | [Syllabus](https://cyverse-learning-materials.github.io/container-camp/getting_started/schedule/#basics){target=_blank} |
-| Advanced Container Camp | [Website](https://cyverse.org/cc){target=_blank} | [Syllabus](https://cyverse-learning-materials.github.io/container-camp/getting_started/schedule/#advanced){target=_blank} |
+| Container Camp (Basic) | [Website](https://cyverse.org/cc){target=_blank} | [Syllabus](https://cyverse-learning-materials.github.io/container-camp/getting_started/schedule){target=_blank} |
+| Cloud Native Camp (Advanced) | [Website](https://cyverse.org/cc){target=_blank} | [Syllabus](https://cyverse-learning-materials.github.io/container-camp/getting_started/schedule){target=_blank} |
 | Foundational Open Science Skills workshops | [Website](https://cyverse.org/foss){target=_blank} | [Syllabus](https://cyverse.org/foss#schedule){target=_blank} |
 
 ### Teach your Workshops on our resources
