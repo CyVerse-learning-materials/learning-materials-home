@@ -1,5 +1,6 @@
+/* Removed from public production to avoid non-paying customers */
 /* Version 3.0, February 2022 */
-
+ 
 window.intercomSettings = {
   app_id: "tpwq3d9w",
   company: {
