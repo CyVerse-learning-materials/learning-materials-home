@@ -81,8 +81,8 @@ nav:
     - 'FAQ': faq.md
 
 # JavaScript for Intercom Widget
-extra_javascript:
-  - javascripts/intercom-learning.js
+# extra_javascript:
+#  - javascripts/intercom-learning.js
 
 # Set theme to `readthedocs`
 # must also set Action to use `@nomaterial` branch instead of `@master` for material
