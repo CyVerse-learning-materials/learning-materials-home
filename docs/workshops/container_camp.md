@@ -8,7 +8,7 @@ View the schedule and sign up for the next camp here: [Container Camp Announceme
 
 | Name | Dates | Description |
 |------|-------|-------------|
-| Container Camp 2023 Advanced | Summer 2023 | TBA |
+| [Container Camp 2023 Advanced](https://cc.cyverse.org/getting_started/schedule/)| Aug 16-18 2023 | Virtual |
 | [Container Camp 2023 Basics](https://cyverse-learning-materials.github.io/container-camp/) | Mar 6-9, 2023 | Virtual |
 | [Container Camp 2022](https://cyverse-learning-materials.github.io/container-camp/) | May 12-19, 2022 | in-person & Virtual |
 | [Container Camp 2021 Advanced](https://cyverse-container-camp.readthedocs-hosted.com/en/latest/) | Aug 2-4, 2021 | Virtual Camp |
