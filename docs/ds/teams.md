@@ -1,10 +1,10 @@
-[team]: assets/de/menu_items/teamsIcon_2.svg
+[team]: ../assets/de/menu_items/teamsIcon_2.svg
 
 # CyVerse Teams
 
 The ![team]{width=20} Teams feature allow you to create, organize, and join public or private groups of collaborators. Teams is accessible through the left side menu, or by going through the following link: https://de.cyverse.org/teams. The goal of Teams is to enable a simpler method to share Apps and Tools with collaborators. 
 
-![teams_01](assets/de/teams_01.png)
+![teams_01](../assets/de/teams_01.png)
 
 On the ![team]{width=20} Teams page, users are able to:
 
@@ -15,7 +15,7 @@ On the ![team]{width=20} Teams page, users are able to:
 
 To create a team, click the :fontawesome-solid-user-plus: `Team` button on the top right. This is what the Team creation page looks like:
 
-![teams_02](assets/de/teams_02.png)
+![teams_02](../assets/de/teams_02.png)
 
 Here, you can:
 
@@ -27,7 +27,8 @@ Here, you can:
 
 !!! Question "What's the difference bewteen Public or Private Teams?"
     One can only be able to join a Private team if added by the Admin. Public teams allow users request to join a team through the "Join" button on the top right. Admins of that specific team will be notified.
-    ![teams_03](assets/de/teams_03.png)
+    
+    ![teams_03](../assets/de/teams_03.png)
 
 !!! tip "Remember to save your changes before exiting the page!"
 
@@ -38,7 +39,7 @@ Here, you can:
 Being part of a Team does not mean that your Apps and Tools are automatically shared. These steps below will enable sharing of Apps and Tools with your Team:
 
 1. Navigate to the App or Tool you want to share and select it. The App/Tool should be highlighted.
-2. Click the ":material-share-variant: Share" button on the top of the page. This will open the Sharing function. ![teams_04](assets/de/teams_04.png)
+2. Click the ":material-share-variant: Share" button on the top of the page. This will open the Sharing function. ![teams_04](../assets/de/teams_04.png)
 3. Use the search function to look for your Team.
 4. Select the Permission level (Read, Write, Own) that you want for your Team and click Done.
 
