@@ -10,7 +10,7 @@ site_url: 'https://learning.cyverse.org'
 edit_uri: edit/main/docs
 
 # Copyright
-copyright: 'Copyright &copy; 2022 CyVerse'
+copyright: 'Copyright &copy; 2023 CyVerse'
 
 # Navigation Page
 
@@ -35,6 +35,7 @@ nav:
     - 'Sharing Data': ds/share.md
     - 'Getting a DOI': ds/doi.md
     - 'Checking Data Storage': ds/check_data.md
+    - 'Teams': ds/teams.md
   - 'Run Analyses':
     - de/index.md
     - 'Logging In': de/login.md
@@ -157,6 +158,7 @@ markdown_extensions:
   - md_in_html
   - toc:
       permalink: true
+      title: On this page
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.betterem:
