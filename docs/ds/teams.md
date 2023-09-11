@@ -2,7 +2,7 @@
 
 # CyVerse Teams
 
-The ![team]{width=20} Teams feature allow you to create, organize, and join public or private groups of collaborators. Teams is accessible through the left side menu, or by going through the following link: https://de.cyverse.org/teams. The goal of Teams is to enable a simpler method to share Apps and Tools with collaborators. 
+The ![team]{width=20} Teams feature allows you to create, organize, and join public or private groups of collaborators. Teams is accessible through the left side menu, or by going through the following link: https://de.cyverse.org/teams. The goal of Teams is to enable a simpler method to share Apps, Tools and data with collaborators. 
 
 ![teams_01](../assets/de/teams_01.png)
 
@@ -32,11 +32,9 @@ Here, you can:
 
 !!! tip "Remember to save your changes before exiting the page!"
 
-!!! tip "You can share apps or tools with Teams, but not data. For that, you will have to use the [Share](https://learning.cyverse.org/ds/share/) feature."
+## Sharing Apps, Tools and data
 
-## Sharing Apps & Tools
-
-Being part of a Team does not mean that your Apps and Tools are automatically shared. These steps below will enable sharing of Apps and Tools with your Team:
+Being part of a Team does not mean that your Apps, Tools and data are automatically shared. These steps below will enable sharing of Apps and Tools, for example, with your Team (these steps are applicable to sharing data as well):
 
 1. Navigate to the App or Tool you want to share and select it. The App/Tool should be highlighted.
 2. Click the ":material-share-variant: Share" button on the top of the page. This will open the Sharing function. ![teams_04](../assets/de/teams_04.png)
@@ -45,10 +43,12 @@ Being part of a Team does not mean that your Apps and Tools are automatically sh
 
 Your Team should now have access to the App/Tool you shared!
 
+!!! warning "When adding a new member to an existing Team, everything that has already been shared with the Team will be automatically be shared with the new member. *Be careful of what you share to the Team!*"
+
 ## FAQ
 
 ??? question "What happens if I delete my Team?"
-    If you delete your Team, remove someone from your Team or unshare the App/Tool, the App/Tool will not be available to use for your collaborators.
+    If you delete your Team, remove someone from your Team or unshare the App/Tool/data, the App/Tool/data will not be available to use for your collaborators.
 
 ??? question "What about versions?"
     Any changes you make to the shared App/Tool will be reflected on the rest of the team. For example, if you add a version to the App, the Team will be able to see the changes you have made. 
