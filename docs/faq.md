@@ -47,9 +47,9 @@
     
     Community Released Data folders are intended for datasets that are growing or changing frequently or that may not need long-term preservation.
 
-    Before requesting a folder, please read this wiki article on [publishing data through the Data Commons](https://wiki.cyverse.org/wiki/display/DC/Publishing+Data+through+the+Data+Commons){target=_blank} , and this one on [preparing community-released data folders](https://wiki.cyverse.org/wiki/display/DC/Preparing+Community+Released+Data+Folders){target=_blank} .
+    Before requesting a folder, please read this wiki article on [publishing data through the Data Commons](https://cyverse.atlassian.net/wiki/spaces/DC/pages/241867460/Publishing+Data+through+the+Data+Commons){target=_blank} , and this one on [preparing community-released data folders](https://cyverse.atlassian.net/wiki/spaces/DC/pages/241867455/Preparing+Community+Released+Data+Folders){target=_blank}.
 
-    Then, if you meet the criteria, you can request a folder using [this form](https://user.cyverse.org/forms/7/overview){target=_blank} .
+    Then, if you meet the criteria, you can request a folder using [this form](https://user.cyverse.org/administrative/forms/7){target=_blank}.
 
 -----------------------------------------------------------------------
 
