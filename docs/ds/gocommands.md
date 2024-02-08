@@ -1,6 +1,6 @@
 # Transferring Data with :simple-go: GoCommands and Command Line
 
-GoCommands is a command-line tool developed by CyVerse. Unlike iCommands, Gocommands is portable which does not require any installation and runs on any modern OSes, such as MacOS, Linux, and Windows.
+GoCommands is a command-line tool developed by CyVerse. Unlike iCommands, GoCommands is portable which does not require any installation and runs on any modern OSes, such as MacOS, Linux, and Windows.
 
 This section will cover the basics of GoCommands.
 
@@ -58,6 +58,22 @@ curl -o gocmdv.txt https://raw.githubusercontent.com/cyverse/gocommands/main/VER
 curl -o gocmd.zip https://github.com/cyverse/gocommands/releases/download/$env:GOCMD_VER/gocmd-$env:GOCMD_VER-windows-amd64.zip ; tar zxvf gocmd.zip ; del gocmd.zip ; del gocmdv.txt
 ```
 
+------------------------------------------------------------------------
+
+## Install :simple-go: GoCommands with Conda
+
+Conda is a popular package manager. GoCommands is also available in Conda for quick installation. Unfortunately, GoCommands currently only supports Linux and Mac OS (Windows system is not supported). To install GoCommands in Conda, follow instructions below:
+
+Add `conda-forge` channel to `conda`. This is required because `Gocommands` is added to `conda-forge` channel.
+```
+conda config --add channels conda-forge
+conda config --set channel_priority strict
+```
+
+Install `Gocommands` with `conda`.
+```
+conda install gocommands
+```
 
 ------------------------------------------------------------------------
 
