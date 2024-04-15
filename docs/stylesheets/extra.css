@@ -1,5 +1,5 @@
-[data-md-color-scheme="youtube"] {
-    --md-primary-fg-color:        #EE0F0F;
-    --md-primary-fg-color--light: #ECB7B7;
-    --md-primary-fg-color--dark:  #90030C;
+[data-md-color-scheme="cyverse-palette"] {
+    --md-primary-fg-color:        #074060;
+    --md-primary-fg-color--light: #0971AB;
+    --md-primary-fg-color--dark:  #052537;
   }

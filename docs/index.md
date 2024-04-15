@@ -1,12 +1,20 @@
-![!CyVerse Learning Center](assets/de/logos/cyverse_logo_2022.png "CyVerse Learning Center"){ width="400" }
+<figure markdown>
+  [![!CyVerse Learning Center](assets/de/logos/cyverse_logo_2022.png "CyVerse Learning Center"){ width="600" }](https://learning.cyverse.org){target=_blank}
+</figure>
 
-# Welcome to the CyVerse Learning Center
+<br>
+
+# Welcome to the ***CyVerse Learning Center*** *!*
 
 [CyVerse](https://cyverse.org) provides life scientists with powerful computational infrastructure to handle huge datasets and complex analyses, thus enabling data-driven discovery.
 
 In the Learning Center, you can find information about CyVerse platforms and documentation on how to use features and services, quick starts for data management and analysis tasks, tutorials, and more. Use the navigation bar on the left side of the screen or the search bar at the top to explore the learning materials.
 
-![people](assets/people_science.png){ width="600" }
+<figure markdown>
+  ![people](assets/people_science.png){width="600"}
+</figure>
+
+
 
 ## First Steps
 
