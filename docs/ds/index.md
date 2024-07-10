@@ -10,18 +10,18 @@ This guide will cover the minimum needed to get you started. It assumes you have
 
 ## Table of Contents
 
-1. [Moving Data](move_data)
-2. [Data Management with Discovery Environment](manage_data)
-3. [Transferring Data with Cyberduck](cyberduck)
-4. [Transferring Data with iCommands and Command Line](icommands)
-5. [Transferring Data with GoCommands and Command Line](gocommands)
-6. [HTTP Access with WebDAV](webdav)
-7. [Transferring Data with SFTP](sftp)
-8. [Adding Metadata](metadata)
-9. [Sharing Data](share)
-10. [Getting a DOI](doi)
-11. [Checking Data Storage](check_data)
-12. [Teams](teams)
+1. [Move Data](move_data)
+  * [Transfer Data with Discovery Environment](manage_data)
+  * [Transfer Data with Cyberduck](cyberduck)
+  * [Transfer Data with iCommands on Command Line](icommands)
+  * [Transfer Data with GoCommands on Command Line](gocommands)
+  * [HTTP(S) Access with WebDAV](webdav)
+  * [Transferring Data with SFTP](sftp)
+2. [Add Metadata](metadata)
+3. [Share Data](share)
+4. [Get a DOI](doi)
+5. [Check Data Storage Quotas](check_data)
+6. [Managing Data within a Team](teams)
 
 ## Moving Data
 
