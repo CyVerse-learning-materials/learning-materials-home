@@ -11,7 +11,7 @@ This guide will cover the minimum needed to get you started. It assumes you have
 ## Table of Contents
 
 1. [Move Data](move_data)
-  * [Transfer Data with Discovery Environment](manage_data)
+  * [Transfer Data with Discovery Environment](../de/manage_data)
   * [Transfer Data with Cyberduck](cyberduck)
   * [Transfer Data with iCommands on Command Line](icommands)
   * [Transfer Data with GoCommands on Command Line](gocommands)
