@@ -27,7 +27,7 @@ This guide will cover the minimum needed to get you started. It assumes you have
 
 ---
 
-## [![!ds](../assets/ds/datastore_plchldr.png){ width=30} Moving Data](move_data)
+## [![!ds](../assets/ds/datastore_plchldr.png){width=30} Moving Data](move_data)
 
 Learn how to move data to and from the CyVerse Data Store efficiently. This section covers various methods and tools you can use to transfer your data.
 
