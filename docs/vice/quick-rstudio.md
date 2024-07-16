@@ -20,7 +20,7 @@ Click on the **Apps** grid icon
 
 The conventional launch menu allows you to modify the App parameters. You can add input data, increase the amount of RAM or CPU cores, and change the analysis directory.
 
-[![!rstudio_2](../assets/de/rstudio_2.png "rstudio_2"){ width="600" }](https://de.cyverse.org/apps/de/3548f43a-bed1-11e9-af16-008cfa5ae621/launch)
+[![!rstudio_2](../assets/de/rstudio_2.png "rstudio_2")](https://de.cyverse.org/apps/de/3548f43a-bed1-11e9-af16-008cfa5ae621/launch)
 
 ## 3. Open the Analysis
 
@@ -45,10 +45,9 @@ It also offers an Import-Wizard-like feature that allows users to import CSV, Ex
 
 More information about RStudio can be found [here](https://www.rstudio.com/products/rstudio/).
 
-!!! Note
+!!! Note "Long wait times?"
   
-  Normal wait time for a featured VICE app to launch is less than 2 minutes. 
-  If you're experiencing a significantly longer wait, consider terminating the Analysis and starting a new one.
+    Normal wait time for a featured VICE app to launch is less than 2 minutes. If you're experiencing a significantly longer wait, consider terminating the Analysis and starting a new one.
 
 ## 4. Create an RStudio Project
 
@@ -90,8 +89,9 @@ Any new data in the `/home/rstudio/data-store/data/output` directory will begin 
 
 Any input data which you added when the app started using the conventional launch feature will *not* be copied.
 
-!!! Warning
+!!! Warning "Automatic Termination and Extension"
 
-  VICE apps run for a pre-determined amount of time, typically between 4 and 48 hours. 
-  If you have opted for email notifications from the DE, then you'll get a notification 1 day before and another 1 hour before the app will terminate. 
- To extend the pre-set run time, go to your analysis and click the hour glass icon which automatically extends the app run time.
+    VICE apps run for a pre-determined amount of time, typically between 4 and 48 hours. 
+    If you have opted for email notifications from the DE, then you'll get a notification 1 day before and another 1 hour before the app will terminate. 
+    
+    To extend the pre-set run time, go to your analysis and click the hour glass icon which automatically extends the app run time.

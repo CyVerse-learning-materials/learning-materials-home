@@ -3,9 +3,7 @@
 [de]: ../assets/de/logos/deIcon.svg
 [data]: ../assets/de/menu_items/dataIcon.svg
 
-!!! Note
-    This quickstart is focused on using the Discovery Environment to upload your data.
-    For more information on alternative methods for data management, please refer to the [Manage Your Data](index.md) section or the [Data Sharing](share.md) page.
+!!! Note " This quickstart is focused on using the Discovery Environment to upload your data. For more information on alternative methods for data management, please refer to the [Manage Your Data](index.md) section or the [Data Sharing](share.md) page."
 
 1. Log into the [![de]{width="25"} Discovery Environment](https://de.cyverse.org){target=_blank}.
 
@@ -28,7 +26,6 @@
 6\. You can also generate a public URL for files, making it easier to share your files. To do so, click on the ellipses (3 dots) on the right of the file, and click Public Link(s). A window will appear with the generated URL, 
 which collaborators can use to download your file.
 
-!!! Warning
-    Generating a public URL works for files, not folders! It is suggested to compress large numbers of files prior to sharing them.
+!!! Warning "Generating a public URL works for files, not folders! It is suggested to compress large numbers of files prior to sharing them."
 
 ![dist_data_5](../assets/ds/dist_data_5.jpg)

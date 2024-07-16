@@ -9,11 +9,9 @@
 [profile]: ../assets/de/icons/userIcon.svg
 [vice]: ../assets/de/logos/deviceIcon.svg
 
-You can select from several hundred applications (apps) available in the [![de]{width="25"} Discovery Environment](https://de.cyverse.org){target=_blank} when you are ready to analyze your data.
+You can select from several hundred applications (Apps) available in the [![de]{width="25"} Discovery Environment](https://de.cyverse.org){target=_blank} when you are ready to analyze your data.
 
-??? tip "Launching Apps"
-
-    When launching [![apps]{width="25"} Apps](https://de.cyverse.org/apps){target=_blank}, you can log out or navigate to another page or operation after you start the task; an automated email notification is sent to you when those tasks are completed
+!!! tip "When launching [![apps]{width="10"} Apps](https://de.cyverse.org/apps){target=_blank}, you can log out or navigate to another page or operation after you start the task; an automated email notification is sent to you when those tasks are completed"
 
 ## Browsing Apps in the Discovery Environment
 
@@ -21,7 +19,10 @@ You must be logged in to browse and use apps.
 
 1. Click in the left sidebar of the DE to see the [![apps]{width="25"} Apps](https://de.cyverse.org/apps){target=_blank} view. When you first access the Apps view, you may be prompted to log in. After logging in, you will see a screen that looks something like this:
 
+<figure markdown>
 ![](../assets/de/de_apps_screen.png){ width="600" }
+<figcaption>The Apps page.</figcaption>
+</figure>
 
 ## Sorting and Filtering Apps in the Discovery Environment
 
@@ -29,13 +30,11 @@ To sort the list of apps in ascending or descending order by app name, the name 
 
 You can navigate between pages and change how many apps are listed on a page by using the < or > controls at the bottom of the page.
 
-By default, the Apps view displays "Featured Apps" which are interactive.
+By default, the Apps view displays "**Featured Apps**" which are interactive.
 
-All "Public Apps" are available to you. 
+All "**Public Apps**" are available to you. 
 
-With hundreds of apps and sometimes many versions of an app in the DE, you may want to view a subset of all available apps. 
-
-There are two ways to do this. 
+With hundreds of apps and sometimes many versions of an app in the DE, you may want to view a subset of all available apps. There are two ways to do this. 
 
 First, in the upper left corner of the [![apps]{width="25"} Apps](https://de.cyverse.org/apps){target=_blank} view, the currently active subset of apps is shown as the primary filter. 
 

@@ -43,10 +43,9 @@ Once the app is ready, it will transition to the user interface (in this example
 You should see a "message of the day", information about the machine you're using, and your CyVerse username for when you initiate
 an iCommands connection.
 
-!!! Note
+!!! Note "Long wait times?"
   
-  Normal wait time for a featured VICE app to launch is less than 2 minutes. 
-  If you're experiencing a significantly longer wait, consider terminating the Analysis and starting a new one.
+    Normal wait time for a featured VICE app to launch is less than 2 minutes. If you're experiencing a significantly longer wait, consider terminating the Analysis and starting a new one.
 
 ## 4. Activate a `conda` environment
 
@@ -58,12 +57,11 @@ Your identity inside the container is `user` and you have limited `sudo` privile
 
 These changes are not saved after the analyses ends, or when you start a new Cloud Shell Analysis later.
 
-!!! Note
+!!! tip "Behind the CLI engine"
   
-The Cloud Shell is running a terminal multiplexer called [tmux]() which keeps your session active even after you've
-closed your browser tab.
+    The Cloud Shell is running a terminal multiplexer called [tmux](https://en.wikipedia.org/wiki/Tmux) which keeps your session active even after you've closed your browser tab. Here is a [cheat sheet](https://tmuxcheatsheet.com/) that can help you with tmux!
 
-[`tmux` key bindings](http://manpages.ubuntu.com/manpages/bionic/man1/tmux.1.html) are active
+    [`tmux` key bindings](http://manpages.ubuntu.com/manpages/bionic/man1/tmux.1.html) are active.
 
 One side effect of using `tmux` is that you cannot scroll up in the Terminal to see previous outputs. This can make it difficult to view long outputs. If your output doesn't fit on the screen and you still want to see the whole thing, you can pipe the results of the command into `pager`.
 
@@ -71,11 +69,15 @@ For instance, if you run `head big_file.csv -n 100` to view the first 100 lines 
 
 To activate conda:
 
-``` conda init ```
+``` 
+conda init 
+```
 
 and then:
 
-``` conda activate base ```
+``` 
+conda activate base 
+```
 
 If you receive a message about refreshing your screen, you can `exit` the Cloud Shell by typing "exit" and then clicking the refresh button on your browser tab.
 
@@ -87,11 +89,15 @@ You should now be connected to your `/iplant/home/username` home directory.
 
 ### ils
 
-``` ils /iplant/home/username/ ```
+``` 
+ils /iplant/home/username/ 
+```
 
 To view the 'shared' directory, type:
 
-``` ils /iplant/home/shared ```
+``` 
+ils /iplant/home/shared 
+```
 
 ### iget 
 
@@ -118,8 +124,9 @@ Any new data in the `/home/user/work/data/output` directory will begin copying b
 
 Any input data which you added when the app started using the conventional launch feature will *not* be copied.
 
-!!! Warning
+!!! Warning "Automatic Termination and Extension"
 
-  VICE apps run for a pre-determined amount of time, typically between 4 and 48 hours. 
-  If you have opted for email notifications from DE, you'll get a notification 1 day before and another 1 hour before the app gets terminated. 
-  To extend the time, go to your analysis, then click the hour glass icon which automatically extends the app run time.
+    VICE apps run for a pre-determined amount of time, typically between 4 and 48 hours. 
+    If you have opted for email notifications from the DE, then you'll get a notification 1 day before and another 1 hour before the app will terminate. 
+    
+    To extend the pre-set run time, go to your analysis and click the hour glass icon which automatically extends the app run time.

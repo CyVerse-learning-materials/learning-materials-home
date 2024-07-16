@@ -49,10 +49,9 @@ The left sidebar contains a file browser, the list of running kernels and termin
 
 More information about the Jupyter Lab can be found [here](https://jupyterlab.readthedocs.io/en/stable/user/interface.html).
 
-!!! Note
+!!! Note "Long wait times?"
   
-    Normal wait time for a featured VICE App to launch is less than 2 minutes. 
-    If you're experiencing a significantly longer wait, consider terminating the Analysis and starting a new one.
+    Normal wait time for a featured VICE app to launch is less than 2 minutes. If you're experiencing a significantly longer wait, consider terminating the Analysis and starting a new one.
 
 ## 4. Create a new `conda` environment
 
@@ -109,7 +108,9 @@ Any new data in the `/home/jovyan/work/data/outputs` directory will begin copyin
 
 Any input data which you added when the app started using the conventional launch feature will *not* be copied.
 
-!!! Warning
+!!! Warning "Automatic Termination and Extension"
+
     VICE apps run for a pre-determined amount of time, typically between 4 and 48 hours. 
-    If you have opted for email notifications from DE, then you'll get a notification 1 day before and another 1 hour before the app gets terminated. 
-    To extend the time, go to your analysis and click the hour glass icon which automatically extends the app run time.
+    If you have opted for email notifications from the DE, then you'll get a notification 1 day before and another 1 hour before the app will terminate. 
+    
+    To extend the pre-set run time, go to your analysis and click the hour glass icon which automatically extends the app run time.
