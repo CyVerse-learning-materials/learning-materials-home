@@ -1,6 +1,6 @@
 # Getting a DOI
 
-Under our new subscription model those with 'Basic' (free) CyVerse accounts are no longer allowed DOIs. If you wish to upgrade your account please review pricing and subscription options here: https://cyverse.org/subscribe
+Under our new subscription model those with 'Basic' (free) CyVerse accounts are no longer allowed DOIs. If you wish to upgrade your account please review pricing and subscription options here: https://cyverse.org/subscribe.
 
 ## Background
 
@@ -106,7 +106,7 @@ because the subject is too vague or too detailed:
 -----------------------------------------------------------------------------------------------------------------
 #### 1.3. Create a ReadMe file
 
-Create a text file labeled \"ReadMe\" with the following information:
+Create a text file labeled "ReadMe" with the following information:
 
 -   How you obtained, organized, and labeled your dataset.
 
@@ -241,13 +241,11 @@ Check the following to be sure everything is in order.
 ![](../assets/ds/doi_3.2a.png){ width="600" }
 
 After verifying you have read the instructions (i.e., this guide),
-    click \"I need a DOI\". You will receive a verification email that
+    click "Request DOI". You will receive a verification email that
     your request has been received, and a notification will be listed in
     the Notifications list in the DE.
 
-!!! note
-
-	At this point, your folder will move to a new location under Community Data/commons_repo/staging.
+!!! note "At this point, your folder will move to a new location under `Community Data/commons_repo/staging`."
 
 
 #### 3.3. Validations
