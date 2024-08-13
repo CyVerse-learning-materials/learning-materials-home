@@ -2,6 +2,8 @@
 
 ## Overview
 
+CyVerse Discovery Environment uses Kubernetes to orchestrate interactive applications including Jupyter, RStudio, Remote Desktops, etc.
+
 The Kubernetes Container Storage Interface (CSI) is a standardized interface that allows Kubernetes to interact with a wide variety of storage systems. By utilizing CSI, Kubernetes can dynamically provision, attach, mount, and manage storage volumes across different storage providers without being tightly coupled to any specific storage technology. This flexibility is crucial for ensuring that your containerized applications have reliable and consistent access to the storage they require, regardless of the underlying infrastructure.
 
 ## Purpose in the Discovery Environment VICE Apps
@@ -28,7 +30,7 @@ The CSI driver introduces an abstraction layer between Kubernetes and the underl
 
 **Real-time Data Transfers**: For applications that require low-latency, real-time data transfers, such as those using curl, wget, or similar tools, the latency introduced by the CSI driver might affect performance. The overhead of managing the connection between Kubernetes and the storage system could lead to slower transfer speeds, especially for large-scale data transfers or when dealing with numerous small files.
 
-### When Not to Use CSI
+## When Not to Use CSI
 
 Given these limitations, it may be more effective to avoid using the CSI driver in the following scenarios:
 
