@@ -53,6 +53,7 @@ nav:
     - 'Distributing Data in 6 steps': ds/quick-data-share.md
     - 'Sharing Apps Quick Start': vice/quick-app-launch.md
       #- 'Cloud Virtual Machines': atmo/quick-atmo.md
+    - 'Access Data in VICE Apps': vice/csi.md  
   - 'Cloud Services':
     - cloud/index.md
       #- 'Atmosphere': atmo/atmo.md
