@@ -44,14 +44,14 @@ GOCMD_VER=$(curl -L -s https://raw.githubusercontent.com/cyverse/gocommands/main
 curl -L -s https://github.com/cyverse/gocommands/releases/download/${GOCMD_VER}/gocmd-${GOCMD_VER}-darwin-arm64.tar.gz | tar zxvf -
 ```
 
-**:simple-windows: Windows :simple-amd: AMD64 with :simple-windowsterminal: Command Prompt**
+**:material-microsoft-windows-classic: Windows :simple-amd: AMD64 with :simple-windowsterminal: Command Prompt**
 
 ``` bash
 curl -L -s -o gocmdv.txt https://raw.githubusercontent.com/cyverse/gocommands/main/VERSION.txt && set /p GOCMD_VER=<gocmdv.txt
 curl -L -s -o gocmd.zip https://github.com/cyverse/gocommands/releases/download/%GOCMD_VER%/gocmd-%GOCMD_VER%-windows-amd64.zip && tar zxvf gocmd.zip && del gocmd.zip gocmdv.txt
 ```
 
-**:simple-windows: Windows :simple-amd: AMD64 with :simple-powershell: PowerShell**
+**:material-microsoft-windows-classic: Windows :simple-amd: AMD64 with :simple-powershell: PowerShell**
 
 ``` bash
 curl -o gocmdv.txt https://raw.githubusercontent.com/cyverse/gocommands/main/VERSION.txt ; $env:GOCMD_VER = (Get-Content gocmdv.txt)
