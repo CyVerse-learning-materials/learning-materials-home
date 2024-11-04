@@ -112,7 +112,7 @@ theme:
     code: Regular
   favicon: 'assets/favicon.ico'
   icon:
-    logo: 'assets/android-chrome-512x512.png'
+    logo: 'assets/android-chrome-512x512.svg'
 
 # Options
 extra:
