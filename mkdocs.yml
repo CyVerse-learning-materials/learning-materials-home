@@ -101,7 +101,9 @@ theme:
     - navigation.top
     - toc.integrate
     - toc.follow
-  # Default values, taken from mkdocs_theme.yml
+  favicon: 'assets/favicon.ico'
+  logo: 'assets/android-chrome-512x512.png'
+# Default values, taken from mkdocs_theme.yml
   language: en
   palette:
     # Palette toggle for light mode
