@@ -101,8 +101,6 @@ theme:
     - navigation.top
     - toc.integrate
     - toc.follow
-  favicon: 'assets/favicon.ico'
-  logo: 'assets/android-chrome-512x512.png'
 # Default values, taken from mkdocs_theme.yml
   language: en
   palette:
@@ -112,9 +110,9 @@ theme:
   font:
     text: Roboto
     code: Regular
-  favicon: assets/favicon.png
+  favicon: 'assets/favicon.ico'
   icon:
-    logo: material/rocket
+    logo: 'assets/android-chrome-512x512.png'
 
 # Options
 extra:
