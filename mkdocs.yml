@@ -111,8 +111,7 @@ theme:
     text: Roboto
     code: Regular
   favicon: 'assets/favicon.ico'
-  icon:
-    logo: 'assets/android-chrome-512x512'
+  logo: 'assets/android-chrome-512x512.png'
 
 # Options
 extra:
