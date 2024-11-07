@@ -71,28 +71,6 @@ nav:
     - 'Glossary': glossary.md
     - 'FAQ': faq.md
 
-  # Additions from FOSS Navigation
-  - 'CyVerse Foundational Open Science Skills 2024':
-    - 'Home':
-      - index.md
-      - 'Before FOSS Starts': installation.md
-      - 'Schedule': schedule.md
-      - 'Code of Conduct': code_of_conduct.md
-      - 'Glossary & Acronyms': glossary.md
-    - 'Lessons':
-      - '1. Open Science': 01_intro_open_sci.md
-      - '2. Data Management': 02_managing_data.md
-      - '3. Documentation & Communication': 03_documentation_communication.md
-      - '4. How to Talk to Computers': 04_talk_to_computer.md
-      - '5. Version Control': 05_version_control.md
-      - '6. Reproducibility I: Software Environments': 06_reproducibility_I.md
-      - '7. Reproducibility II: Run Containers': 07_reproducibility_II.md
-      - '8. Reproducibility III: Build Containers': 08_reproducibility_III.md
-      - '9. Remote Computing: Cyverse': 09_remote_computing_cyverse.md
-      - '10. Remote Computing: HPC': 10_reproducibility_IV.md
-    - 'Capstone Project':
-      - 'Overview': final_project/overview.md
-
 # Theme settings
 theme:
   name: material
