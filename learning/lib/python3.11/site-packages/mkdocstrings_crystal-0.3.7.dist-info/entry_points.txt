@@ -1,0 +1,2 @@
+[markdown.extensions]
+deduplicate-toc = mkdocstrings_handlers.crystal.deduplicate_toc:DeduplicateTocExtension

@@ -1,0 +1,1 @@
+mkdocs_pdf_export_plugin

@@ -1,0 +1,3 @@
+[markdown.extensions]
+callouts = markdown_callouts.callouts:CalloutsExtension
+github-callouts = markdown_callouts.github_callouts:GitHubCalloutsExtension

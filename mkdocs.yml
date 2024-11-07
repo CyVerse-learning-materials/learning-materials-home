@@ -1,19 +1,18 @@
-docs_dir: docs/
-repo_name: 'CyVerse-learning-materials/learning-materials-home'
-repo_url: 'https://github.com/CyVerse-learning-materials/learning-materials-home'
+# General site information
+site_name: CyVerse Learning Home
+site_description: Documentation for CyVerse Platforms and Education
+site_author: CyVerse Science Team
+site_url: https://learning.cyverse.org
 
-site_name: 'CyVerse Learning Home'
-site_description: 'Documentation for CyVerse Platforms and Education'
-site_author: 'CyVerse Science Team'
-site_url: 'https://learning.cyverse.org'
-
+# Repository information
+repo_name: CyVerse-learning-materials/learning-materials-home
+repo_url: https://github.com/CyVerse-learning-materials/learning-materials-home
 edit_uri: edit/main/docs
 
-# Copyright
+# Footer
 copyright: 'Copyright &copy; 2024 CyVerse'
 
-# Navigation Page
-
+# Navigation Page (merging both sets of navigation items)
 nav:
   - 'Home':
     - index.md
@@ -39,12 +38,9 @@ nav:
   - 'Run Analyses':
     - de/index.md
     - 'Logging In': de/login.md
-      ##- 'Managing Data through the DE': de/manage_data.md
     - 'Using Apps': de/using_apps.md
     - 'Managing Analyses': de/managing_analyses.md
     - 'Interactive Analysis': vice/about.md
-      #- 'Interactive Apps': vice/apps.md
-      #- 'Search': de/search.md
     - 'Sharing and Using Bags': de/bags.md
   - 'Quick Starts':
     - 'RStudio in 6 steps': vice/quick-rstudio.md
@@ -52,17 +48,12 @@ nav:
     - 'Cloud Shell in 6 steps': vice/quick-cloudshell.md
     - 'Distributing Data in 6 steps': ds/quick-data-share.md
     - 'Sharing Apps Quick Start': vice/quick-app-launch.md
-      #- 'Cloud Virtual Machines': atmo/quick-atmo.md
     - 'Access Data in VICE Apps': vice/csi.md  
   - 'Cloud Services':
     - cloud/index.md
-      #- 'Atmosphere': atmo/atmo.md
-      #- 'Jetstream': atmo/js.md
-      #- 'Continuous Analyses': atmo/cacao.md
   - 'Analyze Images':
     - bisque/index.md
   - 'For the Classroom':
-    #- 'Self-Guided Course': mooc.md
     - 'Teach using CyVerse': vice/teaching.md
     - 'DNA Subway': dna_subway_guide.md
   - 'Develop':
@@ -72,9 +63,6 @@ nav:
     - 'Developer Manuals': manuals.md
   - 'Science Tutorials':
     - tutorials/index.md
-      #- 'Bioinformatics': bioinformatics_tutorials.md
-      #- 'Geoinformatics': geoinformatics_tutorials.md
-      #- 'Other Topics': other_tutorials.md
   - 'CyVerse Workshops':
     - workshops/index.md
     - 'Container Camp': workshops/container_camp.md
@@ -83,15 +71,53 @@ nav:
     - 'Glossary': glossary.md
     - 'FAQ': faq.md
 
-# JavaScript for Intercom Widget
-# extra_javascript:
-#  - javascripts/intercom-learning.js
+  # Additions from FOSS Navigation
+  - 'CyVerse Foundational Open Science Skills 2024':
+    - 'Home':
+      - index.md
+      - 'Before FOSS Starts': installation.md
+      - 'Schedule': schedule.md
+      - 'Code of Conduct': code_of_conduct.md
+      - 'Glossary & Acronyms': glossary.md
+    - 'Lessons':
+      - '1. Open Science': 01_intro_open_sci.md
+      - '2. Data Management': 02_managing_data.md
+      - '3. Documentation & Communication': 03_documentation_communication.md
+      - '4. How to Talk to Computers': 04_talk_to_computer.md
+      - '5. Version Control': 05_version_control.md
+      - '6. Reproducibility I: Software Environments': 06_reproducibility_I.md
+      - '7. Reproducibility II: Run Containers': 07_reproducibility_II.md
+      - '8. Reproducibility III: Build Containers': 08_reproducibility_III.md
+      - '9. Remote Computing: Cyverse': 09_remote_computing_cyverse.md
+      - '10. Remote Computing: HPC': 10_reproducibility_IV.md
+    - 'Capstone Project':
+      - 'Overview': final_project/overview.md
 
-# Set theme to `readthedocs`
-# must also set Action to use `@nomaterial` branch instead of `@master` for material
+# Theme settings
 theme:
   name: material
-# setting features for the navigation tab
+  palette:
+    # Light mode settings
+    - media: "(prefers-color-scheme: light)"
+      primary: '#002E99'
+      accent: 'orange'
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode settings
+    - media: "(prefers-color-scheme: dark)"
+      primary: '#002E99'
+      accent: 'orange'
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: 'Roboto Mono'
+  favicon: 'assets/favicon.ico'
+  logo: 'assets/android-chrome-512x512.png'
   features:
     - navigation.instant
     - navigation.tracking
@@ -99,21 +125,11 @@ theme:
     - navigation.tabs.sticky
     - navigation.indexes
     - navigation.top
-    - toc.integrate
     - toc.follow
-# Default values, taken from mkdocs_theme.yml
-  language: en
-  palette:
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: cyverse-palette 
-  font:
-    text: Roboto
-    code: Regular
-  favicon: 'assets/favicon.ico'
-  logo: 'assets/android-chrome-512x512.png'
+    - content.code.copy
+    - palette.toggle
 
-# Options
+# Analytics and social links
 extra:
   social:
     - icon: fontawesome/brands/orcid
@@ -130,9 +146,17 @@ extra:
       link: https://www.youtube.com/c/CyverseOrgProject
   analytics:
     provider: google
-    property: G-6WMK2Y07YW
+    property: UA-72224033-6
 
-# Extensions
+# Extra CSS and JavaScript (added chatbot)
+extra_css:
+  - stylesheets/extra.css
+  - chatbot_widget.css
+
+extra_javascript:
+  - chatbot_widget.js
+
+# Markdown Extensions
 markdown_extensions:
   - admonition
   - abbr
@@ -173,13 +197,11 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-extra_css:
-  - stylesheets/extra.css
- 
+# Plugins
 plugins:
-    - search
-    - mkdocstrings
-    - git-revision-date
-    - mkdocs-jupyter:
-          include_source: True
-          ignore_h1_titles: True
+  - search
+  - mkdocstrings
+  - git-revision-date
+  - mkdocs-jupyter:
+      include_source: True
+      ignore_h1_titles: True

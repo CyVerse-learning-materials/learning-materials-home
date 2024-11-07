@@ -1,0 +1,16 @@
+{{ log.debug() }}
+
+<div class="doc doc-object doc-method doc-{{ obj.kind }}">
+  {% filter heading(heading_level, id=obj.abs_id, class="doc doc-heading", toc_label=obj.short_name) -%}
+    {% if obj.is_abstract %}<small>abstract</small> {% endif %}
+    {{ obj.args_string |code_highlight(title=obj.short_name, language="crystal", inline=True) }}
+  {%- endfilter %}
+
+  <div class="doc doc-contents {% if root %}first{% endif %}">
+    {% if obj.doc %}{{ obj.doc |convert_markdown_ctx(obj, heading_level, obj.abs_id) }}{% endif %}
+  </div>
+
+  {% if config.show_source_links and obj.location and obj.location.url %}
+    <a class="doc-source-link" href="{{ obj.location.url }}">View source</a>
+  {% endif %}
+</div>

@@ -1,0 +1,11 @@
+{{ log.debug() }}
+
+<div class="doc doc-object doc-{{ obj.kind }}">
+  {% filter heading(heading_level, id=obj.abs_id, class="doc doc-heading", toc_label=obj.name) -%}
+    {{ obj.value |code_highlight(title=obj.name + " = ", language="crystal", inline=True) }}
+  {%- endfilter %}
+
+  <div class="doc doc-contents {% if root %}first{% endif %}">
+    {% if obj.doc %}{{ obj.doc |convert_markdown_ctx(obj, heading_level, obj.abs_id) }}{% endif %}
+  </div>
+</div>

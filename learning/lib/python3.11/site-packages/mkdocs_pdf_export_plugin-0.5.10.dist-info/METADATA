@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: mkdocs-pdf-export-plugin
+Version: 0.5.10
+Summary: An MkDocs plugin to export content pages as PDF files
+Home-page: https://github.com/zhaoterryy/mkdocs-pdf-export-plugin/
+Author: Terry Zhao
+Author-email: zhao.terryy@gmail.com
+License: MIT
+Keywords: mkdocs pdf export weasyprint
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5
+License-File: LICENSE.md
+Requires-Dist: mkdocs (>=0.17)
+Requires-Dist: weasyprint (>=0.44)
+Requires-Dist: beautifulsoup4 (>=4.6.3)
+
+The pdf-export plugin will export all markdown pages in your MkDocs repository as PDF filesusing WeasyPrint. The exported documents support many advanced features missing in most otherPDF exports, such as a PDF Index and support for CSS paged media module.
+
