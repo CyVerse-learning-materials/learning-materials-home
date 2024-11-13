@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
         </div>
         <div id="chat-body">
             <iframe 
-                src="https://chat-qa.cyverse.org/learning" 
+                src="https://chat-qa.cyverse.org/learning/" 
                 id="chat-frame" 
                 width="100%" 
                 height="100%"
