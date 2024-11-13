@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
     chatContainer.id = 'chat-container';
     chatContainer.innerHTML = `
         <div id="chat-header">
-            <span>FOSS Chatbot</span>
+            <span>CyVerse Learning Chatbot</span>
             <button id="chat-close">X</button>
         </div>
         <div id="chat-body">
