@@ -8,25 +8,53 @@ Our Docker images are built from community-maintained image registries (i.e., [D
 
 There are a few common categories of featured interactive applications:
 
-1.  Terminal Access
-   
- 	- <a href="https://de.cyverse.org/apps/de/5f2f1824-57b3-11ec-8180-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/BASH-terminal-white?style=plastic&logo=gnometerminal"></a>
+**Linux Shell**
 
-3.  Integrated Development Environments (IDE)
-   
-	- <a href="https://de.cyverse.org/apps/de/c2227314-1995-11ed-986c-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/RStudio-latest-blue?style=plastic&logo=r"></a>
-	- <a href="https://de.cyverse.org/apps/de/c2227314-1995-11ed-986c-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/Datascience-latest-orange?style=plastic&logo=jupyter"></a>
- 	- <a href="https://de.cyverse.org/apps/de/091c830a-4be1-11ec-aad9-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/VS%20Code-latest-6C33AF?style=plastic&logo=visualstudiocode"></a>
+<a href="https://de.cyverse.org/instantlaunch/268f5f76-874c-11ef-a273-008cfa5ae621" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Cloud-Shell-white?style=plastic&logo=gnometerminal"></a>
+
+- To add this badge to your own `README.MD`:
+	```html
+	<a href="https://de.cyverse.org/instantlaunch/268f5f76-874c-11ef-a273-008cfa5ae621" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/BASH-terminal-white?style=plastic&logo=gnometerminal"></a>
+	```
+
+**Integrated Development Environments (IDE)**
+
+[:simple-rstudioide: Rocker RStudio](){target=_blank}
   
-4.  Virtual Desktop Environments:
-   
-   - Kasm based: <a href="https://de.cyverse.org/apps/de/26e8dca0-550b-11ee-8aa2-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/Ubuntu-22.04-green?style=plastic&logo=Ubuntu"></a>
-   - Xpra based: <a href="https://de.cyverse.org/apps/de/b5e65b52-0de5-11ee-9b7a-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/Ubuntu-22.04-green?style=plastic&logo=X.Org"></a>
-   - Geospatial Xpra based (QGIS/GRASS-GIS): <a href="https://de.cyverse.org/apps/de/4affa3c0-1362-11ee-bf34-008cfa5ae621/launch" target="_blank"><img src="https://img.shields.io/badge/QGIS-22.04-green?style=plastic&logo=qgis"></a>
+<a href="https://de.cyverse.org/instantlaunch/65baab58-7b4c-11ef-b6d1-008cfa5ae621" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/RStudio-latest-blue?style=plastic&logo=r"></a>
+- To add this badge to your own `README.MD`:
+	```html
+	<a href="https://de.cyverse.org/instantlaunch/65baab58-7b4c-11ef-b6d1-008cfa5ae621" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/RStudio-latest-blue?style=plastic&logo=r"></a>
+	```
 
-5. Web Server Applications
+[:simple-jupyter: Project Jupyter Lab](https://quay.io/organization/jupyter){target=_blank}
+
+<a href="https://de.cyverse.org/instantlaunch/2dd0d31e-7b4e-11ef-a0db-008cfa5ae621" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Datascience-latest-orange?style=plastic&logo=jupyter"></a>
+- To add this badge to your own `README.MD`:
+	```html
+	<a href="https://de.cyverse.org/instantlaunch/2dd0d31e-7b4e-11ef-a0db-008cfa5ae621" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Datascience-latest-orange?style=plastic&logo=jupyter"></a>
+ 	```
+
+[:material-microsoft-visual-studio-code: Visual Studio Code Server](https://code.visualstudio.com/docs/remote/vscode-server){target=_blank}
+
+<a href="https://de.cyverse.org/instantlaunch/f8fb49e2-b1be-11ef-b3fa-008cfa5ae621" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/VSCode-latest-6C33AF?style=plastic&logo=visualstudiocode"></a>
+- To add this badge to your own `README.MD`:
+	```html
+	<a href="https://de.cyverse.org/instantlaunch/f8fb49e2-b1be-11ef-b3fa-008cfa5ae621" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/VSCode-latest-6C33AF?style=plastic&logo=visualstudiocode"></a>
+	```
+  
+**Virtual Desktop Environments**
+
+<a href="https://de.cyverse.org/instantlaunch/4cd631f0-7b4e-11ef-a0db-008cfa5ae621" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Ubuntu-22.04-green?style=plastic&logo=Ubuntu"></a>
+- To add this badge to your own `README.MD`:
+	```html
+	<a href="https://de.cyverse.org/instantlaunch/4cd631f0-7b4e-11ef-a0db-008cfa5ae621" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Ubuntu-22.04-green?style=plastic&logo=Ubuntu"></a>
+ 	```
+
+
+**Web Server Applications**
    
-  	- StreamlitApps, ShinyApps, WebGL, HTML5, etc. 
+- StreamlitApps, ShinyApps, WebGL, HTML5, etc. 
 
 CyVerse hosts the container recipes (Dockerfiles) of its featured apps on GitHub: <https://github.com/cyverse-vice/>. These images are maintained by CyVerse staff.
 
