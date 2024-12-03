@@ -22,6 +22,7 @@ There are a few common categories of featured interactive applications:
 [:simple-rstudioide: Rocker RStudio](https://rocker-project.org/){target=_blank}
   
 <a href="https://de.cyverse.org/instantlaunch/65baab58-7b4c-11ef-b6d1-008cfa5ae621" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/RStudio-latest-blue?style=plastic&logo=r"></a>
+
 - To add this badge to your own `README.MD`:
 	```html
 	<a href="https://de.cyverse.org/instantlaunch/65baab58-7b4c-11ef-b6d1-008cfa5ae621" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/RStudio-latest-blue?style=plastic&logo=r"></a>
@@ -30,6 +31,7 @@ There are a few common categories of featured interactive applications:
 [:simple-jupyter: Project Jupyter Lab](https://quay.io/organization/jupyter){target=_blank}
 
 <a href="https://de.cyverse.org/instantlaunch/2dd0d31e-7b4e-11ef-a0db-008cfa5ae621" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Datascience-latest-orange?style=plastic&logo=jupyter"></a>
+
 - To add this badge to your own `README.MD`:
 	```html
 	<a href="https://de.cyverse.org/instantlaunch/2dd0d31e-7b4e-11ef-a0db-008cfa5ae621" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Datascience-latest-orange?style=plastic&logo=jupyter"></a>
@@ -38,6 +40,7 @@ There are a few common categories of featured interactive applications:
 [:material-microsoft-visual-studio-code: Visual Studio Code Server](https://code.visualstudio.com/docs/remote/vscode-server){target=_blank}
 
 <a href="https://de.cyverse.org/instantlaunch/f8fb49e2-b1be-11ef-b3fa-008cfa5ae621" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/VSCode-latest-6C33AF?style=plastic&logo=visualstudiocode"></a>
+
 - To add this badge to your own `README.MD`:
 	```html
 	<a href="https://de.cyverse.org/instantlaunch/f8fb49e2-b1be-11ef-b3fa-008cfa5ae621" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/VSCode-latest-6C33AF?style=plastic&logo=visualstudiocode"></a>
@@ -48,11 +51,11 @@ There are a few common categories of featured interactive applications:
 [KASM Desktops](https://hub.docker.com/r/kasmweb/desktop){target=_blank}
 
 <a href="https://de.cyverse.org/instantlaunch/4cd631f0-7b4e-11ef-a0db-008cfa5ae621" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Ubuntu-22.04-green?style=plastic&logo=Ubuntu"></a>
+
 - To add this badge to your own `README.MD`:
 	```html
 	<a href="https://de.cyverse.org/instantlaunch/4cd631f0-7b4e-11ef-a0db-008cfa5ae621" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Ubuntu-22.04-green?style=plastic&logo=Ubuntu"></a>
  	```
-
 
 **Web Server Applications**
    
