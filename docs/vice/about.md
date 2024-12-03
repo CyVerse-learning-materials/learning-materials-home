@@ -19,7 +19,7 @@ There are a few common categories of featured interactive applications:
 
 **Integrated Development Environments (IDE)**
 
-[:simple-rstudioide: Rocker RStudio](){target=_blank}
+[:simple-rstudioide: Rocker RStudio](https://rocker-project.org/){target=_blank}
   
 <a href="https://de.cyverse.org/instantlaunch/65baab58-7b4c-11ef-b6d1-008cfa5ae621" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/RStudio-latest-blue?style=plastic&logo=r"></a>
 - To add this badge to your own `README.MD`:
@@ -44,6 +44,8 @@ There are a few common categories of featured interactive applications:
 	```
   
 **Virtual Desktop Environments**
+
+[KASM Desktops](https://hub.docker.com/r/kasmweb/desktop){target=_blank}
 
 <a href="https://de.cyverse.org/instantlaunch/4cd631f0-7b4e-11ef-a0db-008cfa5ae621" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Ubuntu-22.04-green?style=plastic&logo=Ubuntu"></a>
 - To add this badge to your own `README.MD`:
