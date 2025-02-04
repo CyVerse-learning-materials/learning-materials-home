@@ -11,12 +11,12 @@ document.addEventListener('DOMContentLoaded', function () {
     chatContainer.id = 'chat-container';
     chatContainer.innerHTML = `
         <div id="chat-header">
-            <span>CyVerse Learning Chatbot</span>
-            <button id="chat-close">X</button>
+            <span>CyVerse Chatbot</span>
+            <button id="chat-close">×</button>
         </div>
         <div id="chat-body">
             <iframe 
-                src="https://chat-qa.cyverse.org/foss/" 
+                src="https://chat-qa.cyverse.org" 
                 id="chat-frame" 
                 width="100%" 
                 height="100%"
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Add event listener for iframe messages
     window.addEventListener('message', function(event) {
         // Verify the origin of the message
-        if (event.origin === 'https://chat-qa.cyverse.org/foss/') {
+        if (event.origin === 'https://chat-qa.cyverse.org') {
             if (event.data.type === 'link') {
                 // Open link in new tab
                 window.open(event.data.url, '_blank', 'noopener,noreferrer');
