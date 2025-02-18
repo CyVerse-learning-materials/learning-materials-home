@@ -125,7 +125,33 @@ These apps launch with their default number of cores, amount of RAM, and timeout
 
 ## Accessing data from VICE apps
 
-VICE apps have web access, so you can import data using methods like `curl` or querying external databases. You can also access your Data Store home and shared directories directly from a VICE app. Your home directory is found via the path `work/home/cyverse_username/`. You will also have access to any data shared with you in the Data Store via the path `work/home/shared/`. You will be able to read, write, and delete data from the Data Store from a VICE app, just as you would on a local filesystem. 
+VICE apps have web access, so you can import data using methods like `curl` or querying external databases. 
+
+You can also access your Data Store `/iplant/home/<username>` and `/iplant/home/shared/` directories directly from VICE apps via the CSI Driver. 
+
+Your Data Store home folder is mounted via the path `~/data-store/home/<username>/`. You will also have access to public Projects and private Projects shared with your username in the Data Store via the path `~/data-store/home/shared/`. 
+
+You will be able to read, write, and delete data from the Data Store from a VICE app, just as you would on a local filesystem. 
+
+**Important: data mounted over the CSI Driver in `~/data-store/home/<username>/` have much slower I/O performance than data in the `~/` or `~/data-store/`.**
+
+!!! Info "CSI Driver in VICE"
+
+	VICE Apps takes advantage of the [Kubernetes Container Storage Interface (CSI) Driver](https://kubernetes-csi.github.io/docs/introduction.html){target=_blank}.
+
+ 	This feature brings your Data Store into the container with you every time you launch a new analysis.
+
+  	Remember that these mounted data are being viewed over a network, and when they are moved or modified that their performance is much slower than the data that are physically located on the hard disk drives or SSD of the host where your Analysis container is running. 
+
+   	In general the CSI driver can handle Notebooks and small data files without any noticeable differences. 
+
+    	You will begin to see degredation in performance for operations requiring access to many files or very large files.
+
+     	For these types of processes, we recommend making a copy of your data in your current working directory, and moving them back to the Data Store when you're finished.
+
+      	Data can be moved over the CSI driver using normal UNIX commands like `cp` and or `mv` -- but be aware that any modifications you make will be recorded on the Data Store.
+
+       	Files that you have `read-only` access to will not be modified on the Data Store
 
 ??? Tip "Working with many files"
 	
