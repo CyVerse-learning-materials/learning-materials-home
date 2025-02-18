@@ -141,7 +141,7 @@ You will be able to read, write, and delete data from the Data Store from a VICE
 
  	This feature brings your Data Store into the container with you every time you launch a new analysis.
 
-  	Remember that these mounted data are being viewed over a network, and when they are moved or modified that their performance is much slower than the data that are physically located on the hard disk drives or SSD of the host where your Analysis container is running. 
+  	Remember: these mounted data are being viewed over the network and when they are moved or modified their performance is much slower than the data physically located on the hard disk drives or SSD of the host where your Analysis container is running. 
 
    	In general the CSI driver can handle Notebooks and small data files without any noticeable differences. 
 
@@ -149,9 +149,10 @@ You will be able to read, write, and delete data from the Data Store from a VICE
 
      	For these types of processes, we recommend making a copy of your data in your current working directory, and moving them back to the Data Store when you're finished.
 
-      	Data can be moved over the CSI driver using normal UNIX commands like `cp` and or `mv` -- but be aware that any modifications you make will be recorded on the Data Store.
+      	Data can be moved over the CSI driver using normal UNIX commands like `cp` and or `mv` but be aware that any modifications you make will be recorded on the Data Store.
 
        	Files that you have `read-only` access to will not be modified on the Data Store
+	
 
 ??? Tip "Working with many files"
 	
