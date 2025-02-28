@@ -1,6 +1,8 @@
-# Transferring Data with :simple-go: GoCommands and Command Line p
+# Transferring Data with :simple-go: GoCommands and Command Line
 
 GoCommands is a command-line tool developed by CyVerse. Unlike iCommands, GoCommands is portable which does not require any installation and runs on any modern OSes, such as MacOS, Linux, and Windows.
+
+GoCommands are the preferred and most effective method of transferring data within CyVerse, especially for large quantities of data. This is to not put strain on the connection, ensuring your data is transferred safely, and for the amount of flexibility and control that GoCommands offer.
 
 This section will cover the basics of GoCommands.
 
@@ -126,6 +128,16 @@ Give `-c` or `--config` flag to provide the configuration file.
 
 ------------------------------------------------------------------------
 
+## Setting up PATH
+
+Gocmd is downloaded as an executable file. There are several ways to run an executable file, however we recommend adding the path to the gocmd file to the PATH environment variable for ease of use. To do this in a Linux based system, you can run:
+
+`PATH=$PATH:<absolute/path/to/gocmd/file>`
+
+By doing this, anytime you run a `gocmd` command, the operating system will always know where to look for the file, regardless of your current location within the system. If you do not do this, you will simply have to provide the correct path to the gocmd file whenever you want to run a gocommand.  
+
+------------------------------------------------------------------------
+
 ## :material-guy-fawkes-mask: Anonymous Access to the CyVerse Data Store
 
 You can access public data in the CyVerse Data Store with GoCommands using:
@@ -182,6 +194,49 @@ There are several optional arguments that the `get` subcommand can take:
 
 ./gocmd get -f # to force the download and overwrite
 ```
+
+------------------------------------------------------------------------
+
+## Transferring Data from VICE to Data Store and vice versa
+
+When transferring data between VICE apps and data-store, you should use GoCommands as opposed to commands like `scp` or `sftp` for reasons such as improved speed, more control, and increased likelihood of the transfer going smoothly.
+
+To transfer data within VICE, the steps are essentially the same as transferring data to/from your local machine. It is highly important to transfer data to/from VICE to ensure that your data is saved when you exit the app, and so you can access community data, data from your other analyses, etc.
+
+To copy data from your VICE app to data-store:
+```
+gocmd put /vice_directory /iplant/home/cyverse_username/destination_folder
+```
+
+To copy data from data-store to your VICE app:
+```
+gocmd get /iplant/home/cyverse_username/destination_folder /vice_directory 
+```
+
+------------------------------------------------------------------------
+
+## Data Transfer in Bulk
+When transferring large files, or perhaps large amounts of somewhat small files, there are certain GoCommand options that can help the transfer go more smoothly. 
+
+Here is an example of a data transfer from my VICE app to data-store.
+
+```
+gocmd put --progress --thread_num 12 -f my_dir /iplant/home/my_username/
+```
+In this case, `my_dir` is a directory containing a large amount of medium (50-100mb) sized files. I chose to use the `--progress` flag to keep track of the progress as this is a bigger transfer. I also used `--thread_num` with 12 threads in order to speed up the transfer by parallel processing. Finally, I used `-f` to indicate that I want the transfer to replace any files or directories with the same name as the directory being transferred.
+
+Here is another example of data transfer, this time from data-store to a VICE app.
+
+```
+gocmd put --progress --thread_num 12 -f /iplant/home/my_username/my_file .
+```
+
+Note that this time, I am only transferring a single large file and placing it in my current diretory.
+
+------------------------------------------------------------------------
+
+## Encryption
+Encryption is an important part keeping your sensitive information secure during data transfer. Encryption essentially scrambles your data into an unreadable format such that only those with the encryption key can read it, thus protecting it from malicious third parties. To encrypt your files during a gocommands data transfer, you can add the `--encrypt` flag to your `gocmd get` and `gocmd put` commands.
 
 ------------------------------------------------------------------------
 
