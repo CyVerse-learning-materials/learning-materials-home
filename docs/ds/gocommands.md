@@ -233,6 +233,12 @@ gocmd put --progress --thread_num 12 -f /iplant/home/my_username/my_file .
 
 Note that this time, I am only transferring a single large file and placing it in my current diretory.
 
+??? Tip "Using `--no-hash`"
+
+    * Using the `--no-hash` flag when tranferring files will only check the file size when making file comparisons, leading to a much faster transfer speed
+    * It should only be used when the `--diff` flag is used to transfer files with different content
+    * :warning: However, it is possible that file content can be changed without changing file size, so this has a chance of error. Only use for data that you know very well
+
 ------------------------------------------------------------------------
 
 ## Encryption
