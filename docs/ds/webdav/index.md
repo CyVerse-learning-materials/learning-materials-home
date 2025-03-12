@@ -1,7 +1,7 @@
 # Manage Your Data Using WebDAV in the Data Store
 
 <figure markdown>
-  ![!ds](../../assets/ds/datastore_plchldr.png){ width="200" }
+  ![!ds](../assets/ds/datastore_plchldr.png){ width="200" }
 </figure>
 
 WebDAV (Web Distributed Authoring and Versioning) is a network protocol built on top of HTTP/HTTPS, enabling users to manage data on web servers. It operates over HTTP/HTTPS, ensuring secure data exchange between the client and server, with broad compatibility across various environments. WebDAV provides a flexible and reliable solution for managing data.

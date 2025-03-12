@@ -1,7 +1,7 @@
 # Manage Your Data with iCommands
 
 <figure markdown>
-  ![!ds](../../assets/ds/datastore_plchldr.png){ width="200" }
+  ![!ds](../assets/ds/datastore_plchldr.png){ width="200" }
 </figure>
 
 iCommands is a command-line tool designed for efficient data management in iRODS. Developed by the iRODS Consortium, which created the iRODS data system powering the Data Store, iCommands provides robust support for data transfers, synchronization, access control, and metadata management. It is compatible with popular Linux environments.  

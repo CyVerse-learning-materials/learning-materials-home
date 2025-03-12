@@ -1,7 +1,7 @@
 # Manage Your Data with GoCommands
 
 <figure markdown>
-  ![!ds](../../assets/ds/datastore_plchldr.png){ width="200" }
+  ![!ds](../assets/ds/datastore_plchldr.png){ width="200" }
 </figure>
 
 GoCommands is a lightweight, portable command-line tool designed for seamless data management within the Data Store. It provides comprehensive support for data transfers, bulk transfers, synchronization, access control, SFTP configuration, and metadata management. As a versatile alternative to iCommands, GoCommands runs on virtually any operating system, including embedded environments like Raspberry Pi, offering greater flexibility across platforms.
