@@ -1,17 +1,4 @@
-# Data Management
-
-GoCommands offers a variety of commands to help you manage your data in the Data Store. In the Data Store, `file` and `directory` are treated as `data objects` and `collections`, respectively. It's perfectly fine to consider these terms interchangeable.
-
-## :material-database-edit-outline: List files (Data Objects) and directories (Collections) in the Data Store
-
-## 
-
-
-
-
-
-
-
+# Configuration
 
 ## :material-cog-outline: Using `init` Command
 

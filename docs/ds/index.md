@@ -49,7 +49,6 @@ Additional resources for managing your data and team collaboration:
   2. [Checking Data Usage](check_data.md): Monitor your data usage and storage limits
   3. [Team Access Management](teams.md): Create and manage teams in the Data Store for collaborative work
 
-
 ---
 
 ## [:material-laptop: Manage Your Data in Discovery Environment](de/index.md)
@@ -76,14 +75,14 @@ WebDAV (Web Distributed Authoring and Versioning) is a protocol built on top of 
 
 CyberDuck is a popular open-source file transfer client for macOS that provides easy access to the Data Store. Its intuitive graphical interface ensures seamless file transfer and management. This section provides step-by-step instructions for using Cyberduck to transfer data to and from the Data Store.
 
-## [:simple-doi: Getting a DOI](doi)
+## [:simple-doi: Getting a DOI](doi.md)
 
 A Digital Object Identifier (DOI) offers a permanent and stable link to your data. Learn how to obtain a DOI for your datasets stored in the Data Store, ensuring long-term citation and accessibility.
 
-## [Checking Data Storage](check_data)
+## [Checking Data Storage](check_data.md)
 
 Keep track of your data usage and storage limits. This section covers tools and techniques for monitoring your data storage within the Data Store.
 
-## [![team](../assets/de/menu_items/teamsIcon_2.svg){width=25} Managing Data within a Team](teams)
+## [![team](../assets/de/menu_items/teamsIcon_2.svg){width=25} Managing Data within a Team](teams.md)
 
 Efficiently manage team access and permissions for your data. Learn how to create and manage teams in the Data Store to facilitate collaborative data work.

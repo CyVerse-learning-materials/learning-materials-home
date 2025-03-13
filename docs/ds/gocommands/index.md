@@ -1,7 +1,7 @@
 # Manage Your Data with GoCommands
 
 <figure markdown>
-  ![!ds](../assets/ds/datastore_plchldr.png){ width="200" }
+  ![!ds](../../assets/ds/datastore_plchldr.png){ width="200" }
 </figure>
 
 GoCommands is a lightweight, portable command-line tool designed for seamless data management within the Data Store. It provides comprehensive support for data transfers, bulk transfers, synchronization, access control, SFTP configuration, and metadata management. As a versatile alternative to iCommands, GoCommands runs on virtually any operating system, including embedded environments like Raspberry Pi, offering greater flexibility across platforms.
@@ -14,20 +14,25 @@ This guide covers installation, data transfer methods, access management, and me
 ### Table of Contents
 
 1. [Installation and Upgrade](installation.md)
-2. [Data Management](data_management.md)
-3. [Data Transfer](data_transfer.md)
-4. [Bulk Data Transfer](bulk_data_transfer.md)
-5. [Data Synchronization](data_synchronization.md)
-6. [Access Management](access_management.md)
-7. [Metadata Management](metadata_management.md)
-8. [SFTP Access Configuration](sftp_configuration.md)
-9. [Issue Report](issue_report.md)
+2. [Configuration](configuration.md)
+3. [Data Management](data_management.md)
+4. [Data Transfer](data_transfer.md)
+5. [Bulk Data Transfer](bulk_data_transfer.md)
+6. [Data Synchronization](data_synchronization.md)
+7. [Access Management](access_management.md)
+8. [Metadata Management](metadata_management.md)
+9. [SFTP Public-key Authentication Configuration](sftp_public_key_auth.md)
+10. [Issue Report](issue_report.md)
 
 ---
 
-## [:simple-go: Installation](installation.md)
+## [:simple-go: Installation and Upgrade](installation.md)
 
-Set up GoCommands in your environment and configure it for seamless interaction with the Data Store. This section also covers best practices for keeping GoCommands updated.
+Install GoCommands in your environment to efficiently manage your data in the Data Store. This section also provides best practices for keeping GoCommands up-to-date.
+
+## [:simple-go: Configuration](configuration.md)
+
+Set up GoCommands in your environment for seamless interaction with the Data Store.
 
 ## [:simple-go: Data Management](data_management.md)
 
@@ -53,7 +58,7 @@ Manage file and directory permissions effectively. Learn how to grant, modify, a
 
 Enhance data discoverability and organization by adding, updating, and managing metadata for files stored in the Data Store.
 
-## [:simple-go: SFTP Access Configuration](sftp_configuration.md)
+## [:simple-go: SFTP Public-key Authentication Configuration](sftp_public_key_auth.md)
 
 Set up and configure public-key authentication for secure SFTP access to the Data Store. This section walks you through the setup process.
 
