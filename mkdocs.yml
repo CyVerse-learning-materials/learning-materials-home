@@ -49,6 +49,7 @@ nav:
     - 'Distributing Data in 6 steps': ds/quick-data-share.md
     - 'Sharing Apps Quick Start': vice/quick-app-launch.md
     - 'Access Data in VICE Apps': vice/csi.md  
+    - 'Running your LLM for inference': vice/quick-ollama.md
   - 'Cloud Services':
     - cloud/index.md
   - 'Analyze Images':
