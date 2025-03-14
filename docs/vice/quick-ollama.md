@@ -8,9 +8,9 @@ If you have not yet created an account, go to the [User Portal](https://user.cyv
 
 ## 2. Launch the JupyterLab Pytorch GPU App
 
-[![jupyter_1]][jupyter_1]
+[![ollama_1]][ollama_1]
 
-  [jupyter_1]: ../assets/de/jupyter_1.png
+  [ollama_1]: ../assets/de/ollama_1.png
 
 Click on the **Apps** grid icon.
 
@@ -20,27 +20,27 @@ Click on the **Apps** grid icon.
 
 The conventional launch menu allows you to modify the App parameters. You can add input data, increase the amount of RAM or CPU cores, and change the analysis directory.
 
-[![jupyter_2]][jupyter_2]
+[![ollama_2]][ollama_2]
 
-  [jupyter_2]: ../assets/de/jupyter_2.png
+  [ollama_2]: ../assets/de/ollama_2.png
 
 ## 3. Open the Analysis
 
 After you have started a VICE app, a new tab will automatically open in your browser and take you to the loading screen.
 
-[![jupyter_3]][jupyter_3]
+[![ollama_3]][ollama_3]
 
-  [jupyter_3]: ../assets/de/jupyter_3.png
+  [ollama_3]: ../assets/de/ollama_3.png
 
-[![jupyter_4]][jupyter_4]
+[![ollama_4]][ollama_4]
 
-  [jupyter_4]: ../assets/de/jupyter_4.png
+  [ollama_4]: ../assets/de/ollama_4.png
 
 Once the app is ready, it will transition to the user interface. 
 
-[![jupyter_5]][jupyter_5]
+[![ollama_5]][ollama_5]
 
-  [jupyter_5]: ../assets/de/jupyter_5.png
+  [ollama_5]: ../assets/de/ollama_5.png
 
 
 We will focus on running an llm for inference using _Ollama as a server_. The Jupyter Lab with Pytorch GPU, comes with Ollama preinstalled, which is necessary to run LLMs.
@@ -52,29 +52,31 @@ The left sidebar contains a file browser, the list of running kernels and termin
   
     Normal wait time for a featured VICE app to launch is less than 2 minutes. If you're experiencing a significantly longer wait, consider terminating the Analysis and starting a new one.
 
-## 4. Download and run an LLM
+## 4. Download and run an LLM using Ollama
 
 From Jupyter's Launch menu, select the black Terminal console icon.
 
 This will take you to a command line shell.
 
-Run the following command to pull Llama 3.1 from the cloud:
+Run the following command to start Ollama in _server mode_:
 
 ```bash 
-$ ollama pull llama3.1
-```
-
-and then, start the server:
-
-```bash
 $ ollama serve
 ```
-
 Without closing the shell tab, Ollama will be running in server mode, ready to be called from any jupyter notebook or python script.
+
+Open a new tab with a console and then, pull the model you're interested in. For example `llama 3.1`:
+
+```bash
+$ ollama pull llama3.1
+```
+It is necessary to fetch ahead of time the model you're interested in using. You can find the list of supported LLMs at (https://ollama.com/search)[Ollama's Hub].
 
 ## 5. Create Jupyter notebook to interface with the LLM.
 
 [Ollama LLM usage example](https://github.com/ua-datalab/Generative-AI/blob/main/Notebooks/Running%20LLM%20locally%20-%20Ollama.ipynb)
+
+After starting Ollama in server mode and downloading the relevant models, you can run your code that uses the aformentioned models.
 
 To create a notebook, click the `+` button which opens the new Launcher tab.
 
@@ -91,9 +93,9 @@ are no longer actively running analyses.
 
 In the Analyses window, select the app (by clicking the checkbox next to it), select "More Actions", then "Terminate" to shut down the app.
 
-[![jupyter_7]][jupyter_7]
+[![ollama_7]][ollama_7]
 
-  [jupyter_7]: ../assets/de/jupyter_7.png
+  [ollama_7]: ../assets/de/ollama_7.png
 
 
 
