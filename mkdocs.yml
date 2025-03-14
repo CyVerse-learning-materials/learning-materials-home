@@ -85,6 +85,7 @@ nav:
     - cloud/index.md
     - cloud/cacao.md
     - cloud/datawatch.md
+    - 'Using DataWatch CLI/API': cloud/using_datawatch.md
     - cloud/harbor.md
   - 'Artificial Intelligence':
     - ai/index.md

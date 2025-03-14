@@ -19,3 +19,7 @@ Access to [Jetstream 2 login](https://use.jetstream-cloud.org/application){targe
 CyVerse has built continuous frameworks for its own [![][atmo]{width=25}](https://atmo.cyverse.org){target=_blank} [Atmosphere](https://atmo.cyverse.org){target=_blank} cloud and for [Jetstream 2](https://jetstream-cloud.org){target=_blank}
 
 [![][cacao]{width=30}](https://gitlab.com/cyverse/cacao/-/blob/master/README.md){target=_blank} [CACAO](https://gitlab.com/cyverse/cacao/-/blob/master/README.md){target=_blank} is a project enabling Continuous Analysis on Kubernetes clusters.
+
+## [DataWatch](../cloud/datawatch.md)
+
+[DataWatch](https://gitlab.com/cyverse/datawatch) is a service that is integrated with CyVerse DataStore, it will trigger actions (HTTP webhook, WebDAV, Email) based on files changes in iRODS(DataStore).
