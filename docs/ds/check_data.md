@@ -1,4 +1,4 @@
-# Checking Your Data Storage
+# Checking Your Data Storage Quotas
 
 You can see how much data you are storing in the Data Store from the Resource Usage area of the Discovery Environment Home screen. But what if you want to delete some large folders, or check for duplicate files? The DataHog app can help you understand more about the size of the folders and files you have in the Data Store.
 

@@ -1,6 +1,6 @@
 [team]: ../assets/de/menu_items/teamsIcon_2.svg
 
-# CyVerse Teams
+# Managing Data within a Team
 
 The ![team]{width=20} Teams feature allows you to create, organize, and join public or private groups of collaborators. Teams is accessible through the left side menu, or by going through the following link: https://de.cyverse.org/teams. The goal of Teams is to enable a simpler method to share Apps, Tools and data with collaborators. 
 
