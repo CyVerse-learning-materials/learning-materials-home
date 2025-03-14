@@ -1,4 +1,4 @@
-![!CyVerse Professional Services](assets/cyverse_logos_professional.png "CyVerse Professional Services"){ width="400" }
+![!CyVerse Professional Services](../assets/cyverse_logos_professional.png "CyVerse Professional Services"){ width="400" }
 
 # Leveraging CyVerse Services
 
@@ -6,7 +6,7 @@ CyVerse public platform provides a nominal quantity of compute and data storage 
 
 For researchers who need more, we also provide mechanisms for extending and powering your research.
 
-![Professional Services](assets/pro_service_person.png){ width="400" }
+![Professional Services](../assets/pro_service_person.png){ width="400" }
 
 ## [Professional Services](https://cyverse.org/professional-services){target=_blank}
 

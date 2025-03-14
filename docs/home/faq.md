@@ -55,7 +55,7 @@
 
 ??? question "**How do I connect to a shared or public folder with CyberDuck?**"
 
-    See our [using CyberDuck documentation](ds/cyberduck.md).
+    See our [using CyberDuck documentation](../ds/cyberduck/index.md).
 
 -----------------------------------------------------------------------
 

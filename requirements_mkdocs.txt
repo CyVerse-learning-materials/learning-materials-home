@@ -31,3 +31,4 @@ pymdown-extensions>=9.4
 
 # Requirements for plugins
 requests>=2.26
+cairosvg

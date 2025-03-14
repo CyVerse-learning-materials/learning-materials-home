@@ -1,6 +1,6 @@
 # DNA Subway
 
-![subway_logo](./assets/dna_subway/dnasubway-icon.png){width="201px" height="105px"}
+![subway_logo](assets/dna_subway/dnasubway-icon.png){width="201px" height="105px"}
 
 ### Goal
 

@@ -1,27 +1,26 @@
-# Manage Your Data with the Data Store
+# Data Store
 
 <figure markdown>
   ![!ds](../assets/ds/datastore_plchldr.png){ width="200" }
 </figure>
 
-The Data Store is a platform designed for storing, managing, and sharing your data throughout its entire lifecycle. Integrated across all CyVerse platforms, it offers broad accessibility. The Data Store's features are aimed at helping you maintain data integrity and value, while making your data more FAIR (Findable, Accessible, Interoperable, and Reusable) with minimal effort.
+CyVerse Data Store runs the [Integrated Rule-Oriented Data System (iRODS)](https://irods.org){target=_blank} Open Source Data Management Software.
+
+iRODS helps researchers, archivists, and others manage large, geographically dispersed computer files by providing a virtual filesystem, metadata catalog, and a rule engine to automate data management and enforce policies. 
+
+The Data Store is designed for storing, managing, and sharing your data throughout its entire lifecycle. 
+
+Integrated across all CyVerse platforms, the Data Store has high accessibility and connectivity.  
+
+The Data Store's features are aimed at helping you maintain data integrity and value, while making your data more FAIR (Findable, Accessible, Interoperable, and Reusable) with minimal effort.
 
 This guide will walk you through the essential steps to get started, assuming you’ve already created a CyVerse account.
 
 ---
 
-### Table of Contents
+## [:material-laptop: Manage Your Data in Discovery Environment](manage_data.md)
 
-1. [Manage Your Data with GoCommands](gocommands)
-2. [Manage Your Data with iCommands](icommands)
-3. [Manage Your Data Using SFTP in the Data Store](sftp)
-4. [Manage Your Data Using WebDAV in the Data Store](webdav)
-5. [Manage Your Data with CyberDuck](cyberduck)
-6. [Get a DOI](doi)
-5. [Check Data Storage Quotas](check_data)
-6. [Managing Data within a Team](teams)
-
----
+The Discovery Environment has a fully managed interface for uploading, downloading, sharing, and adding metadata to the Data Store through your browser.
 
 ## [:simple-go: Manage Your Data with GoCommands](gocommands)
 

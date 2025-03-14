@@ -10,7 +10,7 @@ repo_url: https://github.com/CyVerse-learning-materials/learning-materials-home
 edit_uri: edit/main/docs
 
 # Footer
-copyright: 'Copyright &copy; 2024 CyVerse'
+copyright: 'Copyright &copy; 2025 CyVerse'
 
 # Navigation Page (merging both sets of navigation items)
 nav:
@@ -18,7 +18,9 @@ nav:
     - index.md
     - 'What is CyVerse?': home/what_is_cyverse.md
     - 'Set Up an Account': home/account.md
-    - 'FAQ': home/faq.md
+    - 'Subscriptions': home/subscriptions.md
+    - 'Powered by CyVerse': home/powered_by.md
+    # - 'FAQ': home/faq.md # needs to be updated
     - 'Glossary': home/glossary.md
   - 'Data Management':
     - ds/index.md
@@ -43,6 +45,7 @@ nav:
       - 'Metadata Management': ds/icommands/metadata_management.md
       - 'SFTP Access Configuration': ds/icommands/sftp_configuration.md
     - 'SFTP':
+      - ds/sftp/index.md
       - 'CLI tools': ds/sftp/cli.md
       - 'FileZilla': ds/sftp/filezilla.md
       - 'Public-key Authentication': ds/sftp/public_key_configuration.md
@@ -54,47 +57,50 @@ nav:
       - ds/cyberduck/index.md
       - 'iRODS profile': ds/cyberduck/irods.md
       - 'SFTP profile': ds/cyberduck/sftp.md
+    - 'Quickstarts': 
+      - 'Distributing Data in 6 steps': ds/quick/quick-data-share.md
     - 'Issue Reporting': ds/issue_report.md
-  - 'Discovery Environment':
-    - de/index.md
-    - 'Adding Metadata': ds/metadata.md
-    - 'Sharing Data': ds/share.md
-    - 'Getting a DOI': ds/doi.md
-    - 'Checking Data Storage': ds/check_data.md
-    - 'Teams': ds/teams.md
   - 'Discovery Environment':
     - de/index.md
     - 'Logging In': de/login.md
     - 'Using Apps': de/using_apps.md
     - 'Managing Analyses': de/managing_analyses.md
     - 'Interactive Analysis': vice/about.md
+    - 'Integrate Apps and Tools': de/create_apps.md
+    - 'Integrate Interactive Apps': vice/extend_apps.md
     - 'Sharing and Using Bags': de/bags.md
-  - 'Quick Starts':
-    - 'RStudio in 6 steps': vice/quick-rstudio.md
-    - 'JupyterLab in 6 steps': vice/quick-jupyter.md
-    - 'Cloud Shell in 6 steps': vice/quick-cloudshell.md
-    - 'Distributing Data in 6 steps': ds/quick-data-share.md
-    - 'Sharing Apps Quick Start': vice/quick-app-launch.md
-    - 'Access Data in VICE Apps': vice/csi.md  
+    - 'Adding Metadata': ds/metadata.md
+    - 'Sharing Data': ds/share.md
+    - 'Getting a DOI': ds/doi.md
+    - 'Checking Data Storage': ds/check_data.md
+    - 'Teams': ds/teams.md
+    - 'Quick Starts':
+      - 'RStudio in 6 steps': de/vice/quick-rstudio.md
+      - 'JupyterLab in 6 steps': de/vice/quick-jupyter.md
+      - 'Cloud Shell in 6 steps': de/vice/quick-cloudshell.md
+      - 'Running Ollama': de/vice/quick-ollama.md
+      - 'Sharing Apps Quick Start': de/vice/quick-app-launch.md
+      - 'Access Data in VICE Apps': de/vice/csi.md  
   - 'Cloud Native Services':
     - cloud/index.md
-  - 'For the Classroom':
-    - 'Teach using CyVerse': vice/teaching.md
-    - 'DNA Subway': dna_subway_guide.md
-  - 'Develop':
-    - 'Integrate Apps and Tools': de/create_apps.md
-    - 'Interactive Apps': vice/extend_apps.md
-    - 'Powered by CyVerse': powered_by.md
+    - cloud/cacao.md
+    - cloud/datawatch.md
+    - cloud/harbor.md
+  - 'Artificial Intelligence':
+    - ai/index.md
+    - 'VERDE': ai/verde.md
+  - 'Education':
+    - edu/index.md
+    - 'Workshops':
+      - edu/workshops/index.md
+      - 'Container Camp': edu/workshops/container_camp.md
+      - 'Foundational Open Science Skills': edu/workshops/foss.md
+    - 'Science Tutorials':
+      - edu/tutorials/index.md
+      - 'DNA Subway': edu/tutorials/dna_subway_guide.md    
+  - 'Developer Tools':
     - 'Developer Manuals': manuals.md
-  - 'Science Tutorials':
-    - tutorials/index.md
-  - 'CyVerse Workshops':
-    - workshops/index.md
-    - 'Container Camp': workshops/container_camp.md
-    - 'Foundational Open Science Skills': workshops/foss.md
-  - 'Reference':
-    - 'Glossary': glossary.md
-    - 'FAQ': faq.md
+  
 
 # Theme settings
 theme:
@@ -191,8 +197,8 @@ markdown_extensions:
   - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.keys
