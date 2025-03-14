@@ -279,4 +279,9 @@ You didn't set environment variable `export DATAWATCH_API=https://datawatch.cyve
 
 # Open API spec
 
-[OpenAPI spec of the DataWatch REST API](https://gitlab.com/cyverse/datawatch/-/blob/master/docs/openapi/datawatch-openapi.yaml)
+DataWatch exposes a REST API that can be accessed with a keycloak token as the bearer token in the `Authorization` header, here is the [OpenAPI spec](https://gitlab.com/cyverse/datawatch/-/blob/master/docs/openapi/datawatch-openapi.yaml).
+
+## Obtaining Keycloak token
+You can obtain an keycloak token by making a `GET` request to https://datawatch.cyverse.org/keycloakToken with username and password query parameter.
+
+e.g. `curl https://datawatch.cyverse.org/keycloakToken?username=YourUsername&password=YourPassword`
