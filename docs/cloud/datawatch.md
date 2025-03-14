@@ -2,7 +2,7 @@
 
 DataWatch is a service that is integrated with CyVerse DataStore, it will trigger actions based on files changes in iRODS(DataStore). To use this service, you create a DataWatch listener that will listen on one or more iRODS directories. When triggered, the listener will perform the action you defined in the listener (HTTPS webhook, email, etc.) with a list of events, each event represent changes of a single file. 
 
-> There is currently no Web UI for DataWatch, user can only access DataWatch via [REST API or CLI](../cloud/using_datawatch.md).
+> There is currently no Web UI for DataWatch, user can only access DataWatch via [REST API or CLI](#using-datawatch).
 
 ## Important Details
 
@@ -195,7 +195,7 @@ Subject: DataWatch Notification
 ]
 ```
 
-## Using DataWatch
+# Using DataWatch
 
 There is currently no Web UI for DataWatch, user can only access DataWatch via REST API or CLI.
 
