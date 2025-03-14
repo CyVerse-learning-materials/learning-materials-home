@@ -18,6 +18,7 @@ nav:
     - index.md
     - 'What is CyVerse?': home/what_is_cyverse.md
     - 'Set Up an Account': home/account.md
+    - 'Subscriptions': home/subscriptions.md
     - 'FAQ': home/faq.md
     - 'Glossary': home/glossary.md
   - 'Data Management':
@@ -54,47 +55,48 @@ nav:
       - ds/cyberduck/index.md
       - 'iRODS profile': ds/cyberduck/irods.md
       - 'SFTP profile': ds/cyberduck/sftp.md
+    - 'Adding Metadata': ds/metadata.md
     - 'Issue Reporting': ds/issue_report.md
   - 'Discovery Environment':
     - de/index.md
-    - 'Adding Metadata': ds/metadata.md
     - 'Sharing Data': ds/share.md
     - 'Getting a DOI': ds/doi.md
     - 'Checking Data Storage': ds/check_data.md
     - 'Teams': ds/teams.md
-  - 'Discovery Environment':
-    - de/index.md
     - 'Logging In': de/login.md
     - 'Using Apps': de/using_apps.md
     - 'Managing Analyses': de/managing_analyses.md
     - 'Interactive Analysis': vice/about.md
     - 'Sharing and Using Bags': de/bags.md
-  - 'Quick Starts':
-    - 'RStudio in 6 steps': vice/quick-rstudio.md
-    - 'JupyterLab in 6 steps': vice/quick-jupyter.md
-    - 'Cloud Shell in 6 steps': vice/quick-cloudshell.md
-    - 'Distributing Data in 6 steps': ds/quick-data-share.md
-    - 'Sharing Apps Quick Start': vice/quick-app-launch.md
-    - 'Access Data in VICE Apps': vice/csi.md  
+    - 'Quick Starts':
+      - 'RStudio in 6 steps': vice/quick-rstudio.md
+      - 'JupyterLab in 6 steps': vice/quick-jupyter.md
+      - 'Cloud Shell in 6 steps': vice/quick-cloudshell.md
+      - 'Distributing Data in 6 steps': ds/quick-data-share.md
+      - 'Sharing Apps Quick Start': vice/quick-app-launch.md
+      - 'Access Data in VICE Apps': vice/csi.md  
   - 'Cloud Native Services':
     - cloud/index.md
-  - 'For the Classroom':
-    - 'Teach using CyVerse': vice/teaching.md
-    - 'DNA Subway': dna_subway_guide.md
+    - 'CACAO': cloud/cacao.md
+    - 'DataWatch': cloud/datawatch.md
+
   - 'Develop':
     - 'Integrate Apps and Tools': de/create_apps.md
     - 'Interactive Apps': vice/extend_apps.md
     - 'Powered by CyVerse': powered_by.md
     - 'Developer Manuals': manuals.md
-  - 'Science Tutorials':
-    - tutorials/index.md
-  - 'CyVerse Workshops':
-    - workshops/index.md
-    - 'Container Camp': workshops/container_camp.md
-    - 'Foundational Open Science Skills': workshops/foss.md
-  - 'Reference':
-    - 'Glossary': glossary.md
-    - 'FAQ': faq.md
+  - 'Education':
+    - edu/index.md
+    - 'For the Classroom':
+      - 'Teach using CyVerse': vice/teaching.md
+      - 'DNA Subway': dna_subway_guide.md
+    - 'Science Tutorials':
+      - tutorials/index.md
+    - 'CyVerse Workshops':
+      - workshops/index.md
+      - 'Container Camp': workshops/container_camp.md
+      - 'Foundational Open Science Skills': workshops/foss.md
+
 
 # Theme settings
 theme:
