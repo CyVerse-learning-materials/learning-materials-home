@@ -100,9 +100,8 @@ nav:
       - edu/workshops/index.md
       - 'Container Camp': edu/workshops/container_camp.md
       - 'Foundational Open Science Skills': edu/workshops/foss.md
-    - 'Science Tutorials':
-      - edu/tutorials/index.md
-      - 'DNA Subway': edu/tutorials/dna_subway_guide.md    
+    - 'Science Tutorials': edu/tutorials/index.md
+    - 'DNA Subway': edu/tutorials/dna_subway_guide.md    
   - 'Developer Tools':
     - 'Developer Manuals': dev/manuals.md
   
