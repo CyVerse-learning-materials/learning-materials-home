@@ -6,7 +6,7 @@ CyVerse is owned by The Arizona Board of Regents and is operated primarily at Th
 
 CyVerse leverages public computing resources across the United States through partnerships with the National Science Foundation's [ACCESS-CI](https://access-ci.org){target=_blank} program, connected over the [Internet2](https://internet2.edu){target=_blank} 
 
-CyVerse was originally funded by the USA National Science Foundation in 2008 to handle huge datasets and complex analyses for the USA Plant Sciences community. Today, we have 16 years of experience working with tens of thousands of scientific researchers across Astronomy, Life, Earth, Health, Defense, and Space Sciences from over 200 countries. 
+CyVerse was originally funded by the USA National Science Foundation in 2008 to handle huge datasets and complex analyses for the USA Plant Sciences community. Today, we have 16 years of experience working with tens of thousands of scientific researchers across Astronomy, Life, Earth, Health, Defense, and Space Sciences from over 160 countries. 
 
 To date, CyVerse has directly enabled over $280,000,000 in externally funded research projects in the United States, and has been cited in over 1,400 peer-reviewed research articles as the computational and data management platform which enabled the science. 
 

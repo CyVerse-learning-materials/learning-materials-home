@@ -1,4 +1,4 @@
-# Distributing Data in 6 Steps
+# Sharing Data in the Discovery Environment
 
 [de]: ../assets/de/logos/deIcon.svg
 [data]: ../assets/de/menu_items/dataIcon.svg

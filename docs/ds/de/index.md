@@ -1,4 +1,4 @@
-# Managing Data in the Discovery Environment
+# Data Store in Discovery Environment
 
 With CyVerse, you can manage data throughout the data lifecycle, from uploading, to adding metadata, to analyzing, sharing results, and making your data public for others to reuse. 
 
@@ -10,13 +10,13 @@ The [![de]{width="25"} Discovery Environment](https://de.cyverse.org){target=_bl
     
 ## Browsing Data in the Discovery Environment
 
-[de]: ../assets/de/logos/deIcon.svg
-[data]: ../assets/de/menu_items/dataIcon.svg
-[analyses]: ../assets/de/menu_items/analysisIcon.svg
-[apps]: ../assets/de/menu_items/appsIcon.svg
-[help]: ../assets/de/menu_items/helpIcon.svg
-[home]: ../assets/de/menu_items/homeIcon.svg
-[profile]: ../assets/de/icons/userIcon.svg
+[de]: ../../assets/de/logos/deIcon.svg
+[data]: ../../assets/de/menu_items/dataIcon.svg
+[analyses]: ../../assets/de/menu_items/analysisIcon.svg
+[apps]: ../../assets/de/menu_items/appsIcon.svg
+[help]: ../../assets/de/menu_items/helpIcon.svg
+[home]: ../../assets/de/menu_items/homeIcon.svg
+[profile]: ../../assets/de/icons/userIcon.svg
 
 1.  After logging in, click on the [![data]{width="25"} Data](https://de.cyverse.org/data){width="25"} icon in the left navigation menu.
 

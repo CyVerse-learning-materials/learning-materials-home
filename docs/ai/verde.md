@@ -1,11 +1,19 @@
-# How to call AI Verde based LLM Models from Cyverse
+# How to access AI Verde (based LLM Models from Cyverse)
 
-**Assumptions:**
-- This assumes that you are already familiar with Cyverse and know how to open a discovery environment window on Cyverse file system.
-- This assumes you have reached out to an admint at AI Verde has an account with AI Verde, and have been granted a unique token/key by AI Verde admin
+- AI Verde is a masive LLM distribution platform details of which can be found [here](https://datascience.arizona.edu/research/tools/ai-verde).
+
+## Step 0: Get access to AI Verde
+
+- If you are new to AI Verde drop an email to `mithunpaul@arizona.edu` detailing 
+   - who you are (e.g. student, faculty, researcher)
+   - what kind of facilities of AI Verde would you like to use (e.g. Chatbot access, API access to 75+ LLM models, RAG etc)
+
+Once an admin approves your access, you will minimally have access to a chatbot. If you asked for more programming level access, you will be provided with a unique api-token. [Here](https://aiverde-docs.cyverse.ai/api/api-token/) are details on how to access these keys.
+Once you have the keys here are the further steps on how to access the LLM models from a python code interface.
+  
 
 
-## Step 0: Export the api_key as an environment variable in Linux command line as:
+## Step 1: Export the api_key as an environment variable in Linux command line as:
 
 
 ```bash
@@ -14,7 +22,7 @@ export LLM_API_KEY="paste your key here"
 ```
 
 
-## Step 1: Setup a conda environemnt. 
+## Step 2: Setup a conda environemnt. 
 
 For example Open a linux command line window from the tools in `de.cyverse` and type
 
@@ -31,11 +39,11 @@ conda activate verde
 
 
 
-## Step 2: Install chatur chains
+## Step 3: Install chatur chains
 
 `pip install chatur-chains`
 
-## Step 3: Next open an editor and write this python code.
+## Step 4: Next open an editor and write this python code.
 
 
 ```bash

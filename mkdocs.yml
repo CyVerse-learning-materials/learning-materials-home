@@ -24,6 +24,13 @@ nav:
     - 'Glossary': home/glossary.md
   - 'Data Management':
     - ds/index.md
+    - 'Discovery Environment':
+      - ds/de/index.md
+      - 'Metadata': ds/de/metadata.md
+      - 'Data Transfer': ds/de/data_transfer.md
+      - 'DOI': ds/de/doi.md
+      - 'Data Use': ds/de/check_data.md
+      - 'Sharing with Teams': ds/de/teams.md
     - 'GoCommands':
       - ds/gocommands/index.md
       - 'Installation': ds/gocommands/installation.md
@@ -57,8 +64,6 @@ nav:
       - ds/cyberduck/index.md
       - 'iRODS profile': ds/cyberduck/irods.md
       - 'SFTP profile': ds/cyberduck/sftp.md
-    - 'Quickstarts': 
-      - 'Distributing Data in 6 steps': ds/quick/quick-data-share.md
     - 'Issue Reporting': ds/issue_report.md
   - 'Discovery Environment':
     - de/index.md
@@ -83,9 +88,9 @@ nav:
       - 'Access Data in VICE Apps': de/vice/csi.md  
   - 'Cloud Native Services':
     - cloud/index.md
-    - cloud/cacao.md
-    - cloud/datawatch.md
-    - cloud/harbor.md
+    - 'CACAO': cloud/cacao.md
+    - 'DataWatch': cloud/datawatch.md
+    - 'Harbor Container Registry': cloud/harbor.md
   - 'Artificial Intelligence':
     - ai/index.md
     - 'VERDE': ai/verde.md
@@ -99,7 +104,7 @@ nav:
       - edu/tutorials/index.md
       - 'DNA Subway': edu/tutorials/dna_subway_guide.md    
   - 'Developer Tools':
-    - 'Developer Manuals': manuals.md
+    - 'Developer Manuals': dev/manuals.md
   
 
 # Theme settings

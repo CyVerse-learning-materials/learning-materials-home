@@ -1,4 +1,4 @@
-# Learning Materials
+# About
 
 <div class="grid cards" markdown>
 
@@ -6,7 +6,7 @@
 
     ---
 
-    [:octicons-arrow-right-24: Platforms and Services](home/what_is_cyverse.md "Quick overview of CyVerse's capabilities"){target=_blank}
+    [:octicons-arrow-right-24: Platforms and Services](home/what_is_cyverse.md "Quick overview of CyVerse's capabilities")
 
     [:octicons-arrow-right-24: Research Publications](https://cyverse.org/publications "List of over 1,400 research peer-reviewed publications that used CyVerse"){target=_blank}
 
@@ -14,7 +14,7 @@
 
     ---
 
-    [:octicons-arrow-right-24: Create a free account](home/account.md "Free accounts are for everyone"){target=_blank}
+    [:octicons-arrow-right-24: Create a free account](home/account.md "Free accounts are for everyone")
 
     [:octicons-arrow-right-24: Purchase a Subscription](https://cyverse.org/subscribe "Paid accounts give more computing and data storage"){target=_blank}
 
@@ -49,7 +49,7 @@
 
     [:octicons-arrow-right-24: Jetstream 2 (ACCESS-CI)](https://docs.jetstream-cloud.org/ui/cacao/overview/ "Use CyVerse Cloud Automation and Continuous Analysis Orchestration (CACAO) on our partner cloud Jetstream 2"){target=_blank}
 
-    [:octicons-arrow-right-24: Infrastructure as Code with CACAO](https://cacao.cyverse.org "Deploy your workflows to commercial or public cloud in minutes"){target=_blank}
+    [:octicons-arrow-right-24: Infrastructure as Code with CACAO](https://cacao.jetstream-cloud.org/ "Deploy your workflows to commercial or public cloud in minutes"){target=_blank}
 
 -   [:material-open-source-initiative:{ .lg .middle } __Open Source__](https://docs.cyverse.org "Explore our Open Source Software Stack"){target=_blank} 
 
@@ -70,7 +70,6 @@
     
 
     
-
 </div>
 
 

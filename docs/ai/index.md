@@ -8,7 +8,7 @@ CyVerse participates in multiple AI Institutes and Science Centers which are foc
 
 CyVerse has built its own platform for supporting research and education, called [AI VERDE](ai/verde.md)
 
-[https://chat.cyverse.ai](https://chat.cyverse.ai){target=_blank})
+[https://chat.cyverse.ai](https://chat.cyverse.ai){target=_blank}
 
 ## AI/ML with PyTorch & Tensorflow
 
