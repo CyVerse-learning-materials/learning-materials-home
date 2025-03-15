@@ -162,6 +162,14 @@ latest: digest: sha256:39aa70a23f82743d37b72a629e2957023d8b2852696f73cadacc917dd
 
 ## Defining the Tool in the DE
 
+Before the DE can use a container image in an app, it has to know some information about the container image. This is
+done by creating a tool definition in the DE. To start this process, first click the hamburger menu in the upper
+left-hand corner of the Discovery environment:
+
+![Hamburger Menu](../assets/de/hamburger-menu.png)
+
+
+
 ## Defining the App in the DE
 
 ## Running the App in the DE

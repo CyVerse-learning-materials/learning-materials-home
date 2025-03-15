@@ -70,7 +70,9 @@ nav:
     - 'Interactive Analysis': de/vice/about.md
     - 'Integrate Apps and Tools': de/create_apps.md
     - 'Integrate Interactive Apps': de/vice/extend_apps.md
-    - 'Data Store in Interactive Apps': de/vice/csi.md   
+    - 'App Integration Tutorials':
+      - 'Regular Executable App': de/app-integration.md
+    - 'Data Store in Interactive Apps': de/vice/csi.md
     - 'Sharing Apps': de/vice/quick-app-launch.md
     - 'Sharing and Using Bags': de/bags.md
     - 'Sharing Data': ds/de/share.md
@@ -98,10 +100,10 @@ nav:
       - 'Container Camp': edu/workshops/container_camp.md
       - 'Foundational Open Science Skills': edu/workshops/foss.md
     - 'Science Tutorials': edu/tutorials/index.md
-    - 'DNA Subway': edu/tutorials/dna_subway_guide.md    
+    - 'DNA Subway': edu/tutorials/dna_subway_guide.md
   - 'Developer Tools':
     - 'Developer Manuals': dev/manuals.md
-  
+
 
 # Theme settings
 theme:
@@ -109,7 +111,7 @@ theme:
   prev_next_buttons_location: bottom
   palette:
     - media: "(prefers-color-scheme)"
-      toggle: 
+      toggle:
         icon: material/brightness-auto
         name: Switch to light mode
     # Light mode settings
