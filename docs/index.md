@@ -10,7 +10,7 @@
 
     [:octicons-arrow-right-24: Research Publications](https://cyverse.org/publications "List of over 1,400 research peer-reviewed publications that used CyVerse"){target=_blank}
 
--   **[:material-account:{ .lg .middle}](account.md "How to set up your account") [Create an account](account.md "How to set up your account")**
+-   **[:material-account:{ .lg .middle}](home/account.md "How to set up your account") [Create an account](home/account.md "How to set up your account")**
 
     ---
 
@@ -34,16 +34,16 @@
 
     [:octicons-arrow-right-24: Run your own software :octicons-container-24:](de/vice.md "Bring your own containerized applications")
 
--   [**:material-robot:{ .lg .middle} __Artificial Intelligence__**](ai.md "Run Generative AI or Predictive AI/ML applications in CyVerse")
+-   [**:material-robot:{ .lg .middle} __Artificial Intelligence__**](ai/index.md "Run Generative AI or Predictive AI/ML applications in CyVerse")
 
     ---
 
-     [:octicons-arrow-right-24: PyTorch & Tensorflow GPU Apps](vice/about.md "Run GPU enabled Python applications in our Discovery Environment")
+     [:octicons-arrow-right-24: PyTorch & Tensorflow GPU Apps](de/vice/about.md "Run GPU enabled Python applications in our Discovery Environment")
 
-     [:octicons-arrow-right-24: Secure and Private LLMs for Research](vice/ollama.md "Run Open Source models (Ollama, DeepSeek, etc)")
+     [:octicons-arrow-right-24: Secure and Private LLMs for Research](de/vice/ollama.md "Run Open Source models (Ollama, DeepSeek, etc)")
 
 
--   [**:material-cloud-tags:{ .lg .middle } __Cloud Native Services__**](cloud.md "Move your science to the cloud")
+-   [**:material-cloud-tags:{ .lg .middle } __Cloud Native Services__**](cloud/index.md "Move your science to the cloud")
 
     ---
 
@@ -60,7 +60,7 @@
     [:octicons-arrow-right-24: Developer Tools](https://docs.cyverse.org "Documentation on deploying a CyVerse"){target=_blank}
 
 
--   [![!Powered by](../assets/de/logos/cyverse_ball_2022.png "Get Powered by"){ width="30" }](powered_by.md) **[Powered By](powered_by.md "Bring CyVerse into your organization or cloud provider")**
+-   [![!Powered by](../assets/de/logos/cyverse_ball_2022.png "Get Powered by"){ width="30" }](home/powered_by.md) **[Powered By](home/powered_by.md "Bring CyVerse into your organization or cloud provider")**
 
     ---
 
