@@ -57,7 +57,7 @@ nav:
       - ds/cyberduck/index.md
       - 'iRODS profile': ds/cyberduck/irods.md
       - 'SFTP profile': ds/cyberduck/sftp.md
-    - 'Quickstarts': 
+    - 'Quickstarts':
       - 'Distributing Data in 6 steps': ds/quick/quick-data-share.md
     - 'Issue Reporting': ds/issue_report.md
   - 'Discovery Environment':
@@ -68,6 +68,8 @@ nav:
     - 'Interactive Analysis': vice/about.md
     - 'Integrate Apps and Tools': de/create_apps.md
     - 'Integrate Interactive Apps': vice/extend_apps.md
+    - 'App Integration Tutorials':
+      - 'Regular Executable App': de/app-integration.md
     - 'Sharing and Using Bags': de/bags.md
     - 'Adding Metadata': ds/metadata.md
     - 'Sharing Data': ds/share.md
@@ -80,7 +82,7 @@ nav:
       - 'Cloud Shell in 6 steps': de/vice/quick-cloudshell.md
       - 'Running Ollama': de/vice/quick-ollama.md
       - 'Sharing Apps Quick Start': de/vice/quick-app-launch.md
-      - 'Access Data in VICE Apps': de/vice/csi.md  
+      - 'Access Data in VICE Apps': de/vice/csi.md
   - 'Cloud Native Services':
     - cloud/index.md
     - cloud/cacao.md
@@ -97,10 +99,10 @@ nav:
       - 'Foundational Open Science Skills': edu/workshops/foss.md
     - 'Science Tutorials':
       - edu/tutorials/index.md
-      - 'DNA Subway': edu/tutorials/dna_subway_guide.md    
+      - 'DNA Subway': edu/tutorials/dna_subway_guide.md
   - 'Developer Tools':
     - 'Developer Manuals': manuals.md
-  
+
 
 # Theme settings
 theme:
@@ -108,7 +110,7 @@ theme:
   prev_next_buttons_location: bottom
   palette:
     - media: "(prefers-color-scheme)"
-      toggle: 
+      toggle:
         icon: material/brightness-auto
         name: Switch to light mode
     # Light mode settings
