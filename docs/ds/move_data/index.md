@@ -16,10 +16,10 @@ There are several ways to move data between the CyVerse Data Store and other com
 
 The **Moving Data** section covers each of the following methods of moving data to the Data Store:
 
-  1. Using the [Discovery Environment](../../de/manage_data.md) web interface (visit the [Distributing Data quickstart](../quick-data-share.md) for a rapid introduction to distributing data)
-  2. Using the [CyberDuck](../cyberduck.md) desktop application
-  3. Through the [iCommands](../icommands.md) and command-line
-  4. Through an HTTPS connection using [WebDAV](../webdav.md)
+  1. Using the [Discovery Environment](../de/manage_data.md) web interface (visit the [Distributing Data quickstart](../de/share.md) for a rapid introduction to distributing data)
+  2. Using the [CyberDuck](../cyberduck/index.md) desktop application
+  3. Through the [iCommands](../icommands/index.md) and command-line
+  4. Through an HTTPS connection using [WebDAV](../webdav/index.md)
   	- Can also be used to create links for external download
-  5. Through the [SFTP](../sftp.md) via a command-line tool or desktop applications
-  6. Through the [GoCommands](../gocommands.md) and command-line
+  5. Through the [SFTP](../sftp/index.md) via a command-line tool or desktop applications
+  6. Through the [GoCommands](../gocommands/index.md) and command-line

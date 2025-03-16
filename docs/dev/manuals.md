@@ -1,4 +1,6 @@
-# Manuals
+# Documentation Webpages
+
+Table: Documentation websites for each CyVerse platform
 
 | Platform | Purpose | Link |
 |----------|---------|------|

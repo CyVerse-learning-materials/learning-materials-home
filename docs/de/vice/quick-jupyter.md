@@ -10,7 +10,7 @@ If you have not yet created an account, go to the [User Portal](https://user.cyv
 
 [![jupyter_1]][jupyter_1]
 
-  [jupyter_1]: ../assets/de/jupyter_1.png
+  [jupyter_1]: ../../assets/de/jupyter_1.png
 
 Click on the **Apps** grid icon.
 
@@ -22,7 +22,7 @@ The conventional launch menu allows you to modify the App parameters. You can ad
 
 [![jupyter_2]][jupyter_2]
 
-  [jupyter_2]: ../assets/de/jupyter_2.png
+  [jupyter_2]: ../../assets/de/jupyter_2.png
 
 ## 3. Open the Analysis
 
@@ -30,17 +30,17 @@ After you have started a VICE app, a new tab will automatically open in your bro
 
 [![jupyter_3]][jupyter_3]
 
-  [jupyter_3]: ../assets/de/jupyter_3.png
+  [jupyter_3]: ../../assets/de/jupyter_3.png
 
 [![jupyter_4]][jupyter_4]
 
-  [jupyter_4]: ../assets/de/jupyter_4.png
+  [jupyter_4]: ../../assets/de/jupyter_4.png
 
 Once the app is ready, it will transition to the user interface. 
 
 [![jupyter_5]][jupyter_5]
 
-  [jupyter_5]: ../assets/de/jupyter_5.png
+  [jupyter_5]: ../../assets/de/jupyter_5.png
 
 **The Jupyter Lab Interface:** 
 While Jupyter Lab has many features found in traditional integrated development environments (IDEs), it remains focused on interactive, exploratory computing. 
@@ -100,7 +100,7 @@ In the Analyses window, select the app (by clicking the checkbox next to it), se
 
 [![jupyter_7]][jupyter_7]
 
-  [jupyter_7]: ../assets/de/jupyter_7.png
+  [jupyter_7]: ../../assets/de/jupyter_7.png
 
 
 

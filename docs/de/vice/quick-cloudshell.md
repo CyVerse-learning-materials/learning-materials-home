@@ -12,7 +12,7 @@ The Cloud Shell icon is found in the left-side navigation bar in the Discovery E
 
 [![cloud_shell_1]][cloud_shell_1]
 
-  [cloud_shell_1]: ../assets/de/cloud_shell_1.png
+  [cloud_shell_1]: ../../assets/de/cloud_shell_1.png
 
 Click on the **Apps** grid icon
 
@@ -24,7 +24,7 @@ The conventional launch menu allows you to modify the App parameters. You can ad
 
 [![cloud_shell_2]][cloud_shell_2]
 
-  [cloud_shell_2]: ../assets/de/cloud_shell_2.png
+  [cloud_shell_2]: ../../assets/de/cloud_shell_2.png
 
 ## 3. Open the Analysis
 
@@ -32,13 +32,13 @@ After you have started a VICE app, a new tab will automatically open in your bro
 
 [![cloud_shell_3]][cloud_shell_3]
 
-  [cloud_shell_3]: ../assets/de/cloud_shell_3.png
+  [cloud_shell_3]: ../../assets/de/cloud_shell_3.png
   
 Once the app is ready, it will transition to the user interface (in this example, a Linux terminal).
 
 [![cloud_shell_4]][cloud_shell_4]
 
-  [cloud_shell_4]: ../assets/de/cloud_shell_4.png
+  [cloud_shell_4]: ../../assets/de/cloud_shell_4.png
   
 You should see a "message of the day", information about the machine you're using, and your CyVerse username for when you initiate
 an iCommands connection.

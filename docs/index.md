@@ -22,17 +22,17 @@
 
     --- 
 
-    [:octicons-arrow-right-24: Security, Privacy, and Sharing](ds/share.md "Learn about our Data Store and secure data enclaves")
+    [:octicons-arrow-right-24: Security, Privacy, and Sharing](ds/de/share.md "Learn about our Data Store and secure data enclaves")
 
-    [:octicons-arrow-right-24: Publish with DOI](ds/doi.md "Publishing Data with a DataCite DOI in our Data Commons")
+    [:octicons-arrow-right-24: Publish with DOI](ds/de/doi.md "Publishing Data with a DataCite DOI in our Data Commons")
 
 -   [![de](../assets/de/de_icon.png){ width="35" } **Discovery Environment**](de/index.md "Makes the cloud feel like your laptop")
 
     ---
 
-    [:octicons-arrow-right-24: Featured Interactive Apps](de/vice.md "Use the latest versions of scientific software like Jupyter, RStudio, Cloud Shell, VS Code, and more")
+    [:octicons-arrow-right-24: Featured Interactive Apps](de/vice/about.md "Use the latest versions of scientific software like Jupyter, RStudio, Cloud Shell, VS Code, and more")
 
-    [:octicons-arrow-right-24: Run your own software :octicons-container-24:](de/vice.md "Bring your own containerized applications")
+    [:octicons-arrow-right-24: Run your own software :octicons-container-24:](de/vice/extend_apps.md "Bring your own containerized applications")
 
 -   [**:material-robot:{ .lg .middle} __Artificial Intelligence__**](ai/index.md "Run Generative AI or Predictive AI/ML applications in CyVerse")
 
@@ -40,7 +40,7 @@
 
      [:octicons-arrow-right-24: PyTorch & Tensorflow GPU Apps](de/vice/about.md "Run GPU enabled Python applications in our Discovery Environment")
 
-     [:octicons-arrow-right-24: Secure and Private LLMs for Research](de/vice/ollama.md "Run Open Source models (Ollama, DeepSeek, etc)")
+     [:octicons-arrow-right-24: Secure and Private LLMs for Research](de/vice/quick-ollama.md "Run Open Source models (Ollama, DeepSeek, etc)")
 
 
 -   [**:material-cloud-tags:{ .lg .middle } __Cloud Native Services__**](cloud/index.md "Move your science to the cloud")
@@ -49,7 +49,7 @@
 
     [:octicons-arrow-right-24: Jetstream 2 (ACCESS-CI)](https://docs.jetstream-cloud.org/ui/cacao/overview/ "Use CyVerse Cloud Automation and Continuous Analysis Orchestration (CACAO) on our partner cloud Jetstream 2"){target=_blank}
 
-    [:octicons-arrow-right-24: Infrastructure as Code with CACAO](https://cacao.jetstream-cloud.org/ "Deploy your workflows to commercial or public cloud in minutes"){target=_blank}
+    [:octicons-arrow-right-24: Infrastructure as Code with CACAO](cloud/cacao.md "Deploy your workflows to commercial or public cloud in minutes"){target=_blank}
 
 -   [:material-open-source-initiative:{ .lg .middle } __Open Source__](https://docs.cyverse.org "Explore our Open Source Software Stack"){target=_blank} 
 

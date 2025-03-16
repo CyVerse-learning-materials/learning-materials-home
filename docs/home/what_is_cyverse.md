@@ -25,9 +25,9 @@ Our current cyberinfrastructure platform includes:
     
     :octicons-arrow-right-24: 5GB free data storage for all basic users,
     
-    :octicons-arrow-right-24: Multi-petabyte data hosting available for [Powered By](../home/powered_by.md) services, sponsored projects ([contact us](https://user.cyverse.org/requests/2){target=_blank}), and proposed research.
+    :octicons-arrow-right-24: Multi-petabyte data hosting available for [Powered By](../home/powered_by.md) services, sponsored projects and proposed research ([contact us](https://user.cyverse.org/requests/2){target=_blank}).
 
-    :octicons-arrow-right-24: Managed File Transfers (MFT) move your data securely with end-to-end encryption.
+    :octicons-arrow-right-24: Managed File Transfers (MFT) move your data securely with end-to-end encryption
 
     :octicons-arrow-right-24: Store data privately, share it with your collaborators, or make it public 
     
@@ -37,27 +37,27 @@ Our current cyberinfrastructure platform includes:
 
     --- 
 
-    :octicons-arrow-right-24: An interactive browser-based [Data Science Workbench](https://de.cyverse.org){target=_blank}
+    :octicons-arrow-right-24: An interactive browser-based [Data Science Workbench](../de/using_apps.md){target=_blank}
 
-    :octicons-arrow-right-24: Launch multi-core, large memory, and GPU based analyses.
+    :octicons-arrow-right-24: Launch multi-core, large memory, and GPU based analyses
 
-    :octicons-arrow-right-24: Leverage major open source scientific research software applications.
+    :octicons-arrow-right-24: Leverage major open source scientific research software applications
 
-    :octicons-arrow-right-24: Bring Your Own Software using Docker Containers.
+    :octicons-arrow-right-24: Bring Your Own Software using Docker Containers
 
     :octicons-arrow-right-24: Share your data and analyses privately and securely with collaborators
 
     :octicons-arrow-right-24: Create and curate reproducible research objects
 
-- [:material-cloud-tags:{ .lg .middle } Cloud Native Services](https://gitlab.com/cyverse){target=_blank} 
+- [:material-cloud-tags:{ .lg .middle } Cloud Native Services](../cloud/index.md){target=_blank} 
 
-    :octicons-arrow-right-24: Cloud Automation & Continuous Analysis Orchestration [CACAO](https://gitlab.com/cyverse){target=_blank} enabling cloud automation & continuous analysis orchestration on multi-cloud.
+    :octicons-arrow-right-24: Cloud Automation & Continuous Analysis Orchestration [CACAO](../cloud/cacao.md){target=_blank} enabling cloud automation & continuous analysis orchestration on multi-cloud
 
-    :octicons-arrow-right-24: Uses templates to provision and launch scalable resources to commercial or public cloud resource providers.
+    :octicons-arrow-right-24: Uses templates to provision and launch scalable resources to commercial or public cloud resource providers
 
     :octicons-arrow-right-24: Launch :simple-jupyter: Project Jupyter Hubs for tens to thousands of users in three clicks. 
 
-    :octicons-arrow-right-24: Launch Open Source LLM frameworks (Ollama, OpenWebUI, DeepSeek, etc) with vector databases (Weaviate, Pinecone, etc) in secure environments and work with your data privately and securely.
+    :octicons-arrow-right-24: Launch Open Source LLM frameworks (Ollama, OpenWebUI, DeepSeek, etc) with vector databases (Weaviate, Pinecone, etc) in secure environments and work with your data privately and securely
 
     :octicons-arrow-right-24: [:material-gitlab: https://gitlab.com/cyverse/cacao](https://gitlab.com/cyverse/cacao){target=_blank}
 
@@ -65,7 +65,7 @@ Our current cyberinfrastructure platform includes:
 
 
 
-[![][ball]{width=25}](https://cyverse.org/ecp){target=_blank} [External Collaborative Partnerships](https://cyverse.org/ecp){target=_blank} - Work with our experienced data scientists and software engineers to scale your algorithms and data onto cloud and high performance compute. [Contact Us](https://user.cyverse.org/requests/3) if you are interested in starting an ECP.
+[![][ball]{width=25}](https://cyverse.org/ecp){target=_blank} [Powered by](https://cyverse.org/ecp){target=_blank} - Work with our experienced data scientists and software engineers to scale your algorithms and data onto cloud and high performance compute. [Contact Us](https://user.cyverse.org/requests/3) if you are interested in starting an external collaborative partnership.
 
 [![][ball]{width=25}](https://cyverse.org/teach){target=_blank} [Education and Training](https://cyverse.org/teach){target=_blank} - learn how to use containers, workflows, and public research cyberinfrastructure from our professional trainers.
 
@@ -75,7 +75,7 @@ Our current cyberinfrastructure platform includes:
 
 **Funding and Citations:**
 
-CyVerse is funded entirely by the National Science Foundation [![NSF](assets/nsf.png){width="25"}](https://nsf.gov) under Award Numbers:
+CyVerse is funded entirely by the National Science Foundation [![NSF](../../assets/nsf.png){width="25"}](https://nsf.gov) under Award Numbers:
 
 [![NSF-0735191](https://img.shields.io/badge/NSF-0735191-blue.svg)](https://www.nsf.gov/awardsearch/showAward?AWD_ID=0735191)  [![NSF-1265383](https://img.shields.io/badge/NSF-1265383-blue.svg)](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1265383)  [![NSF-1743442](https://img.shields.io/badge/NSF-1743442-blue.svg)](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1743442)
 

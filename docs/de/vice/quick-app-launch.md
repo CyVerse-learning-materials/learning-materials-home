@@ -10,14 +10,14 @@ If you have not yet created an account, go to the [User Portal](https://user.cyv
 
 Navigate to the **Apps** tab on the left hand side menu, select the App that you want to share and click the **Details** button.
 
-![quick-app_1](../assets/de/quick-app_1.png) 
+![quick-app_1](../../assets/de/quick-app_1.png) 
 
 ## 3. Creating Quick Launch Link
 
 At the bottom of the Details window, find the Quick Launch Share button. Clicking it will open a speech bubble with 3 choices: **Saved Lunch**, **Embedded Code** or **Shared Saved Lunch URL**. Copy the one you need.
 
-![quick-app_2](../assets/de/quick-app_2.png)
-![quick-app_3](../assets/de/quick-app_3.png)
+![quick-app_2](../../assets/de/quick-app_2.png)
+![quick-app_3](../../assets/de/quick-app_3.png)
 
 - **Saved Lunch**: Saved Lunch allows you to create a launch button that starts the App with a specified set of resources.
 - **Embedded Code**: Creates a button that can be used in websites; The button will then redirect to the App launch page. Note: to operate the App, users will require a CyVerse account. 

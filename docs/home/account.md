@@ -103,4 +103,4 @@ For over a decade CyVerse has partnered with other universities, private compani
 
 Organizations may be interested in leveraging parts of CyVerse software stack or cyberinfrastructure for their own clouds, gateways, or projects.
 
-Partnerships with CyVerse for Centers, Institutes, and Large Projects are managed through our [Powered-by](home/powered_by.md) project documentation.
+Partnerships with CyVerse for Centers, Institutes, and Large Projects are managed through our [Powered-by](powered_by.md) project documentation.

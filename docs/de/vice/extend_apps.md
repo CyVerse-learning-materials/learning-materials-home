@@ -26,11 +26,11 @@ Adding `interactive` Tools and Apps is different from adding `executable` Tools.
 
 ## Copy an Existing App
 
-[de]: ../assets/de/logos/deIcon.svg
-[home]: ../assets/de/menu_items/homeIcon.svg
-[data]: ../assets/de/menu_items/dataIcon.svg
-[apps]: ../assets/de/menu_items/appsIcon.svg
-[analysis]: ../assets/de/menu_items/analysisIcon.svg
+[de]: ../../assets/de/logos/deIcon.svg
+[home]: ../../assets/de/menu_items/homeIcon.svg
+[data]: ../../assets/de/menu_items/dataIcon.svg
+[apps]: ../../assets/de/menu_items/appsIcon.svg
+[analysis]: ../../assets/de/menu_items/analysisIcon.svg
 
 Navigating the [![][de]{width=25}](https://de.cyverse.org){target=_blank} [Discovery Environment](https://de.cyverse.org){target=_blank}:
 

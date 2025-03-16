@@ -1,13 +1,13 @@
 # Using Apps in the Discovery Environment
 
-[de]: ../assets/de/logos/deIcon.svg
-[data]: ../assets/de/menu_items/dataIcon.svg
-[analyses]: ../assets/de/menu_items/analysisIcon.svg
-[apps]: ../assets/de/menu_items/appsIcon.svg
-[help]: ../assets/de/menu_items/helpIcon.svg
-[home]: ../assets/de/menu_items/homeIcon.svg
-[profile]: ../assets/de/icons/userIcon.svg
-[vice]: ../assets/de/logos/deviceIcon.svg
+[de]: ../../assets/de/logos/deIcon.svg
+[data]: ../../assets/de/menu_items/dataIcon.svg
+[analyses]: ../../assets/de/menu_items/analysisIcon.svg
+[apps]: ../../assets/de/menu_items/appsIcon.svg
+[help]: ../../assets/de/menu_items/helpIcon.svg
+[home]: ../../assets/de/menu_items/homeIcon.svg
+[profile]: ../../assets/de/icons/userIcon.svg
+[vice]: ../../assets/de/logos/deviceIcon.svg
 
 You can select from several hundred applications (Apps) available in the [![de]{width="25"} Discovery Environment](https://de.cyverse.org){target=_blank} when you are ready to analyze your data.
 
@@ -20,7 +20,7 @@ You must be logged in to browse and use apps.
 1. Click in the left sidebar of the DE to see the [![apps]{width="25"} Apps](https://de.cyverse.org/apps){target=_blank} view. When you first access the Apps view, you may be prompted to log in. After logging in, you will see a screen that looks something like this:
 
 <figure markdown>
-![](../assets/de/de_apps_screen.png){ width="600" }
+![](../../assets/de/de_apps_screen.png){ width="600" }
 <figcaption>The Apps page.</figcaption>
 </figure>
 

@@ -4,9 +4,11 @@ With CyVerse, you can manage data throughout the data lifecycle, from uploading,
 
 The [![de]{width="25"} Discovery Environment](https://de.cyverse.org){target=_blank} interface is just one of many ways to access, view, and manage your files in the [Data Store](../ds/index.md).
 
-??? Tip "Where is the Data Store?"
-    The Data Store is not a separate platform; it is a service that 
-    crosscuts all of CyVerse so you can access your files (yours, shared with you, public) from anywhere in CyVerse.
+??? Question "What is the Data Store?"
+
+    The Data Store is not a separate platform; it is a service that crosscuts all of CyVerse so you can access your files (yours, shared with you, public) from anywhere in CyVerse.
+
+    [Data Store description](../ds/index.md)
     
 ## Browsing Data in the Discovery Environment
 

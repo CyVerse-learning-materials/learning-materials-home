@@ -10,7 +10,7 @@ If you have not yet created an account, go to the [User Portal](https://user.cyv
 
 [![ollama_1]][ollama_1]
 
-  [ollama_1]: ../assets/de/ollama_1.png
+  [ollama_1]: ../../assets/de/ollama_1.png
 
 Click on the **Apps** grid icon.
 
@@ -22,7 +22,7 @@ The conventional launch menu allows you to modify the App parameters. You can ad
 
 [![ollama_2]][ollama_2]
 
-  [ollama_2]: ../assets/de/ollama_2.png
+  [ollama_2]: ../../assets/de/ollama_2.png
 
 ## 3. Open the Analysis
 
@@ -30,17 +30,17 @@ After you have started a VICE app, a new tab will automatically open in your bro
 
 [![ollama_3]][ollama_3]
 
-  [ollama_3]: ../assets/de/ollama_3.png
+  [ollama_3]: ../../assets/de/ollama_3.png
 
 [![ollama_4]][ollama_4]
 
-  [ollama_4]: ../assets/de/ollama_4.png
+  [ollama_4]: ../../assets/de/ollama_4.png
 
 Once the app is ready, it will transition to the user interface. 
 
 [![ollama_5]][ollama_5]
 
-  [ollama_5]: ../assets/de/ollama_5.png
+  [ollama_5]: ../../assets/de/ollama_5.png
 
 
 We will focus on running an llm for inference using _Ollama as a server_. The Jupyter Lab with Pytorch GPU, comes with Ollama preinstalled, which is necessary to run LLMs.
@@ -95,7 +95,7 @@ In the Analyses window, select the app (by clicking the checkbox next to it), se
 
 [![ollama_7]][ollama_7]
 
-  [ollama_7]: ../assets/de/ollama_7.png
+  [ollama_7]: ../../assets/de/ollama_7.png
 
 
 
