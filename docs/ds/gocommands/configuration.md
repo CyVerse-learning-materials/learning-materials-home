@@ -9,20 +9,22 @@ The `init` command sets up the iRODS Host and access account for use with other 
    gocmd init
    ```
 
-   ??? Tip "Getting 'Command not found error?'"
-         :material-braille: This error indicates that the system could not locate `gocmd` binary in the directories specified by the `$PATH` environment variable. To resolve this:
-         > 1. Use an absolute path: Run `./gocmd init` from the directory where you downloaded the `gocmd` binary.
-         > 2. For easier future use: Move the `gocmd` binary to a directory in your `$PATH`, such as `/usr/local/bin`.
-         > 3. Windows users: Ensure the executable is named `gocmd.exe` and run `gocmd.exe init` to initialize.
+??? Tip "Getting 'Command not found error?'"
+
+      :material-braille: This error indicates that the system could not locate `gocmd` binary in the directories specified by the `$PATH` environment variable. To resolve this:
+      > 1. Use an absolute path: Run `./gocmd init` from the directory where you downloaded the `gocmd` binary.
+      > 2. For easier future use: Move the `gocmd` binary to a directory in your `$PATH`, such as `/usr/local/bin`.
+      > 3. Windows users: Ensure the executable is named `gocmd.exe` and run `gocmd.exe init` to initialize.
 
 2. **Enter your Data Store account credentials when prompted. Use the following information:**
-   | Configuration Key | Value |
-   |-------------------|-------|
-   | `irods_host`      | data.cyverse.org |
-   | `irods_port`      | 1247 |
-   | `irods_zone_name` | iplant |
-   | `irods_user_name` |  <CyVerse Username> |
-   | `irods_user_password` | <CyVerse Password> |
+
+| Configuration Key | Value |
+|-------------------|-------|
+| `irods_host`      | data.cyverse.org |
+| `irods_port`      | 1247 |
+| `irods_zone_name` | iplant |
+| `irods_user_name` |  <CyVerse Username> |
+| `irods_user_password` | <CyVerse Password> |
    
 3. **To verify the current configuration, use:**
    ```
@@ -52,8 +54,9 @@ GoCommands can read configurations from YAML or JSON files without running `init
    irods_user_password: "<CyVerse Password>"
    ```
 
-   ??? Tip "Prefer not to include your password in the file?"
-         :material-security: You can omit sensitive fields like `irods_user_password`, and GoCommands will prompt you to enter the missing values during runtime.
+??? Tip "Prefer not to include your password in the file?"
+
+      :material-security: You can omit sensitive fields like `irods_user_password`, and GoCommands will prompt you to enter the missing values during runtime.
 
 2. **To use this configuration file, provide its path with the `-c` flag when running GoCommands:**
    ```
@@ -78,8 +81,9 @@ The `init` command can be executed with an external file to automate configurati
    irods_user_password: "<CyVerse Password>"
    ```
 
-   ??? Tip "Prefer not to include your password in the file?"
-         :material-security: You can omit sensitive fields like `irods_user_password`, and GoCommands will prompt you to enter the missing values during runtime.
+??? Tip "Prefer not to include your password in the file?"
+
+      :material-security: You can omit sensitive fields like `irods_user_password`, and GoCommands will prompt you to enter the missing values during runtime.
 
 2. **Execute the `init` command with the `-c` flag to configure:**
    ```
@@ -99,8 +103,9 @@ GoCommands can read configuration directly from environmental variables, which t
    export IRODS_USER_PASSWORD="<CyVerse Password>"
    ```
 
-   ??? Tip "Prefer not to set your password as an environment variable?"
-         :material-security: You can omit sensitive fields like `IRODS_USER_PASSWORD`, and GoCommands will prompt you to enter the missing values during runtime.
+??? Tip "Prefer not to set your password as an environment variable?"
+
+      :material-security: You can omit sensitive fields like `IRODS_USER_PASSWORD`, and GoCommands will prompt you to enter the missing values during runtime.
 
 2. **Run GoCommands to verify the environment settings:**
    ```
@@ -125,8 +130,9 @@ The `init` command can be executed with environmental variables to automate conf
    export IRODS_USER_PASSWORD="<CyVerse Password>"
    ```
 
-   ??? Tip "Prefer not to set your password as an environment variable?"
-         :material-security: You can omit sensitive fields like `IRODS_USER_PASSWORD`, and GoCommands will prompt you to enter the missing values during runtime.
+??? Tip "Prefer not to set your password as an environment variable?"
+
+      :material-security: You can omit sensitive fields like `IRODS_USER_PASSWORD`, and GoCommands will prompt you to enter the missing values during runtime.
 
 2. **Execute the `init` command:**
    ```
