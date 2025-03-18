@@ -16,10 +16,10 @@ assigned a Digital Object Identifier (DOI). These files are secure, stable, and
 
     1. #### Create submission folder
 
-        - Organize your data so that there is one folder for each DOI (named according to the Data Commons Naming Conventions--see Step 1.b)
+        - Organize your data so that there is one folder for each DOI (named according to the Data Commons Naming Conventions--see Step&nbsp;1.b)
         - Within that folder, include all files in your data package plus the ReadMe file and the inventory.
         - You may have subfolders within a data package.
-        - You may include compressed files in a package, as described on the [DOI Frequently Asked Questions](#doi-frequently-asked-questions), but do not compress the entire folder/package
+        - You may include compressed files in a package, as described on the [FAQ](#faq), but do not compress the entire folder/package.
 
     1. #### Name your top level folder according to the Data Commons Naming Conventions**
 
@@ -93,7 +93,7 @@ assigned a Digital Object Identifier (DOI). These files are secure, stable, and
 
         - How you obtained, organized, and labeled your dataset.
         - How to reuse the data, such as which apps can analyze the data.
-        - The inventory (see Step 1.d) may be included as part of the ReadMe file.
+        - The inventory (see Step&nbsp;1.d) may be included as part of the ReadMe file.
         - If your data include sequences, the ReadMe should include a list of corresponding BioSample IDs.
         - Examples of good ReadMe files:
 
@@ -139,33 +139,33 @@ assigned a Digital Object Identifier (DOI). These files are secure, stable, and
 
     1. #### In the *Data* window, click the checkbox next to the folder.
 
-        ![checkbox next to folder](../assets/ds/doi_2.1a.png){ width="600" }
+        ![checkbox next to folder](../../assets/ds/doi_2.1a.png){ width="600" }
 
     1. #### Select *More Actions* > *Metadata*.
 
-        ![More Actions](../assets/ds/doi_2.2a.png){ width="600" }
-        ![Metadata](../assets/ds/doi_2.2b.png){ width="600" }
+        ![More Actions](../../assets/ds/doi_2.2a.png){ width="600" }
+        ![Metadata](../../assets/ds/doi_2.2b.png){ width="600" }
 
     1. #### Select *More Actions* (again) > *View in Template*.
 
-        ![More Actions](../assets/ds/doi_2.3a.png){ width="600" }
-        ![View in Template](../assets/ds/doi_2.3b.png){ width="600" }
+        ![More Actions](../../assets/ds/doi_2.3a.png){ width="600" }
+        ![View in Template](../../assets/ds/doi_2.3b.png){ width="600" }
 
     1. #### Choose the *DOI Request - DataCite4.1* metadata template.
 
-        ![DOI Request - DataCite 4.1 metadata template](../assets/ds/doi_2.4a.png){ width="600" }
-        ![Select button](../assets/ds/doi_2.4b.png){ width="600" }
+        ![DOI Request - DataCite 4.1 metadata template](../../assets/ds/doi_2.4a.png){ width="600" }
+        ![Select button](../../assets/ds/doi_2.4b.png){ width="600" }
 
     1. #### Complete the required fields (marked with an asterisk) and as many of the optional fields as possible.
 
-        ![Title text box](../assets/ds/doi_2.5a.png){ width="600" }
+        ![Title text box](../../assets/ds/doi_2.5a.png){ width="600" }
 
         !!! warning
             Be sure to include at least 3 subject key words or phrases, so that people can discover your data (Findability)! **Each subject should be in its own field** (click on the plus next to *Subject* to add a subject field. **DO NOT use a comma-separated list.**)
 
     1. #### Save the template.
 
-        ![Save button](../assets/ds/doi_2.6.png){ width="600" }
+        ![Save button](../../assets/ds/doi_2.6.png){ width="600" }
 
     <!-- markdownlint-enable MD026 -->
 
@@ -176,7 +176,7 @@ assigned a Digital Object Identifier (DOI). These files are secure, stable, and
         Check the following to be sure everything is in order.
 
         - There are no spaces or special characters in your file or folder names.
-        - You have included a ReadMe file that includes all the information specified in Step 1.c.
+        - You have included a ReadMe file that includes all the information specified in Step&nbsp;1.c.
         - You followed the Data Commons Naming Conventions
         - You have filled in all the required fields in the *DOI Request - DataCite 4.1* metadata template
         - You have included at least 3 subjects in your metadata
@@ -188,12 +188,12 @@ assigned a Digital Object Identifier (DOI). These files are secure, stable, and
 
         **In the *Data* tab, click the checkbox next to the folder.**
 
-        ![checkbox next to folder](../assets/ds/doi_2.1a.png){ width="600" }
+        ![checkbox next to folder](../../assets/ds/doi_2.1a.png){ width="600" }
 
         **Select *More Actions* > *Request DOI*.**
 
-        ![More Actions](../assets/ds/doi_2.2a.png){ width="600" }
-        ![Request DOI](../assets/ds/doi_3.2a.png){ width="600" }
+        ![More Actions](../../assets/ds/doi_2.2a.png){ width="600" }
+        ![Request DOI](../../assets/ds/doi_3.2a.png){ width="600" }
 
         After verifying you have read the instructions (i.e., this guide), click *Request DOI*. You will receive a verification email that your request has been received, and a notification will be listed in the *Notifications* list in the DE.
 
@@ -281,7 +281,7 @@ assigned a Digital Object Identifier (DOI). These files are secure, stable, and
 
     - Data associated with a research project may include multiple files with different roles.
     - If there are components of your dataset that belong in a public repository such as NCBI (e.g., fastq files), submit them to the repository, rather than to CyVerse Curated Data. You may want to include a list of external files in your dataset, with links.
-    - Beyond data, you will include the ReadMe file (see Step 1.c), and you may include scripts or links to scripts to run your analysis. Links to analysis tools can also be included as metadata (see Step 2).
+    - Beyond data, you will include the ReadMe file (see Step&nbsp;1.c), and you may include scripts or links to scripts to run your analysis. Links to analysis tools can also be included as metadata (see Step&nbsp;2).
 
 !!! question "How do I Determine how many permanent identifiers to request?"
     To determine how many DOIs to request for a given data collection, consider the following:

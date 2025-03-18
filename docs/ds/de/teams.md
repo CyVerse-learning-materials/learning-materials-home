@@ -28,7 +28,7 @@ Here, you can:
 !!! question "What's the difference between public and private teams?"
     One can only be able to join a private team if added by the admin. Public teams allow users request to join a team through the *Join* button on the top right. Admins of that specific team will be notified.
 
-    ![teams_03](../assets/de/teams_03.png)
+    ![teams_03](../../assets/de/teams_03.png)
 
 !!! tip "Remember to save your changes before exiting the page!"
 
