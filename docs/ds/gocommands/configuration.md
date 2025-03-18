@@ -20,11 +20,15 @@ The `init` command sets up the iRODS Host and access account for use with other 
 
 | Configuration Key | Value |
 |-------------------|-------|
-| `irods_host`      | data.cyverse.org |
-| `irods_port`      | 1247 |
-| `irods_zone_name` | iplant |
-| `irods_user_name` |  <CyVerse Username> |
-| `irods_user_password` | <CyVerse Password> |
+| `irods_host`      | `data.cyverse.org` |
+| `irods_port`      | `1247` |
+| `irods_zone_name` | `iplant` |
+| `irods_user_name` |  `<CyVerse Username>` |
+| `irods_user_password` | `<CyVerse Password>` |
+
+
+---
+Answer from Perplexity: pplx.ai/share
    
 3. **To verify the current configuration, use:**
    ```
@@ -148,8 +152,8 @@ Below is a comprehensive list of supported fields, along with their correspondin
 
 | Field Name                     | JSON/YAML Key                     | Environmental Variable              | Default Value                    |
 |--------------------------------|------------------------------------|-------------------------------------|---------------------------------|
-| Authentication Scheme           | `irods_authentication_scheme`     | `IRODS_AUTHENTICATION_SCHEME`       | native                           |
-| Authentication File             | `irods_authentication_file`       | `IRODS_AUTHENTICATION_FILE`         | ~/irods/.irodsA                 |
+| AuthenticationScheme           | `irods_authentication_scheme`     | `IRODS_AUTHENTICATION_SCHEME`       | native                           |
+| AuthenticationFile             | `irods_authentication_file`       | `IRODS_AUTHENTICATION_FILE`         | ~/irods/.irodsA                 |
 | ClientServerNegotiation        | `irods_client_server_negotiation` | `IRODS_CLIENT_SERVER_NEGOTIATION`   | off                              |
 | ClientServerPolicy             | `irods_client_server_policy`       | `IRODS_CLIENT_SERVER_POLICY`        | CS_NEG_REFUSE                    |
 | Host                           | `irods_host`                      | `IRODS_HOST`                        |                                 |
