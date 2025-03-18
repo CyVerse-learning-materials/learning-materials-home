@@ -19,6 +19,7 @@ This guide covers installation, data transfer methods, access management, and me
 8. [Metadata Management](metadata_management.md)
 9. [SFTP Public-key Authentication Configuration](sftp_public_key_auth.md)
 10. [Issue Report](issue_report.md)
+11. [Frequently Asked Questions](faq.md)
 
 ---
 
@@ -61,3 +62,7 @@ Set up and configure public-key authentication for secure SFTP access to the Dat
 ## [:simple-go: Issue Report](issue_report.md)
 
 Encountered an issue? Learn how to report bugs, troubleshoot errors, and contribute to the improvement of GoCommands.
+
+## [:simple-go: Frequently Asked Questions](faq.md)
+
+Find answers to common questions about using GoCommands, including troubleshooting tips.
