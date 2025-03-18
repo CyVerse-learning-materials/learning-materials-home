@@ -44,7 +44,7 @@ By default, after configuring GoCommands, your current working collection is set
    gocmd cd ..
    ```
 
-## :material-file-arrow-left-right-outline: List Data Objects (files) and Collections (directories) in the Data Store
+## :material-file-arrow-left-right-outline: List Data Objects (files) and Collections (directories)
 
 1. **List the content of a collection:**
    ```sh
@@ -112,7 +112,7 @@ By default, after configuring GoCommands, your current working collection is set
       - `modify_object`: Allows modification (write) of the data object or collection.
       - `own`: Grants ownership of the data object or collection.
 
-## :material-file-arrow-left-right-outline: Make a Collections (directories) in the Data Store
+## :material-file-arrow-left-right-outline: Make a Collections (directories)
 
 1. **Create a new collection:**
    ```sh
@@ -269,7 +269,7 @@ By default, after configuring GoCommands, your current working collection is set
    gocmd rm -rf /iplant/home/myUser/parentCollection
    ```
 
-## :material-file-arrow-left-right-outline: Move/Rename Data Objects (files) or Collections (directories) in the Data Store
+## :material-file-arrow-left-right-outline: Move/Rename Data Objects (files) or Collections (directories)
 
 1. **Rename a data object:**
    ```sh
