@@ -1,6 +1,6 @@
 # Configuration
 
-## :material-cog-outline: Using the `init` command
+## :material-cog-outline: Using the `init` Command
 
 The `init` command sets up the iRODS Host and access account for use with other GoCommands tools. Once the configuration is set, configuration files are created under the `~/.irods` directory. The configuration is fully compatible with that of iCommands.
 
@@ -41,7 +41,7 @@ Answer from Perplexity: pplx.ai/share
    gocmd ls
    ```
 
-## :material-cog-outline: Using iCommands configuration
+## :material-cog-outline: Using iCommands Configuration
 
 GoCommands is compatible with iCommands' configuration files. It can automatically detect and use the existing iCommands configuration files located in `~/.irods`. Additionally, GoCommands creates its own configuration files in this directory, allowing users to work with both iCommands and GoCommands interchangeably.
 
