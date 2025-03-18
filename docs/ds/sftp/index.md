@@ -1,7 +1,7 @@
 # Manage Your Data Using SFTP in the Data Store
 
 <figure markdown>
-  ![!ds](../../assets/ds/datastore_plchldr.png){ width="200" }
+  ![!ds](../assets/ds/datastore_plchldr.png){ width="200" }
 </figure>
 
 SFTP (Secure File Transfer Protocol) is a widely adopted network protocol for secure file access, transfer, and management. It operates over an encrypted communication channel, ensuring safe data exchange between the client and server. With broad compatibility across various environments, SFTP offers a flexible and reliable solution for managing data.  
