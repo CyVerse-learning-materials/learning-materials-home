@@ -31,9 +31,6 @@ There are several ways to access the Data Store. These methods vary in speed, fl
 | SFTP                   | Desktop App & Command line | Any              | Both            | No (Yes for desktop app)    | Yes (No for public data) | No limit              |
 | Cyberduck              | Desktop App                | macOS & Windows  | Both            | Yes                         | Yes (No for public data) | No limit              |
 
-[de]: ../assets/de/logos/deIcon.svg
-[data]: ../assets/de/menu_items/dataIcon.svg
-
 This section covers each of the following data management methods:
 
   1. [Discovery Environment](de/index.md): A comprehensive web-based platform for data analysis and management
@@ -45,9 +42,9 @@ This section covers each of the following data management methods:
 
 Additional resources for managing your data and team collaboration:
 
-  1. [Getting a DOI](doi.md): Obtain a Digital Object Identifier (DOI) for a permanent and stable link to your data
-  2. [Checking Data Usage](check_data.md): Monitor your data usage and storage limits
-  3. [Team Access Management](teams.md): Create and manage teams in the Data Store for collaborative work
+  1. [Getting a DOI](de/doi.md): Obtain a Digital Object Identifier (DOI) for a permanent and stable link to your data
+  2. [Checking Data Usage](de/check_data.md): Monitor your data usage and storage limits
+  3. [Team Access Management](de/teams.md): Create and manage teams in the Data Store for collaborative work
 
 ---
 
@@ -59,7 +56,7 @@ The Discovery Environment has a fully managed interface for uploading, downloadi
 
 GoCommands is a lightweight and portable command-line tool designed for efficient data management within the Data Store. This section provides guidance on how to set up and use GoCommands to interact with the Data Store.
 
-## [:octicons-terminal-16: Manage Your Data with iCommands](icommands)
+## [:material-console: Manage Your Data with iCommands](icommands)
 
 iCommands is a powerful command-line tool designed for data management in iRODS. It enables you to manage data in the Data Store efficiently via the command line. This section covers how to install and use iCommands for streamlined data transfers and management.
 
@@ -79,10 +76,10 @@ CyberDuck is a popular open-source file transfer client for macOS that provides 
 
 A Digital Object Identifier (DOI) offers a permanent and stable link to your data. Learn how to obtain a DOI for your datasets stored in the Data Store, ensuring long-term citation and accessibility.
 
-## [Checking Data Storage](check_data.md)
+## [:material-magnify: Checking Data Storage](check_data.md)
 
 Keep track of your data usage and storage limits. This section covers tools and techniques for monitoring your data storage within the Data Store.
 
-## [![team](../assets/de/menu_items/teamsIcon_2.svg){width=25} Managing Data within a Team](teams.md)
+## [:material-account-group: Managing Data within a Team](teams.md)
 
 Efficiently manage team access and permissions for your data. Learn how to create and manage teams in the Data Store to facilitate collaborative data work.
