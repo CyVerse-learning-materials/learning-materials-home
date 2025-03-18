@@ -45,9 +45,9 @@ This section covers each of the following data management methods:
 
 Additional resources for managing your data and team collaboration:
 
-  1. [Getting a DOI](doi.md): Obtain a Digital Object Identifier (DOI) for a permanent and stable link to your data
-  2. [Checking Data Usage](check_data.md): Monitor your data usage and storage limits
-  3. [Team Access Management](teams.md): Create and manage teams in the Data Store for collaborative work
+  1. [Getting a DOI](de/doi.md): Obtain a Digital Object Identifier (DOI) for a permanent and stable link to your data
+  2. [Checking Data Usage](de/check_data.md): Monitor your data usage and storage limits
+  3. [Team Access Management](de/teams.md): Create and manage teams in the Data Store for collaborative work
 
 ---
 
