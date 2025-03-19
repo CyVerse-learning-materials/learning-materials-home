@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
     // Create the chat icon button
     const chatIcon = document.createElement('div');
     chatIcon.id = 'chat-icon';
-    chatIcon.innerHTML = `<img src="./assets/verde.png" alt="Chat Icon">`;
+    chatIcon.innerHTML = `<img src="./assets/robotCactus.svg" alt="Chat Icon">`;
     document.body.appendChild(chatIcon);
 
     // Create the chat window container

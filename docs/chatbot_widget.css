@@ -36,7 +36,7 @@
     height: 32px;
     object-fit: contain;
     background-color: transparent;
-    content: url('assets/verde.png');
+    content: url('assets/robotCactus.svg');
     transition: width 0.3s ease, height 0.3s ease; /* Smooth transition for icon size */
 }
 
