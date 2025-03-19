@@ -70,15 +70,15 @@ nav:
     - 'Logging In': de/login.md
     - 'Using Apps': de/using_apps.md
     - 'Managing Analyses': de/managing_analyses.md
-    - 'Interactive Analysis': vice/about.md
+    - 'Interactive Analysis': de/vice/about.md
     - 'Integrate Apps and Tools': de/create_apps.md
-    - 'Integrate Interactive Apps': vice/extend_apps.md
+    - 'Integrate Interactive Apps': de/vice/extend_apps.md
     - 'Sharing and Using Bags': de/bags.md
-    - 'Adding Metadata': ds/metadata.md
-    - 'Sharing Data': ds/share.md
-    - 'Getting a DOI': ds/doi.md
-    - 'Checking Data Storage': ds/check_data.md
-    - 'Teams': ds/teams.md
+    - 'Adding Metadata': ds/de/metadata.md
+    - 'Sharing Data': ds/de/share.md
+    - 'Getting a DOI': ds/de/doi.md
+    - 'Checking Data Storage': ds/de/check_data.md
+    - 'Teams': ds/de/teams.md
     - 'Quick Starts':
       - 'RStudio in 6 steps': de/vice/quick-rstudio.md
       - 'JupyterLab in 6 steps': de/vice/quick-jupyter.md
