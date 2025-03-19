@@ -123,6 +123,7 @@ By default, after configuring GoCommands, your current working collection is set
    ```sh
    gocmd mkdir -p /iplant/home/myUser/parentCollection/newCollection
    ```
+
    This command creates the `newCollection` along with its parent collection `parentCollection` if it does not already exist.
 
 
@@ -319,3 +320,4 @@ For detailed information on GoCommands, refer to the [GoCommands GitHub reposito
 - [svrinfo](https://github.com/cyverse/gocommands/tree/main/docs/commands/svrinfo.md): Display server information
 - [ps](https://github.com/cyverse/gocommands/tree/main/docs/commands/ps.md): Display current iRODS sessions
 - [upgrade](https://github.com/cyverse/gocommands/tree/main/docs/commands/upgrade.md): Upgrade GoCommands
+- [copy-sftp-id](https://github.com/cyverse/gocommands/tree/main/docs/commands/copy-sftp-id.md): Copy SFTP identity file to the Data Store for SFTP public-key authentication
