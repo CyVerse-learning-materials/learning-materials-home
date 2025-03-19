@@ -230,7 +230,7 @@ By default, after configuring GoCommands, your current working collection is set
    gocmd get --icat /iplant/home/myUser/dir /local/dir
    ```
 
-   This command uses iCAT as a transfer broker, which is useful when direct access to the resource server is unstable. It ensures reliable data transfer by routing through the iCAT server
+   This command uses iCAT as a transfer broker, which is useful when direct access to the resource server is unstable. It ensures reliable data transfer by routing through the iCAT server.
 
 8. **Download via resource server:**
    ```sh
