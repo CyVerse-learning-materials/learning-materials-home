@@ -38,10 +38,6 @@ Navigate the file structure and efficiently manage your data, including organizi
 
 Upload and download data between your local system and the Data Store. Learn different transfer methods to optimize speed and reliability.
 
-## [:simple-go: Data Synchronization](data_synchronization.md)
-
-Keep your data up to date between local and remote locations. Learn how to synchronize directories and ensure consistency in the Data Store.
-
 ## [:simple-go: Access Management](access_management.md)
 
 Manage file and directory permissions effectively. Learn how to grant, modify, and revoke access.
