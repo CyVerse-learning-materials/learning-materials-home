@@ -44,7 +44,7 @@ By default, after configuring GoCommands, your current working collection is set
    gocmd cd ..
    ```
 
-## :material-file-arrow-left-right-outline: List Data Objects (files) and Collections (directories) in the Data Store
+## :material-file-arrow-left-right-outline: List Data Objects (files) and Collections (directories)
 
 1. **List the content of a collection:**
    ```sh
@@ -112,7 +112,7 @@ By default, after configuring GoCommands, your current working collection is set
       - `modify_object`: Allows modification (write) of the data object or collection.
       - `own`: Grants ownership of the data object or collection.
 
-## :material-file-arrow-left-right-outline: Make a Collections (directories) in the Data Store
+## :material-file-arrow-left-right-outline: Make a Collections (directories)
 
 1. **Create a new collection:**
    ```sh
@@ -123,6 +123,7 @@ By default, after configuring GoCommands, your current working collection is set
    ```sh
    gocmd mkdir -p /iplant/home/myUser/parentCollection/newCollection
    ```
+
    This command creates the `newCollection` along with its parent collection `parentCollection` if it does not already exist.
 
 
@@ -269,7 +270,7 @@ By default, after configuring GoCommands, your current working collection is set
    gocmd rm -rf /iplant/home/myUser/parentCollection
    ```
 
-## :material-file-arrow-left-right-outline: Move/Rename Data Objects (files) or Collections (directories) in the Data Store
+## :material-file-arrow-left-right-outline: Move/Rename Data Objects (files) or Collections (directories)
 
 1. **Rename a data object:**
    ```sh
@@ -319,3 +320,4 @@ For detailed information on GoCommands, refer to the [GoCommands GitHub reposito
 - [svrinfo](https://github.com/cyverse/gocommands/tree/main/docs/commands/svrinfo.md): Display server information
 - [ps](https://github.com/cyverse/gocommands/tree/main/docs/commands/ps.md): Display current iRODS sessions
 - [upgrade](https://github.com/cyverse/gocommands/tree/main/docs/commands/upgrade.md): Upgrade GoCommands
+- [copy-sftp-id](https://github.com/cyverse/gocommands/tree/main/docs/commands/copy-sftp-id.md): Copy SFTP identity file to the Data Store for SFTP public-key authentication

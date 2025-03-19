@@ -20,6 +20,7 @@ This error occurs when the `gocmd` binary is incompatible with your CPU architec
 3. Download the appropriate `gocmd` binary that matches your system specifications.
 4. If the problem persists, seek support from the CyVerse community.
 
+
 ## Path Not Found Error in Windows
 In Windows, the backslash (`\`) is used as the default path delimiter, while the forward slash (`/`) is used in Linux and macOS. If you encounter a "Path not found" error, ensure the following:
 
