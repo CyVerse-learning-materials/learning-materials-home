@@ -13,13 +13,12 @@ This guide covers installation, data transfer methods, access management, and me
 2. [Configuration](configuration.md)
 3. [Data Management](data_management.md)
 4. [Data Transfer](data_transfer.md)
-5. [Bulk Data Transfer](bulk_data_transfer.md)
-6. [Data Synchronization](data_synchronization.md)
-7. [Access Management](access_management.md)
-8. [Metadata Management](metadata_management.md)
-9. [SFTP Public-key Authentication Configuration](sftp_public_key_auth.md)
-10. [Issue Report](issue_report.md)
-11. [Frequently Asked Questions](faq.md)
+5. [Data Synchronization](data_synchronization.md)
+6. [Access Management](access_management.md)
+7. [Metadata Management](metadata_management.md)
+8. [SFTP Public-key Authentication Configuration](sftp_public_key_auth.md)
+9. [Issue Report](issue_report.md)
+10. [Frequently Asked Questions](faq.md)
 
 ---
 
@@ -38,10 +37,6 @@ Navigate the file structure and efficiently manage your data, including organizi
 ## [:simple-go: Data Transfer](data_transfer.md)
 
 Upload and download data between your local system and the Data Store. Learn different transfer methods to optimize speed and reliability.
-
-## [:simple-go: Bulk Data Transfer](bulk_data_transfer.md)
-
-Handle large datasets efficiently with bulk transfer methods. This section provides guidance on high-performance uploads and downloads using GoCommands.
 
 ## [:simple-go: Data Synchronization](data_synchronization.md)
 
