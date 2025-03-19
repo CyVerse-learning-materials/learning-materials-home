@@ -1,6 +1,6 @@
 # Frequently Asked Questions
 
-## Command Not Found Error
+## :material-help: Command Not Found Error
 This error indicates that the system could not locate `gocmd` binary in the directories specified by the `$PATH` environment variable. 
 
 To resolve this:
@@ -10,7 +10,7 @@ To resolve this:
 3. Windows users: Ensure the executable is named `gocmd.exe` and run `gocmd.exe init` to initialize.
 
 
-## Cannot Execute Binary File (Exec Format Error)
+## :material-help: Cannot Execute Binary File (Exec Format Error)
 This error occurs when the `gocmd` binary is incompatible with your CPU architecture or operating system. To resolve this issue:
 
 1. Review the [installation instructions](installation.md) to ensure you downloaded the correct version for your system.
@@ -21,7 +21,7 @@ This error occurs when the `gocmd` binary is incompatible with your CPU architec
 4. If the problem persists, seek support from the CyVerse community.
 
 
-## Path Not Found Error in Windows
+## :material-help: Path Not Found Error in Windows
 In Windows, the backslash (`\`) is used as the default path delimiter, while the forward slash (`/`) is used in Linux and macOS. If you encounter a "Path not found" error, ensure the following:
 
 1. **Local Path**: Verify that your local path is correctly specified using the backslash (`\`) as the delimiter. For example:
@@ -33,3 +33,6 @@ In Windows, the backslash (`\`) is used as the default path delimiter, while the
    - Incorrect: `\iplant\home\username\folder`
 
 
+## :material-help: Keep Failing Large File Transfer
+
+If you are using GoCommands within the University of Arizona Campus or the Discovery Environment, large file transfers may fail due to campus firewall restrictions. This issue occurs when transferring files via resource servers using commands like `get`, `put`, `bput`, and `sync`. By default, these commands transfer large files (≥1GB) through resource servers or when the `--redirect` flag is specified. To avoid such failures, use the `--icat` flag to transfer data directly through ICAT.
