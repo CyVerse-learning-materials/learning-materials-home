@@ -13,12 +13,11 @@ This guide covers installation, data transfer methods, access management, and me
 2. [Configuration](configuration.md)
 3. [Data Management](data_management.md)
 4. [Data Transfer](data_transfer.md)
-5. [Data Synchronization](data_synchronization.md)
-6. [Access Management](access_management.md)
-7. [Metadata Management](metadata_management.md)
-8. [SFTP Public-key Authentication Configuration](sftp_public_key_auth.md)
-9. [Issue Report](issue_report.md)
-10. [Frequently Asked Questions](faq.md)
+5. [Access Management](access_management.md)
+6. [Metadata Management](metadata_management.md)
+7. [SFTP Public-key Authentication Configuration](sftp_public_key_auth.md)
+8. [Issue Report](issue_report.md)
+9. [Frequently Asked Questions](faq.md)
 
 ---
 
