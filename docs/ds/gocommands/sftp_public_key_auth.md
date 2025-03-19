@@ -4,14 +4,21 @@ GoCommands provides a feature to configure public-key authentication for the Dat
 
 ## :material-cog-outline: Copy SSH Public-key (Identity File)
 
-1. **To copy all SSH public keys from your `~/.ssh` directory, run:**
+1. **Generate an SSH key (if you don't already have one):**
+    ```sh
+    ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+    ```
+
+    This command creates a private key `id_rsa` and a public key `id_rsa.pub` in the `~/.ssh` directory.
+
+2. **To copy all SSH public keys from your `~/.ssh` directory, run:**
     ```sh
     gocmd copy-sftp-id
     ```
 
     This command automatically detects all SSH public keys for the current local user in the `~/.ssh` directory at local machine and copies them to `/iplant/home/<username>/.ssh/authorized_keys` in the Data Store. This process is similar to standard SSH public-key registration.
 
-2. **To copy the specified SSH public key, use:**
+3. **To copy the specified SSH public key, use:**
     ```sh
     gocmd copy-sftp-id -i ~/.ssh/id_rsa.pub
     ```
