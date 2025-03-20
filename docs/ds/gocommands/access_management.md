@@ -2,7 +2,7 @@
 
 GoCommands provides features to manage access of users and groups to data in the Data Store. The `chmod` and `chmodinherit` commands allow users to manage access permissions for data objects (files) and collections (directories). The `ls -A` command displays the current access levels assigned to users for a given file or directory.
 
-## :material-cog-outline: List Access Permissions of Users for a Data Object or Collection
+## :material-security: List Access Permissions of Users for a Data Object or Collection
 
 ```sh
 gocmd ls -A <data-object-or-collection>
@@ -37,7 +37,7 @@ This command will show the data objects and collections along with their access 
    gocmd ls -A /iplant/home/myUser/mydata
    ```
 
-## :material-cog-outline: Change a User's or Group's Access Permission for a Data Object or Collection
+## :material-security: Change a User's or Group's Access Permission for a Data Object or Collection
 
 ```sh
 gocmd chmod <access-level> <user-or-group(#zone)> <data-object-or-collection>
@@ -84,7 +84,7 @@ gocmd chmod <access-level> <user-or-group(#zone)> <data-object-or-collection>
    gocmd chmod -r none anotherUser /iplant/home/myUser/dir
    ```
 
-## :material-cog-outline: Enable or Disable Access Permission Inheritance for a Collection
+## :material-security: Enable or Disable Access Permission Inheritance for a Collection
 
 When inheritance is enabled for a collection, any new data objects or subcollections created within it will automatically inherit the same access permissions as the parent collection.
 

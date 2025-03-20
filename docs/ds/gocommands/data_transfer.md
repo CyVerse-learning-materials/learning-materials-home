@@ -2,7 +2,7 @@
 
 GoCommands provides a range of commands designed to efficiently and conveniently transfer large datasets between your local machine and the Data Store.
 
-## :material-file-arrow-left-right-outline: Download Data from the Data Store
+## :material-package-variant-closed: Download Data from the Data Store
 
 1. **Download a collection to a specific local path:**
    ```sh
@@ -45,7 +45,7 @@ GoCommands provides a range of commands designed to efficiently and conveniently
    - For example, in Discovery Environment (DE) apps, the transfer thread count is limited to 5 due to RAM constraints.
    - The Data Store may enforce policies that restrict the number of simultaneous connections, so excessive thread counts may not be permitted.
 
-## :material-file-arrow-left-right-outline: Upload Data to the Data Store
+## :material-package-variant-closed: Upload Data to the Data Store
 
 1. **Upload a local directory to a specific path in the Data Store:**
    ```sh
