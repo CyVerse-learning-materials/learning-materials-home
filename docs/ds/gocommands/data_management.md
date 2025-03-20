@@ -319,6 +319,9 @@ For detailed information on GoCommands, refer to the [GoCommands GitHub reposito
 - [sync](https://github.com/cyverse/gocommands/tree/main/docs/commands/sync.md): Synchronize local and remote directories
 - [chmod](https://github.com/cyverse/gocommands/tree/main/docs/commands/chmod.md): Change access permission of files or directories
 - [chmodinherit](https://github.com/cyverse/gocommands/tree/main/docs/commands/chmodinherit.md): Change access permission inheritance of directories
+- [lsmeta](https://github.com/cyverse/gocommands/tree/main/docs/commands/lsmeta.md): List metadata of data objects, collections, resources, or users in iRODS
+- [addmeta](https://github.com/cyverse/gocommands/tree/main/docs/commands/addmeta.md): Add metadata to data objects, collections, resources, or users in iRODS
+- [rmmeta](https://github.com/cyverse/gocommands/tree/main/docs/commands/rmmeta.md): Remove metadata from data objects, collections, resources, or users in iRODS
 - [copy-sftp-id](https://github.com/cyverse/gocommands/tree/main/docs/commands/copy-sftp-id.md): Configure SFTP Public-key Authentication
 - [svrinfo](https://github.com/cyverse/gocommands/tree/main/docs/commands/svrinfo.md): Display server information
 - [ps](https://github.com/cyverse/gocommands/tree/main/docs/commands/ps.md): Display current iRODS sessions
