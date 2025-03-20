@@ -317,6 +317,9 @@ For detailed information on GoCommands, refer to the [GoCommands GitHub reposito
 - [put](https://github.com/cyverse/gocommands/tree/main/docs/commands/put.md): Upload files to the Data Store
 - [bput](https://github.com/cyverse/gocommands/tree/main/docs/commands/bput.md): Bulk upload files to the Data Store
 - [sync](https://github.com/cyverse/gocommands/tree/main/docs/commands/sync.md): Synchronize local and remote directories
+- [chmod](https://github.com/cyverse/gocommands/tree/main/docs/commands/chmod.md): Change access permission of files or directories
+- [chmodinherit](https://github.com/cyverse/gocommands/tree/main/docs/commands/chmodinherit.md): Change access permission inheritance of directories
+- [copy-sftp-id](https://github.com/cyverse/gocommands/tree/main/docs/commands/copy-sftp-id.md): Configure SFTP Public-key Authentication
 - [svrinfo](https://github.com/cyverse/gocommands/tree/main/docs/commands/svrinfo.md): Display server information
 - [ps](https://github.com/cyverse/gocommands/tree/main/docs/commands/ps.md): Display current iRODS sessions
 - [upgrade](https://github.com/cyverse/gocommands/tree/main/docs/commands/upgrade.md): Upgrade GoCommands
