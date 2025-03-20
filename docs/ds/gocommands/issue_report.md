@@ -7,7 +7,7 @@ This error indicates that the system could not locate `gocmd` binary in the dire
 
 To resolve this:
 
-1. Use an absolute path: Run `./gocmd init` from the directory where you downloaded the `gocmd` binary.
+1. Use an absolute or relative path: Run `./gocmd init` from the directory where you downloaded the `gocmd` binary.
 2. For easier future use: Move the `gocmd` binary to a directory in your `$PATH`, such as `/usr/local/bin`.
 3. Windows users: Ensure the executable is named `gocmd.exe` and run `gocmd.exe init` to initialize.
 
