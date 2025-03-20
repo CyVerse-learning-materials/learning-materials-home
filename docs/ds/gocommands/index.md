@@ -16,8 +16,7 @@ This guide covers installation, data transfer methods, access management, and me
 5. [Access Management](access_management.md)
 6. [Metadata Management](metadata_management.md)
 7. [SFTP Public-key Authentication Configuration](sftp_public_key_auth.md)
-8. [Issue Report](issue_report.md)
-9. [Frequently Asked Questions](faq.md)
+8. [Troubleshooting and Issue Report](issue_report.md)
 
 ---
 
@@ -49,10 +48,6 @@ Enhance data discoverability and organization by adding, updating, and managing 
 
 Set up and configure public-key authentication for secure SFTP access to the Data Store. This section walks you through the setup process.
 
-## [:material-bug-check-outline: Issue Report](issue_report.md)
+## [:material-bullseye-arrow: Troubleshooting and Issue Report](issue_report.md)
 
 Encountered an issue? Learn how to report bugs, troubleshoot errors, and contribute to the improvement of GoCommands.
-
-## [:material-help: Frequently Asked Questions](faq.md)
-
-Find answers to common questions about using GoCommands, including troubleshooting tips.

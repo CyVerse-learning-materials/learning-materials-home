@@ -33,14 +33,14 @@ nav:
       - 'Sharing with Teams': ds/de/teams.md
     - 'GoCommands':
       - ds/gocommands/index.md
-      - 'Installation': ds/gocommands/installation.md
+      - 'Installation and Upgrade': ds/gocommands/installation.md
+      - 'Configuration': ds/gocommands/configuration.md
       - 'Data Management': ds/gocommands/data_management.md
       - 'Data Transfer': ds/gocommands/data_transfer.md
-      - 'Bulk Data Transfers': ds/gocommands/bulk_data_transfer.md
-      - 'Synchronization': ds/gocommands/data_synchronization.md
       - 'Access Management': ds/gocommands/access_management.md
       - 'Metadata Management': ds/gocommands/metadata_management.md
-      - 'SFTP Access Configuration': ds/gocommands/sftp_configuration.md
+      - 'SFTP Public-key Authentication Configuration': ds/gocommands/sftp_public_key_auth.md
+      - 'Troubleshooting and Issue Report': ds/gocommands/issue_report.md
     - 'iCommands':
       - ds/icommands/index.md
       - 'Installation': ds/icommands/installation.md
@@ -64,7 +64,6 @@ nav:
       - ds/cyberduck/index.md
       - 'iRODS profile': ds/cyberduck/irods.md
       - 'SFTP profile': ds/cyberduck/sftp.md
-    - 'Issue Reporting': ds/issue_report.md
   - 'Discovery Environment':
     - de/index.md
     - 'Logging In': de/login.md
