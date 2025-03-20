@@ -2,7 +2,7 @@
 
 GoCommands provides a feature to configure public-key authentication for the Data Store's SFTP service. The `copy-sftp-id` command uploads your local SSH public keys to the Data Store, enabling password-less authentication for the SFTP service.
 
-## :material-cog-outline: Copy SSH Public-key (Identity File)
+## :material-account-key-outline: Copy SSH Public-key (Identity File)
 
 1. **Generate an SSH key (if you don't already have one):**
     ```sh
@@ -25,7 +25,7 @@ GoCommands provides a feature to configure public-key authentication for the Dat
 
     This command copies only the SSH public key from the `~/.ssh/id_rsa.pub` file to `/iplant/home/<username>/.ssh/authorized_keys` in the Data Store.
 
-## :material-cog-outline: Advanced Configuration to Control Public-key Access
+## :material-account-key-outline: Advanced Configuration to Control Public-key Access
 
 For advanced usage, you can control public-key access by manually editing the `/iplant/home/<username>/.ssh/authorized_keys` file in the Data Store. This process involves downloading the file, making changes, and then uploading it back. Here's how to do it:
 
