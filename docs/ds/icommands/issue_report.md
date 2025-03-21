@@ -4,23 +4,15 @@
 
 ### Installing iCommands on Windows and macOS
 
-iCommands has limited support for Windows and macOS. Alternative methods are recommended for accessing the Data Store on these platforms:
+iCommands has limited support for Windows and macOS. While there are options available, such as using Windows Subsystem for Linux (WSL) or custom iCommands packages for macOS, we highly recommend using GoCommands as a more versatile alternative.
 
-1. **Windows**: Use Windows Subsystem for Linux (WSL) to install iCommands.
+GoCommands is a cross-platform tool that offers similar functionality to iCommands with several advantages:
 
-2. **macOS**: CyVerse provides an iCommands 4.1.9 installer, but updates may be infrequent.
-   - [cyverse-icommands-4.1.9.pkg](https://cyverse.atlassian.net/wiki/download/attachments/241869823/cyverse-icommands-4.1.9.pkg?version=3&modificationDate=1472820029000&cacheVersion=1&api=v2)
+- **Cross-platform compatibility**: Works seamlessly on Windows, macOS, and Linux
+- **No installation required**: Simply download and run the executable
+- **User-friendly commands**: Provides essential data access functions
 
-#### Recommended Alternative: GoCommands
-
-GoCommands is a cross-platform tool that offers similar functionality to iCommands:
-
-- Works on Windows, macOS, and Linux
-- No installation required
-- Provides user commands for data access
-
-For instructions on using GoCommands, refer to the [GoCommands documentation](../gocommands/index.md).
-
+For detailed instructions on downloading, setting up, and using GoCommands, please refer to the [GoCommands documentation](../gocommands/index.md).
 
 ### Request Support
 
