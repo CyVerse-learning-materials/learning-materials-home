@@ -72,19 +72,19 @@ nav:
     - 'Interactive Analysis': de/vice/about.md
     - 'Integrate Apps and Tools': de/create_apps.md
     - 'Integrate Interactive Apps': de/vice/extend_apps.md
+    - 'Data Store in Interactive Apps': de/vice/csi.md   
+    - 'Sharing Apps': de/vice/quick-app-launch.md
     - 'Sharing and Using Bags': de/bags.md
-    - 'Adding Metadata': ds/de/metadata.md
     - 'Sharing Data': ds/de/share.md
+    - 'Adding Metadata': ds/de/metadata.md
     - 'Getting a DOI': ds/de/doi.md
-    - 'Checking Data Storage': ds/de/check_data.md
+    - 'Checking Data Usage': ds/de/check_data.md
     - 'Teams': ds/de/teams.md
     - 'Quick Starts':
-      - 'RStudio in 6 steps': de/vice/quick-rstudio.md
-      - 'JupyterLab in 6 steps': de/vice/quick-jupyter.md
-      - 'Cloud Shell in 6 steps': de/vice/quick-cloudshell.md
-      - 'Running Ollama': de/vice/quick-ollama.md
-      - 'Sharing Apps Quick Start': de/vice/quick-app-launch.md
-      - 'Access Data in VICE Apps': de/vice/csi.md  
+      - 'RStudio': de/vice/quick-rstudio.md
+      - 'JupyterLab': de/vice/quick-jupyter.md
+      - 'Cloud Shell': de/vice/quick-cloudshell.md
+      - 'Ollama': de/vice/quick-ollama.md
   - 'Cloud Native Services':
     - cloud/index.md
     - 'CACAO': cloud/cacao.md
