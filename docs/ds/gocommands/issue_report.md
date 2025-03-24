@@ -17,8 +17,8 @@ This error occurs when the `gocmd` binary is incompatible with your CPU architec
 
 1. Review the [installation instructions](installation.md) to ensure you downloaded the correct version for your system.
 2. Verify your system's architecture and OS version:
-   - On Linux/macOS, use the command `uname -m` for architecture and `uname -s` for OS.
-   - On Windows, check System Information in the Control Panel.
+    - On Linux/macOS, use the command `uname -m` for architecture and `uname -s` for OS.
+    - On Windows, check System Information in the Control Panel.
 3. Download the appropriate `gocmd` binary that matches your system specifications.
 4. If the problem persists, seek support from the CyVerse community.
 
@@ -27,12 +27,12 @@ This error occurs when the `gocmd` binary is incompatible with your CPU architec
 In Windows, the backslash (`\`) is used as the default path delimiter, while the forward slash (`/`) is used in Linux and macOS. If you encounter a "Path not found" error, ensure the following:
 
 1. **Local Path**: Verify that your local path is correctly specified using the backslash (`\`) as the delimiter. For example:
-   - Correct: `C:\Users\YourName\Documents`
-   - Incorrect: `C:/Users/YourName/Documents`
+    - Correct: `C:\Users\YourName\Documents`
+    - Incorrect: `C:/Users/YourName/Documents`
 
 2. **Data Store Path**: Use the forward slash (`/`) as the delimiter for paths in the Data Store. For example:
-   - Correct: `/iplant/home/username/folder`
-   - Incorrect: `\iplant\home\username\folder`
+    - Correct: `/iplant/home/username/folder`
+    - Incorrect: `\iplant\home\username\folder`
 
 
 ### Keep Failing Large File Transfer
@@ -50,7 +50,7 @@ If you encounter a bug, please report it to our [GitHub repository](https://gith
 
 When submitting a bug report, please include the following information:
 
--   **System Information:** Specify your CPU architecture and operating system (OS).
--   **Failing Command:** Provide the exact command you used that resulted in the error.
--   **Debug Log:** Run the command with the `-d` flag to display debug output, then copy and paste the relevant error messages into your report. This provides valuable context for troubleshooting.
+- **System Information:** Specify your CPU architecture and operating system (OS).
+- **Failing Command:** Provide the exact command you used that resulted in the error.
+- **Debug Log:** Run the command with the `-d` flag to display debug output, then copy and paste the relevant error messages into your report. This provides valuable context for troubleshooting.
 

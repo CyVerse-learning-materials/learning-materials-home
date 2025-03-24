@@ -33,18 +33,18 @@ There are several ways to access the Data Store. These methods vary in speed, fl
 
 This section covers each of the following data management methods:
 
-  1. [Discovery Environment](de/index.md): A comprehensive web-based platform for data analysis and management
-  2. [GoCommands](gocommands): A lightweight, portable command-line tool for efficient data operations on any OS
-  3. [iCommands](icommands): A powerful command-line suite for advanced data management tasks on Linux
-  4. [SFTP](sftp): A secure file transfer protocol accessible via command-line or GUI applications on any OS
-  5. [WebDAV](webdav): A protocol extending HTTP for collaborative file management over the internet, usable on any OS
-  6. [Cyberduck](cyberduck): A user-friendly desktop application for file transfer and management on macOS and Windows
+1. [Discovery Environment](de/index.md): A comprehensive web-based platform for data analysis and management
+2. [GoCommands](gocommands): A lightweight, portable command-line tool for efficient data operations on any OS
+3. [iCommands](icommands): A powerful command-line suite for advanced data management tasks on Linux
+4. [SFTP](sftp): A secure file transfer protocol accessible via command-line or GUI applications on any OS
+5. [WebDAV](webdav): A protocol extending HTTP for collaborative file management over the internet, usable on any OS
+6. [Cyberduck](cyberduck): A user-friendly desktop application for file transfer and management on macOS and Windows
 
 Additional resources for managing your data and team collaboration:
 
-  1. [Getting a DOI](de/doi.md): Obtain a Digital Object Identifier (DOI) for a permanent and stable link to your data
-  2. [Checking Data Usage](de/check_data.md): Monitor your data usage and storage limits
-  3. [Team Access Management](de/teams.md): Create and manage teams in the Data Store for collaborative work
+1. [Getting a DOI](de/doi.md): Obtain a Digital Object Identifier (DOI) for a permanent and stable link to your data
+2. [Checking Data Usage](de/check_data.md): Monitor your data usage and storage limits
+3. [Team Access Management](de/teams.md): Create and manage teams in the Data Store for collaborative work
 
 ---
 
