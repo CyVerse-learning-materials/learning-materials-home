@@ -42,13 +42,15 @@ GoCommands provides a range of commands designed to efficiently and conveniently
 
     - The `--thread_num` flag sets the maximum number of threads to use for the transfer.
 
+    !!! Warning "Thread Count Considerations"
 
-    **Important Considerations:**
+        1. Higher thread counts require more CPU and memory. Excessive threads may overload your system, causing performance issues. For example, Discovery Environment (DE) apps limit transfer threads to 5 due to RAM constraints.
+        2. The Data Store limits concurrent connections, potentially restricting high thread counts.
 
-    - Increasing the number of transfer threads requires additional CPU and memory resources. Setting the thread count too high may exceed your system's capacity, leading to performance issues.
-    - For example, in Discovery Environment (DE) apps, the transfer thread count is limited to 5 due to RAM constraints.
-    - The Data Store limits concurrent connections, so excessive thread counts may be restricted.
-    - When using GoCommands on the University of Arizona Campus network, the `--icat` flag is necessary for stable large file transfers.
+    
+    ??? Tip "Using GoCommands on the University of Arizona Campus Network?"
+
+        When using GoCommands on the UA Campus network, include the `--icat` flag for stable large file transfers.
 
 ---
 
@@ -90,13 +92,15 @@ GoCommands provides a range of commands designed to efficiently and conveniently
 
     - The `--thread_num` flag sets the maximum number of threads to use for the transfer.
 
-    **Important Considerations:**
+    !!! Warning "Thread Count Considerations"
 
-    - Increasing the number of transfer threads requires additional CPU and memory resources. Setting the thread count too high may exceed your system's capacity, leading to performance issues.
-    - For example, in Discovery Environment (DE) apps, the transfer thread count is limited to 5 due to RAM constraints.
-    - The Data Store's policies restrict the number of simultaneous connections, so creating excessive thread counts may not be permitted.
-    - The Data Store limits concurrent connections, so excessive thread counts may be restricted.
-    - When using GoCommands on the University of Arizona Campus network, the `--icat` flag is necessary for stable large file transfers.
+        1. Higher thread counts require more CPU and memory. Excessive threads may overload your system, causing performance issues. For example, Discovery Environment (DE) apps limit transfer threads to 5 due to RAM constraints.
+        2. The Data Store limits concurrent connections, potentially restricting high thread counts.
+
+    
+    ??? Tip "Using GoCommands on the University of Arizona Campus Network?"
+
+        When using GoCommands on the UA Campus network, include the `--icat` flag for stable large file transfers.
 
 4. **Upload a local directory containing many small files:**
     ```sh

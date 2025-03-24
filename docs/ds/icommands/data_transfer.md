@@ -34,11 +34,10 @@ iCommands provides a range of commands designed to efficiently and conveniently 
 
     - The `-N` flag sets the maximum number of threads to use for the transfer.
 
-    **Important Considerations:**
+    !!! Warning "Thread Count Considerations"
 
-    - Increasing the number of transfer threads requires additional CPU and memory resources. Setting the thread count too high may exceed your system's capacity, leading to performance issues.
-    - For example, in Discovery Environment (DE) apps, the transfer thread count is limited to 4 due to RAM constraints.
-    - The Data Store limits concurrent connections, so excessive thread counts may be restricted.
+        1. Higher thread counts require more CPU and memory. Excessive threads may overload your system, causing performance issues. For example, Discovery Environment (DE) apps limit transfer threads to 4 due to RAM constraints.
+        2. The Data Store limits concurrent connections, potentially restricting high thread counts.
 
 ---
 
@@ -72,9 +71,7 @@ iCommands provides a range of commands designed to efficiently and conveniently 
 
     - The `-N` flag sets the maximum number of threads to use for the transfer.
 
-    **Important Considerations:**
+    !!! Warning "Thread Count Considerations"
 
-    - Increasing the number of transfer threads requires additional CPU and memory resources. Setting the thread count too high may exceed your system's capacity, leading to performance issues.
-    - For example, in Discovery Environment (DE) apps, the transfer thread count is limited to 4 due to RAM constraints.
-    - The Data Store's policies restrict the number of simultaneous connections, so creating excessive thread counts may not be permitted.
-    - The Data Store limits concurrent connections, so excessive thread counts may be restricted.
+        1. Higher thread counts require more CPU and memory. Excessive threads may overload your system, causing performance issues. For example, Discovery Environment (DE) apps limit transfer threads to 4 due to RAM constraints.
+        2. The Data Store limits concurrent connections, potentially restricting high thread counts.
