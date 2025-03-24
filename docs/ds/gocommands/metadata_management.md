@@ -2,11 +2,14 @@
 
 GoCommands provides features to manage metadata for data objects, collections, resources, and users in the Data Store using the `lsmeta`, `addmeta`, and `rmmeta` commands.
 
-**Metadata Components:**
+Metadata consists of three components:
 
-- **Name (Attribute):** The name of information
-- **Value:** The actual information or data
-- **Unit (Optional):** Specifies the unit of measurement, if applicable
+- **Name (Attribute):** The name of information.
+- **Value:** The actual data or information.
+- **Unit (Optional):** Specifies the unit of measurement, if applicable.
+
+
+---
 
 ## :material-tag-edit-outline: List Metadata of Data Objects, Collections, Resources, or Users
 
@@ -90,6 +93,8 @@ gocmd addmeta [flags] <irods-object> <metadata-name> <metadata-value> [metadata-
     gocmd addmeta -U myUser meta_name meta_value
     ```
 
+---
+
 ## :material-tag-edit-outline: Remove Metadata from Data Objects, Collections, Resources, or Users
 
 ```sh
@@ -97,9 +102,6 @@ gocmd rmmeta [flags] <irods-object> <metadata-ID-or-name>
 ```
 
 **Note:** The `metadata-ID` is a numeric identifier for the metadata. It can be obtained from the output of the `lsmeta` command.
-
----
-Answer from Perplexity: pplx.ai/share
 
 ### iRODS Objects 
 
