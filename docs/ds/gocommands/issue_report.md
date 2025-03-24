@@ -43,6 +43,7 @@ If you are using GoCommands within the University of Arizona Campus or the Disco
 
 If you encounter an issue that you cannot resolve, please contact [support@cyverse.org](mailto:support@cyverse.org) for assistance. Your Data Store access via GoCommands may be limited or fail due to various factors, including configuration issues, network problems, authentication errors, or data policies. The support team is available to help you identify and resolve these issues.
 
+---
 
 ## :material-bug-check-outline: Report Bugs
 

@@ -11,7 +11,7 @@ macOS runs on a variety of Apple devices, including MacBook, MacBook Pro, MacBoo
 ??? Tip "Unsure which CPU architecture your Mac uses?"
 
     :simple-gnometerminal: Run the following command in the terminal:
-    ```bash
+    ```sh
     uname -p
     ```
     This will return `aarch64` / `arm64` for Apple Silicon (M1/M2) or `x86_64` for Intel-based Macs.
@@ -19,7 +19,7 @@ macOS runs on a variety of Apple devices, including MacBook, MacBook Pro, MacBoo
 #### :simple-intel: Intel 64-bit
 Intel processors were used in Mac devices released before 2020. If you're using an older Mac, install GoCommands with the following command:  
 
-```bash
+```sh
 GOCMD_VER=$(curl -L -s https://raw.githubusercontent.com/cyverse/gocommands/main/VERSION.txt); \
 curl -L -s https://github.com/cyverse/gocommands/releases/download/${GOCMD_VER}/gocmd-${GOCMD_VER}-darwin-amd64.tar.gz | tar zxvf -
 ```
@@ -27,7 +27,7 @@ curl -L -s https://github.com/cyverse/gocommands/releases/download/${GOCMD_VER}/
 #### :simple-apple: Apple Silicon (M1/M2)  
 Apple introduced its custom Silicon chips (M1, M2) in 2020, replacing Intel processors in newer Mac models. If your device runs on Apple Silicon, use the following command to install GoCommands:  
 
-```bash
+```sh
 GOCMD_VER=$(curl -L -s https://raw.githubusercontent.com/cyverse/gocommands/main/VERSION.txt); \
 curl -L -s https://github.com/cyverse/gocommands/releases/download/${GOCMD_VER}/gocmd-${GOCMD_VER}-darwin-arm64.tar.gz | tar zxvf -
 ```
@@ -41,35 +41,35 @@ Linux supports a wide range of CPU architectures. Follow the appropriate install
 ??? Tip "Unsure which CPU architecture your system uses?"
 
     :simple-gnometerminal: Run the following command in the terminal:
-    ```bash
+    ```sh
     uname -p
     ```
     This command will return the architecture type, such as `x86_64` for 64-bit Intel/AMD processors, `i386` / `i686` for 32-bit Intel/AMD processors, `aarch64` / `arm64` for 64-bit ARM processors, or `arm` for 32-bit ARM processors.
 
 #### :simple-intel: :simple-amd: Intel/AMD 64-bit
 
-```bash
+```sh
 GOCMD_VER=$(curl -L -s https://raw.githubusercontent.com/cyverse/gocommands/main/VERSION.txt); \
 curl -L -s https://github.com/cyverse/gocommands/releases/download/${GOCMD_VER}/gocmd-${GOCMD_VER}-linux-amd64.tar.gz | tar zxvf -
 ```
 
 #### :simple-intel: :simple-amd: Intel/AMD 32-bit
 
-```bash
+```sh
 GOCMD_VER=$(curl -L -s https://raw.githubusercontent.com/cyverse/gocommands/main/VERSION.txt); \
 curl -L -s https://github.com/cyverse/gocommands/releases/download/${GOCMD_VER}/gocmd-${GOCMD_VER}-linux-386.tar.gz | tar zxvf -
 ```
 
 #### :simple-arm: ARM 64-bit
 
-```bash
+```sh
 GOCMD_VER=$(curl -L -s https://raw.githubusercontent.com/cyverse/gocommands/main/VERSION.txt); \
 curl -L -s https://github.com/cyverse/gocommands/releases/download/${GOCMD_VER}/gocmd-${GOCMD_VER}-linux-arm64.tar.gz | tar zxvf -
 ```
 
 #### :simple-arm: ARM 32-bit
 
-```bash
+```sh
 GOCMD_VER=$(curl -L -s https://raw.githubusercontent.com/cyverse/gocommands/main/VERSION.txt); \
 curl -L -s https://github.com/cyverse/gocommands/releases/download/${GOCMD_VER}/gocmd-${GOCMD_VER}-linux-arm.tar.gz | tar zxvf -
 ```
@@ -89,7 +89,7 @@ Windows includes two main terminal applications: `Command Prompt (CMD)` and `Pow
     :simple-gnometerminal: Run the following command in the Command Prompt (CMD):
     ```
     echo %PROCESSOR_ARCHITECTURE%
-    ```
+    ```sh
     This command will return the architecture type, such as `AMD64` for 64-bit Intel/AMD processors or `x86` for 32-bit Intel/AMD processors.
 
 ##### :simple-intel: :simple-amd: Intel/AMD 64-bit
@@ -111,7 +111,7 @@ curl -L -s -o gocmd.zip https://github.com/cyverse/gocommands/releases/download/
 ??? Tip "Unsure which CPU architecture your system uses?"
 
     :simple-gnometerminal: Run the following command in the PowerShell:
-    ```
+    ```sh
     $env:PROCESSOR_ARCHITECTURE
     ```
     This command will return the architecture type, such as `AMD64` for 64-bit Intel/AMD processors or `x86` for 32-bit Intel/AMD processors.
@@ -137,13 +137,13 @@ curl -o gocmd.zip https://github.com/cyverse/gocommands/releases/download/$env:G
 GoCommands can be installed via `conda` if you are using Linux or Mac OS. Unfortunately, Windows system is not yet supported. Please follow instructions below to install.
 
 1. Add `conda-forge` channel to `conda`. This is required because GoCommands is added to `conda-forge` channel.
-    ```bash
+    ```sh
     conda config --add channels conda-forge
     conda config --set channel_priority strict
     ```
 
 2. Install GoCommands with `conda`.
-    ```bash
+    ```sh
     conda install gocommands
     ```
 
@@ -166,12 +166,12 @@ Here, you can browse and download any available version of GoCommands for your o
 Keeping GoCommands up to date ensures you have the latest features and bug fixes. To upgrade to the latest version, follow these steps:  
 
 1. Run the upgrade command:  
-    ```bash
+    ```sh
     gocmd upgrade
     ```  
 
 2. If GoCommands is installed in a system directory, you may need administrative privileges. On Unix-like systems, use:  
-    ```bash
+    ```sh
     sudo gocmd upgrade
     ```  
 

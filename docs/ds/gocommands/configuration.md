@@ -5,7 +5,7 @@
 The `init` command sets up the iRODS Host and access account for use with other GoCommands tools. Once the configuration is set, configuration files are created under the `~/.irods` directory. The configuration is fully compatible with that of iCommands.
 
 1. **Run the following command to configure GoCommands:**
-    ```
+    ```sh
     gocmd init
     ```
 
@@ -26,19 +26,28 @@ The `init` command sets up the iRODS Host and access account for use with other 
     | `irods_user_name` |  `<CyVerse Username>` |
     | `irods_user_password` | `<CyVerse Password>` |
 
+    Use these credentials for anonymous access to the Data Store:
+
+    | Configuration Key | Value |
+    |-------------------|-------|
+    | `irods_user_name` | `anonymous` |
+    | `irods_user_password` | (leave empty) |
+
+
 3. **To verify the current configuration, use:**
-    ```
+    ```sh
     gocmd env
     ```
 
     This will display the current configurations.
 
 4. **Execute GoCommands for your task:**
-    ```
+    ```sh
     gocmd ls
     ```
 
 ---
+
 
 ## :material-cog-outline: Using iCommands Configuration
 
@@ -51,7 +60,7 @@ GoCommands is compatible with iCommands' configuration files. It can automatical
 GoCommands can read configurations from YAML or JSON files without running `init` to create the `~/.irods` directory. This approach offers flexibility but requires specifying the configuration file path for each command. Here's how to use this method:
 
 1. **Create a file named `config.yaml` using your preferred text editor:**
-    ```
+    ```sh
     irods_host: "data.cyverse.org"
     irods_port: 1247
     irods_zone_name: "iplant"
@@ -64,12 +73,12 @@ GoCommands can read configurations from YAML or JSON files without running `init
         :material-security: You can omit sensitive fields like `irods_user_password`, and GoCommands will prompt you to enter the missing values during runtime.
 
 2. **To use this configuration file, provide its path with the `-c` flag when running GoCommands:**
-    ```
+    ```sh
     gocmd -c config.yaml env
     ```
 
 3. **Execute GoCommands for your task:**
-    ```
+    ```sh
     gocmd -c config.yaml ls
     ```
 
@@ -80,7 +89,7 @@ GoCommands can read configurations from YAML or JSON files without running `init
 The `init` command can be executed with an external file to automate configuration.
 
 1. **Create a file named `config.yaml` using your preferred text editor:**
-    ```
+    ```sh
     irods_host: "data.cyverse.org"
     irods_port: 1247
     irods_zone_name: "iplant"
@@ -93,7 +102,7 @@ The `init` command can be executed with an external file to automate configurati
         :material-security: You can omit sensitive fields like `irods_user_password`, and GoCommands will prompt you to enter the missing values during runtime.
 
 2. **Execute the `init` command with the `-c` flag to configure:**
-    ```
+    ```sh
     gocmd -c config.yaml init
     ```
 
@@ -104,7 +113,7 @@ The `init` command can be executed with an external file to automate configurati
 GoCommands can read configuration directly from environmental variables, which take precedence over other configuration sources.
 
 1. **Export the required variables in your terminal:**
-    ```
+    ```sh
     export IRODS_HOST="data.cyverse.org"
     export IRODS_PORT=1247
     export IRODS_ZONE_NAME="iplant"
@@ -117,12 +126,12 @@ GoCommands can read configuration directly from environmental variables, which t
         :material-security: You can omit sensitive fields like `IRODS_USER_PASSWORD`, and GoCommands will prompt you to enter the missing values during runtime.
 
 2. **Run GoCommands to verify the environment settings:**
-    ```
+    ```sh
     gocmd env
     ```
 
 3. **Execute GoCommands for your task:**
-    ```
+    ```sh
     gocmd ls
     ```
 
@@ -133,7 +142,7 @@ GoCommands can read configuration directly from environmental variables, which t
 The `init` command can be executed with environmental variables to automate configuration.
 
 1. **Export the required variables in your terminal:**
-    ```
+    ```sh
     export IRODS_HOST="data.cyverse.org"
     export IRODS_PORT=1247
     export IRODS_ZONE_NAME="iplant"
@@ -146,7 +155,7 @@ The `init` command can be executed with environmental variables to automate conf
         :material-security: You can omit sensitive fields like `IRODS_USER_PASSWORD`, and GoCommands will prompt you to enter the missing values during runtime.
 
 2. **Execute the `init` command:**
-    ```
+    ```sh
     gocmd init
     ```
 
