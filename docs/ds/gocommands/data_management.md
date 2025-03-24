@@ -94,7 +94,7 @@ By default, after configuring GoCommands, your current working collection is set
    ```
 
    This command will show the data objects and collections within `/iplant/home/myUser/mydata`, along with their access control lists (ACLs):
-    ```sh
+   ```sh
    /iplant/home/myUser/mydata:
            ACL - g:rodsadmin#iplant:own	myUser#iplant:own
            Inheritance - Disabled

@@ -4,7 +4,7 @@
 
 GoCommands provides pre-built binaries for various operating systems and architectures. Choose the appropriate command for your system to install the latest version.
 
-### :simple-apple: macOS  
+### :simple-apple: macOS
 
 macOS runs on a variety of Apple devices, including MacBook, MacBook Pro, MacBook Air, iMac, Mac mini, Mac Studio, and Mac Pro. Depending on the model, it may use either an Intel/AMD 64-bit CPU or Apple Silicon (M1/M2). Follow the appropriate installation instructions based on your processor.
 
