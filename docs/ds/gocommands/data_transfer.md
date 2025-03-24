@@ -11,11 +11,10 @@ GoCommands provides a range of commands designed to efficiently and conveniently
 
    This command downloads the collection `/iplant/home/myUser/mydir` and its contents to `/local/dir/`. A new directory named `mydir` will be created under `/local/dir/`, resulting in `/local/dir/mydir` containing all the downloaded files and subdirectories.
 
-   Flags:
-   - `--progress`: Displays progress bars for visual feedback during transfer.
-   - `-f`: Overwrites existing local files without prompting.
-   - `-K`: Verifies file integrity by calculating and comparing checksums after download.
-   - `--icat`: Uses iCAT as a transfer broker, avoiding direct resource server access that may cause occasional failures.
+   - The `--progress` flag shows progress bars, providing visual feedback during file transfers.
+   - The `-f` flag forces overwriting of existing local files without confirmation.
+   - The `-K` flag ensures file integrity by verifying checksums after the download.
+   - The `--icat` flag uses iCAT as a transfer broker, bypassing direct resource server access to prevent potential transfer failures.
 
 2. **Sync a collection in the Data Store with a local directory:**
    ```sh
@@ -24,9 +23,8 @@ GoCommands provides a range of commands designed to efficiently and conveniently
 
    This command downloads the collection `/iplant/home/myUser/mydir` and its contents to `/local/dir/`, syncing any new updates made to the original data.
 
-   Additional flag:
-   - `--diff`: Transfers only files that are different or don't exist locally, comparing file sizes and checksums.
-   - `--delete`: Removes extra files in the destination directory that do not exist in the source data.
+   - The `--diff` flag transfers only new or modified files, comparing sizes and checksums.
+   - The `--delete` flag removes files from the destination that don't exist in the source.
 
    This command is equivalent to:
    ```sh
@@ -54,11 +52,10 @@ GoCommands provides a range of commands designed to efficiently and conveniently
 
    This command uploads the local directory `/local/dir/` and its contents to the Data Store at `/iplant/home/myUser/mydir/`. A new directory named `dir` will be created under `/iplant/home/myUser/mydir/`, resulting in `/iplant/home/myUser/mydir/dir` containing all the uploaded files and subdirectories.
 
-   Flags:
-   - `--progress`: Displays progress bars for visual feedback during transfer.
-   - `-f`: Overwrites existing files in the Data Store without prompting.
-   - `-K`: Verifies file integrity by calculating and comparing checksums after upload.
-   - `--icat`: Uses iCAT as a transfer broker, avoiding direct resource server access that may cause occasional failures.
+   - The `--progress` flag shows progress bars during file transfers.
+   - The `-f` flag forces overwriting of existing files in the Data Store without confirmation.
+   - The `-K` flag ensures file integrity by verifying checksums after upload.
+   - The `--icat` flag uses iCAT as a transfer broker, bypassing direct resource server access to prevent potential transfer failures.
 
 2. **Sync a local directory with a collection in the Data Store:**
    ```sh
@@ -67,9 +64,8 @@ GoCommands provides a range of commands designed to efficiently and conveniently
 
    This command uploads the local directory `/local/dir/` to `/iplant/home/myUser/mydir/` in the Data Store, syncing any new or updated files. It also removes extra files in the destination collection that do not exist locally.
 
-   Additional flags:
-   - `--diff`: Transfers only files that are different or don't exist in the destination, comparing file sizes and checksums.
-   - `--delete`: Deletes extra files in the destination collection that are not present.
+   - The `--diff` flag transfers only new or modified files, comparing sizes and checksums.
+   - The `--delete` flag removes files from the destination that don't exist in the source.
 
    This command is equivalent to:
    ```sh
@@ -83,7 +79,6 @@ GoCommands provides a range of commands designed to efficiently and conveniently
 
    This command uploads the local directory `/local/dir/` and its contents to `/iplant/home/myUser/mydir/` in the Data Store using 20 parallel transfer threads. This can significantly speed up the upload process by maximizing I/O and network bandwidth.
 
-   **Important Considerations:**
    - Increasing the number of transfer threads requires additional CPU and memory resources. Setting the thread count too high may exceed your system's capacity, leading to performance issues.
    - For example, in Discovery Environment (DE) apps, the transfer thread count is limited to 5 due to RAM constraints.
    - The Data Store may enforce policies that restrict the number of simultaneous connections, so excessive thread counts may not be permitted.
