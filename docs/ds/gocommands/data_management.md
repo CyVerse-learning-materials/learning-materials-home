@@ -140,6 +140,17 @@ By default, after configuring GoCommands, your current working collection is set
 
 ## :material-file-arrow-left-right-outline: Upload Data Objects (files) and Collections (directories) to the Data Store
 
+!!! Warning
+
+    When uploading your data to the Data Store, avoid using:
+    
+    - Spaces in names (e.g., `experiment one.fastq`)
+    - Special characters: \~ \`\` ! @ \# \$ % \^ & \* ( ) + = { } \[ \] \| : ; " ' < \> , ? / and \\
+
+    These may cuase issues with Discovery Environment Apps and command-line applications.
+
+    **Recommendation:** Use underscores for long names (e.g., `experiment_one.fastq`).
+    
 1. **Upload a single file:**
     ```sh
     gocmd put /local/path/file.txt /iplant/home/myUser/
