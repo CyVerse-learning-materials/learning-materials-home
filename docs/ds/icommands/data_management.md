@@ -140,6 +140,17 @@ By default, after configuring iCommands, your current working collection is set 
 
 ## :material-file-arrow-left-right-outline: Upload Data Objects (files) and Collections (directories) to the Data Store
 
+!!! Warning
+
+    When uploading your data to the Data Store, avoid using:
+    
+    - Spaces in names (e.g., `experiment one.fastq`)
+    - Special characters: \~ \`\` ! @ \# \$ % \^ & \* ( ) + = { } \[ \] \| : ; " ' < \> , ? / and \\
+
+    These may cuase issues with Discovery Environment Apps and command-line applications.
+
+    **Recommendation:** Use underscores for long names (e.g., `experiment_one.fastq`).
+
 1. **Upload a single file:**
     ```sh
     iput /local/path/file.txt /iplant/home/myUser/
@@ -180,7 +191,14 @@ By default, after configuring iCommands, your current working collection is set 
 
     This command bypasses the iCAT server for data transfer, directly accessing the specified resource server for optimized performance.
 
+7. **Upload with connection auto-renewal:**
+    ```sh
+    iput -T /local/dir /iplant/home/myUser/
+    ```
 
+    Renews connections every 10 minutes to prevent failures due to connection or firewall issues.
+
+    
 ---
 
 ## :material-file-arrow-left-right-outline: Download Data Objects (files) and Collections (directories) From the Data Store
@@ -225,6 +243,13 @@ By default, after configuring iCommands, your current working collection is set 
 
     This command bypasses the iCAT server for data transfer, directly accessing the specified resource server. It optimizes performance for large files by direct connection to the resource server.
 
+7. **Download with connection auto-renewal:**
+    ```sh
+    iget -T /iplant/home/myUser/dir /local/dir
+    ```
+
+    Renews connections every 10 minutes to prevent failures due to connection or firewall issues.
+    
 
 ---
 

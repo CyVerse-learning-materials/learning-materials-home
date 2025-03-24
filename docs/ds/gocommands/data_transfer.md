@@ -35,16 +35,20 @@ GoCommands provides a range of commands designed to efficiently and conveniently
 
 3. **Download a collection using multiple parallel transfers:**
     ```sh
-    gocmd get --progress -f -K --icat --thread_num 20 /iplant/home/myUser/mydir /local/dir/
+    gocmd get --progress -f -K --icat --thread_num 10 /iplant/home/myUser/mydir /local/dir/
     ```
 
-    This command downloads the collection `/iplant/home/myUser/mydir` and its contents to `/local/dir/` using 20 parallel transfer threads. Utilizing more transfer threads can maximize I/O and network bandwidth, often speeding up the transfer process significantly.
+    This command downloads the collection `/iplant/home/myUser/mydir` and its contents to `/local/dir/` using 10 parallel transfer threads. Utilizing more transfer threads can maximize I/O and network bandwidth, often speeding up the transfer process significantly.
+
+    - The `--thread_num` flag sets the maximum number of threads to use for the transfer.
+
 
     **Important Considerations:**
 
     - Increasing the number of transfer threads requires additional CPU and memory resources. Setting the thread count too high may exceed your system's capacity, leading to performance issues.
     - For example, in Discovery Environment (DE) apps, the transfer thread count is limited to 5 due to RAM constraints.
-    - The Data Store may enforce policies that restrict the number of simultaneous connections, so excessive thread counts may not be permitted.
+    - The Data Store limits concurrent connections, so excessive thread counts may be restricted.
+    - When using GoCommands on the University of Arizona Campus network, the `--icat` flag is necessary for stable large file transfers.
 
 ---
 
@@ -84,6 +88,10 @@ GoCommands provides a range of commands designed to efficiently and conveniently
 
     This command uploads the local directory `/local/dir/` and its contents to `/iplant/home/myUser/mydir/` in the Data Store using 10 parallel transfer threads. This can significantly speed up the upload process by maximizing I/O and network bandwidth.
 
+    - The `--thread_num` flag sets the maximum number of threads to use for the transfer.
+
+    **Important Considerations:**
+
     - Increasing the number of transfer threads requires additional CPU and memory resources. Setting the thread count too high may exceed your system's capacity, leading to performance issues.
     - For example, in Discovery Environment (DE) apps, the transfer thread count is limited to 5 due to RAM constraints.
     - The Data Store's policies restrict the number of simultaneous connections, so creating excessive thread counts may not be permitted.
@@ -92,7 +100,7 @@ GoCommands provides a range of commands designed to efficiently and conveniently
 
 4. **Upload a local directory containing many small files:**
     ```sh
-    gocmd bput --progress -K --icat --thread_num 20 /local/dir/ /iplant/home/myUser/mydir/
+    gocmd bput --progress -K --icat --thread_num 10 /local/dir/ /iplant/home/myUser/mydir/
     ```
 
     This command uploads the local directory `/local/dir/` containing numerous small files to `/iplant/home/myUser/mydir/` in the Data Store. Using bundle transfer and parallel transfer can significantly speed up the transfer of many small files.
