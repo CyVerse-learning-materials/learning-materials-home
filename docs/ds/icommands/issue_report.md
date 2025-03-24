@@ -14,10 +14,22 @@ GoCommands is a cross-platform tool that offers similar functionality to iComman
 
 For detailed instructions on downloading, setting up, and using GoCommands, please refer to the [GoCommands documentation](../gocommands/index.md).
 
+
+### Running iCommands in an HPC Environment
+
+To use pre-installed iCommands in an HPC environment:
+
+```sh
+module load irods
+```
+
+This command provides access to iRODS iCommands.
+
 ### Request Support
 
 If you encounter an issue that you cannot resolve, please contact [support@cyverse.org](mailto:support@cyverse.org) for assistance. Your Data Store access via iCommands may be limited or fail due to various factors, including configuration issues, network problems, authentication errors, or data policies. The support team is available to help you identify and resolve these issues.
 
+---
 
 ## :material-bug-check-outline: Report Bugs
 

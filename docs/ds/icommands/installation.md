@@ -22,6 +22,8 @@ Then use the following command to install iCommands:
 sudo apt install irods-icommands
 ```
 
+---
+
 ### :simple-redhat: YUM (RHEL/CentOS/Fedora)
 
 YUM is the default package manager for Red Hat-based distributions such as RHEL, CentOS, and Fedora. To install the public signing key and add the iRODS repository, execute the following commands:
@@ -37,6 +39,8 @@ Then use the following command to install iCommands:
 sudo yum install irods-icommands
 ```
 
+---
+
 ### :simple-suse: ZYPPER (openSUSE/SUSE Linux Enterprise)
 
 ZYPPER is the package manager for SUSE-based distributions like openSUSE and SUSE Linux Enterprise. Use these commands to import the signing key and add the iRODS repository:
@@ -51,6 +55,8 @@ Then use the following command to install iCommands:
 ```bash
 sudo zypper install irods-icommands
 ```
+
+---
 
 ## :material-braille: Manual Installation or Specific Versions  
 

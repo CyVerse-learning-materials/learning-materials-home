@@ -44,13 +44,12 @@ nav:
     - 'iCommands':
       - ds/icommands/index.md
       - 'Installation': ds/icommands/installation.md
+      - 'Configuration': ds/icommands/configuration.md
       - 'Data Management': ds/icommands/data_management.md
       - 'Data Transfer': ds/icommands/data_transfer.md
-      - 'Bulk Data Transfers': ds/icommands/bulk_data_transfer.md
-      - 'Synchronization': ds/icommands/data_synchronization.md
       - 'Access Management': ds/icommands/access_management.md
       - 'Metadata Management': ds/icommands/metadata_management.md
-      - 'SFTP Access Configuration': ds/icommands/sftp_configuration.md
+      - 'Troubleshooting and Issue Report': ds/icommands/issue_report.md
     - 'SFTP':
       - ds/sftp/index.md
       - 'CLI tools': ds/sftp/cli.md
