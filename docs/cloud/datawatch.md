@@ -1,8 +1,8 @@
 # DataWatch
 
-DataWatch is a service that is integrated with CyVerse DataStore, it will trigger actions based on files changes in iRODS(DataStore). To use this service, you create a DataWatch listener that will listen on one or more iRODS directories. When triggered, the listener will perform the action you defined in the listener (HTTPS webhook, email, etc.) with a list of events, each event represent changes of a single file. 
+![](../assets/de/icons/datawatchIcon.svg){ width="20"} DataWatch is a service that is integrated with CyVerse DataStore, it will trigger actions based on files changes in iRODS(DataStore). To use this service, you create a DataWatch listener that will listen on one or more iRODS directories. When triggered, the listener will perform the action you defined in the listener (HTTPS webhook, email, etc.) with a list of events, each event represent changes of a single file. 
 
-> There is currently no Web UI for DataWatch, user can only access DataWatch via [REST API or CLI](../cloud/using_datawatch.md).
+> There is currently no Web UI for DataWatch, user can only access DataWatch via [REST API or CLI](#using-datawatch).
 
 ## Important Details
 
@@ -195,7 +195,7 @@ Subject: DataWatch Notification
 ]
 ```
 
-## Using DataWatch
+# Using DataWatch
 
 There is currently no Web UI for DataWatch, user can only access DataWatch via REST API or CLI.
 
@@ -279,4 +279,9 @@ You didn't set environment variable `export DATAWATCH_API=https://datawatch.cyve
 
 # Open API spec
 
-[OpenAPI spec of the DataWatch REST API](https://gitlab.com/cyverse/datawatch/-/blob/master/docs/openapi/datawatch-openapi.yaml)
+DataWatch exposes a REST API that can be accessed with a keycloak token as the bearer token in the `Authorization` header, here is the [OpenAPI spec](https://gitlab.com/cyverse/datawatch/-/blob/master/docs/openapi/datawatch-openapi.yaml).
+
+## Obtaining Keycloak token
+You can obtain an keycloak token by making a `GET` request to https://datawatch.cyverse.org/keycloakToken with username and password query parameter.
+
+e.g. `curl https://datawatch.cyverse.org/keycloakToken?username=YourUsername&password=YourPassword`
