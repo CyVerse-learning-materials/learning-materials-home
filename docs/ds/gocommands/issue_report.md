@@ -1,4 +1,4 @@
-# Troubleshooting and Issue Report
+# GoCommands Troubleshooting and Issue Report
 
 ## :material-bullseye-arrow: Troubleshooting
 

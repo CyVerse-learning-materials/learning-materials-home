@@ -1,10 +1,6 @@
 # Manage Your Data Using SFTP in the Data Store
 
-<figure markdown>
-  ![!ds](../assets/ds/datastore_plchldr.png){ width="200" }
-</figure>
-
-SFTP (Secure File Transfer Protocol) is a widely adopted network protocol for secure file access, transfer, and management. It operates over an encrypted communication channel, ensuring safe data exchange between the client and server. With broad compatibility across various environments, SFTP offers a flexible and reliable solution for managing data.  
+SFTP (Secure File Transfer Protocol) is a widely adopted network protocol for secure file transfer and management. It operates over an encrypted communication channel, ensuring safe data exchange between the client and server. With broad compatibility across various environments, SFTP offers a flexible and reliable solution for managing data.  
 
 This guide covers how to configure SFTP clients to efficiently manage your data in the Data Store.
 
@@ -14,7 +10,8 @@ This guide covers how to configure SFTP clients to efficiently manage your data 
 
 1. [Command-line Tools](cli.md)
 2. [FileZilla](filezilla.md)
-3. [Public-key Authentication](public_key_configuration.md)
+3. [Cyberduck](cyberduck.md)
+4. [Public-key Authentication](public_key_configuration.md)
 
 ---
 
@@ -26,7 +23,17 @@ Use your operating system's built-in SFTP client to access and manage data in th
 
 Connect to the Data Store using FileZilla, a user-friendly SFTP GUI client for easy file transfers and management.
 
+## [:material-play-network: Cyberduck](cyberduck.md)
+
+Connect to the Data Store using Cyberduck, a user-friendly SFTP GUI client for easy file transfers and management.
+
 ## [:material-play-network: Public-key Authentication](public_key_configuration.md)
 
 Set up public-key authentication for secure and passwordless SFTP access to the Data Store.
 
+
+---
+
+## Acknowledgments
+
+The SFTP functionality for the Data Store is powered by [SFTPGo](https://github.com/drakkan/sftpgo){target=_blank}, an open-source, fully featured, and highly configurable SFTP server created by Nicola Murino. SFTPGo supports various storage backends, including local filesystems, S3 Object Storage, Google Cloud Storage, and Azure Blob Storage. CyVerse extended SFTPGo's capabilities by implementing a new backend module specifically for iRODS, enabling SFTP access to the Data Store. We extend our gratitude to Nicola Murino and the SFTPGo project for making this integration possible.

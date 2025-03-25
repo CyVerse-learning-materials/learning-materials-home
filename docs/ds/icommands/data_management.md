@@ -1,4 +1,4 @@
-# Data Management
+# Data Management using iCommands
 
 iCommands offers a variety of commands to help you manage your data in the Data Store. In the Data Store, `file` and `directory` are treated as `data objects` and `collections`, respectively. It's perfectly fine to consider these terms interchangeable.
 

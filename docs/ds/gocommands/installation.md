@@ -1,4 +1,4 @@
-# Installation and Upgrade
+# GoCommands Installation and Upgrade
 
 ## Installation using Pre-built Binaries
 

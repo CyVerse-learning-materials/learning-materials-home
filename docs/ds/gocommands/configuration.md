@@ -1,4 +1,4 @@
-# Configuration
+# GoCommands Configuration
 
 ## :material-cog-outline: Using the `init` Command
 

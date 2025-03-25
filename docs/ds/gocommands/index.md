@@ -2,7 +2,7 @@
 
 GoCommands is a lightweight, portable command-line tool designed for seamless data management within the Data Store. It provides comprehensive support for data transfers, bulk transfers, synchronization, access control, SFTP configuration, and metadata management. As a versatile alternative to iCommands, GoCommands runs on virtually any operating system, including embedded environments like Raspberry Pi, offering greater flexibility across platforms.
 
-This guide covers installation, data transfer methods, access management, and metadata handling to help you efficiently manage your data in the CyVerse ecosystem.
+This guide covers installation, data transfer methods, access management, and metadata handling to help you efficiently manage your data in the Data Store.
 
 
 ---

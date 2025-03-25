@@ -1,4 +1,4 @@
-# Metadata Management
+# Metadata Management using GoCommands
 
 GoCommands provides features to manage metadata for data objects, collections, resources, and users in the Data Store using the `lsmeta`, `addmeta`, and `rmmeta` commands.
 

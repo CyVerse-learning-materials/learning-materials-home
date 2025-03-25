@@ -1,4 +1,4 @@
-# Access Management
+# Access Management using GoCommands
 
 GoCommands provides features to manage access of users and groups to data in the Data Store. The `chmod` and `chmodinherit` commands allow users to manage access permissions for data objects (files) and collections (directories). The `ls -A` command displays the current access levels assigned to users for a given file or directory.
 

@@ -1,4 +1,4 @@
-# Configuration
+# iCommands Configuration
 
 ## :material-cog-outline: Using the `iinit` Command
 
