@@ -1,6 +1,6 @@
 # iCommands Installation and Upgrade
 
-## Installing iCommands Using Linux Package Managers
+## :material-cog-outline: Installing iCommands Using Linux Package Managers
 
 iCommands can be installed using popular Linux package managers such as `apt`, `yum`, or `zypper`. Follow the instructions below to install the latest version of iCommands based on your system's package manager.
 
