@@ -1,4 +1,4 @@
-# SFTP Public-key Authentication Configuration
+# SFTP Public-key Authentication Configuration using GoCommands
 
 GoCommands provides a feature to configure public-key authentication for the Data Store's SFTP service. The `copy-sftp-id` command uploads your local SSH public keys to the Data Store, enabling password-less authentication for the SFTP service.
 

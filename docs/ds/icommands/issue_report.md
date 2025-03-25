@@ -1,4 +1,4 @@
-# Troubleshooting and Issue Report
+# iCommands Troubleshooting and Issue Report
 
 ## :material-bullseye-arrow: Troubleshooting
 

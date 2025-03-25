@@ -1,4 +1,4 @@
-# Installation and Upgrade
+# iCommands Installation and Upgrade
 
 ## Installing iCommands Using Linux Package Managers
 

@@ -1,4 +1,4 @@
-# Access Management
+# Access Management using iCommands
 
 iCommands provides features to manage access of users and groups to data in the Data Store. The `ichmod` command allows users to manage access permissions for data objects (files) and collections (directories). The `ils -A` command displays the current access levels assigned to users for a given file or directory.
 
