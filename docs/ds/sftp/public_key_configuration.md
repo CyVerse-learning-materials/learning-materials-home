@@ -72,9 +72,7 @@ For advanced usage, you can control public-key access by manually editing the `/
     quit
     ```
 
-!!! Note
-
-    Configuration changes are only applied during user authentication. Therefore, modifications do not affect users or clients that are already logged in.
+    > **Note:** Configuration changes are only applied during user authentication. Therefore, modifications do not affect users or clients that are already logged in.
 
 
 ### Available Parameters
