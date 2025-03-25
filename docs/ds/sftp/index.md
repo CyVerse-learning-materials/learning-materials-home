@@ -31,3 +31,9 @@ Connect to the Data Store using Cyberduck, a user-friendly SFTP GUI client for e
 
 Set up public-key authentication for secure and passwordless SFTP access to the Data Store.
 
+
+---
+
+## Acknowledgments
+
+The SFTP functionality for the Data Store is powered by [SFTPGo](https://github.com/drakkan/sftpgo){target=_blank}, an open-source, fully featured, and highly configurable SFTP server created by Nicola Murino. SFTPGo supports various storage backends, including local filesystems, S3 Object Storage, Google Cloud Storage, and Azure Blob Storage. CyVerse extended SFTPGo's capabilities by implementing a new backend module specifically for iRODS, enabling SFTP access to the Data Store. We extend our gratitude to Nicola Murino and the SFTPGo project for making this integration possible.

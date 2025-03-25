@@ -18,6 +18,14 @@ Use the following credentials to connect to the CyVerse Data Store:
 | `username`     | `<CyVerse Username>` |
 | `password`     | `<CyVerse Password>` |
 
+
+Use these credentials for anonymous access to the Data Store:
+
+| Key | Value |
+|-------------------|-------|
+| `username` | `anonymous` |
+| `password` | (leave empty) |
+
 ---
 
 ## :material-play-network: Connect to the Data Store
@@ -25,13 +33,13 @@ Use the following credentials to connect to the CyVerse Data Store:
 To connect using SFTP, open a terminal and run:
 
 ```sh
-sftp @data.cyverse.org
+sftp <username>@data.cyverse.org
 ```
 
 Upon successful connection, you'll see a prompt like this:
 
 ```sh
-$ sftp myUser@data.cyverse.org
+$ sftp <username>@data.cyverse.org
 Connected to data.cyverse.org.
 sftp>
 ```
@@ -63,7 +71,7 @@ Use the `help` or `?` command to see a list of available SFTP commands.
 
 Once connected, you will see two directories in the root:
 
-- `<username>`: Your home directory (`/iplant/home/<username>`). You have read and write permissions.
+- `<username>`: Your home directory (`/iplant/home/<username>`). You have read and write permissions. Note that anonymous users do not have a home directory.
 - `shared`: Community-shared data directory (`/iplant/home/shared`). You have only read permission.
 
 ---
