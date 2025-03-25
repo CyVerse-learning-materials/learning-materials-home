@@ -1,6 +1,6 @@
 # SFTP Access via Command-line Tools
 
-Most operating systems include built-in SFTP clients, enabling command-line access to the CyVerse Data Store. This guide outlines the basics of using SFTP tools on Linux, macOS, and Windows.
+Most operating systems include built-in SFTP clients, enabling command-line access to the Data Store. This guide outlines the basics of using SFTP tools on Linux, macOS, and Windows.
 
 ??? Tip "Windows Users"
 
@@ -71,8 +71,8 @@ Use the `help` or `?` command to see a list of available SFTP commands.
 
 Once connected, you will see two directories in the root:
 
-- `<username>`: Your home directory (`/iplant/home/<username>`). You have read and write permissions. Note that anonymous users do not have a home directory.
-- `shared`: Community-shared data directory (`/iplant/home/shared`). You have only read permission.
+- `<username>`: Your home directory (`/iplant/home/<username>` in the Data Store). You have read and write permissions. Note that anonymous users do not have a home directory.
+- `shared`: Community-shared data directory (`/iplant/home/shared` in the Data Store). You have only read permission.
 
 ---
 

@@ -1,6 +1,6 @@
 # GoCommands Installation and Upgrade
 
-## Installation using Pre-built Binaries
+## :material-cog-outline: Installation using Pre-built Binaries
 
 GoCommands provides pre-built binaries for various operating systems and architectures. Choose the appropriate command for your system to install the latest version.
 
