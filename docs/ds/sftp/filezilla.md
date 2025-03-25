@@ -7,46 +7,31 @@ FileZilla is a free and open-source, cross-platform GUI FTP software, consisting
 To install the FileZilla Client, follow these steps:
 
 1. **Download FileZilla Client:**
-   Visit the [FileZilla website](https://filezilla-project.org/download.php?type=client) and download the client version suitable for your operating system (Windows, Linux, or macOS).
+    Visit the [FileZilla website](https://filezilla-project.org/download.php?type=client) and download the client version suitable for your operating system (Windows, Linux, or macOS).
 
 2. **Install FileZilla:**
-   - **Windows:** Double-click the downloaded `.exe` file and follow the installation wizard.
-   - **macOS:** Open the downloaded package and drag the FileZilla application to your Applications folder.
-   - **Linux:** Use your distribution's package manager to install FileZilla. Alternatively, you can compile it from source if necessary.
+    - **Windows:** Double-click the downloaded `.exe` file and follow the installation wizard.
+    - **macOS:** Open the downloaded package and drag the FileZilla application to your Applications folder.
+    - **Linux:** Use your distribution's package manager to install FileZilla. Alternatively, you can compile it from source if necessary.
 
 3. **Launch FileZilla:**
-   After installation, launch the FileZilla Client to start using it.
-
----
-
-## :material-play-network: SFTP Access Information
-
-Use the following credentials to connect to the CyVerse Data Store:
-
-| Key            | Value                |
-|-----------------|----------------------|
-| `hostname`     | `data.cyverse.org`   |
-| `port`         | `22`                 |
-| `username`     | `<CyVerse Username>` |
-| `password`     | `<CyVerse Password>` |
-
-
-Use these credentials for anonymous access to the Data Store:
-
-| Key | Value |
-|-------------------|-------|
-| `username` | `anonymous` |
-| `password` | (leave empty) |
+    After installation, launch the FileZilla Client to start using it.
 
 ---
 
 ## :material-play-network: Connect to the Data Store
 
 In the FileZilla window, fill in the following fields:
+
 - **Host:** `data.cyverse.org`
-- **Username:** <CyVerse username>
-- **Password:** <CyVerse password>
+- **Username:** `<CyVerse username>`
+- **Password:** `<CyVerse password>`
 - **Port:** `22`
+
+Use these credentials for anonymous access to the Data Store:
+- **Username:** `anonymous`
+- **Password:** (leave empty)
+
 
 Click the **Quickconnect** button to establish the connection.
 
