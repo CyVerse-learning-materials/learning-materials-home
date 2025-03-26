@@ -17,7 +17,7 @@ Instructors start by completing the [CyVerse Resources for Training Request Form
 In the workshop form, choose which services you want to use for your teaching. Enrollees will then have access to
 those services without needing to request them.
 
-Common platforms are: Data Store (data management), Discovery Environment (analyses), VICE (integrated environments and visualization), DNA Subway (genomics), Atmosphere (cloud computing), BisQue (image analysis), and CoGe (comparative genomics).
+Common platforms are: Data Store (data management), Discovery Environment (analyses), VICE (integrated environments and visualization), and [Jetstream2](https://jetstream-cloud.org/)(cloud computing).
 
 ### Step 3 Select your Host, Instructor(s) / Organizer(s)
 
