@@ -1,4 +1,4 @@
-# SFTP Access via Command-line Tools
+# SFTP Access using Command-line Tools
 
 Most operating systems include built-in SFTP clients, enabling command-line access to the Data Store. This guide outlines the basics of using SFTP tools on Linux, macOS, and Windows.
 
@@ -73,6 +73,9 @@ Once connected, you will see two directories in the root:
 
 - `<username>`: Your home directory (`/iplant/home/<username>` in the Data Store). You have read and write permissions. Note that anonymous users do not have a home directory.
 - `shared`: Community-shared data directory (`/iplant/home/shared` in the Data Store). You have only read permission.
+
+> **Note:** A `.ssh` directory may appear in the root, but it is not writable. This directory is distinct from the `/<username>/.ssh` directory and should be ignored.
+
 
 ---
 

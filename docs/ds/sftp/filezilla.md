@@ -1,4 +1,4 @@
-# SFTP Access via FileZilla
+# SFTP Access using FileZilla
 
 FileZilla is a free and open-source, cross-platform GUI FTP software, consisting of FileZilla Client and FileZilla Server. The FileZilla Client is available for Windows, Linux, and macOS, allowing you to access the Data Store.
 
@@ -7,59 +7,48 @@ FileZilla is a free and open-source, cross-platform GUI FTP software, consisting
 To install the FileZilla Client, follow these steps:
 
 1. **Download FileZilla Client:**
-   Visit the [FileZilla website](https://filezilla-project.org/download.php?type=client) and download the client version suitable for your operating system (Windows, Linux, or macOS).
+    Visit the [FileZilla website](https://filezilla-project.org/download.php?type=client) and download the client version suitable for your operating system (Windows, Linux, or macOS).
 
 2. **Install FileZilla:**
-   - **Windows:** Double-click the downloaded `.exe` file and follow the installation wizard.
-   - **macOS:** Open the downloaded package and drag the FileZilla application to your Applications folder.
-   - **Linux:** Use your distribution's package manager to install FileZilla. Alternatively, you can compile it from source if necessary.
+
+    - **Windows:** Double-click the downloaded `.exe` file and follow the installation wizard.
+    - **macOS:** Open the downloaded package and drag the FileZilla application to your Applications folder.
+    - **Linux:** Use your distribution's package manager to install FileZilla. Alternatively, you can compile it from source if necessary.
 
 3. **Launch FileZilla:**
-   After installation, launch the FileZilla Client to start using it.
-
----
-
-## :material-play-network: SFTP Access Information
-
-Use the following credentials to connect to the CyVerse Data Store:
-
-| Key            | Value                |
-|-----------------|----------------------|
-| `hostname`     | `data.cyverse.org`   |
-| `port`         | `22`                 |
-| `username`     | `<CyVerse Username>` |
-| `password`     | `<CyVerse Password>` |
-
-
-Use these credentials for anonymous access to the Data Store:
-
-| Key | Value |
-|-------------------|-------|
-| `username` | `anonymous` |
-| `password` | (leave empty) |
+    After installation, launch the FileZilla Client to start using it.
 
 ---
 
 ## :material-play-network: Connect to the Data Store
 
 In the FileZilla window, fill in the following fields:
+
 - **Host:** `data.cyverse.org`
-- **Username:** <CyVerse username>
-- **Password:** <CyVerse password>
+- **Username:** `<CyVerse username>`
+- **Password:** `<CyVerse password>`
 - **Port:** `22`
+
+Use these credentials for anonymous access to the Data Store:
+
+- **Username:** `anonymous`
+- **Password:** (leave empty)
+
+![filezilla_sftp_connect](../../assets/ds/filezilla_sftp_connect.png){ width="600" }
 
 Click the **Quickconnect** button to establish the connection.
 
-![filezilla_connect](../../assets/ds/filezilla_connect.png){ width="600" }
 
 ---
 
 ## :material-play-network: Basic Usage
 
+![filezilla_sftp_sections](../../assets/ds/filezilla_sftp_sections.png){ width="600" }
+
 The FileZilla interface is divided into two main sections:
 
-- **Left panels:** Show data on your local machine
-- **Right panels:** Display data in the Data Store
+- **Left pannel:** Show data on your local machine
+- **Right pannel:** Display data in the Data Store
 
 **To navigate:**
 
@@ -81,3 +70,5 @@ Once connected, you will see two directories in the root:
 
 - `<username>`: Your home directory (`/iplant/home/<username>` in the Data Store). You have read and write permissions. Note that anonymous users do not have a home directory.
 - `shared`: Community-shared data directory (`/iplant/home/shared` in the Data Store). You have only read permission.
+
+> **Note:** A `.ssh` directory may appear in the root, but it is not writable. This directory is distinct from the `/<username>/.ssh` directory and should be ignored.

@@ -22,7 +22,9 @@ Set up password-less authentication for SFTP access by uploading your SSH public
     mkdir /myUser/.ssh
     ```
 
-    This creates the `.ssh` directory at `/iplant/home/<username>/.ssh`.
+    This creates the `.ssh` directory at `/iplant/home/<username>/.ssh` in the Data Store.
+
+    > **Note:** A `.ssh` directory may appear in the root (`/.ssh`), but it is not writable. This directory is distinct from the `/<username>/.ssh` directory and should be ignored.
 
 4. **Copy your SSH public key to the Data Store:**
     Still in the SFTP prompt, copy your local `~/.ssh/id_rsa.pub` file to the Data Store:
