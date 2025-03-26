@@ -1,12 +1,24 @@
 # Manage Your Data Using WebDAV
 
-<figure markdown>
-  ![!ds](../../assets/ds/datastore_plchldr.png){ width="200" }
-</figure>
-
 WebDAV (Web Distributed Authoring and Versioning) is a network protocol built on top of HTTP/HTTPS, enabling users to manage data on web servers. It operates over HTTP/HTTPS, ensuring secure data exchange between the client and server, with broad compatibility across various environments. WebDAV provides a flexible and reliable solution for managing data.
 
 This guide covers how to use WebDAV to efficiently manage your data in the Data Store.
+
+---
+
+## Limitations
+
+**Using WebDAV for File Transfers**
+
+WebDAV is ideal for transferring small files or small collections of files. While there is no strict size limit, it is not recommended for files larger than 10 GiB due to performance issues.
+
+**Alternatives for Large Files**
+
+For large files or extensive datasets, consider using **GoCommands** or **iCommands** instead. These tools offer better performance and efficiency for handling large data transfers.
+
+For more details on GoCommands and iCommands, visit their respective documentation pages:
+- [GoCommands](../gocommands)
+- [iCommands](../icommands)
 
 ---
 
@@ -17,10 +29,10 @@ This guide covers how to use WebDAV to efficiently manage your data in the Data 
 
 ---
 
-## [:material-web: Command-line Tools](cli.md)
+## [:material-console: Command-line Tools](cli.md)
 
-Use your operating system's built-in web clients to access and manage data in the Data Store through the command line.
+Use command-line tools to manage and transfer files directly from your terminal, providing a flexible and efficient way to interact with the Data Store.
 
 ## [:material-web: WebBrowser](browser.md)
 
-Connect to the Data Store via a web browser for simple and convenient file downloads.
+Access the Data Store using web browsers for straightforward and convenient file downloads.

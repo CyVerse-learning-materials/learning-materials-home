@@ -29,7 +29,7 @@ There are several ways to access the Data Store. These methods vary in speed, fl
 | GoCommands             | Command line               | Any              | Both            | Yes                         | Yes (No for public data) | No limit              |
 | iCommands              | Command line               | Linux & macOS    | Both            | Yes                         | Yes (No for public data) | No limit              |
 | SFTP                   | Desktop App & Command line | Any              | Both            | No (Yes for desktop app)    | Yes (No for public data) | No limit              |
-| Cyberduck              | Desktop App                | macOS & Windows  | Both            | Yes                         | Yes (No for public data) | No limit              |
+
 
 This section covers each of the following data management methods:
 
@@ -38,7 +38,6 @@ This section covers each of the following data management methods:
 3. [iCommands](icommands): A powerful command-line suite for advanced data management tasks on Linux
 4. [SFTP](sftp): A secure file transfer protocol accessible via command-line or GUI applications on any OS
 5. [WebDAV](webdav): A protocol extending HTTP for collaborative file management over the internet, usable on any OS
-6. [Cyberduck](cyberduck): A user-friendly desktop application for file transfer and management on macOS and Windows
 
 Additional resources for managing your data and team collaboration:
 
@@ -67,10 +66,6 @@ SFTP (Secure File Transfer Protocol) is a widely adopted network protocol for se
 ## [:material-web: HTTP Access with WebDAV](webdav)
 
 WebDAV (Web Distributed Authoring and Versioning) is a protocol built on top of HTTP/HTTPS, allowing users to manage data on web servers. This section demonstrates how to use WebDAV for seamless data access and management within the Data Store.
-
-## [:material-duck: Transferring Data with Cyberduck](cyberduck)
-
-CyberDuck is a popular open-source file transfer client for macOS that provides easy access to the Data Store. Its intuitive graphical interface ensures seamless file transfer and management. This section provides step-by-step instructions for using Cyberduck to transfer data to and from the Data Store.
 
 ## [:simple-doi: Getting a DOI](doi.md)
 
