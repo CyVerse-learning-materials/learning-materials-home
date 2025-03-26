@@ -8,7 +8,17 @@ This guide covers how to use WebDAV to efficiently manage your data in the Data 
 
 ## Limitations
 
-WebDAV is best suited for transferring small files or small collections of files. Although there is no strict size limit, we advise against using WebDAV for files exceeding 10 GiB due to performance considerations. For large files or extensive datasets, **GoCommands** or **iCommands** are recommended alternatives. For further information, refer to the [GoCommands](../gocommands) or [iCommands](../icommands) documentation pages.
+**Using WebDAV for File Transfers**
+
+WebDAV is ideal for transferring small files or small collections of files. While there is no strict size limit, it is not recommended for files larger than 10 GiB due to performance issues.
+
+**Alternatives for Large Files**
+
+For large files or extensive datasets, consider using **GoCommands** or **iCommands** instead. These tools offer better performance and efficiency for handling large data transfers.
+
+For more details on GoCommands and iCommands, visit their respective documentation pages:
+- [GoCommands](../gocommands)
+- [iCommands](../icommands)
 
 ---
 
@@ -19,10 +29,10 @@ WebDAV is best suited for transferring small files or small collections of files
 
 ---
 
-## [:material-web: Command-line Tools](cli.md)
+## [:material-console: Command-line Tools](cli.md)
 
-Use your operating system's built-in web clients to access and manage data in the Data Store through the command line.
+Use command-line tools to manage and transfer files directly from your terminal, providing a flexible and efficient way to interact with the Data Store.
 
 ## [:material-web: WebBrowser](browser.md)
 
-Connect to the Data Store via a web browser for simple and convenient file downloads.
+Access the Data Store using web browsers for straightforward and convenient file downloads.

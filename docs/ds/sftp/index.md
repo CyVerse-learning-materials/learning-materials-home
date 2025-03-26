@@ -8,7 +8,17 @@ This guide covers how to configure SFTP clients to efficiently manage your data 
 
 ## Limitations
 
-SFTP is best suited for transferring small files or small collections of files. Although there is no strict size limit, we advise against using SFTP for files exceeding 10 GiB due to performance considerations. For large files or extensive datasets, **GoCommands** or **iCommands** are recommended alternatives. For further information, refer to the [GoCommands](../gocommands) or [iCommands](../icommands) documentation pages.
+**Using SFTP for File Transfers**
+
+WebDAV is ideal for transferring small files or small collections of files. While there is no strict size limit, it is not recommended for files larger than 10 GiB due to performance issues.
+
+**Alternatives for Large Files**
+
+For large files or extensive datasets, consider using **GoCommands** or **iCommands** instead. These tools offer better performance and efficiency for handling large data transfers.
+
+For more details on GoCommands and iCommands, visit their respective documentation pages:
+- [GoCommands](../gocommands)
+- [iCommands](../icommands)
 
 ---
 
@@ -17,7 +27,8 @@ SFTP is best suited for transferring small files or small collections of files. 
 1. [Command-line Tools](cli.md)
 2. [FileZilla](filezilla.md)
 3. [Cyberduck](cyberduck.md)
-4. [Public-key Authentication Configuration](public_key_auth.md)
+4. [Directory Structure](structure.md)
+5. [Public-key Authentication Configuration](public_key_auth.md)
 
 ---
 
@@ -32,6 +43,10 @@ Connect to the Data Store using FileZilla, a user-friendly SFTP GUI client for e
 ## [:material-duck: Cyberduck](cyberduck.md)
 
 Connect to the Data Store using Cyberduck, a user-friendly SFTP GUI client for easy file transfers and management.
+
+## [:material-folder-multiple-outline: Directory Structure](structure.md)
+
+Learn how to navigate your files using SFTP by understanding its directory structure.
 
 ## [:material-account-key-outline: Public-key Authentication Configuration](public_key_auth.md)
 
