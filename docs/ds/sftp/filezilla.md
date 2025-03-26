@@ -10,6 +10,7 @@ To install the FileZilla Client, follow these steps:
     Visit the [FileZilla website](https://filezilla-project.org/download.php?type=client) and download the client version suitable for your operating system (Windows, Linux, or macOS).
 
 2. **Install FileZilla:**
+
     - **Windows:** Double-click the downloaded `.exe` file and follow the installation wizard.
     - **macOS:** Open the downloaded package and drag the FileZilla application to your Applications folder.
     - **Linux:** Use your distribution's package manager to install FileZilla. Alternatively, you can compile it from source if necessary.
@@ -29,22 +30,25 @@ In the FileZilla window, fill in the following fields:
 - **Port:** `22`
 
 Use these credentials for anonymous access to the Data Store:
+
 - **Username:** `anonymous`
 - **Password:** (leave empty)
 
 
 Click the **Quickconnect** button to establish the connection.
 
-![filezilla_connect](../../assets/ds/filezilla_connect.png){ width="600" }
+![filezilla_sftp_connect](../../assets/ds/filezilla_sftp_connect.png){ width="600" }
 
 ---
 
 ## :material-play-network: Basic Usage
 
+![filezilla_sftp_sections](../../assets/ds/filezilla_sftp_sections.png){ width="600" }
+
 The FileZilla interface is divided into two main sections:
 
-- **Left panels:** Show data on your local machine
-- **Right panels:** Display data in the Data Store
+- **Left section:** Show data on your local machine
+- **Right section:** Display data in the Data Store
 
 **To navigate:**
 
