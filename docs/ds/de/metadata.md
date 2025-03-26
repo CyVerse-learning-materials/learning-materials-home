@@ -12,7 +12,7 @@ outset.
 -   You can add metadata to a single file/folder, or in bulk to large
     collections of data. 
 -   You can use your own metadata schema or apply one of several metadata templates supported in the Discovery Environment.
--   Additional templates you may wish to use can be found at resources like [https://fairsharing.org/](ttps://fairsharing.org/).
+-   Additional templates you may wish to use can be found at resources like [https://fairsharing.org/](https://fairsharing.org/).
 -   Metadata can be managed through the DE's graphical user interface or by using iCommands at the command line. 
 -   This guide only covers metadata options in the Discovery Environment.
 
@@ -26,10 +26,10 @@ outset.
     edit an object's metadata.
 
 1.  Log into the [Discovery Environment](https://de.cyverse.org/de/).
-2. Click on the ![Data_Icon](../assets/de/menu_items/dataIcon.png){ width="25" }  (Data Icon) to view or browse data. Select (checkbox) a single file/folder for which you want to add metadata.
+2. Click on the ![Data_Icon](../../assets/de/menu_items/dataIcon.png){ width="25" }  (Data Icon) to view or browse data. Select (checkbox) a single file/folder for which you want to add metadata.
 3. Under the **More Actions** menu, click on **'Metadata'**. You will see existing metadata for the file/folder in the Attribute, Value, Unit (AVU) format.
 
-![edit_view_metadta](../assets/ds/edit_view_metadata.png)
+![edit_view_metadta](../../assets/ds/edit_view_metadata.png)
 
 
 ??? Tip
@@ -60,14 +60,14 @@ outset.
 
 1.  Log into the [Discovery Environment](https://de.cyverse.org/de/).
 
-2.  Click on the ![Data_Icon](../assets/de/menu_items/dataIcon.png){ width="25" } (Data Icon) to open a Data window. Select (checkbox) a single file/folder to which you want to add metadata.
+2.  Click on the ![Data_Icon](../../assets/de/menu_items/dataIcon.png){ width="25" } (Data Icon) to open a Data window. Select (checkbox) a single file/folder to which you want to add metadata.
 
 3.  Under the **More Actions** menu, click on **Metadata**. Click on
     the subsequent **More Actions** menu and select **View in
     Template**. You have two choices in using the template:
 
      **A.** Choose a template; clicking **Select** will allow you to apply the template and edit the metadata manually in the DE interface. <br>
-     **B.** Clicking the ![Download_Icon](../assets/ds/download_icon_OLD.png){ width="25" }(Download icon) will download a .csv file you can edit and upload (see Applying bulk metadata below).
+     **B.** Clicking the ![Download_Icon](../../assets/ds/download_icon_OLD.png){ width="25" }(Download icon) will download a .csv file you can edit and upload (see Applying bulk metadata below).
 
     Click *OK* to download. (In this example, we will use
     the *DOI Request - DataCite Metadata*) template.
