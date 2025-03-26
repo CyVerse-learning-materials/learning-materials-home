@@ -151,7 +151,7 @@ You will be able to read, write, and delete data from the Data Store from a VICE
 
       	Data can be moved over the CSI driver using normal UNIX commands like `cp` and or `mv` but be aware that any modifications you make will be recorded on the Data Store.
 
-       	Files that you have `read-only` access to will not be modified on the Data Store
+       	Files that you have `read-only` access to will not be modified on the Data Store.
 	
 
 ??? Tip "Working with many files"
