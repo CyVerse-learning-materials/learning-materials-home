@@ -5,7 +5,7 @@
 - [![de](../assets/de/logos/deIcon.svg){ width="25" } Logging into the Discovery Environment](../de/login.md)
 - [![apps](../assets/de/menu_items/appsIcon.svg){ width="25" } Finding and Launching Apps](../de/using_apps.md)
 - [![analysis](../assets/de/menu_items/analysisIcon.svg){ width="25" }  Managing your Analyses](../de/managing_analyses.md)
-- [![vice](../assets/de/logos/deviceIcon.png){ width="25" } Interactive Analyses](../vice/about.md)
+- [![vice](../assets/de/logos/deviceIcon.png){ width="25" } Interactive Analyses](../de/vice/about.md)
 - [![bags](../assets/de/icons/bagIcon.svg){ width="25" }Sharing and Using Bags](../de/bags.md)
 
 ## About
