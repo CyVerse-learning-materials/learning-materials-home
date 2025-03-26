@@ -1,4 +1,4 @@
-# SFTP Access via FileZilla
+# SFTP Access using FileZilla
 
 FileZilla is a free and open-source, cross-platform GUI FTP software, consisting of FileZilla Client and FileZilla Server. The FileZilla Client is available for Windows, Linux, and macOS, allowing you to access the Data Store.
 
@@ -34,10 +34,10 @@ Use these credentials for anonymous access to the Data Store:
 - **Username:** `anonymous`
 - **Password:** (leave empty)
 
+![filezilla_sftp_connect](../../assets/ds/filezilla_sftp_connect.png){ width="600" }
 
 Click the **Quickconnect** button to establish the connection.
 
-![filezilla_sftp_connect](../../assets/ds/filezilla_sftp_connect.png){ width="600" }
 
 ---
 
@@ -47,8 +47,8 @@ Click the **Quickconnect** button to establish the connection.
 
 The FileZilla interface is divided into two main sections:
 
-- **Left section:** Show data on your local machine
-- **Right section:** Display data in the Data Store
+- **Left pannel:** Show data on your local machine
+- **Right pannel:** Display data in the Data Store
 
 **To navigate:**
 
@@ -70,3 +70,5 @@ Once connected, you will see two directories in the root:
 
 - `<username>`: Your home directory (`/iplant/home/<username>` in the Data Store). You have read and write permissions. Note that anonymous users do not have a home directory.
 - `shared`: Community-shared data directory (`/iplant/home/shared` in the Data Store). You have only read permission.
+
+> **Note:** A `.ssh` directory may appear in the root, but it is not writable. This directory is distinct from the `/<username>/.ssh` directory and should be ignored.
