@@ -1,4 +1,4 @@
-# Manage Your Data Using WebDAV in the Data Store
+# Manage Your Data Using WebDAV
 
 <figure markdown>
   ![!ds](../../assets/ds/datastore_plchldr.png){ width="200" }
