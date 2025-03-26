@@ -55,15 +55,11 @@ nav:
       - 'CLI tools': ds/sftp/cli.md
       - 'FileZilla': ds/sftp/filezilla.md
       - 'Cyberduck': ds/sftp/cyberduck.md
-      - 'Public-key Authentication': ds/sftp/public_key_configuration.md
+      - 'Public-key Authentication Configuration': ds/sftp/public_key_auth.md
     - 'WebDav':
       - ds/webdav/index.md
       - 'WebBrowser': ds/webdav/browser.md
       - 'CLI tools': ds/webdav/cli.md
-    - 'CyberDuck':
-      - ds/cyberduck/index.md
-      - 'iRODS profile': ds/cyberduck/irods.md
-      - 'SFTP profile': ds/cyberduck/sftp.md
   - 'Discovery Environment':
     - de/index.md
     - 'Logging In': de/login.md

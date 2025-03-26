@@ -6,31 +6,36 @@ This guide covers how to configure SFTP clients to efficiently manage your data 
 
 ---
 
+## Limitations
+
+SFTP is best suited for transferring small files or small collections of files. Although there is no strict size limit, we advise against using SFTP for files exceeding 10 GiB due to performance considerations. For large files or extensive datasets, **GoCommands** or **iCommands** are recommended alternatives. For further information, refer to the [GoCommands](../gocommands) or [iCommands](../icommands) documentation pages.
+
+---
+
 ### Table of Contents
 
 1. [Command-line Tools](cli.md)
 2. [FileZilla](filezilla.md)
 3. [Cyberduck](cyberduck.md)
-4. [Public-key Authentication](public_key_configuration.md)
+4. [Public-key Authentication Configuration](public_key_auth.md)
 
 ---
 
-## [:material-play-network: Command-line Tools](cli.md)
+## [:material-console: Command-line Tools](cli.md)
 
 Use your operating system's built-in SFTP client to access and manage data in the Data Store via the command line.
 
-## [:material-play-network: FileZilla](filezilla.md)
+## [:simple-filezilla: FileZilla](filezilla.md)
 
 Connect to the Data Store using FileZilla, a user-friendly SFTP GUI client for easy file transfers and management.
 
-## [:material-play-network: Cyberduck](cyberduck.md)
+## [:material-duck: Cyberduck](cyberduck.md)
 
 Connect to the Data Store using Cyberduck, a user-friendly SFTP GUI client for easy file transfers and management.
 
-## [:material-play-network: Public-key Authentication](public_key_configuration.md)
+## [:material-account-key-outline: Public-key Authentication Configuration](public_key_auth.md)
 
-Set up public-key authentication for secure and passwordless SFTP access to the Data Store.
-
+Set up and configure public-key authentication for secure SFTP access to the Data Store.
 
 ---
 

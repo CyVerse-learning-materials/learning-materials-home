@@ -46,7 +46,7 @@ Enhance data discoverability and organization by adding, updating, and managing 
 
 ## [:material-account-key-outline: SFTP Public-key Authentication Configuration](sftp_public_key_auth.md)
 
-Set up and configure public-key authentication for secure SFTP access to the Data Store. This section walks you through the setup process.
+Set up and configure public-key authentication for secure SFTP access to the Data Store.
 
 ## [:material-bullseye-arrow: Troubleshooting and Issue Report](issue_report.md)
 
