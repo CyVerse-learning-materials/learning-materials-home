@@ -168,6 +168,8 @@ You will be able to read, write, and delete data from the Data Store from a VICE
 
 	unzipping: 0.063s
 
+----------------------------------------------------------------------- 
+
 ## Using Git and GitHub from VICE
 
 Git and Github are essential tools for software version control. The following documentation show how to use Git and Github with the Cyverse Discovery Environment and specifically with Visual Interactive Computing Environement (VICE) apps (e.g, Jupyter Lab). The core VICE apps (RStudio, JupyterLab, and Cloud Shell) have the [`GitHub command line interface`][gh] installed. 
@@ -208,19 +210,24 @@ Since we have copied the necessary files to our own private Data Store folders, 
 You should now be able to work on your cloned GitHub repositories and push changes without having to recreate the `ssh` key or your `git` credentials.
 
 !!! Tip 
-Remember that as you are working in a git repository in a Cyverse container, the container is ephemeral and will disappear when the App is shutdown. You will also lose any changes you made in the repository. PLEASE  REMEMBER TO PUSH CHANGES TO GITHUB OFTEN! Cyverse containers will self-destruct after the alloted time. 
+	
+	Remember that as you are working in a git repository in a Cyverse container, the container is ephemeral and will disappear when the App is shutdown. You will also lose any changes you made in the repository. PLEASE  REMEMBER TO PUSH CHANGES TO GITHUB OFTEN! Cyverse containers will self-destruct after the alloted time. 
 
 
 !!! Tip "Working with Git repositories"
 
 	For the time being, we recommend cloning repositories into `~/` or `~/data-store` rather than into `~/data-store/home/username`, because the large number of files in a Git repository can make transfers to the Data Store slow. We are working on optimizing the `git clone` process to address this issue.
 
+----------------------------------------------------------------------- 
 
 ## Instant Launches
 
 From the Home tab in the DE, there are several apps that have an **Instant Launch** feature which allows you to start the app with a single click.
 
 These apps launch with their default number of cores, amount of RAM, and timeout, and without input data. You can always import data using HTTPS protocols or iCommands after launch.
+
+----------------------------------------------------------------------- 
+
 
 ## Quick Launches
 
