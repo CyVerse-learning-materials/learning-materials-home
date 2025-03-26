@@ -64,7 +64,7 @@ To leverage CyVerse for research or education, you must:
 
 ### Individual Subscriptions
 
-In order to purchase an individual CyVerse subscription, please see [Subscribe](https://cyverse.org/subscriptions)
+In order to purchase an individual CyVerse subscription, please see [Subscribe](https://cyverse.org/subscribe)
 
 **Table:** CyVerse Individual Subscription Tiers (Spring 2025)
 
