@@ -59,8 +59,9 @@ nav:
       - 'Public-key Authentication Configuration': ds/sftp/public_key_auth.md
     - 'WebDav':
       - ds/webdav/index.md
-      - 'WebBrowser': ds/webdav/browser.md
+      - 'Web Browsers': ds/webdav/browser.md
       - 'CLI tools': ds/webdav/cli.md
+      - 'File Managers': ds/webdav/file_manager.md
       - 'Data Locations': ds/webdav/data_location.md
   - 'Discovery Environment':
     - de/index.md

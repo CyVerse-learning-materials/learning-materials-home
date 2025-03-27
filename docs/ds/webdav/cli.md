@@ -43,29 +43,29 @@ The output will be an HTML-formatted text displaying files and directories in a 
 ## :material-web: Data Locations
 
 1. **User Data**  
-   Users can access their data at:
-   
-   ```sh
-   https://data.cyverse.org/dav/iplant/home/<username>/
-   ```
+    Users can access their data at:
+
+    ```sh
+    https://data.cyverse.org/dav/iplant/home/<username>/
+    ```
 
 2. **Public Data (Read-Only Access)**  
-   Anonymous users can access public data at:  
-   ```sh
-   https://data.cyverse.org/dav-anon/
-   ```
+    Anonymous users can access public data at:  
+    ```sh
+    https://data.cyverse.org/dav-anon/
+    ```
 
 3. **Community/Project Data**  
-   To access project-specific data stored in iRODS at `/iplant/home/shared/<project>/`, use:
-   ```sh
-   https://data.cyverse.org/dav/iplant/projects/<project>/
-   ```
+    To access project-specific data stored in iRODS at `/iplant/home/shared/<project>/`, use:
+    ```sh
+    https://data.cyverse.org/dav/iplant/projects/<project>/
+    ```
 
 4. **CyVerse Curated Data (DOI-Backed Datasets)**  
-   Access curated datasets with DOIs in the Data Commons at:
-   ```sh
-   https://data.cyverse.org/dav-anon/iplant/commons/cyverse_curated/
-   ```
+    Access curated datasets with DOIs in the Data Commons at:
+    ```sh
+    https://data.cyverse.org/dav-anon/iplant/commons/cyverse_curated/
+    ```
     
 ---
 
