@@ -21,7 +21,7 @@ To install Cyberduck, follow these steps:
 
 ---
 
-## :material-play-network: Connect to the Data Store
+## :material-duck: Connect to the Data Store
 
 ![cyberduck_sftp_main](../../assets/ds/cyberduck_sftp_main.png){ width="600" }
 
@@ -46,7 +46,7 @@ Click the **Connect** button to establish the connection.
 
 ---
 
-## :material-play-network: Basic Usage
+## :material-duck: Basic Usage
 
 **To navigate:**
 
@@ -66,7 +66,7 @@ Click the **Connect** button to establish the connection.
 
 ---
 
-## :material-play-network: Top-level Directories
+## :material-folder-multiple-outline: Top-level Directories
 
 Once connected, you will see two directories in the root:
 

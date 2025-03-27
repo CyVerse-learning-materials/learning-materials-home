@@ -7,7 +7,7 @@ Most operating systems include built-in SFTP clients, enabling command-line acce
     Windows 10 and later versions include an SFTP client. For earlier versions, you may need to use a third-party command-line tool like `WinSCP` or a GUI tool like `FileZilla`.
 
 
-## :material-play-network: SFTP Access Information
+## :material-account-circle-outline: SFTP Access Information
 
 Use the following credentials to connect to the Data Store:
 
@@ -28,7 +28,7 @@ Use these credentials for anonymous access to the Data Store:
 
 ---
 
-## :material-play-network: Connect to the Data Store
+## :material-console: Connect to the Data Store
 
 To connect using SFTP, open a terminal and run:
 
@@ -48,7 +48,7 @@ sftp>
 
 ---
 
-## :material-play-network: Basic SFTP Commands
+## :material-console: Basic SFTP Commands
 
 Once connected, you can use these common SFTP commands:
 
@@ -67,7 +67,7 @@ Use the `help` or `?` command to see a list of available SFTP commands.
 
 ---
 
-## :material-play-network: Top-level Directories
+## :material-folder-multiple-outline: Top-level Directories
 
 Once connected, you will see two directories in the root:
 
@@ -79,7 +79,7 @@ Once connected, you will see two directories in the root:
 
 ---
 
-## :material-play-network: Examples
+## :material-console: Examples
 
 1. **List files in your home directory:**
     ```sh

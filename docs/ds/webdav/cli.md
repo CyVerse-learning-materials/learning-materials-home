@@ -3,7 +3,7 @@
 You can access the Data Store via command-line tools using WebDAV, which is especially useful for integrating data into analysis pipelines or scripts. This guide covers using `curl`, a widely used command-line tool, for efficient WebDAV access and data management.
 
 
-## :material-web: WebDAV Access Information
+## :material-account-circle-outline: WebDAV Access Information
 
 Use the following credentials to connect to the Data Store:
 
@@ -22,7 +22,7 @@ Use these credentials for anonymous access to the Data Store:
 
 ---
 
-## :material-web: Connect to the Data Store
+## :material-console: Connect to the Data Store
 
 To list the contents of your home directory in the Data Store using WebDAV, open a terminal and run the following command:
 
@@ -43,34 +43,33 @@ The output will be an HTML-formatted text displaying files and directories in a 
 ## :material-web: Data Locations
 
 1. **User Data**  
-   Users can access their data at:
-   
-   ```sh
-   https://data.cyverse.org/dav/iplant/home/<username>/
-   ```
+    Users can access their data at:
+
+    ```sh
+    https://data.cyverse.org/dav/iplant/home/<username>/
+    ```
 
 2. **Public Data (Read-Only Access)**  
-   Anonymous users can access public data at:  
-   ```sh
-   https://data.cyverse.org/dav-anon/
-   ```
+    Anonymous users can access public data at:  
+    ```sh
+    https://data.cyverse.org/dav-anon/
+    ```
 
 3. **Community/Project Data**  
-   To access project-specific data stored in iRODS at `/iplant/home/shared/<project>/`, use:
-   ```sh
-   https://data.cyverse.org/dav/iplant/projects/<project>/
-   ```
+    To access project-specific data stored in iRODS at `/iplant/home/shared/<project>/`, use:
+    ```sh
+    https://data.cyverse.org/dav/iplant/projects/<project>/
+    ```
 
 4. **CyVerse Curated Data (DOI-Backed Datasets)**  
-   Access curated datasets with DOIs in the Data Commons at:
-   ```sh
-   https://data.cyverse.org/dav-anon/iplant/commons/cyverse_curated/
-   ```
+    Access curated datasets with DOIs in the Data Commons at:
+    ```sh
+    https://data.cyverse.org/dav-anon/iplant/commons/cyverse_curated/
+    ```
     
 ---
 
-## :material-web: Examples
-
+## :material-console: Examples
 
 1. **List files in your home directory:**
     ```sh
