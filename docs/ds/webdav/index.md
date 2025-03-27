@@ -25,7 +25,8 @@ For more details on GoCommands and iCommands, visit their respective documentati
 ### Table of Contents
 
 1. [Command-line Tools](cli.md)
-2. [WebBrowser](browser.md)
+2. [Web Browsers](browser.md)
+3. [Data Locations](data_location.md)
 
 ---
 
@@ -33,6 +34,10 @@ For more details on GoCommands and iCommands, visit their respective documentati
 
 Use command-line tools to manage and transfer files directly from your terminal, providing a flexible and efficient way to interact with the Data Store.
 
-## [:material-web: WebBrowser](browser.md)
+## [:material-web: Web Browsers](browser.md)
 
 Access the Data Store using web browsers for straightforward and convenient file downloads.
+
+## [:material-folder-multiple-outline: Data Locations](data_location.md)
+
+Discover how to locate your data with WebDAV.

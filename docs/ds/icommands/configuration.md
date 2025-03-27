@@ -34,14 +34,14 @@ The `iinit` command sets up the iRODS Host and access account for use with other
     | `irods_user_password` | (leave empty) |
 
 3. **To verify the current configuration, use:**
-    ```
+    ```sh
     ienv
     ```
 
     This will display the current configurations.
 
 4. **Execute iCommands for your task:**
-    ```
+    ```sh
     ils
     ```
 
@@ -52,7 +52,7 @@ The `iinit` command sets up the iRODS Host and access account for use with other
 The `iinit` command can be executed with environmental variables to automate configuration.
 
 1. **Export the required variables in your terminal:**
-    ```
+    ```sh
     export IRODS_HOST="data.cyverse.org"
     export IRODS_PORT=1247
     export IRODS_ZONE_NAME="iplant"
@@ -62,7 +62,7 @@ The `iinit` command can be executed with environmental variables to automate con
     > **Note:** iCommands does not support setting passwords via environment variables.
 
 2. **Execute the `iinit` command:**
-    ```
+    ```sh
     iinit
     ```
 

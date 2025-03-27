@@ -9,7 +9,7 @@ Most operating systems include built-in SFTP clients, enabling command-line acce
 
 ## :material-play-network: SFTP Access Information
 
-Use the following credentials to connect to the CyVerse Data Store:
+Use the following credentials to connect to the Data Store:
 
 | Key            | Value                |
 |-----------------|----------------------|
@@ -82,21 +82,21 @@ Once connected, you will see two directories in the root:
 ## :material-play-network: Examples
 
 1. **List files in your home directory:**
-   ```
-   ls /myUser
-   ```
+    ```sh
+    ls /myUser
+    ```
 
 2. **Download a file:**
-   ```
-   get /myUser/myfile.txt
-   ```
+    ```sh
+    get /myUser/myfile.txt
+    ```
 
 3. **Upload a file:**
-   ```
-   put localfile.txt /myUser/
-   ```
+    ```sh
+    put localfile.txt /myUser/
+    ```
 
 4. **Create a new directory:**
-   ```
-   mkdir /myUser/newdir
-   ```
+    ```sh
+    mkdir /myUser/newdir
+    ```
