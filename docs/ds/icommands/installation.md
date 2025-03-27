@@ -10,7 +10,7 @@ iCommands can be installed using popular Linux package managers such as `apt`, `
 
 APT is the default package manager for Debian-based distributions like Ubuntu. Use the following commands to add the iRODS repository, import the signing key, and update your package list:
 
-```bash
+```sh
 wget -qO - https://packages.irods.org/irods-signing-key.asc | sudo apt-key add -
 echo "deb [arch=amd64] https://packages.irods.org/apt/ $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/renci-irods.list
 sudo apt-get update
@@ -18,7 +18,7 @@ sudo apt-get update
 
 Then use the following command to install iCommands:
 
-```bash
+```sh
 sudo apt install irods-icommands
 ```
 
@@ -28,14 +28,14 @@ sudo apt install irods-icommands
 
 YUM is the default package manager for Red Hat-based distributions such as RHEL, CentOS, and Fedora. To install the public signing key and add the iRODS repository, execute the following commands:
 
-```bash
+```sh
 sudo rpm --import https://packages.irods.org/irods-signing-key.asc
 wget -qO - https://packages.irods.org/renci-irods.yum.repo | sudo tee /etc/yum.repos.d/renci-irods.yum.repo
 ```
 
 Then use the following command to install iCommands:
 
-```bash
+```sh
 sudo yum install irods-icommands
 ```
 
@@ -45,14 +45,14 @@ sudo yum install irods-icommands
 
 ZYPPER is the package manager for SUSE-based distributions like openSUSE and SUSE Linux Enterprise. Use these commands to import the signing key and add the iRODS repository:
 
-```bash
+```sh
 sudo rpm --import https://packages.irods.org/irods-signing-key.asc
 wget -qO - https://packages.irods.org/renci-irods.zypp.repo | sudo tee /etc/zypp/repos.d/renci-irods.zypp.repo
 ```
 
 Then use the following command to install iCommands:
 
-```bash
+```sh
 sudo zypper install irods-icommands
 ```
 

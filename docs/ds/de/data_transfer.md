@@ -1,6 +1,6 @@
 # Moving Data
 
-There are several ways to move data between the CyVerse Data Store and other computers, whether your local machine or a remote one. These methods vary in speed, flexibility, and technical knowledge necessary to use them. You may find that different methods suit your needs for different projects at different times.
+There are several ways to move data between the Data Store and other computers, whether your local machine or a remote one. These methods vary in speed, flexibility, and technical knowledge necessary to use them. You may find that different methods suit your needs for different projects at different times.
 
 | Method	        | Access Point | Upload/Download | Installation/Setup Required | Account Required | Max File Size |
 |-----------------------|-----------------------------|-----------------|-----------------------------|------------------|---------------|

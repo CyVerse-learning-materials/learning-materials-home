@@ -61,7 +61,7 @@ nav:
       - ds/webdav/index.md
       - 'WebBrowser': ds/webdav/browser.md
       - 'CLI tools': ds/webdav/cli.md
-      - 'Directory Sturcture': ds/sftp/structure.md
+      - 'Data Locations': ds/webdav/data_location.md
   - 'Discovery Environment':
     - de/index.md
     - 'Logging In': de/login.md

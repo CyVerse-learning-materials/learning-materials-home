@@ -7,15 +7,15 @@ When accessing the Data Store via SFTP, you'll encounter a different directory s
 `/<username>`
 
 - Maps to your iRODS home directory `/iplant/home/<username>`
-- You have read and write permissions
-- Anonymous users do not have a home directory
+- Read and write access for the owner
+- Not provided to anonymous users
 
 ## :material-folder-multiple-outline: Community-shared Data Directory
 
 `/shared`
 
 - Maps to the iRODS community-shared data directory: `/iplant/home/shared`
-- You have read-only permissions
+- Read-only access
 
 ## :material-folder-multiple-outline: `.ssh` Directory
 
