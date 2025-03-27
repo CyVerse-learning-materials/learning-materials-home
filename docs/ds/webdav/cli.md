@@ -3,7 +3,7 @@
 You can access the Data Store via command-line tools using WebDAV, which is especially useful for integrating data into analysis pipelines or scripts. This guide covers using `curl`, a widely used command-line tool, for efficient WebDAV access and data management.
 
 
-## :material-web: WebDAV Access Information
+## :material-account-circle-outline: WebDAV Access Information
 
 Use the following credentials to connect to the Data Store:
 
@@ -22,7 +22,7 @@ Use these credentials for anonymous access to the Data Store:
 
 ---
 
-## :material-web: Connect to the Data Store
+## :material-console: Connect to the Data Store
 
 To list the contents of your home directory in the Data Store using WebDAV, open a terminal and run the following command:
 
@@ -69,8 +69,7 @@ The output will be an HTML-formatted text displaying files and directories in a 
     
 ---
 
-## :material-web: Examples
-
+## :material-console: Examples
 
 1. **List files in your home directory:**
     ```sh

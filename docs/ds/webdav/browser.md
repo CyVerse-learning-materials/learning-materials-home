@@ -2,7 +2,7 @@
 
 WebDAV, an extension of HTTP, allows browsing and downloading data directly through any web browser.
 
-## :material-web: Connect to the Data Store
+## :material-google-chrome: Connect to the Data Store
 
 In your web browser, enter the URL of the data location.
 

@@ -20,7 +20,7 @@ To install the FileZilla Client, follow these steps:
 
 ---
 
-## :material-play-network: Connect to the Data Store
+## :simple-filezilla: Connect to the Data Store
 
 In the FileZilla window, fill in the following fields:
 
@@ -41,7 +41,7 @@ Click the **Quickconnect** button to establish the connection.
 
 ---
 
-## :material-play-network: Basic Usage
+## :simple-filezilla: Basic Usage
 
 ![filezilla_sftp_sections](../../assets/ds/filezilla_sftp_sections.png){ width="600" }
 
@@ -64,7 +64,7 @@ This drag-and-drop functionality allows for easy file movement between your loca
 
 ---
 
-## :material-play-network: Top-level Directories
+## :material-folder-multiple-outline: Top-level Directories
 
 Once connected, you will see two directories in the root:
 
