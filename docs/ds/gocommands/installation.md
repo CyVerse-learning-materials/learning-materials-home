@@ -8,7 +8,7 @@ GoCommands provides pre-built binaries for various operating systems and archite
 
 macOS runs on a variety of Apple devices, including MacBook, MacBook Pro, MacBook Air, iMac, Mac mini, Mac Studio, and Mac Pro. Depending on the model, it may use either an Intel/AMD 64-bit CPU or Apple Silicon (M1/M2). Follow the appropriate installation instructions based on your processor.
 
-??? Tip "Unsure which CPU architecture your Mac uses?"
+!!! Tip "Unsure which CPU architecture your Mac uses?"
 
     :simple-gnometerminal: Run the following command in the terminal:
     ```sh
@@ -38,7 +38,7 @@ curl -L -s https://github.com/cyverse/gocommands/releases/download/${GOCMD_VER}/
 
 Linux supports a wide range of CPU architectures. Follow the appropriate installation instructions based on your processor type.  
 
-??? Tip "Unsure which CPU architecture your system uses?"
+!!! Tip "Unsure which CPU architecture your system uses?"
 
     :simple-gnometerminal: Run the following command in the terminal:
     ```sh
@@ -84,7 +84,7 @@ Windows includes two main terminal applications: `Command Prompt (CMD)` and `Pow
 
 #### :simple-gnometerminal: Command Prompt (CMD)
 
-??? Tip "Unsure which CPU architecture your system uses?"
+!!! Tip "Unsure which CPU architecture your system uses?"
 
     :simple-gnometerminal: Run the following command in the Command Prompt (CMD):
     ```
@@ -108,7 +108,7 @@ curl -L -s -o gocmd.zip https://github.com/cyverse/gocommands/releases/download/
 
 #### :simple-gnometerminal: PowerShell
 
-??? Tip "Unsure which CPU architecture your system uses?"
+!!! Tip "Unsure which CPU architecture your system uses?"
 
     :simple-gnometerminal: Run the following command in the PowerShell:
     ```sh

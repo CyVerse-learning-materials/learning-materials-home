@@ -20,7 +20,7 @@ Environment Public Link.
     This is a convenient but less secure method for file transfer. Do not
     share sensitive/private data using these public links.
 
-??? Tip
+!!! Tip
 
     You can use this method to view files, for example in a genome browser.
 
@@ -40,7 +40,7 @@ Environment Public Link.
 
     ![public_link](../assets/ds/public_link.png)
 
-    ??? Tip
+    !!! Tip
 
         You can quickly create a link to a file by clicking the "3 dots" (ellipsis)
         icon next to any file and selecting "Public Link".
@@ -75,7 +75,7 @@ You can share data with another CyVerse user or a group of users by granting the
 4.  Once you are finished, click Done to begin sharing. The user will be
     notified that a file has been shared with them.
 
-    ??? Tip
+    !!! Tip
 
         You can share several files/folders at once by selecting them and
         then clicking the "Add to Bag" button in the Data window and then sharing the bag.

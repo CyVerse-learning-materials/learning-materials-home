@@ -4,7 +4,7 @@ With CyVerse, you can manage data throughout the data lifecycle, from uploading,
 
 The [![de]{width="25"} Discovery Environment](https://de.cyverse.org){target=_blank} interface is just one of many ways to access, view, and manage your files in the [Data Store](../ds/index.md).
 
-??? Question "What is the Data Store?"
+!!! Question "What is the Data Store?"
 
     The Data Store is not a separate platform; it is a service that crosscuts all of CyVerse so you can access your files (yours, shared with you, public) from anywhere in CyVerse.
 
@@ -76,7 +76,7 @@ Click on the More Options menu (ellipsis) in the upper right corner of the [![da
 
 Deleted files can be retrieved from your Trash. 
       
-??? Tip "Uploading/Importing Data via the Browser"
+!!! Tip "Uploading/Importing Data via the Browser"
 
     - You can use the DE interface to upload files of <2GB to the Data Store.
     - When your Data Store file browser is open, you can also upload files from your computer by dragging them into your browser window.

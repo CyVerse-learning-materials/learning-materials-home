@@ -48,7 +48,7 @@ GoCommands provides a range of commands designed to efficiently and conveniently
         2. The Data Store limits concurrent connections, potentially restricting high thread counts.
 
     
-    ??? Tip "Using GoCommands on the University of Arizona Campus Network?"
+    !!! Tip "Using GoCommands on the University of Arizona Campus Network?"
 
         When using GoCommands on the UA Campus network, include the `--icat` flag for stable large file transfers.
 
@@ -98,7 +98,7 @@ GoCommands provides a range of commands designed to efficiently and conveniently
         2. The Data Store limits concurrent connections, potentially restricting high thread counts.
 
     
-    ??? Tip "Using GoCommands on the University of Arizona Campus Network?"
+    !!! Tip "Using GoCommands on the University of Arizona Campus Network?"
 
         When using GoCommands on the UA Campus network, include the `--icat` flag for stable large file transfers.
 

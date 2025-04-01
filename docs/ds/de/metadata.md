@@ -24,7 +24,7 @@ CyVerse supports a variety of solutions that allow you to associate your raw dat
 ![edit_view_metadta](../../assets/ds/edit_view_metadata.png)
 
 
-??? Tip
+!!! Tip
 
     A single piece of metadata, or an AVU, comprises an attribute, value, and unit. An attribute is a changeable property or characteristic of the file or folder you have selected that can be set to a value. For example, "time point" might be an attribute of a file, while '7' could be its value, and "hour" a unit of the time point.
     
@@ -61,7 +61,7 @@ Follow the steps in the "Editing or deleting metadata" from the section above.
 
 1. Unzip the downloaded template; it will contain two files: *blank.csv* and *guide.csv*. Open these files using the spreadsheet editor of your choice.
 
-    ??? Tip
+    !!! Tip
 
         - *blank.csv* is the metadata template that you will complete for your data.      
         - *guide.csv* contains instructions for your template, and will usually include controlled vocabulary terms for metadata descriptors.
@@ -88,7 +88,7 @@ Follow the steps in the "Editing or deleting metadata" from the section above.
     - If the first column of your metadata file contains only filenames (i.e., all data files are in the same folder), navigate to the folder and use the **Upload** button (Browse local) or your choice of upload tool to upload the metadata (csv file) to that folder.
     - If the first column of your metadata file contains the full path to each file (i.e., the data files are in different folders), it does not matter where the metadata file is located on the Data Store. Use the **Upload** button (Browse local) or your choice of upload tool to upload the metadata (csv file) to an appropriate location on the Data Store.
 
-    ??? Tip
+    !!! Tip
     
         For convenient management and editing, use absolute file paths
         (e.g., `/iplant/home/your_file_location`) so that all of your metadata spreadsheets 
