@@ -53,8 +53,8 @@ Your team should now have access to the app or tool you shared!
 
 ## :material-frequently-asked-questions: FAQ
 
-??? question "What happens if I delete my team?"
+!!! question "What happens if I delete my team?"
     If you delete your team, remove someone from your team or unshare any app, tool, or data, the app/tool/data will not be available for use by your collaborators.
 
-??? question "What about versions?"
+!!! question "What about versions?"
     Any changes you make to a shared app or tool will be reflected to the rest of the team. For example, if you add a version to an app, the team will be able to see the changes you have made.

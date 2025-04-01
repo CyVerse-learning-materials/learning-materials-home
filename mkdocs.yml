@@ -27,7 +27,6 @@ nav:
     - 'Discovery Environment':
       - ds/de/index.md
       - 'Metadata': ds/de/metadata.md
-      - 'Data Transfer': ds/de/data_transfer.md
       - 'DOI': ds/de/doi.md
       - 'Data Use': ds/de/check_data.md
       - 'Sharing with Teams': ds/de/teams.md
