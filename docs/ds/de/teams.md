@@ -11,7 +11,9 @@ On the ![team]{width=20} Teams page, users are able to:
 - See all public teams and teams one is part of (top left drop down menu *All Teams* :octicons-triangle-down-24:)
 - Create a team (top right :fontawesome-solid-user-plus: *Team*)
 
-## Creating a Team
+---
+
+## :material-account-group: Creating a Team
 
 To create a team, click the :fontawesome-solid-user-plus: *Team* button on the top right. This is what the Team creation page looks like:
 
@@ -32,7 +34,9 @@ Here, you can:
 
 !!! tip "Remember to save your changes before exiting the page!"
 
-## Sharing Apps, Tools, and Data
+---
+
+## :material-share-variant-outline: Sharing Apps, Tools, and Data
 
 Being part of a team does not mean that your apps, tools and data are automatically shared. The steps below will enable sharing of apps and tools, for example, with your team, (these steps are applicable to sharing data as well):
 
@@ -45,7 +49,9 @@ Your team should now have access to the app or tool you shared!
 
 !!! warning "When adding a new member to an existing team, everything that has already been shared with the team will be automatically be shared with the new member. *Be careful of what you share to the team!*"
 
-## FAQ
+---
+
+## :material-frequently-asked-questions: FAQ
 
 ??? question "What happens if I delete my team?"
     If you delete your team, remove someone from your team or unshare any app, tool, or data, the app/tool/data will not be available for use by your collaborators.

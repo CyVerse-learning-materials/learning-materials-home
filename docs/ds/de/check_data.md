@@ -2,11 +2,11 @@
 
 You can see how much data you are storing in the Data Store from the Resource Usage area of the Discovery Environment Home screen. But what if you want to delete some large folders, or check for duplicate files? The DataHog app can help you understand more about the size of the folders and files you have in the Data Store.
 
-## Resource Usage view Discovery Environment
+## :material-speedometer: Resource Usage view Discovery Environment
 
 Log into the [Discovery Environment](https://de.cyverse.org/de/). After logging in, your resource usage will be displayed on the main page.
 
-## Checking Folder Size using DataHog
+## :material-speedometer: Checking Folder Size using DataHog
 
 1. Log into the [Discovery Environment](https://de.cyverse.org/de/).
 1. Click on the ![App Icon](../../assets/de/menu_items/appsIcon.png){width=25} to view or browse Apps.
@@ -17,5 +17,5 @@ Log into the [Discovery Environment](https://de.cyverse.org/de/). After logging 
 1. Once the import is complete, you will see a Summary of your data including a breakdown by file type, lists of files and folders by size, and lists of files and folders by date. There are other tabs to identify Duplicated Files as well as to import other storage sources so that you get a global view of your data. [Click here](https://www.youtube.com/watch?v=GQ5oMI5G9-I) to watch a 1-minute video on how to use DataHog.
 
     <!-- markdownlint-disable MD033 -->
-    [<img src="http://img.youtube.com/vi/GQ5oMI5G9-I/mqdefault.jpg" alt="Watch the video" width="200" border="0">](https://www.youtube.com/watch?v=GQ5oMI5G9-I)
+    [<img src="http://img.youtube.com/vi/GQ5oMI5G9-I/mqdefault.jpg" alt="Watch the video" width="600" border="0">](https://www.youtube.com/watch?v=GQ5oMI5G9-I)
     <!-- markdownlint-enable MD033 -->
