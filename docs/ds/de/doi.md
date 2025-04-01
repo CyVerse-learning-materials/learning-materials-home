@@ -1,14 +1,11 @@
 # Getting a DOI
 
-Under our new subscription model those with 'Basic' (free) CyVerse accounts are no longer allowed DOIs. If you wish to upgrade your account please review pricing and subscription options here: <https://cyverse.org/subscribe>.
+CyVerse provides Digital Object Identifiers (DOIs) for archiving research data, ensuring long-term stability and citability. DOIs are assigned through **CyVerse Curated Data in the Data Commons**, our dedicated space for preserving research outputs.
 
-## Background
+!!! Note "DOIs are only available to users with a paid subscription. 'Basic' (free) CyVerse accounts do not qualify. To upgrade, explore our pricing and subscription options here: <https://cyverse.org/subscribe>."
 
-CyVerse Curated Data in the Data Commons contains files that have been
-assigned a Digital Object Identifier (DOI). These files are secure, stable, and
-**unchangeable**, thus they are ideal for easy data reuse and data citation.
 
-## DOI Request Quickstart
+## :material-ray-start-vertex-end: DOI Request Quickstart
 
 <!-- markdownlint-disable MD023 -->
 
@@ -236,7 +233,7 @@ assigned a Digital Object Identifier (DOI). These files are secure, stable, and
 
 ---
 
-## FAQ
+## :material-frequently-asked-questions: FAQ
 
 <!-- markdownlint-disable MD046 -->
 

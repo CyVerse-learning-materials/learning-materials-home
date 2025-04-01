@@ -33,7 +33,7 @@ There are several ways to access the Data Store. These methods vary in speed, fl
 
 This section covers each of the following data management methods:
 
-1. [Discovery Environment](de/index.md): A comprehensive web-based platform for data analysis and management
+1. [Discovery Environment](de): A comprehensive web-based platform for data analysis and management
 2. [GoCommands](gocommands): A lightweight, portable command-line tool for efficient data operations on any OS
 3. [iCommands](icommands): A powerful command-line suite for advanced data management tasks on Linux
 4. [SFTP](sftp): A secure file transfer protocol accessible via command-line or GUI applications on any OS
@@ -47,7 +47,7 @@ Additional resources for managing your data and team collaboration:
 
 ---
 
-## [:material-laptop: Manage Your Data in Discovery Environment](de/index.md)
+## [:material-laptop: Manage Your Data in Discovery Environment](de)
 
 The Discovery Environment has a fully managed interface for uploading, downloading, sharing, and adding metadata to the Data Store through your browser.
 
