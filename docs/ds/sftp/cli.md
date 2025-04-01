@@ -2,7 +2,7 @@
 
 Most operating systems include built-in SFTP clients, enabling command-line access to the Data Store. This guide outlines the basics of using SFTP tools on Linux, macOS, and Windows.
 
-??? Tip "Windows Users"
+!!! Tip "Windows Users"
 
     Windows 10 and later versions include an SFTP client. For earlier versions, you may need to use a third-party command-line tool like `WinSCP` or a GUI tool like `FileZilla`.
 

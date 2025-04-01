@@ -4,7 +4,7 @@
 
 The `iinit` command sets up the iRODS Host and access account for use with other iCommands tools. Once the configuration is set, configuration files are created under the `~/.irods` directory.
 
-??? Tip "Running iCommands in an HPC environment?"
+!!! Tip "Running iCommands in an HPC environment?"
 
     :material-braille: To use pre-installed iCommands in an HPC environment, run following to access iCommands:
     ```sh
