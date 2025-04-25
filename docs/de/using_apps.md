@@ -95,6 +95,48 @@ One type of app that you can filter for in the [![de]{width="25"} Discovery Envi
 
 You must request special access and be approved to use VICE apps through the CyVerse User Portal .
 
+## About HPC Apps in the Discovery Environment
+
+Most CyVerse Discovery Environment (DE) applications that are listed in the High-Performance Computing (HPC) category,
+as well as CyVerse applications which run through our [Agave API](http://agaveapi.co),
+run at [TACC](https://www.tacc.utexas.edu) (the Texas Advanced Computing Center),
+part of the [XSEDE](https://www.xsede.org) (Extreme Science and Engineering Discovery Environment) national supercomputing network.
+Access to this powerful resource is made available to CyVerse users at no cost to the user through a grant from the National Science Foundation.
+
+In order to fairly distribute this high-demand resource,
+both XSEDE and TACC follow allocation policies that limit how long any single analysis can be run
+(usually 24 or 48 hours, depending on the queue),
+how many analyses a user can have running simultaneously,
+and the total amount of computational time any one user can access over the course of a year.
+Analyses (also known as jobs) submitted through the CyVerse DE run on XSEDE using the same queues as every other scientist in the country uses.
+Thus, if there are many analyses or a few very large analyses in the queue,
+the wait time for each analysis can be very long,
+up to several days for certain applications.
+
+### Understanding HPC queues
+
+Queues on HPC systems are much like queues at the coffee shop:
+the first analysis submitted is the first one to run.
+However, to efficiently exploit resources,
+HPC queues also have features similar to amusement parks that squeeze single riders in with larger groups.
+On an HPC system, this consists of scheduling jobs that are shorter or that use fewer nodes into smaller blocks that can be placed in between longer jobs.
+XSEDE supercomputing centers generally have more than one supercomputer,
+and the supercomputers have multiple queues for different types of analyses
+(e.g., serial, parallel, large memory).
+Each center/computer/queue has its own rules and algorithms for ensuring fair and efficient allocation of resources.
+
+Users or groups who have very large computational needs are likely to run into bottlenecks using standard CyVerse infrastructure.
+We recommend that these users
+[apply for their own XSEDE allocation](https://portal.xsede.org/allocation-policies),
+which will allow them to run CyVerse tools and applications on XSEDE with fewer restrictions.
+Users or groups with very large computational needs should first apply for a startup allocation and use it to benchmark their jobs,
+thereby collecting data on efficiency of resource use which must be part of a full XSEDE allocation request.
+
+Want to learn more about XSEDE?
+Visit the [XSEDE Getting Started](https://portal.xsede.org/documentation-overview)
+documentation or consider signing up for
+[XSEDE online training](https://www.xsede.org/web/xup/online-training).
+
 ## Advanced Features in the Discovery Environment
 
 The Discovery Environment also supports advanced features for apps such as integrating different types of apps into the DE, creating and running containers, and using Application Programming Interfaces (APIs) for programmatic backend access to CyVerse services. 
