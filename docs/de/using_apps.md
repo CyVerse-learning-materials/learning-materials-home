@@ -56,7 +56,7 @@ If no filter is selected, the control will be empty. The currently available app
 
 | Application filter | Description |
 |--------------------|-------------|
-| HPC | High Performance Computing apps that run using the Tapis API |
+| HPC | High-Performance Computing apps that run using the Tapis API |
 | DE | Executable (non-interactive apps) that run on CyVerse computing resources |
 | VICE | Interactive development environments (e.g., Jupyter, RStudio, R Shiny) and other apps with their own interactive interfaces |
 | Open Science Grid (OSG) | Executable (non-interactive apps) that run on OSG resources |
@@ -97,45 +97,44 @@ You must request special access and be approved to use VICE apps through the CyV
 
 ## About HPC Apps in the Discovery Environment
 
-Most CyVerse Discovery Environment (DE) applications that are listed in the High-Performance Computing (HPC) category,
-as well as CyVerse applications which run through our [Agave API](http://agaveapi.co),
-run at [TACC](https://www.tacc.utexas.edu) (the Texas Advanced Computing Center),
-part of the [XSEDE](https://www.xsede.org) (Extreme Science and Engineering Discovery Environment) national supercomputing network.
-Access to this powerful resource is made available to CyVerse users at no cost to the user through a grant from the National Science Foundation.
+Most DE apps that are listed in the High-Performance Computing (HPC) category,
+as well as CyVerse apps which run through the [Tapis API](https://tapis.readthedocs.io){target=_blank},
+run at [TACC](https://tacc.utexas.edu){target=_blank} (the Texas Advanced Computing Center),
+and mainly on their [Stampede3 system](https://docs.tacc.utexas.edu/hpc/stampede3/){target=_blank}.
+Access to this powerful resource is made available through a grant from the National Science Foundation.
+Stampede3 allocation requests must be made through the NSF's [ACCESS](https://allocations.access-ci.org){target=_blank} project.
+
+### Understanding HPC queues
 
 In order to fairly distribute this high-demand resource,
-both XSEDE and TACC follow allocation policies that limit how long any single analysis can be run
+TACC follows allocation policies that limit how long any single analysis can be run
 (usually 24 or 48 hours, depending on the queue),
 how many analyses a user can have running simultaneously,
 and the total amount of computational time any one user can access over the course of a year.
-Analyses (also known as jobs) submitted through the CyVerse DE run on XSEDE using the same queues as every other scientist in the country uses.
+Analyses (also known as jobs) submitted through the CyVerse DE run at TACC using the same queues as every other scientist in the country uses.
 Thus, if there are many analyses or a few very large analyses in the queue,
 the wait time for each analysis can be very long,
-up to several days for certain applications.
-
-### Understanding HPC queues
+up to several days for certain apps.
 
 Queues on HPC systems are much like queues at the coffee shop:
 the first analysis submitted is the first one to run.
 However, to efficiently exploit resources,
 HPC queues also have features similar to amusement parks that squeeze single riders in with larger groups.
 On an HPC system, this consists of scheduling jobs that are shorter or that use fewer nodes into smaller blocks that can be placed in between longer jobs.
-XSEDE supercomputing centers generally have more than one supercomputer,
+Supercomputing centers generally have more than one supercomputer,
 and the supercomputers have multiple queues for different types of analyses
 (e.g., serial, parallel, large memory).
 Each center/computer/queue has its own rules and algorithms for ensuring fair and efficient allocation of resources.
 
 Users or groups who have very large computational needs are likely to run into bottlenecks using standard CyVerse infrastructure.
 We recommend that these users
-[apply for their own XSEDE allocation](https://portal.xsede.org/allocation-policies),
-which will allow them to run CyVerse tools and applications on XSEDE with fewer restrictions.
+[apply for their own ACCESS allocation](https://allocations.access-ci.org){target=_blank},
+which will allow them to run CyVerse tools and applications at TACC with fewer restrictions.
 Users or groups with very large computational needs should first apply for a startup allocation and use it to benchmark their jobs,
-thereby collecting data on efficiency of resource use which must be part of a full XSEDE allocation request.
+thereby collecting data on efficiency of resource use which must be part of a full ACCESS allocation request.
 
-Want to learn more about XSEDE?
-Visit the [XSEDE Getting Started](https://portal.xsede.org/documentation-overview)
-documentation or consider signing up for
-[XSEDE online training](https://www.xsede.org/web/xup/online-training).
+Want to learn more about ACCESS?
+Visit the [ACCESS home page](https://access-ci.org){target=_blank}.
 
 ## Advanced Features in the Discovery Environment
 
