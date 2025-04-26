@@ -104,6 +104,42 @@ and mainly on their [Stampede3 system](https://docs.tacc.utexas.edu/hpc/stampede
 Access to this powerful resource is made available through a grant from the National Science Foundation.
 Stampede3 allocation requests must be made through the NSF's [ACCESS](https://allocations.access-ci.org){target=_blank} project.
 
+### Authenticating with TAPIS and Stampede3
+
+In order to use HPC Apps in the DE that run on TACC's Stampede3 system,
+follow their [Getting Started guide](https://tacc.utexas.edu/use-tacc/getting-started/){target=_blank}
+to register for a TACC account and to request a Stampede3 allocation.
+Be sure to choose the same username for your TACC account as your CyVerse username.
+
+After your TACC account is activated, navigate to [cyverse.tapis.io](https://cyverse.tapis.io/){target=_blank}
+and log in at that page with your **CyVerse credentials**
+(disregard the help messages in the login form that asks for your TAPIS name and password).
+
+Then navigate to the Systems page and find the public
+[stampede3 system](https://cyverse.tapis.io/#/systems/stampede3){target=_blank}.
+Near the top of the `stampede3` details page,
+there will be a display that checks if you have "Authenticated"
+with this `stampede3` system with your **TACC credentials**.
+
+If this section displays a message that you are unauthenticated,
+then it will provide an "Authenticate" link that you can select
+which will display a form for you to enter your **TACC account password**.
+
+<figure markdown>
+![](../assets/de/de_hpc_stampede3_unauthenticated.png){ width="338" }
+<figcaption>Unsuccessful Stampede3 Authentication Check</figcaption>
+</figure>
+
+After entering your TACC account password,
+refreshing this page should display a successful authentication check.
+
+<figure markdown>
+![](../assets/de/de_hpc_stampede3_authenticated.png){ width="338" }
+<figcaption>Successful Stampede3 Authentication Check</figcaption>
+</figure>
+
+This is a one-time authentication required for DE HPC apps running on the `stampede3` system.
+
 ### Understanding HPC queues
 
 In order to fairly distribute this high-demand resource,
