@@ -104,6 +104,14 @@ and mainly on their [Stampede3 system](https://docs.tacc.utexas.edu/hpc/stampede
 Access to this powerful resource is made available through a grant from the National Science Foundation.
 Stampede3 allocation requests must be made through the NSF's [ACCESS](https://allocations.access-ci.org){target=_blank} project.
 
+
+!!! tip "You must log in to the Tapis API server in order to view and use the list of HPC apps."
+
+    If you have not yet authenticated with Tapis
+    (you'll only have to do it once, or after resetting your HPC Token under `Settings`),
+    select the "High-Performance Computing" category in the Apps listing page,
+    then log in with your CyVerse credentials when prompted to authenticate with the cyverse.tapis.io server.
+
 ### Authenticating with TAPIS and Stampede3
 
 In order to use HPC Apps in the DE that run on TACC's Stampede3 system,
