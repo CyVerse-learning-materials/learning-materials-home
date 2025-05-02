@@ -9,6 +9,10 @@ The [Tapis v3 App docs](https://tapis.readthedocs.io/en/latest/technical/apps.ht
 can be referenced along with this guide when creating a new HPC app for the DE,
 and for other details beyond the scope of this guide.
 
+If you have created HPC apps with Tapis v2 (formerly known as Agave) for the DE in the past, then the guide
+[Tapis v2 (Agave) App migration to v3 for the Discovery Environment](https://docs.cyverse.org/services/api/tapis-v2-v3-migration/){target=_blank}
+can help you migrate your v2 apps so they can be used in the DE once again.
+
 ## Tapis `curl` command setup
 
 Please note that the API server at [cyverse.tapis.io](https://cyverse.tapis.io/){target=_blank}
@@ -255,9 +259,10 @@ and update the app the following command:
 
 ### The `notes` Field
 
-The DE will use the `notes` field to decide how to display and validate
-certain app fields and parameters,
-such as app and parameter `name` and `label` display fields.
+The DE will use an app's `notes` fields to decide how to display and validate certain app fields and parameters,
+such as app and parameter `name` and `label` display fields,
+if those `notes` fields are formatted
+[similar to Tapis v2 app fields](https://docs.cyverse.org/services/api/tapis-v2-v3-migration/){target=_blank}.
 
 The DE will use the app's `notes.label` or `notes.name`,
 followed by the app's `version`,
