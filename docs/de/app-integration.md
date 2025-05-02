@@ -1,4 +1,4 @@
-# Create Your Own Apps in the Discovery Environment
+# Create Your Own DE Apps
 
 The CyVerse Discovery Environment (DE) has hundreds of apps available but if you ever discover that you can't find the
 app you're looking for, you can add your own apps into the DE.
@@ -168,7 +168,79 @@ left-hand corner of the Discovery environment:
 
 ![Hamburger Menu](../assets/de/hamburger-menu.png)
 
+Next, click the tools item in the navication bar:
 
+![Navigation Bar - Tools](../assets/de/nav-bar-tools.png)
+
+Next, click the `More Actions` menu in the upper right-hand corner of the Discovery Environment then click `Add Tool`:
+
+![Add Tool Menu Item](../assets/de/add-tool.png)
+
+After clicking the menu item, you should see this dialog box:
+
+![Top of Add Tool Dialog Box](../assets/de/add-tool-dialog-top.png)
+
+Note that it will be necessary to scroll to see the entire form, but the most important form items are included near the
+top of the page.
+
+| Field             | Description                                                                              |
+|-------------------|------------------------------------------------------------------------------------------|
+| Tool Name         | The name of the tool as it will be displayed in the DE.                                  |
+| Description       | A brief description of the tool.                                                         |
+| Version           | The version of the tool.                                                                 |
+| Type              | The type of app being integrated.                                                        |
+| Image Name        | The name referring to the Docker repository where the container is stored.               |
+| Docker Hub URL    | A URL pointing to the repository in Docker Hub.                                          |
+| Tag               | The Docker tag being used.                                                               |
+| Entrypoint        | The path to the executable file to run when the app is launched.                         |
+| Working Directory | The path to the initial working directory to use when the app is launched.               |
+| UID               | The ID of the user that will run the tool in the container.                              |
+| Max CPU Cores     | The maximum number of CPU cores a user can request when launching your app.              |
+| Memory Limit      | The maximum amount of RAM a user can request when launching your app.                    |
+| Min Disk Space    | The minimum amount of disk space required to successfully run your app.                  |
+| PIDs Limit        | The maximum amount of process IDs that will run simultaneously when your app is running. |
+| Network Mode      | Controls neetwork access from inside the container.                                      |
+| Time Limit        | The default amount of time to request when users launch your app.                        |
+
+### Tool Name
+
+This is the name of the tool as it will appear in the Discovery Environment. In this case, I'm going to keep it short
+and simple:
+
+> Diceware
+
+### Description
+
+This field is meant to provide additional details about the app for users who aren't familiar with it. This should be
+longer than the app name, but still brief enough to avoid other users who might be interested in your app. In this case,
+I'm simply going use something like this:
+
+> A utility used to generate Diceware passwords. See https://diceware.dmuth.org/ for more details.
+
+### Version
+
+The tool version is a brief description of this version of the tool. Usually, this is the same as the software version,
+but you may want to introduce some variation if, for example, you need to make changes to the Docker image or if you
+have multiple specialized Docker images for the same software. In this case, I'm just going to use the software version
+number:
+
+> 0.0.2
+
+### Type
+
+The tool type tells the Discovery Environment which subsystem to use to run the tool, so it's critically important to
+pick the right tool type for the tool that you're integrating. There are three different tool types listed in this
+dialog box:
+
+| Subsystem   | Description                                                                                 |
+|-------------|---------------------------------------------------------------------------------------------|
+| executable  | Runs in the background on data provided when the app is launched.                           |
+| interactive | Provides an HTTP interface after being launched so that you can work with it interactively. |
+| osg         | (No longer supported) these were executable apps that ran on the Open Science Grid.         |
+
+This tool simply runs in the background, so the correct type to use in this case is `executable`.
+
+> executable
 
 ## Defining the App in the DE
 
