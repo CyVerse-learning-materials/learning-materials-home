@@ -101,7 +101,7 @@ Divide the app into sections appropriate for that tool (input, options and outpu
 sufficient sections for simple apps). You can add a section by clicking on the 'Add Section'. Once you have added a section you can edit the name by clicking on the pencil icon (right side). Within a section you can add the parameters necessary for your tool by clicking on 'Add Parameter' and choosing the type of parameter you want to add (e.g. input file). For each option you add, you will need to specify what the option is,
 the argument option (if there is one) and whether that option is required. If an
 option is not required be sure to check the 'exclude if nothing is
-entered' box. For tools that have positional agruments (no argument option, eg.
+entered' box. For tools that have positional arguments (no argument option, eg.
 -i) you can leave argument option blank but you will need to make sure your arguments are in the proper order in step 4.
 
 ![buildapp_step2](../assets/de/buildapp_step2.png){width="600"}
@@ -147,7 +147,7 @@ and select 'Publish'. You will need to supply:
 -   location of the example data
 -   brief description of inputs, required options and outputs
 -   link to CyVerse Wiki documentation page
--   link to docmentation for the tool (provided by the developers)
+-   link to documentation for the tool (provided by the developers)
 
 
 [de]: ../assets/de/logos/deIcon.svg
