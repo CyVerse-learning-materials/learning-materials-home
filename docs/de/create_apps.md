@@ -22,8 +22,7 @@
      folder
 
       -   **DE**: run locally on our cluster
-      -   **HPC**: labeled as 'Agave' in the DE. Run on XSEDE
-          rsources at Texas Advanced Computing Center (TACC)
+      -   **HPC**: run at the Texas Advanced Computing Center (TACC)
       -   **OSG**: run on the Open Science Grid
 
  -   **Interactive**: also called Visual and Interactive Computing
@@ -31,7 +30,10 @@
      Environments (IDEs) including RStudio, Project Jupyter and RShiny
      and work interactively within them.
 
-**The (containerized) tool must be [integrated into the CyVerse DE first](#adding-a-tool). Then an [app (interface) can be built](#building-an-app-for-your-tool) for that tool.**
+![][hpc]{width=20} **HPC apps** must be [created through the Tapis API](create_hpc_apps.md).
+
+![][apps]{width=20} For all other app types,
+**the ([containerized](https://cyverse-de-manual.readthedocs-hosted.com/en/latest/new-appInterfacechildpages/DockerizingTools.html)) tool must be [integrated into the CyVerse DE first](#adding-a-tool). Then an [app (interface) can be built](#building-an-app-for-your-tool) for that tool.**
 
 ## Adding a Tool
 
@@ -151,7 +153,5 @@ and select 'Publish'. You will need to supply:
 
 
 [de]: ../assets/de/logos/deIcon.svg
-[home]: ../assets/de/menu_items/homeIcon.svg
-[data]: ../assets/de/menu_items/dataIcon.svg
 [apps]: ../assets/de/menu_items/appsIcon.svg
-[analysis]: ../assets/de/menu_items/analysisIcon.svg
+[hpc]: ../assets/de/icons/HPCIcon.svg
