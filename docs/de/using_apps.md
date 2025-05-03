@@ -1,13 +1,8 @@
 # Using Apps in the Discovery Environment
 
-[de]: ../../assets/de/logos/deIcon.svg
-[data]: ../../assets/de/menu_items/dataIcon.svg
-[analyses]: ../../assets/de/menu_items/analysisIcon.svg
-[apps]: ../../assets/de/menu_items/appsIcon.svg
-[help]: ../../assets/de/menu_items/helpIcon.svg
-[home]: ../../assets/de/menu_items/homeIcon.svg
-[profile]: ../../assets/de/icons/userIcon.svg
-[vice]: ../../assets/de/logos/deviceIcon.svg
+[de]: ../assets/de/logos/deIcon.svg
+[apps]: ../assets/de/menu_items/appsIcon.svg
+[vice]: ../assets/de/logos/deviceIcon.svg
 
 You can select from several hundred applications (Apps) available in the [![de]{width="25"} Discovery Environment](https://de.cyverse.org){target=_blank} when you are ready to analyze your data.
 
@@ -20,7 +15,7 @@ You must be logged in to browse and use apps.
 1. Click in the left sidebar of the DE to see the [![apps]{width="25"} Apps](https://de.cyverse.org/apps){target=_blank} view. When you first access the Apps view, you may be prompted to log in. After logging in, you will see a screen that looks something like this:
 
 <figure markdown>
-![](../../assets/de/de_apps_screen.png){ width="600" }
+![](../assets/de/de_apps_screen.png){ width="600" }
 <figcaption>The Apps page.</figcaption>
 </figure>
 
@@ -61,7 +56,7 @@ If no filter is selected, the control will be empty. The currently available app
 
 | Application filter | Description |
 |--------------------|-------------|
-| HPC | High Performance Computing apps that run using the Tapis API |
+| HPC | High-Performance Computing apps that run using the Tapis API |
 | DE | Executable (non-interactive apps) that run on CyVerse computing resources |
 | VICE | Interactive development environments (e.g., Jupyter, RStudio, R Shiny) and other apps with their own interactive interfaces |
 | Open Science Grid (OSG) | Executable (non-interactive apps) that run on OSG resources |
@@ -100,9 +95,93 @@ One type of app that you can filter for in the [![de]{width="25"} Discovery Envi
 
 You must request special access and be approved to use VICE apps through the CyVerse User Portal .
 
+## About HPC Apps in the Discovery Environment
+
+Most DE apps that are listed in the High-Performance Computing (HPC) category,
+as well as CyVerse apps which run through the [Tapis API](https://tapis.readthedocs.io){target=_blank},
+run at [TACC](https://tacc.utexas.edu){target=_blank} (the Texas Advanced Computing Center),
+and mainly on their [Stampede3 system](https://docs.tacc.utexas.edu/hpc/stampede3/){target=_blank}.
+Access to this powerful resource is made available through a grant from the National Science Foundation.
+Stampede3 allocation requests must be made through the NSF's [ACCESS](https://allocations.access-ci.org){target=_blank} project.
+
+
+!!! tip "You must log in to the Tapis API server in order to view and use the list of HPC apps."
+
+    If you have not yet authenticated with Tapis
+    (you'll only have to do it once, or after resetting your HPC Token under `Settings`),
+    select the "High-Performance Computing" category in the Apps listing page,
+    then log in with your CyVerse credentials when prompted to authenticate with the cyverse.tapis.io server.
+
+### Authenticating with TAPIS and Stampede3
+
+In order to use HPC Apps in the DE that run on TACC's Stampede3 system,
+follow their [Getting Started guide](https://tacc.utexas.edu/use-tacc/getting-started/){target=_blank}
+to register for a TACC account and to request a Stampede3 allocation.
+Be sure to choose the same username for your TACC account as your CyVerse username.
+
+After your TACC account is activated, navigate to [cyverse.tapis.io](https://cyverse.tapis.io/){target=_blank}
+and log in at that page with your **CyVerse credentials**
+(disregard the help messages in the login form that asks for your TAPIS name and password).
+
+Then navigate to the Systems page and find the public
+[stampede3 system](https://cyverse.tapis.io/#/systems/stampede3){target=_blank}.
+Near the top of the `stampede3` details page,
+there will be a display that checks if you have "Authenticated"
+with this `stampede3` system with your **TACC credentials**.
+
+If this section displays a message that you are unauthenticated,
+then it will provide an "Authenticate" link that you can select
+which will display a form for you to enter your **TACC account password**.
+
+<figure markdown>
+![](../assets/de/de_hpc_stampede3_unauthenticated.png){ width="338" }
+<figcaption>Unsuccessful Stampede3 Authentication Check</figcaption>
+</figure>
+
+After entering your TACC account password,
+refreshing this page should display a successful authentication check.
+
+<figure markdown>
+![](../assets/de/de_hpc_stampede3_authenticated.png){ width="338" }
+<figcaption>Successful Stampede3 Authentication Check</figcaption>
+</figure>
+
+This is a one-time authentication required for DE HPC apps running on the `stampede3` system.
+
+### Understanding HPC queues
+
+In order to fairly distribute this high-demand resource,
+TACC follows allocation policies that limit how long any single analysis can be run
+(usually 24 or 48 hours, depending on the queue),
+how many analyses a user can have running simultaneously,
+and the total amount of computational time any one user can access over the course of a year.
+Analyses (also known as jobs) submitted through the CyVerse DE run at TACC using the same queues as every other scientist in the country uses.
+Thus, if there are many analyses or a few very large analyses in the queue,
+the wait time for each analysis can be very long,
+up to several days for certain apps.
+
+Queues on HPC systems are much like queues at the coffee shop:
+the first analysis submitted is the first one to run.
+However, to efficiently exploit resources,
+HPC queues also have features similar to amusement parks that squeeze single riders in with larger groups.
+On an HPC system, this consists of scheduling jobs that are shorter or that use fewer nodes into smaller blocks that can be placed in between longer jobs.
+Supercomputing centers generally have more than one supercomputer,
+and the supercomputers have multiple queues for different types of analyses
+(e.g., serial, parallel, large memory).
+Each center/computer/queue has its own rules and algorithms for ensuring fair and efficient allocation of resources.
+
+Users or groups who have very large computational needs are likely to run into bottlenecks using standard CyVerse infrastructure.
+We recommend that these users
+[apply for their own ACCESS allocation](https://allocations.access-ci.org){target=_blank},
+which will allow them to run CyVerse tools and applications at TACC with fewer restrictions.
+Users or groups with very large computational needs should first apply for a startup allocation and use it to benchmark their jobs,
+thereby collecting data on efficiency of resource use which must be part of a full ACCESS allocation request.
+
+Want to learn more about ACCESS?
+Visit the [ACCESS home page](https://access-ci.org){target=_blank}.
+
 ## Advanced Features in the Discovery Environment
 
 The Discovery Environment also supports advanced features for apps such as integrating different types of apps into the DE, creating and running containers, and using Application Programming Interfaces (APIs) for programmatic backend access to CyVerse services. 
 
-For how-to information on these features, see our [Developer Manuals](../manuals.md) , [Extending VICE Apps](../vice/extend_apps.md) , and our [Powered By](../powered_by.md) documentation.
-
+For how-to information on these features, see our [Developer Manuals](../dev/manuals.md), [Extending VICE Apps](vice/extend_apps.md), and our [Powered By](../home/powered_by.md) documentation.
