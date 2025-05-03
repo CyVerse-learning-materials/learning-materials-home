@@ -22,14 +22,19 @@ which are used by the DE to display different parameter field types beyond simpl
 (such as checkboxes, selection lists, and file/folder inputs).
 It also does not currently allow editing of existing apps.
 
-So this guide will use `curl` commands to interface with the `cyverse.tapis.io` API.
+So this guide will use `curl` commands to interface with the `cyverse.tapis.io` API
+(but there are other options detailed in the
+[Tapis "Getting Started" guide](https://tapis.readthedocs.io/en/latest/getting-started/){target=_blank}).
 
 The following shell environment variables and `curl` command aliases
 will be used in the examples throughout the rest of this guide.
 
 ### Set env var `TAPIS_ACCESS_TOKEN`
 
-Assuming the env vars `CYVERSE_USERNAME` and `CYVERSE_PASSWORD` are set:
+Assuming the env vars `CYVERSE_USERNAME` and `CYVERSE_PASSWORD` are set,
+this command will call the
+[/v3/oauth2/tokens endpoint](https://tapis-project.github.io/live-docs/?service=Authenticator#tag/Tokens/operation/create_token){target=_blank}
+and store the resulting Tapis JWT in the env var `TAPIS_ACCESS_TOKEN`:
 
     export TAPIS_ACCESS_TOKEN=$(curl -H "Content-Type: application/json" -s -d "{\"username\": \"$CYVERSE_USERNAME\", \"password\": \"$CYVERSE_PASSWORD\", \"grant_type\": \"password\" }" https://cyverse.tapis.io/v3/oauth2/tokens | jq -r .result.access_token.access_token)
 
@@ -44,7 +49,7 @@ Note the use of the [jq](https://jqlang.github.io/jq/) command to parse out the
 
 If the env vars and alias above are set up correctly,
 then a command like the following
-(which will [list all available systems](https://tapis-project.github.io/live-docs/?service=Systems#tag/Systems/operation/getSystems))
+(which calls the [/v3/systems endpoint](https://tapis-project.github.io/live-docs/?service=Systems#tag/Systems/operation/getSystems){target=_blank})
 should return some results.
 
     curl-tapis -s "https://cyverse.tapis.io/v3/systems?select=id,enabled,systemType,owner,canExec,isPublic&listType=ALL"
@@ -246,12 +251,15 @@ First consider a Tapis v3 app definition like the following:
 ```
 
 If this app JSON was saved in a file named `app.json`,
-then this app can be created with the following command:
+then this app can be created with a command like the following,
+which calls the
+[POST /v3/apps endpoint](https://tapis-project.github.io/live-docs/?service=Apps#tag/Applications/operation/createAppVersion){target=_blank}:
 
     curl-tapis -s -d @app.json https://cyverse.tapis.io/v3/apps
 
-If the app needs to be updated, save the updates to the same file
-and update the app the following command:
+If the app needs to be updated,
+save the updates to the same file and update the app with the
+[PUT /v3/apps endpoint](https://tapis-project.github.io/live-docs/?service=Apps#tag/Applications/operation/putApp){target=_blank}:
 
     curl-tapis -s -X PUT -d @app.json "https://cyverse.tapis.io/v3/apps/CyVerse-QA-Test-App/0.1"
 
