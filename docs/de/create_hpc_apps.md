@@ -424,3 +424,11 @@ The `integerInput` and `doubleInput` fields from the example above will render l
 ![](../assets/de/de_hpc_field_numbers.png){ width="464" }
 <figcaption>Number Input Fields</figcaption>
 </figure>
+
+### Make App Public
+
+Once the app is tested and ready for sharing with all DE users,
+you can make the app public with the
+[/v3/apps/share_public endpoint](https://tapis-project.github.io/live-docs/?service=Apps#tag/Sharing/operation/shareAppPublic){target=_blank}:
+
+    curl-tapis -s -X POST "https://cyverse.tapis.io/v3/apps/share_public/CyVerse-QA-Test-App"
