@@ -300,6 +300,13 @@ The `description` will be used as the help text displayed below the form field i
 Note that the `visible`, `required`, and `type` fields could be omitted from the `notes` in this example,
 since those are the defaults the DE will use for those parameter fields.
 
+This text field will render like this in the DE's app launch form:
+
+<figure markdown>
+![](../assets/de/de_hpc_field_text.png){ width="464" }
+<figcaption>Text Form Field</figcaption>
+</figure>
+
 If the parameter has an `inputMode` field with a `REQUIRED` value,
 then the DE will treat that parameter as required and ignore the
 `notes.value.required` field.
@@ -321,6 +328,13 @@ If an input value is also required as a parameter on the command line,
 then the `name` of the input in the `fileInputs` parameter field
 should match the `name` of the corresponding `appArgs` parameter (or the `key` of the corresponding `envVariables` parameter).
 
+The `requiredInput` field from the example above will render like this in the DE's app launch form:
+
+<figure markdown>
+![](../assets/de/de_hpc_field_file_folder.png){ width="464" }
+<figcaption>File/Folder Input Field</figcaption>
+</figure>
+
 If the app's `runtime` value is `DOCKER`,
 then the DE will automatically prepend `/TapisInput/`
 to the file or folder name submitted by the user,
@@ -337,6 +351,13 @@ app's input in a subsequent step in the workflow.
 If the output value is also required as a parameter on the command line,
 then the `name` of the output in the `notes` field should match the `name` of the
 corresponding `appArgs` parameter (or the `key` of the corresponding `envVariables` parameter).
+
+The `requiredOutput` field from the example above will render like this in the DE's app launch form:
+
+<figure markdown>
+![](../assets/de/de_hpc_field_output.png){ width="464" }
+<figcaption>Output Field</figcaption>
+</figure>
 
 If the app's `runtime` value is `DOCKER`,
 then the DE will automatically prepend `/TapisOutput/`
@@ -356,6 +377,13 @@ Parameters with a `notes.semantics.ontology` list where the first value is
 Note that the value of a parameter's `arg` is used in job submissions
 when the user checks a flag parameter type in the submission form.
 
+The `flag` fields from the example above will render like this in the DE's app launch form:
+
+<figure markdown>
+![](../assets/de/de_hpc_field_flag.png){ width="464" }
+<figcaption>Flag Input Fields</figcaption>
+</figure>
+
 #### Enumeration Lists
 
 If the parameter has a `notes.value.type` field value of `enumeration`,
@@ -368,6 +396,18 @@ Each of these enum objects should have a key
 that is the full command line argument that should be submitted as the parameter's `arg` value in the job submission,
 and a value that will be used as the display label by the DE in the form's selection list.
 
+The `listInput` field from the example above will render like this in the DE's app launch form:
+
+<figure markdown>
+![](../assets/de/de_hpc_field_enum.png){ width="464" }
+<figcaption>List Selection Field</figcaption>
+</figure>
+
+<figure markdown>
+![](../assets/de/de_hpc_field_enum_expanded.png){ width="464" }
+<figcaption>List Selection Field Expanded</figcaption>
+</figure>
+
 #### Numbers
 
 If the parameter has a `notes.value.type` field value of `number`,
@@ -377,3 +417,10 @@ determine if the user's input should be restricted to integers or decimal values
 
 See https://github.com/cyverse-de/mescal/blob/main/src/mescal/tapis_de_v3/params.clj
 for a list of supported number XSD types (otherwise defaulting to decimal values).
+
+The `integerInput` and `doubleInput` fields from the example above will render like this in the DE's app launch form:
+
+<figure markdown>
+![](../assets/de/de_hpc_field_numbers.png){ width="464" }
+<figcaption>Number Input Fields</figcaption>
+</figure>
