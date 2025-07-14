@@ -54,7 +54,7 @@ nav:
       - 'CLI tools': ds/sftp/cli.md
       - 'FileZilla': ds/sftp/filezilla.md
       - 'Cyberduck': ds/sftp/cyberduck.md
-      - 'Directory Sturcture': ds/sftp/structure.md
+      - 'Directory Structure': ds/sftp/structure.md
       - 'Public-key Authentication Configuration': ds/sftp/public_key_auth.md
     - 'WebDav':
       - ds/webdav/index.md
