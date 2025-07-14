@@ -1,0 +1,5087 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation for CyVerse Platforms and Education">
+      
+      
+        <meta name="author" content="CyVerse Science Team">
+      
+      
+        <link rel="canonical" href="https://learning.cyverse.org/edu/tutorials/dna_subway_guide/">
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../../../dev/manuals/">
+      
+      
+      <link rel="icon" href="../../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>DNA Subway - CyVerse Learning Materials</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/_mkdocstrings.css">
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="../../../chatbot_widget.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","UA-72224033-6"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","UA-72224033-6",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=UA-72224033-6",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+      
+        <meta  property="og:type"  content="website" >
+      
+        <meta  property="og:title"  content="DNA Subway - CyVerse Learning Materials" >
+      
+        <meta  property="og:description"  content="Documentation for CyVerse Platforms and Education" >
+      
+        <meta  property="og:image"  content="https://learning.cyverse.org/assets/images/social/edu/tutorials/dna_subway_guide.png" >
+      
+        <meta  property="og:image:type"  content="image/png" >
+      
+        <meta  property="og:image:width"  content="1200" >
+      
+        <meta  property="og:image:height"  content="630" >
+      
+        <meta  property="og:url"  content="https://learning.cyverse.org/edu/tutorials/dna_subway_guide/" >
+      
+        <meta  name="twitter:card"  content="summary_large_image" >
+      
+        <meta  name="twitter:title"  content="DNA Subway - CyVerse Learning Materials" >
+      
+        <meta  name="twitter:description"  content="Documentation for CyVerse Platforms and Education" >
+      
+        <meta  name="twitter:image"  content="https://learning.cyverse.org/assets/images/social/edu/tutorials/dna_subway_guide.png" >
+      
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#dna-subway" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="CyVerse Learning Materials" class="md-header__button md-logo" aria-label="CyVerse Learning Materials" data-md-component="logo">
+      
+  <img src="../../../assets/android-chrome-512x512.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CyVerse Learning Materials
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              DNA Subway
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="#002E99" data-md-color-accent="orange"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="#002E99" data-md-color-accent="orange"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/CyVerse-learning-materials/learning-materials-home" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    CyVerse-learning-materials/learning-materials-home
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="CyVerse Learning Materials" class="md-nav__button md-logo" aria-label="CyVerse Learning Materials" data-md-component="logo">
+      
+  <img src="../../../assets/android-chrome-512x512.png" alt="logo">
+
+    </a>
+    CyVerse Learning Materials
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/CyVerse-learning-materials/learning-materials-home" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    CyVerse-learning-materials/learning-materials-home
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Home
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    About
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../home/what_is_cyverse/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    What is CyVerse?
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../home/account/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Set Up an Account
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../home/subscriptions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Subscriptions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../home/powered_by/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Powered by CyVerse
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../home/glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Glossary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Data Management
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Data Management
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ds/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Data Store
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../ds/de/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Discovery Environment
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../ds/gocommands/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    GoCommands
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../ds/icommands/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    iCommands
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../ds/sftp/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    SFTP
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../ds/webdav/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    WebDav
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Discovery Environment
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Discovery Environment
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../de/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Types of Analyses in the Discovery Environment
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../de/login/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Logging In
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../de/using_apps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Using Apps
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../de/managing_analyses/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Managing Analyses
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../de/vice/about/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Interactive Analysis
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../de/create_apps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Integrate Apps and Tools
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../de/vice/extend_apps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Integrate Interactive Apps
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../de/vice/csi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Data Store in Interactive Apps
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../de/vice/quick-app-launch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sharing Apps
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../de/bags/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sharing and Using Bags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ds/de/share/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sharing Data
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ds/de/metadata/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Metadata
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ds/de/doi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DOI
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ds/de/check_data/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Data Use
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ds/de/teams/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sharing with Teams
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../../de/vice/quick-rstudio/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Quick Starts
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Cloud Native Services
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Cloud Native Services
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../cloud/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cloud Services
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../cloud/cacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    CACAO
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../cloud/datawatch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    DataWatch
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../cloud/harbor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Harbor Container Registry
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Artificial Intelligence
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Artificial Intelligence
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ai/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    AI and Machine Learning on CyVerse
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ai/verde/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    VERDE
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Education
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Education
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Teach using CyVerse
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../workshops/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    Workshops
+    
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Science Tutorials
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    DNA Subway
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    DNA Subway
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#goal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Goal
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dna-subway-basics-and-logging-in-to-subway" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Basics and Logging in to Subway
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNA Subway Basics and Logging in to Subway">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#logging-into-dna-subway-as-a-registered-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      Logging into DNA Subway as a registered user
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#logging-into-dna-subway-as-a-guest-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      Logging into DNA Subway as a guest user
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accessing-saved-private-and-public-dna-subway-projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accessing Saved Private and Public DNA Subway Projects
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Accessing Saved Private and Public DNA Subway Projects">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#accessing-private-projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accessing Private Projects
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accessing-public-projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accessing Public Projects
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#make-a-dna-subway-project-private-or-public" class="md-nav__link">
+    <span class="md-ellipsis">
+      Make a DNA Subway Project Private or Public
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#walkthrough-of-dna-subway-red-line-genome-annotation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Walkthrough of DNA Subway Red Line - Genome Annotation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Walkthrough of DNA Subway Red Line - Genome Annotation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-red-line-create-an-annotation-project-with-apollo" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Red Line - Create an Annotation Project with Apollo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNA Subway Red Line - Create an Annotation Project with Apollo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-exercise-project-creation-arabidopsis-chri" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Exercise - Project Creation: Arabidopsis ChrI
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-red-line-find-and-mask-repetitive-dna" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Red Line - Find and Mask Repetitive DNA
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-exercise-repeat-masking-arabodopsis-chri" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Exercise - Repeat Masking: Arabodopsis ChrI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-red-line-making-gene-predictions" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Red Line - Making Gene Predictions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNA Subway Red Line - Making Gene Predictions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-exercise-predict-genes-arabidopsis-chri" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Exercise - Predict Genes: Arabidopsis ChrI
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-red-line-visualize-predicted-genes-in-a-genome-browser" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Red Line - Visualize predicted genes in a Genome Browser
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNA Subway Red Line - Visualize predicted genes in a Genome Browser">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-exercise-visualize-predicted-genes-arabidopsis-chri" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Exercise - Visualize predicted genes: Arabidopsis ChrI
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-red-line-search-databases-using-blast" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Red Line - Search Databases using BLAST
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNA Subway Red Line - Search Databases using BLAST">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-exercise-search-databases-using-blast-arabidopsis-chri" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Exercise - Search Databases using BLAST: Arabidopsis ChrI
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-red-line-build-gene-models-using-apollo" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Red Line - Build Gene Models using Apollo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNA Subway Red Line - Build Gene Models using Apollo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-exercise-build-gene-models-using-apollo-arabodopsis-chri" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Exercise - Build Gene Models using Apollo: Arabodopsis ChrI
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#walkthrough-of-dna-subway-yellow-line-sequence-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Walkthrough of DNA Subway Yellow Line - Sequence Detection
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Walkthrough of DNA Subway Yellow Line - Sequence Detection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-yellow-line-create-a-yellow-line-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Yellow Line - Create a Yellow Line Project
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNA Subway Yellow Line - Create a Yellow Line Project">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-exercise-project-creation-mping-mite-element-to-search-plant-genomes-for-an-active-transposon" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Exercise - Project Creation: mPing Mite element to search plant genomes for an active transposon
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-yellow-line-search-plant-genomes-with-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Yellow Line - Search Plant Genomes with TARGeT
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNA Subway Yellow Line - Search Plant Genomes with TARGeT">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-exercise-search-plant-genomes-mping-mite-element" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Exercise - Search Plant Genomes: mPing Mite element
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#walkthrough-of-dna-subway-blue-line-dna-barcoding-and-phylogenetics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Walkthrough of DNA Subway Blue Line - DNA Barcoding and Phylogenetics
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Walkthrough of DNA Subway Blue Line - DNA Barcoding and Phylogenetics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-blue-line-create-a-barcoding-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Blue Line - Create a Barcoding Project
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-blue-line-view-and-clean-barcoding-sequence-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Blue Line - View and Clean Barcoding Sequence Data
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-blue-line-find-matches-with-blast" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Blue Line - Find Matches with BLAST
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-blue-line-add-reference-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Blue Line - Add Reference Data
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-blue-line-build-a-multiple-sequence-alignment-and-phylogenetic-tree" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Blue Line - Build a Multiple Sequence Alignment and Phylogenetic Tree
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#walkthrough-of-dna-subway-green-line-kallistosleuth-rna-seq" class="md-nav__link">
+    <span class="md-ellipsis">
+      Walkthrough of DNA Subway Green Line: Kallisto/Sleuth RNA-Seq
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Walkthrough of DNA Subway Green Line: Kallisto/Sleuth RNA-Seq">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-green-line-kallistosleuth-create-an-rna-seq-project-to-examine-differential-abundance" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Green Line: Kallisto/Sleuth - Create an RNA-Seq Project to Examine Differential Abundance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-green-line-kallistosleuth-manage-data-and-check-quality-with-fastqc" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Green Line: Kallisto/Sleuth - Manage Data and Check Quality with FASTQC
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-green-line-kallistosleuth-trim-and-filter-reads-with-fastx-toolkit" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Green Line: Kallisto/Sleuth - Trim and Filter Reads with FastX Toolkit
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-green-line-kallistosleuth-quantify-reads-with-kallisto" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Green Line: Kallisto/Sleuth - Quantify reads with Kallisto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-green-line-kallistosleuth-visualize-data-using-igv" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Green Line: Kallisto/Sleuth- Visualize data using IGV
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-green-line-kallistosleuth-visualize-data-using-sleuth" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Green Line: Kallisto/Sleuth- Visualize data using Sleuth
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#walkthrough-of-dna-subway-purple-line-beta-testing-documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Walkthrough of DNA Subway Purple Line (beta testing documentation)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Walkthrough of DNA Subway Purple Line (beta testing documentation)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-purple-line-metadata-file-and-sequencing-prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Purple Line - Metadata file and Sequencing Prerequisites
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-purple-line-create-a-microbiome-analysis-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Purple Line - Create a Microbiome Analysis Project
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-purple-line-metadata-and-qc" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Purple Line - Metadata and QC
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-purple-line-alpha-rarefactionclustering-sequences" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Purple Line - Alpha Rarefaction/Clustering Sequences
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-purple-line-calculate-core-metricsalpha-and-beta-diversity" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Purple Line - Calculate Core Metrics/Alpha and Beta Diversity
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-purple-line-visualize-data-with-picrust-and-phyloseq" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Purple Line - Visualize data with PiCrust and PhyloSeq
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    Developer Tools
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Developer Tools
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../dev/manuals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Developer Manuals
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#goal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Goal
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dna-subway-basics-and-logging-in-to-subway" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Basics and Logging in to Subway
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNA Subway Basics and Logging in to Subway">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#logging-into-dna-subway-as-a-registered-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      Logging into DNA Subway as a registered user
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#logging-into-dna-subway-as-a-guest-user" class="md-nav__link">
+    <span class="md-ellipsis">
+      Logging into DNA Subway as a guest user
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accessing-saved-private-and-public-dna-subway-projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accessing Saved Private and Public DNA Subway Projects
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Accessing Saved Private and Public DNA Subway Projects">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#accessing-private-projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accessing Private Projects
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accessing-public-projects" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accessing Public Projects
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#make-a-dna-subway-project-private-or-public" class="md-nav__link">
+    <span class="md-ellipsis">
+      Make a DNA Subway Project Private or Public
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#walkthrough-of-dna-subway-red-line-genome-annotation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Walkthrough of DNA Subway Red Line - Genome Annotation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Walkthrough of DNA Subway Red Line - Genome Annotation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-red-line-create-an-annotation-project-with-apollo" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Red Line - Create an Annotation Project with Apollo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNA Subway Red Line - Create an Annotation Project with Apollo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-exercise-project-creation-arabidopsis-chri" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Exercise - Project Creation: Arabidopsis ChrI
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-red-line-find-and-mask-repetitive-dna" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Red Line - Find and Mask Repetitive DNA
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#example-exercise-repeat-masking-arabodopsis-chri" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Exercise - Repeat Masking: Arabodopsis ChrI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-red-line-making-gene-predictions" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Red Line - Making Gene Predictions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNA Subway Red Line - Making Gene Predictions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-exercise-predict-genes-arabidopsis-chri" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Exercise - Predict Genes: Arabidopsis ChrI
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-red-line-visualize-predicted-genes-in-a-genome-browser" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Red Line - Visualize predicted genes in a Genome Browser
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNA Subway Red Line - Visualize predicted genes in a Genome Browser">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-exercise-visualize-predicted-genes-arabidopsis-chri" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Exercise - Visualize predicted genes: Arabidopsis ChrI
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-red-line-search-databases-using-blast" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Red Line - Search Databases using BLAST
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNA Subway Red Line - Search Databases using BLAST">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-exercise-search-databases-using-blast-arabidopsis-chri" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Exercise - Search Databases using BLAST: Arabidopsis ChrI
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-red-line-build-gene-models-using-apollo" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Red Line - Build Gene Models using Apollo
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNA Subway Red Line - Build Gene Models using Apollo">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-exercise-build-gene-models-using-apollo-arabodopsis-chri" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Exercise - Build Gene Models using Apollo: Arabodopsis ChrI
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#walkthrough-of-dna-subway-yellow-line-sequence-detection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Walkthrough of DNA Subway Yellow Line - Sequence Detection
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Walkthrough of DNA Subway Yellow Line - Sequence Detection">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-yellow-line-create-a-yellow-line-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Yellow Line - Create a Yellow Line Project
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNA Subway Yellow Line - Create a Yellow Line Project">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-exercise-project-creation-mping-mite-element-to-search-plant-genomes-for-an-active-transposon" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Exercise - Project Creation: mPing Mite element to search plant genomes for an active transposon
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-yellow-line-search-plant-genomes-with-target" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Yellow Line - Search Plant Genomes with TARGeT
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DNA Subway Yellow Line - Search Plant Genomes with TARGeT">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-exercise-search-plant-genomes-mping-mite-element" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Exercise - Search Plant Genomes: mPing Mite element
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#walkthrough-of-dna-subway-blue-line-dna-barcoding-and-phylogenetics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Walkthrough of DNA Subway Blue Line - DNA Barcoding and Phylogenetics
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Walkthrough of DNA Subway Blue Line - DNA Barcoding and Phylogenetics">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-blue-line-create-a-barcoding-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Blue Line - Create a Barcoding Project
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-blue-line-view-and-clean-barcoding-sequence-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Blue Line - View and Clean Barcoding Sequence Data
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-blue-line-find-matches-with-blast" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Blue Line - Find Matches with BLAST
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-blue-line-add-reference-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Blue Line - Add Reference Data
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-blue-line-build-a-multiple-sequence-alignment-and-phylogenetic-tree" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Blue Line - Build a Multiple Sequence Alignment and Phylogenetic Tree
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#walkthrough-of-dna-subway-green-line-kallistosleuth-rna-seq" class="md-nav__link">
+    <span class="md-ellipsis">
+      Walkthrough of DNA Subway Green Line: Kallisto/Sleuth RNA-Seq
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Walkthrough of DNA Subway Green Line: Kallisto/Sleuth RNA-Seq">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-green-line-kallistosleuth-create-an-rna-seq-project-to-examine-differential-abundance" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Green Line: Kallisto/Sleuth - Create an RNA-Seq Project to Examine Differential Abundance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-green-line-kallistosleuth-manage-data-and-check-quality-with-fastqc" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Green Line: Kallisto/Sleuth - Manage Data and Check Quality with FASTQC
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-green-line-kallistosleuth-trim-and-filter-reads-with-fastx-toolkit" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Green Line: Kallisto/Sleuth - Trim and Filter Reads with FastX Toolkit
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-green-line-kallistosleuth-quantify-reads-with-kallisto" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Green Line: Kallisto/Sleuth - Quantify reads with Kallisto
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-green-line-kallistosleuth-visualize-data-using-igv" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Green Line: Kallisto/Sleuth- Visualize data using IGV
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-green-line-kallistosleuth-visualize-data-using-sleuth" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Green Line: Kallisto/Sleuth- Visualize data using Sleuth
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#walkthrough-of-dna-subway-purple-line-beta-testing-documentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Walkthrough of DNA Subway Purple Line (beta testing documentation)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Walkthrough of DNA Subway Purple Line (beta testing documentation)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-purple-line-metadata-file-and-sequencing-prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Purple Line - Metadata file and Sequencing Prerequisites
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-purple-line-create-a-microbiome-analysis-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Purple Line - Create a Microbiome Analysis Project
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-purple-line-metadata-and-qc" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Purple Line - Metadata and QC
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-purple-line-alpha-rarefactionclustering-sequences" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Purple Line - Alpha Rarefaction/Clustering Sequences
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-purple-line-calculate-core-metricsalpha-and-beta-diversity" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Purple Line - Calculate Core Metrics/Alpha and Beta Diversity
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dna-subway-purple-line-visualize-data-with-picrust-and-phyloseq" class="md-nav__link">
+    <span class="md-ellipsis">
+      DNA Subway Purple Line - Visualize data with PiCrust and PhyloSeq
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="dna-subway">DNA Subway<a class="headerlink" href="#dna-subway" title="Permanent link">&para;</a></h1>
+<p><img alt="subway_logo" height="105px" src="../assets/dna_subway/dnasubway-icon.png" width="201px" /></p>
+<h3 id="goal">Goal<a class="headerlink" href="#goal" title="Permanent link">&para;</a></h3>
+<p>DNA Subway is an educational bioinformatics platform developed by CyVerse. </p>
+<p>It bundles research-grade bioinformatics tools, high-performance computing, and databases into workflows with an easy-to-use interface. </p>
+<p>"Riding" DNA Subway lines, students can predict and annotate genes in up to 150kb of DNA (Red Line), identify homologs in sequenced genomes (Yellow Line), identify species using DNA barcodes and phylogenetic trees (Blue Line), examine RNA-Seq datasets for differential transcript abundance (Green Line), and analyze metabarcoding and eDNA samples using QIIME (Purple Line).</p>
+<hr />
+<h3 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h3>
+<p><em>In order to complete this tutorial you will need access to the following services/software</em></p>
+<table>
+<thead>
+<tr>
+<th>Prerequisite</th>
+<th>Preparation/Notes</th>
+<th>Link/Download</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CyVerse account</td>
+<td>You will need a CyVerse account to complete this exercise</td>
+<td><a href="https://user.cyverse.org/">Register</a></td>
+</tr>
+<tr>
+<td>DNA Subway Access</td>
+<td>DNA Subway access is by request access</td>
+<td>Check or request access: <a href="https://user.cyverse.org/services/mine">CyVerse User Portal</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="dna-subway-basics-and-logging-in-to-subway">DNA Subway Basics and Logging in to Subway<a class="headerlink" href="#dna-subway-basics-and-logging-in-to-subway" title="Permanent link">&para;</a></h2>
+<p>DNA Subway is designed to be a classroom-friendly approach to
+bioinformatics. Unlike most CyVerse platforms, you can even use Subway
+without registering for a CyVerse account. We do encourage you to
+register however, only work from registered users can be saved. DNA
+Subway uses the same open-source bioinformatics tools used by
+researchers. See a <a href="https://dnasubway.cyverse.org/about/resources.html">complete list of the
+tools</a> provided in
+the Subway pipelines.</p>
+<p><strong>Some things to remember about the platform</strong></p>
+<p><em>Registered user and Guest user account types</em></p>
+<ul>
+<li>DNA Subway access must be requested through the CyVerse user portal.
+    You can check if you already have access, or request access by
+    logging into the portal and visiting the <a href="https://user.cyverse.org/services/mine">My
+    Services</a> page. If DNA
+    Subway is not listed, click on
+    <a href="https://user.cyverse.org/services/available">Available</a> services to
+    request access.</li>
+<li>Guest users will not have their worked saved beyond a single DNA
+    Subway session. They are also disallowed from using one of the gene
+    predictors (FGenesH) in the genomic annotation pipeline (Red Line).</li>
+<li>We suggest that every student using DNA Subway obtain their own
+    account.</li>
+</ul>
+<p><em>Sample Datasets and reference data</em></p>
+<p>All Subway lines accept user data and also have sample data that can be
+immediately used to create a project.</p>
+<ul>
+<li><strong>Red Line - Genome Annotation:</strong> Samples of plant and animal
+    genomes that can be used in annotation projects</li>
+<li><strong>Yellow Line - TARGeT Search for transposons and other DNA
+    Sequences:</strong> Several model plant genomes</li>
+<li><strong>Blue Line - DNA Barcoding and Phylogenetics:</strong> Sample sequence
+    from plant, animal, fungal, and bacterial barcoding regions; human
+    mitochondrial DNA sequence</li>
+<li><strong>Green Line - RNA-Seq for differential expression:</strong> Sample
+    high-throughput reads from RNA-Seq experiments</li>
+</ul>
+<p>If there is a reference data set or sample sequence you would like
+added, you can contact CyVerse using the DNA Subway <a href="https://dnasubway.cyverse.org/feedback.html">Contact
+page</a></p>
+<p><em>Public and private projects</em> - DNA Subway projects are private by
+default, but can be shared by making them public. Public projects are
+searchable and are a great way to share data or present analysis for
+grading in a classroom project.</p>
+<hr />
+<h3 id="logging-into-dna-subway-as-a-registered-user"><em>Logging into DNA Subway as a registered user</em><a class="headerlink" href="#logging-into-dna-subway-as-a-registered-user" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Access the DNA Subway website at <a href="https://dnasubway.cyverse.org/">https://dnasubway.cyverse.org/</a></li>
+<li>
+<p>If you wish to use DNA Subway as a guest click 'Enter As Guest'</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="highlight"><pre><span></span><code>When using DNA Subway as a guest, you will be able to work only on
+the Red, Yellow, and Blue lines. Additionally, some Red Line
+functionalities will be disabled. Finally, after logging out, or a
+period of inactivity (\&gt;\~ 30 min) you work will be discarded.
+</code></pre></div>
+</div>
+</li>
+<li>
+<p>Enter your CyVerse username and CyVerse password.</p>
+</li>
+</ol>
+<h3 id="logging-into-dna-subway-as-a-guest-user"><em>Logging into DNA Subway as a guest user</em><a class="headerlink" href="#logging-into-dna-subway-as-a-guest-user" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Access the DNA Subway website at <a href="https://dnasubway.cyverse.org/">https://dnasubway.cyverse.org/</a>; click 'Enter as Guest'</li>
+</ol>
+<hr />
+<h2 id="accessing-saved-private-and-public-dna-subway-projects">Accessing Saved Private and Public DNA Subway Projects<a class="headerlink" href="#accessing-saved-private-and-public-dna-subway-projects" title="Permanent link">&para;</a></h2>
+<p>DNA Subway projects are automatically saved for registered users. By
+default, Subway projects are private upon creation and visible only to
+you. You may make project public, in which case users will have the
+ability to view those projects, but may not edit those projects.</p>
+<hr />
+<h3 id="accessing-private-projects">Accessing Private Projects<a class="headerlink" href="#accessing-private-projects" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>Access the DNA Subway website at <a href="https://dnasubway.cyverse.org/">https://dnasubway.cyverse.org/</a></p>
+</li>
+<li>
+<p>Upon login, you will see a listing of your private projects. Access the project by clicking the project title.</p>
+</li>
+<li>
+<p>From any DNA Subway page, you may access private projects by clicking the 'My Projects' button on the navigation menu on the left side of the page.</p>
+</li>
+</ol>
+<details class="top">
+<summary>Distinguishing Lines</summary>
+<p>All projects in DNA Subway are associated with the color of their respective DNA Subway lines, and with a project ID number. </p>
+<p>You may see the comments and species associated with the project</p>
+<p><img alt="private_projects" height="200px" src="../assets/dna_subway/private_projects.png" width="275px" /></p>
+</details>
+<details class="tip">
+<summary>Deleting a project</summary>
+<p>To delete a project, click the 'trash can' icon. Once deleted, all data related to that project will be lost and unrecoverable.</p>
+</details>
+<hr />
+<h3 id="accessing-public-projects">Accessing Public Projects<a class="headerlink" href="#accessing-public-projects" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>Access the DNA Subway website at <a href="https://dnasubway.cyverse.org/">https://dnasubway.cyverse.org/</a>; login to Subway or enter as a guest user.</p>
+</li>
+<li>
+<p>On the navigation menu on the left side of the screen, click 'Public Projects'</p>
+</li>
+</ol>
+<details class="tip">
+<summary>Sorting and Search</summary>
+<p>You can sort by project date or type, and you can search for a project by title, organism, or the name of the project owner. When searching, click the double arrow `` to search by your selected term.</p>
+</details>
+<hr />
+<h3 id="make-a-dna-subway-project-private-or-public">Make a DNA Subway Project Private or Public<a class="headerlink" href="#make-a-dna-subway-project-private-or-public" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Access the DNA Subway website at <a href="">https://dnasubway.cyverse.org/</a>; login to Subway.</li>
+<li>Access your selected project by clicking the project title.</li>
+<li>Under the 'Project Information' tab, toggle the project setting to 'Public' or 'Private' as desired.
+     <img alt="project_info_tab" height="211px" src="../assets/dna_subway/project_info_tab.png" width="238px" /></li>
+</ol>
+<hr />
+<h2 id="walkthrough-of-dna-subway-red-line-genome-annotation">Walkthrough of DNA Subway Red Line - Genome Annotation<a class="headerlink" href="#walkthrough-of-dna-subway-red-line-genome-annotation" title="Permanent link">&para;</a></h2>
+<p>Annotation adds features and information to a DNA sequence -- such as genes and their locations, structures, and functions.
+A good introduction to annotation can be found in the paper <a href="https://www.nature.com/nrg/journal/v13/n5/full/nrg3174.html">A beginner's guide to eukaryotic genome annotation</a>.
+We'll also suggest the DNA Subway's primer on <a href="https://dnasubway.cyverse.org/project/ngs/panel/1946#">annotation evidence</a>. 
+This guide contains an explanation of basic functions for this line, as wellas exercises that might be used in the classroom.
+<strong>Some things to remember about the platform</strong>
+    @@ -205,156 +164,115 @@ as exercises that might be used in the classroom.</p>
+<hr />
+<h3 id="dna-subway-red-line-create-an-annotation-project-with-apollo">DNA Subway Red Line - Create an Annotation Project with Apollo<a class="headerlink" href="#dna-subway-red-line-create-an-annotation-project-with-apollo" title="Permanent link">&para;</a></h3>
+<details class="tip">
+<summary>transition away from Java</summary>
+<p>DNA Subway is transitioning away from the original Java-based Apollo software as most popular web browsers will no longer support Java. The new Apollo is Java-free.</p>
+</details>
+<ol>
+<li>Log-in to <a href="https://dnasubway.cyverse.org/" target="+blank">DNA Subway</a> -
+    unregistered users may 'Enter as Guest'</li>
+<li>Click 'Annotate a genomic sequence.' (Red Square); select the
+    'Web Apollo' version</li>
+<li>
+<p>For 'Select Organism type' choose 'Animal' or 'Plant' and
+    then select the appropriate subtype.
+    The 'Select Organism' step will load appropriate sample
+    sequences and will also adjust the models used in the de novo gene
+    finding process.</p>
+</li>
+<li>
+<p>For 'Select Sequence Source' select a sample sequence.</p>
+</li>
+</ol>
+<details class="tip">
+<summary>Apollo support</summary>
+<p>Currently, the Java-free Apollo version of Subway does not support upload of a custom DNA Sequence. </p>
+<p>This feature is coming soon, but we will help you upload custom genomes/regions for your use in the classroom</p>
+</details>
+<ol>
+<li>(Optional) If you have a GFF file of annotated features, you may load these import these annotations from the Green Line, or from a
+    custom GFF file.</li>
+<li>Name your project and organism (required) and give a description if desired. Click 'Continue' to proceed.</li>
+</ol>
+<h4 id="example-exercise-project-creation-arabidopsis-chri">Example Exercise - Project Creation: Arabidopsis ChrI<a class="headerlink" href="#example-exercise-project-creation-arabidopsis-chri" title="Permanent link">&para;</a></h4>
+<p>In this and subsequent steps, we will annotate a 75KB section of Arabidopsis chromosome I.
+1.  Log-in to <a href="">DNA Subway</a> - unregistered users may 'Enter as Guest'.
+2.  Click 'Annotate a genomic sequence.' (Red Square); select the 'Web Apollo' version.
+3.  For 'Select Organism type' choose 'Plant' and then 'Dicotyledon'.
+4.  from 'Select a sample sequence' chose 'Arabidopsis thaliana (mouse-ear cress) chr1, 75.00 kb'.
+5.  Provide your project with a title, then Click 'Continue.'</p>
+<details class="tip">
+<summary>Sequence</summary>
+<p>You can view your DNA sequence by clicking the 'Sequence' link in the 'Project Information' tab at the bottom of the page.</p>
+</details>
+<hr />
+<h3 id="dna-subway-red-line-find-and-mask-repetitive-dna">DNA Subway Red Line - Find and Mask Repetitive DNA<a class="headerlink" href="#dna-subway-red-line-find-and-mask-repetitive-dna" title="Permanent link">&para;</a></h3>
+<p>One you have created a Red Line Project, you may begin the process of generating and assembling predictions and evidence that can be used to annotate genes.
+1.  Click 'RepeatMasker'
+2.  When 'RepeatMasker' turns 'green' and the icon displays a 'V' (view); click 'RepeatMasker' again to view results.</p>
+<div class="highlight"><pre><span></span><code>![repeat_results](./assets/dna_subway/repeat_results.png){width=&quot;300px&quot; height=&quot;200px&quot;}
+</code></pre></div>
+<h3 id="example-exercise-repeat-masking-arabodopsis-chri"><strong>Example Exercise - Repeat Masking: Arabodopsis ChrI</strong><a class="headerlink" href="#example-exercise-repeat-masking-arabodopsis-chri" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Example Sequence:</strong> Arabidopsis thaliana (mouse-ear cress) ChrI, 75 kb</li>
+<li><strong>Tool(s):</strong> RepeatMasker</li>
+<li><strong>Concept(s):</strong> Non-coding DNA, sequence repeats, mobile genetic
+    elements (transposons)</li>
+</ul>
+<p>Following the RepeatMasking steps for the Arabidopsis ChrI sample above, answer the following <em>discussion questions</em>:
+1.  How many hits were detected in your sample?
+2.  RepeatMasker reports the length of the repetitive sequences
+    (Length) as well as the class (Attributes).
+-   What is the average length of sequences identified as "simple
+    repeats"?
+-   What is the average length of sequences identified as "low
+    complexity"?
+3.  What is the total percentage of repetitive DNA in your sequence?
+    (Sum of the length of all repetitive sequence / sequence length
+    (75 kb)</p>
+<details class="tip">
+<summary>Some Useful Definitions for Repetitive Sequences</summary>
+<ul>
+<li>
+<p><strong>Simple repeats:</strong> 1-5bp repeats (e.g. repetitive dinucleotides 'AT' etc.)</p>
+</li>
+<li>
+<p><strong>Low Complexity DNA:</strong> Poly-purine/ poly-pyrimidine stretches, or regions of extremely high AT or GC content.</p>
+</li>
+<li>
+<p><strong>Processed Pseudogenes, SINES, Retrotranscripts:</strong> Non-functional RNAs present within genomic sequence.</p>
+</li>
+<li>
+<p><strong>Transposons (DNA, Retroviral, LINES):</strong> Genetic elements which have the ability to be amplified and redistributed within a genome.</p>
+</li>
+</ul>
+</details>
+<p><strong>Additional Investigation:</strong> In the results table under 'Attributes' each repeat sequence is labeled "RepeatMasker#-XXX" The '#' is the
+ordinal number of the hit, the XXX is the class of DNA element (e.g. "Simple_repeat" or "Low_complexity"). There are other types of
+repetitive elements such as transposons and pseudogenes (e.g. Helitron and COPIA) Use online resources to learn more: (<a href="http://gydb.org/index.php/Main_Page">http://gydb.org/index.php/Main_Page</a>).</p>
+<hr />
+<h3 id="dna-subway-red-line-making-gene-predictions">DNA Subway Red Line - Making Gene Predictions<a class="headerlink" href="#dna-subway-red-line-making-gene-predictions" title="Permanent link">&para;</a></h3>
+<p>De novo gene predictors can be run on a sample sequence to generate
+predictions of gene structure and location based solely on the sequence
+nucleotides.</p>
+<ol>
+<li>Click on one or more gene prediction tools under the 'Gene
+    Prediction' stop. to view the results table, click the gene
+    predictor again once the indicator displays 'V' (view).</li>
+</ol>
+<h4 id="example-exercise-predict-genes-arabidopsis-chri">Example Exercise - Predict Genes: Arabidopsis ChrI<a class="headerlink" href="#example-exercise-predict-genes-arabidopsis-chri" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Example Sequence:</strong> Arabidopsis thaliana (mouse-ear cress) ChrI,
+    75 kb</li>
+<li><strong>Tool(s):</strong> Augustus, FGenesH, Snap, tRNA Scan</li>
+<li><strong>Concept(s):</strong> Genomic DNA, Gene Structure, Canonical sequences</li>
+</ul>
+<p>Following the gene prediction steps for the Arabidopsis ChrI sample
+above, answer the following <em>discussion questions</em>:</p>
+<ol>
+<li>
+<p>Look at the 'Type' column in the gene prediction report.
+    Considering the Augustus results, find the 6<sup>th</sup> gene prediction
+    (hint: AUGUSTUS006;ID=g6) and then locate the first mention of the
+    term 'gene' and copy down the gene's 'start' (i.e. the starting
+    basepair). Note the number of times you see the term 'exon' (i.e.
+    number of exons predicted).</p>
+<table>
+<thead>
+<tr>
+<th>Gene Predictor</th>
+<th>Exon Start (bp)</th>
+<th>Exon Stop (bp)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Augustus</td>
+<td>23456</td>
+<td>23684</td>
+</tr>
+<tr>
+<td>Augustus</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Augustus</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Augustus</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Augustus</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Based on the chart, did all the gene predictors yield genes
+    starting at the same location? Did all the gene predictions have
+    the same number of exons?</p>
+</li>
+<li>Looking at the number of results returned by tRNA Scan, why are
+    they so different from results made by other predictors? Are their
+    places in the genome where tRNAs are more or less densely
+    concentrated?</li>
+</ol>
+<p><strong>Additional Investigation:</strong> Look for the background link at the bottom
+of the DNA Subway home page and review the section entitled 'Gene
+Finding'.</p>
+<hr />
+<h3 id="dna-subway-red-line-visualize-predicted-genes-in-a-genome-browser">DNA Subway Red Line - Visualize predicted genes in a Genome Browser<a class="headerlink" href="#dna-subway-red-line-visualize-predicted-genes-in-a-genome-browser" title="Permanent link">&para;</a></h3>
+<p>A genome browser is an essential tool for visualization genomic data in
+context. The integrated JBrowse genome browser will allow you to see the
+visualized gene predictions generated so far.</p>
+<ol>
+<li>Click 'JBrowse' and allow browser to load.</li>
+<li>
+<p>Zoom into a region (for example, paste the region
+    <strong>1:3740638..3749063</strong> into the location window.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<div class="highlight"><pre><span></span><code>- JBrowse will load multiple tracks of data. Since the entire genome is loaded, we recommend using the &#39;highlight a region&#39; feature to help keep your place. You may also wish to record the
+coordinates you are viewing as shown in the coordinates window.
+- You may also adjust the settings for a particular track by clicking on the track name.
+- Right-click on any gene to view additional details about that gene.
+![jbrowse](./assets/dna_subway/jbrowse.png){width=&quot;400px&quot; height=&quot;250px&quot;}
+</code></pre></div>
+</div>
+</li>
+<li>
+<p>Examine gene details by double-clicking on a gene to select; then
+    right-click to open the 'View Details' menu.</p>
+</li>
+<li>To view more tracks, click on 'Full-Screen View' in the
+    upper-left of the JBrowse window to see any additional tracks
+    available.</li>
+</ol>
+<details class="tip">
+<summary>Useful Definitions</summary>
+<p><strong>Genome Browser:</strong> A GUI (Graphical User Interface) for viewing
+biological information. GBrowse (DNA Subway's Browser) is "designed to
+view genomes. It displays a graphical representation of a section of a
+genome, and shows the positions of genes and other functional elements.
+It can be configured to show both qualitative data such as the splicing
+structure of a gene, and quantitative data such as microarray expression
+levels." <a href="http://gmod.org/wiki/GBrowse_FAQ">[citation]</a></p>
+<p><strong>Track:</strong> The individual regions of the display where information
+imported into the browser. For each type (or source) of information,
+there is usually an associated track.</p>
+</details>
+<h4 id="example-exercise-visualize-predicted-genes-arabidopsis-chri">Example Exercise - Visualize predicted genes: Arabidopsis ChrI<a class="headerlink" href="#example-exercise-visualize-predicted-genes-arabidopsis-chri" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Example Sequence:</strong> Arabidopsis thaliana (mouse-ear cress) ChrI,
+    75 kb</li>
+<li><strong>Tool(s):</strong> Local Browser (JBrowse)</li>
+<li><strong>Concept(s):</strong> Gene orientation/structure, transposons, chromosome
+    organization</li>
+</ul>
+<p>Following the gene browser steps for the Arabidopsis ChrI sample above,
+answer the following <em>discussion questions</em> (the locations of the genes
+are given in parentheses and can be pasted into the browser):</p>
+<p><em>Considering the following genes:</em></p>
+<ul>
+<li>BFN1-201 (1:3748591..3753070)</li>
+<li>SCAMP5-201 (1:3744556..3749035)</li>
+<li>STP1-201 (1:3776366..3780845)</li>
+<li>
+<p>At1G11270.2 (1:3780041..3789000)</p>
+</li>
+<li>
+<p>Do all the gene predictors agree with each other?</p>
+</li>
+<li>Which gene predictions seem to match the Ensemble genes most closely?</li>
+</ul>
+<hr />
+<h3 id="dna-subway-red-line-search-databases-using-blast">DNA Subway Red Line - Search Databases using BLAST<a class="headerlink" href="#dna-subway-red-line-search-databases-using-blast" title="Permanent link">&para;</a></h3>
+<p>DNA Subway searches customized versions of UniGene and UniProt that
+contain only validated plant proteins, and are free of predicted or
+hypothetical proteins.</p>
+<ol>
+<li>Click 'BLASTN'; wait until the flashing icon displays 'V' (view)</li>
+<li>Click 'BLASTN' again to view the results.</li>
+<li>Click 'BLASTX'; wait until the flashing icon displays 'V' (view).</li>
+<li>Click 'BLASTX' again to view the results.</li>
+<li>Click on 'JBrowse' and then click 'Full-screen View' in the
+    upper-left.</li>
+<li>In the 'Available Tracks' menu, add the Blastn and Blastx
+    tracks.</li>
+</ol>
+<details class="tip">
+<summary>Useful Definitions</summary>
+<div class="highlight"><pre><span></span><code>**Some Useful Definitions**
+</code></pre></div>
+<ul>
+<li><strong>BLAST:</strong> Basic Local Alignment Search Tool (BLAST) is an
+    algorithm that search databases of biological sequence information
+    (e.g. DNA, RNA, or Protein sequence) and return matches. The
+    BLASTN program is specific to nucleotide data, and the BLASTX
+    algorithm works with sequence data translated into amino acid
+    sequences.</li>
+<li><strong>UniGene:</strong> A database of transcript data, "each UniGene entry is
+    a set of transcript sequences that appear to come from the same
+    transcription locus (gene or expressed pseudogene), together with
+    information on protein similarities, gene expression, cDNA clone
+    reagents, and genomic location."
+    <a href="http://www.ncbi.nlm.nih.gov/unigene">[citation]</a></li>
+<li><strong>cDNA:</strong> DNA produced by reverse transcribing mRNA using reverse
+    transcriptase. cDNAs are used to investigate mRNA within a
+    biological sample.</li>
+<li><strong>ESTs:</strong> "Small pieces of DNA sequence (usually 200 to 500
+    nucleotides long) that are generated by sequencing either one or
+    both ends of an expressed gene. The idea is to sequence bits of
+    DNA that represent genes expressed in certain cells, tissues, or
+    organs from different organisms."
+    <a href="http://www.ncbi.nlm.nih.gov/About/primer/est.html">[citation]</a></li>
+</ul>
+</details>
+<h4 id="example-exercise-search-databases-using-blast-arabidopsis-chri">Example Exercise - Search Databases using BLAST: Arabidopsis ChrI<a class="headerlink" href="#example-exercise-search-databases-using-blast-arabidopsis-chri" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Example Sequence:</strong> Arabidopsis thaliana (mouse-ear cress) ChrI,
+    75 kb</li>
+<li><strong>Tool(s):</strong> BLASTN, BLASTX, Upload Data</li>
+<li><strong>Concept(s):</strong> RNA, cDNAs, ESTs, Biological Databases</li>
+</ul>
+<p>Following the BLAST steps for the Arabidopsis ChrI sample above, answer
+the following <em>discussion questions</em> (the locations of the genes are
+given in parentheses and can be pasted into the browser):</p>
+<ol>
+<li>Both BLASTN and BLASTX returns the 'Length' of your resulting
+    matches. Do you notice differences in the average lengths of
+    BLASTN and BLASTX matches? Explain.</li>
+<li>Under 'Type' both BLASTN and BLASTX returns 'match' and
+    'match_part.' 'Match' is describing the overall length of a single
+    match, but individual significant matches may be fragmented, i.e.
+    'match_part.' Do BLASTN and BLASTX return 'match' and 'match_part'
+    results in different frequencies? Explain.</li>
+</ol>
+<hr />
+<h3 id="dna-subway-red-line-build-gene-models-using-apollo">DNA Subway Red Line - Build Gene Models using Apollo<a class="headerlink" href="#dna-subway-red-line-build-gene-models-using-apollo" title="Permanent link">&para;</a></h3>
+<p>Apollo is an extension of JBrowse which allows the user to build and
+edit gene models. Apollo has a number of features but in this tutorial,
+we will give brief intro covering the conceptual steps.</p>
+<p><strong>A. Import Blastn model to match for transcript length</strong> Blast searches
+are matched against UniGene(blastn) and UniProt(blasts). UniGen models
+are derived from cDNA and ESTs (transcriptome evidence) produced by
+experiment.</p>
+<ol>
+<li>Open Apollo and zoom into a region of interest (e.g. <strong>1:3793981..3802033</strong>)</li>
+<li>Ensure at least the following tracks are selected (on):<ul>
+<li>Augustus (and other gene predictors: FGenesH, SNAP, etc.)</li>
+<li>Blastn</li>
+</ul>
+</li>
+<li>Double-click on the Blastn result, and drag this transcript into
+    the yellow 'User-created Annotations' section.
+    <img alt="apollo_1" src="../assets/dna_subway/apollo_1.png" />{width="400px"
+    height="250px"}</li>
+</ol>
+<p><strong>B. Select a scaffold model</strong> Use transcriptome evidence (UniGene -
+BLASTN) to select the best possible gene model for a scaffold. If no
+gene model exists or significantly reflects the UniGene model, use the
+UniGene model itself as a scaffold.</p>
+<ol>
+<li>Drag a plausible model into the yellow 'User-created
+    Annotations' - in this case we will choose the Augustus model;
+    double-click the Augustus model to select the entire model and
+    drag into 'User-created Annotations'.</li>
+<li>Adjust the Augustus model to match the 5' and 3' configuration
+    of the blastn model<ul>
+<li>Delete the extraneous 5' exon (single-click to select;
+    right-click to delete)</li>
+<li>Adjust the new 5' end to match the length of the blastn-derived
+    transcript</li>
+<li>Adjust the 3' end of the Augustus-derived model (single-click
+    to select; use your cursor/mouse to adjust the model length) <img alt="apollo_2" height="250px" src="../assets/dna_subway/apollo_2.png" width="420px" /></li>
+</ul>
+</li>
+</ol>
+<p><strong>C. Edit model for splice sites and variants</strong> Protein and EST data can
+be used to examine possible alternative transcripts. Proteins give clues
+to the actual length of the translated protein at that locus and its
+reading frame. Like full length cDNAs, ESTs give valuable information on
+transcript diversity. ESTs are generated by high throughput methods, and
+although the data may be fragmentary, it may capture biologically
+relevant information about splice variants.</p>
+<ol>
+<li>
+<p>Turn on the blastx track</p>
+</li>
+<li>
+<p>Examine the additional evidence to consider making adjustments to
+    your Augustus-derived model. If you wish to make additional
+    isoforms of your gene:</p>
+<ul>
+<li>Double-click to select the entire Augustus-derived model</li>
+<li>Right-click on the model to duplicate</li>
+<li>Make adjustments to the model as desired 
+<img alt="apollo_3" height="250px" src="../assets/dna_subway/apollo_3.png" width="420px" /></li>
+</ul>
+</li>
+</ol>
+<p>You also have the option of adding additional <a href="https://en.wikipedia.org/wiki/Expressed_sequence_tag">EST evidence</a>. For the Arabodopsis 75KB section, we have prepared a selection of EST data. You
+will need to <strong>close Apollo to load this data</strong>.</p>
+<ol>
+<li>Download the Arabidopsis ESTs for this region to your computer
+    from <a href="https://de.cyverse.org/dl/d/A9BED6DE-83F3-4F38-A3FE-0AA0A9AF5D53/EST_Chr1_3729956..3804955.fasta">this link</a></li>
+<li>Click on 'Upload Data'; under "Add DNA data in FASTA format"
+    upload the EST file from the link in step 1.</li>
+<li>Click on 'User BLASTN' to align the ESTs to this section of the
+    Arabidopsis genome</li>
+<li>Open 'Web Apollo'. The "Blastn User" track should be loaded.
+    You may move this track to a convenient position on the browser
+    <img alt="apollo_5" height="280px" src="../assets/dna_subway/apollo_5.png" width="420px" /></li>
+</ol>
+<p>While EST evidence is always incomplete, these sequences can help you
+determine features of the gene model.</p>
+<details class="tip">
+<summary>Learn More about Gene Evidence</summary>
+<ul>
+<li>J.Craig Venter on <a href="http://dnaftb.dev.dnalc.org/39/av-2.html">ESTs</a></li>
+<li>"Dynamic Gene" <a href="http://dynamicgene.dnalc.org/evidence/evidence.html">Evidence animation</a> (requires Flash)</li>
+</ul>
+</details>
+<p><strong>D. Determine translation start/stop sites</strong> After making your
+adjustments, you can confirm that your gene model(s) represents the
+longest possible transcripts:</p>
+<ol>
+<li>Double-click the model; right-click and select 'Set longest ORF'</li>
+</ol>
+<p><strong>E. Compare gene model(s) with existing annotations</strong> After making your
+gene models you can compare them with existing annotations by turning on
+the 'Ensemble genes' track. In this case, our work confirms the first
+gene model made, but a potential isoform supported by blastx data is
+likely incorrect.</p>
+<p><img alt="apollo_4" height="150px" src="../assets/dna_subway/apollo_4.png" width="420px" /></p>
+<h4 id="example-exercise-build-gene-models-using-apollo-arabodopsis-chri"><strong>Example Exercise - Build Gene Models using Apollo: Arabodopsis ChrI</strong><a class="headerlink" href="#example-exercise-build-gene-models-using-apollo-arabodopsis-chri" title="Permanent link">&para;</a></h4>
+<ul>
+<li><strong>Example Sequence:</strong> Arabidopsis thaliana (mouse-ear cress) ChrI,
+    75 kb</li>
+<li><strong>Tool(s):</strong> Apollo</li>
+<li><strong>Concept(s):</strong> Synthesizing multiple lines of evidence</li>
+</ul>
+<p>Following the Apollo steps for the Arabidopsis ChrI sample above, answer
+the following <em>discussion questions</em> (the locations of the genes are
+given in parentheses and can be pasted into the browser):</p>
+<ol>
+<li>Try annotation of the following genes and take notes on your
+    annotation ( right-click on the gene model, open the 'Information
+    Editor' and scroll down to the comments section to enter
+    comments). How do your annotations compare with the Ensembl
+    annotations?
+    <em>Genes to try:</em><ul>
+<li>AT1G11270.2 (1:3781511..3790520)</li>
+<li>STP1-201 (1:3776261..3785270)</li>
+<li>T28P6.11-201 (1:3762877..3764678)</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2 id="walkthrough-of-dna-subway-yellow-line-sequence-detection">Walkthrough of DNA Subway Yellow Line - Sequence Detection<a class="headerlink" href="#walkthrough-of-dna-subway-yellow-line-sequence-detection" title="Permanent link">&para;</a></h2>
+<p>Genome prospecting uses a query sequence (DNA or protein of up to 10,000
+base pairs/amino acids) to find related sequences in specific genomes or
+in a database. A major purpose of genome prospecting is to identify
+members of gene or transposon families. DNA Subway uses the TARGeT
+workflow, which integrates BLAST searches, multiple sequence alignments,
+and tree-drawing utilities. Yellow line uses TARGeT (Tree Analysis of
+Related Genes and Transposons) uses either a DNA or amino acid 'seed'
+query to: (i) automatically identify and retrieve gene family homologs
+from a genomic database, (ii) characterize gene structure and (iii)
+perform phylogenetic analysis. Due to its high speed, TARGeT is also
+able to characterize very large gene families, including transposable
+elements (TEs).
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2699529/">[citation]</a></p>
+<p><strong>Some things to remember about the platform</strong></p>
+<ul>
+<li>Yellow Line will return sequences that would normally be excluded
+    from a BLAST search of a genome (e.g. repetitive sequences,
+    transposons).</li>
+<li>Yellow Line is implemented only for plant genomes</li>
+</ul>
+<hr />
+<h3 id="dna-subway-yellow-line-create-a-yellow-line-project">DNA Subway Yellow Line - Create a Yellow Line Project<a class="headerlink" href="#dna-subway-yellow-line-create-a-yellow-line-project" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Log-in to <a href="https://dnasubway.cyverse.org/">DNA Subway</a> -
+    unregistered users may 'Enter as Guest'</li>
+<li>Click 'Prospect Genomes using TARGeT' (Yellow Square)</li>
+<li>
+<p>Select a sample sequence, or paste in a sequence to search for.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>DNA Subway Yellow Line is only implemented to search a limited set of plant genomes.</p>
+</div>
+</li>
+<li>
+<p>Provide your project with a title, then Click 'Continue'</p>
+</li>
+</ol>
+<h4 id="example-exercise-project-creation-mping-mite-element-to-search-plant-genomes-for-an-active-transposon">Example Exercise - Project Creation: mPing Mite element to search plant genomes for an active transposon<a class="headerlink" href="#example-exercise-project-creation-mping-mite-element-to-search-plant-genomes-for-an-active-transposon" title="Permanent link">&para;</a></h4>
+<p>The <a href="https://www.nature.com/nature/journal/v421/n6919/full/nature01214.html">mPing MITE element</a>
+is an example of an active transposon in rice.
+<a href="http://www.dnaftb.org/32/animation.html">Transposons</a> are a major class
+of DNA elements that impact the function of the genome.</p>
+<ol>
+<li>Create a Yellow Line project following the steps above and using the mPing Mite Element (Oryza sativa/Rice)</li>
+</ol>
+<h3 id="dna-subway-yellow-line-search-plant-genomes-with-target">DNA Subway Yellow Line - Search Plant Genomes with TARGeT<a class="headerlink" href="#dna-subway-yellow-line-search-plant-genomes-with-target" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Click and select the genome(s) you wish to search and the click;
+    'Run' to search those genomes.</li>
+<li>Click the 'Alignment Viewer' button to view the results of the
+    search as a multiple alignment.</li>
+<li>Click the 'Tree Viewer' button to view a tree that will group
+    results by similarity.</li>
+</ol>
+<details class="tip">
+<summary>Viewer Tips</summary>
+<p><strong>Alignment Viewer</strong> Generates an alignment of all search results
+<img alt="yellow_alignment" height="150px" src="../assets/dna_subway/yellow_alignment.png" width="420px" />
+<strong>Tree Viewer</strong> Displays the results of sequence matches as a tree, grouped by sequence similarity
+<a height="300px" href="../assets/dna_subway/yellow_tree.png" width="420px">yellow_tree</a></p>
+</details>
+<details class="tip">
+<summary>Useful Definitions</summary>
+<ul>
+<li><strong>Transposons (DNA, Retroviral, LINES):</strong> Genetic elements which have the ability to be amplified and redistributed within a genome. </li>
+<li><strong>Non-autonomous transposons:</strong> Transposons which lack an active transposase gene, thus requiring help from another transposon to move. </li>
+<li><strong>Autonomous transposons:</strong> Transposons which have a functional transposase and can move within the genome.</li>
+</ul>
+</details>
+<h4 id="example-exercise-search-plant-genomes-mping-mite-element">Example Exercise - Search Plant Genomes: mPing Mite element<a class="headerlink" href="#example-exercise-search-plant-genomes-mping-mite-element" title="Permanent link">&para;</a></h4>
+<ol>
+<li>After loading the mPing Mite Element as the query, search the
+    Oryza Sativa genome, and examine the results in the Alignment and
+    Tree Viewers.</li>
+<li>Repeat this analysis with a new project using the Ping transposase
+    gene and the Ping Transposase protein.</li>
+</ol>
+<hr />
+<h2 id="walkthrough-of-dna-subway-blue-line-dna-barcoding-and-phylogenetics">Walkthrough of DNA Subway Blue Line - DNA Barcoding and Phylogenetics<a class="headerlink" href="#walkthrough-of-dna-subway-blue-line-dna-barcoding-and-phylogenetics" title="Permanent link">&para;</a></h2>
+<p>You can analyze relationships between DNA sequences by comparing them to
+a set of sequences you have compiled yourself, or by comparing your
+sequences to other that have been published in database such as GenBank
+(National Center for Biotechnology Information). Generating a
+phylogenetic tree from DNA sequences derived from related species can
+also allow you to draw inferences about how these species may be
+related. By sequencing variable sections of DNA (barcode regions) you
+can also use the Blue Line to help you identify an unknown species, or
+publish a DNA barcode for a species you have identified, but which is
+not represented in published databases like GenBank.</p>
+<p><strong>Some things to remember about the platform</strong></p>
+<ul>
+<li>Wet lab protocols and other resources are available at
+    <a href="http://dnabarcoding101.org/">http://dnabarcoding101.org/</a></li>
+<li>The DNA Barcoding 101 site also contains information on low-cost
+    sequencing for U.S.-based educators.</li>
+</ul>
+<hr />
+<div class="admonition warning">
+<p class="admonition-title">Sample Data</p>
+<div class="highlight"><pre><span></span><code>**How to use provided sample data**
+
+In this guide, we will use a mosquito dataset that includes DNA
+sequences isolated from mosquito larvae collected from Virginia&#39;s
+Shenandoah Valley (*&quot;Mosquito dataset&quot;*). There is a complete
+two-hour classroom bioinformatics lab with detailed instructions for
+instructors and students on QUBES hub
+[here](https://qubeshub.org/qubesresources/publications/165/2). Where
+appropriate, a note (in this orange colored background) in the
+instructions will indicate which options to select to make use of this
+provided dataset.
+
+**Sample data citation**: Williams, J., Enke, R. A., Hyman, O.,
+Lescak, E., Donovan, S. S., Tapprich, W., Ryder, E. F. (2018). Using
+DNA Subway to Analyze Sequence Relationships. (Version 2.0). QUBES
+Educational Resources.
+[doi:10.25334/Q4J111](http://dx.doi.org/10.25334/Q4J111)
+
+**Video Course**
+
+Here is a video series on analyzing data with DNA Subway using the
+above mosquito dataset and lesson:
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; align=&quot;center&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PLRosqf3DDcTFqyPDG04Ed9EjrjaC_UTQo&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+</code></pre></div>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<div class="highlight"><pre><span></span><code>See a Course Source paper with protocols and recommendations for
+implementing a Barcoding CURE (course-based undergraduate research
+experience): [CURE-all: Large Scale Implementation of Authentic DNA Barcoding Research into First-Year Biology Curriculum](https://www.coursesource.org/courses/cure-all-large-scale-implementation-of-authentic-dna-barcoding-research-into-first-year).
+</code></pre></div>
+</div>
+<h3 id="dna-subway-blue-line-create-a-barcoding-project">DNA Subway Blue Line - Create a Barcoding Project<a class="headerlink" href="#dna-subway-blue-line-create-a-barcoding-project" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Log-in to <a href="https://dnasubway.cyverse.org/">DNA Subway</a> - unregistered users may 'Enter as Guest'.
+    !!! Note
+        Only registered users submitting novel, high-quality sequences
+        will be able to submit sequence to GenBank</li>
+<li>
+<p>Choose a project type: <br>
+    <strong>- Phylogenetics</strong>: build phylogenetic trees from any DNA, protein, or mtDNA sequence) <br>
+    <strong>- Barcoding</strong>: DNA Barcoding for plants (rbcL), animals (COI), bacteria (16S), and fungi (ITS).</p>
+<div class="admonition warning">
+<p class="admonition-title">Sample Data</p>
+<div class="highlight"><pre><span></span><code>*&quot;Mosquito&quot;* dataset: Select **COI**.
+</code></pre></div>
+</div>
+<p>3. Under 'Select Sequence Source' select a sequence by uploading
+either a FASTA file or AB1 Sanger sequencing tracefile; pasting in
+a sequence in FASTA format, or selecting and importing a trace
+file from DNALC. If you do not have a file, you may select any of
+the available sample sequences.</p>
+<div class="admonition warning">
+<p class="admonition-title">Sample Data</p>
+<div class="highlight"><pre><span></span><code>*&quot;Mosquito&quot;* dataset:
+From **Select a set of sample sequences** select **Intro to Barcoding Bioinformatics: Mosquitoes**.
+</code></pre></div>
+</div>
+<p>4.  Name your project, and give a description if desired; click 'Continue.'</p>
+</li>
+</ol>
+<hr />
+<h3 id="dna-subway-blue-line-view-and-clean-barcoding-sequence-data">DNA Subway Blue Line - View and Clean Barcoding Sequence Data<a class="headerlink" href="#dna-subway-blue-line-view-and-clean-barcoding-sequence-data" title="Permanent link">&para;</a></h3>
+<p><strong>A. View Sequencing Trace File</strong></p>
+<p>If you provided AB1 trace files, or imported files from DNALC, you will
+be able to view the sequence electropherogram.</p>
+<ol>
+<li>Click 'Sequence Viewer' to show a list of your sequences.</li>
+<li>Click on a sequence name to show the sequences' trace file.</li>
+</ol>
+<p><img alt="blue_trace" height="200px" src="../assets/dna_subway/blue_trace.png" width="400px" /></p>
+<p><strong>B. Trim sequence, reverse complement and pair</strong></p>
+<p>By default, DNA Subway assumes that all reads are in the forward
+orientation, and displays an 'F' to the right of the sequence. If any
+sequence is not in that orientation, click the "F" to reverse compliment
+the sequence. The sequence will display an "R" to indicate the change.</p>
+<ol>
+<li>Click 'Sequence Trimmer.'</li>
+<li>Click 'Sequence Trimmer' again to examine to changes made in the sequence</li>
+<li>Click 'Pair Builder.'</li>
+<li>
+<p>Select the check boxes next to the sequences that represent bidirectional reads of the same sequence set. Alternatively Select the 'Auto Pair' function and verify the pairs generated.</p>
+<div class="admonition warning">
+<p class="admonition-title">Sample Data</p>
+<div class="highlight"><pre><span></span><code>*&quot;Mosquito&quot;* dataset:
+Click **Try Auto Pairing**. One pair of horsefly sequences and 4
+pairs of mosquito sequences will be created. Finally, click
+`Save`{.interpreted-text role=&quot;guilabel&quot;}.
+</code></pre></div>
+</div>
+</li>
+<li>
+<p>As necessary, Reverse Compliment sequences that were sequenced in
+    the reverse orientation by clicking the 'F' next to the sequence
+    name. The 'F' will become an 'R' to indicate the sequence has been
+    reverse complimented.</p>
+</li>
+<li>Click <code class="interpreted-text" role="guilabel">Save</code> to save the created pairs.</li>
+</ol>
+<p><strong>C. Build a consensus sequence</strong> This step remove poor quality areas at
+the 5' and/or 3' ends of the consensus sequence.</p>
+<ol>
+<li>Click on "Trim Consensus." Once the job is ready to view, click
+    "Trim Consensus" again to view the results. Scroll left and
+    right in the consensus editor window to identify what string of
+    nucleotides from the consensus sequence you want to trim.</li>
+<li>Click on the last consensus sequence nucleotide that you want to
+    trim. A red line will indicate what nucleotides will be removed
+    from the consensus sequences.</li>
+<li>
+<p>Click <code class="interpreted-text" role="guilabel">Trim</code>. A new "Consensus
+    Editor" window will pop up displaying the trimmed sequences.</p>
+<div class="admonition warning">
+<p class="admonition-title">Sample Data</p>
+<div class="highlight"><pre><span></span><code>*&quot;Mosquito&quot;* dataset: All of the sequences in this dataset benefit from trimming. Follow the steps above to trim sequences. We recommending trimming at the first and last &quot;grey&quot; (lower quality) nucleotide on the right and left ends.
+</code></pre></div>
+</div>
+</li>
+</ol>
+<hr />
+<h3 id="dna-subway-blue-line-find-matches-with-blast">DNA Subway Blue Line - Find Matches with BLAST<a class="headerlink" href="#dna-subway-blue-line-find-matches-with-blast" title="Permanent link">&para;</a></h3>
+<p>DNA Subway Blue Line will search a local copy of a BLAST databases to
+check for published matches in GenBank.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<div class="highlight"><pre><span></span><code>At the end of the BLAST results page, you can see the latest update to the DNA Subway BLAST database.
+</code></pre></div>
+</div>
+<ol>
+<li>Click 'BLASTN' then click the 'BLAST' link to BLAST the
+    sequence of interest. When the search is completed a 'View' link
+    will appear.</li>
+<li>Examine the BLAST matches for candidate identification. Clicking
+    the species name given in the BLAST hit will also give additional
+    information/photos of the listed species.</li>
+<li>
+<p>If desired, select the check box next to any hit, and click
+    <code class="interpreted-text" role="guilabel">&amp;Add BLAST hits to project</code> to
+    add selected sequences to your project. <br>
+    <img alt="blue_blast" height="200px" src="../assets/dna_subway/blue_blast.png" width="400px" /></p>
+<div class="admonition warning">
+<p class="admonition-title">Sample Data</p>
+<div class="highlight"><pre><span></span><code>*&quot;Mosquito&quot;* dataset: We recommend performing a BLASTN search for all samples and saving the top 2 matches to your project for additional analysis (as in Step 3).
+</code></pre></div>
+</div>
+</li>
+</ol>
+<hr />
+<h3 id="dna-subway-blue-line-add-reference-data">DNA Subway Blue Line - Add Reference Data<a class="headerlink" href="#dna-subway-blue-line-add-reference-data" title="Permanent link">&para;</a></h3>
+<p>Depending on the project type you have created, you will have access to
+additional sequence data that may be of interest. For example, if you
+are doing a DNA barcoding project using the rbcL gene, samples of rbcL
+sequence from major plant groups (Angiosperms, Gymnosperms, etc.) will
+be provided. Choose any data set to add it to your analysis; you will be
+able to include or exclude individual sequences within the set in the
+next step.</p>
+<ol>
+<li>Click 'Reference Data.'</li>
+<li>Select sequences of your choice.</li>
+<li>
+<p>Click <code class="interpreted-text" role="guilabel">Add ref data</code> to add
+    the data to your project.</p>
+<div class="admonition warning">
+<p class="admonition-title">Sample Data</p>
+<div class="highlight"><pre><span></span><code>*&quot;Mosquito&quot;* dataset: Select **Common insects** and then click `&amp;Add ref data`{.interpreted-text role=&quot;guilabel&quot;}.
+</code></pre></div>
+</div>
+</li>
+</ol>
+<hr />
+<h3 id="dna-subway-blue-line-build-a-multiple-sequence-alignment-and-phylogenetic-tree">DNA Subway Blue Line - Build a Multiple Sequence Alignment and Phylogenetic Tree<a class="headerlink" href="#dna-subway-blue-line-build-a-multiple-sequence-alignment-and-phylogenetic-tree" title="Permanent link">&para;</a></h3>
+<p><strong>A. Build a multiple sequence alignment and phylogenetic tree</strong></p>
+<ol>
+<li>Click 'Select Data.'</li>
+<li>
+<p>Select any and all sequences you wish to add to your tree.</p>
+<div class="admonition warning">
+<p class="admonition-title">Sample Data</p>
+<div class="highlight"><pre><span></span><code>*&quot;Mosquito&quot;* dataset: We suggest first adding your \&quot;user data\&quot; and building an alignment and tree. You can return to this step later to build additional trees. Once Selected, click `Save Selections`{.interpreted-text role=&quot;guilabel&quot;}. Follow the rest of the steps in this section and section B to create your tree.
+</code></pre></div>
+</div>
+</li>
+<li>
+<p>Click <code class="interpreted-text" role="guilabel">Save Selections</code> to select data</p>
+</li>
+<li>Click 'MUSCLE.' to run the MUSCLE program.</li>
+<li>Click 'MUSCLE' again to open the sequence alignment window.
+    <img alt="blue_align" height="200px" src="../assets/dna_subway/blue_align.png" width="400px" /></li>
+<li>Examine the alignment and then select the <code class="interpreted-text" role="guilabel">Trim Alignment</code> button in the upper-left of the Alignment viewer'.</li>
+</ol>
+<p><strong>B. Build phylogenetic tree</strong></p>
+<ol>
+<li>
+<p>Click 'PHYLIP NJ' and then click again to examine a
+    neighbor-joining tree
+    <img alt="blue_nj" height="200px" src="../assets/dna_subway/blue_nj.png" width="400px" /></p>
+</li>
+<li>
+<p>Click 'PHYLIP ML' and then click again to examine a
+    maximum-likelihood tree
+    <img alt="blue_ml" height="200px" src="../assets/dna_subway/blue_ml.png" width="400px" /></p>
+<div class="admonition warning">
+<p class="admonition-title">Sample Data</p>
+<div class="highlight"><pre><span></span><code>*&quot;Mosquito&quot;* dataset: We suggest setting &quot;horsefly&quot; as outgroup for both trees.
+</code></pre></div>
+</div>
+</li>
+</ol>
+<hr />
+<h2 id="walkthrough-of-dna-subway-green-line-kallistosleuth-rna-seq">Walkthrough of DNA Subway Green Line: Kallisto/Sleuth RNA-Seq<a class="headerlink" href="#walkthrough-of-dna-subway-green-line-kallistosleuth-rna-seq" title="Permanent link">&para;</a></h2>
+<p>The Green Line runs within CyVerse DNA Subway and leverages powerful
+computing and data storage infrastructure and uses the supercomputer
+cluster to provide a high performance analytical platform with a simple
+user interface suitable for both teaching and research. is a quick,
+highly-efficient software for quantifying transcript abundances in an
+RNA-Seq experiment. Even on a typical laptop, Kallisto can quantify 30
+million reads in less than 3 minutes. Integrated into CyVerse, you can
+take advantage of CyVerse DNA Subway to process your reads, do the
+Kallisto quantification, and analyze reads with the Kallisto companion
+software in an R-Shiny app.</p>
+<p><strong>Some things to remember about the platform</strong></p>
+<ul>
+<li>You must be a registered CyVerse user to use Green Line.</li>
+<li>The Green Line was designed to make RNA-Seq data analysis
+    "simple". However, we ask that users thoughtfully decide what
+    "jobs" they want to submit. <strong>Each user is limited to a maximum of
+    4 concurrent jobs running on Green Line</strong>.</li>
+<li>A single Green Line project may take a week to process since HPC
+    computing is subject to queues which hundreds of other jobs may be
+    staging for. Additionally these systems undergo regular maintenance
+    and are subject to periodic disruption.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>New, faster Green Line</strong></p>
+<p>Green Line is now running on <a href="https://jetstream-cloud.org/">Jestream Cloud</a>. This should greatly reduce queue times (The entire running time for this tutorial is about 60
+minutes). We have designed Green Line for a lower number of
+concurrent users (&lt;50), and still recommend teaching using jobs
+you have made public, and only running the entire workflow when
+you are working with novel data. Please let us know about your
+experience: <a href="https://dnasubway.cyverse.org/feedback.html">send feedback</a>.</p>
+<p><iframe width="560" height="315" align="center" src="https://www.youtube.com/embed/XLBpway_jG8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">Important: Discontinued Support for Tuxedo Workflow</p>
+<p>The Tuxedo workflow previously implemented for the Green Line will
+has been removed in <strong>June 2019</strong>. Data and previously analyzed results will still be available on the CyVerse Data Store, however it is not possible to execute new analyses which include Tuxuedo.</p>
+</div>
+<hr />
+<div class="admonition warning">
+<p class="admonition-title">Sample Data</p>
+<div class="highlight"><pre><span></span><code>**How to use provided sample data**
+
+In this guide, we will use an RNA-Seq dataset (*&quot;Zika infected
+hNPCs&quot;*). This experiment compared human neuroprogenetor cells
+(hNPCs) infected with the Zika virus to non-infected hNPCs. You can
+read more about the experimental conditions and methods in this [reference](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0175744).
+Where appropriate, a note (in this orange colored background) in the
+instructions will indicate which options to select to make use of this
+provided dataset.
+
+**Sample data citation**: Yi L, Pimentel H, Pachter L (2017) Zika
+infection of neural progenitor cells perturbs transcription in
+neurodevelopmental pathways. PLOS ONE 12(4): e0175744. [reference](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0175744).
+
+**Video Course**
+
+Here is a video series on analyzing data with DNA Subway using the above Zika dataset and lesson:
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; align=&quot;center&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PLRosqf3DDcTHLTsiCTT8tnA2ZAfMM5AWb&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+</code></pre></div>
+</div>
+<h3 id="dna-subway-green-line-kallistosleuth-create-an-rna-seq-project-to-examine-differential-abundance">DNA Subway Green Line: Kallisto/Sleuth - Create an RNA-Seq Project to Examine Differential Abundance<a class="headerlink" href="#dna-subway-green-line-kallistosleuth-create-an-rna-seq-project-to-examine-differential-abundance" title="Permanent link">&para;</a></h3>
+<p><strong>A. Create a project in Subway</strong></p>
+<ol>
+<li>Log-in to - unregistered users may NOT use Green Line.</li>
+<li>Click on the Green "Next Generation Sequencing" square to start
+    a Green Line project.</li>
+<li>
+<p>For 'Select Project Type' select either "Single End Reads" or
+    "Paired End Reads".</p>
+<div class="admonition warning">
+<p class="admonition-title">Sample Data</p>
+<div class="highlight"><pre><span></span><code>*&quot;Zika infected hNPCs&quot;* dataset: Select **Paired End Reads**
+</code></pre></div>
+</div>
+</li>
+</ol>
+<p>4.  For 'Select an Organism' select a species and genome build.</p>
+<div class="admonition warning">
+<p class="admonition-title">Sample Data</p>
+<div class="highlight"><pre><span></span><code>*&quot;Zika infected hNPCs&quot;* dataset: Select **Homo sapiens - Ensembl 78 GrCh38**
+</code></pre></div>
+</div>
+<p>5.  Enter a project title, and description; click 'Continue'.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<div class="highlight"><pre><span></span><code>If you don&#39;t see a desired species/genome [contact us](https://dnasubway.cyverse.org/feedback.html) to have it added.
+</code></pre></div>
+</div>
+<p><strong>B. Upload Read Data to CyVerse Data Store</strong> The sequence read files
+used in these experiments are too large to upload using the Subway
+internet interface. You must upload your files (either .fastq or
+.fastq.gz) directly to the CyVerse Data Store.</p>
+<ol>
+<li>Upload your reads to the CyVerse Data Store using Cyberduck. See instructions: <a href="https://cyverse-learning-materials.github.io/learning-materials-home/ds/intro/">Data Store Guide</a>.</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="highlight"><pre><span></span><code>This step is not directly connected with DNA Subway. You can use any data uploaded to the CyVerse Data Store.
+</code></pre></div>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Data Limit</p>
+<div class="highlight"><pre><span></span><code>There is a limit of 6GB per file for samples on Green Line. For larger file sizes, you may wish to use the Kallisto tools in the CyVerse Discovery Environment. See the for more information.
+</code></pre></div>
+</div>
+<hr />
+<h3 id="dna-subway-green-line-kallistosleuth-manage-data-and-check-quality-with-fastqc">DNA Subway Green Line: Kallisto/Sleuth - Manage Data and Check Quality with FASTQC<a class="headerlink" href="#dna-subway-green-line-kallistosleuth-manage-data-and-check-quality-with-fastqc" title="Permanent link">&para;</a></h3>
+<p><strong>A. Select and pair files</strong></p>
+<ol>
+<li>Click on the "Manage Data" step: this opens a Data store window
+    that says "Select your FASTQ files from the Data Store" (if you
+    are not logged in to CyVerse, it will ask you to do so).</li>
+<li>
+<p>Click on the folder that matches your CyVerse username and
+    Navigate to the folder where your sequencing files are located.</p>
+<div class="admonition warning">
+<p class="admonition-title">Sample Data</p>
+<div class="highlight"><pre><span></span><code>*&quot;Zika infected hNPCs&quot;* dataset: Select **Sample Data**.
+</code></pre></div>
+</div>
+</li>
+<li>
+<p>Select the sequencing files you want to analyze (either .fastq or .fastq.gz format).</p>
+<div class="admonition warning">
+<p class="admonition-title">Sample Data</p>
+<div class="highlight"><pre><span></span><code>*&quot;Zika infected hNPCs&quot;* dataset: You will be presented with the following 8 files; **check-select all of the files** and click the `+ Add files`{.interpreted-text role=&quot;guilabel&quot;} button:
+</code></pre></div>
+<ul>
+<li>SRR3191542_1.fastq.gz</li>
+<li>SRR3191542_2.fastq.gz</li>
+<li>SRR3191543_1.fastq.gz</li>
+<li>SRR3191543_2.fastq.gz</li>
+<li>SRR3191544_1.fastq.gz</li>
+<li>SRR3191544_2.fastq.gz</li>
+<li>SRR3191545_1.fastq.gz</li>
+<li>SRR3191545_2.fastq.gz</li>
+</ul>
+<p>The SRR3191542 and SRR3191543 files are 2 replicates (paired-end) of the uninfected cells and the SRR3191544 and SRR3191545 file are from the Zika infected cells.</p>
+</div>
+</li>
+<li>
+<p>If working with paired-end reads, click the <code class="interpreted-text" role="guilabel">Pair Mode OFF</code> button to toggle to on; check each pair of sequencing files to pair them.</p>
+<div class="admonition warning">
+<p class="admonition-title">Sample Data</p>
+<div class="highlight"><pre><span></span><code>*&quot;Zika infected hNPCs&quot;* dataset: Right reads end in &quot;_1&quot; and left reads end in &quot;_2&quot;. **Click the** `Pair Mode OFF`{.interpreted-text role=&quot;guilabel&quot;} **button** to turn pairing on, and **check-select each of the paired samples** (e.g. SRR3191543_1.fastq.gz and SRR3191543_2.fastq.gz).
+</code></pre></div>
+</div>
+</li>
+</ol>
+<p><strong>B. Check sequencing quality with FastQC</strong></p>
+<p>It is important to only work with high quality data. is a popular tool
+for determining sequencing quality.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<div class="highlight"><pre><span></span><code>This step takes place in the same **Manage data** window as the steps above.
+</code></pre></div>
+</div>
+<ol>
+<li>
+<p>Once files have been loaded, in the 'Manage Data' window, click the 'Run' link in the 'QC' column to run FastQC.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="highlight"><pre><span></span><code>There is a limit of 4 concurrent jobs. These jobs should take less
+than 20 minutes to complete (depending on file size) and you may need
+to let several jobs finish before proceeding. If you have previously
+processed reads for quality, you can skip the FastQC step.
+</code></pre></div>
+</div>
+</li>
+</ol>
+<p>2.  One the jobs are complete, click the 'View' link to view the results.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>You can see a description and explanation of the FastQC report on the CyVerse Learning Center and a more detailed set of explanations on the website.</p>
+</div>
+<hr />
+<h3 id="dna-subway-green-line-kallistosleuth-trim-and-filter-reads-with-fastx-toolkit">DNA Subway Green Line: Kallisto/Sleuth - Trim and Filter Reads with FastX Toolkit<a class="headerlink" href="#dna-subway-green-line-kallistosleuth-trim-and-filter-reads-with-fastx-toolkit" title="Permanent link">&para;</a></h3>
+<p>Raw reads are first "quality trimmed" (remove poor quality bases off
+the end(s) of a read) and then are "quality filtered" (filter out
+entire poor quality reads) prior to aligning to the transcriptome. After
+trimming and filtering, FastQC is run on the trimmed/filtered files.</p>
+<ol>
+<li>
+<p>Click "FastX ToolKit" to open the FastX Toolkit panel for all your data.</p>
+</li>
+<li>
+<p>For each file, under 'Basic', Click 'Run' to filter the reads using default parameters or click 'Advanced' to run with desired parameters; repeat this process for all the FASTQ files in your dataset.</p>
+<div class="admonition warning">
+<p class="admonition-title">Sample Data</p>
+<div class="highlight"><pre><span></span><code>*&quot;Zika infected hNPCs&quot;* dataset: The quality of the reads in this dataset is relatively good. You can **skip the FastX Toolkit step for this dataset**.
+</code></pre></div>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<div class="highlight"><pre><span></span><code>The &#39;Basic&#39; setting for FastX Toolkit uses the same settings as
+the defaults in the &#39;Advanced&#39; run:
+</code></pre></div>
+<ul>
+<li><strong>quality_trimmer: minimum quality</strong>: 20</li>
+<li><strong>quality_trimmer: minimum trimmed read length</strong>: 20</li>
+<li><strong>quality_filter: minimum quality</strong>: 20</li>
+<li><strong>quality_filter: minimum quality</strong>: 50</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Once the job completes, click the 'View' link to view a generated FastQC report.</p>
+</li>
+<li>Since you may trim reads multiple times to achieve the desired quality of data record the job IDs (e.g. fx####) that you wish to use in the subsequent steps.</li>
+</ol>
+<hr />
+<h3 id="dna-subway-green-line-kallistosleuth-quantify-reads-with-kallisto">DNA Subway Green Line: Kallisto/Sleuth - Quantify reads with Kallisto<a class="headerlink" href="#dna-subway-green-line-kallistosleuth-quantify-reads-with-kallisto" title="Permanent link">&para;</a></h3>
+<p>Kallisto uses a 'hash-based' pseudo alignment to deliver extremely fast
+matching of RNA-Seq reads against the transcriptome index (which was
+selected when you created your Green Line project). A Kallisto analysis
+must be run for each mapping of RNA-Seq reads to the index. In this
+tutorial, we have 12 fastQ files (6 pairs), so you will need to launch 6
+Kallisto analyses.</p>
+<details class="tip">
+<summary>The Science Behind Kallisto</summary>
+<div class="highlight"><pre><span></span><code>You can find a detailed video series on the science behind the Kallisto software and pseudoalignment: [YouTube](https://www.youtube.com/playlist?list=PL-0S9LiUi0vhjynujVZw34RKmUo6vPmVd).
+</code></pre></div>
+</details>
+<ol>
+<li>
+<p>Click the "Quantification" step and enter a sample and condition name for each of your samples. You will typically have several replicates (at least 3 minimum) for each sample. For your condition, our implementation of the Kallisto/Sleuth workflow supports <strong>two conditions</strong>.</p>
+<div class="admonition danger">
+<p class="admonition-title">Warning</p>
+<div class="highlight"><pre><span></span><code>When naming your samples and conditions, avoid spaces and special
+characters (e.g. !#\$%\^&amp;/, etc.). Also be sure to be consistent with spelling.
+</code></pre></div>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Sample Data</p>
+<div class="highlight"><pre><span></span><code>*&quot;Zika infected hNPCs&quot;* dataset: &lt;br&gt;
+We suggest the following names for this dataset:
+
+| Left/Right Pair | Sample name | Condition |
+| --- | --- | --- |
+| SRR3191542_1.fastq.gz &lt;br&gt; SRR3191542_2.fastq.gz | Mock1-1 | Mock |
+| SRR3191543_1.fastq.gz &lt;br&gt; SRR3191543_1.fastq.gz | Mock2-1 | Mock |
+| SRR3191544_1.fastq.gz &lt;br&gt; SRR3191544_2.fastq.gz | ZIKV1-1 | Zika |
+| SRR3191545_1.fastq.gz &lt;br&gt; SRR3191545_2.fastq.gz | ZIKV2-1 | Zika |
+</code></pre></div>
+</div>
+</li>
+<li>
+<p>After naming the samples and conditions, click the <code class="interpreted-text" role="guilabel">Submit</code> button to submit a job. Typically, within ~1 minute you will be provided with a job number. The job will be entered into the queue at the TACC Stampede supercomputing system. You can come back and click the Quantification stop to see the status of the job. The indication for the quantification stop will show "R" (running) while the job is running.</p>
+<div class="admonition warning">
+<p class="admonition-title">Sample Data</p>
+<div class="highlight"><pre><span></span><code>*&quot;Zika infected hNPCs&quot;* dataset: Under parameters **uncheck** the *Build pseudo-bam files* option.
+</code></pre></div>
+</div>
+</li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<div class="highlight"><pre><span></span><code>You can select some of the advanced options for your Kallisto job by clicking the &quot;Parameters&quot; link in the Quantification stop. See more about these advanced parameters in the [Kallisto manual](https://pachterlab.github.io/kallisto/manual).
+</code></pre></div>
+</div>
+<hr />
+<h3 id="dna-subway-green-line-kallistosleuth-visualize-data-using-igv">DNA Subway Green Line: Kallisto/Sleuth- Visualize data using IGV<a class="headerlink" href="#dna-subway-green-line-kallistosleuth-visualize-data-using-igv" title="Permanent link">&para;</a></h3>
+<p>In the "View Results" steps you have access to alignment
+visualizations, data download, and interactive visualization of your
+differential expression results.</p>
+<ol>
+<li>Click the "View results" step and choose one of the following
+    options:</li>
+</ol>
+<p><strong>IVG - Integrated Genome Viewer</strong></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<div class="highlight"><pre><span></span><code>IGV visualization will only be possible if you have built pseudo-bam
+files in the Kallisto step.
+</code></pre></div>
+</div>
+<p>Click the icon in the "IGV" column to view a visualization of
+your reads pseudoaligned to the reference transcriptome. You will need
+to click the <code class="interpreted-text" role="guilabel">Make it public</code>
+button (and possibly be re-directed to the CyVerse Discovery
+Environment). After making the data "public" which allows DNA Subway
+to access your files on the CyVerse Data Store, you must also select a
+memory size to launch this Java application. If you are not sure of
+which value to select, use the default 750MB option.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<div class="highlight"><pre><span></span><code>Using IGV requires Java software. Java is increasingly unsupported for
+security reasons on the internet.
+</code></pre></div>
+<div class="admonition tip">
+<p class="admonition-title">Java Help</p>
+<div class="highlight"><pre><span></span><code>Java must be available and enabled in your Internet browser to use the
+IGV function. Java frequently is the source of security
+vulnerabilities and so its not uncommon to experience configuration
+issues due to safety. Follow the tips below to configure Java for your
+computer. Alternatively, you can use the Download link (see
+instructions in the section below) to download your data (you will
+need the .bam and .bam.bai files) and download and install yourself.
+
+*Internet Browser*
+
+We highly recommend using Firefox as your browser for DNA Subway. &lt;br&gt;
+-   Verify your Java availability for your browser: [Java test](https://www.java.com/en/download/installed.jsp) &lt;br&gt;
+-   Java must be [enabled](https://java.com/en/download/help/enable_browser.xml) in your browser
+
+*Java Configuration*
+
+-   Open the Java control panel on your computer. (On Mac, open System
+    Preferences &gt; Java. On PC, open Control Panel &gt; Programs &gt;
+    Java.) &lt;br&gt;
+-   Click the Security tab and check &quot;Enable Java in the browser&quot;
+    and set the security level for applications to &quot;high&quot;. Add
+    &quot;&lt;http://dnasubway.cyverse.org&gt;&quot; and &quot;&lt;http://gfx.dnalc.org&gt;&quot;
+    to the &quot;Exception Site List&quot; in the Java Security tab.
+</code></pre></div>
+</div>
+</div>
+<p><strong>Download Data - Abundance</strong></p>
+<p>Click the folder icon to be redirected to the CyVerse Discovery
+Environment (you may be required to log in). You will be directed
+to all outputs from you Kallisto analysis. You may preview them in
+the Discovery Environment or use the path listed to download the
+files using Cyberduck (see <a href="https://cyverse-learning-materials.github.io/learning-materials-home/ds/intro/">Data Store Guide</a>). A tab-separated file of abundances
+for each sequence pair is available at the download link.</p>
+<hr />
+<h3 id="dna-subway-green-line-kallistosleuth-visualize-data-using-sleuth">DNA Subway Green Line: Kallisto/Sleuth- Visualize data using Sleuth<a class="headerlink" href="#dna-subway-green-line-kallistosleuth-visualize-data-using-sleuth" title="Permanent link">&para;</a></h3>
+<p><strong>Differential analysis - Shiny App</strong></p>
+<p>Click the "Sleuth R Shiny" link to launch an interactive window which contains data and graphics from your analysis.</p>
+<p><strong>R Shiny App Walkthrough</strong></p>
+<p>The R Shiny App allows you to explore your differential expression
+results as generated by the . We will cover highlights to for each
+menu in the app.</p>
+<details class="tip">
+<summary>Data Transfer Timings</summary>
+<p>It can take a few minutes for data to be transferred to the R
+Shiny server after the quantification step completes. If R Shiny
+does not load, try again in a few minutes. If you still have an
+issue, use the link and include your project number in the
+feedback form.</p>
+</details>
+<p><strong>Results Menu</strong></p>
+<p><img alt="sleuth_results_1" height="400px" src="../assets/dna_subway/sleuth_results_1.png" width="800px" /></p>
+<p>This menu is an interactive table of your results. You can choose
+which columns to display in the table using the checkboxes on the
+left of the screen. Several important values selected by default
+include:</p>
+<ul>
+<li><strong>Target_id</strong>: This is the name of the transcript (gene) from the selected reference transcriptome.</li>
+<li><strong>qval</strong>: This is a corrected (for multiple testing) p-value indicating the significance test of differential abundance. Lower numbers indicate greater significance.</li>
+<li><strong>b</strong>: This is an estimate of the fold change between the conditions</li>
+<li><strong>ext_gene</strong>: If available, these are gene names pulled from Ensemble</li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<div class="highlight"><pre><span></span><code>Click the `Download`{.interpreted-text role=&quot;guilabel&quot;} button to download these results.
+</code></pre></div>
+</div>
+<p><strong>Bootstrap</strong></p>
+<p><img alt="sleuth_bootstrap_1" height="400px" src="../assets/dna_subway/sleuth_bootstrap_1.png" width="800px" /></p>
+<p>This menu will display a box plot that indicates the difference in
+expression between conditions. The box plots themselves indicate
+variation between replicates as estimated by bootstrap sampling of
+the reads. A dropbox enables you to select any transcript.
+Clicking the "Show genes" will load alternative gene names if
+available.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<div class="highlight"><pre><span></span><code>Right-click a graph to download this and other images.
+</code></pre></div>
+</div>
+<p><strong>PCA</strong></p>
+<p><img alt="sleuth_pca_1" height="400px" src="../assets/dna_subway/sleuth_pca_1.png" width="800px" /></p>
+<p>This graph displays principle components of each of the
+conditions/replicates. In general replicates of the same condition
+should cluster closely together.</p>
+<p><strong>Volcano Plot</strong></p>
+<p><img alt="sleuth_volcano_1" height="400px" src="../assets/dna_subway/sleuth_volcano_1.png" width="800px" /></p>
+<p>This scatter plot displays all transcripts colored by significance
+of differential abundance. You may also use menu on the left of
+the screen to highlight specific genes/transcripts or previously
+set filters from the results menu.</p>
+<p><strong>Loadings</strong></p>
+<p><img alt="sleuth_loadings_1" height="400px" src="../assets/dna_subway/sleuth_loadings_1.png" width="800px" /></p>
+<p>This barplot indicates which genes/transcripts explain most of the variance computed in the principle components analysis.</p>
+<p><strong>Heatmap</strong></p>
+<p><img alt="sleuth_heatmap_1" height="400px" src="../assets/dna_subway/sleuth_heatmap_1.png" width="800px" /></p>
+<p>This heatmap gives a measure of the similarity between the possible comparison of the samples and their replicates.</p>
+<hr />
+<p><strong>Summary</strong>: Together, Kallisto and Sleuth are quick, powerful ways to
+analyze RNA-Seq data.</p>
+<hr />
+<h2 id="walkthrough-of-dna-subway-purple-line-beta-testing-documentation">Walkthrough of DNA Subway Purple Line (beta testing documentation)<a class="headerlink" href="#walkthrough-of-dna-subway-purple-line-beta-testing-documentation" title="Permanent link">&para;</a></h2>
+<div class="admonition danger">
+<p class="admonition-title">BETA RELEASE</p>
+<div class="highlight"><pre><span></span><code>The Purple line is in beta release. Please send feedback to [DNALC Admin](mailto:dnalcadmin@cshl.edu).
+</code></pre></div>
+</div>
+<p>The Purple Line provides the capability for analysis of microbiome and
+eDNA (environmental DNA) by implementing a simplified version of the <a href="https://qiime2.org/">QIIME 2</a>
+(pronounced "chime two") workflow. Using the Purple Line, you can
+analyze uploaded high throughput sequencing reads to identify species in
+microbial or environmental DNA samples.</p>
+<p>Metabarcoding uses high-throughput sequencing to analyze hundreds of
+thousands of DNA barcodes from complex mixtures of DNA. In a typical
+experiment, DNA is isolated from sterile swabs or material taken from
+different environmental locations or conditions. PCR is used to amplify
+a variable region, such as COI, or 12S or 16S ribosomal RNA genes, and
+sequence reads identify the variety and abundance of species from
+different samples. The analysis requires specialized software, such as
+QIIME 2.</p>
+<p>The Purple Line integrates sequence data and metadata imported from
+CyVerse's Data Store, demultiplexing of samples, quality control, and
+taxonomic identification and quantitation. Once sequences are analyzed,
+the results can be visualized to allow comparisons between samples and
+different conditions summarized in the metadata.</p>
+<p><strong>Some things to remember about the platform</strong></p>
+<ul>
+<li>You must be a registered CyVerse user to use Purple Line (register
+    for a CyVerse account at <a href="https://user.cyverse.org/">user.cyverse.org</a>).</li>
+<li>The Purple line was designed to make microbiome/eDNA data analysis
+    "simple". However, we ask that users very carefully and
+    thoughtfully decide what "jobs" they want to submit.</li>
+<li>A single Purple Line project may take hours to process since HPC
+    computing is subject to queues which may support hundreds of other
+    jobs. These systems also undergo regular maintenance and are subject
+    to periodic disruption.</li>
+<li>DNA Subway implements the <a href="https://qiime2.org/">QIIME 2</a> software. This software is in continual
+    development. Our version may not be the most current, and our
+    documentation and explanation is not meant to replace the full <a href="https://docs.qiime2.org/2018.8/">QIIME 2 documentation</a>.</li>
+<li>We have made design decisions to create a straightforward
+    classroom-friendly workflow. While this Subway Line does not have
+    all possible features of QIIME 2, we purpose to cover important
+    concepts behind microbiome and eDNA analysis.</li>
+<li>You may work with up to 96 samples (e.g. 192 paired files or 96 single read files) in a Purple line project. </li>
+</ul>
+<hr />
+<div class="admonition warning">
+<p class="admonition-title">Sample Data: How to use provided sample data</p>
+<div class="highlight"><pre><span></span><code>In this guide, we will use a microbiome dataset (*&quot;ubiome-test-data&quot;*) collected from various
+water sources in Montana (down-sampled and de-identified).Where
+appropriate, a note (in this orange colored background) in the
+instructions will indicate which options to select to make use of this
+provided dataset.
+</code></pre></div>
+</div>
+<h3 id="dna-subway-purple-line-metadata-file-and-sequencing-prerequisites">DNA Subway Purple Line - Metadata file and Sequencing Prerequisites<a class="headerlink" href="#dna-subway-purple-line-metadata-file-and-sequencing-prerequisites" title="Permanent link">&para;</a></h3>
+<p>If you are generating data for a project (i.e. sequencing samples), you
+will need to provide the sequencing data (fastq files) as well as a
+metadata file that describes the data contained in these sequencing
+files. This metadata must conform to strict guidelines, or analyses will
+fail. QIIME 2 metadata is stored in a TSV (tab-separated values) file.
+These files typically have a .tsv or .txt file extension, though it
+doesn't matter to QIIME 2 what file extension is used. TSV files are
+simple text files used to store tabular data, and the format is
+supported by many types of software, such as editing, importing, and
+exporting from spreadsheet programs and databases. Thus, it's usually
+straightforward to manipulate QIIME 2 metadata using the software of
+your choosing. If in doubt, we recommend using a spreadsheet program
+such as Microsoft Excel or Google Sheets to edit and export your
+metadata files.</p>
+<p><strong>Handling Project Metadata</strong></p>
+<p>Before you create your project, you will have generated metadata (as
+described above) for your project. You have two options for preparing
+this metadata to ensure that it conforms to the required QIIME2
+parameters. The file must be validated (which you can do on your own or
+using Subway). If there are errors in your file (this is common), they
+must be fixed.</p>
+<div class="admonition tip">
+<p class="admonition-title">Formatting Your Metadata</p>
+<div class="highlight"><pre><span></span><code>**Leading and trailing whitespace characters**
+
+If any cell in the metadata contains leading or trailing whitespace
+characters (e.g. spaces, tabs), those characters will be ignored when
+the file is loaded. Thus, leading and trailing whitespace characters
+are not significant, so cells containing the values &#39;gut&#39; and &#39; gut&#39; are equivalent. This rule is applied before any other rules
+described below
+
+**ID column**
+
+The first column MUST be the ID column name (i.e. ID header) and the
+first line of this column should be #SampleID or one of a few
+alternative.
+-   Case-insensitive: id; sampleid; sample id; sample-id; featureid;
+    feature id; feature-id.
+-   Case-sensitive: #SampleID; #Sample ID; #OTUID; #OTU ID;
+    sample_name
+
+**Sample IDs**
+
+For the sample IDs, there are some simple rules to comply with QIIME 2
+requirements:
+
+-   IDs may consist of any Unicode characters, with the exception
+    that IDs must not start with the pound sign (#), as those rows
+    would be interpreted as comments and ignored. IDs cannot be
+    empty (i.e. they must consist of at least one character).
+-   IDs must be unique (exact string matching is performed to detect
+    duplicates).
+-   At least one ID must be present in the file.
+-   IDs cannot use any of the reserved ID column names (the sample
+    ID names, above).
+-   The ID column can optionally be followed by additional columns
+    defining metadata associated with each sample or feature ID.
+    Metadata files are not required to have additional metadata
+    columns, so a file containing only an ID column is a valid QIIME
+    2 metadata file.
+
+**Column names**
+
+-   May consist of any Unicode characters.
+-   Cannot be empty (i.e. column names must consist of at least one
+    character).
+-   Must be unique (exact string matching is performed to detect
+    duplicates).
+-   Column names cannot use any of the reserved ID column names.
+
+**Column values**
+
+-   May consist of any Unicode characters.
+-   Empty cells represent missing data. Note that cells consisting
+    solely of whitespace characters are also interpreted as missing
+    data.
+
+QIIME 2 currently supports categorical and numeric metadata columns.
+By default, QIIME 2 will attempt to infer the type of each metadata
+column: if the column consists only of numbers or missing data, the
+column is inferred to be numeric. Otherwise, if the column contains
+any non-numeric values, the column is inferred to be categorical.
+Missing data (i.e. empty cells) are supported in categorical columns
+as well as numeric columns. For more details, and for how to define
+the nature of the data when needed, see the [QIIME 2 metadata documentation](https://docs.qiime2.org/2019.10/tutorials/metadata/).
+</code></pre></div>
+</div>
+<p><strong>Working with an existing metadata file</strong></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>If you have your own metadata file, it will still need to be validated
+once uploaded to DNA Subway.</p>
+<p>Using a spreadsheet editor, create a metadata sheet that provides
+descriptions of the sequencing files used in your experiment. Export
+this file as a tab-delimited <strong>.txt</strong> or <strong>.tsv</strong> file. following
+the QIIME 2 metadata documentation](<a href="https://docs.qiime2.org/2019.10/tutorials/metadata/">https://docs.qiime2.org/2019.10/tutorials/metadata/</a>) recommendations. (Optional: if you using your own metadata file you can validate it using DNA Subway and or online QIIME2 validator <a href="https://keemei.qiime2.org/">Keemei</a>).</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>See an example metadata file used for our sample data here: <a href="http://datacommons.cyverse.org/browse/iplant/home/shared/cyverse_training/platform_guides/dna_subway/purple_line/mappingfile.xlsx">metadata file</a>. Click the <code class="interpreted-text" role="guilabel">Download</code> button on the
+linked page to download and examine the file. (<strong>Note</strong>: This is an
+Excel version of the metadata file, you must save Excel files as .TSV
+(tab-separated) to be compatible with the QIIME 2 workflow.)</p>
+</div>
+<p><strong>Creating a metadata file using DNA Subway</strong></p>
+<p>See <a href="">DNA Subway Purple Line - Metadata and QC</a> section C.</p>
+<h3 id="dna-subway-purple-line-create-a-microbiome-analysis-project">DNA Subway Purple Line - Create a Microbiome Analysis Project<a class="headerlink" href="#dna-subway-purple-line-create-a-microbiome-analysis-project" title="Permanent link">&para;</a></h3>
+<p><strong>A. Create a project in Subway</strong></p>
+<ol>
+<li>Log-in to DNA Subway (unregistered users may NOT use Purple Line,
+    register for a CyVerse account at <a href="https://user.cyverse.org/">user.cyverse.org</a>.</li>
+<li>Click the purple square ("Microbiome Analysis") to begin a
+    project.</li>
+<li>
+<p>For 'Select Project Type' select either <strong>Single End Reads</strong> or
+    <strong>Paired End Reads</strong></p>
+<div class="admonition warning">
+<p class="admonition-title">Sample Data</p>
+<div class="highlight"><pre><span></span><code>*&quot;ubiome-test-data&quot;* dataset: Select **Single End Reads**
+</code></pre></div>
+</div>
+<ol>
+<li>For 'Select File Format' select the format the corresponds to
+ your sequence metadata.</li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">Sample Data</p>
+<div class="highlight"><pre><span></span><code>*&quot;ubiome-test-data&quot;* dataset: Select **Illumina Casava 1.8**
+</code></pre></div>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<div class="highlight"><pre><span></span><code>Typically, microbiome/eDNA will be in the form of multiplexed FastQ sequences. We support the following formats:
+
+- [Illumina Casava 1.8](http://illumina.bioinfo.ucr.edu/ht/documentation/data-analysis-docs/CASAVA-FASTQ.pdf/at_download/file)
+</code></pre></div>
+</div>
+<ol>
+<li>Enter a project title, and description; click <code class="interpreted-text" role="guilabel">Continue</code>.</li>
+</ol>
+</li>
+</ol>
+<p><strong>B. Upload read data to CyVerse Data Store</strong></p>
+<p>The sequence read files used in these experiments are too large to
+upload using the Subway interface. You must upload your files (<strong>Note</strong>: Only <code>.fastq.gz</code> files are accepted) directly to the CyVerse Data Store:</p>
+<ol>
+<li>Upload your<ul>
+<li>FASTQ sequence reads; <strong>Note</strong>: Only <code>.fastq.gz</code> files are accepted. </li>
+<li>Sample metadata file (.tsv or .txt formatted according to <a href="https://docs.qiime2.org/2019.10/tutorials/metadata/">QIIME 2 Metadata documentation</a>) to
+    the CyVerse Data Store using Cyberduck. See instructions: <a href="https://cyverse-learning-materials.github.io/learning-materials-home/ds/intro/">CyVerse Data Store Guide</a>.</li>
+</ul>
+</li>
+</ol>
+<p>(Optional: You can edit and change metadata using the Subway
+interface in the [Manage data]step once the project is
+created.)</p>
+<hr />
+<h3 id="dna-subway-purple-line-metadata-and-qc">DNA Subway Purple Line - Metadata and QC<a class="headerlink" href="#dna-subway-purple-line-metadata-and-qc" title="Permanent link">&para;</a></h3>
+<p><strong>A. Select files using Manage Data</strong></p>
+<ol>
+<li>
+<p>Click on the 'Manage data stop: this opens a window where you can
+    add your FASTQ (up to 192 paired files or 96 single read files) and metadata files. Click
+    <code class="interpreted-text" role="guilabel">+Add from CyVerse</code> to add the
+    FASTQ files uploaded to the CyVerse Data Store. Select your files
+    and then click <code>Add selected files</code>{.interpreted-text
+    role="guilabel"} or <code>Add all FASTQ files in this directory</code>{.interpreted-text
+    role="guilabel"} as appropriate. <strong>Note</strong>: Only <code>.fastq.gz</code> files are accepted. </p>
+<div class="admonition warning">
+<p class="admonition-title">Sample Data</p>
+<div class="highlight"><pre><span></span><code>*&quot;ubiome-test-data&quot;* dataset: Navigate to: Shared Data &gt; SEPA_microbiome_2016 &gt; **ubiome-test-data** and click `Add all FASTQ files in this directory`{.interpreted-text role=&quot;guilabel&quot;}
+</code></pre></div>
+</div>
+</li>
+</ol>
+<p>2.  To add your metadata file you may use one of three options:
+-   <em>Add from CyVerse</em>: Add a metadata file you have uploaded to CyVerse Data store
+-   <em>Upload locally</em>: Directly upload a metadata file from your local computer
+-   <em>Create New</em>: Create a new metadata file using DNA Subway</p>
+<div class="admonition tip">
+<p class="admonition-title">Creating a metadata file using DNA Subway</p>
+<div class="highlight"><pre><span></span><code>You can create a metadata file using DNA Subway. Creating the file
+step-by-step will help you to avoid metadata errors. Be sure you
+have consulted the [QIIME 2 documentation](https://docs.qiime2.org/2019.10/tutorials/metadata/) so you can anticipate what the required fields
+are. To use this feature under in the &#39;Manage data&#39; step under
+&#39;Metadata Files&#39; click `Create new`{.interpreted-text role=&quot;guilabel&quot;}
+
+**Sample IDs and adding/removing samples**
+
+These are unique IDs for each of your samples.
+All metadata files must have a column called **#SampleID**. Click
+`+Add samples`{.interpreted-text role=&quot;guilabel&quot;} to add additional
+rows. In the Subway form, these will be unique, arbitrary names
+(roughly corresponding to well-positions on a 96-well microplate).
+You can change these (including pasting in sample names from an
+existing spreadsheet).
+
+![metadata_add_samples](./assets/dna_subway/metadata_add_samples.gif){width=&quot;450px&quot; height=&quot;250px&quot;}
+
+Right-clicking on a row number allows you to remove or insert rows.
+
+![metadata_rows](./assets/dna_subway/metadata_rows.gif){width=&quot;450px&quot; height=&quot;250px&quot;}
+
+**Adding columns, managing sample descriptions and data types**
+
+The very **last** column must be a sample description. You can click
+the arrow on the right of this column to add a new column (which
+will be added to the left). Column names must be unique, must not be
+empty, cannot contain whitespace, can contain a maximum of 32
+characters, cannot match a reserved column name. Notice that when
+you click on a column name it is colored -pink for columns that have
+numeric data (e.g. measurements) and cyan for everything else (e.g.
+categorical descriptions in the form of words (i.e. strings)).
+Clicking a column name will allow you to change its type.
+
+![metadata_add_column](./assets/dna_subway/metadata_add_column.gif){width=&quot;450px&quot; height=&quot;250px&quot;}
+
+**Handling errors**
+
+If you violate one of the rules for metadata formatting, the entry
+will turn red. Consult the help and or the [QIIME 2 documentation](https://docs.qiime2.org/2019.10/tutorials/metadata/) to correct the error.
+
+![metadata_error](./assets/dna_subway/metadata_error.gif){width=&quot;450px&quot; height=&quot;250px&quot;}
+
+Click `Save`{.interpreted-text role=&quot;guilabel&quot;} to save your
+metadata file, and close the window.
+</code></pre></div>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Sample Data</p>
+<div class="highlight"><pre><span></span><code>*&quot;ubiome-test-data&quot;* dataset: &lt;br&gt;
+Click `Add from CyVerse`{.interpreted-text role=&quot;guilabel&quot;}Navigate to: Shared Data &gt; SEPA_microbiome_2016 &gt; **ubiome-test-data**
+Select the **mappingfile_MT_corrected.tsv** and then click `Add selected files`{.interpreted-text role=&quot;guilabel&quot;}.
+</code></pre></div>
+</div>
+<p>3.  As needed, you can edit or rename your metadata file. Before
+    proceeding, you must validate your metadata file. To validate,
+    click the "validate" link to the right of the metadata file you
+    wish to check. Once the validation completed, click <code>Run</code> to proceed. If you have
+    errors, you will be presented with an <code>Edit</code> button so that you can return to the file and
+    edit.</p>
+<p><strong>B. Demultiplex reads</strong></p>
+<p>At this step, reads will be grouped according to the sample metadata.
+This includes separating reads according to their index sequences if
+this was not done prior to running the Purple Line. For demultiplexing
+based on index sequences, the index sequences must be defined in the
+metadata file.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="highlight"><pre><span></span><code>Even if your files were previously demultimplexed (as will generally
+be the case with Illumina data) you must still complete this step to
+have your sequence read files appropriately associated with metadata.
+</code></pre></div>
+</div>
+<p>1. Click the 'Demultiplex reads' and choose a number of reads to sample. When the job has completed click <em>Demultiplexing Summary</em> to view your results. In 'Random sequences to sample for QC', enter a value (1000 is recommended),</p>
+<div class="admonition warning">
+<p class="admonition-title">Sample Data</p>
+<div class="highlight"><pre><span></span><code>*&quot;ubiome-test-data&quot;* dataset: Use the default of 1000 sequences
+</code></pre></div>
+</div>
+<p>2. When demultiplexing is complete, you will generate a file (.qzv) click this link to view a visualization and statistics on the sequence and metadata for this project.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<div class="highlight"><pre><span></span><code>Several jobs on Purple Line will take several minutes to an hour
+to complete. Each time you launch one of these steps you will get
+a Job ID. You can click the `View job info`{.interpreted-text
+role=&quot;guilabel&quot;} button to see a detailed status and
+diagnostic/error messages. If needed There is a [stop this job]{.title-ref} link at the bottom of the info page to cancel a
+job.
+
+!!! Note
+
+        **QIIME2 Visualizations**
+
+        One of the features of QIIME 2 are the variety of visualizations
+        provided at several analysis steps. Although this guide will not
+        cover every feature of every visualization, here are some
+        important points to note.
+
+        **QIIME2 View**: DNA Subway uses the QIIME 2 View plugin to
+        display visualizations. Like the standalone QIIME 2
+        software, you can navigate menus, and interact with several
+        visualizations. Importantly, many files and visualizations
+        can be directly download for your use outside of DNA Subway,
+        including in report generation, or in your custom QIIME 2
+        analyses. You can view downloaded .qza or .qzv files at [view.qiime2.org](https://view.qiime2.org/).
+</code></pre></div>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Quality Graphs Explained</p>
+<div class="highlight"><pre><span></span><code>After demultiplexing, you will be presented with a visualization
+that displays the following tables and graphs:
+
+**Overview Tab**
+
+-   *Demultiplexed sequence counts summary*: For each of the
+    fastq files (each of which may generally correspond to a
+    single sample), you are presented with comparative
+    statistics on the number of sequences present. This is
+    followed by a histogram that plots number of sequences by
+    the number of samples. &lt;br&gt;
+-   *Per-sample sequence counts*: These are the actual counts
+    of sequences per sample as indicated by the sample names
+    you provided in your metadata sheet.
+
+![overview_tab](./assets/dna_subway/overview_tab.gif){width=&quot;450px&quot; height=&quot;250px&quot;}
+
+**Interactive Quality Plot**
+
+This is an interactive plot that gives you an average quality
+(y-axis) by the position along the read (x-axis). This box plot
+is derived from a random sampling of a subset of sequences. The
+number of sequences sampled will be indicated in the plot
+caption. You can use your mouse drag and zoom in to regions on
+the plot. Double-click your mouse to zoom out.
+
+![quality_plot](./assets/dna_subway/quality_plot.gif){width=&quot;450px&quot; height=&quot;250px&quot;}
+</code></pre></div>
+</div>
+<p>3. Click the "Interactive Quality Plot" tab to view a histogram of sequence quality. Use this plot at the tip below to determine a location to trim.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tips on trimming for sequence quality</p>
+<div class="highlight"><pre><span></span><code>On the Interactive Quality Plot you are shown an histogram, plotting
+the average quality (x axis) [Phred score](https://en.wikipedia.org/wiki/Phred_quality_score) vs. the position on the read (y axis) in base pairs for a **subsample** of reads.
+
+**Zooming to determine 3&#39; trim location**
+
+Click and drag your mouse around a collection of base pair positions
+you wish to examine. Clicking on a given histogram bar will also
+generate a text report and metrics in the table below the chart. Using
+these metrics, you can choose a position to trim on the right side
+(e.g. 3&#39; end of the sequence read). The 5&#39; (left trim) is specific
+to your choice of primers and sequencing adaptors (e.g. the sum of the
+adaptor sequence you expect to be attached to the 5&#39; end of the
+read). Poor quality metrics will generate a table colored in red, and
+those base positions will also be colored red in the histogram.
+Double-clicking will return the histogram to its original level of
+zoom.
+
+**Example plots**
+It is important to maximize the length of the reads while minimizing
+the use of low quality base calls. To this end, a good guideline is to
+trim the right end of reads to a length where the 25th percentile is
+at a quality score of 25 or more. However, the length of trimming will
+depend on the quality of the sequence, so you may have to use a lower
+quality threshold to retain enough sequence for informative sequence
+searches and alignments. This may require multiple runs of the
+analysis to find the optimal trim length for your data.
+
+*Quality drops significantly at base 35*
+
+![histogram_poor](./assets/dna_subway/histogram_poor.png){width=&quot;400px&quot; height=&quot;250px&quot;}
+
+*Improved quality sequence*
+
+![histogram_good](./assets/dna_subway/histogram_good.png){width=&quot;400px&quot; height=&quot;250px&quot;}
+</code></pre></div>
+</div>
+<p><strong>C. Use DADA2 for Trimming and Error-correction of Reads</strong></p>
+<p>It is important to only work with high quality data. This step will
+generate a sequence quality histogram which can be used to determine
+parameter for trimming.</p>
+<ol>
+<li>
+<p>Click 'DADA2' and choose the metadata file corresponding to the
+    samples you wish to analyze. Then choose values for trimming of
+    the reads. For "trimLeft" (the position starting from the left
+    you wish to trim) and "TruncLen" (this is the position where
+    reads should be trimmed, truncating the 3' end of the read. Reads
+    shorter than this length will be discarded). Finally, click
+    <code class="interpreted-text" role="guilabel">Trim reads</code>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Sample Data</p>
+<div class="highlight"><pre><span></span><code>*&quot;ubiome-test-data&quot;* dataset: Based on the histogram for our sample, we recommend the following parameters:
+
+-   **trimLeft: 17** (this is specific to primers and adaptors in
+    this experiment)
+-   **TruncLen: 200** (this is where low quality sequence begins, in
+    this case because our sequence length is lower than the expected
+    read length)
+</code></pre></div>
+</div>
+</li>
+</ol>
+<p><strong>D. Check Results of Trimming</strong> Once trimming is complete, the
+following outputs are expected:</p>
+<ol>
+<li>
+<p>Click on DADA2 and then click on the links in the <em>Results</em> table
+    to examine results.</p>
+</li>
+<li>
+<p><strong>Trim Table</strong> (<em>Metric summary</em>, <em>Frequency per sample</em>,
+    <em>Frequency per feature</em>): Summarizes the dataset post-trimming
+    including the number of samples and the number of features per
+    sample. The "Interactive Sample Detail" tab contains a sampling
+    depth tool that will be used in computation of the core matrix.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="highlight"><pre><span></span><code>**You will use the maximum frequency value for the Alpha
+rarefaction step** So you may wish to record this value now for
+the DNA Subway &#39;Clustering sequences&#39; step.
+</code></pre></div>
+</div>
+</li>
+<li>
+<p><strong>Stats</strong>: Sequencing statistics for each of the sample IDs
+    described in the original metadata file.</p>
+</li>
+<li><strong>Representative Sequences</strong> (<em>Sequence Length Statistics</em>,
+    <em>Seven-Number Summary of Sequence Lengths</em>, <em>Sequence Table</em>):
+    This table contains a listing of features observed in the sequence
+    data, as well as the DNA sequence that defines a feature. Clicking
+    on the DNA sequence will submit that sequence for BLAST at NCBI in
+    a separate browser tab.</li>
+</ol>
+<p>The feature table contains two columns output by DADA2. DADA2
+(Divisive Amplicon Denoising Algorithm 2) determines what sequences
+are in the samples. DADA2 filters the sequences and identifies
+probable amplification or sequencing errors, filters out chimeric
+reads, and can pair forward and reverse reads to create the best
+representation of the sequences actually found in the samples and
+eliminating erroneous sequences.</p>
+<ul>
+<li><strong>Feature ID</strong>: A unique identifier for sequences.</li>
+<li><strong>Sequence</strong>: A DNA Sequence associated with each identifier.</li>
+</ul>
+<p>Clicking on any given sequence will initiate at BLAST search on the
+NCBI website. Click "View report" on the BLAST search that opens in
+a new web browser tab to obtain your results. Keep in mind that if
+your sequences are short (due to read length or trimming) many BLAST
+searches may not return significant results.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<div class="highlight"><pre><span></span><code>Although the term &quot;feature&quot; can (unfortunately) [have many meanings](https://forum.qiime2.org/t/what-is-a-feature-exactly/2201) as used by the
+QIIME2 documentation, unless otherwise noted in this documentation
+it can be thought of as an OTU ([Operational Taxonomic Unit](https://en.wikipedia.org/wiki/Operational_taxonomic_unit)); another substitution for the word
+species. OTU is a convenient and common terminology for referring to
+an unclassified or undetermined species. Ultimately, we are
+attempting to identify an organism from a sample of DNA which may
+not be informative enough to reach a definitive conclusion.
+</code></pre></div>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<div class="highlight"><pre><span></span><code>If you want to redo the DADA2 step with different parameters, click
+the &quot;New Job&quot; tab on the upper left of a DADA2 window to submit a
+new job. New jobs appear as tabs on Subway steps that are typically
+run several times. You can go back an see these jobs which are
+labeled with a job number.
+
+![dada_tabs](./assets/dna_subway/dada_tabs.gif){width=&quot;450px&quot; height=&quot;250px&quot;}
+</code></pre></div>
+</div>
+<hr />
+<h3 id="dna-subway-purple-line-alpha-rarefactionclustering-sequences">DNA Subway Purple Line - Alpha Rarefaction/Clustering Sequences<a class="headerlink" href="#dna-subway-purple-line-alpha-rarefactionclustering-sequences" title="Permanent link">&para;</a></h3>
+<p><strong>A. Alpha rarefaction</strong></p>
+<p>At this step, you can visualize summaries of the data. A feature table
+will generate summary statistics, including how many sequences are
+associated with each sample. <strong>Note that sample depth is limited to 100,000.</strong></p>
+<ol>
+<li>Click on 'Alpha rarefaction'. Select "run" and designate the
+    minimum and maximum rarefaction depth. A minimum value should be
+    set at 1. The maximum value is specific to your data set. The
+    maximum value is specific to your data set. To determine what the
+    maximum value should be set to, open the "Trim Table" from the
+    "DADA2" step. You may not choose a value that is greater than
+    the maximum frequency per sample. In general, choosing a value
+    that is somewhere around the median frequency seems to work well,
+    but you may want to increase that value if the lines in the
+    resulting rarefaction plot don't appear to be leveling out, or
+    decrease that value if you seem to be losing many of your samples
+    due to low total frequencies closer to the minimum sampling depth
+    than the maximum sampling depth. Identify the maximum Sequence
+    Count value and enter that number as the maximum value. Click
+    <code class="interpreted-text" role="guilabel">Submit Job</code>.</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<div class="highlight"><pre><span></span><code>Since you may want to try Alpha rarefaction using different
+combinations of results from DADA2 trimming and your choice of
+rarefaction depths, your trim (DADA2) jobs are displayed on the
+left, and each new Alpha rarefaction setting will appear as a tab on
+the top.
+
+![alpha_tabs](./assets/dna_subway/alpha_tabs.gif){width=&quot;450px&quot; height=&quot;250px&quot;}
+</code></pre></div>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Sample Data</p>
+<div class="highlight"><pre><span></span><code>*&quot;ubiome-test-data&quot;* dataset: 
+We recommend the following parameters:
+
+-   **Min. rarefaction depth**: 1
+
+-   **Max. rarefaction depth**: 2938
+</code></pre></div>
+</div>
+<ol>
+<li>Under 'Results' click on <strong>Alpha Rarefaction Plot</strong> to view the results.</li>
+</ol>
+<details class="tip">
+<summary>Navigating Alpha Rarefaction graphs</summary>
+<p><strong>Alpha rarefaction</strong> generates an interactive plot of species
+diversity by sampling depth by the categorical samplings described
+in your sample metadata. You can use dropdown menus to change
+metrics/conditions displayed and also export data as a CSV file.</p>
+<p><img alt="alpha_plot" height="250px" src="../assets/dna_subway/alpha_plot.gif" width="450px" /></p>
+</details>
+<hr />
+<h3 id="dna-subway-purple-line-calculate-core-metricsalpha-and-beta-diversity">DNA Subway Purple Line - Calculate Core Metrics/Alpha and Beta Diversity<a class="headerlink" href="#dna-subway-purple-line-calculate-core-metricsalpha-and-beta-diversity" title="Permanent link">&para;</a></h3>
+<p>At this stop, you will examine <em>Alpha Diversity</em> (the diversity of
+species/taxa present within a single sample) and <em>Beta Diversity</em> (a
+comparison of species/taxa diversity between two or more samples).</p>
+<ul>
+<li>Alpha diversity answers the question - "How many species are in a
+    sample?"</li>
+<li>Beta diversity answer the question - "What are the differences in
+    species between samples?"</li>
+</ul>
+<p><strong>A. Calculate core metrics</strong></p>
+<ol>
+<li>Click on 'Core metrics' and then click the "run" link. Choose
+    a sampling depth based upon the "Sampling depth" tool (described
+    in Section D Step 1, in the <em>Trim Table</em> output; <em>Interactive
+    Sample Detail</em> tab). Choose an appropriate classifier (see
+    comments in the tip below) and click <code class="interpreted-text" role="guilabel">Submit job</code>.</li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">Choosing Core metrics parameters</p>
+<div class="highlight"><pre><span></span><code>*Sampling Depth*
+
+In downstream steps, you will need to choose a sampling depth for
+your sample comparisons. You can choose by examining the table
+generated at the **Trim reads** step. In the *Trim Table* output,
+*Interactive Sample Detail* tab, use the &quot;Sampling depth&quot; tool to
+explore how many sequences can be sampled during the Core matrix
+computation. As you slide the bar to the right, more sequences are
+sampled, but samples that do not have this many sequences will be
+removed during analysis. The sampling depth affects the number of
+sequences that will be analyzed for taxonomy in later steps: as the
+sampling depth increases, a greater representation of the sequences
+will be analyzed. However, high sampling depth could exclude
+important samples, so a balance between depth and retaining samples
+in the analysis must be found.
+
+*Classifier*
+
+Choose a classifier pertaining to your experiment type.
+
+-   **Microbiome** choose **Greengenes (515F/806R)** or **Greengenes
+    (full sequences)** or **Sliva (16S rRNA)** classifier
+-   **eDNA** experiment with marine fishes you may elect to choose
+    the **Fish 12S/ecoPrimer** classifier
+</code></pre></div>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Sample Data</p>
+<div class="highlight"><pre><span></span><code>*&quot;ubiome-test-data&quot;* dataset:
+We recommend the following parameters:
+
+-   **Sampling Depth**: 3000
+
+-   **Classifier**: Grenegenes (full sequences)
+</code></pre></div>
+</div>
+<p><strong>B. Examine alpha and beta diversity</strong></p>
+<ol>
+<li>
+<p>When core metrics is complete, you should generate several
+    visualization results. Click each of the following to get access:</p>
+<ul>
+<li>
+<p><strong>Alpha Diversity:</strong></p>
+<ul>
+<li>
+<p><strong><em>Pielou's Evenness</em></strong></p>
+<ul>
+<li>
+<p>Alpha Correlation: Measure of community evenness using correlation tests</p>
+</li>
+<li>
+<p>Group Significance: Analysis of differences between features across group</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong><em>Faith's Phylogenetic Diversity</em></strong></p>
+<ul>
+<li>
+<p>Alpha Correlation: Faith Phylogenetic Diversity (a measure of community richness) with correlation tests</p>
+</li>
+<li>
+<p>Group Significance: Faith Phylogenetic Diversity ( a measure of community richness)</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Beta Diversity:</strong></p>
+<ul>
+<li>
+<p><strong><em>Bray-Curtis Distance</em></strong></p>
+<p><a href="https://en.wikipedia.org/wiki/Bray%E2%80%93Curtis_dissimilarity">Bray-Curtis</a> is a metric for describing the dissimilarity of species in an ecological sampling.
+-   Bioenv: Bray-Curtis test metrics</p>
+<ul>
+<li>Emperor: Interactive PCoA plot of Bray-Curtis metrics</li>
+</ul>
+</li>
+<li>
+<p><strong><em>Jaccard Distance</em></strong></p>
+<ul>
+<li>Emperor: Interactive PCoA plot calculated by <a href="https://en.wikipedia.org/wiki/Jaccard_index">Jaccard</a> similarity index.</li>
+</ul>
+</li>
+<li>
+<p><strong><em>Unweighted UniFrac Distance</em></strong></p>
+<p><a href="https://en.wikipedia.org/wiki/UniFrac">UniFrac</a> is a metric for describing the similarity of a biological community, taking into account the relatedness of community members.</p>
+<ul>
+<li>
+<p>Bioenv: UniFrac test metrics</p>
+</li>
+<li>
+<p>Emperor: Unweighted interactive PCoA plot</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong><em>Weighted UniFrac Distance</em></strong> </p>
+<p>Unweighted UniFrac removes the effect of low-abundance features in the calculation of principal components.</p>
+<ul>
+<li>Emperor: Weighted interactive PCoA plot of UniFrac.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<div class="highlight"><pre><span></span><code>**Emperor Plots**
+
+These plots are all interactive three-dimensional plots of an
+analysis using [principal components](https://en.wikipedia.org/wiki/Principal_component_analysis).
+
+**Customization**
+
+You can customize Emperor plots, including altering the color of
+and shape points, axes, and other parameters. You can also export
+images from this visualization.
+
+![emperor_plots](./assets/dna_subway/emperor_plots.gif){width=&quot;550px&quot; height=&quot;300px&quot;}
+
+**Bioenv**
+
+These plots are tables of tests and descriptive metrics.
+</code></pre></div>
+</div>
+<p><strong>C. Taxonomic Diversity:</strong></p>
+<p>Taxonomic diversity is at the heart of many analyses. We suggest
+consulting the QIIME <a href="https://docs.qiime2.org/2019.1/tutorials/overview/#taxonomy">taxonomy overview</a> for a detailed explanation of how QIIME2 calculates taxonomy and additional features of QIIME2 you may wish to
+explore beyond the functionalities DNA Subway has included.</p>
+<ul>
+<li>
+<p><em>Bar Plots</em></p>
+<ul>
+<li>
+<p>An interactive stacked bar plot of species diversity.
+    Dropdown menus allow you to color by seven taxonomic
+    levels 1) kingdom, 2) phylum,
+    3) class, 4) order, 5), family, 6) genus, 7) species. Plots
+     can be further arranged/filtered/sorted accoridng to
+     characteristics in the sample metadata. You may also
+     download images and data used to create the barpot
+     visualization.</p>
+<p><img alt="taxonomic_barplots" height="300px" src="../assets/dna_subway/taxonomic_barplots.gif" width="550px" /></p>
+</li>
+</ul>
+</li>
+<li>
+<p><em>Taxonomy</em></p>
+<ul>
+<li>A table indicating the identified "features", their taxa,
+     and an indication of confidence.</li>
+</ul>
+</li>
+</ul>
+<p>You can download and interact with any of the available plots.</p>
+<p><strong>D. Calculate differential abundance</strong></p>
+<ol>
+<li>Click on the 'Differential abundance' stop. Then click on the
+    "Submit new "Differential abundance" job" link. Choose a
+    metadata category to group by, and a level of taxonomy to
+    summarize by. Then click <code>&amp;submit job</code>{.interpreted-text
+    role="guilabel"}.</li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">Sample Data</p>
+<div class="highlight"><pre><span></span><code>*&quot;ubiome-test-data&quot;* dataset:
+
+We recommend the following parameters:
+
+-   **Group data by**: CollectionMethod
+
+-   **Level of taxonomy to summarize**: 5
+</code></pre></div>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Download the provided CSV files so that you can generate customized plots.</p>
+</div>
+<hr />
+<h3 id="dna-subway-purple-line-visualize-data-with-picrust-and-phyloseq">DNA Subway Purple Line - Visualize data with PiCrust and PhyloSeq<a class="headerlink" href="#dna-subway-purple-line-visualize-data-with-picrust-and-phyloseq" title="Permanent link">&para;</a></h3>
+<p><strong>Under Development</strong></p>
+<hr />
+
+
+
+
+
+
+
+  
+    
+  
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Last update">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
+    </span>
+    2025-07-14
+  </span>
+
+    
+    
+    
+    
+  </aside>
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Science Tutorials">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Science Tutorials
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../../dev/manuals/" class="md-footer__link md-footer__link--next" aria-label="Next: Developer Manuals">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Developer Manuals
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2025 CyVerse
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://orcid.org/" target="_blank" rel="noopener" title="orcid.org" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M294.75 188.19h-45.92V342h47.47c67.62 0 83.12-51.34 83.12-76.91 0-41.64-26.54-76.9-84.67-76.9M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8m-80.79 360.76h-29.84v-207.5h29.84zm-14.92-231.14a19.57 19.57 0 1 1 19.57-19.57 19.64 19.64 0 0 1-19.57 19.57M300 369h-81V161.26h80.6c76.73 0 110.44 54.83 110.44 103.85C410 318.39 368.38 369 300 369"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/cyverse-learning-materials/" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/cyverseorg" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/company/cyverse.org" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://harbor.cyverse.org/" target="_blank" rel="noopener" title="harbor.cyverse.org" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M349.9 236.3h-66.1v-59.4h66.1zm0-204.3h-66.1v60.7h66.1zm78.2 144.8H362v59.4h66.1zm-156.3-72.1h-66.1v60.1h66.1zm78.1 0h-66.1v60.1h66.1zm276.8 100c-14.4-9.7-47.6-13.2-73.1-8.4-3.3-24-16.7-44.9-41.1-63.7l-14-9.3-9.3 14c-18.4 27.8-23.4 73.6-3.7 103.8-8.7 4.7-25.8 11.1-48.4 10.7H2.4c-8.7 50.8 5.8 116.8 44 162.1 37.1 43.9 92.7 66.2 165.4 66.2 157.4 0 273.9-72.5 328.4-204.2 21.4.4 67.6.1 91.3-45.2 1.5-2.5 6.6-13.2 8.5-17.1zm-511.1-27.9h-66v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1zm78.1 0h-66.1v59.4h66.1zm-78.1-72.1h-66.1v60.1h66.1z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.youtube.com/c/CyverseOrgProject" target="_blank" rel="noopener" title="www.youtube.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305m-317.51 213.508V175.185l142.739 81.205z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.sections", "navigation.path", "navigation.prune", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "content.code.copy", "content.tooltips", "palette.toggle"], "search": "../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+        <script src="../../../chatbot_widget.js"></script>
+      
+    
+  </body>
+</html>
