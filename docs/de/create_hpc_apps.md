@@ -69,7 +69,7 @@ First consider a Tapis v3 app definition like the following:
     "tenant": "cyverse",
     "description": "QA Test app for all parameter types.",
     "runtime": "ZIP",
-    "containerImage": "tapis://data.cyverse.org/home/shared/cyverse_training/qa-test-tool.tgz",
+    "containerImage": "tapis://data.cyverse.org/home/api/v3/apps/CyVerse-QA-Test-App-0.1.tgz",
     "jobType": "BATCH",
     "tags": ["QA", "test"],
     "notes": {
