@@ -179,7 +179,7 @@ By default, after configuring GoCommands, your current working collection is set
 
 5. **Upload and verify checksum:**
     ```sh
-    gocmd put -K /local/path/important_data.txt /iplant/home/myUser/
+    gocmd put -k /local/path/important_data.txt /iplant/home/myUser/
     ```
 
     This command uploads the file and verifies its integrity by calculating a checksum during transfer.
@@ -195,15 +195,15 @@ By default, after configuring GoCommands, your current working collection is set
     ```sh
     gocmd put --icat /local/dir /iplant/home/myUser/
     ```
+    
+    This command uses iCAT as a transfer broker. This is a default transfer method.
 
-    This command uses iCAT as a transfer broker, useful when direct access to the resource server is unstable.
-
-8. **Upload via resource server:**
+8. **Upload via WebDAV (HTTP):**
     ```sh
-    gocmd put --redirect /local/dir /iplant/home/myUser/
+    gocmd put --webdav /local/dir /iplant/home/myUser/
     ```
 
-    This command bypasses the iCAT server for data transfer, directly accessing the specified resource server for optimized performance.
+    This command uses WebDAV (HTTP) as a transfer protocol. It is particularly useful when data transfer over port 1247 is unstable or restricted by a firewall.
 
 
 ---
@@ -238,7 +238,7 @@ By default, after configuring GoCommands, your current working collection is set
 
 5. **Download and verify checksum:**
     ```sh
-    gocmd get -K /iplant/home/myUser/important_data.txt .
+    gocmd get -k /iplant/home/myUser/important_data.txt .
     ```
 
     This command downloads the file and verifies its integrity by calculating the checksum after download and comparing it with the original in the Data Store. This ensures data consistency and detects any corruption during transfer.
@@ -255,14 +255,14 @@ By default, after configuring GoCommands, your current working collection is set
     gocmd get --icat /iplant/home/myUser/dir /local/dir
     ```
 
-    This command uses iCAT as a transfer broker, which is useful when direct access to the resource server is unstable. It ensures reliable data transfer by routing through the iCAT server.
+    This command uses iCAT as a transfer broker. This is a default transfer method.
 
-8. **Download via resource server:**
+8. **Download via WebDAV (HTTP):**
     ```sh
-    gocmd get --redirect /iplant/home/myUser/dir /local/dir
+    gocmd get --webdav /iplant/home/myUser/dir /local/dir
     ```
 
-    This command bypasses the iCAT server for data transfer, directly accessing the specified resource server. It optimizes performance for large files by direct connection to the resource server.
+    This command uses WebDAV (HTTP) as a transfer protocol. It is particularly useful when data transfer over port 1247 is unstable or restricted by a firewall.
 
 9. **Download with wildcard:** 
     ```sh
