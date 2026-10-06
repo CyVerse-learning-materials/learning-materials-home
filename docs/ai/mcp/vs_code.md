@@ -1,6 +1,6 @@
-# VS Code Configuration for AI Verde Data Store MCP Server
+# VS Code Configuration for Data Store MCP Server
 
-This document provides example configurations for setting up the remote AI Verde Data Store MCP Server for use with VS Code. Configurations are shown for using Streamable-HTTP.
+This document provides example configurations for setting up the remote Data Store MCP Server for use with VS Code. Configurations are shown for using Streamable-HTTP.
 
 ## Prerequisites
 
@@ -14,22 +14,22 @@ This document provides example configurations for setting up the remote AI Verde
 
 Edit the `~/.config/Code/User/mcp.json` file.
 
-Configure VS Code to use the AI Verde Data Store MCP Server with Streamable-HTTP. Paste the following into your `mcp.json` file.
+Configure VS Code to use the Data Store MCP Server with Streamable-HTTP. Paste the following into your `mcp.json` file.
 
 This configuration allows access only to public data located at `/iplant/home/shared`.
 
 ```json
 {
     "servers": {
-        "public-ai-verde-datastore": {
+        "public-datastore": {
             "type": "http",
-            "url": "https://mcp-public.cyverse.ai/mcp"
+            "url": "https://mcp-public.cyverse.ai/datastore"
         }
     }
 }
 ```
 
-Go to `View` → `Chat` and click the wrench icon in the chat box. Expand `MCP Server: public-ai-verde-datastore` and click `Update Tools`.
+Go to `View` → `Chat` and click the wrench icon in the chat box. Expand `MCP Server: public-datastore` and click `Update Tools`.
 
 Accept adding the MCP server and opening a new popup for logging-in. Follow the instructions in the UI.
 
@@ -38,15 +38,15 @@ Accept adding the MCP server and opening a new popup for logging-in. Follow the 
 ```json
 {
     "servers": {
-        "ai-verde-datastore": {
+        "datastore": {
             "type": "http",
-            "url": "https://mcp.cyverse.ai/mcp"
+            "url": "https://mcp.cyverse.ai/datastore"
         }
     }
 }
 ```
 
-Go to `View` → `Chat` and click the wrench icon in the chat box. Expand `MCP Server: ai-verde-datastore` and click `Update Tools`.
+Go to `View` → `Chat` and click the wrench icon in the chat box. Expand `MCP Server: datastore` and click `Update Tools`.
 
 Accept adding the MCP server and opening a new popup for logging-in. Follow the instructions in the UI.
 

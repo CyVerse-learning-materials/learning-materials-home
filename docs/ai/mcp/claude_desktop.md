@@ -1,6 +1,6 @@
-# Claude Desktop Configuration for AI Verde Data Store MCP Server
+# Claude Desktop Configuration for Data Store MCP Server
 
-This guide shows how to connect Claude Desktop to the AI Verde Data Store MCP server over Streamable-HTTP using the Connectors UI.
+This guide shows how to connect Claude Desktop to the Data Store MCP server over Streamable-HTTP using the Connectors UI.
 
 ## Prerequisites
 
@@ -15,14 +15,14 @@ This guide shows how to connect Claude Desktop to the AI Verde Data Store MCP se
 2. Go to `File` → `Settings` → `Connectors`.
 3. Click the `Add custom connector` button (Note: This button is not available to free plan users).
 
-## 2. Add the AI Verde Data Store MCP Server
+## 2. Add the Data Store MCP Server
 
 ### a. Anonymous Access
 
 Fill in the fields:
 
-- Name: `AI-Verde Data Store Public`
-- URL (anonymous public data access): `https://mcp-public.cyverse.ai/mcp`
+- Name: `Data Store Public`
+- URL (anonymous public data access): `https://mcp-public.cyverse.ai/datastore`
 
 Click the `Save` button.
 
@@ -30,12 +30,12 @@ Click the `Save` button.
 
 Fill in the fields:
 
-- Name: `AI-Verde Data Store`
-- URL (full access): `https://mcp.cyverse.ai/mcp`
+- Name: `Data Store`
+- URL (full access): `https://mcp.cyverse.ai/datastore`
 
 Click the `Save` button.
 
-When adding `https://mcp.cyverse.ai/mcp`, you will be prompted for the following information to log in.
+When adding `https://mcp.cyverse.ai/datastore`, you will be prompted for the following information to log in.
 
 - Client ID: `mcp-client`
 - Client Secret: `<empty>` **(leave it empty, as one is not required)**
