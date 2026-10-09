@@ -8,6 +8,8 @@ The Data Store MCP Server supports the new Streamable-HTTP protocol. This suppor
 
 - Streamable-HTTP URL: https://mcp.cyverse.ai/datastore
 
+The server supports OAuth 2.0 dynamic client registration, so MCP clients register themselves automatically. You do not need to enter a client ID or client secret; just sign in with your CyVerse account in the browser window that opens.
+
 You can access your private data at `/iplant/home/<your_username>/` and public community-shared data at `/iplant/home/shared/`.
 
 ## Anonymous Access

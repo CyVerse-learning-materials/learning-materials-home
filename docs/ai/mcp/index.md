@@ -9,7 +9,9 @@ This mechanism enables AI workloads—such as RAG (Retrieval-Augmented Generatio
 
 1. [General Configuration](general.md)
 1. [Claude Desktop Configuration](claude_desktop.md)
-2. [VS Code Configuration](vs_code.md)
+1. [Claude Code Configuration](claude_code.md)
+1. [VS Code Configuration](vs_code.md)
+1. [Cline Configuration](cline.md)
 
 ---
 
@@ -21,6 +23,14 @@ Set up **Generative AI Agents** or **AI workloads** to use the MCP Servers
 
 Configure **Claude Desktop** to use the MCP Servers
 
+## [:material-console: Claude Code Configuration](claude_code.md)
+
+Configure **Claude Code** to use the MCP Servers
+
 ## [:material-microsoft-visual-studio-code: VS Code Configuration](vs_code.md)
 
 Configure **VS Code** to use the MCP Servers
+
+## [:material-robot-outline: Cline Configuration](cline.md)
+
+Configure **Cline** to use the MCP Servers

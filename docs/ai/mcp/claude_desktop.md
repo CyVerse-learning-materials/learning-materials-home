@@ -6,7 +6,7 @@ This guide shows how to connect Claude Desktop to the Data Store MCP server over
 
 - Claude Desktop installed
 - Claude Pro plan (free plan users cannot add new connectors)
-- CyVerse account credentials (if not using anonymous access)
+- CyVerse account (if not using anonymous access)
 
 
 ## 1. Open Connectors in Claude
@@ -33,14 +33,16 @@ Fill in the fields:
 - Name: `Data Store`
 - URL (full access): `https://mcp.cyverse.ai/datastore`
 
-Click the `Save` button.
+Leave the OAuth Client ID and Client Secret under `Advanced settings` empty.
 
-When adding `https://mcp.cyverse.ai/datastore`, you will be prompted for the following information to log in.
+Click the `Save` button, then click `Connect` on the new connector. A browser window opens for CyVerse login. After you sign in, Claude Desktop completes the connection.
 
-- Client ID: `mcp-client`
-- Client Secret: `<empty>` **(leave it empty, as one is not required)**
+No client ID is needed because the server supports dynamic client registration: Claude Desktop registers itself with the server automatically.
 
 
 ## 3. Verify the Connection
 
-Open a chat in Claude and try a simple request.
+Open a chat in Claude and try a simple request, such as:
+```
+list 5 entries in /iplant/home/shared
+```

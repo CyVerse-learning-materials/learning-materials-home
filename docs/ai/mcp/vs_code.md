@@ -6,7 +6,7 @@ This document provides example configurations for setting up the remote Data Sto
 
 - VS Code installed (latest recommended)  
 - Copilot Chat extension enabled (supports MCP)  
-- CyVerse account credentials (if not using anonymous access)
+- CyVerse account (if not using anonymous access)
 
 ## 1. Configure MCP Server
 
@@ -29,9 +29,7 @@ This configuration allows access only to public data located at `/iplant/home/sh
 }
 ```
 
-Go to `View` → `Chat` and click the wrench icon in the chat box. Expand `MCP Server: public-datastore` and click `Update Tools`.
-
-Accept adding the MCP server and opening a new popup for logging-in. Follow the instructions in the UI.
+Go to `View` → `Chat` and click the wrench icon in the chat box. Expand `MCP Server: public-datastore` and click `Update Tools`. No login is required.
 
 ### b. Configure MCP Server with CyVerse Account
 
@@ -48,12 +46,9 @@ Accept adding the MCP server and opening a new popup for logging-in. Follow the 
 
 Go to `View` → `Chat` and click the wrench icon in the chat box. Expand `MCP Server: datastore` and click `Update Tools`.
 
-Accept adding the MCP server and opening a new popup for logging-in. Follow the instructions in the UI.
+VS Code asks to authenticate. Allow it and sign in with your CyVerse account in the browser window that opens.
 
-VS Code will ask you to enter an OAuth client ID and secret.
-
-- Client ID: `mcp-client`
-- Client Secret: `<empty>` **(leave it empty, as one is not required)**
+No client ID is needed because the server supports dynamic client registration: VS Code registers itself with the server automatically.
 
 
 ## 2. Verify Connection 
